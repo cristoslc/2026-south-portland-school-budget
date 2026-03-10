@@ -1,7 +1,7 @@
 ---
 title: "Content Normalization"
 artifact: EPIC-002
-status: Proposed
+status: Active
 author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
@@ -23,10 +23,10 @@ evidence-pool: ""
 
 Convert raw downloaded materials into structured markdown that matches the evidence pool source format. The project already has scripts (`parse_vtt.py`, `build_evidence_pool.py`, `add_key_points.py`) that handle parts of this. This epic determines what can be reused as-is, what needs adapting, and what new conversion logic is needed.
 
-Target formats:
-- **VTT → markdown** -- `parse_vtt.py` exists but may need adaptation for automated use (currently interactive)
-- **PDF → markdown** -- Presentation slides, meeting packets, spreadsheets. May use existing MCP tools (pdf-to-markdown, xlsx-to-markdown) or standalone libraries.
-- **HTML → markdown** -- Agenda text scraped from Diligent Community.
+Target formats per SPIKE-003 findings:
+- **VTT → markdown** -- `parse_vtt.py` is fully non-interactive and reusable as-is. `build_evidence_pool.py` has the right logic but needs path parameterization.
+- **PDF → markdown** -- New capability needed. Python libraries (`pdfplumber` or `pymupdf`) for standalone operation.
+- **HTML → markdown** -- Diligent Community returns agenda as HTML via REST API (SPIKE-002). Standard HTML-to-markdown conversion.
 
 Each normalized source must produce a markdown file matching the evidence pool source template: YAML frontmatter (date, type, source URL) and a structured body.
 
@@ -45,15 +45,16 @@ Each normalized source must produce a markdown file matching the evidence pool s
 
 ## Child Specs
 
-_To be created after SPIKE-003 assesses existing script reusability._
+_To be created when EPIC-002 comes up for implementation._
 
 ## Key Dependencies
 
-- EPIC-001 (Source Connectors) provides the raw files this epic normalizes
-- SPIKE-003 (Normalization Script Reuse) informs how much new code is needed vs. adapting existing scripts
+- EPIC-001 (Active) provides the raw files this epic normalizes
+- SPIKE-003 (Complete) -- confirmed parse_vtt.py reusable, build_evidence_pool.py needs refactoring, PDF conversion is new work
 
 ## Lifecycle
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-10 | _pending_ | Initial creation |
+| Active | 2026-03-10 | _pending_ | SPIKE-003 complete; script reuse assessed |

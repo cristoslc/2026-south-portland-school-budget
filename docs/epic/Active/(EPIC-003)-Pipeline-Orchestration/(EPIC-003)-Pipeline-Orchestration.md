@@ -1,7 +1,7 @@
 ---
 title: "Pipeline Orchestration"
 artifact: EPIC-003
-status: Proposed
+status: Active
 author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
@@ -39,25 +39,26 @@ The pipeline should support both manual invocation (`./scripts/pipeline.py run`)
 - Change detection (skip runs when nothing is new)
 - Error handling and per-connector failure isolation (one broken connector doesn't block others)
 - Logging with enough detail to diagnose failures
-- Scheduling mechanism (cron, launchd, or similar)
+- Scheduling via GitHub Actions (SPIKE-004 recommendation)
 
 **Out of scope:**
 - The connectors themselves (EPIC-001)
 - The normalization logic (EPIC-002)
-- CI/CD integration (this runs locally on the author's machine)
+- Complex CI/CD beyond the single GitHub Actions workflow
 - Notification system (check logs manually or review staged changes)
 
 ## Child Specs
 
-_To be created after SPIKE-004 determines scheduling approach._
+_To be created when EPIC-003 comes up for implementation._
 
 ## Key Dependencies
 
 - EPIC-001 and EPIC-002 must be at least partially implemented before the pipeline has anything to orchestrate
-- SPIKE-004 (Scheduling Approach) informs the execution model
+- SPIKE-004 (Complete) -- GitHub Actions recommended, manual alias as fallback
 
 ## Lifecycle
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-10 | _pending_ | Initial creation |
+| Active | 2026-03-10 | _pending_ | SPIKE-004 complete; GitHub Actions approach selected |

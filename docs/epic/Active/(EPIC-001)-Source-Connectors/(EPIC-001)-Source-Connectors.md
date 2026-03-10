@@ -1,7 +1,7 @@
 ---
 title: "Source Connectors"
 artifact: EPIC-001
-status: Proposed
+status: Active
 author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
@@ -23,8 +23,8 @@ Build individual connectors for each source type that can discover and download 
 
 Three connectors are needed:
 
-1. **Vimeo / SPC-TV** -- Use the Vimeo API to list new videos on the SPC-TV channel, identify school board and city council meetings, and download auto-generated VTT captions.
-2. **Diligent Community** -- Scrape the city council's new meeting portal for agenda text. Requires a headless browser (JavaScript-rendered content).
+1. **Vimeo / SPC-TV** -- Use `yt-dlp` to download auto-generated VTT captions for new SPC-TV videos. No API token needed (SPIKE-001).
+2. **Diligent Community** -- Fetch city council agendas via the portal's public REST API. No scraping needed (SPIKE-002).
 3. **spsdme.org budget page** -- Poll the budget page for new PDF links (packets, presentations, spreadsheets) and download them.
 
 ## Scope Boundaries
@@ -42,15 +42,18 @@ Three connectors are needed:
 
 ## Child Specs
 
-_To be created after SPIKE-001 and SPIKE-002 retire key risks._
+- SPEC-001: Vimeo VTT Connector (yt-dlp wrapper)
+- SPEC-002: Diligent Community Agenda Connector (REST API client)
+- SPEC-003: Budget Page PDF Connector (HTML polling + download)
 
 ## Key Dependencies
 
-- SPIKE-001 (Vimeo API access) must confirm API availability before building the Vimeo connector
-- SPIKE-002 (Diligent Community scraping) must confirm page structure before building the agenda scraper
+- SPIKE-001 (Complete) -- confirmed yt-dlp approach for Vimeo
+- SPIKE-002 (Complete) -- confirmed public REST API for Diligent Community
 
 ## Lifecycle
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-10 | _pending_ | Initial creation |
+| Active | 2026-03-10 | _pending_ | All gating spikes complete; decomposing into specs |

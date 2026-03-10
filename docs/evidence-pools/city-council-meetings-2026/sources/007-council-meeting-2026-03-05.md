@@ -576,3 +576,18 @@ notes: "Auto-generated Vimeo captions. May contain transcription errors."
 **[220:23]** That is a unanimous vote of our council. Wow. Thank you. Anything else to, oh, we have to do citizen discussion part two or do we? Alright. Yes we do. Yes we do. Um, is there anyone who would like to make a public comment about an item on or off the agenda? Oh, good. See, no one public comment is closed. Thank you. Communication from the city manager. I'm gonna skip it All. Councilors round robin. Tweet, tweet, tweet. No. Yes. Any round robins? I'll pass and pass. Alright. Can we have a motion to adjourn? I'll move to adjourn. Seconded. All in favor. Thank you.
 
 **[221:11]** And thank you members of the community.
+
+## Key Points
+
+- Mahoney/City Facilities/Public Safety Facilities workshop — council addressed four key questions on facility project direction
+- Council eliminated library from Mahoney project scope (Order #155)
+- Council directed staff to seek alternative police station locations outside Mahoney (Order #156); Cash Corner/Walgreens site mentioned as possibility
+- Mahoney City Center Committee charge updated (Order #157)
+- Central Fire Station historic inventory nomination discussed — inclusion would not prevent demolition
+- Bond referendum for public safety facilities potentially targeted for November 2026
+- Council open to split referendum and exploring other City Hall/Hamlin locations beyond A1++ option
+- Temporary Emergency Rental Assistance proposal advanced for Mar 10 workshop: staff recommended $150K from undesignated fund balance to nonprofits
+- Multiple residents testified about immigration enforcement impact and need for rental assistance
+- CDBG Annual Action Plan approved ($411K): Broadway pedestrian safety, social services
+- Bike/Ped Committee chair (Rosemary DeAngelos, also school board chair) presented annual report and urged committee recognition
+- Budget workshop schedule confirmed: April 14 (School & misc.), April 28 (remaining depts.), May 12 (parking lot)

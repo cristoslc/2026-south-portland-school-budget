@@ -488,3 +488,12 @@ notes: "Auto-generated Vimeo captions. May contain transcription errors."
 **[181:48]** measures in our schools. And they have had to cancel this because members, the families who are members of the school community feel legitimately fearful about attending a meeting that affects their children's lives and their entire community. That is not the, uh, ideals of the American way that I feel when I pledge allegiance to the flag in this council chamber. I, I think it is just beyond deeply disturbing. I would encourage our residents to reach out to your neighbors, all of your neighbors. We should all do that at all times.
 
 **[182:35]** See how you can support one another. And I would also say to our residents, if you are moved to participate in peaceful protesting that you feel is going to make a difference, do so. And that's what I have to say this evening. Thank you very much. Can we have a motion to adjourn? Counselor Pride Seconded by Counselor Walker. I'm going to make the assumption that it is a unanimous to adjourn.
+
+## Key Points
+
+- Working waterfront petition reported: 2,597 signatures collected (2,163 validated) from comprehensive plan workshop — met threshold for citizen initiative if formalized
+- Economic Development Director presented 2025 Business Award winners, ceremony scheduled for February 25 at South Portland High School
+- Miscellaneous zoning ordinance amendments passed (first reading) to comply with state housing law changes
+- Council discussed density, multifamily housing, and streamlining development review processes in the context of state housing requirements
+- Council continued filling committee/board appointment backlog
+- Executive session held for real estate matter

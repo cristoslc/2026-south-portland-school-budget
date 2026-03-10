@@ -4,7 +4,7 @@ title: "Regular Meeting Packet - Board of Education, January 12, 2026"
 type: document
 path: "data/school-board/budget-fy27/meetings/2026-01-12-regular/packet.pdf"
 fetched: 2026-03-09T00:00:00Z
-hash: "sha256:22f6ebf0fcdd75441bbeda07bf7724472bdee22db7b87ce67a4f02c502a66f45"
+hash: "sha256:cdf46c4f59802bc726bcb70f26c5e41d58a27058b72d1cc8aeb56106f1bfaddf"
 ---
 
 BOARD OF EDUCATION MEETING AGENDA

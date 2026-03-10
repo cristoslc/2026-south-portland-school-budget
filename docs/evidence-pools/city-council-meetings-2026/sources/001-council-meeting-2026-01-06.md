@@ -168,3 +168,15 @@ notes: "Auto-generated Vimeo captions. May contain transcription errors."
 **[57:52]** around or creating any new problems or challenges for cities and towns. So the first report of that task force is due soon this month, and the city manager and the city council are paying attention to that. And, um, any recommendations that will come forward. This task force is going to continue to meet through the year, and so they'll have a final report at the end of the year. But South Portland is certainly part of the conversation. We understand the stress of rising property taxes, especially for our seniors and people on fixed incomes. And, um, we are paying attention, we are engaged and we're looking for solutions that can be fair and workable for the community. So I wanted to put that out there.
 
 **[58:39]** Alright, um, thank you everyone for attending tonight's meeting. One other quick reminder, um, that next Tuesday, January 13th is when we'll hold our council workshop to learn and discuss more about our Mahoney Committee's recommendations. Um, and with that, do we have a motion to adjourn? Motion to adjourn. Uh, councilor Walker a second here. Everyone. Councilor Coleman. I think we can be unanimous in that. Thank you very much. We are adjourned. Do you know? No, I, yeah, I.
+
+## Key Points
+
+- Council entered executive session to discuss police/fire union contracts and Jetport tree-cutting agreement
+- Toss the Tanks campaign urged council to create a working committee on Hill Street Tank Farm redevelopment as part of 2026 goals
+- Resident proposed a public music/arts festival at Bug Light Park for September 2026 (pilot) and 2027 (larger city-partnered event)
+- Cemetery management ordinance (Chapter 18) passed with amendment; council directed staff to create a public donation fund for cemetery maintenance
+- Council rules amended regarding reconsideration motions and voting procedures
+- City manager previewed upcoming meetings: Mahoney City Center Committee (Jan 13), housing ordinance updates, FY25 audit presentation (Feb 3), TI TIF extension (Feb 3), and budget guidance workshop with school board (Feb 10)
+- Mayor noted school board chair DeAngelos announced a school budget citizen forum for January 22
+- Mayor highlighted the statewide property tax relief task force, noting the first report was due in January with final report at year's end
+- City council and city manager are monitoring state-level property tax reform efforts

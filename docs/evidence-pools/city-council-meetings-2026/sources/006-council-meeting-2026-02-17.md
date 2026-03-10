@@ -796,3 +796,15 @@ notes: "Auto-generated Vimeo captions. May contain transcription errors."
 **[305:39]** A one with geothermal and two elevators is what I think I heard. That's correct. What I heard too, Lord, it's a bit of a basket of goodies, isn't it? Piece of that third floor. A Jess keeps getting her way. The library too. Can I ask Mike and Craig to just please come to the podium for one moment please. Just because it feels like it would be a good idea to ask you both. And the city manager may also wanna weigh in. Do the three of you feel like you have some guidance? I think so, yes. A one plus geothermal, two elevators. Don't, don't count the elevators at the moment.
 
 **[306:25]** Just third floor usage. Yeah. Yeah. Third floor use. And just to make it clear, the, the committee only has to be repurposed if you weren't using Mahoney as a size. That question's not even an option. He doesn't pick an A one. Mr. City manager, What was that? Are you ready to call this ma? Done. All right, Thank. If we weren't, Can we have another motion to adjourn Please? Oh, I'd like to make a motion to suspend the rest of the meeting And adjourn. I second the motion. Motion. Alright. All in favor. Thank you counselors. Thank you folks. Thank you staff. Thank you consultants.
+
+## Key Points
+
+- Immigration enforcement community impact dominated public comment — multiple residents described fear, inability to work, disrupted school attendance, and economic hardship among immigrant families
+- Business microloan/grant program for ICE-affected businesses investigated via GP-COG survey; staff recommended not moving forward at this time due to insufficient South Portland-specific data
+- TIF reserves identified as potential funding source for future business support programs
+- PFML (Paid Family Medical Leave) state coverage transfer to private plan approved via consent calendar
+- Committee annual reports continued from Feb 3 meeting
+- Public comment included Walgreens Cash Corner closure concerns — last nearby pharmacy; resident urged thoughtful planning for the vacant space
+- Bike/Ped Committee chair presented annual report highlights and urged council to reinstate practice of inviting committee chairs to present
+- Council continued extensive appointment calendar backlog
+- CDBG FY27 annual action plan discussed: ~$411K expected, including Broadway corridor pedestrian safety ($288K), domestic violence services, Meals on Wheels, homelessness prevention

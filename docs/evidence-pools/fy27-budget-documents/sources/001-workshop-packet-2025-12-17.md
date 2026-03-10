@@ -4,7 +4,7 @@ title: "Board Workshop Agenda - FY27 Budget Workshop, December 17, 2025"
 type: document
 path: "data/school-board/budget-fy27/meetings/2025-12-17-workshop/packet.pdf"
 fetched: 2026-03-09T00:00:00Z
-hash: "sha256:9fe7a9ec3de6eda96fcebcadd2fdea189d7447e36b5aa5b23d2e2f65b659b136"
+hash: "sha256:92c604101a53b767e25c6cba402114fc05f5561398b3bb8192d2171ec2ffcc93"
 ---
 
 BOARD OF EDUCATION MEETING AGENDA

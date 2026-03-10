@@ -636,3 +636,17 @@ notes: "Auto-generated Vimeo captions. May contain transcription errors."
 **[239:51]** Is that what you were asking about? Yes. Okay. Accepting donations. Alright. So, and I think you're hearing that It would be helpful to have a fuller conversation on that though because are, are we administering it? How do we determine eligibility? How much funding? So it probably lends itself to more of a workshop unless it's just a pass through to the other community organizations, in which case we could set something up on the website pretty easily for That and for general assistance donations. Yes. And also I will just add that we do know that at the state level there is a fund established and well before the immigration enforcement expansion happened, there's a fund established for exactly that purpose relief to prevent eviction. Right now it doesn't have any money in it.
 
 **[240:38]** So if anyone wants to advocate at the state level, at some point that's gonna come back and they're gonna have to decide whether they're putting money in there or not. Alright. Um, anyone else wanna say anything? Sing a song, tell a joke. Okay. I guess not. Um, can we have a motion to adjourn? So moved. I see a motion. I see a second. All in favor? I assume. Oh yeah, we are adjourned. Mr. Matthew.
+
+## Key Points
+
+- FY2025 financial audit presented: clean (unmodified) opinion, but material weakness in school department reconciliations (repeat finding); 34 audit journal entries (very high); ~$400K in grant funds moved to general fund due to ineligibility/overspending
+- School department had six finance directors in five years; new director bringing stability and improved reconciliation procedures
+- School budget was over-expended and non-compliant with legally adopted budget (repeat finding)
+- City fund balance increased $5.8M, driven by auto excise tax over-collection ($1.7M) and staff vacancy savings; excess of ~$8.5M available for CIP
+- Texas Instruments presented request for 20-year TIF extension under new state law (LD 1739); staff proposed combining TI TIF with expiring Growth Area and Transit TIFs into a new Mall Area TOD district
+- TI TIF generates ~$1.2M/year; under extension, 75% must support transit-oriented development/affordable housing; CEA limited to 12.5% of property taxes
+- Council adopted 2026 goals, including consideration of tank farm redevelopment
+- Community safety resolution regarding federal immigration enforcement passed
+- Coal storage zoning ordinance first reading
+- School Board Chair DeAngelos urged council to provide clear budget guidance at Feb 10 joint meeting
+- Poverty abatement request approved

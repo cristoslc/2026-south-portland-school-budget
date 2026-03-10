@@ -4,7 +4,7 @@ title: "FY27 Budget Workshop I Agenda, March 2, 2026"
 type: document
 path: "data/school-board/budget-fy27/meetings/2026-03-02-budget-workshop-1/agenda.pdf"
 fetched: 2026-03-09T00:00:00Z
-hash: "sha256:4c25b9931fb08b8f6ea3e0a2f72bc22617f420697fee62ef416ce6fdff252bae"
+hash: "sha256:a9a4205c2334e4f2ee80b824e049450866288c1f0b1de1196c12dbe402710bf3"
 ---
 
 BOARD OF EDUCATION MEETING AGENDA

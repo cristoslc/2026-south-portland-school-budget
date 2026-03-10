@@ -648,3 +648,13 @@ notes: "Auto-generated Vimeo captions. May contain transcription errors."
 **[244:46]** Question. Uh, will we, we are going to be having the D-E-P-E-P-A report before, I don't think that is his current schedule. I think that we're hearing that after we're hearing the next DEP report, after we would already receive the comprehensive plan draft so long as, as the comprehensive planning committee is staying on its current schedule. Okay. Would we be required to vote for it before we get, Before we hear that? If, if we stay on the schedule, current schedule, yes. We have an unhappy counselor Coleman, yes. Very unhappy. Alright, well I,
 
 **[245:32]** I guess, you know, we could work with DEP to see anything if, if we have anything preliminary that would help the discussion. But that remains to be seen. Okay. Thank you. Every single person and we are adjourned.
+
+## Key Points
+
+- Mahoney City Center Committee presented its project recommendation to the council, with SMRT Architects providing cost estimates for the proposed city center and for refurbishing current city facilities
+- The workshop covered the full history and process leading to the Mahoney recommendation, including the committee's December vote
+- Housing ordinance updates presented by Planning Director Milan Neveda, covering state-mandated zoning changes
+- Three specific questions posed to council regarding housing law implementation
+- Two additional workshop proposals discussed: adding Central Fire Station to historic resources inventory, and changing dog off-leash hours at Willard Beach
+- Public comment period drew significant community input on both Mahoney and housing topics
+- Council provided guidance to city manager on Mahoney project direction and housing ordinance approach

@@ -563,3 +563,16 @@ notes: "Auto-generated Vimeo captions. May contain transcription errors, especia
 
 **[3:31:52]** to reach out across the city. And, um, yeah, so I, I, uh, thank you everybody for coming tonight and thank you for, for speaking. And, um, without further objection, this meeting is adjourned.
 
+## Key Points
+
+- The superintendent's team presented a comprehensive budget proposal with nine reconfiguration options (1.1 through 1.8 plus non-reconfiguration alternatives), each modeled with detailed cost savings, class sizes, and building assignments
+- Three main option categories: (1) elementary reconfiguration into grade-band schools with potential savings of $1.5-2.2M, (2) non-reconfiguration reductions of ~$2.2M through increased class sizes and staffing cuts across all schools, (3) hybrid approaches
+- Specific reconfiguration proposals include closing one elementary school (Kaler, Dyer, or Skillin) and reorganizing remaining schools into pre-K-1 and 2-4 campuses, or keeping all five schools as pre-K-4 with larger classes
+- The superintendent expressed strong support for reconfiguration, stating that non-reconfiguration options would "kick the problem down the road" and that he has "high confidence" in the reconfiguration path
+- Curriculum director Ellen Feric presented the educational case for reconfiguration: grade-band schools enable better teacher collaboration, more consistent curriculum delivery, and more effective use of specialists
+- Each elementary school principal presented building-specific data: capacity, current enrollment, condition, walkability rates, and unique characteristics (e.g., Skillin has highest walkability at 72% and serves most vulnerable populations)
+- Chair DeAngelis made an impassioned argument against closing Skillin specifically, citing its role serving the district's most marginalized immigrant families and its high walkability rate for families without transportation
+- Extensive public comment (3+ hours total meeting): parents expressed concerns about disruption to young children, lack of direct parent surveys, transportation logistics, and the speed of the decision timeline
+- Multiple parents and community members argued the board should also look at revenue solutions (lobbying for state aid, tax base growth, affordable housing) rather than only cuts; others urged the board not to let the budget situation harm equity goals
+- Board directed the administration to bring refined models to the next workshop; member Feller asked about a "more human approach" to reduction-in-force notifications after problems the prior year; portables costed at $270K (purchase) or $100K (rental) per unit
+

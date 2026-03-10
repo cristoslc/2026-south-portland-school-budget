@@ -598,3 +598,22 @@ notes: "Auto-generated Vimeo captions. May contain transcription errors."
 **[225:15]** um, upcoming workshops. There are two, uh, three items not yet ready to be presented. One that, um, will be pulled and you'll get, uh, more information on why that is. Uh, from the assistant city manager. There are two other items. Um, future use of willed fire station, update on pay as you throw both ready to be added to a specific date, um, if counsel so chooses. But otherwise, uh, no action really required to the council this evening. Okay. Alright. Well I thank you for that. And I think we need a motion to adjourn. Oh, this well round robin could happen, but I don't think anyone wants it to, it's not on the agenda. All right. Oh, agenda, right. Motion to adjourn. Thank you.
 
 **[226:03]** Somebody. I saw Councilor Walker seconded. Oh, 34th. All in favor? Yes, we are done. Thank you.
+
+## Key Points
+
+- Joint council-school board budget guidance workshop — the pivotal budget meeting of the period
+- Interim Superintendent Entwistle presented three budget scenarios: Option A (status quo, ~19% school tax increase), Option B (6% increase with $3.5M gap), Option C (9.8% increase with $1.1M gap)
+- Enrollment declined from ~3,050 to 2,748 since 2017; 82 positions added in same period
+- Three structural initiatives proposed: elementary reconfiguration ($2M savings), middle/high school efficiencies ($1M each)
+- Elementary reconfiguration would create three intermediate schools (grades 2-4) and two primary schools (pre-K-1)
+- Middle school start-time consolidation requires $25K DOT traffic study with 6-12 month permitting timeline
+- Council guidance for school: range of 3-6%, majority gravitating toward 5-6%
+- Councilor Walker was the outlier at 6%+ citing importance of education investment
+- Councilor Matthews noted historically school increases never exceeded 3% during his 12-year board tenure
+- City finance director outlined FY27 pressures: 10% health insurance increase, rising solid waste costs, 6.8% water rate increase, ARPA positions sunsetting
+- School fund balance essentially zero; potential FY26 deficit may require city-side fund balance to cover temporarily
+- Council guidance for city: 3-5% with majority at 4%; general opposition to new positions/programs unless revenue-neutral
+- Councilor West proposed $2M/year capital building fund citing $194M in deferred capital needs
+- Climate resilience overlay zone presented in second half of workshop
+- Significant public comment on school budget: teachers' union president, parents, and taxpayers all voiced concerns
+- Community tensions evident between need for education investment and taxpayer burden, especially for seniors on fixed incomes

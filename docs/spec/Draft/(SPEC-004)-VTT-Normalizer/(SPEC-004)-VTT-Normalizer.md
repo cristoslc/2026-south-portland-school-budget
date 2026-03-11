@@ -82,4 +82,4 @@ The existing `build_evidence_pool.py` has correct VTT-to-markdown logic (`proces
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-10 | _pending_ | Initial creation |
+| Draft | 2026-03-10 | f1208a3 | Initial creation |

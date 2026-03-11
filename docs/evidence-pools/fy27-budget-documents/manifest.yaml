@@ -168,3 +168,9 @@ sources:
   path: data/school-board/budget-fy27/presentations/2026-03-09-budget-presentation.pdf
   hash: sha256:f02afdf364026be65158bdf7517d6735021b932df93d6380b10eaeaf91c841c5
   file: sources/024-2026-03-09-budget-presentation-2026-south.md
+- source-id: '025'
+  title: Budget Models and Cost Matrix
+  type: spreadsheet
+  path: data/school-board/budget-fy27/documents/2026-03-02-models-and-matrix.xlsx
+  hash: sha256:82715073464a832d76db54f7e37521ef0699769fa154d8817d0489341827ef9f
+  file: sources/025-budget-models-and-cost-matrix-2026-03-02.md

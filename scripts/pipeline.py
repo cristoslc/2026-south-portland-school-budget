@@ -164,7 +164,7 @@ def infer_title(filepath):
         return f"{body} {kind} — {date_part}"
     elif filepath.endswith(".txt"):
         return f"{body} Agenda — {date_part}"
-    elif filepath.endswith(".pdf"):
+    elif filepath.endswith(".pdf") or filepath.endswith(".xlsx"):
         basename = os.path.splitext(os.path.basename(filepath))[0]
         return f"{basename.replace('-', ' ').replace('_', ' ').title()}"
     return os.path.basename(filepath)
@@ -201,6 +201,11 @@ def normalize_file(filepath):
             cmd.extend(["--date", date])
     elif filepath.endswith(".pdf"):
         cmd = [sys.executable, "-m", "pipeline.normalize_pdf",
+               filepath, pool_dir, "--title", title]
+        if date:
+            cmd.extend(["--date", date])
+    elif filepath.endswith(".xlsx"):
+        cmd = [sys.executable, "-m", "pipeline.normalize_xlsx",
                filepath, pool_dir, "--title", title]
         if date:
             cmd.extend(["--date", date])

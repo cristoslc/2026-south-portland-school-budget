@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pyyaml pdfplumber beautifulsoup4 markdownify
+          pip install pyyaml pdfplumber beautifulsoup4 markdownify openpyxl
           pip install yt-dlp
 
       - name: Run pipeline

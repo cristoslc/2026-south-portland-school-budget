@@ -1,7 +1,7 @@
 ---
 title: "XLSX-to-Markdown Normalizer"
 artifact: SPEC-011
-status: Draft
+status: Implemented
 author: cristos
 created: 2026-03-11
 last-updated: 2026-03-11
@@ -60,6 +60,10 @@ The budget page connector downloads spreadsheets (Google Sheets exported as XLSX
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| 1. Single-sheet XLSX → markdown table | `normalize_xlsx.py` renders each sheet as markdown table with header + separator + data rows | Pass |
+| 2. Multi-sheet XLSX → sections per sheet | Tested on `2026-03-02-models-and-matrix.xlsx`: produced 3 `## Sheet:` sections (Overview, Matrix, COMBINED) | Pass |
+| 3. Duplicate detection via hash | Uses `pool_utils.find_duplicate()` with SHA-256 hash; second run skips with "duplicate of source" message | Pass |
+| 4. Pipeline integration | `.xlsx` case added to `normalize_file()` in `pipeline.py`; `pipeline.py normalize` processed 38 files with 0 failures including XLSX | Pass |
 
 ## Scope & Constraints
 
@@ -81,4 +85,5 @@ The budget page connector downloads spreadsheets (Google Sheets exported as XLSX
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-11 | _pending_ | Initial creation |
+| Draft | 2026-03-11 | 78dce64 | Initial creation |
+| Implemented | 2026-03-11 | _pending_ | Normalizer created, tested, integrated into pipeline |

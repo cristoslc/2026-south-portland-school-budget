@@ -1,7 +1,7 @@
 ---
 title: "Pipeline Orchestration"
 artifact: EPIC-003
-status: Active
+status: Complete
 author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
@@ -49,7 +49,8 @@ The pipeline should support both manual invocation (`./scripts/pipeline.py run`)
 
 ## Child Specs
 
-_To be created when EPIC-003 comes up for implementation._
+- **SPEC-007** — Pipeline Runner (orchestration script tying connectors → normalization → staging)
+- **SPEC-008** — Pipeline Scheduling (GitHub Actions workflow + manual alias fallback)
 
 ## Key Dependencies
 
@@ -62,3 +63,4 @@ _To be created when EPIC-003 comes up for implementation._
 |-------|------|--------|-------|
 | Proposed | 2026-03-10 | _pending_ | Initial creation |
 | Active | 2026-03-10 | _pending_ | SPIKE-004 complete; GitHub Actions approach selected |
+| Complete | 2026-03-10 | _pending_ | All child specs (SPEC-007/008) Implemented |

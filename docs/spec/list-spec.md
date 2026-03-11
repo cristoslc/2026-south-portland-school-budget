@@ -15,3 +15,5 @@
 | SPEC-004 | VTT-to-Markdown Normalizer | 2026-03-10 | 63397e4 |
 | SPEC-005 | PDF-to-Markdown Normalizer | 2026-03-10 | 63397e4 |
 | SPEC-006 | HTML-to-Markdown Normalizer | 2026-03-10 | 63397e4 |
+| SPEC-007 | Pipeline Runner | 2026-03-10 | _pending_ |
+| SPEC-008 | Pipeline Scheduling | 2026-03-10 | _pending_ |

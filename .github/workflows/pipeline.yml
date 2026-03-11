@@ -1,0 +1,50 @@
+name: Evidence Pipeline
+
+on:
+  schedule:
+    # Daily at 8 AM ET (13:00 UTC, or 12:00 UTC during DST)
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml pdfplumber beautifulsoup4 markdownify
+          pip install yt-dlp
+
+      - name: Run pipeline
+        run: python3 scripts/pipeline.py run --stage
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          DATE=$(date -u +%Y-%m-%d)
+          git commit -m "chore(pipeline): auto-update evidence pools [$DATE]"
+          git push

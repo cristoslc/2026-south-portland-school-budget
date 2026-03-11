@@ -4,6 +4,7 @@
 
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
+| EPIC-004 | Source Auto-Discovery | 2026-03-11 | _pending_ |
 
 ## Active
 

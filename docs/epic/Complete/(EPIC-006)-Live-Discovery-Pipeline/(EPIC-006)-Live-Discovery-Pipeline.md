@@ -65,4 +65,4 @@ Refactor the evidence pipeline connectors from a config-driven model (discover o
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Active | 2026-03-11 | d923074 | Created directly in Active — design decided via ADR-001 |
-| Complete | 2026-03-11 | TBD | All child specs implemented, PRs merged |
+| Complete | 2026-03-11 | 6c1020c | All child specs implemented, PRs merged |

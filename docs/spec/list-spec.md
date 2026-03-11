@@ -19,13 +19,13 @@
 | SPEC-008 | Pipeline Scheduling | 2026-03-10 | b8cf304 |
 | SPEC-011 | XLSX-to-Markdown Normalizer | 2026-03-11 | 465b58c |
 | SPEC-012 | Docker Runner Setup | 2026-03-11 | 0cfb861 |
-| SPEC-013 | Live Discovery Connector Model | 2026-03-11 | TBD |
-| SPEC-014 | Vimeo Live Discovery | 2026-03-11 | TBD |
-| SPEC-015 | Budget Page Live Discovery | 2026-03-11 | TBD |
+| SPEC-013 | Live Discovery Connector Model | 2026-03-11 | 6c1020c |
+| SPEC-014 | Vimeo Live Discovery | 2026-03-11 | 6c1020c |
+| SPEC-015 | Budget Page Live Discovery | 2026-03-11 | 6c1020c |
 
 ## Superseded
 
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
-| SPEC-009 | Vimeo Channel Auto-Discovery | 2026-03-11 | TBD |
-| SPEC-010 | Budget Page Auto-Discovery | 2026-03-11 | TBD |
+| SPEC-009 | Vimeo Channel Auto-Discovery | 2026-03-11 | 6c1020c |
+| SPEC-010 | Budget Page Auto-Discovery | 2026-03-11 | 6c1020c |

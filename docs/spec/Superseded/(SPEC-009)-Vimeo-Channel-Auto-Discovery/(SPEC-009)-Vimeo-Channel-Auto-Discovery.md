@@ -92,4 +92,4 @@ The Vimeo connector (`scripts/connectors/vimeo.py`) only processes video IDs lis
 | Draft | 2026-03-11 | be16135 | Initial creation |
 | Approved | 2026-03-11 | e4b15d4 | Fully designed; ready for implementation |
 | Implemented | 2026-03-11 | fbdf1b4 | discover_channel(), infer_metadata(), --discover CLI flag |
-| Superseded | 2026-03-11 | TBD | Superseded by SPEC-014 (live discovery) |
+| Superseded | 2026-03-11 | 6c1020c | Superseded by SPEC-014 (live discovery) |

@@ -88,4 +88,4 @@ The current connectors use a two-phase model: discovery writes URLs to a YAML co
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-11 | d923074 | Initial creation |
-| Implemented | 2026-03-11 | TBD | Merged via PRs #5, #6, #7 |
+| Implemented | 2026-03-11 | 6c1020c | Merged via PRs #5, #6, #7 |

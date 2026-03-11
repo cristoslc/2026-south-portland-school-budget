@@ -2,7 +2,3 @@
 # Dolt database files (added by bd init)
 .dolt/
 *.db
-data/*.pdf
-data/*.xlsx
-data/**/*.pdf
-data/**/*.xlsx

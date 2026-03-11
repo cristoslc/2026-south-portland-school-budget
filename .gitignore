@@ -4,7 +4,5 @@
 *.db
 data/*.pdf
 data/*.xlsx
-data/*.vtt
 data/**/*.pdf
 data/**/*.xlsx
-data/**/*.vtt

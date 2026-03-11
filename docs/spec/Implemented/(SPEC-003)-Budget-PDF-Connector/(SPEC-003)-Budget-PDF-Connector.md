@@ -88,4 +88,4 @@ TDD cycles:
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-10 | 19807c6 | Initial creation |
-| Implemented | 2026-03-10 | _pending_ | All ACs verified, connector deployed |
+| Implemented | 2026-03-10 | 4e32287 | All ACs verified, connector deployed |

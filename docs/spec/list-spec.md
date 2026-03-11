@@ -1,5 +1,13 @@
 # Agent Specs
 
+## Draft
+
+| ID | Title | Last Updated | Commit |
+|----|-------|-------------|--------|
+| SPEC-013 | Live Discovery Connector Model | 2026-03-11 | _pending_ |
+| SPEC-014 | Vimeo Live Discovery | 2026-03-11 | _pending_ |
+| SPEC-015 | Budget Page Live Discovery | 2026-03-11 | _pending_ |
+
 ## Implemented
 
 | ID | Title | Last Updated | Commit |

@@ -85,4 +85,4 @@ The Vimeo connector (`scripts/connectors/vimeo.py`) only processes video IDs lis
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-11 | be16135 | Initial creation |
-| Approved | 2026-03-11 | _pending_ | Fully designed; ready for implementation |
+| Approved | 2026-03-11 | e4b15d4 | Fully designed; ready for implementation |

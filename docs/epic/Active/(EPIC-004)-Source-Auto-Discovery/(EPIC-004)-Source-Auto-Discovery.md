@@ -54,4 +54,4 @@ This epic upgrades both connectors so the pipeline's daily cron (`.github/workfl
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-11 | be16135 | Initial creation |
-| Active | 2026-03-11 | _pending_ | Decomposed into SPEC-009/010; beginning implementation |
+| Active | 2026-03-11 | e4b15d4 | Decomposed into SPEC-009/010; beginning implementation |

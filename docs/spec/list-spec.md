@@ -9,8 +9,8 @@
 
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
-| SPEC-009 | Vimeo Channel Auto-Discovery | 2026-03-11 | _pending_ |
-| SPEC-010 | Budget Page Auto-Discovery | 2026-03-11 | _pending_ |
+| SPEC-009 | Vimeo Channel Auto-Discovery | 2026-03-11 | e4b15d4 |
+| SPEC-010 | Budget Page Auto-Discovery | 2026-03-11 | e4b15d4 |
 
 ## Implemented
 

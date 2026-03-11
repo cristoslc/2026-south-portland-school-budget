@@ -1,7 +1,7 @@
 ---
 title: "Live Discovery Pipeline"
 artifact: EPIC-006
-status: Active
+status: Complete
 author: cristos
 created: 2026-03-11
 last-updated: 2026-03-11
@@ -41,9 +41,9 @@ Refactor the evidence pipeline connectors from a config-driven model (discover o
 
 | ID | Title | Status |
 |----|-------|--------|
-| SPEC-013 | Live Discovery Connector Model | Draft |
-| SPEC-014 | Vimeo Live Discovery | Draft |
-| SPEC-015 | Budget Page Live Discovery | Draft |
+| SPEC-013 | Live Discovery Connector Model | Implemented |
+| SPEC-014 | Vimeo Live Discovery | Implemented |
+| SPEC-015 | Budget Page Live Discovery | Implemented |
 
 ## Related Artifacts
 
@@ -65,3 +65,4 @@ Refactor the evidence pipeline connectors from a config-driven model (discover o
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Active | 2026-03-11 | d923074 | Created directly in Active — design decided via ADR-001 |
+| Complete | 2026-03-11 | TBD | All child specs implemented, PRs merged |

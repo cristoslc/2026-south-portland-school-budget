@@ -1,7 +1,7 @@
 ---
 title: "Vimeo Live Discovery"
 artifact: SPEC-014
-status: Draft
+status: Implemented
 author: cristos
 created: 2026-03-11
 last-updated: 2026-03-11
@@ -85,3 +85,4 @@ The Vimeo connector currently reads video IDs from `vimeo-sources.yaml` (a stati
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-11 | d923074 | Initial creation |
+| Implemented | 2026-03-11 | TBD | Merged via PRs #5, #6, #7 |

@@ -1,7 +1,7 @@
 ---
 title: "Live Discovery Connector Model"
 artifact: SPEC-013
-status: Draft
+status: Implemented
 author: cristos
 created: 2026-03-11
 last-updated: 2026-03-11
@@ -88,3 +88,4 @@ The current connectors use a two-phase model: discovery writes URLs to a YAML co
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-11 | d923074 | Initial creation |
+| Implemented | 2026-03-11 | TBD | Merged via PRs #5, #6, #7 |

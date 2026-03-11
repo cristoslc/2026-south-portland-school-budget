@@ -2,16 +2,48 @@ name: Evidence Pipeline
 
 on:
   schedule:
-    # 8 AM, 12 PM, 4 PM, 8 PM ET — both EDT (UTC-4) and EST (UTC-5)
-    # offsets so the target times are hit year-round; extra runs are no-ops
-    - cron: '0 0,1,12,13,16,17,20,21 * * *'
+    # 8 AM and 8 PM ET — both EDT (UTC-4) and EST (UTC-5) offsets
+    - cron: '0 0,1,12,13 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
+  # Primary: runs on self-hosted Docker runner (zero quota)
   update-evidence:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run pipeline
+        run: python3 scripts/pipeline.py run --discover --stage
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          DATE=$(date -u +%Y-%m-%d)
+          git commit -m "chore(pipeline): auto-update evidence pools [$DATE]"
+          git push
+
+  # Fallback: runs on hosted runner if self-hosted is unavailable
+  update-evidence-fallback:
+    needs: update-evidence
+    if: ${{ always() && needs.update-evidence.result == 'failure' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,6 +55,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: '.github/workflows/pipeline.yml'
 
       - name: Install dependencies
         run: |

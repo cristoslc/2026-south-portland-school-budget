@@ -1,0 +1,12 @@
+services:
+  runner:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - runner-work:/runner/_work
+    environment:
+      - RUNNER_ALLOW_RUNASROOT=1
+
+volumes:
+  runner-work:

@@ -4,6 +4,7 @@
 
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
+| SPEC-011 | XLSX-to-Markdown Normalizer | 2026-03-11 | _pending_ |
 
 ## Implemented
 

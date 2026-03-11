@@ -1,7 +1,7 @@
 ---
 title: "Vimeo Channel Auto-Discovery"
 artifact: SPEC-009
-status: Draft
+status: Approved
 author: cristos
 created: 2026-03-11
 last-updated: 2026-03-11
@@ -84,4 +84,5 @@ The Vimeo connector (`scripts/connectors/vimeo.py`) only processes video IDs lis
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-11 | _pending_ | Initial creation |
+| Draft | 2026-03-11 | be16135 | Initial creation |
+| Approved | 2026-03-11 | _pending_ | Fully designed; ready for implementation |

@@ -1,7 +1,7 @@
 ---
 title: "Source Auto-Discovery"
 artifact: EPIC-004
-status: Proposed
+status: Active
 author: cristos
 created: 2026-03-11
 last-updated: 2026-03-11
@@ -53,4 +53,5 @@ This epic upgrades both connectors so the pipeline's daily cron (`.github/workfl
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Proposed | 2026-03-11 | _pending_ | Initial creation |
+| Proposed | 2026-03-11 | be16135 | Initial creation |
+| Active | 2026-03-11 | _pending_ | Decomposed into SPEC-009/010; beginning implementation |

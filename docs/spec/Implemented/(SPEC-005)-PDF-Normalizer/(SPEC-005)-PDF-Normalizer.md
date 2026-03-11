@@ -1,7 +1,7 @@
 ---
 title: "PDF-to-Markdown Normalizer"
 artifact: SPEC-005
-status: Draft
+status: Implemented
 author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
@@ -55,6 +55,12 @@ Budget documents and presentation slides are distributed as PDFs. No existing sc
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1: Text-heavy PDF extracts with structure | Test on `packet.pdf` (2025-12-17) produces markdown with paragraph breaks, agenda structure preserved | Pass |
+| AC2: Slide-heavy PDF with slide markers and notes flag | Slide detection uses page density heuristic (SPARSE_PAGE_THRESHOLD=200, SLIDE_HEAVY_RATIO=0.5); sparse pages get `## Slide N` markers and `notes` field set | Pass |
+| AC3: Valid frontmatter with all required fields | Test output contains source-id, title, type: document, path, fetched, hash | Pass |
+| AC4: Sequential source-id | Second PDF in same pool gets source-id 002 | Pass |
+| AC5: manifest.yaml updated | test-results/normalize-pdf/manifest.yaml contains both source entries | Pass |
+| AC6: Duplicate detection | Re-running same PDF skips with hash match warning | Pass |
 
 ## Scope & Constraints
 
@@ -83,3 +89,5 @@ Budget documents and presentation slides are distributed as PDFs. No existing sc
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-10 | f1208a3 | Initial creation |
+| Testing | 2026-03-10 | _pending_ | Implementation complete, all bd tasks closed |
+| Implemented | 2026-03-10 | _pending_ | All acceptance criteria verified |

@@ -1,7 +1,7 @@
 ---
 title: "HTML-to-Markdown Normalizer"
 artifact: SPEC-006
-status: Draft
+status: Implemented
 author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
@@ -56,6 +56,12 @@ Diligent Community returns meeting agendas as HTML via its REST API (confirmed b
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1: Structured list with item numbers | Test HTML agenda produces numbered lists with `1.`, `2.` preserving original order | Pass |
+| AC2: Nested sections as headings | Executive Session, Opening, Petitions sections become `## EXECUTIVE SESSION`, `## OPENING OF THE MEETING`, etc. with nested items | Pass |
+| AC3: Valid frontmatter | Output contains source-id, title, type: local, path, fetched, hash | Pass |
+| AC4: Sequential source-id | First source in empty pool gets 001 via next_source_id() | Pass |
+| AC5: manifest.yaml updated | test-results/normalize-html/manifest.yaml contains new source entry | Pass |
+| AC6: Duplicate detection | Re-running same HTML content skips with hash match warning | Pass |
 
 ## Scope & Constraints
 
@@ -84,3 +90,5 @@ Diligent Community returns meeting agendas as HTML via its REST API (confirmed b
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-10 | f1208a3 | Initial creation |
+| Testing | 2026-03-10 | _pending_ | Implementation complete, all bd tasks closed |
+| Implemented | 2026-03-10 | _pending_ | All acceptance criteria verified |

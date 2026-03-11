@@ -1,7 +1,7 @@
 ---
 title: "Content Normalization"
 artifact: EPIC-002
-status: Active
+status: Complete
 author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
@@ -60,3 +60,4 @@ Each normalized source must produce a markdown file matching the evidence pool s
 |-------|------|--------|-------|
 | Proposed | 2026-03-10 | 7e0bc47 | Initial creation |
 | Active | 2026-03-10 | 19807c6 | SPIKE-003 complete; script reuse assessed |
+| Complete | 2026-03-10 | _pending_ | All child specs (SPEC-004/005/006) Implemented |

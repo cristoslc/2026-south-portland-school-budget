@@ -1,7 +1,7 @@
 ---
 title: "VTT-to-Markdown Normalizer"
 artifact: SPEC-004
-status: Draft
+status: Implemented
 author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
@@ -55,6 +55,11 @@ The existing `build_evidence_pool.py` has correct VTT-to-markdown logic (`proces
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1: Valid frontmatter with all required fields | Test run on `2026-01-12/transcript.vtt` produces frontmatter with source-id, title, type, path, fetched, hash, duration | Pass |
+| AC2: Transcript with `**[MM:SS]**` timestamps | Output body contains `**[00:00]**` through `**[120:00]**` timestamps matching parse_vtt.py output | Pass |
+| AC3: Sequential source-id assignment | First source in empty pool gets `001`; next_source_id() returns max+1 zero-padded | Pass |
+| AC4: manifest.yaml updated | test-results/normalize-vtt/manifest.yaml contains new source entry after run | Pass |
+| AC5: Duplicate detection skips | Second run on same VTT prints "Skipping: duplicate of source 001 (hash match)" | Pass |
 
 ## Scope & Constraints
 
@@ -83,3 +88,5 @@ The existing `build_evidence_pool.py` has correct VTT-to-markdown logic (`proces
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-10 | f1208a3 | Initial creation |
+| Testing | 2026-03-10 | _pending_ | Implementation complete, all bd tasks closed |
+| Implemented | 2026-03-10 | _pending_ | All acceptance criteria verified |

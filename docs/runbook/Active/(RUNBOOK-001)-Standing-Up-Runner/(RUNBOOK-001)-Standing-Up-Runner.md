@@ -40,7 +40,7 @@ Step-by-step procedure for setting up the Docker-based self-hosted GitHub Action
    cp .env.example .env
    ```
    Edit `.env` and set:
-   - `GITHUB_REPOSITORY=<owner>/<repo>` (e.g., `cristoslc/2026-south-portland-school-budget`)
+   - `GITHUB_REPOSITORY=<owner>/<repo>` (e.g., `cristoslc/south-portland-school-budget-FY27`)
    - `RUNNER_TOKEN=<token from step 1>`
    - `RUNNER_NAME=<optional, defaults to hostname>`
    **Expected:** `.env` file exists with valid values.

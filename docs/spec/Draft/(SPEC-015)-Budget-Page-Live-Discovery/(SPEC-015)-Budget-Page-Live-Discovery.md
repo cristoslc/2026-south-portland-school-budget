@@ -87,4 +87,4 @@ The budget page connector currently reads source URLs from `budget-page-sources.
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-11 | _pending_ | Initial creation |
+| Draft | 2026-03-11 | d923074 | Initial creation |

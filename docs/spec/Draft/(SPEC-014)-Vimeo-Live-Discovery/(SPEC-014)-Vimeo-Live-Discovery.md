@@ -84,4 +84,4 @@ The Vimeo connector currently reads video IDs from `vimeo-sources.yaml` (a stati
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-11 | _pending_ | Initial creation |
+| Draft | 2026-03-11 | d923074 | Initial creation |

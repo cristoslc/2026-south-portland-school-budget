@@ -71,4 +71,4 @@ Enumerate and download every run with no memory of past failures. Rejected becau
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Adopted | 2026-03-11 | _pending_ | Created directly in Adopted — decision made conversationally |
+| Adopted | 2026-03-11 | d923074 | Created directly in Adopted — decision made conversationally |

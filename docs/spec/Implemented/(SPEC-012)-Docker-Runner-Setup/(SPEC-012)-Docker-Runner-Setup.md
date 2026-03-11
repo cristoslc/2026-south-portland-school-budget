@@ -85,5 +85,5 @@ The evidence pipeline workflow runs on GitHub-hosted runners, consuming ~300 min
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-11 | _pending_ | Initial creation |
-| Implemented | 2026-03-11 | _pending_ | All infra files created, workflow updated |
+| Draft | 2026-03-11 | 0cfb861 | Initial creation |
+| Implemented | 2026-03-11 | 0cfb861 | All infra files created, workflow updated |

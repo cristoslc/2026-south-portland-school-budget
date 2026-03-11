@@ -57,5 +57,5 @@ Eliminate GitHub Actions quota consumption for the evidence pipeline by running 
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Active | 2026-03-11 | _pending_ | Created directly in Active — straightforward infra work |
-| Complete | 2026-03-11 | _pending_ | SPEC-012 implemented, RUNBOOK-001 active |
+| Active | 2026-03-11 | 0cfb861 | Created directly in Active — straightforward infra work |
+| Complete | 2026-03-11 | 0cfb861 | SPEC-012 implemented, RUNBOOK-001 active |

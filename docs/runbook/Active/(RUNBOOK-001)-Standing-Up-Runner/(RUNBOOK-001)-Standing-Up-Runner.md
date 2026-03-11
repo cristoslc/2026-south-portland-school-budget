@@ -95,5 +95,5 @@ Then remove the runner from GitHub → Settings → Actions → Runners → (sel
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-11 | _pending_ | Initial creation |
-| Active | 2026-03-11 | _pending_ | Steps validated against implementation |
+| Draft | 2026-03-11 | 0cfb861 | Initial creation |
+| Active | 2026-03-11 | 0cfb861 | Steps validated against implementation |

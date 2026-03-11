@@ -15,4 +15,4 @@
 | SPEC-009 | Vimeo Channel Auto-Discovery | 2026-03-11 | fbdf1b4 |
 | SPEC-010 | Budget Page Auto-Discovery | 2026-03-11 | fbdf1b4 |
 | SPEC-011 | XLSX-to-Markdown Normalizer | 2026-03-11 | 465b58c |
-| SPEC-012 | Docker Runner Setup | 2026-03-11 | _pending_ |
+| SPEC-012 | Docker Runner Setup | 2026-03-11 | 0cfb861 |

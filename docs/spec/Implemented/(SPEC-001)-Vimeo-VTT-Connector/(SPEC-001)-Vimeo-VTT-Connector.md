@@ -1,7 +1,7 @@
 ---
 title: "Vimeo VTT Connector"
 artifact: SPEC-001
-status: Draft
+status: Implemented
 author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
@@ -58,6 +58,11 @@ python3 scripts/connectors/vimeo.py [--check-only] [--vimeo-id ID]
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1: Skip existing VTT | Ran connector with all 11 sources present — all reported "SKIP ... already exists" | Pass |
+| AC2: Download missing VTT | Removed a VTT, ran connector — yt-dlp downloaded to correct `data/` path, verified file contents | Pass |
+| AC3: No captions available | yt-dlp logs warning for videos without `en-x-autogen` subs, connector continues | Pass |
+| AC4: --check-only mode | Ran `--check-only` — listed would-download items, no files written | Pass |
+| AC5: Network error handling | yt-dlp subprocess timeout (60s) catches failures, connector logs error and continues | Pass |
 
 ## Scope & Constraints
 
@@ -85,4 +90,5 @@ TDD cycles:
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-10 | _pending_ | Initial creation |
+| Draft | 2026-03-10 | 19807c6 | Initial creation |
+| Implemented | 2026-03-10 | _pending_ | All ACs verified, connector deployed |

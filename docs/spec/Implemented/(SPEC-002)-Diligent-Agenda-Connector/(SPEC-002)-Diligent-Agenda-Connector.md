@@ -1,7 +1,7 @@
 ---
 title: "Diligent Community Agenda Connector"
 artifact: SPEC-002
-status: Draft
+status: Implemented
 author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
@@ -59,6 +59,12 @@ python3 scripts/connectors/diligent.py [--check-only] [--meeting-id ID] [--from 
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1: Discover and filter meetings | `--check-only` found 4 City Council meetings from 90-day window, correctly filtered from all meeting types | Pass |
+| AC2: Fetch and save agenda | `--meeting-id 1285` downloaded agenda for 2026-03-05 (42,658 chars) to correct path | Pass |
+| AC3: Skip existing agendas | All 4 discovered meetings with existing `agenda.txt` reported "SKIP ... already exists" | Pass |
+| AC4: HTML structure preserved | Output contains `#`/`##`/`###` headings, `-` list items, position papers with paragraph structure | Pass |
+| AC5: Missing agenda handling | Code path logs "NO AGENDA" and increments `no_agenda` counter, verified by code inspection | Pass |
+| AC6: --check-only mode | Ran `--check-only` — listed meetings with "WOULD DOWNLOAD" / "SKIP", no files written | Pass |
 
 ## Scope & Constraints
 
@@ -87,4 +93,5 @@ TDD cycles:
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-10 | _pending_ | Initial creation |
+| Draft | 2026-03-10 | 19807c6 | Initial creation |
+| Implemented | 2026-03-10 | _pending_ | All ACs verified, connector deployed |

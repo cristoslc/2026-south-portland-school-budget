@@ -1,7 +1,7 @@
 ---
 title: "Source Connectors"
 artifact: EPIC-001
-status: Active
+status: Complete
 author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
@@ -56,4 +56,5 @@ Three connectors are needed:
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-10 | _pending_ | Initial creation |
-| Active | 2026-03-10 | _pending_ | All gating spikes complete; decomposing into specs |
+| Active | 2026-03-10 | 19807c6 | All gating spikes complete; decomposing into specs |
+| Complete | 2026-03-10 | _pending_ | All 3 child specs implemented and verified |

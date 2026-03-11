@@ -1,7 +1,7 @@
 ---
 title: "Budget Page PDF Connector"
 artifact: SPEC-003
-status: Draft
+status: Implemented
 author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
@@ -54,6 +54,11 @@ python3 scripts/connectors/budget_page.py [--check-only] [--url URL]
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1: Discover document URLs | `--discover` found 14 Google Drive/Docs/Sheets links on budget page, identified 1 new link not in config | Pass |
+| AC2: Download to correct path | Downloaded March 9 meeting packet (1,337,654 bytes) to `data/school-board/budget-fy27/meetings/2026-03-09-regular/packet.pdf` | Pass |
+| AC3: Skip existing files | 12 of 13 configured sources reported "SKIP ... already exists" | Pass |
+| AC4: Zero-doc warning | Tested against example.com — logged "Zero document links found ... page structure may have changed" | Pass |
+| AC5: --check-only mode | Ran `--check-only` — listed 1 would-download + 12 skipped, no files written | Pass |
 
 ## Scope & Constraints
 
@@ -82,4 +87,5 @@ TDD cycles:
 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
-| Draft | 2026-03-10 | _pending_ | Initial creation |
+| Draft | 2026-03-10 | 19807c6 | Initial creation |
+| Implemented | 2026-03-10 | _pending_ | All ACs verified, connector deployed |

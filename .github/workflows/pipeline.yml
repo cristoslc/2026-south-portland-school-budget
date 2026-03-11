@@ -2,8 +2,9 @@ name: Evidence Pipeline
 
 on:
   schedule:
-    # Daily at 8 AM ET (13:00 UTC, or 12:00 UTC during DST)
-    - cron: '0 13 * * *'
+    # 8 AM, 12 PM, 4 PM, 8 PM ET — both EDT (UTC-4) and EST (UTC-5)
+    # offsets so the target times are hit year-round; extra runs are no-ops
+    - cron: '0 0,1,12,13,16,17,20,21 * * *'
   workflow_dispatch:
 
 permissions:

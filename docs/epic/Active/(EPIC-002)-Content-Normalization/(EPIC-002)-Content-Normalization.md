@@ -45,7 +45,9 @@ Each normalized source must produce a markdown file matching the evidence pool s
 
 ## Child Specs
 
-_To be created when EPIC-002 comes up for implementation._
+- **SPEC-004** — VTT-to-Markdown Normalizer (refactor `build_evidence_pool.py` VTT path)
+- **SPEC-005** — PDF-to-Markdown Normalizer (new, `pdfplumber`-based)
+- **SPEC-006** — HTML-to-Markdown Normalizer (Diligent agenda HTML → markdown)
 
 ## Key Dependencies
 

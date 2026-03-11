@@ -4,6 +4,9 @@
 
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
+| SPEC-004 | VTT-to-Markdown Normalizer | 2026-03-10 | _pending_ |
+| SPEC-005 | PDF-to-Markdown Normalizer | 2026-03-10 | _pending_ |
+| SPEC-006 | HTML-to-Markdown Normalizer | 2026-03-10 | _pending_ |
 
 ## Implemented
 

@@ -89,5 +89,5 @@ Budget documents and presentation slides are distributed as PDFs. No existing sc
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-10 | f1208a3 | Initial creation |
-| Testing | 2026-03-10 | _pending_ | Implementation complete, all bd tasks closed |
-| Implemented | 2026-03-10 | _pending_ | All acceptance criteria verified |
+| Testing | 2026-03-10 | 63397e4 | Implementation complete, all bd tasks closed |
+| Implemented | 2026-03-10 | 63397e4 | All acceptance criteria verified |

@@ -89,4 +89,4 @@ The budget page connector (`scripts/connectors/budget_page.py`) has a `--discove
 |-------|------|--------|-------|
 | Draft | 2026-03-11 | be16135 | Initial creation |
 | Approved | 2026-03-11 | e4b15d4 | Fully designed; ready for implementation |
-| Implemented | 2026-03-11 | _pending_ | auto_add_sources(), infer_source_metadata(), merged discover+download |
+| Implemented | 2026-03-11 | fbdf1b4 | auto_add_sources(), infer_source_metadata(), merged discover+download |

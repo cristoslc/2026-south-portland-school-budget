@@ -1,23 +1,26 @@
-# Meeting Bundle Schema
+# Interpretation Pipeline Schemas
 
-**Spec:** SPEC-016 | **Pipeline:** VISION-003 (Interpretation Pipeline)
+**Pipeline:** VISION-003 (Interpretation Pipeline)
 
 ## Overview
 
-A **meeting bundle** groups all evidence sources affiliated with a single
-meeting (transcript, agenda, budget packet, presentation slides) into a
-directory with a `manifest.yaml` that describes the meeting and lists its
-sources. The bundle schema defines the data contract consumed by downstream
-pipeline stages: interpretation, fold, and brief generation.
+This directory contains JSON Schema definitions (in YAML encoding) for the
+interpretation pipeline's data contracts. Schemas define the structure of
+meeting bundles, per-meeting interpretations, and cumulative interpretation
+records.
 
 ## Directory Layout
 
 ```
 data/interpretation/
   schema/
-    bundle-manifest-schema.yaml       # JSON Schema for bundle manifests
-    inter-meeting-manifest-schema.yaml # JSON Schema for inter-meeting evidence
-    README.md                          # This file
+    bundle-manifest-schema.yaml         # JSON Schema for bundle manifests
+    inter-meeting-manifest-schema.yaml  # JSON Schema for inter-meeting evidence
+    interpretation-output-schema.yaml   # JSON Schema for per-meeting interpretations
+    cumulative-record-schema.yaml       # JSON Schema for cumulative records
+    cumulative-summary-schema.yaml      # JSON Schema for cumulative summary views
+    cumulative-initial-state.md.template # Template for initial cumulative state
+    README.md                           # This file
   bundles/
     2026-03-02-school-board/
       manifest.yaml                    # Bundle manifest for this meeting
@@ -294,3 +297,144 @@ The script checks:
 - Threat level values map to valid levels (high, moderate, low, none)
 - Journey map beats have required columns
 - Reactions section is non-empty
+
+---
+
+## Cumulative Interpretation Format
+
+**Spec:** SPEC-020 | **Pipeline:** VISION-003 (Interpretation Pipeline) | **Depends on:** SPIKE-006, SPEC-018
+
+### Overview
+
+The cumulative interpretation system uses a **log-structured approach**
+(recommended by SPIKE-006) to track how each persona's understanding evolves
+across meetings. Rather than merging interpretations into a single growing
+document, each meeting produces an immutable record, and a summary view is
+generated on demand.
+
+### Architecture
+
+- **Storage**: Immutable interpretation records (one per persona per meeting)
+- **Presentation**: Generated summary views (one per persona, regenerable)
+- **Source of truth**: The record store, not the summary view
+
+### Directory Layout
+
+```
+data/interpretation/
+  cumulative/
+    PERSONA-001/
+      2026-01-12.md     # Immutable record for meeting 1
+      2026-02-04.md     # Immutable record for meeting 2
+      2026-02-09.md     # Immutable record for meeting 3
+      summary.md        # Generated summary view
+    PERSONA-006/
+      ...
+```
+
+### Cumulative Record (per-meeting, immutable)
+
+Each record captures how a persona's understanding shifted after one meeting.
+Records are write-once and never modified. File path:
+`data/interpretation/cumulative/<PERSONA-ID>/<meeting-date>.md`
+
+#### Frontmatter fields
+
+| Field                | Required | Type        | Description |
+|----------------------|----------|-------------|-------------|
+| `schema_version`     | yes      | string      | Always `"1.0"` |
+| `persona_id`         | yes      | string      | Persona identifier (e.g., `PERSONA-001`) |
+| `persona_name`       | no       | string      | Display name (e.g., "Maria") |
+| `meeting_date`       | yes      | string      | ISO 8601 date of the meeting |
+| `meeting_type`       | yes      | enum        | `regular`, `workshop`, `special`, `budget-forum`, `budget-workshop`, `joint` |
+| `body`               | yes      | enum        | `school-board`, `city-council` |
+| `prior_meeting`      | yes      | string/null | Date of previous record, or null for first |
+| `interpretation_date`| yes      | string      | ISO 8601 date when record was generated |
+| `interpreter_model`  | no       | string      | LLM model identifier |
+
+#### Body sections
+
+1. **interpretation** (~200-400 words): Free-text narrative of what this meeting
+   means to the persona. Present tense. Grounded in evidence.
+
+2. **deltas** (structured table): What changed relative to the persona's prior
+   state. Each delta has:
+   - `category`: `new_information`, `position_shift`, `supersession`,
+     `thread_opened`, `thread_resolved`
+   - `description`: Concrete statement of the change
+   - `evidence_ref` (optional): Source reference
+   - `supersedes` (optional): Prior belief being replaced
+
+3. **emotional_register** (1-2 sentences): Brief note on the persona's
+   emotional state after this meeting.
+
+### Summary View (generated, regenerable)
+
+A summary view synthesizes all records for one persona into a current-state
+overview. File path: `data/interpretation/cumulative/<PERSONA-ID>/summary.md`
+
+#### Frontmatter fields
+
+| Field              | Required | Type    | Description |
+|--------------------|----------|---------|-------------|
+| `schema_version`   | yes      | string  | Always `"1.0"` |
+| `persona_id`       | yes      | string  | Persona identifier |
+| `persona_name`     | no       | string  | Display name |
+| `last_meeting_date`| yes      | string  | Date of most recent record |
+| `record_count`     | yes      | integer | Number of records synthesized |
+| `generated_date`   | yes      | string  | Date summary was generated |
+
+#### Body sections
+
+1. **Current Understanding** (~150-300 words): Regenerated synthesis of the
+   persona's current state. Authoritative present-tense overview.
+
+2. **Timeline of Understanding Shifts**: Ordered list with one entry per meeting
+   showing date and shift summary.
+
+3. **Active Supersessions**: Table of beliefs that have been explicitly replaced,
+   with from/to/when columns.
+
+4. **Open Threads**: Unresolved questions (thread_opened minus thread_resolved).
+
+5. **Resolved Threads**: Questions that have been answered, with resolution
+   date and summary.
+
+### Initial State Template
+
+The file `cumulative-initial-state.md.template` provides a template for the
+first cumulative record when no prior meetings exist. It seeds the interpretation
+from the persona definition's baseline goals and concerns.
+
+### Schema definitions
+
+- `cumulative-record-schema.yaml` -- JSON Schema for cumulative records
+- `cumulative-summary-schema.yaml` -- JSON Schema for summary views
+
+### Validation
+
+Run the validation script to check cumulative records:
+
+```bash
+python3 scripts/validate_cumulative.py data/interpretation/cumulative/PERSONA-001/2026-01-12.md
+```
+
+Or validate all cumulative records and summary views:
+
+```bash
+python3 scripts/validate_cumulative.py --all
+```
+
+Validate only summary views:
+
+```bash
+python3 scripts/validate_cumulative.py --summary
+```
+
+The script checks:
+- YAML frontmatter has required fields
+- Required body sections exist (interpretation, deltas, emotional_register)
+- Delta category values are from the allowed enum
+- Interpretation section word count is within range (~200-400 words)
+- Prior_meeting chain is consistent (null for first record, valid date otherwise)
+- Summary views have all required sections

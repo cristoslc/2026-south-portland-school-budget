@@ -1,0 +1,200 @@
+# Cumulative Interpretation Record — JSON Schema (YAML encoding)
+#
+# Validates immutable per-persona, per-meeting cumulative interpretation
+# records. Each record captures how a persona's understanding evolved
+# after processing a single meeting, including structured deltas
+# (new information, position shifts, supersessions, thread changes)
+# and an emotional register.
+#
+# Records are write-once and never modified. One file per persona per
+# meeting, stored at:
+#   data/interpretation/cumulative/<PERSONA-ID>/<meeting-date>.md
+#
+# Spec: SPEC-020 (Cumulative Interpretation Format)
+# Part of: EPIC-010 / VISION-003 (Interpretation Pipeline)
+# Depends on: SPIKE-006 (Cumulative Fold Strategy), SPEC-018
+
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "cumulative-record-schema"
+title: "Cumulative Interpretation Record"
+description: >
+  Schema for an immutable per-persona, per-meeting cumulative
+  interpretation record. Each record has YAML frontmatter identifying
+  the persona, meeting, and chain position, followed by three body
+  sections: interpretation (free-text narrative), deltas (structured
+  change table), and emotional_register (brief affective note).
+
+type: object
+
+required:
+  - schema_version
+  - persona_id
+  - meeting_date
+  - meeting_type
+  - body
+  - prior_meeting
+  - interpretation_date
+  - interpretation
+  - deltas
+  - emotional_register
+
+properties:
+
+  # --- Frontmatter fields ---
+
+  schema_version:
+    type: string
+    const: "1.0"
+    description: >
+      Schema version string. Allows future evolution without breaking
+      existing consumers.
+
+  persona_id:
+    type: string
+    pattern: "^PERSONA-\\d{3}$"
+    description: >
+      Persona identifier matching a validated persona document
+      (e.g., "PERSONA-001").
+
+  persona_name:
+    type: string
+    description: >
+      Display name of the persona (e.g., "Maria"). Optional but
+      recommended for human readability.
+
+  meeting_date:
+    type: string
+    format: date
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+    description: >
+      ISO 8601 date of the meeting this record covers (YYYY-MM-DD).
+
+  meeting_type:
+    type: string
+    enum:
+      - regular
+      - workshop
+      - special
+      - budget-forum
+      - budget-workshop
+      - joint
+    description: >
+      Meeting type, matching the bundle manifest meeting_type enum.
+
+  body:
+    type: string
+    enum:
+      - school-board
+      - city-council
+    description: >
+      Governing body that held the meeting.
+
+  prior_meeting:
+    type:
+      - string
+      - "null"
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+    description: >
+      ISO 8601 date of the previous cumulative record for this persona,
+      or null if this is the first record (initial state). Establishes
+      the chain ordering.
+
+  interpretation_date:
+    type: string
+    format: date
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+    description: >
+      ISO 8601 date when this cumulative record was generated.
+
+  interpreter_model:
+    type: string
+    description: >
+      Identifier for the LLM model used to generate this record
+      (e.g., "claude-sonnet-4-20250514"). Optional.
+
+  # --- Body sections ---
+
+  interpretation:
+    type: string
+    minLength: 100
+    description: >
+      Free-text narrative (~200-400 words) describing what this meeting
+      means to the persona. Written as if the persona is processing the
+      meeting in real time. Present tense for this meeting's content.
+      Must be grounded in evidence from the meeting.
+
+  deltas:
+    type: array
+    minItems: 1
+    items:
+      $ref: "#/$defs/delta_entry"
+    description: >
+      Structured list of what changed relative to the persona's prior
+      cumulative state. At least one delta is expected per record (a
+      meeting with zero deltas would not warrant a cumulative record).
+
+  emotional_register:
+    type: string
+    minLength: 10
+    maxLength: 500
+    description: >
+      Brief note (1-2 sentences) on the persona's emotional state after
+      this meeting. Captures affective tone that might be lost in
+      structured delta data.
+
+additionalProperties: false
+
+$defs:
+
+  delta_entry:
+    type: object
+    required:
+      - category
+      - description
+    properties:
+
+      category:
+        type: string
+        enum:
+          - new_information
+          - position_shift
+          - supersession
+          - thread_opened
+          - thread_resolved
+        description: >
+          The type of change this delta represents.
+          - new_information: a fact or detail the persona did not
+            previously know
+          - position_shift: the persona's stance or posture has changed
+          - supersession: a prior belief or understanding has been
+            explicitly replaced
+          - thread_opened: a new unresolved question or concern has
+            emerged
+          - thread_resolved: a previously open question has been
+            answered or rendered moot
+
+      description:
+        type: string
+        minLength: 5
+        description: >
+          What changed. Should be concrete and specific, not abstract
+          (e.g., "Budget gap quantified: $7.2M structural deficit"
+          rather than "Budget information was shared").
+
+      evidence_ref:
+        type: string
+        description: >
+          Reference to the evidence supporting this delta. May be a
+          source_id from the meeting bundle, a timestamp range, or a
+          reference to a specific document. Optional but recommended.
+
+      supersedes:
+        type: string
+        description: >
+          For supersession deltas: describes the prior belief or
+          understanding that this delta replaces. Should include the
+          date of the original position where possible (e.g.,
+          '"difficult year" (2026-01-12)'). Optional for non-supersession
+          deltas.
+
+    additionalProperties: false

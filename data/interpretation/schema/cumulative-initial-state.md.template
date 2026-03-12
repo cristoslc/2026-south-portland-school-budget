@@ -1,0 +1,58 @@
+---
+schema_version: "1.0"
+persona_id: "{{PERSONA_ID}}"
+persona_name: "{{PERSONA_NAME}}"
+meeting_date: "{{MEETING_DATE}}"
+meeting_type: {{MEETING_TYPE}}
+body: {{BODY}}
+prior_meeting: null
+interpretation_date: "{{INTERPRETATION_DATE}}"
+---
+
+# Cumulative Record: {{PERSONA_NAME}} ({{PERSONA_ID}})
+## Meeting: {{MEETING_TITLE}} -- {{MEETING_DATE_DISPLAY}}
+
+### Interpretation
+
+<!-- ~200-400 words. This is the first cumulative record for this persona.
+     No prior meetings have been processed.
+
+     The interpretation should:
+     1. Establish the persona's pre-meeting baseline: what they knew or
+        expected coming into this meeting, drawn from the persona
+        definition's goals, frustrations, and behavioral patterns
+     2. Describe what this first meeting means to the persona
+     3. Use present tense for this meeting's content
+     4. Ground claims in evidence from the meeting bundle
+
+     Baseline concerns to seed from the persona definition:
+     - Goals: {{PERSONA_GOALS}}
+     - Frustrations: {{PERSONA_FRUSTRATIONS}}
+     - Behavioral patterns: {{PERSONA_BEHAVIORS}}
+-->
+
+{{INTERPRETATION_TEXT}}
+
+### Deltas
+
+<!-- Since this is the first record, all deltas will be either
+     new_information or thread_opened. There can be no position_shift,
+     supersession, or thread_resolved entries because there is no
+     prior state to shift from or resolve against.
+
+     Category enum: new_information | position_shift | supersession |
+                    thread_opened | thread_resolved
+-->
+
+| Category | Description | Evidence Ref | Supersedes |
+|----------|-------------|--------------|------------|
+| new_information | {{DELTA_1}} | {{REF_1}} | -- |
+| thread_opened | {{THREAD_1}} | {{REF_2}} | -- |
+
+### Emotional Register
+
+<!-- 1-2 sentences capturing the persona's emotional state after this
+     meeting. Should reflect the persona's baseline disposition meeting
+     the first concrete budget information. -->
+
+{{EMOTIONAL_REGISTER_TEXT}}

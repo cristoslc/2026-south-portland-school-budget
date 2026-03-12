@@ -55,4 +55,4 @@ Encounters budget information under deadline pressure, usually the day of or day
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-11 | 48c4cde | Initial creation |
-| Validated | 2026-03-11 | TBD | Validated for interpretation pipeline |
+| Validated | 2026-03-11 | 97af66e | Validated for interpretation pipeline |

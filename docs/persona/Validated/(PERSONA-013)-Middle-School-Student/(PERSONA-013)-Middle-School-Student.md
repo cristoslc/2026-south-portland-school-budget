@@ -52,4 +52,4 @@ Experiences the budget as effects, not as a document. Her "interface" to the bud
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-11 | ee27cb1 | Initial creation |
-| Validated | 2026-03-11 | TBD | Validated for interpretation pipeline |
+| Validated | 2026-03-11 | 4cae7c9 | Validated for interpretation pipeline |

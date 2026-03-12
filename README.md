@@ -20,6 +20,17 @@ The `dist/briefings/` folder contains ready-to-read briefings -- the main output
 | [Linda (School Board Insider)](dist/briefings/persona-007-linda-school-board-insider.md) | Board members and governance participants |
 | [Rachel (Disruption-Averse Parent)](dist/briefings/persona-008-rachel-disruption-averse-parent.md) | Parents prioritizing stability and minimal disruption |
 
+Briefings for the remaining six personas are not yet generated:
+
+| Persona | Audience |
+|---------|----------|
+| Dana (Local TV News Producer) | Journalists covering the story for broadcast |
+| Ben (Forecaster Writer) | Long-form journalists and newsletter writers |
+| Meg (Group Chat Relay) | Parents who distill meetings into social media and group chats |
+| Jaylen (High School Student) | High school students affected by staffing and program cuts |
+| Amira (Middle School Student) | Middle schoolers navigating transition-year uncertainty |
+| Lila (Elementary Student) | Elementary students experiencing school closures firsthand |
+
 ## Research Documentation
 
 The `docs/` folder contains the research artifacts behind the briefings.
@@ -34,7 +45,7 @@ Primary source research, organized by topic. Each pool has a manifest, individua
 
 ### Personas
 
-Eight [validated stakeholder personas](docs/persona/list-persona.md) representing the range of people affected by this budget. Each persona defines key questions, information needs, and concerns that guided the briefing content.
+Fourteen [validated stakeholder personas](docs/persona/list-persona.md) representing the range of people affected by this budget -- parents, teachers, taxpayers, board members, journalists, community advocates, and students from elementary through high school. Each persona defines key questions, information needs, and concerns that guide the briefing content.
 
 ### User Journeys
 
@@ -47,7 +58,26 @@ Four [draft user journeys](docs/journey/list-journey.md) mapping how different s
 
 ### Vision
 
-The [project vision](docs/vision/Active/(VISION-001)-SP-Budget-Analysis/(VISION-001)-SP-Budget-Analysis.md) defines scope, audience, success metrics, and non-goals.
+- **[VISION-001: Budget Analysis](docs/vision/Active/(VISION-001)-SP-Budget-Analysis/(VISION-001)-SP-Budget-Analysis.md)** -- Scope, audience, success metrics, and non-goals for the analysis itself.
+- **[VISION-002: Evidence Pipeline](docs/vision/Active/(VISION-002)-Evidence-Pipeline/(VISION-002)-Evidence-Pipeline.md)** *(WIP)* -- Automated pipeline to keep evidence pools current as new meetings and documents are published. See below.
+
+## Evidence Pipeline (WIP)
+
+VISION-002 defines an automated pipeline that detects new meeting materials, downloads them, normalizes to markdown, and stages them into evidence pools -- replacing the current manual collection process. The pipeline has three layers, built progressively:
+
+**Implemented:**
+- **Source connectors** -- Vimeo VTT download (API-based) and Diligent Community agenda scraping (Playwright-based)
+- **Normalizers** -- VTT transcript parsing, PDF text extraction, HTML cleaning, XLSX conversion
+- **Pipeline runner** -- Orchestrates discovery → download → normalization → evidence pool integration
+- **Scheduling** -- Cron-based pipeline runs with incremental processing (only new/changed sources)
+- **Meeting bundles** -- Groups evidence pool sources into per-meeting bundles with schema validation
+
+**In progress (Draft specs):**
+- **Per-meeting interpretation** -- Generate 14 persona-specific interpretations per meeting bundle, each with structured analysis points, emotional journey maps, and persona-voice reactions
+- **Cumulative narratives** -- Log-structured fold system that integrates new meeting interpretations into running per-persona narratives, preserving how each persona's understanding evolves over time
+- **Pre-meeting briefs** -- Forward-looking briefings generated before each upcoming meeting, surfacing open questions and agenda implications personalized to each persona
+
+Pipeline code lives in `pipeline/` (library modules) and `scripts/` (CLI entry points).
 
 ## Raw Data
 
@@ -55,11 +85,17 @@ The `data/` folder contains source materials -- meeting transcripts (VTT), budge
 
 ## Scripts
 
-Utility scripts in `scripts/` for data processing:
+CLI entry points in `scripts/`:
 
+- `pipeline.py` -- Run the full evidence pipeline (discovery → download → normalize → pool integration)
 - `parse_vtt.py` -- Parse Vimeo auto-generated transcript files
 - `build_evidence_pool.py` -- Build structured evidence pools from source documents
 - `add_key_points.py` -- Extract and annotate key points from sources
+- `bundle_meetings.py` -- Group evidence pool sources into per-meeting bundles
+- `validate_bundle.py` -- Validate meeting bundle schema compliance
+- `interpret_meeting.py` -- Generate persona-specific interpretations for a meeting bundle *(WIP)*
+- `fold_meeting.py` -- Fold new interpretations into cumulative narratives *(WIP)*
+- `generate_briefs.py` -- Generate pre-meeting briefings per persona *(WIP)*
 
 ## Timeline
 

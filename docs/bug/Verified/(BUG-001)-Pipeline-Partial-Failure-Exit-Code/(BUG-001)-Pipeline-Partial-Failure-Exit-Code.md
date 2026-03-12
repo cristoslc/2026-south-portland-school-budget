@@ -10,7 +10,9 @@ affected-artifacts:
   - SPEC-007
   - SPEC-003
 discovered-in: "GitHub Actions run 22962846728"
-fix-ref: "SPEC-013, EPIC-006"
+fix-ref: SPEC-013
+linked-epics:
+  - EPIC-006
 depends-on: []
 swain-do: required
 ---

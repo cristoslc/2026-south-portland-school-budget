@@ -5,7 +5,7 @@ status: Active
 product-type: personal
 author: cristos
 created: 2026-03-09
-last-updated: 2026-03-10
+last-updated: 2026-03-11
 depends-on: []
 ---
 
@@ -13,7 +13,7 @@ depends-on: []
 
 ## Target Audience
 
-South Portland residents who want to understand the proposed 2026 school budget and its implications -- parents (current and incoming), teachers, community advocates, taxpayers, and school board participants. See PERSONA-001 through PERSONA-008 for detailed stakeholder profiles.
+South Portland residents who want to understand the proposed 2026 school budget and its implications -- parents (current and incoming), teachers, community advocates, taxpayers, school board participants, local media, and students affected by budget decisions. See PERSONA-001 through PERSONA-014 for detailed stakeholder profiles.
 
 ## Value Proposition
 
@@ -35,7 +35,7 @@ The gap between the published budget and public understanding creates dysfunctio
 
 ## Build vs. Buy
 
-Tier 3 -- build from scratch. No existing tool or service provides South Portland-specific budget analysis. The value is in the analysis itself (interpretation, contextualization, comparison), not in a reusable platform. The "product" is a set of research artifacts -- documents, visualizations, and data extracts -- not a software application.
+Tier 3 -- build from scratch. No existing tool or service provides South Portland-specific budget analysis. The value is in the analysis itself (interpretation, contextualization, comparison), not in a reusable platform. The outputs take whatever form best serves understanding and engagement -- documents, visualizations, interactive tools, data extracts -- chosen per deliverable, not constrained by a blanket format decision.
 
 ## Maintenance Budget
 
@@ -49,10 +49,10 @@ Low ongoing effort. This is a point-in-time analysis of the 2026 proposed budget
 
 ## Non-Goals
 
-- Building a software application or interactive dashboard (analysis artifacts are static documents and data files)
 - Covering the full municipal budget (city side) -- this is school department only
 - Advocating for a specific budget outcome -- the analysis is descriptive and comparative, not prescriptive
 - Replacing or competing with official district communications
+- Building a general-purpose platform -- tools are purpose-built for this budget cycle, though methodology may be reusable
 
 ## Lifecycle
 

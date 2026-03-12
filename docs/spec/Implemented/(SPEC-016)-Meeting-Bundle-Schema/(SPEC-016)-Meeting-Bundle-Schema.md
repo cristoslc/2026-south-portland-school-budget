@@ -1,10 +1,12 @@
 ---
 title: "Meeting Bundle Schema"
 artifact: SPEC-016
-status: Draft
+status: Implemented
 author: cristos
 created: 2026-03-12
 last-updated: 2026-03-12
+implemented: 2026-03-12
+approved: 2026-03-12
 parent-epic: EPIC-008
 linked-research: []
 linked-adrs: []
@@ -40,6 +42,11 @@ The interpretation pipeline needs a well-defined data structure for meeting bund
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC1 — manifest fields | 46 tests in test_bundle_schema.py; MeetingBundle dataclass validates date, type, body, sources, agenda_ref | PASS |
+| AC2 — source completeness | source_completeness.py: 38/38 pool sources affiliated, 0 missing, 0 duplicates | PASS |
+| AC3 — path resolution | test_bundle_layout.py: resolve_source_paths checks all paths; 20/20 real bundles valid | PASS |
+| AC4 — inter-meeting date range | 40 tests in test_inter_meeting_schema.py; InterMeetingEntry validates posted_after < posted_before | PASS |
+| AC5 — validation script | validate_schema.py + 13 tests; rejects missing fields, invalid enums, malformed YAML | PASS |
 
 ## Scope & Constraints
 
@@ -61,3 +68,5 @@ The interpretation pipeline needs a well-defined data structure for meeting bund
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Draft | 2026-03-12 | 7207791 | Initial creation |
+| Approved | 2026-03-12 | cdf39f3 | Promoted to Approved; implementation plan created |
+| Implemented | 2026-03-12 | — | All 5 ACs verified; 123 tests pass; 20 real bundles + 38 pool sources validated |

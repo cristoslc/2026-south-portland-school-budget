@@ -5,10 +5,11 @@ Checks:
   - YAML frontmatter has required fields (schema_version, meeting_id, persona_id)
   - Optional frontmatter fields have valid formats (dates, patterns)
   - All three body sections exist (Structured Points, Journey Map, Reactions)
-  - Structured points have required fields (fact, source, emotional valence, threat level)
-  - Emotional valence values are from the allowed enum
-  - Threat level values map to valid levels (high, moderate, low, none)
-  - Journey map beats have required columns
+  - Structured points have required fields (fact, source_reference, emotional_valence,
+    threat_level, open_question)
+  - Emotional valence values are from the SPEC-018 enum
+  - Threat level values are integers in the range 1-5
+  - Journey map beats use the SPEC-018 four-column table
   - Reactions section is non-empty
 
 Usage:
@@ -40,14 +41,7 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 
 # --- Schema constants ---
 
-VALID_EMOTIONAL_VALENCES = {
-    "alarmed", "anxious", "frustrated", "skeptical",
-    "neutral", "cautiously_optimistic", "reassured", "empowered",
-}
-
-VALID_THREAT_LEVELS = {"high", "moderate", "low", "none"}
-
-THREAT_LEVEL_INT_MAP = {"none": 1, "low": 2, "moderate": 3, "high": 4}
+VALID_EMOTIONAL_VALENCES = {"positive", "negative", "neutral"}
 
 MEETING_ID_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}-[a-z][a-z0-9-]+$")
 PERSONA_ID_PATTERN = re.compile(r"^PERSONA-\d{3}$")
@@ -228,9 +222,11 @@ def _validate_point_fields(point_text, prefix, errors):
         errors.append(f"{prefix}: fact is too short (< 10 chars)")
 
     # Source reference
-    source_match = re.search(r"\*\*Source(?:_reference)?:\*\*\s*(.+)", point_text)
+    source_match = re.search(
+        r"\*\*Source(?:\s+reference|_reference)?:\*\*\s*(.+)", point_text
+    )
     if not source_match:
-        errors.append(f"{prefix}: missing '**Source:**' field")
+        errors.append(f"{prefix}: missing '**Source reference:**' field")
     elif len(source_match.group(1).strip()) < 1:
         errors.append(f"{prefix}: source reference is empty")
 
@@ -256,14 +252,30 @@ def _validate_point_fields(point_text, prefix, errors):
         errors.append(f"{prefix}: missing '**Threat level:**' field")
     else:
         threat = threat_match.group(1).strip().rstrip(",.")
-        if threat not in VALID_THREAT_LEVELS:
+        if not threat.isdigit():
             errors.append(
-                f"{prefix}: invalid threat_level '{threat}' — "
-                f"expected one of: {', '.join(sorted(VALID_THREAT_LEVELS))}"
+                f"{prefix}: invalid threat_level '{threat}' — expected integer 1-5"
             )
+        else:
+            threat_num = int(threat)
+            if threat_num < 1 or threat_num > 5:
+                errors.append(
+                    f"{prefix}: invalid threat_level '{threat}' — expected integer 1-5"
+                )
 
-    # Open question (optional — just check format if present)
-    # No validation needed beyond presence check
+    # Open question
+    open_question_match = re.search(
+        r"\*\*Open\s+question:\*\*\s*(\S+)", point_text
+    )
+    if not open_question_match:
+        errors.append(f"{prefix}: missing '**Open question:**' field")
+    else:
+        open_question = open_question_match.group(1).strip().rstrip(",.").lower()
+        if open_question not in {"true", "false"}:
+            errors.append(
+                f"{prefix}: invalid open_question '{open_question}' — "
+                "expected boolean true/false"
+            )
 
 
 def validate_journey_map(body):
@@ -283,16 +295,16 @@ def validate_journey_map(body):
     else:
         jm_content = body[jm_start:]
 
-    # Find the table — look for the header row with expected columns
+    # Find the table — look for the SPEC-018 header row
     table_header = re.search(
-        r"\|\s*Beat\s*\|\s*Time\s*\|\s*Label\s*\|\s*Emotional\s+State\s*\|\s*Trigger\s*\|\s*Internal\s+Monologue\s*\|",
+        r"\|\s*Position\s*\|\s*Meeting\s+Event\s*\|\s*Persona\s+Cognitive\s+State\s*\|\s*Persona\s+Emotional\s+State\s*\|",
         jm_content,
         re.IGNORECASE,
     )
     if not table_header:
         errors.append(
             "journey_map: table header not found — expected columns: "
-            "Beat, Time, Label, Emotional State, Trigger, Internal Monologue"
+            "Position, Meeting Event, Persona Cognitive State, Persona Emotional State"
         )
         return 0, errors
 
@@ -313,39 +325,39 @@ def validate_journey_map(body):
         errors.append("journey_map: no data rows found in table")
         return 0, errors
 
-    if len(data_lines) < 4:
-        errors.append(
-            f"journey_map: found {len(data_lines)} beat(s), expected at least 4"
-        )
-    elif len(data_lines) > 6:
-        errors.append(
-            f"journey_map: found {len(data_lines)} beat(s), expected at most 6"
-        )
-
-    # Validate each row has 6 cells
+    # Validate each row has 4 cells and a sequential position.
     for i, line in enumerate(data_lines):
         beat_num = i + 1
         cells = [c.strip() for c in line.split("|")]
         # Split by | gives empty strings at start/end for properly formatted rows
         cells = [c for c in cells if c or c == ""]
-        # A proper table row |a|b|c|d|e|f| splits into ['', 'a', 'b', 'c', 'd', 'e', 'f', '']
-        # After filtering we need at least 6 non-boundary cells
         raw_cells = line.split("|")
-        # Remove first and last empty from pipe-delimited
         if raw_cells and raw_cells[0].strip() == "":
             raw_cells = raw_cells[1:]
         if raw_cells and raw_cells[-1].strip() == "":
             raw_cells = raw_cells[:-1]
         content_cells = [c.strip() for c in raw_cells]
 
-        if len(content_cells) < 6:
+        if len(content_cells) < 4:
             errors.append(
-                f"journey_map[{beat_num}]: expected 6 columns, found {len(content_cells)}"
+                f"journey_map[{beat_num}]: expected 4 columns, found {len(content_cells)}"
             )
             continue
 
+        expected_position = str(beat_num)
+        if content_cells[0] != expected_position:
+            errors.append(
+                f"journey_map[{beat_num}]: expected Position '{expected_position}', "
+                f"found '{content_cells[0]}'"
+            )
+
         # Check that key cells are non-empty
-        col_names = ["Beat", "Time", "Label", "Emotional State", "Trigger", "Internal Monologue"]
+        col_names = [
+            "Position",
+            "Meeting Event",
+            "Persona Cognitive State",
+            "Persona Emotional State",
+        ]
         for j, col_name in enumerate(col_names):
             if j < len(content_cells) and not content_cells[j]:
                 errors.append(

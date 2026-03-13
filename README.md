@@ -19,17 +19,12 @@ The `dist/briefings/` folder contains ready-to-read briefings -- the main output
 | [Tom (Tax-Conscious Resident)](dist/briefings/persona-006-tom-tax-conscious-resident.md) | Taxpayers evaluating the fiscal picture and mil rate impact |
 | [Linda (School Board Insider)](dist/briefings/persona-007-linda-school-board-insider.md) | Board members and governance participants |
 | [Rachel (Disruption-Averse Parent)](dist/briefings/persona-008-rachel-disruption-averse-parent.md) | Parents prioritizing stability and minimal disruption |
-
-Briefings for the remaining six personas are not yet generated:
-
-| Persona | Audience |
-|---------|----------|
-| Dana (Local TV News Producer) | Journalists covering the story for broadcast |
-| Ben (Forecaster Writer) | Long-form journalists and newsletter writers |
-| Meg (Group Chat Relay) | Parents who distill meetings into social media and group chats |
-| Jaylen (High School Student) | High school students affected by staffing and program cuts |
-| Amira (Middle School Student) | Middle schoolers navigating transition-year uncertainty |
-| Lila (Elementary Student) | Elementary students experiencing school closures firsthand |
+| [Dana (Local TV News Producer)](dist/briefings/persona-009-dana-local-tv-news-producer.md) | Journalists covering the story for broadcast |
+| [Ben (Forecaster Writer)](dist/briefings/persona-010-ben-forecaster-writer.md) | Long-form journalists and newsletter writers |
+| [Meg (Group Chat Relay)](dist/briefings/persona-011-meg-group-chat-relay.md) | Parents who distill meetings into social media and group chats |
+| [Jaylen (High School Student)](dist/briefings/persona-012-jaylen-high-school-student.md) | High school students affected by staffing and program cuts |
+| [Amira (Middle School Student)](dist/briefings/persona-013-amira-middle-school-student.md) | Middle schoolers navigating transition-year uncertainty |
+| [Lila (Elementary Student)](dist/briefings/persona-014-lila-elementary-student.md) | Elementary students experiencing school closures firsthand |
 
 ## Research Documentation
 

@@ -4,58 +4,79 @@
 
 ---
 
-## Where We Are in the Process
+*The following focuses on material that may not be visible from staff packets alone -- political dynamics, cross-body tensions, and decision framing that falls between the lines.*
 
-The superintendent presented the proposed budget on March 9. The board now owns the next phase:
+## Three Decisions in the Next 30 Days
 
-| Date | Event | Decision Point |
-|------|-------|---------------|
-| Mar 16 | Open conversation w/ leadership | Community pulse check |
-| Mar 23 | Workshop II — line-item detail | Interrogate specifics |
-| Mar 30 | Workshop III | **Potential board vote to adopt budget** |
-| Apr 7 | Present to City Council | Frame the narrative |
-| Apr 14 | Council budget workshop | Defend the numbers |
-| May 5 | **Council vote** | Legal adoption |
-| Jun 9 | **Public referendum** | Validation |
+1. **March 30: Adopt the budget (or not).** Does the board send a 3.33% proposal to council, push it higher to restore positions, or delay? The superintendent's number is well below council's ceiling. That gap is either leverage or vulnerability.
 
-The critical path runs through **March 30** (board consensus), **May 5** (council approval), and **June 9** (public vote). Each stage has different political dynamics.
+2. **April 7: Frame the council presentation.** The Feb 10 session revealed a governance fault line. The April presentation must land as shared civic responsibility, not school-vs-city negotiation. If the frame is adversarial, the referendum fails.
 
-## The Superintendent's Proposal
+3. **Pre-referendum: Document the Dyer rationale.** The matrix scored Skillin 46/46 and the superintendent chose the 20/46 option. If the board adopts the Dyer closure without a written equity rationale explaining why the top-scoring option was rejected, it creates vulnerability at referendum and in any future facilities challenge.
 
-- **$75.85M operating budget** (+3.33% over FY26)
-- **78 position reductions** (657 → 579 FTE, 12% cut)
-- **Close Dyer Elementary**, redistrict students
-- **$8.4M in cuts** to bridge the structural gap
-- **$0 fund balance** — no draw-down available
+## Scenario Modeling: What the Levy Levels Buy
 
-The 3.33% proposal is well below council's expressed ceiling of 5-6%. That gap is either margin for the board to restore positions, or margin for council to come in lower. How the board frames this in the April presentation shapes the outcome.
+| Levy Increase | Approx. Budget | Implied FTE | Positions vs. 3.33% | Tax Impact ($300K home) |
+|---------------|---------------|-------------|---------------------|------------------------|
+| 3.33% | $75.85M | 579 | Baseline | ~+$135/yr |
+| 5.0% | ~$77.1M | ~604 | ~+25 restored | ~+$200/yr |
+| 6.0% | ~$77.8M | ~615 | ~+36 restored | ~+$240/yr |
+
+These are rough estimates. The precise numbers depend on non-tax revenue assumptions and where restored positions fall in the salary schedule. But the board needs this kind of scenario table for the council presentation. If staff hasn't produced one, request it for the March 23 workshop.
 
 ## Council Dynamics (from Feb 10 Joint Session)
 
-Individual councilor guidance on the school tax levy:
-
-| Councilor | Guidance | Notable Position |
-|-----------|----------|-----------------|
+| Councilor | School Guidance | Notable Position |
+|-----------|----------------|-----------------|
 | Walker | At least 6% | Most supportive of education investment |
 | West | ~5.9% (Option B) | Wants multi-year belt-tightening plan |
 | Tipton (Mayor) | ~6% (Plan B) | Acknowledges real repercussions |
 | Scott | 3-6% range | "Significant right-sizing needed" |
 | Pride | Below 6% | Historically targeted 4% |
 | Matthews | Lower than B/C | Historically never above 3% |
-| Coleman | Not explicitly recorded | — |
+| Coleman | Not explicitly recorded | -- |
 
-**Composite:** 5-6% is achievable if the board makes a compelling case. 3-4% is the floor below which cuts become untenable. The board needs Walker, West, and Tipton locked in and at least one of Scott/Pride/Coleman.
+**Coalition math:** 5-6% needs Walker, West, Tipton locked in plus at least one of Scott/Pride/Coleman. Matthews is a likely no above 3%.
 
-## The Structural Tension
+## State Funding Exposure (EPS)
 
-The Feb 10 session exposed a real governance fault line:
+This is your biggest unpredictable cost driver and it's absent from the proposed budget narrative:
 
-- **Chair DeAngelis** pressed council for a specific number. Council members bristled.
-- **The legal structure** is awkward: the school department is a city department whose budget council must approve, but council has no operational oversight (city manager has no authority over superintendent).
-- **Finance Director Sanborn** described the boundary as "murky."
-- **Board member Holman** challenged the regressive property tax model directly: "Where is the creative thinking?"
+- **FY27 state subsidy assumption:** 22.86% of the EPS model cost ($15.5M of $48.3M)
+- **Actual costs:** $75.6M -- the EPS model underestimates by $27.3M
+- **LD 2226** (pending) would amend the EPS formula. Outcomes are uncertain. If the legislature adjusts subsidy percentages downward, the local share increases automatically.
+- **Risk scenario:** A 1-point drop in state share (~$480K) would need to come from additional cuts or a higher levy. The board should know the sensitivity range before voting.
 
-For the April presentation, the board needs to bridge this gap — present the budget as a shared civic responsibility, not a school-vs-city negotiation. The referendum fails if it becomes adversarial.
+The council explicitly asked for a multi-year fiscal outlook. This is where the EPS variability matters most -- and it hasn't been addressed in any workshop.
+
+## Contract Status
+
+- **SPTA:** Current agreement in effect. Base raise is CPI + 1.5% (4.2%); actual cost with step/lane is 6.3%.
+- **SPESPA:** Actual cost increase is 8.4%.
+- **Contract expiration dates** are not in the public evidence pool. If any agreements expire before FY27 adoption or during FY27, the budget's personnel cost assumptions carry risk. Confirm with legal counsel.
+
+The union president's testimony at Feb 9 framed wages as "negotiated in good faith" and the gap as a revenue problem. Expect this frame to intensify through referendum season.
+
+## FY26 Mid-Year Shortfall
+
+The mid-year projection shows a potential **$622K-$1.7M shortfall** in FY26. This may need temporary coverage from city-side fund balance. Key questions:
+
+- Does this require a board vote or is it an administrative transfer?
+- What is the mechanism and timeline?
+- How does this look to voters heading into the referendum? ("The school department can't stay within its adopted budget" is the opposition frame.)
+
+Have the response prepared. The audit already flags budget non-compliance as a repeat finding.
+
+## SPED Compliance Risk
+
+The exposure here is potentially the most consequential item on the board's plate:
+
+- **23% of students** are in special education
+- **CDS mandate** adds 80-90 four-year-olds in September 2026 (three-year-olds in FY28)
+- **78 positions** being cut, including 16 ed techs who are the primary SPED support layer
+- **No public analysis** addresses whether remaining staffing meets IDEA obligations
+
+Federal IDEA compliance failures can result in corrective action plans, loss of federal funding, and litigation. The board should have a written assurance from the special education director that the proposed staffing model meets legal requirements -- or a clear statement of where it falls short. This is due diligence before voting.
 
 ## Fund Balance and Fiscal Health
 
@@ -67,42 +88,27 @@ For the April presentation, the board needs to bridge this gap — present the b
 | FY26 entry | $739K |
 | FY27 | $0 |
 
-Leadership explicitly recommends that any FY27 savings (e.g., health insurance coming in below 12%) go to rebuilding the fund balance, not restoring spending. This is sound policy but will require discipline when community pressure mounts to restore positions.
-
-The FY26 mid-year projection shows a potential shortfall of $622K-$1.7M, which may need temporary coverage from city-side fund balance. This is a bad look heading into referendum season.
+Leadership recommends that any FY27 savings go to rebuilding the fund balance, not restoring spending. Sound policy -- but requires discipline when community pressure mounts.
 
 ## Audit Exposure
 
-Five FY25 findings, most critically:
-- **Material weakness** in school reconciliations (repeat finding)
+Five FY25 findings:
+- **Material weakness** in school reconciliations (repeat)
 - **$400K in misallocated grant funds** (including Title I)
-- **Budget non-compliance** (legally adopted budget exceeded — repeat)
+- **Budget non-compliance** (adopted budget exceeded -- repeat)
 - Six finance directors in five years
 
-The new finance director is reportedly stabilizing operations. But at referendum time, opponents will cite these findings. Have the response ready: specific corrective actions, timeline, and evidence of improvement.
+The new finance director is stabilizing operations. At referendum time, opponents will cite these findings. Have the response ready: specific corrective actions, timeline, evidence of improvement.
 
-## The Reconfiguration Politics
+## What the Board Needs Before Voting (March 30)
 
-The matrix-based evaluation recommended closing Skillin (score: 46/46, 5-year savings: $19.6M). The superintendent instead proposed closing Dyer (score: 20/46, savings: $12.8M) after community pushback.
-
-This is defensible — equity considerations around Skillin's immigrant-serving role are real — but it needs to be **explicitly justified in writing**, not just explained verbally. If the board adopts the Dyer closure without documenting why the highest-scoring option was rejected, it creates vulnerability at referendum and in any future facilities challenge.
-
-## What the Board Needs Before Voting
-
-1. **School-by-school class size projections** under the 312-teacher model
-2. **Transportation analysis** for Dyer redistricting (cost and routing)
-3. **Written equity rationale** for choosing Dyer over Skillin
-4. **SPED compliance assessment** — 78 fewer staff, growing obligations, CDS mandate
-5. **Multi-year fiscal outlook** (3-5 year projection) — council explicitly asked for this
-6. **Capital planning policy draft** — referenced by leadership as needed, doesn't exist yet
-
-## The Referendum Landscape
-
-The June 9 vote is on the combined city/school budget. Historical patterns:
-- Budgets fail when the school increase is perceived as excessive and the narrative is adversarial
-- Budgets pass when the community understands the trade-offs and feels heard
-
-The communication gap is real — multiple board members and community members have noted that many residents don't understand the $8.4M gap. The March 16 open conversation and the April council presentations are the last chances to set the narrative before referendum season.
+1. **Scenario table** -- levy at 3.33%, 5%, and 6% with FTE and tax impact
+2. **School-by-school class size projections** under the 312-teacher model
+3. **Transportation analysis** for Dyer redistricting (cost and routing)
+4. **Written equity rationale** for choosing Dyer over Skillin
+5. **SPED compliance assessment** -- written assurance or risk statement
+6. **Multi-year fiscal outlook** (3-5 year projection, including EPS sensitivity)
+7. **Capital planning policy draft**
 
 ---
 

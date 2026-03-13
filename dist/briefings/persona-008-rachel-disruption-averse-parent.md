@@ -1,75 +1,69 @@
 # Budget Briefing for Rachel (Disruption-Averse Parent)
 
-**What the proposed school closure means for your family — and what you can still influence**
+**What the proposed changes mean for your child's stability -- and what you can still influence**
 
 ---
 
-## The Proposal: Close Dyer Elementary
+## Your Concern Is Valid
 
-The superintendent's March 9 budget proposal includes **closing Dyer Elementary School** effective September 2026. Students currently at Dyer would be redistricted to the four remaining elementary schools: Brown, Kaler, Small, and Skillin.
+If your child is settled into their school -- they know their teachers, their friends, their routine -- this budget proposal is asking your family to absorb real disruption. Whether you're at Dyer (facing closure), or at a receiving school (facing incoming students and larger classes), the changes are personal. Here's what is known, what isn't, and what you can still shape.
 
-This is part of an $8.4M budget reduction. The district says it cannot maintain five elementary schools with declining enrollment (down 23% at the elementary level since 2021-22, from 1,401 to 1,080 students).
+## What's Being Proposed
 
-## This Is Not Final
+The superintendent's March 9 proposal includes **closing Dyer Elementary** effective September 2026. Students would be redistricted to Brown, Kaler, Small, and Skillin. The district says it cannot maintain five elementary schools with enrollment down 23% at the elementary level (1,401 to 1,080 since 2021-22).
 
-The board has **not voted** on this proposal. Key dates:
+The budget also cuts **42 teachers** and **16 ed techs** district-wide. Even if your school isn't closing, class sizes will increase and support staff will be thinner.
 
-- **March 16:** Open conversation with district leadership — you can ask questions directly
-- **March 23:** Budget Workshop II at Redbank Community Center — line-item detail
-- **March 30:** Budget Workshop III — **the board may vote here**
-- **June 9:** Public referendum — you vote yes or no on the entire city/school budget
+**This is not final.** The board has not voted. March 30 is the expected vote.
 
-The March 30 workshop is the critical moment. If the board votes to adopt this budget with the Dyer closure, it goes to city council. If enough community pressure builds before then, the board could modify the proposal.
+## If You're at Dyer
 
-## How Did They Pick Dyer?
+Your family faces the most direct disruption. The critical unknowns:
 
-Nine options were evaluated using a scoring matrix that weighed instructional coherence, collaboration, equity, family disruption, and fiscal sustainability. Here's what the matrix showed:
+1. **Where will your child go?** No redistricting map has been published.
+2. **Will siblings stay together?** No policy has been stated for families with children at different grade levels.
+3. **What about bus routes?** A consultant was hired. No routing or ride-time analysis has been shared.
+4. **Will there be a transition plan?** School visits, class placement that preserves friend groups, counseling support -- none of this has been discussed publicly.
+5. **Is September 2026 realistic?** Six months to close a school, redistrict families, redesign transportation, and reassign teachers. Parents and teachers at both forums questioned the pace.
 
-| Option | What It Does | Score (out of 46) | 5-Year Savings |
-|--------|-------------|-------------------|----------------|
-| 1.7 | Close Skillin, reconfigure all | 46 | $19.6M |
-| 1.3 | Close Kaler or Dyer, reconfigure | 40 | $16.4M |
-| 1.4 | **Close Dyer, redistrict** | **20** | **$12.8M** |
-| 1.1 | Reconfigure all 5, no closure | 23 | $10.5M |
-| 1.2 | No closure, cuts across the board | 9 | TBD |
+## If You're at a Receiving School
 
-**Dyer was not the top-scoring option.** The administration originally recommended closing Skillin (scored 46), but Board Chair DeAngelis and community members argued Skillin serves the most vulnerable immigrant families. The superintendent pivoted to Dyer after the March 2 workshop.
+Your school stays open, but your child's experience will change:
 
-**Option 1.2 (no closure)** was never fully costed. It scored lowest because it means deeper across-the-board cuts without the structural savings of closing a building — but the actual impact on classrooms was never spelled out.
+- **Larger classes.** Dyer students will be absorbed. Class size projections by receiving school have not been published.
+- **New students arriving.** Your child's classroom composition changes. Friend groups may shift.
+- **Fewer support staff.** The 16 ed tech cuts are district-wide. The adults who support your child's classroom may be stretched or gone.
 
-## What Hasn't Been Answered
+## The Decision Process
 
-These are the questions you should be asking:
+Nine options were evaluated on a scoring matrix. The administration initially recommended closing Skillin (scored 46/46, greatest savings). Board Chair DeAngelis argued against it because Skillin serves the most vulnerable immigrant families. The superintendent pivoted to Dyer (scored 20/46).
 
-1. **Where will Dyer students go?** No redistricting map has been published. Which school receives which students matters enormously for your child's experience.
+The no-closure option (1.2) scored 9/46 but was never fully costed. It would mean deeper across-the-board cuts -- larger class sizes everywhere, fewer specialists, fewer support staff -- without closing a building. The actual classroom impact of that path was never modeled for public comparison.
 
-2. **What about bus routes?** A transportation consultant has been engaged, but no routing analysis or ride-time estimates have been shared. Longer bus rides are a real concern, especially for young children.
+**What this tells you:** The process used an analytical framework, then made a political decision outside it. That's not inherently wrong -- equity is a legitimate consideration. But the trade-offs between closure and no-closure were never clearly presented to families.
 
-3. **Will receiving schools be overcrowded?** Elementary enrollment is 1,080 across five schools. Four schools can physically hold those students, but what do class sizes look like? No projections have been released.
+## Two Paths Forward
 
-4. **What's the transition plan?** Will there be school visits for incoming students? Will class placements prioritize keeping friend groups together? Will there be counseling support? None of this has been discussed publicly.
+### If you want to fight the closure:
+- **March 16 (6 PM, SPHS):** Open conversation -- direct Q&A with district leadership
+- **March 23 (6 PM, Redbank):** Budget detail workshop -- packed room expected. This is where "closure without adequate transition planning is unacceptable" needs to be heard.
+- **Contact board members:** DeAngelis (chair), Dowling, Feller, Holman, Richardson, Smith, Kabisa, Davidon. Email via spsdme.org. Be specific: *"What is the transition plan?"* is more effective than *"Don't close our school."*
 
-5. **Is September 2026 realistic?** That's six months away. Parents and teachers at both forums expressed concern about the pace. Can a school be closed, students redistricted, bus routes redesigned, and teachers reassigned in one summer?
+### If you accept closure may happen and want to fight for the best transition:
+- **Demand the redistricting map and transportation plan before the board votes.** These should not be decided after closure is approved.
+- **Push for a written transition plan** that includes: school visits before September, class placements that preserve friend groups, counseling support for children, and communication to families on a clear timeline.
+- **Ask for receiving school capacity data.** Will any school be overcrowded? What do class sizes look like at each receiving school?
+- **Connect with other affected families.** Focus on specific, answerable demands: "We need X before we can accept this."
 
-## What About the "No Closure" Path?
+## The Referendum
 
-Option 1.2 keeps all five schools open but makes deeper cuts across the board — larger class sizes everywhere, fewer specialists, fewer support staff. The administration says this "kicks the problem down the road" because the enrollment decline is ongoing and five buildings will remain unaffordable.
+On **June 9**, you vote yes or no on the combined city/school budget. A few things to understand:
 
-But the actual budget impact of Option 1.2 has not been fully modeled. If closure is the recommendation, the alternative should be clearly defined so families can evaluate the real trade-off — not a vague warning.
+- A "yes" vote approves the budget as adopted -- including the closure if the board includes it.
+- A "no" vote triggers a supplemental budget process. It does not automatically prevent the closure. It could result in even deeper cuts.
+- The referendum is not a single-issue vote on Dyer. It covers the entire city and school budget.
 
-## What You Can Do Right Now
-
-1. **Show up on March 16** (6 PM, SPHS Learning Commons). This is the open conversation format — direct Q&A, not a formal hearing. Ask the five questions above.
-
-2. **Pack the March 23 workshop** (6 PM, Redbank Community Center). This is where budget detail gets presented. If you want the board to hear that closure without adequate transition planning is unacceptable, this is the moment.
-
-3. **Contact board members directly.** The board is: DeAngelis (chair), Dowling, Feller, Holman, Richardson, Smith, Kabisa, Davidon. Email addresses are on spsdme.org. Be specific: *"What is the transition plan for Dyer families?"* is more effective than *"Don't close our school."*
-
-4. **Demand the redistricting map and transportation plan** before any vote. These should not be decided after the closure is approved.
-
-5. **Connect with other Dyer families.** If you're organizing, focus on specific, answerable questions rather than opposition in principle — the board is more responsive to "we need X before we can accept this" than "no."
-
-6. **Vote on June 9.** If the budget passes with the closure and you believe it was wrong, that's your final lever. If the budget fails, the district must cut further — which could mean even more disruption.
+This is your most direct lever. Understand the trade-offs before deciding.
 
 ---
 

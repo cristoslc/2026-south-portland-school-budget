@@ -1,10 +1,10 @@
 ---
 title: "Upcoming-Event Brief Generation"
 artifact: EPIC-011
-status: Proposed
+status: Complete
 author: cristos
 created: 2026-03-12
-last-updated: 2026-03-12
+last-updated: 2026-03-13
 parent-vision: VISION-003
 success-criteria:
   - Briefs are available before each meeting (production deadline is pre-meeting)
@@ -52,3 +52,4 @@ Before each upcoming meeting, generate per-persona forward-looking briefs that s
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-12 | 7207791 | Initial creation |
+| Complete | 2026-03-13 | — | SPEC-022 implemented and verified (dry-run 14/14 personas) |

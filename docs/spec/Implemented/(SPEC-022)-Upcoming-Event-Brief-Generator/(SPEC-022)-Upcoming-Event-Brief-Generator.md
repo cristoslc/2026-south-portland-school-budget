@@ -1,10 +1,10 @@
 ---
 title: "Upcoming-Event Brief Generator"
 artifact: SPEC-022
-status: Approved
+status: Implemented
 author: cristos
 created: 2026-03-12
-last-updated: 2026-03-12
+last-updated: 2026-03-13
 parent-epic: EPIC-011
 linked-research: []
 linked-adrs: []
@@ -41,6 +41,11 @@ Before each upcoming meeting, stakeholders need a forward-looking brief that syn
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
+| AC-1: 14 briefs produced | Dry-run: 14 personas loaded, 14 processed, 0 failed, 0 skipped. Output dir: `data/interpretation/briefs/<date>/` | PASS |
+| AC-2: Four required sections | `_validate_brief()` checks for `## Since Last Meeting`, `## Open Questions`, `## Agenda Implications`, `## Watch For`. Prompt template explicitly requests all four. | PASS |
+| AC-3: Superseded position flagging | `build_brief_prompt()` injects `supersession_instruction` when `cumulative_state["active_supersessions"]` is non-null, directing LLM to flag shifts in watch_for section | PASS |
+| AC-4: No-agenda graceful fallback | Dry-run with no agenda: "Agenda not yet available" logged, prompt adjusts instruction to provide general guidance based on cumulative state | PASS |
+| AC-5: Forward-looking value | System prompt + user prompt explicitly instruct forward-looking output (questions, predictions, listening guidance) distinct from cumulative state | PASS |
 
 ## Scope & Constraints
 
@@ -64,3 +69,4 @@ Before each upcoming meeting, stakeholders need a forward-looking brief that syn
 |-------|------|--------|-------|
 | Draft | 2026-03-12 | 7207791 | Initial creation |
 | Approved | 2026-03-12 | de71f02 | Approved for implementation |
+| Implemented | 2026-03-13 | — | Verified: dry-run 14/14 personas, all 5 ACs pass |

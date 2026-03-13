@@ -15,6 +15,20 @@ Implementation plans follow **test-driven development** as the default methodolo
 
 When superpowers is present, the brainstorming step should produce a TDD-structured plan. When seeding manually, decompose the spec's acceptance criteria into red-green task pairs.
 
+### Anti-rationalization safeguards
+
+When creating or reviewing implementation plans, watch for these rationalizations that undermine TDD:
+
+| Rationalization | Correction |
+|----------------|-----------|
+| "Tests after code — I know what I'm building" | Tests written after confirm the implementation, not the specification. Write the failing test first. |
+| "Too simple to test" | If it's simple, the test is simple too. Every behavioral change gets a test. |
+| "Refactor first, then test" | Refactoring without tests removes the safety net. RED first, then refactor under green. |
+| "Integration tests cover it" | Integration tests don't isolate failures. Unit tests for logic, integration tests for wiring. |
+| "Need to see the code to know what to test" | Unclear testability means unclear spec — escalate to swain-design for acceptance criteria clarification. |
+
+These safeguards apply to both manually-seeded plans and superpowers-generated plans. Review the plan against this table before starting execution.
+
 ## Workflow
 
 1. If superpowers is present, use the [superpowers integration](#superpowers-integration) flow to author the plan. Otherwise, seed manually from the spec's "Implementation Approach" section, structuring tasks as TDD cycles derived from acceptance criteria.
@@ -38,10 +52,10 @@ When superpowers (obra/superpowers) is installed, route implementation through i
 **Detection:** Check whether the `brainstorming` and `writing-plans` skills exist:
 
 ```bash
-ls .claude/skills/brainstorming/SKILL.md .claude/skills/writing-plans/SKILL.md 2>/dev/null
+ls .claude/skills/brainstorming/SKILL.md .agents/skills/brainstorming/SKILL.md .claude/skills/writing-plans/SKILL.md .agents/skills/writing-plans/SKILL.md 2>/dev/null
 ```
 
-If both exist, superpowers is available. If either is missing, use the current direct-to-swain-do flow.
+If at least one path exists for each skill, superpowers is available. If neither location has both skills, use the current direct-to-swain-do flow.
 
 **Routing when superpowers IS present:**
 
@@ -53,13 +67,13 @@ If both exist, superpowers is available. If either is missing, use the current d
    uv run python3 .claude/skills/swain-do/scripts/ingest-plan.py \
      docs/plans/<plan-file>.md <ARTIFACT-ID>
    ```
-5. This creates a bd epic with child tasks, sequential dependencies, and spec lineage tags.
+5. This creates a tk epic with child tasks, sequential dependencies, and spec lineage tags.
 
 **Routing when superpowers is NOT present:**
 
 Use the current flow — invoke swain-do directly for ad-hoc task breakdown.
 
-**If the user rejects the brainstorming design:** Stop cleanly. No plan file is produced, no bd tasks are created. The user can either retry brainstorming or fall back to the direct flow.
+**If the user rejects the brainstorming design:** Stop cleanly. No plan file is produced, no tk tasks are created. The user can either retry brainstorming or fall back to the direct flow.
 
 **Superpowers is a recommended companion, not a hard dependency.** Never install it automatically or block implementation if it's missing.
 

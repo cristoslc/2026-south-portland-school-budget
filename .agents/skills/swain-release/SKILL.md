@@ -5,7 +5,7 @@ license: UNLICENSED
 allowed-tools: Bash, Read, Write, Edit, Grep, Glob, AskUserQuestion
 metadata:
   short-description: Version bump, changelog, and git tag
-  version: 1.0.0
+  version: 1.1.0
   author: cristos
   source: swain
 ---
@@ -157,3 +157,14 @@ Don't push without asking — the user may want to review first, or they may hav
 **No conventional commits:** If the commit history doesn't use conventional prefixes, don't force the grouping. Present a flat list and let the changelog be a simple bullet list of changes.
 
 **Dirty working tree:** If there are uncommitted changes when `/swain-release` is invoked, warn the user and ask whether to proceed (changes won't be included in the release) or abort so they can commit first.
+
+## Session bookmark
+
+After a successful release, update the session bookmark via `swain-bookmark.sh`:
+
+```bash
+BOOKMARK="$(find . .claude .agents -path '*/swain-session/scripts/swain-bookmark.sh' -print -quit 2>/dev/null)"
+bash "$BOOKMARK" "Released v1.2.0"
+```
+
+- Note format: "Released {version}"

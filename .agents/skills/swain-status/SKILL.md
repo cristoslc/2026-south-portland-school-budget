@@ -13,36 +13,43 @@ metadata:
 
 # Status
 
-Cross-cutting project status dashboard. Aggregates data from artifact lifecycle (specgraph), task tracking (bd), git, GitHub issues, and session state into an activity-oriented view.
+Cross-cutting project status dashboard. Aggregates data from artifact lifecycle (specgraph), task tracking (tk), git, GitHub issues, and session state into an activity-oriented view.
 
 ## When invoked
 
-Run the status script and present its output verbatim (it contains OSC 8 terminal hyperlinks for clickable file paths and GitHub URLs):
+Locate and run the status script. The script path is relative to this skill's directory — resolve from the skill's install location:
 
 ```bash
-bash scripts/swain-status.sh --refresh
+# Find the script relative to this skill's directory
+SKILL_DIR="$(find . .claude .agents -path '*/swain-status/scripts/swain-status.sh' -print -quit 2>/dev/null)"
+bash "$SKILL_DIR" --refresh
 ```
+
+If the path search fails, glob for `**/swain-status/scripts/swain-status.sh`.
+
+Present the script output verbatim — it contains OSC 8 terminal hyperlinks for clickable file paths and GitHub URLs.
 
 The script collects from five data sources:
 
 1. **Artifacts** — specgraph cache (epic progress, ready/blocked items, dependency info)
-2. **Tasks** — bd (in-progress, recently completed)
+2. **Tasks** — tk (in-progress, recently completed)
 3. **Git** — branch, working tree state, recent commits
 4. **GitHub** — open issues, issues assigned to the user
 5. **Session** — bookmarks and context from swain-session
 
 ## Output structure
 
-The output is ordered by actionability, not by data source:
+The output is ordered by actionability, not by data source. It synthesizes data into decision support — not just raw listings.
 
 1. **Session bookmark** — if one exists, show it first ("where you left off")
 2. **Pipeline** — branch, dirty state, last commit
-3. **Active Epics** — each epic with progress ratio (e.g., 4/7 specs resolved) and child spec status
-4. **Actionable Now** — unblocked artifacts ready for work, with clickable file links
-5. **Blocked** — artifacts waiting on dependencies
-6. **Tasks** — in-progress and recently completed bd tasks
-7. **GitHub Issues** — assigned issues first, then open issues, with clickable links
-8. **Artifact counts** — summary footer
+3. **Active Epics** — each epic with contextual progress (e.g., "3/7 specs resolved (4 remaining)" or "needs decomposition into specs"), child items annotated with next-step hints and descriptions
+4. **Decisions Waiting on You** — items requiring human judgment (spec approvals, spike verdicts, ADR decisions, triage), sorted by downstream impact. These are the developer's bottleneck.
+5. **Implementation** — items the agent can handle autonomously (approved specs, implementing tasks), sorted by impact. Only shown when implementation-ready items exist.
+6. **Blocked** — artifacts waiting on dependencies, with descriptions and "(actionable now)" annotations where the blocker is in the ready list
+7. **Tasks** — in-progress and recently completed tk tasks
+8. **GitHub Issues** — assigned issues first, then open issues, with clickable links
+9. **Artifact counts** — summary footer
 
 ## Clickable links
 
@@ -100,10 +107,22 @@ Read from `swain.settings.json` (project) and `~/.config/swain/settings.json` (u
 |-----|------|---------|-------------|
 | `status.cacheTTL` | number | `120` | Cache time-to-live in seconds |
 
+## Session bookmark
+
+After presenting the status output, update the session bookmark via `swain-bookmark.sh`:
+
+```bash
+BOOKMARK="$(find . .claude .agents -path '*/swain-session/scripts/swain-bookmark.sh' -print -quit 2>/dev/null)"
+bash "$BOOKMARK" "Checked status — 2 specs awaiting review, EPIC-002 needs decomposition"
+```
+
+- Note format: "Checked status — {key highlight}"
+- Pick the single most actionable highlight from the output (decisions waiting, blocked items, or epic progress)
+
 ## Error handling
 
 - If specgraph is unavailable: skip artifact section, show other data
-- If bd is unavailable: skip task section
+- If tk is unavailable: skip task section
 - If gh CLI is unavailable or no GitHub remote: skip issues section
 - If session.json doesn't exist: skip bookmark
 - Never fail hard — show whatever data is available

@@ -3,7 +3,7 @@ set -euo pipefail
 
 # swain-status.sh — Cross-cutting project status aggregator
 #
-# Collects data from specgraph, bd, git, GitHub, and session state.
+# Collects data from specgraph, tk (tickets), git, GitHub, and session state.
 # Writes a structured JSON cache and outputs rich terminal text.
 #
 # Usage:
@@ -24,8 +24,7 @@ PROJECT_NAME="$(basename "$REPO_ROOT")"
 SETTINGS_PROJECT="$REPO_ROOT/swain.settings.json"
 SETTINGS_USER="${XDG_CONFIG_HOME:-$HOME/.config}/swain/settings.json"
 
-# Memory directory (Claude Code convention)
-# Claude Code slugifies the absolute repo path: /Users/foo/bar → -Users-foo-bar
+# Memory directory (Claude Code convention — slug derived from repo path)
 _PROJECT_SLUG=$(echo "$REPO_ROOT" | tr '/' '-')
 MEMORY_DIR="${SWAIN_MEMORY_DIR:-$HOME/.claude/projects/${_PROJECT_SLUG}/memory}"
 CACHE_FILE="$MEMORY_DIR/status-cache.json"
@@ -147,7 +146,7 @@ collect_artifacts() {
     # All unresolved
     [$nodes | to_entries[] | select(.value.status | is_resolved | not)] as $unresolved |
 
-    # Ready: unresolved with no unresolved deps
+    # Ready: unresolved with no unresolved deps, enriched with unblock info
     ([$unresolved[] |
       .key as $id |
       ([$edges[] | select(.from == $id and .type == "depends-on") | .to] | unique) as $deps |
@@ -155,8 +154,12 @@ collect_artifacts() {
         ($deps | length == 0) or
         ($deps | all(. as $dep | $nodes[$dep] == null or ($nodes[$dep].status | is_resolved)))
       ) |
-      {id: .key, status: .value.status, title: .value.title, type: .value.type, file: .value.file}
-    ] | sort_by(.id)) as $ready |
+      # What unresolved items depend on this one?
+      ([$edges[] | select(.to == $id and .type == "depends-on") | .from] |
+        map(select(. as $dep | $nodes[$dep] != null and ($nodes[$dep].status | is_resolved | not))) |
+        unique) as $unblocks |
+      {id: .key, status: .value.status, title: .value.title, type: .value.type, file: .value.file, description: .value.description, unblocks: $unblocks}
+    ] | sort_by(-(.unblocks | length), .id)) as $ready |
 
     # Blocked
     ([$unresolved[] |
@@ -164,7 +167,7 @@ collect_artifacts() {
       ([$edges[] | select(.from == $id and .type == "depends-on") | .to] | unique) as $deps |
       ($deps | map(select(. as $dep | $nodes[$dep] != null and ($nodes[$dep].status | is_resolved | not)))) as $waiting |
       select(($waiting | length) > 0) |
-      {id: .key, status: .value.status, title: .value.title, type: .value.type, file: .value.file, waiting: $waiting}
+      {id: .key, status: .value.status, title: .value.title, type: .value.type, file: .value.file, description: .value.description, waiting: $waiting}
     ] | sort_by(.id)) as $blocked |
 
     # Epic progress: for each active epic, count child spec status
@@ -183,7 +186,7 @@ collect_artifacts() {
         file: .value.file,
         progress: { done: $done, total: $total },
         children: [$child_ids[] | . as $cid | $nodes[$cid] | select(. != null) |
-          {id: $cid, title: .title, status: .status, type: .type, file: .file}
+          {id: $cid, title: .title, status: .status, type: .type, file: .file, description: .description}
         ]
       }
     ] | sort_by(.id)) as $epics |
@@ -207,7 +210,21 @@ collect_artifacts() {
 }
 
 collect_tasks() {
-  if ! command -v bd &>/dev/null; then
+  # Locate .tickets directory and ticket-query
+  local tickets_dir=""
+  if [[ -d "$REPO_ROOT/.tickets" ]]; then
+    tickets_dir="$REPO_ROOT/.tickets"
+  fi
+
+  local tq_bin=""
+  local skill_bin="$REPO_ROOT/skills/swain-do/bin/ticket-query"
+  if [[ -x "$skill_bin" ]]; then
+    tq_bin="$skill_bin"
+  elif command -v ticket-query &>/dev/null; then
+    tq_bin="ticket-query"
+  fi
+
+  if [[ -z "$tickets_dir" ]] || [[ -z "$tq_bin" ]]; then
     echo '{"inProgress":[],"recentlyCompleted":[],"total":0,"available":false}'
     return
   fi
@@ -215,7 +232,7 @@ collect_tasks() {
   local in_progress recent total raw
 
   # In-progress tasks
-  raw=$(bd list --status in_progress --format '{"id":"#{id}","title":"{title}"}' 2>/dev/null) || true
+  raw=$(TICKETS_DIR="$tickets_dir" "$tq_bin" '.status == "in_progress"' 2>/dev/null | jq -c '{id: .id, title: .title}' 2>/dev/null) || true
   if [[ -n "$raw" ]]; then
     in_progress=$(echo "$raw" | jq -s '.' 2>/dev/null || echo "[]")
   else
@@ -223,7 +240,7 @@ collect_tasks() {
   fi
 
   # Recently completed (last 5)
-  raw=$(bd list --status done --format '{"id":"#{id}","title":"{title}"}' 2>/dev/null | head -5) || true
+  raw=$(TICKETS_DIR="$tickets_dir" "$tq_bin" '.status == "closed"' 2>/dev/null | jq -c '{id: .id, title: .title}' 2>/dev/null | head -5) || true
   if [[ -n "$raw" ]]; then
     recent=$(echo "$raw" | jq -s '.' 2>/dev/null || echo "[]")
   else
@@ -231,7 +248,7 @@ collect_tasks() {
   fi
 
   # Total count
-  total=$(bd list --format '#{id}' 2>/dev/null | wc -l | tr -d ' ') || true
+  total=$(TICKETS_DIR="$tickets_dir" "$tq_bin" 2>/dev/null | wc -l | tr -d ' ') || true
   total="${total:-0}"
 
   jq -n \
@@ -267,6 +284,43 @@ collect_issues() {
     '{open: $open, assigned: $assigned, available: true}'
 }
 
+collect_linked_issues() {
+  local ISSUE_SCRIPT="$SCRIPT_DIR/../../swain-design/scripts/issue-integration.sh"
+
+  if [[ ! -f "$ISSUE_SCRIPT" ]]; then
+    echo '[]'
+    return
+  fi
+
+  local linked
+  linked=$(bash "$ISSUE_SCRIPT" scan 2>/dev/null) || linked="[]"
+
+  # Enrich with live GitHub issue data if gh is available
+  if command -v gh &>/dev/null && [[ "$linked" != "[]" ]]; then
+    echo "$linked" | jq -c '.[]' | while IFS= read -r entry; do
+      local si
+      si=$(echo "$entry" | jq -r '.source_issue')
+
+      # Parse github:<owner>/<repo>#<number>
+      if [[ "$si" =~ ^github:([^/]+)/([^#]+)#([0-9]+)$ ]]; then
+        local owner="${BASH_REMATCH[1]}" repo="${BASH_REMATCH[2]}" number="${BASH_REMATCH[3]}"
+        local issue_state issue_title
+        issue_state=$(gh issue view "$number" --repo "${owner}/${repo}" --json state --jq '.state' 2>/dev/null || echo "UNKNOWN")
+        issue_title=$(gh issue view "$number" --repo "${owner}/${repo}" --json title --jq '.title' 2>/dev/null || echo "")
+        echo "$entry" | jq \
+          --arg issue_state "$issue_state" \
+          --arg issue_title "$issue_title" \
+          --argjson issue_number "$number" \
+          '. + {issue_state: $issue_state, issue_title: $issue_title, issue_number: $issue_number}'
+      else
+        echo "$entry"
+      fi
+    done | jq -s '.'
+  else
+    echo "$linked"
+  fi
+}
+
 collect_session() {
   if [[ -f "$SESSION_FILE" ]]; then
     jq '{
@@ -289,6 +343,7 @@ build_cache() {
   artifact_data=$(collect_artifacts)
   task_data=$(collect_tasks)
   issue_data=$(collect_issues)
+  linked_issue_data=$(collect_linked_issues)
   session_data=$(collect_session)
 
   local timestamp
@@ -303,6 +358,7 @@ build_cache() {
     --argjson tasks "$task_data" \
     --argjson issues "$issue_data" \
     --argjson session "$session_data" \
+    --argjson linked "$linked_issue_data" \
     '{
       timestamp: $ts,
       repo: $repo,
@@ -311,6 +367,7 @@ build_cache() {
       artifacts: $artifacts,
       tasks: $tasks,
       issues: $issues,
+      linkedIssues: $linked,
       session: $session
     }' > "$CACHE_FILE"
 }
@@ -392,32 +449,176 @@ render_full() {
   if [[ "$epic_count" -gt 0 ]]; then
     echo "## Active Epics"
     echo ""
-    echo "$data" | jq -r '
+    echo "$data" | jq -r --arg repo "$REPO_ROOT" '
+      def art_link($aid; $file):
+        if $file != null and $file != "" then
+          "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
+        else $aid end;
+      def next_step:
+        if .type == "SPEC" and .status == "Draft" then "review and approve"
+        elif .type == "SPEC" and .status == "Approved" then "create implementation plan"
+        elif .type == "SPEC" and .status == "Implementing" then "complete implementation"
+        elif .type == "STORY" and .status == "Draft" then "refine acceptance criteria"
+        elif .type == "STORY" and .status == "Approved" then "create implementation plan"
+        elif .type == "SPIKE" and .status == "Planned" then "begin investigation"
+        elif .type == "SPIKE" and .status == "Active" then "complete findings"
+        elif .type == "BUG" then "triage and fix"
+        else "progress to next phase" end;
       .artifacts.epics | to_entries[] |
       .value as $e |
-      "### \($e.id): \($e.title) [\($e.status)]",
+      "### \(art_link($e.id; $e.file)): \($e.title) [\($e.status)]",
       "",
-      "Progress: **\($e.progress.done)/\($e.progress.total)** specs resolved",
+      (if $e.progress.total == 0 then
+        "Progress: **needs decomposition into specs**"
+      elif $e.progress.done == $e.progress.total then
+        "Progress: **all \($e.progress.total) specs resolved** — ready for completion"
+      else
+        "Progress: **\($e.progress.done)/\($e.progress.total)** specs resolved (\($e.progress.total - $e.progress.done) remaining)"
+      end),
       "",
       ($e.children | sort_by(.status) | .[] |
         (if (.status | test("Complete|Implemented|Adopted|Validated|Archived|Retired|Superseded|Abandoned|Sunset|Deprecated|Verified|Declined"))
          then "  - [x]"
          else "  - [ ]"
-         end) + " \(.id): \(.title) [\(.status)]"
+         end) + " \(art_link(.id; .file)): \(.title) [\(.status)]" +
+        (if (.status | test("Complete|Implemented|Adopted|Validated|Archived|Retired|Superseded|Abandoned|Sunset|Deprecated|Verified|Declined") | not)
+         then " — \(next_step)"
+         else "" end),
+        (if .description and (.description | length > 0) then
+          "    _\(.description)_"
+        else empty end)
       ),
       ""
     '
   fi
 
-  # --- Ready (actionable) ---
+  # --- Decision backlog / Implementation backlog split ---
+  #
+  # Classify each ready item as a "decision" (needs human judgment) or
+  # "implementation" (agent can handle).  Show decisions first — they are
+  # the developer's bottleneck.
   local ready_count
   ready_count=$(echo "$data" | jq '.artifacts.ready | length')
 
   if [[ "$ready_count" -gt 0 ]]; then
-    echo "## Actionable Now"
-    echo ""
-    echo "$data" | jq -r '.artifacts.ready[] | "- \(.id): \(.title) [\(.status)]  \(.file // "")"'
-    echo ""
+    # Count decisions vs implementation items
+    local decision_count
+    decision_count=$(echo "$data" | jq '
+      def is_decision:
+        (.type == "SPEC" and .status == "Draft") or
+        (.type == "STORY" and .status == "Draft") or
+        (.type == "SPIKE" and (.status | test("Planned|Active"))) or
+        (.type == "ADR" and .status == "Proposed") or
+        (.type == "VISION" and .status == "Draft") or
+        (.type == "JOURNEY" and (.status | test("Draft|Planned"))) or
+        (.type == "PERSONA" and .status == "Draft") or
+        (.type == "EPIC" and (.status | test("Proposed|Planned"))) or
+        (.type == "BUG") or
+        (.type == "RUNBOOK" and .status == "Draft") or
+        (.type == "DESIGN" and .status == "Draft");
+      [.artifacts.ready[] | select(is_decision)] | length
+    ')
+
+    # --- Decisions waiting on you ---
+    if [[ "$decision_count" -gt 0 ]]; then
+      echo "## Decisions Waiting on You (${decision_count})"
+      echo ""
+      echo "$data" | jq -r --arg repo "$REPO_ROOT" '
+        def art_link($aid; $file):
+          if $file != null and $file != "" then
+            "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
+          else $aid end;
+        def next_step:
+          if .type == "EPIC" and (.status | test("Proposed|Planned")) then "activate and decompose into specs"
+          elif .type == "EPIC" and (.status | test("Active")) then "work on child specs"
+          elif .type == "SPEC" and .status == "Draft" then "review and approve"
+          elif .type == "SPEC" and .status == "Approved" then "create implementation plan"
+          elif .type == "SPEC" and .status == "Implementing" then "complete implementation"
+          elif .type == "STORY" and .status == "Draft" then "refine acceptance criteria"
+          elif .type == "STORY" and .status == "Approved" then "create implementation plan"
+          elif .type == "SPIKE" and .status == "Planned" then "begin investigation"
+          elif .type == "SPIKE" and .status == "Active" then "complete findings"
+          elif .type == "ADR" and .status == "Proposed" then "review and decide"
+          elif .type == "VISION" and .status == "Draft" then "align on goals and audience"
+          elif .type == "JOURNEY" and (.status | test("Draft|Planned")) then "map pain points and opportunities"
+          elif .type == "BUG" then "triage and fix"
+          elif .type == "PERSONA" and .status == "Draft" then "validate with user research"
+          elif .type == "RUNBOOK" and .status == "Draft" then "test procedure and finalize"
+          elif .type == "DESIGN" and .status == "Draft" then "review interaction flows"
+          else "progress to next phase" end;
+        def is_decision:
+          (.type == "SPEC" and .status == "Draft") or
+          (.type == "STORY" and .status == "Draft") or
+          (.type == "SPIKE" and (.status | test("Planned|Active"))) or
+          (.type == "ADR" and .status == "Proposed") or
+          (.type == "VISION" and .status == "Draft") or
+          (.type == "JOURNEY" and (.status | test("Draft|Planned"))) or
+          (.type == "PERSONA" and .status == "Draft") or
+          (.type == "EPIC" and (.status | test("Proposed|Planned"))) or
+          (.type == "BUG") or
+          (.type == "RUNBOOK" and .status == "Draft") or
+          (.type == "DESIGN" and .status == "Draft");
+        [.artifacts.ready[] | select(is_decision)] | sort_by(-(.unblocks | length), .id)[] |
+        "- \(art_link(.id; .file)): \(.title) [\(.status)] — \(next_step)" +
+        (if (.unblocks | length) > 0 then " (unblocks \(.unblocks | length))" else "" end),
+        (if .description and (.description | length > 0) then
+          "  _\(.description)_"
+        else empty end)
+      '
+      echo ""
+    fi
+
+    # --- Implementation (agent can handle) ---
+    local impl_count
+    impl_count=$(( ready_count - decision_count ))
+
+    if [[ "$impl_count" -gt 0 ]]; then
+      echo "## Implementation (${impl_count} — agent can handle)"
+      echo ""
+      echo "$data" | jq -r --arg repo "$REPO_ROOT" '
+        def art_link($aid; $file):
+          if $file != null and $file != "" then
+            "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
+          else $aid end;
+        def next_step:
+          if .type == "EPIC" and (.status | test("Proposed|Planned")) then "activate and decompose into specs"
+          elif .type == "EPIC" and (.status | test("Active")) then "work on child specs"
+          elif .type == "SPEC" and .status == "Draft" then "review and approve"
+          elif .type == "SPEC" and .status == "Approved" then "create implementation plan"
+          elif .type == "SPEC" and .status == "Implementing" then "complete implementation"
+          elif .type == "STORY" and .status == "Draft" then "refine acceptance criteria"
+          elif .type == "STORY" and .status == "Approved" then "create implementation plan"
+          elif .type == "SPIKE" and .status == "Planned" then "begin investigation"
+          elif .type == "SPIKE" and .status == "Active" then "complete findings"
+          elif .type == "ADR" and .status == "Proposed" then "review and decide"
+          elif .type == "VISION" and .status == "Draft" then "align on goals and audience"
+          elif .type == "JOURNEY" and (.status | test("Draft|Planned")) then "map pain points and opportunities"
+          elif .type == "BUG" then "triage and fix"
+          elif .type == "PERSONA" and .status == "Draft" then "validate with user research"
+          elif .type == "RUNBOOK" and .status == "Draft" then "test procedure and finalize"
+          elif .type == "DESIGN" and .status == "Draft" then "review interaction flows"
+          else "progress to next phase" end;
+        def is_decision:
+          (.type == "SPEC" and .status == "Draft") or
+          (.type == "STORY" and .status == "Draft") or
+          (.type == "SPIKE" and (.status | test("Planned|Active"))) or
+          (.type == "ADR" and .status == "Proposed") or
+          (.type == "VISION" and .status == "Draft") or
+          (.type == "JOURNEY" and (.status | test("Draft|Planned"))) or
+          (.type == "PERSONA" and .status == "Draft") or
+          (.type == "EPIC" and (.status | test("Proposed|Planned"))) or
+          (.type == "BUG") or
+          (.type == "RUNBOOK" and .status == "Draft") or
+          (.type == "DESIGN" and .status == "Draft");
+        [.artifacts.ready[] | select(is_decision | not)] | sort_by(-(.unblocks | length), .id)[] |
+        "- \(art_link(.id; .file)): \(.title) [\(.status)] — \(next_step)" +
+        (if (.unblocks | length) > 0 then " (unblocks \(.unblocks | length))" else "" end),
+        (if .description and (.description | length > 0) then
+          "  _\(.description)_"
+        else empty end)
+      '
+      echo ""
+    fi
   fi
 
   # --- Blocked ---
@@ -427,12 +628,27 @@ render_full() {
   if [[ "$blocked_count" -gt 0 ]]; then
     echo "## Blocked"
     echo ""
-    echo "$data" | jq -r '.artifacts.blocked[] |
-      "- \(.id): \(.title) [\(.status)]  <- waiting on: \(.waiting | join(", "))"'
+    echo "$data" | jq -r --arg repo "$REPO_ROOT" '
+      def art_link($aid; $file):
+        if $file != null and $file != "" then
+          "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
+        else $aid end;
+      # Build a lookup of ready item IDs for unblock hints
+      ([.artifacts.ready[].id] | unique) as $ready_ids |
+      .artifacts.blocked[] |
+      "- \(art_link(.id; .file)): \(.title) [\(.status)]" +
+      "  <- waiting on: \(.waiting | map(
+        . as $w |
+        if ($ready_ids | index($w)) then "\($w) (actionable now)"
+        else $w end
+      ) | join(", "))",
+      (if .description and (.description | length > 0) then
+        "  _\(.description)_"
+      else empty end)'
     echo ""
   fi
 
-  # --- Tasks (bd) ---
+  # --- Tasks (tk) ---
   local tasks_available
   tasks_available=$(echo "$data" | jq -r '.tasks.available')
 
@@ -503,6 +719,30 @@ render_full() {
       done < <(echo "$data" | jq -c '.issues.open[] | select(.number)' | head -5)
       echo ""
     fi
+  fi
+
+  # --- Linked Issues (source-issue artifacts) ---
+  local linked_count
+  linked_count=$(echo "$data" | jq '.linkedIssues | length')
+
+  if [[ "$linked_count" -gt 0 ]]; then
+    echo "## Linked Issues"
+    echo ""
+    echo "$data" | jq -r --arg repo "$REPO_ROOT" '
+      def art_link($aid; $file):
+        if $file != null and $file != "" then
+          "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
+        else $aid end;
+      .linkedIssues[] |
+      "- \(art_link(.artifact; .file)): \(.title) [\(.status)]" +
+      (if .issue_number then
+        " — linked to #\(.issue_number)" +
+        (if .issue_state then " (\(.issue_state | ascii_downcase))" else "" end)
+      else
+        " — \(.source_issue)"
+      end)
+    '
+    echo ""
   fi
 
   # --- Artifact counts footer ---

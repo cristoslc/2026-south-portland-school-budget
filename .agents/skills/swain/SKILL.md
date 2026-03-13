@@ -6,7 +6,7 @@ Invoke the Skill tool for exactly one match. Pass the user's full prompt as args
 
 | swain-design | vision, epic, story, spec, ADR, spike, bug, persona, runbook, journey, design |
 | swain-search | research, evidence, gather sources, search for, evidence pool, what do we know about |
-| swain-do | tasks, implementation, tracking, bd, beads |
+| swain-do | tasks, implementation, tracking, tk, ticket |
 | swain-push | commit, push, stage |
 | swain-release | release, version, changelog, tag |
 | swain-update | update/upgrade swain |
@@ -15,4 +15,5 @@ Invoke the Skill tool for exactly one match. Pass the user's full prompt as args
 | swain-help | help, how do I, what is, reference, cheat sheet, commands |
 | swain-init | init, onboard, setup, bootstrap (one-time project setup) |
 | swain-session | session, tab name, preferences, bookmark, remember where I am |
+| swain-keys | SSH keys, signing, provision keys, configure signing, key setup |
 | swain-stage | tmux, panes, layout, workspace, motd, review pane, file browser pane |

@@ -6,7 +6,7 @@ license: MIT
 allowed-tools: Bash, Read, Write, Edit, Grep, Glob
 metadata:
   short-description: Session state and identity management
-  version: 1.0.0
+  version: 1.1.0
   author: cristos
   source: swain
 ---
@@ -25,9 +25,9 @@ This skill is invoked automatically at session start (see AGENTS.md). When auto-
 
 When invoked manually, the user can change preferences or bookmark context.
 
-## Step 1 — Set terminal tab name
+## Step 1 — Set terminal tab name (tmux only)
 
-Run the tab-naming script:
+Check if `$TMUX` is set. If yes, run the tab-naming script:
 
 ```bash
 bash "$(dirname "$0")/../skills/swain-session/scripts/swain-tab-name.sh" --auto
@@ -36,6 +36,10 @@ bash "$(dirname "$0")/../skills/swain-session/scripts/swain-tab-name.sh" --auto
 Use the project root to locate the script. The script reads `swain.settings.json` for the tab name format (default: `{project} @ {branch}`).
 
 If this fails (e.g., not in a git repo), set a fallback title of "swain".
+
+**If `$TMUX` is NOT set**, skip tab naming and show this tip:
+
+> **Tip:** Tab naming and workspace layouts require tmux. Run `tmux` before starting Claude Code to enable `/swain-session` tab naming and `/swain-stage` layouts.
 
 ## Step 2 — Load session preferences
 
@@ -73,11 +77,11 @@ If the file exists:
 
 If the file does not exist, create it with defaults.
 
-## Step 3 — Check for tmux and suggest swain-stage
+## Step 3 — Suggest swain-stage (tmux only)
 
 If `$TMUX` is set and swain-stage is available, inform the user:
 
-> tmux detected. Run `/swain-stage` to set up your workspace layout.
+> Run `/swain-stage` to set up your workspace layout.
 
 Do not auto-invoke swain-stage — let the user decide.
 
@@ -107,6 +111,34 @@ User says "session info" or "what's my session":
 ### Set preference
 User says "set preference X to Y":
 - Update `preferences` in session.json
+
+## Post-operation bookmark (auto-update protocol)
+
+Other swain skills update the session bookmark after completing operations. This gives the developer a "where I left off" marker without requiring manual bookmarking.
+
+### When to update
+
+A skill should update the bookmark when it completes a **state-changing operation** — artifact transitions, task updates, commits, releases, or status checks.
+
+### How to update
+
+Use the `swain-bookmark.sh` script (in this skill's `scripts/` directory):
+
+```bash
+# Find the script
+BOOKMARK_SCRIPT="$(find . .claude .agents -path '*/swain-session/scripts/swain-bookmark.sh' -print -quit 2>/dev/null)"
+
+# Basic note
+bash "$BOOKMARK_SCRIPT" "Transitioned SPEC-001 to Approved"
+
+# Note with files
+bash "$BOOKMARK_SCRIPT" "Implemented auth middleware" --files src/auth.ts src/auth.test.ts
+
+# Clear bookmark
+bash "$BOOKMARK_SCRIPT" --clear
+```
+
+The script handles session.json discovery, atomic writes, and graceful degradation (no jq = silent no-op).
 
 ## Settings
 

@@ -5,3 +5,8 @@
 
 # Runner secrets
 infra/runner/.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/

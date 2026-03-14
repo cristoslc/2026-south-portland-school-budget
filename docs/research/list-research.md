@@ -1,9 +1,10 @@
 # Research Spikes
 
-## Planned
+## Proposed
 
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
+| SPIKE-007 | LLM Access in Pipeline Runner | 2026-03-13 | — |
 
 ## Complete
 

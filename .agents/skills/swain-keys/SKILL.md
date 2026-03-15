@@ -10,6 +10,7 @@ metadata:
   license: MIT
   source: swain
 ---
+<!-- swain-model-hint: haiku, effort: low -->
 
 # swain-keys
 
@@ -17,7 +18,7 @@ Per-project SSH key provisioning for git signing and authentication.
 
 ## When invoked
 
-Locate and run the provisioning script. The script path is relative to this skill's directory:
+Locate and run the provisioning script at `skills/swain-keys/scripts/swain-keys.sh`:
 
 ```bash
 SCRIPT="$(find . .claude .agents -path '*/swain-keys/scripts/swain-keys.sh' -print -quit 2>/dev/null)"
@@ -82,12 +83,7 @@ When called from swain-init, run `--provision` directly without the status-first
 
 ## Session bookmark
 
-After provisioning, update the session bookmark:
-
-```bash
-BOOKMARK="$(find . .claude .agents -path '*/swain-session/scripts/swain-bookmark.sh' -print -quit 2>/dev/null)"
-bash "$BOOKMARK" "Provisioned SSH keys for <project> — signing and auth configured"
-```
+After provisioning, update the bookmark: `bash "$(find . .claude .agents -path '*/swain-session/scripts/swain-bookmark.sh' -print -quit 2>/dev/null)" "Provisioned SSH keys for {project}"`
 
 ## Error handling
 

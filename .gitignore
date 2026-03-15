@@ -10,3 +10,21 @@ infra/runner/.env
 __pycache__/
 *.pyc
 .pytest_cache/
+.venv/
+
+# Agent runtime state
+.agents/.status-cache.json
+.agents/session.json
+.agents/specwatch.log
+.agents/execution-tracking.vars.json
+.tickets/.locks/
+
+# Claude Code
+.claude/worktrees/
+.claude/settings.local.json
+
+# OS
+.DS_Store
+
+# Distribution
+dist/

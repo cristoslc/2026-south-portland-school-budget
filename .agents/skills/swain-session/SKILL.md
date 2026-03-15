@@ -10,6 +10,7 @@ metadata:
   author: cristos
   source: swain
 ---
+<!-- swain-model-hint: haiku, effort: low -->
 
 # Session
 
@@ -46,10 +47,12 @@ If this fails (e.g., not in a git repo), set a fallback title of "swain".
 Read the session state file. The file location is:
 
 ```
-~/.claude/projects/<project-path-slug>/memory/session.json
+<project-root>/.agents/session.json
 ```
 
-Where `<project-path-slug>` is the Claude Code memory directory for the current project.
+This keeps session state per-project, version-controlled, and visible to collaborators.
+
+**Migration:** If `.agents/session.json` does not exist but the old global location (`~/.claude/projects/<project-path-slug>/memory/session.json`) does, copy it to `.agents/session.json` on first access.
 
 The session.json schema:
 
@@ -92,7 +95,7 @@ When invoked explicitly by the user, support these operations:
 ### Set tab name
 User says something like "set tab name to X" or "rename tab":
 ```bash
-bash scripts/swain-tab-name.sh "Custom Name"
+bash skills/swain-session/scripts/swain-tab-name.sh "Custom Name"
 ```
 
 ### Bookmark context
@@ -122,7 +125,7 @@ A skill should update the bookmark when it completes a **state-changing operatio
 
 ### How to update
 
-Use the `swain-bookmark.sh` script (in this skill's `scripts/` directory):
+Use `skills/swain-session/scripts/swain-bookmark.sh`:
 
 ```bash
 # Find the script

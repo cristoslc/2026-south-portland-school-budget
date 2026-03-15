@@ -28,7 +28,7 @@ SETTINGS_USER="${XDG_CONFIG_HOME:-$HOME/.config}/swain/settings.json"
 _PROJECT_SLUG=$(echo "$REPO_ROOT" | tr '/' '-')
 MEMORY_DIR="${SWAIN_MEMORY_DIR:-$HOME/.claude/projects/${_PROJECT_SLUG}/memory}"
 CACHE_FILE="$MEMORY_DIR/status-cache.json"
-SESSION_FILE="$MEMORY_DIR/session.json"
+SESSION_FILE="$REPO_ROOT/.agents/session.json"
 
 # GitHub remote
 GH_REMOTE_URL="$(git remote get-url origin 2>/dev/null || echo "")"
@@ -53,10 +53,20 @@ read_setting() {
 }
 
 # --- OSC 8 hyperlink helpers ---
+# Only emit OSC 8 sequences when stdout is a terminal.
+# When piped (e.g., captured by an agent), emit plain text to avoid
+# corrupted escape sequences in non-terminal rendering (#36).
+_USE_OSC8=false
+[[ -t 1 ]] && _USE_OSC8=true
+
 # Usage: link "URL" "display text"
 link() {
   local url="$1" text="$2"
-  printf '\e]8;;%s\e\\%s\e]8;;\e\\' "$url" "$text"
+  if [[ "$_USE_OSC8" == true ]]; then
+    printf '\e]8;;%s\e\\%s\e]8;;\e\\' "$url" "$text"
+  else
+    printf '%s' "$text"
+  fi
 }
 
 file_link() {
@@ -138,41 +148,58 @@ collect_artifacts() {
   fi
 
   jq '
-    def is_resolved: test("Complete|Implemented|Adopted|Validated|Archived|Retired|Superseded|Abandoned|Sunset|Deprecated|Verified|Declined");
+    def is_status_resolved: test("Complete|Retired|Superseded|Abandoned|Implemented|Adopted|Validated|Archived|Sunset|Deprecated|Verified|Declined");
+    def is_resolved: (.status | is_status_resolved) or ((.type | test("VISION|JOURNEY|PERSONA|ADR|RUNBOOK|DESIGN")) and .status == "Active");
+    # A dependency is satisfied once its target moves past initial planning phases.
+    # Only Proposed (and legacy Draft/Planned/Review) are "not yet satisfied."
+    def is_dep_satisfied: test("Proposed|Draft|Planned|Review") | not;
 
     .nodes as $nodes |
     .edges as $edges |
 
     # All unresolved
-    [$nodes | to_entries[] | select(.value.status | is_resolved | not)] as $unresolved |
+    [$nodes | to_entries[] | select(.value | is_resolved | not)] as $unresolved |
 
-    # Ready: unresolved with no unresolved deps, enriched with unblock info
+    # Ready: unresolved with all deps satisfied, enriched with unblock info
+    # VISION-to-VISION deps are informational, not blocking (#28)
     ([$unresolved[] |
       .key as $id |
+      .value.type as $self_type |
       ([$edges[] | select(.from == $id and .type == "depends-on") | .to] | unique) as $deps |
       select(
         ($deps | length == 0) or
-        ($deps | all(. as $dep | $nodes[$dep] == null or ($nodes[$dep].status | is_resolved)))
+        ($deps | all(. as $dep |
+          $nodes[$dep] == null or
+          ($nodes[$dep].status | is_dep_satisfied) or
+          ($self_type == "VISION" and $nodes[$dep].type == "VISION")
+        ))
       ) |
       # What unresolved items depend on this one?
       ([$edges[] | select(.to == $id and .type == "depends-on") | .from] |
-        map(select(. as $dep | $nodes[$dep] != null and ($nodes[$dep].status | is_resolved | not))) |
+        map(select(. as $dep | $nodes[$dep] != null and ($nodes[$dep] | is_resolved | not))) |
         unique) as $unblocks |
       {id: .key, status: .value.status, title: .value.title, type: .value.type, file: .value.file, description: .value.description, unblocks: $unblocks}
     ] | sort_by(-(.unblocks | length), .id)) as $ready |
 
-    # Blocked
+    # Blocked: deps not yet satisfied (still in Proposed or legacy Draft/Planned/Review)
+    # VISION-to-VISION deps are informational, not blocking (#28)
     ([$unresolved[] |
       .key as $id |
+      .value.type as $self_type |
       ([$edges[] | select(.from == $id and .type == "depends-on") | .to] | unique) as $deps |
-      ($deps | map(select(. as $dep | $nodes[$dep] != null and ($nodes[$dep].status | is_resolved | not)))) as $waiting |
+      ($deps | map(select(. as $dep |
+        $nodes[$dep] != null and
+        ($nodes[$dep].status | is_dep_satisfied | not) and
+        # Skip VISION-to-VISION blocking
+        (($self_type == "VISION" and $nodes[$dep].type == "VISION") | not)
+      ))) as $waiting |
       select(($waiting | length) > 0) |
       {id: .key, status: .value.status, title: .value.title, type: .value.type, file: .value.file, description: .value.description, waiting: $waiting}
     ] | sort_by(.id)) as $blocked |
 
     # Epic progress: for each active epic, count child spec status
     ([$nodes | to_entries[] |
-      select(.value.type == "EPIC" and (.value.status | is_resolved | not)) |
+      select(.value.type == "EPIC" and (.value | is_resolved | not)) |
       .key as $epic_id |
       # Find children (specs/stories parented to this epic)
       ([$edges[] | select(.to == $epic_id and .type == "parent-epic") | .from]) as $child_ids |
@@ -184,6 +211,7 @@ collect_artifacts() {
         title: .value.title,
         status: .value.status,
         file: .value.file,
+        description: .value.description,
         progress: { done: $done, total: $total },
         children: [$child_ids[] | . as $cid | $nodes[$cid] | select(. != null) |
           {id: $cid, title: .title, status: .status, type: .type, file: .file, description: .description}
@@ -369,7 +397,7 @@ build_cache() {
       issues: $issues,
       linkedIssues: $linked,
       session: $session
-    }' > "$CACHE_FILE"
+    }' > "${CACHE_FILE}.tmp" && mv "${CACHE_FILE}.tmp" "$CACHE_FILE"
 }
 
 cache_is_fresh() {
@@ -449,47 +477,25 @@ render_full() {
   if [[ "$epic_count" -gt 0 ]]; then
     echo "## Active Epics"
     echo ""
-    echo "$data" | jq -r --arg repo "$REPO_ROOT" '
+    echo "$data" | jq -r --arg repo "$REPO_ROOT" --arg osc8 "$_USE_OSC8" '
       def art_link($aid; $file):
         if $file != null and $file != "" then
           "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
         else $aid end;
-      def next_step:
-        if .type == "SPEC" and .status == "Draft" then "review and approve"
-        elif .type == "SPEC" and .status == "Approved" then "create implementation plan"
-        elif .type == "SPEC" and .status == "Implementing" then "complete implementation"
-        elif .type == "STORY" and .status == "Draft" then "refine acceptance criteria"
-        elif .type == "STORY" and .status == "Approved" then "create implementation plan"
-        elif .type == "SPIKE" and .status == "Planned" then "begin investigation"
-        elif .type == "SPIKE" and .status == "Active" then "complete findings"
-        elif .type == "BUG" then "triage and fix"
-        else "progress to next phase" end;
-      .artifacts.epics | to_entries[] |
-      .value as $e |
-      "### \(art_link($e.id; $e.file)): \($e.title) [\($e.status)]",
-      "",
-      (if $e.progress.total == 0 then
-        "Progress: **needs decomposition into specs**"
-      elif $e.progress.done == $e.progress.total then
-        "Progress: **all \($e.progress.total) specs resolved** — ready for completion"
-      else
-        "Progress: **\($e.progress.done)/\($e.progress.total)** specs resolved (\($e.progress.total - $e.progress.done) remaining)"
-      end),
-      "",
-      ($e.children | sort_by(.status) | .[] |
-        (if (.status | test("Complete|Implemented|Adopted|Validated|Archived|Retired|Superseded|Abandoned|Sunset|Deprecated|Verified|Declined"))
-         then "  - [x]"
-         else "  - [ ]"
-         end) + " \(art_link(.id; .file)): \(.title) [\(.status)]" +
-        (if (.status | test("Complete|Implemented|Adopted|Validated|Archived|Retired|Superseded|Abandoned|Sunset|Deprecated|Verified|Declined") | not)
-         then " — \(next_step)"
-         else "" end),
-        (if .description and (.description | length > 0) then
-          "    _\(.description)_"
-        else empty end)
-      ),
-      ""
+      def readiness($e):
+        if $e.progress.total == 0 then "needs decomposition"
+        elif $e.progress.done == $e.progress.total then "all \($e.progress.total) specs resolved"
+        else "\($e.progress.done)/\($e.progress.total) specs resolved (\($e.progress.total - $e.progress.done) remaining)"
+        end;
+      "| Epic | Status | Purpose | Readiness |",
+      "|------|--------|---------|-----------|",
+      (.artifacts.epics | to_entries[] |
+        .value as $e |
+        (($e.description // "") | if length > 70 then .[0:70] + "…" else . end) as $purpose |
+        "| \(art_link($e.id; $e.file)): \($e.title) | \($e.status) | \($purpose) | \(readiness($e)) |"
+      )
     '
+    echo ""
   fi
 
   # --- Decision backlog / Implementation backlog split ---
@@ -502,20 +508,16 @@ render_full() {
 
   if [[ "$ready_count" -gt 0 ]]; then
     # Count decisions vs implementation items
+    # Classification from SPIKE-012: VISION, JOURNEY, PERSONA, ADR, DESIGN need human decisions
+    # at every phase. Other types use per-phase bucket mapping.
     local decision_count
     decision_count=$(echo "$data" | jq '
+      def is_decision_only_type: .type | test("VISION|JOURNEY|PERSONA|ADR|DESIGN");
       def is_decision:
-        (.type == "SPEC" and .status == "Draft") or
-        (.type == "STORY" and .status == "Draft") or
-        (.type == "SPIKE" and (.status | test("Planned|Active"))) or
-        (.type == "ADR" and .status == "Proposed") or
-        (.type == "VISION" and .status == "Draft") or
-        (.type == "JOURNEY" and (.status | test("Draft|Planned"))) or
-        (.type == "PERSONA" and .status == "Draft") or
+        is_decision_only_type or
         (.type == "EPIC" and (.status | test("Proposed|Planned"))) or
-        (.type == "BUG") or
-        (.type == "RUNBOOK" and .status == "Draft") or
-        (.type == "DESIGN" and .status == "Draft");
+        (.type == "SPEC" and (.status | test("Proposed|Draft|Review"))) or
+        (.type == "SPIKE" and (.status | test("Proposed|Planned")));
       [.artifacts.ready[] | select(is_decision)] | length
     ')
 
@@ -523,41 +525,36 @@ render_full() {
     if [[ "$decision_count" -gt 0 ]]; then
       echo "## Decisions Waiting on You (${decision_count})"
       echo ""
-      echo "$data" | jq -r --arg repo "$REPO_ROOT" '
+      echo "$data" | jq -r --arg repo "$REPO_ROOT" --arg osc8 "$_USE_OSC8" '
         def art_link($aid; $file):
-          if $file != null and $file != "" then
+          if $file != null and $file != "" and $osc8 == "true" then
             "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
           else $aid end;
         def next_step:
-          if .type == "EPIC" and (.status | test("Proposed|Planned")) then "activate and decompose into specs"
-          elif .type == "EPIC" and (.status | test("Active")) then "work on child specs"
-          elif .type == "SPEC" and .status == "Draft" then "review and approve"
-          elif .type == "SPEC" and .status == "Approved" then "create implementation plan"
-          elif .type == "SPEC" and .status == "Implementing" then "complete implementation"
-          elif .type == "STORY" and .status == "Draft" then "refine acceptance criteria"
-          elif .type == "STORY" and .status == "Approved" then "create implementation plan"
-          elif .type == "SPIKE" and .status == "Planned" then "begin investigation"
-          elif .type == "SPIKE" and .status == "Active" then "complete findings"
-          elif .type == "ADR" and .status == "Proposed" then "review and decide"
-          elif .type == "VISION" and .status == "Draft" then "align on goals and audience"
-          elif .type == "JOURNEY" and (.status | test("Draft|Planned")) then "map pain points and opportunities"
-          elif .type == "BUG" then "triage and fix"
-          elif .type == "PERSONA" and .status == "Draft" then "validate with user research"
-          elif .type == "RUNBOOK" and .status == "Draft" then "test procedure and finalize"
-          elif .type == "DESIGN" and .status == "Draft" then "review interaction flows"
+          if .type == "VISION" and (.status | test("Proposed|Draft")) then "align on goals and audience"
+          elif .type == "VISION" then "decompose into epics"
+          elif .type == "JOURNEY" then "map pain points and opportunities"
+          elif .type == "PERSONA" then "validate with user research"
+          elif .type == "ADR" and (.status | test("Proposed|Draft")) then "form recommendation"
+          elif .type == "ADR" then "review and decide"
+          elif .type == "EPIC" and (.status | test("Proposed|Planned")) then "activate and decompose into specs"
+          elif .type == "EPIC" and .status == "Active" then "work on child specs"
+          elif .type == "SPEC" and (.status | test("Proposed|Draft")) then "review and approve"
+          elif .type == "SPEC" and (.status | test("Ready|Approved")) then "create implementation plan"
+          elif .type == "SPEC" and (.status | test("In Progress")) then "implement and test"
+          elif .type == "SPEC" and (.status | test("Needs Manual Test|Testing")) then "complete verification"
+          elif .type == "SPIKE" and (.status | test("Proposed|Planned")) then "begin investigation"
+          elif .type == "SPIKE" then "complete investigation"
+          elif .type == "RUNBOOK" and (.status | test("Proposed|Draft")) then "author and test procedure"
+          elif .type == "RUNBOOK" then "execute and record results"
+          elif .type == "DESIGN" then "create wireframes and flows"
           else "progress to next phase" end;
+        def is_decision_only_type: .type | test("VISION|JOURNEY|PERSONA|ADR|DESIGN");
         def is_decision:
-          (.type == "SPEC" and .status == "Draft") or
-          (.type == "STORY" and .status == "Draft") or
-          (.type == "SPIKE" and (.status | test("Planned|Active"))) or
-          (.type == "ADR" and .status == "Proposed") or
-          (.type == "VISION" and .status == "Draft") or
-          (.type == "JOURNEY" and (.status | test("Draft|Planned"))) or
-          (.type == "PERSONA" and .status == "Draft") or
+          is_decision_only_type or
           (.type == "EPIC" and (.status | test("Proposed|Planned"))) or
-          (.type == "BUG") or
-          (.type == "RUNBOOK" and .status == "Draft") or
-          (.type == "DESIGN" and .status == "Draft");
+          (.type == "SPEC" and (.status | test("Proposed|Draft|Review"))) or
+          (.type == "SPIKE" and (.status | test("Proposed|Planned")));
         [.artifacts.ready[] | select(is_decision)] | sort_by(-(.unblocks | length), .id)[] |
         "- \(art_link(.id; .file)): \(.title) [\(.status)] — \(next_step)" +
         (if (.unblocks | length) > 0 then " (unblocks \(.unblocks | length))" else "" end),
@@ -575,41 +572,36 @@ render_full() {
     if [[ "$impl_count" -gt 0 ]]; then
       echo "## Implementation (${impl_count} — agent can handle)"
       echo ""
-      echo "$data" | jq -r --arg repo "$REPO_ROOT" '
+      echo "$data" | jq -r --arg repo "$REPO_ROOT" --arg osc8 "$_USE_OSC8" '
         def art_link($aid; $file):
-          if $file != null and $file != "" then
+          if $file != null and $file != "" and $osc8 == "true" then
             "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
           else $aid end;
         def next_step:
-          if .type == "EPIC" and (.status | test("Proposed|Planned")) then "activate and decompose into specs"
-          elif .type == "EPIC" and (.status | test("Active")) then "work on child specs"
-          elif .type == "SPEC" and .status == "Draft" then "review and approve"
-          elif .type == "SPEC" and .status == "Approved" then "create implementation plan"
-          elif .type == "SPEC" and .status == "Implementing" then "complete implementation"
-          elif .type == "STORY" and .status == "Draft" then "refine acceptance criteria"
-          elif .type == "STORY" and .status == "Approved" then "create implementation plan"
-          elif .type == "SPIKE" and .status == "Planned" then "begin investigation"
-          elif .type == "SPIKE" and .status == "Active" then "complete findings"
-          elif .type == "ADR" and .status == "Proposed" then "review and decide"
-          elif .type == "VISION" and .status == "Draft" then "align on goals and audience"
-          elif .type == "JOURNEY" and (.status | test("Draft|Planned")) then "map pain points and opportunities"
-          elif .type == "BUG" then "triage and fix"
-          elif .type == "PERSONA" and .status == "Draft" then "validate with user research"
-          elif .type == "RUNBOOK" and .status == "Draft" then "test procedure and finalize"
-          elif .type == "DESIGN" and .status == "Draft" then "review interaction flows"
+          if .type == "VISION" and (.status | test("Proposed|Draft")) then "align on goals and audience"
+          elif .type == "VISION" then "decompose into epics"
+          elif .type == "JOURNEY" then "map pain points and opportunities"
+          elif .type == "PERSONA" then "validate with user research"
+          elif .type == "ADR" and (.status | test("Proposed|Draft")) then "form recommendation"
+          elif .type == "ADR" then "review and decide"
+          elif .type == "EPIC" and (.status | test("Proposed|Planned")) then "activate and decompose into specs"
+          elif .type == "EPIC" and .status == "Active" then "work on child specs"
+          elif .type == "SPEC" and (.status | test("Proposed|Draft")) then "review and approve"
+          elif .type == "SPEC" and (.status | test("Ready|Approved")) then "create implementation plan"
+          elif .type == "SPEC" and (.status | test("In Progress")) then "implement and test"
+          elif .type == "SPEC" and (.status | test("Needs Manual Test|Testing")) then "complete verification"
+          elif .type == "SPIKE" and (.status | test("Proposed|Planned")) then "begin investigation"
+          elif .type == "SPIKE" then "complete investigation"
+          elif .type == "RUNBOOK" and (.status | test("Proposed|Draft")) then "author and test procedure"
+          elif .type == "RUNBOOK" then "execute and record results"
+          elif .type == "DESIGN" then "create wireframes and flows"
           else "progress to next phase" end;
+        def is_decision_only_type: .type | test("VISION|JOURNEY|PERSONA|ADR|DESIGN");
         def is_decision:
-          (.type == "SPEC" and .status == "Draft") or
-          (.type == "STORY" and .status == "Draft") or
-          (.type == "SPIKE" and (.status | test("Planned|Active"))) or
-          (.type == "ADR" and .status == "Proposed") or
-          (.type == "VISION" and .status == "Draft") or
-          (.type == "JOURNEY" and (.status | test("Draft|Planned"))) or
-          (.type == "PERSONA" and .status == "Draft") or
+          is_decision_only_type or
           (.type == "EPIC" and (.status | test("Proposed|Planned"))) or
-          (.type == "BUG") or
-          (.type == "RUNBOOK" and .status == "Draft") or
-          (.type == "DESIGN" and .status == "Draft");
+          (.type == "SPEC" and (.status | test("Proposed|Draft|Review"))) or
+          (.type == "SPIKE" and (.status | test("Proposed|Planned")));
         [.artifacts.ready[] | select(is_decision | not)] | sort_by(-(.unblocks | length), .id)[] |
         "- \(art_link(.id; .file)): \(.title) [\(.status)] — \(next_step)" +
         (if (.unblocks | length) > 0 then " (unblocks \(.unblocks | length))" else "" end),
@@ -628,7 +620,7 @@ render_full() {
   if [[ "$blocked_count" -gt 0 ]]; then
     echo "## Blocked"
     echo ""
-    echo "$data" | jq -r --arg repo "$REPO_ROOT" '
+    echo "$data" | jq -r --arg repo "$REPO_ROOT" --arg osc8 "$_USE_OSC8" '
       def art_link($aid; $file):
         if $file != null and $file != "" then
           "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
@@ -728,7 +720,7 @@ render_full() {
   if [[ "$linked_count" -gt 0 ]]; then
     echo "## Linked Issues"
     echo ""
-    echo "$data" | jq -r --arg repo "$REPO_ROOT" '
+    echo "$data" | jq -r --arg repo "$REPO_ROOT" --arg osc8 "$_USE_OSC8" '
       def art_link($aid; $file):
         if $file != null and $file != "" then
           "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"

@@ -81,16 +81,15 @@ step_add_key_to_github() {
   local pub_key
   pub_key="$(cat "$pub_key_path")"
 
-  # Check if key already registered
-  local existing
+  # Check if THIS key is already registered for THIS type
+  local existing fingerprint
   existing="$(gh ssh-key list 2>/dev/null || true)"
-  if echo "$existing" | grep -qF "$(awk '{print $2}' "$pub_key_path")"; then
-    # Key fingerprint is present — check if this specific type is registered
-    # gh ssh-key list shows: TITLE  TYPE  FINGERPRINT  CREATED
-    if echo "$existing" | grep -q "$key_type"; then
-      skip "Key already registered on GitHub for $key_type"
-      return 0
-    fi
+  fingerprint="$(awk '{print $2}' "$pub_key_path")"
+  # gh ssh-key list format: TITLE  KEY_TYPE  FINGERPRINT  CREATED  ID  TYPE
+  # We need to check that a line contains BOTH this key's fingerprint AND the target type
+  if echo "$existing" | grep -F "$fingerprint" | grep -q "$key_type"; then
+    skip "Key already registered on GitHub for $key_type"
+    return 0
   fi
 
   info "Adding key to GitHub for $key_type (title: $key_title)..."
@@ -173,6 +172,15 @@ step_update_remote_url() {
     return 0
   fi
 
+  # If remote is HTTPS and gh CLI handles auth, keep HTTPS.
+  # Commit signing works independently of the transport protocol.
+  if echo "$current_url" | grep -q "^https://"; then
+    if command -v gh &>/dev/null && gh auth status &>/dev/null; then
+      skip "Remote uses HTTPS with gh credential helper — keeping HTTPS (signing works independently)"
+      return 0
+    fi
+  fi
+
   # Extract owner/repo from HTTPS or SSH URL
   local owner_repo
   if [[ "$current_url" =~ github\.com[:/](.+)$ ]]; then
@@ -193,6 +201,16 @@ step_configure_git_signing() {
   local key_path="$1" signers_path="$2"
 
   info "Configuring local git signing..."
+
+  # Detect if gpg.ssh.program resolves to 1Password's op-ssh-sign (may be
+  # set in an included config file, not just --global).  File-based keys
+  # cannot be used by op-ssh-sign, so override locally with ssh-keygen.
+  local current_ssh_program
+  current_ssh_program="$(git config gpg.ssh.program 2>/dev/null || true)"
+  if [[ "$current_ssh_program" == *"op-ssh-sign"* ]]; then
+    info "Detected 1Password ssh signing program ($current_ssh_program), overriding with ssh-keygen"
+    git config --local gpg.ssh.program ssh-keygen
+  fi
 
   git config --local gpg.format ssh
   git config --local user.signingkey "$key_path"
@@ -228,6 +246,41 @@ step_verify_signing() {
     return 0
   else
     warn "Signing verification failed: $test_output"
+    return 1
+  fi
+}
+
+step_verify_github_signing() {
+  info "Verifying commit shows as signed on GitHub..."
+  if ! command -v gh &>/dev/null; then
+    warn "gh CLI not found — skipping GitHub signing verification"
+    return 1
+  fi
+
+  # Check the latest commit's verification status on GitHub
+  local remote_url owner_repo
+  remote_url="$(git remote get-url origin 2>/dev/null || true)"
+  if [[ "$remote_url" =~ github\.com[:/](.+)$ ]]; then
+    owner_repo="${BASH_REMATCH[1]}"
+    owner_repo="${owner_repo%.git}"
+  else
+    warn "Could not determine GitHub owner/repo for verification"
+    return 1
+  fi
+
+  local head_sha verified reason
+  head_sha="$(git rev-parse HEAD)"
+  local result
+  result="$(gh api "repos/${owner_repo}/commits/${head_sha}" --jq '.commit.verification | "\(.verified) \(.reason)"' 2>/dev/null || echo "error")"
+  verified="$(echo "$result" | awk '{print $1}')"
+  reason="$(echo "$result" | awk '{print $2}')"
+
+  if [[ "$verified" == "true" ]]; then
+    ok "Latest commit (${head_sha:0:7}) shows as Verified on GitHub"
+    return 0
+  else
+    warn "Latest commit (${head_sha:0:7}) not verified on GitHub (reason: ${reason:-unknown})"
+    warn "This may be expected if the commit was made before signing was configured"
     return 1
   fi
 }
@@ -352,6 +405,9 @@ cmd_provision() {
   step_verify_connectivity "$host_alias" || had_errors=true
   step_verify_signing || had_errors=true
   echo ""
+  echo "NOTE: GitHub signing verification requires a signed commit to be pushed."
+  echo "Run 'swain-keys.sh --verify' after your next push to confirm Verified status."
+  echo ""
 
   if [[ "$gh_auth_ok" == false ]]; then
     echo "ACTION NEEDED: Some GitHub key registrations failed."
@@ -372,11 +428,18 @@ cmd_verify() {
   local project host_alias
   project="$(derive_project_name)"
   host_alias="github.com-${project}"
+  local had_warnings=false
 
   echo "=== swain-keys verify ==="
-  step_verify_connectivity "$host_alias"
-  step_verify_signing
-  echo "=== All checks passed ==="
+  step_verify_connectivity "$host_alias" || had_warnings=true
+  step_verify_signing || had_warnings=true
+  step_verify_github_signing || had_warnings=true
+
+  if [[ "$had_warnings" == true ]]; then
+    echo "=== Some checks had warnings ==="
+  else
+    echo "=== All checks passed ==="
+  fi
 }
 
 # --- Main ---

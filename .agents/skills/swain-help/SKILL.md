@@ -11,6 +11,8 @@ metadata:
   source: swain
 ---
 
+<!-- swain-model-hint: sonnet, effort: medium — default for conceptual explanations; see per-section overrides below -->
+
 # swain-help
 
 Contextual help for the swain skill ecosystem.
@@ -60,12 +62,12 @@ Answer the user's specific question using your knowledge of swain. If you need d
 
 | Topic | Where to look |
 |-------|---------------|
-| Artifact types, phases, relationships | `references/quick-ref.md` — Artifacts section |
-| Commands and invocations | `references/quick-ref.md` — Commands section |
-| Step-by-step walkthroughs | `references/workflows.md` |
-| Artifact definitions and templates | `../swain-design/references/<type>-definition.md` |
-| tk (ticket) CLI reference | `../swain-do/references/tk-cheatsheet.md` |
-| Troubleshooting | `../swain-design/references/troubleshooting.md` |
+| Artifact types, phases, relationships | `skills/swain-help/references/quick-ref.md` — Artifacts section |
+| Commands and invocations | `skills/swain-help/references/quick-ref.md` — Commands section |
+| Step-by-step walkthroughs | `skills/swain-help/references/workflows.md` |
+| Artifact definitions and templates | `skills/swain-design/references/<type>-definition.md` |
+| tk (ticket) CLI reference | `skills/swain-do/references/tk-cheatsheet.md` |
+| Troubleshooting | `skills/swain-design/references/troubleshooting.md` |
 
 Guidelines for answering:
 
@@ -74,8 +76,9 @@ Guidelines for answering:
 - **Hand off when appropriate.** If the user's question is really a request to *do* something (e.g., "how do I create a spec?" followed by "ok do it"), invoke the relevant skill directly via the Skill tool. Explain what you're doing: "I'll hand this off to swain-design."
 - **Admit gaps.** If something isn't covered, say so rather than inventing swain features.
 
+<!-- swain-model-hint: haiku, effort: low — reference lookups are simple file reads -->
 ## Reference mode
 
-When the user wants an overview or cheat sheet, read `references/quick-ref.md` and present the relevant section. If they want "everything", present the full quick reference but note it's dense.
+When the user wants an overview or cheat sheet, read `skills/swain-help/references/quick-ref.md` and present the relevant section. If they want "everything", present the full quick reference but note it's dense.
 
-For workflow walkthroughs, read `references/workflows.md`.
+For workflow walkthroughs, read `skills/swain-help/references/workflows.md`.

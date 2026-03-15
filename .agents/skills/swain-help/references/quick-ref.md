@@ -10,38 +10,33 @@
 | **swain-design** | `/swain-design` or `/swain` + artifact request | Create and manage documentation artifacts |
 | **swain-search** | `/swain-search` or `/swain` + research request | Collect and cache evidence pools |
 | **swain-do** | `/swain-do` or `/swain` + task request | Track tasks and implementation work |
-| **swain-push** | `/swain-push` or `/swain push` | Commit and push changes |
+| **swain-sync** | `/swain-sync` or `/swain sync` | Fetch, rebase, commit, and push changes |
 | **swain-release** | `/swain-release` or `/swain release` | Version bump, changelog, git tag |
 | **swain-update** | `/swain-update` or `/swain update` | Update swain to latest version |
+| **swain-dispatch** | `/swain dispatch SPEC-NNN` | Dispatch artifacts to background agents via GitHub |
+| **swain-retro** | `/swain-retro` or `/swain retro` | Capture learnings at EPIC completion or on demand |
 | **swain-help** | `/swain help` or `/swain-help` | This help system |
 
 ## Artifacts
 
-Swain manages 11 artifact types, organized by tier.
+Swain manages 9 artifact types, organized into three lifecycle tracks.
 
-### Implementation tier (tracked via tk)
+### Implementable track (tracked via tk)
 
 | Type | ID Pattern | Phases | When to use |
 |------|-----------|--------|-------------|
-| **Story** | STORY-NNN | Todo → In Progress → Done | User-facing feature with acceptance criteria |
-| **Agent Spec** | SPEC-NNN | Draft → Review → Approved → Testing → Implemented | Technical specification for an agent or component |
-| **Bug** | BUG-NNN | Reported → Active → Fixed → Verified | Defect to track and fix |
+| **Agent Spec** | SPEC-NNN | Proposed → Ready → In Progress → Needs Manual Test → Complete | Technical specification for an agent or component. Supports `type: feature \| enhancement \| bug`. |
 
 These require a tracked plan (via swain-do) before implementation begins.
 
-### Coordination tier (children are tracked)
+### Container track (children are tracked)
 
 | Type | ID Pattern | Phases | When to use |
 |------|-----------|--------|-------------|
-| **Epic** | EPIC-NNN | Proposed → Active → Testing → Complete | Large initiative decomposed into stories and specs |
+| **Epic** | EPIC-NNN | Proposed → Active → Complete | Large initiative decomposed into specs |
+| **Spike** | SPIKE-NNN | Proposed → Active → Complete | Time-boxed investigation to reduce uncertainty |
 
-### Research tier (tracking optional)
-
-| Type | ID Pattern | Phases | When to use |
-|------|-----------|--------|-------------|
-| **Spike** | SPIKE-NNN | Planned → Active → Complete | Time-boxed investigation to reduce uncertainty |
-
-### Reference tier (no tracking)
+### Standing track (no tracking)
 
 | Type | ID Pattern | When to use |
 |------|-----------|-------------|
@@ -55,10 +50,9 @@ These require a tracked plan (via swain-do) before implementation begins.
 ### Artifact relationships
 
 - **Vision** → decomposes into Epics and Journeys
-- **Epic** → decomposes into Stories, Specs, Spikes
-- **Story/Spec** → may reference ADRs, Personas, Designs
+- **Epic** → decomposes into Specs, Spikes
+- **Spec** → may reference ADRs, Personas, Designs
 - **Spike** → attaches to any artifact, may produce ADRs
-- **Bug** → affects Specs, Epics; may link to Designs
 - Any artifact can declare `depends-on:` blocking dependencies
 
 ## Commands
@@ -70,7 +64,6 @@ These require a tracked plan (via swain-do) before implementation begins.
 /swain write a spec for Y
 /swain file a bug about Z
 /swain plan an epic for W
-/swain add a user story for ...
 /swain create an ADR for this decision
 /swain create a runbook for deployment
 ```
@@ -78,8 +71,8 @@ These require a tracked plan (via swain-do) before implementation begins.
 ### Managing lifecycle
 
 ```
-/swain move SPEC-001 to Review
-/swain transition STORY-003 to Done
+/swain move SPEC-001 to Ready
+/swain transition SPEC-003 to Complete
 /swain abandon SPIKE-002
 ```
 
@@ -102,7 +95,7 @@ These require a tracked plan (via swain-do) before implementation begins.
 ### Releasing and committing
 
 ```
-/swain push
+/swain sync
 /swain release
 /swain bump version
 ```
@@ -111,7 +104,7 @@ These require a tracked plan (via swain-do) before implementation begins.
 
 ### The "plan before code" rule
 
-When a SPEC, STORY, or BUG comes up for implementation, swain requires a tracked plan (via tk) before code is written. This ensures work is visible and manageable across sessions. Swain-design enforces this automatically — when you transition an artifact to its implementation phase, it triggers swain-do to create the plan.
+When a SPEC comes up for implementation, swain requires a tracked plan (via tk) before code is written. This ensures work is visible and manageable across sessions. Swain-design enforces this automatically — when you transition an artifact to its implementation phase, it triggers swain-do to create the plan.
 
 ### tk (ticket)
 
@@ -145,13 +138,11 @@ CLAUDE.md contains just `@AGENTS.md`, which includes the full AGENTS.md file. Th
 └── docs/
     ├── vision/            # VISION artifacts
     ├── epic/              # EPIC artifacts
-    ├── story/             # STORY artifacts
     ├── spec/              # SPEC artifacts
     ├── spike/             # SPIKE artifacts
     ├── adr/               # ADR artifacts
     ├── persona/           # PERSONA artifacts
     ├── runbook/           # RUNBOOK artifacts
-    ├── bug/               # BUG artifacts
     ├── design/            # DESIGN artifacts
     ├── journey/           # JOURNEY artifacts
     └── list-*.md          # Lifecycle indexes per type

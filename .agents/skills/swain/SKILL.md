@@ -2,12 +2,14 @@
 name: swain
 description: "Meta-router for swain skills. Invoke when the user types /swain or mentions swain by name. Routes to the matching swain-* sub-skill — only load the one that matches."
 ---
+<!-- swain-model-hint: haiku, effort: low -->
 Invoke the Skill tool for exactly one match. Pass the user's full prompt as args.
 
 | swain-design | vision, epic, story, spec, ADR, spike, bug, persona, runbook, journey, design |
 | swain-search | research, evidence, gather sources, search for, evidence pool, what do we know about |
 | swain-do | tasks, implementation, tracking, tk, ticket |
-| swain-push | commit, push, stage |
+| swain-sync | commit, push, stage, sync, fetch |
+| swain-push | push (deprecated alias for swain-sync) |
 | swain-release | release, version, changelog, tag |
 | swain-update | update/upgrade swain |
 | swain-doctor | session init, governance, doctor, health check, gitignore |
@@ -17,3 +19,5 @@ Invoke the Skill tool for exactly one match. Pass the user's full prompt as args
 | swain-session | session, tab name, preferences, bookmark, remember where I am |
 | swain-keys | SSH keys, signing, provision keys, configure signing, key setup |
 | swain-stage | tmux, panes, layout, workspace, motd, review pane, file browser pane |
+| swain-dispatch | dispatch, background agent, offload, send to agent, run in background |
+| swain-retro | retro, retrospective, reflect, what did we learn, learnings |

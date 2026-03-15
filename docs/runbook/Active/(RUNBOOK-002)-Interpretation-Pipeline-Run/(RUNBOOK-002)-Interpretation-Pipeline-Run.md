@@ -106,6 +106,12 @@ End-to-end procedure for running the persona interpretation pipeline across meet
    ```
    **Expected:** New files in `meetings/`, `cumulative/`, and optionally `briefs/`. Review a sample interpretation and fold for quality before committing.
 
+## Alternative: Claude Code Agent Execution
+
+The fold stage (Stage 3) can be executed via Claude Code agents instead of the Python scripts. This uses the Max subscription instead of API credits. Dispatch one agent per persona — each reads the persona definition, prior cumulative records, and per-meeting interpretations, then writes the fold output directly. All 14 agents run in parallel; within each agent, meetings are processed sequentially (chronological order matters).
+
+The interpretation stage (Stage 2) requires the Python scripts since the prompts include the full meeting bundle context (~50K tokens). Fold and summary prompts are smaller and work well as agent tasks.
+
 ## Teardown
 
 No teardown needed. All outputs are additive and idempotent. To regenerate specific outputs, use `--force` on the relevant script with `--persona` to target specific personas.
@@ -125,6 +131,7 @@ No teardown needed. All outputs are additive and idempotent. To regenerate speci
 | Date | Executor | Result | Duration | Notes |
 |------|----------|--------|----------|-------|
 | 2026-03-13 | cristos | - | - | Template created |
+| 2026-03-14 | claude-code | Pass | ~45 min | Backfill: 9 budget meetings x 14 personas. Interpretation via API scripts (batches 1-2 stopped, scoped to school board + joint budget meetings). Fold via Claude Code agents (14 parallel, one per persona). 126 interpretation docs, 126 cumulative records, 14 summaries. Briefs skipped (no upcoming date). Note: 2026-02-04 budget forum slides PDF not readable — transcript only. |
 
 ## Lifecycle
 

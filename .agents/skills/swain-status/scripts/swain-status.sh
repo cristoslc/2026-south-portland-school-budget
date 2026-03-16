@@ -18,7 +18,7 @@ REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null)" || {
   exit 1
 }
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-SPECGRAPH="$SCRIPT_DIR/../../swain-design/scripts/specgraph.sh"
+SPECGRAPH="$SCRIPT_DIR/../../swain-design/scripts/specgraph.py"
 
 PROJECT_NAME="$(basename "$REPO_ROOT")"
 SETTINGS_PROJECT="$REPO_ROOT/swain.settings.json"
@@ -95,16 +95,33 @@ artifact_link() {
 # --- Data collectors ---
 
 collect_git() {
-  local branch dirty changed_count last_hash last_msg last_age recent_json
+  local branch dirty staged_count modified_count untracked_count changed_count last_hash last_msg last_age recent_json
 
   branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "detached")
 
-  if git diff --quiet HEAD 2>/dev/null && git diff --cached --quiet 2>/dev/null; then
+  # Use git status --porcelain for accurate per-category counts
+  local porcelain
+  porcelain=$(git status --porcelain 2>/dev/null) || porcelain=""
+
+  staged_count=0
+  modified_count=0
+  untracked_count=0
+
+  if [[ -n "$porcelain" ]]; then
+    dirty="true"
+    while IFS= read -r line; do
+      local x="${line:0:1}" y="${line:1:1}"
+      if [[ "$x" == "?" ]]; then
+        (( untracked_count++ ))
+      else
+        [[ "$x" != " " ]] && (( staged_count++ ))
+        [[ "$y" != " " ]] && (( modified_count++ ))
+      fi
+    done <<< "$porcelain"
+    changed_count=$(( staged_count + modified_count + untracked_count ))
+  else
     dirty="false"
     changed_count=0
-  else
-    dirty="true"
-    changed_count=$(git diff --name-only HEAD 2>/dev/null | wc -l | tr -d ' ')
   fi
 
   last_hash=$(git log -1 --pretty=format:'%h' 2>/dev/null || echo "")
@@ -118,6 +135,9 @@ collect_git() {
     --arg branch "$branch" \
     --argjson dirty "$dirty" \
     --argjson changed "$changed_count" \
+    --argjson staged "$staged_count" \
+    --argjson modified "$modified_count" \
+    --argjson untracked "$untracked_count" \
     --arg lastHash "$last_hash" \
     --arg lastMsg "$last_msg" \
     --arg lastAge "$last_age" \
@@ -126,6 +146,9 @@ collect_git() {
       branch: $branch,
       dirty: $dirty,
       changedFiles: $changed,
+      staged: $staged,
+      modified: $modified,
+      untracked: $untracked,
       lastCommit: { hash: $lastHash, message: $lastMsg, age: $lastAge },
       recentCommits: $recent
     }'
@@ -134,7 +157,7 @@ collect_git() {
 collect_artifacts() {
   # Ensure specgraph cache is fresh
   if [[ -x "$SPECGRAPH" ]] || [[ -f "$SPECGRAPH" ]]; then
-    bash "$SPECGRAPH" build >/dev/null 2>&1 || true
+    python3 "$SPECGRAPH" build >/dev/null 2>&1 || true
   fi
 
   # Read specgraph cache
@@ -143,11 +166,22 @@ collect_artifacts() {
   local SG_CACHE="/tmp/agents-specgraph-${REPO_HASH}.json"
 
   if [[ ! -f "$SG_CACHE" ]]; then
-    echo '{"ready":[],"blocked":[],"epics":{},"counts":{"total":0,"resolved":0,"ready":0,"blocked":0}}'
+    echo '{"ready":[],"blocked":[],"epics":{},"counts":{"total":0,"resolved":0,"ready":0,"blocked":0},"xref":[],"xref_gap_count":0}'
     return
   fi
 
-  jq '
+  # Extract xref data from specgraph cache (empty array if key absent)
+  local SG_XREF
+  SG_XREF=$(jq -c '.xref // []' "$SG_CACHE" 2>/dev/null || echo '[]')
+
+  # Count artifacts with at least one discrepancy
+  local XREF_GAP_COUNT
+  XREF_GAP_COUNT=$(echo "$SG_XREF" | jq 'length' 2>/dev/null || echo 0)
+
+  jq \
+    --argjson xref "$SG_XREF" \
+    --argjson xref_gap_count "$XREF_GAP_COUNT" \
+    '
     def is_status_resolved: test("Complete|Retired|Superseded|Abandoned|Implemented|Adopted|Validated|Archived|Sunset|Deprecated|Verified|Declined");
     def is_resolved: (.status | is_status_resolved) or ((.type | test("VISION|JOURNEY|PERSONA|ADR|RUNBOOK|DESIGN")) and .status == "Active");
     # A dependency is satisfied once its target moves past initial planning phases.
@@ -178,7 +212,7 @@ collect_artifacts() {
       ([$edges[] | select(.to == $id and .type == "depends-on") | .from] |
         map(select(. as $dep | $nodes[$dep] != null and ($nodes[$dep] | is_resolved | not))) |
         unique) as $unblocks |
-      {id: .key, status: .value.status, title: .value.title, type: .value.type, file: .value.file, description: .value.description, unblocks: $unblocks}
+      {id: .key, status: .value.status, title: .value.title, type: .value.type, file: .value.file, description: .value.description, unblocks: $unblocks, unblock_count: ($unblocks | length)}
     ] | sort_by(-(.unblocks | length), .id)) as $ready |
 
     # Blocked: deps not yet satisfied (still in Proposed or legacy Draft/Planned/Review)
@@ -204,7 +238,7 @@ collect_artifacts() {
       # Find children (specs/stories parented to this epic)
       ([$edges[] | select(.to == $epic_id and .type == "parent-epic") | .from]) as $child_ids |
       ($child_ids | map(. as $cid | $nodes[$cid]) | map(select(. != null))) as $children |
-      ($children | map(select(.status | is_resolved)) | length) as $done |
+      ($children | map(select(is_resolved)) | length) as $done |
       ($children | length) as $total |
       {
         id: $epic_id,
@@ -221,7 +255,7 @@ collect_artifacts() {
 
     # Counts
     ([$nodes | to_entries[]] | length) as $total |
-    ([$nodes | to_entries[] | select(.value.status | is_resolved)] | length) as $resolved |
+    ([$nodes | to_entries[] | select(.value | is_resolved)] | length) as $resolved |
 
     {
       ready: $ready,
@@ -232,7 +266,9 @@ collect_artifacts() {
         resolved: $resolved,
         ready: ($ready | length),
         blocked: ($blocked | length)
-      }
+      },
+      xref: $xref,
+      xref_gap_count: $xref_gap_count
     }
   ' "$SG_CACHE"
 }
@@ -354,10 +390,12 @@ collect_session() {
     jq '{
       bookmark: (.bookmark // null),
       lastBranch: (.lastBranch // null),
-      lastContext: (.lastContext // null)
-    }' "$SESSION_FILE" 2>/dev/null || echo '{"bookmark":null,"lastBranch":null,"lastContext":null}'
+      lastContext: (.lastContext // null),
+      focus_lane: (.focus_lane // null),
+      status_mode: (.status_mode // null)
+    }' "$SESSION_FILE" 2>/dev/null || echo '{"bookmark":null,"lastBranch":null,"lastContext":null,"focus_lane":null,"status_mode":null}'
   else
-    echo '{"bookmark":null,"lastBranch":null,"lastContext":null}'
+    echo '{"bookmark":null,"lastBranch":null,"lastContext":null,"focus_lane":null,"status_mode":null}'
   fi
 }
 
@@ -374,6 +412,20 @@ build_cache() {
   linked_issue_data=$(collect_linked_issues)
   session_data=$(collect_session)
 
+  # Priority data from specgraph
+  local recommend_data debt_data attention_data
+  local focus_lane=""
+  if [[ -f "$SESSION_FILE" ]]; then
+    focus_lane=$(jq -r '.focus_lane // empty' "$SESSION_FILE" 2>/dev/null || echo "")
+  fi
+  if [[ -n "$focus_lane" ]]; then
+    recommend_data=$(python3 "$SPECGRAPH" recommend --focus "$focus_lane" --json 2>/dev/null || echo '[]')
+  else
+    recommend_data=$(python3 "$SPECGRAPH" recommend --json 2>/dev/null || echo '[]')
+  fi
+  debt_data=$(python3 "$SPECGRAPH" decision-debt 2>/dev/null || echo '{}')
+  attention_data=$(python3 "$SPECGRAPH" attention --json 2>/dev/null || echo '{"attention":{},"drift":[]}')
+
   local timestamp
   timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
@@ -387,6 +439,9 @@ build_cache() {
     --argjson issues "$issue_data" \
     --argjson session "$session_data" \
     --argjson linked "$linked_issue_data" \
+    --argjson recommend "$recommend_data" \
+    --argjson debt "$debt_data" \
+    --argjson attention "$attention_data" \
     '{
       timestamp: $ts,
       repo: $repo,
@@ -396,7 +451,13 @@ build_cache() {
       tasks: $tasks,
       issues: $issues,
       linkedIssues: $linked,
-      session: $session
+      session: $session,
+      priority: {
+        recommendations: $recommend,
+        decision_debt: $debt,
+        attention: $attention.attention,
+        drift: $attention.drift
+      }
     }' > "${CACHE_FILE}.tmp" && mv "${CACHE_FILE}.tmp" "$CACHE_FILE"
 }
 
@@ -561,6 +622,47 @@ render_full() {
         (if .description and (.description | length > 0) then
           "  _\(.description)_"
         else empty end)
+      '
+
+      # --- Vision context for decisions ---
+      echo "$data" | jq -r '
+        if .priority.decision_debt then
+          [.priority.decision_debt | to_entries[] | select(.key != "_unaligned")] |
+          if length > 0 then
+            "**By vision:** " + (
+              [.[] | "\(.key) (\(.value.count) decisions, \(.value.total_unblocks) unblocks)"] | join(", ")
+            )
+          else empty end
+        else empty end
+      '
+      echo ""
+    fi
+
+    # --- Attention Drift ---
+    local drift_count
+    drift_count=$(echo "$data" | jq '[.priority.drift // [] | .[] ] | length' 2>/dev/null || echo 0)
+    if [[ "$drift_count" -gt 0 ]]; then
+      echo "## Attention Drift"
+      echo ""
+      echo "$data" | jq -r '
+        [.priority.drift[] |
+          "- \(.vision_id) [weight: \(.weight)] — \(.days_since_activity) days since last activity (threshold: \(.threshold))"
+        ] | .[]
+      '
+      echo ""
+    fi
+
+    # --- Peripheral Awareness ---
+    local focus_lane
+    focus_lane=$(echo "$data" | jq -r '.session.focus_lane // empty' 2>/dev/null || echo "")
+    if [[ -n "$focus_lane" ]]; then
+      echo "## Meanwhile"
+      echo ""
+      echo "$data" | jq -r --arg focus "$focus_lane" '
+        [.priority.decision_debt // {} | to_entries[] |
+          select(.key != "_unaligned" and .key != $focus) |
+          "\(.key) has \(.value.count) pending decisions"
+        ] | if length > 0 then "- " + join("\n- ") else empty end
       '
       echo ""
     fi
@@ -737,6 +839,34 @@ render_full() {
     echo ""
   fi
 
+  # --- Cross-Reference Gaps ---
+  local xref_count
+  xref_count=$(echo "$data" | jq -r '.artifacts.xref | length // 0')
+
+  if [[ "$xref_count" -gt 0 ]]; then
+    echo "## Cross-Reference Gaps"
+    echo ""
+    echo "$data" | jq -r --arg repo "$REPO_ROOT" --arg osc8 "$_USE_OSC8" '
+      def art_link($aid; $file):
+        if $file != null and $file != "" and $osc8 == "true" then
+          "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
+        else $aid end;
+      .artifacts.xref[] |
+      . as $entry |
+      "- \(art_link($entry.artifact; $entry.file))" +
+      (if $entry.body_not_in_frontmatter and ($entry.body_not_in_frontmatter | length) > 0 then
+        "\n  undeclared: \($entry.body_not_in_frontmatter | join(", "))"
+      else "" end) +
+      (if $entry.frontmatter_not_in_body and ($entry.frontmatter_not_in_body | length) > 0 then
+        "\n  undeclared (reverse): \($entry.frontmatter_not_in_body | join(", "))"
+      else "" end) +
+      (if $entry.missing_reciprocal and ($entry.missing_reciprocal | length) > 0 then
+        "\n  missing reciprocal: \($entry.missing_reciprocal | map(.from) | join(", "))"
+      else "" end)
+    '
+    echo ""
+  fi
+
   # --- Artifact counts footer ---
   local total resolved ready blocked
   total=$(echo "$data" | jq -r '.artifacts.counts.total')
@@ -786,12 +916,19 @@ render_compact() {
   local issue_count
   issue_count=$(echo "$data" | jq -r '.issues.assigned | length // 0')
 
+  # Xref gap count
+  local xref_gap_count
+  xref_gap_count=$(echo "$data" | jq -r '.artifacts.xref_gap_count // 0')
+
   echo "${branch} (${dirty})"
   echo "epic: ${epic_summary}"
   echo "task: ${task_line}"
   echo "ready: ${ready_count} actionable"
   if [[ "$issue_count" -gt 0 ]]; then
     echo "issues: ${issue_count} assigned"
+  fi
+  if [[ "$xref_gap_count" -gt 0 ]]; then
+    echo "xref: ${xref_gap_count} gaps"
   fi
 }
 

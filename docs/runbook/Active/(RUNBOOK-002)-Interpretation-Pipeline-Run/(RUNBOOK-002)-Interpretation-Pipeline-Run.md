@@ -23,8 +23,8 @@ End-to-end procedure for running the persona interpretation pipeline across meet
 
 ## Prerequisites
 
-- Python 3 with `anthropic`, `pyyaml` packages available (use `uv run` if not installed)
-- `ANTHROPIC_API_KEY` set in the environment
+- Python 3 with `pyyaml` package available (use `uv run` if not installed)
+- `claude` CLI installed and authenticated (run `claude login` if needed)
 - Meeting bundles exist in `data/interpretation/bundles/` (run `bundle_meetings.py` if not)
 - Validated personas exist in `docs/persona/Validated/` (14 currently)
 
@@ -56,7 +56,7 @@ End-to-end procedure for running the persona interpretation pipeline across meet
    ```
    **Expected:** Each meeting produces 14 persona interpretation files in `data/interpretation/meetings/<meeting-id>/`. Existing interpretations are skipped (resume-safe). Failed personas are logged but don't halt the loop.
 
-   **Cost estimate:** ~280 LLM calls (20 meetings x 14 personas), each ~4K output tokens on claude-sonnet-4. Budget approximately $5-10 for the full backfill.
+   **Cost note:** Scripts use `claude -p` (Max subscription). No API credits consumed.
 
 4. **Action:** Verify interpretation coverage. [bash]
    ```bash
@@ -108,7 +108,7 @@ End-to-end procedure for running the persona interpretation pipeline across meet
 
 ## Alternative: Claude Code Agent Execution
 
-The fold stage (Stage 3) can be executed via Claude Code agents instead of the Python scripts. This uses the Max subscription instead of API credits. Dispatch one agent per persona — each reads the persona definition, prior cumulative records, and per-meeting interpretations, then writes the fold output directly. All 14 agents run in parallel; within each agent, meetings are processed sequentially (chronological order matters).
+The fold stage (Stage 3) and brief generation (Stage 4) can alternatively be executed via Claude Code agents instead of the Python scripts. This offers parallelism — dispatch one agent per persona (14 parallel agents), each reading the persona definition, prior cumulative records, and per-meeting interpretations, then writing the fold output directly. Within each agent, meetings are processed sequentially (chronological order matters). Both approaches use the Max subscription; agents are faster for bulk operations due to parallelism.
 
 The interpretation stage (Stage 2) requires the Python scripts since the prompts include the full meeting bundle context (~50K tokens). Fold and summary prompts are smaller and work well as agent tasks.
 
@@ -123,7 +123,7 @@ No teardown needed. All outputs are additive and idempotent. To regenerate speci
 | "No bundle manifest found" | Bundle directory missing or empty | Run `bundle_meetings.py` first (step 1) |
 | Persona count < 14 for a meeting | LLM rate limit or transient failure | Retry with `--force --persona PERSONA-NNN` |
 | Fold produces empty deltas | First meeting for persona — no prior state | Expected behavior for the earliest meeting |
-| "ANTHROPIC_API_KEY not set" | Missing env var | Export the key or use a `.env` file |
+| "claude: command not found" | CLI not installed or not on PATH | Install claude CLI and run `claude login` |
 | Interpretation validation warnings | Output slightly out of schema | Check warnings — soft validation. Re-run with `--force` if critical |
 
 ## Run Log

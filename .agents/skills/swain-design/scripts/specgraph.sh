@@ -19,9 +19,11 @@ REPO_HASH=$(printf '%s' "$REPO_ROOT" | shasum -a 256 | cut -c1-12)
 CACHE_FILE="/tmp/agents-specgraph-${REPO_HASH}.json"
 
 # --- Resolved statuses (for ready command) ---
-# Terminal/resolved statuses. Standing-track types (VISION, ADR, etc.) also resolve
-# at "Active" — handled in the type-aware jq is_resolved_node function, not here.
-# Legacy aliases kept for migration compatibility until SPEC-020 completes.
+# Terminal/resolved statuses for implementable and container tracks.
+# Standing-track artifacts also resolve at "Active" — handled dynamically via the
+# artifact's track field in is_resolved (SPEC-038). When track is absent, type-based
+# inference emits TRACK_MISSING warnings to stderr and falls back to safe defaults.
+# Legacy aliases kept for migration compatibility.
 RESOLVED_RE="Complete|Retired|Superseded|Abandoned|Implemented|Adopted|Validated|Archived|Sunset|Deprecated|Verified|Declined"
 
 # --- Helpers ---
@@ -164,15 +166,28 @@ do_build() {
     local desc
     desc=$(get_description "$file")
 
+    # Extract lifecycle track; infer from type and warn if absent
+    local track
+    track=$(get_field "$file" "track")
+    if [ -z "$track" ]; then
+      case "$atype" in
+        VISION|JOURNEY|PERSONA|ADR|RUNBOOK|DESIGN) track="standing" ;;
+        EPIC|SPIKE) track="container" ;;
+        *) track="implementable" ;;
+      esac
+      printf 'TRACK_MISSING: %s (inferred %s from type %s)\n' "$artifact" "$track" "$atype" >&2
+    fi
+
     # Build node JSON
     local node_json
     node_json=$(jq -n \
       --arg title "$title" \
       --arg status "$status" \
       --arg type "$atype" \
+      --arg track "$track" \
       --arg file "$file_rel" \
       --arg desc "$desc" \
-      '{title: $title, status: $status, type: $type, file: $file, description: $desc}')
+      '{title: $title, status: $status, type: $type, track: $track, file: $file, description: $desc}')
 
     if [ $first_node -eq 1 ]; then
       nodes_json="\"$artifact\": $node_json"
@@ -302,19 +317,19 @@ do_ready() {
     .repo as $repo |
     .nodes as $nodes |
     .edges as $edges |
+    def is_status_resolved: test("Complete|Retired|Superseded|Abandoned|Implemented|Adopted|Validated|Archived|Sunset|Deprecated|Verified|Declined");
+    def is_resolved: (.status | is_status_resolved) or ((.track // "implementable") == "standing" and .status == "Active");
     def art_link($aid; $file):
       if $file != null and $file != "" then
         "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
       else $aid end;
     [.nodes | to_entries[] |
-      select(
-        (.value.status | test("Complete|Implemented|Adopted|Validated|Archived|Retired|Superseded|Abandoned|Sunset|Deprecated|Verified|Declined") | not)
-      ) |
+      select(.value | is_resolved | not) |
       .key as $id |
       ([$edges[] | select(.from == $id and .type == "depends-on") | .to] | unique) as $deps |
       select(
         ($deps | length == 0) or
-        ($deps | all(. as $dep | $nodes[$dep] != null and ($nodes[$dep].status | test("Complete|Implemented|Adopted|Validated|Archived|Retired|Superseded|Abandoned|Sunset|Deprecated|Verified|Declined"))))
+        ($deps | all(. as $dep | $nodes[$dep] != null and ($nodes[$dep] | is_resolved)))
       ) |
       "  \(art_link(.key; .value.file))  (\(.value.status))  \(.value.title)"
     ] | .[]
@@ -331,7 +346,7 @@ do_next() {
     .nodes as $nodes |
     .edges as $edges |
     def is_status_resolved: test("Complete|Retired|Superseded|Abandoned|Implemented|Adopted|Validated|Archived|Sunset|Deprecated|Verified|Declined");
-    def is_resolved: (.status | is_status_resolved) or ((.type | test("VISION|JOURNEY|PERSONA|ADR|RUNBOOK|DESIGN")) and .status == "Active");
+    def is_resolved: (.status | is_status_resolved) or ((.track // "implementable") == "standing" and .status == "Active");
     def art_link($aid; $file):
       if $file != null and $file != "" then
         "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
@@ -371,7 +386,7 @@ do_next() {
     .nodes as $nodes |
     .edges as $edges |
     def is_status_resolved: test("Complete|Retired|Superseded|Abandoned|Implemented|Adopted|Validated|Archived|Sunset|Deprecated|Verified|Declined");
-    def is_resolved: (.status | is_status_resolved) or ((.type | test("VISION|JOURNEY|PERSONA|ADR|RUNBOOK|DESIGN")) and .status == "Active");
+    def is_resolved: (.status | is_status_resolved) or ((.track // "implementable") == "standing" and .status == "Active");
     def art_link($aid; $file):
       if $file != null and $file != "" then
         "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
@@ -406,7 +421,7 @@ do_mermaid() {
   # Node labels (filtered by visibility)
   jq -r --argjson show_all "$SHOW_ALL" '
     def is_status_resolved: test("Complete|Retired|Superseded|Abandoned|Implemented|Adopted|Validated|Archived|Sunset|Deprecated|Verified|Declined");
-    def is_resolved: (.status | is_status_resolved) or ((.type | test("VISION|JOURNEY|PERSONA|ADR|RUNBOOK|DESIGN")) and .status == "Active");
+    def is_resolved: (.status | is_status_resolved) or ((.track // "implementable") == "standing" and .status == "Active");
     (.nodes | to_entries | map(select($show_all == 1 or (.value | is_resolved | not))) | map(.key)) as $visible |
     .nodes | to_entries[] |
     select(.key | IN($visible[])) |
@@ -415,7 +430,7 @@ do_mermaid() {
   # Edges (only between visible nodes)
   jq -r --argjson show_all "$SHOW_ALL" --argjson show_all_edges "$SHOW_ALL_EDGES" '
     def is_status_resolved: test("Complete|Retired|Superseded|Abandoned|Implemented|Adopted|Validated|Archived|Sunset|Deprecated|Verified|Declined");
-    def is_resolved: (.status | is_status_resolved) or ((.type | test("VISION|JOURNEY|PERSONA|ADR|RUNBOOK|DESIGN")) and .status == "Active");
+    def is_resolved: (.status | is_status_resolved) or ((.track // "implementable") == "standing" and .status == "Active");
     (.nodes | to_entries | map(select($show_all == 1 or (.value | is_resolved | not))) | map(.key)) as $visible |
     .nodes as $nodes |
     .edges[] |
@@ -450,7 +465,7 @@ do_status() {
   jq -r --argjson show_all "$SHOW_ALL" '
     .repo as $repo |
     def is_status_resolved: test("Complete|Retired|Superseded|Abandoned|Implemented|Adopted|Validated|Archived|Sunset|Deprecated|Verified|Declined");
-    def is_resolved: (.status | is_status_resolved) or ((.type | test("VISION|JOURNEY|PERSONA|ADR|RUNBOOK|DESIGN")) and .status == "Active");
+    def is_resolved: (.status | is_status_resolved) or ((.track // "implementable") == "standing" and .status == "Active");
     def art_link($aid; $file):
       if $file != null and $file != "" then
         "\u001b]8;;file://\($repo)/\($file)\u001b\\\($aid)\u001b]8;;\u001b\\"
@@ -481,7 +496,7 @@ do_overview() {
 
   jq -r --argjson show_all "$SHOW_ALL" '
     def is_status_resolved: test("Complete|Retired|Superseded|Abandoned|Implemented|Adopted|Validated|Archived|Sunset|Deprecated|Verified|Declined");
-    def is_resolved: (.status | is_status_resolved) or ((.type | test("VISION|JOURNEY|PERSONA|ADR|RUNBOOK|DESIGN")) and .status == "Active");
+    def is_resolved: (.status | is_status_resolved) or ((.track // "implementable") == "standing" and .status == "Active");
     def status_icon: if is_resolved then "[x]" else "[ ]" end;
     # Filter: hide resolved artifacts unless --all is passed
     def visible: if $show_all == 1 then true else (is_resolved | not) end;
@@ -764,29 +779,32 @@ do_scope() {
     else "  (no vision found)" end)
   ' "$CACHE_FILE"
 
-  # Check for architecture-overview.md near the vision
-  local vision_file
-  vision_file=$(jq -r --arg id "$id" '
+  # Check for architecture-overview.md at epic and vision levels
+  # Walk parent chain: show epic-level first, then vision-level
+  local chain_files
+  chain_files=$(jq -r --arg id "$id" '
     .edges as $edges |
     .nodes as $nodes |
     def walk_parents($current):
       ([$edges[] | select(.from == $current and (.type == "parent-epic" or .type == "parent-vision")) | .to] | .[0]) as $parent |
-      if $parent == null then
-        (if $nodes[$current] != null and $nodes[$current].type == "VISION" then $current else null end)
-      else walk_parents($parent)
+      if $parent == null then []
+      else [$current] + walk_parents($parent)
       end;
-    walk_parents($id) as $vision |
-    if $vision != null and $nodes[$vision] != null then $nodes[$vision].file // ""
-    else "" end
+    # Include the start node itself if it is an EPIC or VISION
+    (if $nodes[$id] != null and ($nodes[$id].type | test("EPIC|VISION")) then [$id] else [] end
+     + walk_parents($id)) |
+    map(select($nodes[.] != null) | $nodes[.].file) |
+    map(select(. != null and . != "")) | .[]
   ' "$CACHE_FILE")
 
-  if [ -n "$vision_file" ]; then
-    local vision_dir
-    vision_dir=$(dirname "$REPO_ROOT/$vision_file")
-    if [ -f "$vision_dir/architecture-overview.md" ]; then
-      echo "  architecture: ${vision_dir#"$REPO_ROOT/"}/architecture-overview.md"
+  while IFS= read -r parent_file; do
+    [ -z "$parent_file" ] && continue
+    local parent_dir
+    parent_dir=$(dirname "$REPO_ROOT/$parent_file")
+    if [ -f "$parent_dir/architecture-overview.md" ]; then
+      echo "  architecture: ${parent_dir#"$REPO_ROOT/"}/architecture-overview.md"
     fi
-  fi
+  done <<< "$chain_files"
 }
 
 # impact <ID> — everything that references this artifact transitively

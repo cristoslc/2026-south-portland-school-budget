@@ -14,7 +14,7 @@ metadata:
 
 # Status
 
-Cross-cutting project status dashboard. Aggregates data from artifact lifecycle (specgraph), task tracking (tk), git, GitHub issues, and session state into an activity-oriented view.
+Cross-cutting project status dashboard. Aggregates data from artifact lifecycle (`swain chart`), task tracking (tk), git, GitHub issues, and session state into an activity-oriented view.
 
 ## When invoked
 
@@ -30,11 +30,11 @@ If the path search fails, glob for `**/swain-status/scripts/swain-status.sh`.
 
 The script's terminal output uses OSC 8 hyperlinks for clickable artifact links. Let the terminal output scroll by — it is reference data, not the primary output.
 
-**After the script runs, present a structured agent summary** following the template in `references/agent-summary-template.md`. The agent summary is what the user reads for decision-making. It must use tables (not bullet lists) so the user can scan and compare at a glance.
+**After the script runs, present a structured agent summary** following the template in `references/agent-summary-template.md`. The agent summary is what the user reads for decision-making. It must lead with a Recommendation section (see below), then Decisions Needed, then Work Ready to Start, then reference data — following the template in `references/agent-summary-template.md`.
 
 The script collects from five data sources:
 
-1. **Artifacts** — specgraph cache (epic progress, ready/blocked items, dependency info)
+1. **Artifacts** — `swain chart` vision-rooted hierarchy (epic progress, ready/blocked items, dependency info). Use `bash skills/swain-design/scripts/chart.sh recommend` for ranked artifact view; respects focus lane automatically.
 2. **Tasks** — tk (in-progress, recently completed)
 3. **Git** — branch, working tree state, recent commits
 4. **GitHub** — open issues, issues assigned to the user
@@ -64,19 +64,60 @@ The script writes a JSON cache to the Claude Code memory directory:
 
 The MOTD can read this cache cheaply between full refreshes.
 
-## Follow-up actions
+## Recommendation
 
-After presenting status, suggest relevant next steps based on what the data shows:
+The recommendation uses a scoring formula:
 
-| Condition | Suggestion |
-|-----------|------------|
-| Actionable items exist | "Ready to pick one up? Tell me which artifact to work on." |
-| Blocked items exist | "Want to look at what's blocking {ID}?" |
-| GitHub issues assigned | "Want to triage your assigned issues?" |
-| No active tasks | "No tasks in progress. Want to start one from the ready list?" |
-| Session bookmark exists | "Want to pick up where you left off?" |
+```
+score = unblock_count × vision_weight
+```
 
-Offer one or two suggestions, not all of them.
+Where `vision_weight` is inherited from the artifact's Vision ancestor (high=3, medium=2, low=1, default=medium). Read `.priority.recommendations[0]` from the JSON cache for the top-ranked item.
+
+Tiebreakers (applied in order):
+1. Higher decision debt in the artifact's vision
+2. Decision-type artifacts over implementation-type
+3. Artifact ID (deterministic fallback)
+
+When a focus lane is set, recommendations are scoped to that vision/initiative. Peripheral visions are summarized separately (see Peripheral Awareness).
+
+If attention drift is detected for the recommended item's vision, include it as context in the recommendation.
+
+## Mode Inference
+
+swain-status infers the operating mode from context (first match wins):
+
+1. Both specs in review AND strategic decisions pending → ask: "Steering or reviewing?"
+2. Specs awaiting operator review (agent finished, needs sign-off) → **detail mode**
+3. Focus lane set with pending strategic decisions → **vision mode** within that lane
+4. No specs in review, decisions piling up → **vision mode**
+5. Nothing actionable in either mode → **vision mode** (show the master plan mirror)
+
+Once the operator answers, swain remembers for the session via swain-session bookmark.
+
+## Focus Lane
+
+The operator can set a focus lane via swain-session to scope recommendations to a single vision or initiative:
+
+```bash
+bash "$(find . .claude .agents -path '*/swain-session/scripts/swain-focus.sh' -print -quit 2>/dev/null)" set VISION-001
+```
+
+When set, `.priority.recommendations` only includes items under that vision. Non-focus visions appear in the Peripheral Awareness section.
+
+## Peripheral Awareness
+
+When a focus lane is set, non-focus visions with pending decisions are summarized:
+"Meanwhile: [Vision] has N pending decisions (weight: W)"
+
+This is a mirror, not a recommendation — the operator decides when accumulation warrants redirection.
+
+## Active epics with all specs resolved
+
+When an Active epic has `progress.done == progress.total`:
+- Show "→ ready to close" in the Readiness column of the Epic Progress table
+- Do NOT show it in the Work Ready to Start bucket (it's not implementation work)
+- Do NOT show it as "work on child specs"
 
 ## Settings
 
@@ -92,7 +133,7 @@ After presenting status, update the bookmark with the most actionable highlight:
 
 ## Error handling
 
-- If specgraph is unavailable: skip artifact section, show other data
+- If chart.sh / specgraph is unavailable: skip artifact section, show other data
 - If tk is unavailable: skip task section
 - If gh CLI is unavailable or no GitHub remote: skip issues section
 - If `.agents/session.json` doesn't exist: skip bookmark

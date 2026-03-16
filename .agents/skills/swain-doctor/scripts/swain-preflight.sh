@@ -45,6 +45,12 @@ if [[ -d .beads ]]; then
   issues+=("stale .beads/ directory needs migration to .tickets/")
 fi
 
+# Evidence pool migration check
+if [[ -d "$REPO_ROOT/docs/evidence-pools" ]]; then
+  echo "preflight: docs/evidence-pools/ detected — trove migration needed"
+  issues+=("docs/evidence-pools/ detected — trove migration needed")
+fi
+
 # 6. No stale tk lock files (older than 1 hour)
 if [[ -d .tickets/.locks ]]; then
   stale_locks=$(find .tickets/.locks -type f -mmin +60 2>/dev/null | head -1)
@@ -77,6 +83,29 @@ fi
 # 9. Script permissions (spot check)
 if find .claude/skills/*/scripts/ -type f \( -name '*.sh' -o -name '*.py' \) ! -perm -u+x 2>/dev/null | grep -q .; then
   issues+=("scripts missing executable permission")
+fi
+
+# 10. Superpowers detection (advisory — warn but don't fail)
+SUPERPOWERS_SKILLS="brainstorming writing-plans test-driven-development verification-before-completion subagent-driven-development executing-plans"
+sp_missing=0
+for skill in $SUPERPOWERS_SKILLS; do
+  if ! ls .agents/skills/$skill/SKILL.md .claude/skills/$skill/SKILL.md 2>/dev/null | head -1 | grep -q .; then
+    sp_missing=$((sp_missing + 1))
+  fi
+done
+if [[ $sp_missing -gt 0 ]]; then
+  echo "swain-preflight: superpowers: $sp_missing/6 skills missing (advisory)"
+fi
+
+# Check for epics without parent-initiative (initiative migration advisory)
+EPICS_WITHOUT_INITIATIVE=0
+while IFS= read -r -d '' f; do
+  if grep -q '^parent-vision:' "$f" 2>/dev/null && ! grep -q '^parent-initiative:' "$f" 2>/dev/null; then
+    EPICS_WITHOUT_INITIATIVE=$((EPICS_WITHOUT_INITIATIVE + 1))
+  fi
+done < <(find docs/epic -name '*.md' -not -name 'README.md' -not -name 'list-*.md' -print0 2>/dev/null)
+if [[ "$EPICS_WITHOUT_INITIATIVE" -gt 0 ]]; then
+  echo "advisory: $EPICS_WITHOUT_INITIATIVE epic(s) without parent-initiative — run initiative migration"
 fi
 
 # Report

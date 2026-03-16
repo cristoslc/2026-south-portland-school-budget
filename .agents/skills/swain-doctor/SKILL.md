@@ -6,7 +6,7 @@ license: MIT
 allowed-tools: Bash, Read, Write, Edit, Grep, Glob
 metadata:
   short-description: Session-start health checks and repair
-  version: 2.2.0
+  version: 2.4.0
   author: cristos
   source: swain
 ---
@@ -116,6 +116,205 @@ done
 - **repaired** — migration script ran successfully
 - **warning** — old directories found, user chose not to migrate now
 
+## Superpowers detection
+
+Check whether superpowers skills are installed:
+
+```bash
+SUPERPOWERS_SKILLS="brainstorming writing-plans test-driven-development verification-before-completion subagent-driven-development executing-plans"
+found=0
+missing=0
+missing_names=""
+for skill in $SUPERPOWERS_SKILLS; do
+  if ls .agents/skills/$skill/SKILL.md .claude/skills/$skill/SKILL.md 2>/dev/null | head -1 | grep -q .; then
+    found=$((found + 1))
+  else
+    missing=$((missing + 1))
+    missing_names="$missing_names $skill"
+  fi
+done
+```
+
+### Status values and response
+
+- **ok** — all superpowers skills detected. No output.
+- **partial** — some skills present, some missing. List the missing ones, then prompt (see below). A partial install may indicate a failed update — note this in the prompt.
+- **missing** — no superpowers skills found. Prompt the user.
+
+**When status is `missing` or `partial`**, ask:
+
+> Superpowers (`obra/superpowers`) is not installed [or: partially installed — N of 6 skills missing]. It provides TDD, brainstorming, plan writing, and verification skills that swain chains into during implementation and design work.
+>
+> Install superpowers now? (yes/no)
+
+If the user says **yes**:
+```bash
+npx skills add obra/superpowers
+```
+Report success or failure. On success, update status to **ok**.
+
+If the user says **no**, note "Superpowers: skipped" and continue. They can install later: `npx skills add obra/superpowers`.
+
+Superpowers is strongly recommended but not required. Declining is always allowed.
+
+## Stale worktree detection
+
+Enumerate all linked worktrees and classify their health. **Skip if the repo has no linked worktrees** (i.e., `git worktree list --porcelain` returns only the main worktree entry) — this check produces no output in a clean repo.
+
+### Detection
+
+```bash
+git worktree list --porcelain
+```
+
+Parse each linked worktree (exclude the main worktree — the first entry in the output):
+
+```bash
+git worktree list --porcelain | awk '
+  /^worktree / { path=$2 }
+  /^branch /   { branch=$2 }
+  /^$/         { if (path != "") print path, branch; path=""; branch="" }
+' | tail -n +2
+```
+
+For each linked worktree:
+
+1. **Orphaned** — directory does not exist on disk (`[ ! -d "$path" ]`):
+   - WARN: "Orphaned worktree: `<path>` (directory missing). Clean up with: `git worktree prune`"
+
+2. **Stale (merged)** — directory exists and branch is fully merged into `main`:
+   ```bash
+   git merge-base --is-ancestor "$branch" origin/main
+   ```
+   - WARN: "Stale worktree: `<path>` (branch `<branch>` already merged into main). Safe to remove:
+     `git worktree remove <path> && git branch -d <branch>`"
+
+3. **Active (unmerged)** — directory exists and branch has commits not in `main`:
+   - INFO: "Active worktree: `<path>` (branch `<branch>`, N commits ahead of main). Do not remove — work in progress."
+
+Do not remove any worktree automatically. All output is advisory.
+
+### Status values
+
+- **ok** — no linked worktrees, or all are active
+- **warning** — one or more stale or orphaned worktrees found (provide cleanup commands per item)
+
+## Epics without parent-initiative (migration advisory)
+
+This is a non-blocking advisory check. It does not gate any other checks.
+
+### Detection
+
+```bash
+# Find Active EPICs that have a parent-vision but no parent-initiative field
+grep -rl "parent-vision:" docs/epic/ 2>/dev/null | while read f; do
+  if ! grep -q "parent-initiative:" "$f"; then
+    echo "$f"
+  fi
+done
+```
+
+### Response
+
+If any EPICs are found without `parent-initiative`:
+
+> **Advisory:** N Epic(s) have a `parent-vision` but no `parent-initiative`. The INITIATIVE artifact type is now available as a mid-level container between Vision and Epic. Adding `parent-initiative` links is optional but recommended for projects using prioritization features (`specgraph recommend`, `specgraph decision-debt`).
+>
+> To add the link, edit each Epic's frontmatter and add:
+> ```yaml
+> parent-initiative: INITIATIVE-NNN
+> ```
+>
+> This check is informational — no action required. To run the guided migration, ask: "how do I fix the initiative migration?" or "run the initiative migration".
+
+### Guided migration workflow
+
+**When the operator asks to run the migration** (or says "how do I fix the initiative migration?"), guide them through these steps:
+
+#### Step 1: Scan and group
+
+Run the scan helper to list all epics without `parent-initiative`, grouped by `parent-vision`:
+
+```bash
+bash skills/swain-doctor/scripts/swain-initiative-scan.sh
+```
+
+Analyze the output and propose initiative clusters. For example:
+
+> "Under VISION-001, you have 8 epics. I'd suggest grouping them into 2-3 initiatives based on theme:
+> - **Security Hardening**: EPIC-017, EPIC-023 (both security-related)
+> - **Developer Experience**: EPIC-016, EPIC-019, EPIC-022 (workflow improvements)
+> - **Product Design**: EPIC-021 (standalone strategic bet)
+>
+> Does this grouping work, or would you like to adjust?"
+
+Proposals are suggestions, not commitments. Base clustering on epic titles, descriptions, and shared themes visible in the scan output.
+
+#### Step 2: Operator decides
+
+The operator approves, adjusts, or rejects each proposed cluster. This is a vision-mode decision — don't rush it. Present one vision's worth of clusters at a time if there are many.
+
+#### Step 3: Create initiatives
+
+For each approved cluster, invoke swain-design to create an Initiative artifact:
+
+- Set `parent-vision` to the vision these epics belong to
+- Set `priority-weight` if the operator specifies one (otherwise omit — it inherits from the vision)
+- List the child epics in the "Child Epics" section of the initiative document
+
+#### Step 4: Re-parent epics
+
+For each epic in an approved cluster, add `parent-initiative: INITIATIVE-NNN` to its frontmatter. During the migration period, `parent-vision` can remain alongside `parent-initiative` — specgraph accepts both and resolves the vision ancestor through whichever path exists.
+
+```yaml
+# Before
+parent-vision: VISION-001
+
+# After (during migration — both fields coexist)
+parent-vision: VISION-001
+parent-initiative: INITIATIVE-001
+```
+
+#### Step 5: Set vision weights
+
+Prompt the operator to set `priority-weight` on their visions if not already set:
+
+```yaml
+priority-weight: high    # active strategic focus
+priority-weight: medium  # maintained, progressing (default if omitted)
+priority-weight: low     # parked, not abandoned
+```
+
+They can defer — everything defaults to `medium` and the system works without weights.
+
+#### Step 6: Verify
+
+Run specgraph to verify the new hierarchy looks correct:
+
+```bash
+bash skills/swain-design/scripts/chart.sh
+bash skills/swain-design/scripts/chart.sh recommend
+```
+
+Check that initiatives appear in the tree and that recommendations reflect the new structure.
+
+**Migration is incremental.** The operator can migrate one vision's epics at a time. Unmigrated epics continue to work — they just show this advisory on each session start.
+
+### Status values
+
+- **ok** — all Active EPICs already have `parent-initiative`, or no EPICs exist
+- **advisory** — one or more Active EPICs lack `parent-initiative` (non-blocking)
+
+## Evidence Pool → Trove Migration
+
+Detect unmigrated evidence pools:
+- If `docs/evidence-pools/` exists: warn and offer to run migration
+- If any artifact frontmatter contains `evidence-pool:`: warn and offer migration
+- If both `docs/troves/` and `docs/evidence-pools/` exist: warn about incomplete migration
+
+Migration script: `bash skills/swain-search/scripts/migrate-to-troves.sh`
+Dry run first: `bash skills/swain-search/scripts/migrate-to-troves.sh --dry-run`
+
 ## Summary report
 
 After all checks complete, output a concise summary table:
@@ -134,6 +333,10 @@ swain-doctor summary:
   .agents directory .. ok
   Status cache ....... seeded
   tk health .......... ok
+  Lifecycle dirs ..... ok
+  Epics w/o initiative advisory (3 epics — see note below)
+  Worktrees .......... ok
+  Superpowers ........ ok (6/6 skills detected)
 
 3 checks performed repairs. 0 issues remain.
 ```

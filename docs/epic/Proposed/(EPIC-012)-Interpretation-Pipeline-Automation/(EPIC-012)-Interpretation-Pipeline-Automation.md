@@ -4,7 +4,7 @@ artifact: EPIC-012
 status: Proposed
 author: cristos
 created: 2026-03-13
-last-updated: 2026-03-13
+last-updated: 2026-03-16
 parent-vision: VISION-003
 linked-adrs: []
 linked-research:
@@ -13,7 +13,7 @@ addresses: []
 success-criteria:
   - After evidence pool updates land (via pipeline.yml), new/changed meeting bundles are detected and interpretation is triggered automatically
   - Per-meeting interpretation, cumulative fold, and summary regeneration run without manual intervention
-  - Pipeline runner has access to LLM API for interpretation calls
+  - Pipeline runner can authenticate the claude CLI and run interpretation calls via `claude -p`
   - Failed interpretations are retried or flagged without blocking the pipeline
   - Brief generation is triggered on a schedule tied to upcoming meeting dates (or remains manual with a clear handoff)
 ---
@@ -26,11 +26,9 @@ The evidence pipeline (connectors + normalizers) runs automatically on a cron sc
 
 ## Key Questions (gated by SPIKE-007)
 
-1. **Can the self-hosted runner access the Anthropic API?** The interpretation scripts call claude-sonnet-4 directly. The runner needs `ANTHROPIC_API_KEY` as a secret, and outbound HTTPS to `api.anthropic.com`.
+1. **Can the claude CLI authenticate on the self-hosted runner?** The interpretation scripts now use `claude -p` (Claude CLI) instead of the Anthropic SDK directly. The challenge is whether CLI authentication can be established and persisted on the Docker-based runner, since there is no interactive browser login available. SPIKE-007 investigates whether the claude CLI can authenticate and persist sessions on the self-hosted runner.
 
-2. **Is Claude Code available on the runner?** If we want agentic execution (e.g., Claude Code running the runbook), the runner needs Claude Code installed. This may be impractical — direct Python script invocation is more likely.
-
-3. **Cost and rate limits.** A full backfill is ~280 LLM calls. Incremental runs after each evidence pull would be 1-2 meetings x 14 personas = 14-28 calls. Is this within budget for automated runs?
+2. **Max subscription rate limits.** A full backfill is ~280 LLM calls. Incremental runs after each evidence pull would be 1-2 meetings x 14 personas = 14-28 calls. Is this within the Max subscription's rate limits for automated runs?
 
 ## Proposed Decomposition
 
@@ -46,14 +44,14 @@ Pending SPIKE-007 findings, likely specs:
 
 - Must not break existing evidence pipeline (pipeline.yml job 1/2)
 - LLM costs should be bounded — incremental runs only, not full re-interpretation
-- Must degrade gracefully if LLM API is unavailable (evidence pipeline still runs)
+- Must degrade gracefully if claude CLI is unavailable or unauthenticated (evidence pipeline still runs)
 - Self-hosted runner is Docker-based — any new dependencies must be containerized
 
 ## Child Artifacts
 
 | Artifact | Title | Status |
 |----------|-------|--------|
-| SPIKE-007 | LLM Access in Pipeline Runner | Proposed |
+| SPIKE-007 | CLI Authentication on Pipeline Runner | Proposed |
 
 ## Lifecycle
 

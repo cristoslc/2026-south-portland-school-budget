@@ -1,10 +1,10 @@
 ---
-title: "LLM Access in Pipeline Runner"
+title: "Claude CLI Access in Pipeline Runner"
 artifact: SPIKE-007
 status: Proposed
 author: cristos
 created: 2026-03-13
-last-updated: 2026-03-13
+last-updated: 2026-03-16
 parent-epic: EPIC-012
 linked-adrs: []
 depends-on: []
@@ -12,43 +12,36 @@ time-box: "2 hours"
 evidence-pool: ""
 ---
 
-# LLM Access in Pipeline Runner
+# Claude CLI Access in Pipeline Runner
 
 ## Question
 
-Can the self-hosted GitHub Actions runner (Docker-based, per SPEC-012) make Anthropic API calls to run the interpretation pipeline automatically? What are the constraints, and what's the simplest path to enabling it?
+Can the self-hosted GitHub Actions runner authenticate and use the `claude` CLI (`claude -p`) for interpretation pipeline calls?
 
 ## Context
 
-The interpretation pipeline scripts (`interpret_meeting.py`, `fold_meeting.py`, `generate_briefs.py`) call the Anthropic API directly using `claude-sonnet-4`. The existing evidence pipeline runs on a self-hosted Docker runner with no LLM dependencies. Adding interpretation to the automated pipeline requires:
-
-1. API key access (GitHub secret → runner environment)
-2. Outbound HTTPS to `api.anthropic.com` (network egress from Docker container)
-3. Python `anthropic` SDK available in the runner image
-4. Understanding of cost implications for automated runs
-
-A secondary question: is there value in having Claude Code itself available on the runner (for agentic execution of the runbook), or is direct script invocation sufficient?
+The interpretation pipeline scripts call `claude -p` as a subprocess to perform LLM interpretation and folding. The existing evidence pipeline runs on a self-hosted Docker runner with no LLM dependencies. Adding interpretation to the automated pipeline requires the Claude CLI to be installed, authenticated, and safe for concurrent use on the runner.
 
 ## Investigation Plan
 
-1. **API key delivery** — verify `ANTHROPIC_API_KEY` can be passed as a GitHub Actions secret and is available inside the self-hosted Docker runner. Check if the existing runner Dockerfile/compose setup passes secrets through.
+1. **CLI installation** — can `claude` be installed on the Docker-based runner? Check binary availability for the runner's architecture, PATH setup, and whether it can be baked into the runner image or must be installed at job time.
 
-2. **Network egress** — confirm the Docker runner can reach `api.anthropic.com:443`. The existing pipeline already reaches `vimeo.com`, `diligentcommunity.com`, and `github.com`, so this is likely fine.
+2. **Authentication persistence** — `claude login` creates a session. Does it persist across workflow runs on the self-hosted runner? Where are credentials stored (`~/.claude/`, XDG config, etc.)? If the runner container is ephemeral, authentication may need to be re-established each run.
 
-3. **SDK availability** — check if `anthropic` is in the runner's Python environment, or if it needs to be added to the Dockerfile/requirements. The fallback job (ubuntu-latest) installs packages via `uv` — same approach could work.
+3. **Session management** — multiple concurrent pipeline runs could collide on a single CLI session. Is `--no-session-persistence` sufficient isolation? Test whether two simultaneous `claude -p` calls interfere with each other.
 
-4. **Cost modeling** — estimate per-run costs for incremental interpretation (1-2 new meetings x 14 personas per pipeline run) vs. the cron frequency (2x daily). Calculate monthly API spend.
+4. **Network egress** — does `claude -p` require different endpoints than the direct API (`api.anthropic.com`)? Check whether additional domains need firewall/proxy allowlisting for CLI auth handshake, telemetry, or session management.
 
-5. **Claude Code on runner** — assess whether installing Claude Code on the runner adds value beyond direct script calls. Likely conclusion: not worth the complexity for a scheduled pipeline.
+5. **Cost modeling** — all calls use the Max subscription (no per-token API billing). Is there a rate limit or usage cap on `claude -p` that would throttle a full pipeline run (~280 calls)? Measure throughput for sequential and parallel invocations.
 
 ## Go/No-Go Criteria
 
-| Criterion | Threshold | Pivot if fails |
-|-----------|-----------|----------------|
-| API key reachable in runner | Secret is available as env var in Docker container | Use GitHub-hosted runner for interpretation step only (separate job) |
-| Network egress works | Can reach api.anthropic.com from runner | Add proxy config or use hosted runner |
-| Cost per incremental run | < $1 per pipeline invocation | Reduce persona count for automated runs or run less frequently |
-| End-to-end test | One meeting interpreted + folded in CI | Fall back to manual runs with RUNBOOK-002 |
+| Criterion | Go | No-Go / Pivot |
+|-----------|-----|----------------|
+| CLI installs on runner | Binary available and functional in Docker image | Investigate alternative invocation (API fallback) |
+| Auth persists across runs | Credentials survive between workflow invocations | Would need re-login per run — assess feasibility |
+| Concurrent run isolation | Simultaneous `claude -p` calls don't collide | Serialize pipeline steps or use per-run config dirs |
+| Rate limits | Full pipeline (~280 calls) completes without throttling | Rate limits make full pipeline infeasible — batch or reduce calls |
 
 ## Findings
 

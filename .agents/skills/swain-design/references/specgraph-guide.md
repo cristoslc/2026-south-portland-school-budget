@@ -1,33 +1,72 @@
 # Specgraph Guide
 
-Reference for `specgraph.sh` subcommands and output interpretation.
+Reference for `chart.sh` (swain chart) and `specgraph.sh` subcommands.
 
-## Subcommands
+> **Note:** `chart.sh` is the primary interface. `specgraph.sh` is a deprecated alias that continues to work.
+
+## swain chart — vision-rooted hierarchy
+
+`chart.sh` renders all artifacts as a tree rooted at Vision artifacts. Titles are the primary label; IDs are hidden by default. Lenses filter and annotate the tree for different decision contexts.
+
+### Lenses
+
+| Command | What it shows | Default depth |
+|---------|-------------|---------------|
+| `chart.sh` | **Default.** All non-terminal artifacts with status icons | strategic (2) |
+| `chart.sh ready` | Unblocked artifacts ready for work | execution (4) |
+| `chart.sh recommend [--focus ID]` | Scored by priority × unblock count | strategic (2) |
+| `chart.sh attention [--days N]` | Recent git activity per vision | strategic (2) |
+| `chart.sh debt` | Unresolved decisions (Proposed Spikes/ADRs/Epics) | strategic (2) |
+| `chart.sh unanchored` | Artifacts with no Vision ancestry | strategic (2) |
+| `chart.sh status` | All artifacts annotated with phase | strategic (2) |
+
+### Display options
+
+| Flag | Effect |
+|------|--------|
+| `--depth N` | Set tree depth (2=strategic, 4=execution) |
+| `--detail` | Alias for `--depth 4` |
+| `--phase active,ready` | Only show artifacts in these phases |
+| `--hide-terminal` | Exclude Complete, Abandoned, etc. |
+| `--ids` | Show artifact IDs alongside titles |
+| `--flat` | Flat list output for scripting |
+| `--json` | Structured JSON output |
+
+### Depth precedence
+
+1. `--depth N` — explicit flag, always wins
+2. Focus lane — execution depth (4) when set, strategic (2) when unset
+3. Lens default — each lens defines its own
+
+## Low-level graph queries
+
+These commands pass through to the specgraph engine:
 
 | Command | What it does |
 |---------|-------------|
-| `overview` | **Default.** Hierarchy tree with status indicators + execution tracking |
 | `build` | Force-rebuild graph from frontmatter |
 | `blocks <ID>` | What does this artifact depend on? (direct dependencies) |
 | `blocked-by <ID>` | What depends on this artifact? (inverse lookup) |
-| `tree <ID>` | Transitive dependency tree (all ancestors) |
+| `deps <ID>` | Transitive dependency closure (all ancestors). Formerly `tree`. |
+| `tree <ID>` | Alias for `deps` (backward compat) |
 | `ready` | Active/Planned artifacts with all deps resolved |
-| `next` | What to work on next (ready items + what they unblock, blocked items + what they need) |
+| `next` | What to work on next (ready items + what they unblock) |
 | `mermaid` | Mermaid diagram to stdout |
 | `status` | Summary table by type and phase |
 | `neighbors <ID>` | All directly connected artifacts (any edge type, both directions) |
 | `scope <ID>` | Alignment scope — parent chain to Vision, siblings, lateral links |
 | `impact <ID>` | Everything that references this artifact transitively |
 | `edges [<ID>]` | Raw edge list with types, optionally filtered to one artifact |
-
-## Options
+| `recommend [--focus VISION-ID] [--json]` | Ranked recommendations |
+| `decision-debt [--json]` | Decision debt per vision |
+| `attention [--days N] [--json]` | Attention distribution and drift detection |
 
 | Flag | Effect |
 |------|--------|
-| `--all` | Include finished artifacts (terminal states like Complete, Abandoned, etc.). By default `overview`, `status`, and `mermaid` hide them to reduce noise. |
-| `--all-edges` | Show all edge types in mermaid output (not just depends-on and parent edges). |
+| `--all` | Include finished artifacts (terminal states). |
+| `--all-edges` | Show all edge types in mermaid output. |
 
-Run `blocks <ID>` before phase transitions to verify dependencies are resolved. Run `ready` to find unblocked work. Run `tree <ID>` for transitive dependency chains. Run `scope <ID>` before alignment checks.
+Run `blocks <ID>` before phase transitions to verify dependencies are resolved. Run `chart.sh ready` to find unblocked work. Run `deps <ID>` for transitive dependency chains. Run `scope <ID>` before alignment checks.
 
 ## Overview output
 
@@ -61,7 +100,8 @@ The graph captures all frontmatter relationship fields as typed edges:
 | Edge type | Source | Target | Purpose |
 |-----------|--------|--------|---------|
 | `depends-on-artifacts` | Any (except SPIKE) | Any | Blocking dependency |
-| `parent-vision` | EPIC, JOURNEY | VISION | Hierarchy (child → parent) |
+| `parent-vision` | INITIATIVE, EPIC, JOURNEY | VISION | Hierarchy (child → parent) |
+| `parent-initiative` | EPIC, SPEC | INITIATIVE | Hierarchy (child → parent) |
 | `parent-epic` | SPEC, EPIC | EPIC | Hierarchy (child → parent) |
 | `linked-artifacts` | Any | Any | Unified cross-reference (replaces per-type linked-* fields) |
 | `addresses` | SPEC, EPIC | JOURNEY.PP-NN | Pain point being addressed |
@@ -138,3 +178,51 @@ SPEC-005  SPEC-004        depends-on
 ```
 
 Without an ID argument, outputs all edges in the graph. Useful for scripting and programmatic access.
+
+## Recommend output
+
+The `recommend` command ranks artifacts by prioritization score to guide the operator toward the highest-leverage work:
+
+```
+RECOMMENDED NEXT:
+  1. EPIC-012  [Proposed]  Scoring Engine     score=12  (unblocks: 4, weight: high)
+  2. SPEC-031  [Ready]     Graph Persistence  score=6   (unblocks: 2, weight: medium)
+  3. EPIC-009  [Proposed]  Search Indexing    score=3   (unblocks: 3, weight: low)
+```
+
+**Score formula:** `score = unblock_count × vision_weight`, where `vision_weight` maps `high → 3`, `medium → 2`, `low → 1` from the artifact's `priority-weight` field. Artifacts with no `priority-weight` default to `medium`.
+
+`--focus VISION-ID` limits output to artifacts under that Vision. `--json` outputs the ranked list as a JSON array.
+
+## Decision-debt output
+
+The `decision-debt` command summarizes unresolved blocking artifacts (SPIKEs, ADRs in Proposed) per Vision:
+
+```
+DECISION DEBT:
+  VISION-001  Personal Agent Patterns
+    SPIKE-014  [Proposed]  Storage format evaluation      (blocks: SPEC-028, SPEC-029)
+    ADR-007    [Proposed]  Auth provider selection        (blocks: EPIC-011)
+
+  VISION-002  Collaboration Layer
+    (no debt)
+```
+
+Use this to identify where research or decisions are delaying downstream work. `--json` outputs structured debt data keyed by Vision ID.
+
+## Attention output
+
+The `attention` command analyzes git commit history to surface attention distribution and drift:
+
+```
+ATTENTION DISTRIBUTION (last 30 days):
+  EPIC-007  Spec Management    ████████████  42 commits  (40%)
+  EPIC-012  Scoring Engine     ████          12 commits  (11%)
+  EPIC-009  Search Indexing    ██             6 commits   (6%)
+  (unlinked)                   ██████        22 commits  (21%)
+
+DRIFT DETECTED:
+  EPIC-011  [Active] Auth Layer — 0 commits in 30 days (last touched: 45 days ago)
+```
+
+**Drift detection:** any Active artifact with zero commits in the window is flagged. Default window is 30 days; `--days N` overrides it. `--json` outputs attention counts and drift flags per artifact.

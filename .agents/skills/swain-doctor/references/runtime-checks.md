@@ -53,7 +53,18 @@ Swain uses a two-tier settings model. Malformed JSON in either file causes silen
 
 ### Check project settings
 
-If `swain.settings.json` exists in the repo root:
+If `swain.settings.json` does not exist in the repo root, create it with an empty object:
+
+```bash
+if [[ ! -f swain.settings.json ]]; then
+  echo '{}' > swain.settings.json
+fi
+```
+
+If created, report **repaired**:
+> Created `swain.settings.json` with empty defaults. All settings have built-in defaults.
+
+If `swain.settings.json` exists, validate it:
 
 ```bash
 jq empty swain.settings.json 2>/dev/null
@@ -101,7 +112,7 @@ If all scripts are already executable, this step is silent.
 The `.agents/` directory stores per-project configuration for swain skills:
 - `execution-tracking.vars.json` — swain-do first-run config
 - `specwatch.log` — swain-design stale reference log
-- `evidencewatch.log` — swain-search pool refresh log
+- `trovewatch.log` — swain-search pool refresh log
 
 ### Check and create
 

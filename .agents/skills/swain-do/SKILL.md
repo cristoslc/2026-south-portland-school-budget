@@ -5,7 +5,7 @@ license: UNLICENSED
 allowed-tools: Bash, Read, Write, Edit, Grep, Glob
 metadata:
   short-description: Bootstrap and operate external task tracking
-  version: 3.0.0
+  version: 3.1.0
   author: cristos
   source: swain
 ---
@@ -83,7 +83,11 @@ When work cannot proceed as designed, abandon tasks and escalate to swain-design
 
 ## "What's next?" flow
 
-Run `tk ready` for unblocked tasks and `ticket-query '.status == "in_progress"'` for in-flight work. If `.tickets/` is empty or missing, defer to `specgraph.sh next` for artifact-level guidance.
+Run `tk ready` for unblocked tasks and `ticket-query '.status == "in_progress"'` for in-flight work. If `.tickets/` is empty or missing, defer to `bash skills/swain-design/scripts/chart.sh ready` for artifact-level guidance.
+
+## Context on claim
+
+When claiming a task tagged with `spec:<ID>`, show the Vision ancestry breadcrumb to provide strategic context. Run `bash skills/swain-design/scripts/chart.sh scope <SPEC-ID> 2>/dev/null | head -5` to display the parent chain. This tells the agent/operator how the current task connects to project strategy.
 
 ## Artifact/tk reconciliation
 
@@ -93,6 +97,20 @@ When specwatch detects mismatches (`TK_SYNC`, `TK_ORPHAN` in `.agents/specwatch.
 
 After state-changing operations, update the bookmark: `bash "$(find . .claude .agents -path '*/swain-session/scripts/swain-bookmark.sh' -print -quit 2>/dev/null)" "<action> <task-description>"`
 
+## Superpowers skill chaining
+
+When superpowers is installed, swain-do **must** invoke these skills at the right moments — do not skip them or inline the work:
+
+1. **Before writing code for any task:** Invoke the `test-driven-development` skill. Write a failing test first (RED), then make it pass (GREEN), then refactor. This applies to every task, not just the first one.
+
+2. **When dispatching parallel work:** Invoke `subagent-driven-development` (if subagents are available and tasks are independent) or `executing-plans` (if serial). Read [references/execution-strategy.md](references/execution-strategy.md) for the decision tree.
+
+3. **Before claiming any task or plan is complete:** Invoke `verification-before-completion`. Run the verification commands, read the output, and only then assert success. No completion claims without fresh evidence.
+
+**Detection:** `ls .agents/skills/test-driven-development/SKILL.md .claude/skills/test-driven-development/SKILL.md 2>/dev/null` — if at least one path exists, superpowers is available. Cache the result for the session.
+
+When superpowers is NOT installed, swain-do uses its built-in TDD enforcement (see [references/tdd-enforcement.md](references/tdd-enforcement.md)) and serial execution.
+
 ## Plan ingestion (superpowers integration)
 
 When a superpowers plan file exists, use the ingestion script (`skills/swain-do/scripts/ingest-plan.py`) instead of manual task decomposition. Read [references/plan-ingestion.md](references/plan-ingestion.md) for usage, format requirements, and when NOT to use it.
@@ -100,6 +118,34 @@ When a superpowers plan file exists, use the ingestion script (`skills/swain-do/
 ## Execution strategy
 
 Selects serial vs. subagent-driven execution based on superpowers availability and task complexity. Read [references/execution-strategy.md](references/execution-strategy.md) for the decision tree, detection commands, and worktree-artifact mapping.
+
+## Worktree isolation preamble
+
+Before any implementation or execution operation (plan creation, task claim, code writing, execution handoff), run this detection:
+
+```bash
+GIT_COMMON=$(git rev-parse --git-common-dir 2>/dev/null)
+GIT_DIR=$(git rev-parse --git-dir 2>/dev/null)
+[ "$GIT_COMMON" != "$GIT_DIR" ] && IN_WORKTREE=yes || IN_WORKTREE=no
+```
+
+**Read-only operations** (`tk ready`, `tk show`, status checks, task queries) skip this check entirely — proceed in the current context.
+
+**If `IN_WORKTREE=yes`:** already isolated. Proceed normally.
+
+**If `IN_WORKTREE=no`** (main worktree) and the operation is implementation or execution:
+
+1. Detect superpowers:
+   ```bash
+   ls .agents/skills/using-git-worktrees/SKILL.md .claude/skills/using-git-worktrees/SKILL.md 2>/dev/null | head -1
+   ```
+2. If **superpowers absent** — stop. Report:
+   > Worktree isolation requires the `using-git-worktrees` superpowers skill. Install superpowers first, then retry.
+   Do not begin implementation work.
+
+3. If **superpowers present** — invoke the `using-git-worktrees` skill to create a linked worktree, then hand off execution into that worktree.
+
+4. If **worktree creation fails** — stop. Surface the error message from `using-git-worktrees` to the operator. Do not begin implementation work.
 
 ## Fallback
 

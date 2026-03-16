@@ -1,0 +1,56 @@
+<h2>Information Architecture</h2>
+<p class="subtitle">How should the site organize content for South Portland residents?</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Question Hub</h3>
+      <p>Landing page is a curated set of top questions residents are asking. Each question leads to an answer page that draws from interpretations, evidence, and persona perspectives.</p>
+      <div style="margin-top: 12px; padding: 12px; background: rgba(255,255,255,0.05); border-radius: 6px; font-size: 0.9em;">
+        <strong>Site map:</strong><br>
+        <code style="color: #8cb4ff;">
+        / &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Question hub (top 8-12 questions)<br>
+        /q/school-closures &nbsp;&nbsp;&nbsp;→ Answer page (synthesis + evidence links)<br>
+        /q/teacher-cuts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Answer page<br>
+        /perspectives &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Persona picker ("I'm a...")<br>
+        /perspectives/parent &nbsp;→ Persona briefing + open threads<br>
+        /meetings &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Timeline (reference)<br>
+        /meetings/2026-02-09 &nbsp;→ Meeting detail + interpretations<br>
+        /sources &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Evidence pool browser<br>
+        /about &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Research disclaimer + methodology
+        </code>
+      </div>
+      <div class="pros-cons" style="margin-top: 12px;">
+        <div class="pros"><h4>Pros</h4><ul><li>Answers what people actually search for</li><li>SEO-friendly (question → answer)</li><li>Easy to share specific answers</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Requires curating the question set</li><li>New questions need editorial decisions</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Dashboard + Drill-down</h3>
+      <p>Landing page is a status dashboard: key budget numbers, next meeting date, recent changes. Users drill into topics, personas, or meetings from there.</p>
+      <div style="margin-top: 12px; padding: 12px; background: rgba(255,255,255,0.05); border-radius: 6px; font-size: 0.9em;">
+        <strong>Site map:</strong><br>
+        <code style="color: #8cb4ff;">
+        / &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Dashboard (key numbers + "what's new")<br>
+        /topics/reconfiguration → Topic deep-dive (cross-meeting synthesis)<br>
+        /topics/staffing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Topic deep-dive<br>
+        /for/parents &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Persona briefing + open threads<br>
+        /for/taxpayers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Persona briefing<br>
+        /meetings &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Timeline<br>
+        /meetings/2026-02-09 &nbsp;→ Meeting detail + interpretations<br>
+        /sources &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Evidence browser<br>
+        /about &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Disclaimer + methodology
+        </code>
+      </div>
+      <div class="pros-cons" style="margin-top: 12px;">
+        <div class="pros"><h4>Pros</h4><ul><li>Immediate situational awareness</li><li>Shows "what changed" on return visits</li><li>Topics emerge from data, not curation</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Dashboard needs design work to not overwhelm</li><li>Less shareable than specific Q&A URLs</li></ul></div>
+      </div>
+    </div>
+  </div>
+</div>

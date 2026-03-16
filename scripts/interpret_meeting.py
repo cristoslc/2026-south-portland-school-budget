@@ -471,17 +471,30 @@ question for {persona_name}?]
 
 ### Journey Map
 
-Produce 4-6 ordered beats that trace {persona_name}'s emotional experience \
-through the meeting chronologically. Use this EXACT four-column table format:
+Produce a Mermaid journey diagram tracing {persona_name}'s emotional \
+experience through the meeting chronologically. Use this EXACT format \
+(include the triple-backtick fences and the word "journey"):
 
-| Position | Meeting Event | Persona Cognitive State | Persona Emotional State |
-|----------|---------------|------------------------|------------------------|
-| 1 | [What happened in the meeting that triggered this beat] | [What \
-{persona_name} is thinking — their cognitive processing of the event] | \
-[{persona_name}'s emotional reaction] |
+```mermaid
+journey
+    title {persona_name}'s journey: [4-6 word meeting description]
+    section [Phase name]
+        [Short event label]: [score 1-5]: {persona_name}
+```
 
-The journey map should tell a story with an arc -- not just list topics in \
-order.
+Score represents {persona_name}'s emotional experience at that moment:
+- 1 = distressing / very negative
+- 2 = concerning / negative
+- 3 = neutral / mixed
+- 4 = reassuring / positive
+- 5 = encouraging / very positive
+
+Rules:
+- Produce 4-6 tasks total, organized into 2-4 sections
+- Sections follow the meeting's chronological flow
+- Task labels must be short enough to read in a chart (40 characters max)
+- The score arc should reflect a genuine emotional journey -- do not flatten \
+all scores to the same level
 
 ### Reactions
 
@@ -674,16 +687,16 @@ def _quick_validate(text):
     elif point_count > 8:
         errors.append(f"found {point_count} structured points, expected 5-8")
 
-    # Check journey map uses SPEC-018 four-column header
+    # Check journey map uses Mermaid journey diagram
     if "### Journey Map" in text:
-        has_spec018_header = bool(re.search(
-            r"\|\s*Position\s*\|\s*Meeting\s+Event\s*\|\s*Persona\s+Cognitive\s+State\s*\|\s*Persona\s+Emotional\s+State\s*\|",
+        has_mermaid_journey = bool(re.search(
+            r"```mermaid\s+journey\b",
             text, re.IGNORECASE
         ))
-        if not has_spec018_header:
+        if not has_mermaid_journey:
             errors.append(
-                "journey map does not use SPEC-018 columns "
-                "(Position, Meeting Event, Persona Cognitive State, Persona Emotional State)"
+                "journey map is not a Mermaid journey diagram "
+                "(expected ```mermaid block with 'journey' directive)"
             )
 
     return errors

@@ -25,6 +25,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from pipeline.llm_client import call_llm, DEFAULT_MODEL as _DEFAULT_MODEL
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s — %(message)s",
@@ -42,7 +45,7 @@ INTER_MEETING_MANIFEST = (
 )
 BRIEFS_DIR = PROJECT_ROOT / "data" / "interpretation" / "briefs"
 
-MODEL_ID = "claude-sonnet-4-20250514"
+MODEL_ID = _DEFAULT_MODEL
 
 # Persona ID pattern
 PERSONA_ID_RE = re.compile(r"^PERSONA-\d{3}$")
@@ -701,29 +704,6 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
         global_last_date, upcoming_date
     )
 
-    # Import anthropic lazily — only needed for actual LLM calls
-    anthropic_client = None
-    if not dry_run:
-        try:
-            import anthropic
-        except ImportError:
-            log.error(
-                "The 'anthropic' package is required for live runs. "
-                "Install it with: pip install anthropic\n"
-                "For testing without LLM calls, use --dry-run."
-            )
-            sys.exit(2)
-
-        import os
-        api_key = os.environ.get("ANTHROPIC_API_KEY")
-        if not api_key:
-            log.error(
-                "ANTHROPIC_API_KEY environment variable is not set. "
-                "Set it or use --dry-run for testing."
-            )
-            sys.exit(2)
-
-        anthropic_client = anthropic.Anthropic(api_key=api_key)
 
     for persona in personas:
         output_path = output_dir / f"{persona.id}.md"
@@ -772,17 +752,9 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
         # Actual LLM call
         try:
             log.info("  [call] %s — calling %s ...", persona.id, MODEL_ID)
-            response = anthropic_client.messages.create(  # type: ignore[union-attr]
-                model=MODEL_ID,
-                max_tokens=4096,
-                system=BRIEF_SYSTEM_PROMPT,
-                messages=[{"role": "user", "content": prompt}],
+            output_text = call_llm(
+                prompt, system_prompt=BRIEF_SYSTEM_PROMPT, model=MODEL_ID
             )
-
-            output_text = ""
-            for block in response.content:
-                if hasattr(block, "text"):
-                    output_text += block.text  # type: ignore[union-attr]
 
             if not output_text.strip():
                 log.error("  [fail] %s — empty response from LLM", persona.id)
@@ -808,12 +780,6 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
             log.info("  [done] %s — wrote %s (%d chars)",
                      persona.id, output_path.name, len(formatted))
             stats["processed"] += 1
-
-            if hasattr(response, "usage"):
-                log.info("  [tokens] %s — input: %d, output: %d",
-                         persona.id,
-                         response.usage.input_tokens,
-                         response.usage.output_tokens)
 
         except Exception as e:
             log.error("  [fail] %s — LLM call failed: %s", persona.id, e)

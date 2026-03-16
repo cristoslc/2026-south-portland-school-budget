@@ -33,6 +33,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from pipeline.llm_client import call_llm, DEFAULT_MODEL as _DEFAULT_MODEL
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s — %(message)s",
@@ -48,7 +51,7 @@ MEETINGS_DIR = PROJECT_ROOT / "data" / "interpretation" / "meetings"
 CUMULATIVE_DIR = PROJECT_ROOT / "data" / "interpretation" / "cumulative"
 BUNDLES_DIR = PROJECT_ROOT / "data" / "interpretation" / "bundles"
 
-MODEL_ID = "claude-sonnet-4-20250514"
+MODEL_ID = _DEFAULT_MODEL
 
 # Persona ID patterns
 PERSONA_ID_RE = re.compile(r"^PERSONA-\d{3}$")
@@ -701,29 +704,6 @@ def run_fold(meeting_id, personas, *, force=False, single_persona=None,
     stats = {"processed": 0, "skipped": 0, "failed": 0,
              "no_interpretation": 0}
 
-    # Import anthropic lazily — only needed for actual LLM calls
-    anthropic_client = None
-    if not dry_run:
-        try:
-            import anthropic
-        except ImportError:
-            log.error(
-                "The 'anthropic' package is required for live runs. "
-                "Install it with: pip install anthropic\n"
-                "For testing without LLM calls, use --dry-run."
-            )
-            sys.exit(2)
-
-        import os
-        api_key = os.environ.get("ANTHROPIC_API_KEY")
-        if not api_key:
-            log.error(
-                "ANTHROPIC_API_KEY environment variable is not set. "
-                "Set it or use --dry-run for testing."
-            )
-            sys.exit(2)
-
-        anthropic_client = anthropic.Anthropic(api_key=api_key)
 
     # Track which personas were processed (for summary regeneration)
     processed_personas = []
@@ -782,18 +762,9 @@ def run_fold(meeting_id, personas, *, force=False, single_persona=None,
         try:
             log.info("  [call] Generating cumulative record via %s ...",
                      MODEL_ID)
-            response = anthropic_client.messages.create(  # type: ignore[union-attr]
-                model=MODEL_ID,
-                max_tokens=4096,
-                temperature=0,
-                system=FOLD_SYSTEM_PROMPT,
-                messages=[{"role": "user", "content": fold_prompt}],
+            record_text = call_llm(
+                fold_prompt, system_prompt=FOLD_SYSTEM_PROMPT, model=MODEL_ID
             )
-
-            record_text = ""
-            for block in response.content:
-                if hasattr(block, "text"):
-                    record_text += block.text  # type: ignore[union-attr]
 
             if not record_text.strip():
                 log.error("  [fail] Empty response from LLM for record")
@@ -822,12 +793,6 @@ def run_fold(meeting_id, personas, *, force=False, single_persona=None,
                      record_path.relative_to(PROJECT_ROOT),
                      len(record_text))
 
-            # Log token usage
-            if hasattr(response, "usage"):
-                log.info("  [tokens] input: %d, output: %d",
-                         response.usage.input_tokens,
-                         response.usage.output_tokens)
-
             stats["processed"] += 1
             processed_personas.append(persona)
 
@@ -841,7 +806,7 @@ def run_fold(meeting_id, personas, *, force=False, single_persona=None,
         log.info("")
         log.info("=== Regenerating summary views ===")
         for persona in processed_personas:
-            _regenerate_summary(persona, anthropic_client)
+            _regenerate_summary(persona)
 
     elif processed_personas and dry_run:
         log.info("")
@@ -854,12 +819,11 @@ def run_fold(meeting_id, personas, *, force=False, single_persona=None,
     return stats
 
 
-def _regenerate_summary(persona, anthropic_client):
+def _regenerate_summary(persona):
     """Regenerate the summary view for a persona from all cumulative records.
 
     Args:
         persona: Persona object
-        anthropic_client: initialized Anthropic client
     """
     log.info("--- Summary: %s (%s) ---", persona.id, persona.name)
 
@@ -877,18 +841,9 @@ def _regenerate_summary(persona, anthropic_client):
 
     try:
         log.info("  [call] Generating summary via %s ...", MODEL_ID)
-        response = anthropic_client.messages.create(  # type: ignore[union-attr]
-            model=MODEL_ID,
-            max_tokens=4096,
-            temperature=0,
-            system=SUMMARY_SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": summary_prompt}],
+        summary_text = call_llm(
+            summary_prompt, system_prompt=SUMMARY_SYSTEM_PROMPT, model=MODEL_ID
         )
-
-        summary_text = ""
-        for block in response.content:
-            if hasattr(block, "text"):
-                summary_text += block.text  # type: ignore[union-attr]
 
         if not summary_text.strip():
             log.error("  [fail] Empty response from LLM for summary")
@@ -913,11 +868,6 @@ def _regenerate_summary(persona, anthropic_client):
         log.info("  [done] Wrote summary: %s (%d chars)",
                  summary_path.relative_to(PROJECT_ROOT),
                  len(summary_text))
-
-        if hasattr(response, "usage"):
-            log.info("  [tokens] input: %d, output: %d",
-                     response.usage.input_tokens,
-                     response.usage.output_tokens)
 
     except Exception as e:
         log.error("  [fail] Summary generation failed: %s", e)

@@ -6,6 +6,7 @@ author: cristos
 created: 2026-03-12
 last-updated: 2026-03-13
 parent-vision: VISION-003
+parent-initiative: INITIATIVE-003
 success-criteria:
   - Every source in the evidence pool is affiliated with exactly one meeting or classified as inter-meeting evidence
   - Meeting bundles include all sources presented at or directly supporting that meeting

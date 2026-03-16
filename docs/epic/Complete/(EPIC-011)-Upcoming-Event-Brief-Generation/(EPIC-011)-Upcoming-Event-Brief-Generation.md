@@ -6,6 +6,7 @@ author: cristos
 created: 2026-03-12
 last-updated: 2026-03-13
 parent-vision: VISION-003
+parent-initiative: INITIATIVE-003
 success-criteria:
   - Briefs are available before each meeting (production deadline is pre-meeting)
   - Each brief surfaces at least one question or concern per persona relevant to the upcoming agenda

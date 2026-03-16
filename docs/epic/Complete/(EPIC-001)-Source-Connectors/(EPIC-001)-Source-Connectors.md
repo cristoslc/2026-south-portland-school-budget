@@ -6,6 +6,7 @@ author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
 parent-vision: VISION-002
+parent-initiative: INITIATIVE-002
 success-criteria:
   - Each connector can discover new content published since its last run
   - Each connector downloads new content to the correct data/ subdirectory

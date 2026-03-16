@@ -6,6 +6,7 @@ author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
 parent-vision: VISION-002
+parent-initiative: INITIATIVE-002
 success-criteria:
   - Pipeline runs end-to-end unattended (discover → download → normalize → stage)
   - Changes are staged as a reviewable git diff, not auto-committed without review

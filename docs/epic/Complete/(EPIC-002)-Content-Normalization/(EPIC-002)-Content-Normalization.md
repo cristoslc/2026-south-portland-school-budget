@@ -6,6 +6,7 @@ author: cristos
 created: 2026-03-10
 last-updated: 2026-03-10
 parent-vision: VISION-002
+parent-initiative: INITIATIVE-002
 success-criteria:
   - Downloaded VTT files are converted to evidence pool source markdown
   - Downloaded PDFs are converted to evidence pool source markdown

@@ -6,6 +6,7 @@ author: cristos
 created: 2026-03-11
 last-updated: 2026-03-16
 parent-vision: VISION-001
+parent-initiative: INITIATIVE-001
 success-criteria:
   - Budget levers identified and catalogued with dollar amounts and sources
   - Each lever linked to evidence (meeting transcript, slide deck, or budget document)

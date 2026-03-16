@@ -6,6 +6,7 @@ author: cristos
 created: 2026-03-11
 last-updated: 2026-03-11
 parent-vision: VISION-002
+parent-initiative: INITIATIVE-002
 success-criteria:
   - Vimeo connector discovers new SPC-TV videos without manual config edits
   - Budget page connector discovers and downloads new documents without manual config edits

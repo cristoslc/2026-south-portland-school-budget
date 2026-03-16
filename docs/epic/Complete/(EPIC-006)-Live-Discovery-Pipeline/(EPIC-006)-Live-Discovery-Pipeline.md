@@ -6,6 +6,7 @@ author: cristos
 created: 2026-03-11
 last-updated: 2026-03-11
 parent-vision: ""
+parent-initiative: INITIATIVE-002
 success-criteria:
   - Connectors enumerate sources live on every run (no static config files)
   - Discovery history JSONL tracks all seen URLs with backoff for failures

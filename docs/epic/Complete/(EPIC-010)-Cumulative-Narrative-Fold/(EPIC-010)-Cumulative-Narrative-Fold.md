@@ -6,6 +6,7 @@ author: cristos
 created: 2026-03-12
 last-updated: 2026-03-13
 parent-vision: VISION-003
+parent-initiative: INITIATIVE-003
 success-criteria:
   - Cumulative interpretation is the authoritative "where does this persona stand?" document at any point in time
   - Temporal markers record when each persona's understanding shifted

@@ -6,6 +6,7 @@ author: cristos
 created: 2026-03-12
 last-updated: 2026-03-13
 parent-vision: VISION-003
+parent-initiative: INITIATIVE-003
 success-criteria:
   - Every meeting bundle produces 14 interpretation documents (one per persona)
   - Interpretations demonstrate measurably distinct perspectives across personas

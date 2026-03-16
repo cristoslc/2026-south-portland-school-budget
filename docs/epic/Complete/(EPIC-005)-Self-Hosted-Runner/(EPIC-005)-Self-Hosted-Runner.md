@@ -6,6 +6,7 @@ author: cristos
 created: 2026-03-11
 last-updated: 2026-03-11
 parent-vision: ""
+parent-initiative: INITIATIVE-002
 success-criteria:
   - Pipeline workflow executes on a local Docker-based self-hosted runner
   - Zero GitHub Actions quota consumed for scheduled pipeline runs

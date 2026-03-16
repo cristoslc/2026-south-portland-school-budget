@@ -6,6 +6,7 @@ author: cristos
 created: 2026-03-13
 last-updated: 2026-03-16
 parent-vision: VISION-003
+parent-initiative: INITIATIVE-003
 linked-adrs: []
 linked-research:
   - SPIKE-007

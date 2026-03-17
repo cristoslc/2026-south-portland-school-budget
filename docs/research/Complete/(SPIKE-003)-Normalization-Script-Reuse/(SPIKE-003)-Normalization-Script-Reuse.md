@@ -11,7 +11,7 @@ risks-addressed:
   - Existing scripts may require interactive input or manual path configuration that blocks automation
   - Output format may not match current evidence pool source structure without manual post-processing
 depends-on: []
-evidence-pool: ""
+trove: ""
 ---
 
 # Normalization Script Reuse Assessment

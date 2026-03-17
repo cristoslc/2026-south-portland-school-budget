@@ -8,7 +8,9 @@ created: 2026-03-10
 last-updated: 2026-03-10
 depends-on:
   - VISION-001
-evidence-pool: ""
+trove: ""
+linked-artifacts:
+  - VISION-004
 ---
 
 # Automated Evidence Pipeline

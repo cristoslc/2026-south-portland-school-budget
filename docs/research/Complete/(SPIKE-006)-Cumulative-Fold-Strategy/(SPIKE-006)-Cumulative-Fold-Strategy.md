@@ -12,7 +12,12 @@ risks-addressed:
   - Loss of temporal narrative through repeated summarization
   - Silent supersession of earlier interpretations without audit trail
 depends-on: []
-evidence-pool: ""
+trove: ""
+linked-personas:
+  - PERSONA-001
+linked-specs:
+  - SPEC-020
+  - SPEC-021
 ---
 
 # Cumulative Fold Strategy

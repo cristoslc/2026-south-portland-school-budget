@@ -15,6 +15,8 @@ linked-epics:
   - EPIC-006
 depends-on: []
 swain-do: required
+linked-specs:
+  - SPEC-013
 ---
 
 # Pipeline exits non-zero on partial connector failure

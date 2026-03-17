@@ -1,3 +1,27 @@
 # Specwatch log — repo: 2026-south-portland-school-budget
-# Scanned: 2026-03-14T03:27:02Z
+# Scanned: 2026-03-16T20:03:47Z
+
+WARN docs/adr/Adopted/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM.md:9 (frontmatter)
+  field: linked-artifacts
+  target: EPIC-012
+  resolved: docs/epic/Abandoned/(EPIC-012)-Interpretation-Pipeline-Automation/(EPIC-012)-Interpretation-Pipeline-Automation.md
+  issue: target is Abandoned
+
+WARN docs/adr/Adopted/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM.md:9 (frontmatter)
+  field: linked-artifacts
+  target: SPIKE-007
+  resolved: docs/research/Abandoned/(SPIKE-007)-LLM-Access-In-Pipeline-Runner/(SPIKE-007)-LLM-Access-In-Pipeline-Runner.md
+  issue: target is Abandoned
+
+WARN docs/spec/Implemented/(SPEC-013)-Live-Discovery-Connector-Model/(SPEC-013)-Live-Discovery-Connector-Model.md:16 (frontmatter)
+  field: linked-artifacts
+  target: BUG-001
+  resolved: docs/bug/Verified/(BUG-001)-Pipeline-Partial-Failure-Exit-Code/(BUG-001)-Pipeline-Partial-Failure-Exit-Code.md
+  issue: source is Implemented but target is still Verified
+
+WARN docs/epic/Complete/(EPIC-006)-Live-Discovery-Pipeline/(EPIC-006)-Live-Discovery-Pipeline.md:21 (frontmatter)
+  field: linked-artifacts
+  target: BUG-001
+  resolved: docs/bug/Verified/(BUG-001)-Pipeline-Partial-Failure-Exit-Code/(BUG-001)-Pipeline-Partial-Failure-Exit-Code.md
+  issue: source is Complete but target is still Verified
 

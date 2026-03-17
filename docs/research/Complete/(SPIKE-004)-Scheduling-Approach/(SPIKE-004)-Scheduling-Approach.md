@@ -11,7 +11,10 @@ risks-addressed:
   - macOS cron/launchd jobs may not run reliably on a laptop that sleeps
   - Cloud-based scheduling (GitHub Actions) may not have access to local git repo or credentials
 depends-on: []
-evidence-pool: ""
+trove: ""
+linked-research:
+  - SPIKE-001
+  - SPIKE-002
 ---
 
 # Pipeline Scheduling Approach

@@ -3,6 +3,10 @@ set -euo pipefail
 
 # ticket - minimal ticket system with dependency tracking
 # Stores markdown files with YAML frontmatter in .tickets/
+#
+# Originally from: https://github.com/wedow/ticket
+# Copyright (c) 2025 wedow — MIT License
+# Vendored and modified for swain (https://github.com/cristoslc/swain)
 
 # Find .tickets directory by walking parent directories
 find_tickets_dir() {
@@ -278,6 +282,13 @@ cmd_close() {
         return 1
     fi
     cmd_status "$1" "closed"
+    # Release claim lock if held (prevents stale lock accumulation)
+    local file
+    file=$(ticket_path "$1") || return 0
+    local real_id
+    real_id=$(basename "$file" .md)
+    local lockdir="$TICKETS_DIR/.locks/${real_id}"
+    [[ -d "$lockdir" ]] && rm -rf "$lockdir"
 }
 
 cmd_reopen() {

@@ -15,7 +15,21 @@ success-criteria:
 depends-on-artifacts:
   - INITIATIVE-003
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-012
+  - EPIC-013
+  - EPIC-014
+  - EPIC-015
+  - EPIC-016
+  - EPIC-017
+  - EPIC-018
+linked-artifacts:
+  - INITIATIVE-001
+  - INITIATIVE-002
+  - VISION-001
+linked-research:
+  - SPIKE-007
 ---
 
 # Public Budget Site

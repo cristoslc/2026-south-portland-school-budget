@@ -24,6 +24,21 @@ if ! grep -q "swain governance" AGENTS.md CLAUDE.md 2>/dev/null; then
   issues+=("governance markers missing")
 fi
 
+# 2b. Governance freshness — compare installed block against canonical
+CANONICAL="skills/swain-doctor/references/AGENTS.content.md"
+if [[ -f "$CANONICAL" ]] && grep -q "swain governance" AGENTS.md CLAUDE.md 2>/dev/null; then
+  GOV_FILE=$(grep -l "swain governance" AGENTS.md CLAUDE.md 2>/dev/null | head -1)
+  if [[ -n "$GOV_FILE" ]]; then
+    # Extract content between markers (exclusive) and hash
+    extract_gov() { awk '/<!-- swain governance/{f=1;next}/<!-- end swain governance/{f=0}f' "$1"; }
+    INSTALLED_HASH=$(extract_gov "$GOV_FILE" | shasum -a 256 | cut -d' ' -f1)
+    CANONICAL_HASH=$(extract_gov "$CANONICAL" | shasum -a 256 | cut -d' ' -f1)
+    if [[ "$INSTALLED_HASH" != "$CANONICAL_HASH" ]]; then
+      issues+=("governance block is stale (differs from canonical AGENTS.content.md)")
+    fi
+  fi
+fi
+
 # 3. .agents directory exists
 if [[ ! -d .agents ]]; then
   issues+=(".agents directory missing")
@@ -95,6 +110,30 @@ for skill in $SUPERPOWERS_SKILLS; do
 done
 if [[ $sp_missing -gt 0 ]]; then
   echo "swain-preflight: superpowers: $sp_missing/6 skills missing (advisory)"
+fi
+
+# 11. Security scanner availability (INFO — advisory, non-blocking) (SPEC-059)
+SCANNER_SCRIPT="skills/swain-security-check/scripts/scanner_availability.py"
+if [[ -x "$SCANNER_SCRIPT" ]]; then
+  scanner_output=$(python3 "$SCANNER_SCRIPT" 2>/dev/null || true)
+  # Extract the summary line (first line: "Scanner availability: N/4 scanners found")
+  scanner_summary=$(echo "$scanner_output" | head -1)
+  if [[ -n "$scanner_summary" ]] && ! echo "$scanner_summary" | grep -q "4/4"; then
+    echo "swain-preflight: $scanner_summary (advisory)"
+    # Print missing scanner details
+    echo "$scanner_output" | grep '^\s*\[--\]' | while read -r line; do
+      echo "  $line"
+    done
+  fi
+fi
+
+# 12. Lightweight security diagnostic (advisory, non-blocking) (SPEC-061)
+DOCTOR_SECURITY_SCRIPT="skills/swain-security-check/scripts/doctor_security_check.py"
+if [[ -x "$DOCTOR_SECURITY_SCRIPT" ]]; then
+  security_output=$(python3 "$DOCTOR_SECURITY_SCRIPT" 2>/dev/null || true)
+  if [[ -n "$security_output" ]]; then
+    echo "$security_output"
+  fi
 fi
 
 # Check for epics without parent-initiative (initiative migration advisory)

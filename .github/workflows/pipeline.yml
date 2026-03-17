@@ -19,26 +19,41 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Run pipeline
+      - name: Run evidence pipeline
         run: python3 scripts/pipeline.py run --stage
 
-      - name: Check for changes
-        id: changes
+      - name: Commit evidence changes
+        id: evidence
         run: |
           if git diff --cached --quiet; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            DATE=$(date -u +%Y-%m-%d)
+            git commit -m "chore(pipeline): auto-update evidence pools [$DATE]"
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit and push
-        if: steps.changes.outputs.has_changes == 'true'
+      - name: Run meeting bundler
+        run: python3 scripts/bundle_meetings.py --stage
+
+      - name: Commit bundle changes
+        id: bundles
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          DATE=$(date -u +%Y-%m-%d)
-          git commit -m "chore(pipeline): auto-update evidence pools [$DATE]"
-          git push
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            DATE=$(date -u +%Y-%m-%d)
+            git commit -m "chore(pipeline): auto-update meeting bundles [$DATE]"
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push changes
+        if: steps.evidence.outputs.has_changes == 'true' || steps.bundles.outputs.has_changes == 'true'
+        run: git push
 
   # Fallback: runs on hosted runner if self-hosted is unavailable
   update-evidence-fallback:
@@ -63,23 +78,38 @@ jobs:
           pip install pyyaml pdfplumber beautifulsoup4 markdownify openpyxl
           pip install yt-dlp
 
-      - name: Run pipeline
+      - name: Run evidence pipeline
         run: python3 scripts/pipeline.py run --stage
 
-      - name: Check for changes
-        id: changes
+      - name: Commit evidence changes
+        id: evidence
         run: |
           if git diff --cached --quiet; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            DATE=$(date -u +%Y-%m-%d)
+            git commit -m "chore(pipeline): auto-update evidence pools [$DATE]"
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit and push
-        if: steps.changes.outputs.has_changes == 'true'
+      - name: Run meeting bundler
+        run: python3 scripts/bundle_meetings.py --stage
+
+      - name: Commit bundle changes
+        id: bundles
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          DATE=$(date -u +%Y-%m-%d)
-          git commit -m "chore(pipeline): auto-update evidence pools [$DATE]"
-          git push
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            DATE=$(date -u +%Y-%m-%d)
+            git commit -m "chore(pipeline): auto-update meeting bundles [$DATE]"
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push changes
+        if: steps.evidence.outputs.has_changes == 'true' || steps.bundles.outputs.has_changes == 'true'
+        run: git push

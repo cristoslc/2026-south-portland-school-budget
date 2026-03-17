@@ -21,7 +21,9 @@ addresses:
   - JOURNEY-001.PP-03
   - JOURNEY-004.PP-01
   - JOURNEY-003.PP-01
-evidence-pool: ""
+trove: ""
+linked-artifacts:
+  - VISION-004
 ---
 
 # Budget Lever Analysis

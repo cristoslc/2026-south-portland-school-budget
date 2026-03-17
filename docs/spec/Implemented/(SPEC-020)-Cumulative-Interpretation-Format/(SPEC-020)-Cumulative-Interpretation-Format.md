@@ -15,8 +15,14 @@ depends-on:
   - SPEC-018
   - SPIKE-006
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-personas:
+  - PERSONA-001
+linked-specs:
+  - SPEC-018
+  - SPEC-021
+  - SPEC-022
 ---
 
 # Cumulative Interpretation Format

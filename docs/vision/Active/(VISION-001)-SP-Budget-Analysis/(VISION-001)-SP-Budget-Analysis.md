@@ -7,6 +7,11 @@ author: cristos
 created: 2026-03-09
 last-updated: 2026-03-11
 depends-on: []
+linked-personas:
+  - PERSONA-001
+  - PERSONA-014
+linked-artifacts:
+  - VISION-004
 ---
 
 # South Portland 2026 School Budget Analysis

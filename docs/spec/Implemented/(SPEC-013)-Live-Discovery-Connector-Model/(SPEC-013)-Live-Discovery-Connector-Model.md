@@ -11,8 +11,13 @@ linked-adrs:
   - ADR-001
 depends-on: []
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-artifacts:
+  - BUG-001
+linked-specs:
+  - SPEC-014
+  - SPEC-015
 ---
 
 # Live Discovery Connector Model

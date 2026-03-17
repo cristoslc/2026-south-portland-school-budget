@@ -9,7 +9,11 @@ last-updated: 2026-03-11
 depends-on:
   - VISION-001
   - VISION-002
-evidence-pool: ""
+trove: ""
+linked-artifacts:
+  - VISION-001
+  - VISION-002
+  - VISION-004
 ---
 
 # Persona Interpretation Pipeline

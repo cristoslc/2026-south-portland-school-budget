@@ -10,8 +10,10 @@ linked-research: []
 linked-adrs: []
 depends-on: []
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-epics:
+  - EPIC-002
 ---
 
 # Budget Page PDF Connector

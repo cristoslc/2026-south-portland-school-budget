@@ -11,8 +11,12 @@ linked-specs:
   - SPEC-013
   - SPEC-014
   - SPEC-015
+  - SPEC-009
+  - SPEC-010
 depends-on: []
-evidence-pool: ""
+trove: ""
+linked-artifacts:
+  - BUG-001
 ---
 
 # Live Discovery over Static Config

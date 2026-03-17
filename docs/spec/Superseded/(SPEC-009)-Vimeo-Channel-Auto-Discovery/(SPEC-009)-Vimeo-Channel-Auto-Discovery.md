@@ -10,8 +10,10 @@ linked-research: []
 linked-adrs: []
 depends-on: []
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-specs:
+  - SPEC-014
 ---
 
 # Vimeo Channel Auto-Discovery

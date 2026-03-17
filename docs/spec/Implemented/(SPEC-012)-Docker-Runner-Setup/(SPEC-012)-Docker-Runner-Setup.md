@@ -10,7 +10,7 @@ linked-research: []
 linked-adrs: []
 depends-on: []
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
 ---
 

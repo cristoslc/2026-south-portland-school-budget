@@ -11,7 +11,9 @@ risks-addressed:
   - Diligent Community may use anti-scraping measures (CAPTCHA, bot detection)
   - Page structure may be too dynamic or session-dependent for reliable automated extraction
 depends-on: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-001
 ---
 
 # Diligent Community Agenda Scraping

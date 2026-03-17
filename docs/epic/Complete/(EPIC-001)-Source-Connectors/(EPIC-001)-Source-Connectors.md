@@ -13,7 +13,17 @@ success-criteria:
   - Connectors are idempotent -- re-running produces no duplicate downloads
 depends-on: []
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-002
+  - EPIC-003
+linked-specs:
+  - SPEC-001
+  - SPEC-002
+  - SPEC-003
+linked-research:
+  - SPIKE-001
+  - SPIKE-002
 ---
 
 # Source Connectors

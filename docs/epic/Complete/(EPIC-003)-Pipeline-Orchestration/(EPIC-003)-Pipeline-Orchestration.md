@@ -16,7 +16,15 @@ depends-on:
   - EPIC-001
   - EPIC-002
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-001
+  - EPIC-002
+linked-specs:
+  - SPEC-007
+  - SPEC-008
+linked-research:
+  - SPIKE-004
 ---
 
 # Pipeline Orchestration

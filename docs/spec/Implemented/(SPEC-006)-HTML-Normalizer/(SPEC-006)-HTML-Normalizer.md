@@ -12,8 +12,13 @@ linked-research:
 linked-adrs: []
 depends-on: []
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-epics:
+  - EPIC-001
+linked-specs:
+  - SPEC-002
+  - SPEC-005
 ---
 
 # HTML-to-Markdown Normalizer

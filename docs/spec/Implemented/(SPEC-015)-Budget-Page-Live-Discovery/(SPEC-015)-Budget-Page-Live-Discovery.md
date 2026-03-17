@@ -12,8 +12,11 @@ linked-adrs:
 depends-on:
   - SPEC-013
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-specs:
+  - SPEC-010
+  - SPEC-013
 ---
 
 # Budget Page Live Discovery

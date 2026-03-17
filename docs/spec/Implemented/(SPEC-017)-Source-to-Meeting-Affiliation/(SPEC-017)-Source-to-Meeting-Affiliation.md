@@ -13,8 +13,10 @@ linked-adrs: []
 depends-on:
   - SPEC-016
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-specs:
+  - SPEC-016
 ---
 
 # Source-to-Meeting Affiliation

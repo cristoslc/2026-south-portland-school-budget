@@ -15,7 +15,15 @@ success-criteria:
 depends-on:
   - EPIC-009
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-009
+  - EPIC-011
+linked-specs:
+  - SPEC-020
+  - SPEC-021
+linked-research:
+  - SPIKE-006
 ---
 
 # Cumulative Narrative Fold

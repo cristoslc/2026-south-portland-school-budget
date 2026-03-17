@@ -16,8 +16,13 @@ depends-on:
   - SPEC-018
   - SPIKE-005
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-personas:
+  - PERSONA-001
+linked-specs:
+  - SPEC-016
+  - SPEC-018
 ---
 
 # Per-Meeting Interpretation Runner

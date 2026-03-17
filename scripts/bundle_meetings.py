@@ -20,6 +20,7 @@ import datetime
 import hashlib
 import logging
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -724,6 +725,10 @@ def main():
         help="Overwrite existing manifests (including manually-created ones)",
     )
     parser.add_argument(
+        "--stage", action="store_true",
+        help="Git-stage new or changed bundle manifests after writing",
+    )
+    parser.add_argument(
         "--verbose", "-v", action="store_true",
         help="Enable debug logging",
     )
@@ -820,6 +825,19 @@ def main():
     log.info("Skipped (no sources):      %d", skipped_empty)
     log.info("Skipped (protected):       %d", skipped_protected)
     log.info("Skipped (unchanged):       %d", skipped_idempotent)
+
+    # Stage changes if requested
+    if args.stage and written > 0 and not args.dry_run:
+        log.info("")
+        log.info("--- Staging bundle changes ---")
+        try:
+            subprocess.run(
+                ["git", "add", str(BUNDLES_DIR)],
+                check=True, capture_output=True, text=True,
+            )
+            log.info("Staged %s", BUNDLES_DIR.relative_to(PROJECT_ROOT))
+        except subprocess.CalledProcessError as e:
+            log.warning("git add failed: %s", e.stderr.strip())
 
     if still_unaffiliated:
         log.warning("")

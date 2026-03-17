@@ -4,7 +4,6 @@
 
 | ID | Title | Last Updated | Commit |
 |----|-------|-------------|--------|
-| SPIKE-007 | LLM Access in Pipeline Runner | 2026-03-13 | — |
 
 ## Complete
 
@@ -16,3 +15,9 @@
 | SPIKE-004 | Scheduling Approach | 2026-03-10 | b8cf304 |
 | SPIKE-005 | Interpretation Prompt Design | 2026-03-12 | a31869a |
 | SPIKE-006 | Cumulative Fold Strategy | 2026-03-12 | a31869a |
+
+## Abandoned
+
+| ID | Title | Last Updated | Commit |
+|----|-------|-------------|--------|
+| SPIKE-007 | LLM Access in Pipeline Runner | 2026-03-16 | — |

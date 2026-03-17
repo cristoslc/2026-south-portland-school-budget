@@ -15,7 +15,17 @@ success-criteria:
 depends-on-artifacts:
   - INITIATIVE-002
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-008
+  - EPIC-009
+  - EPIC-010
+  - EPIC-011
+  - EPIC-013
+linked-artifacts:
+  - INITIATIVE-004
+  - INITIATIVE-004
+linked-research: []
 ---
 
 # Interpretation Pipeline
@@ -26,7 +36,7 @@ Systematically interpret every meeting through 14 persona lenses, fold interpret
 
 ## Scope Boundaries
 
-**In scope:** Meeting bundling, per-meeting persona interpretation, cumulative fold with temporal tracking, brief generation, pipeline automation on the self-hosted runner, question clustering for downstream consumption.
+**In scope:** Meeting bundling, per-meeting persona interpretation, cumulative fold with temporal tracking, brief generation, pipeline automation via two-track architecture (deterministic runner + local LLM polling), question clustering for downstream consumption.
 
 **Out of scope:** Evidence collection (INITIATIVE-002), public-facing presentation (INITIATIVE-004).
 
@@ -38,7 +48,8 @@ Systematically interpret every meeting through 14 persona lenses, fold interpret
 | EPIC-009 | Per-Meeting Interpretation Engine | Complete |
 | EPIC-010 | Cumulative Narrative Fold | Complete |
 | EPIC-011 | Upcoming Event Brief Generation | Complete |
-| EPIC-012 | Interpretation Pipeline Automation | Proposed |
+| EPIC-012 | Interpretation Pipeline Automation | Abandoned (superseded by EPIC-013) |
+| EPIC-013 | Polling Interpretation Pipeline | Proposed |
 
 ## Small Work (Epic-less Specs)
 
@@ -47,7 +58,7 @@ _None currently._
 ## Key Dependencies
 
 - INITIATIVE-002 (evidence pipeline must produce bundles)
-- SPIKE-007 (Claude CLI access on runner) gates EPIC-012
+- ADR-002 (Polling LLM Pipeline Over Runner-Based LLM) gates EPIC-013
 
 ## Lifecycle
 

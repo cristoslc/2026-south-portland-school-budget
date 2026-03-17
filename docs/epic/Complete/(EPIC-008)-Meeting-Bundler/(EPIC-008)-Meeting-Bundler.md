@@ -13,7 +13,16 @@ success-criteria:
   - Bundle metadata captures meeting date, body (school board / city council), source manifest, and optional agenda reference
 depends-on: []
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-001
+  - EPIC-006
+  - EPIC-009
+linked-specs:
+  - SPEC-016
+  - SPEC-017
+linked-artifacts:
+  - VISION-002
 ---
 
 # Meeting Bundler

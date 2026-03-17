@@ -11,7 +11,9 @@ risks-addressed:
   - Vimeo may block headless browsers or require login to access caption tracks
   - VTT URL pattern may be dynamic/signed and not interceptable from network requests
 depends-on: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-001
 ---
 
 # Vimeo VTT Download via Playwright

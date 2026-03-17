@@ -11,8 +11,11 @@ linked-adrs: []
 depends-on:
   - SPEC-020
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-specs:
+  - SPEC-016
+  - SPEC-020
 ---
 
 # Upcoming-Event Brief Generator

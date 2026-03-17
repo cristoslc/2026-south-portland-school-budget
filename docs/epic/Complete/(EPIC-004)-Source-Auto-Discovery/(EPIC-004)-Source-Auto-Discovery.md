@@ -15,7 +15,14 @@ success-criteria:
 depends-on:
   - EPIC-001
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-001
+  - EPIC-002
+  - EPIC-003
+linked-specs:
+  - SPEC-009
+  - SPEC-010
 ---
 
 # Source Auto-Discovery

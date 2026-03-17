@@ -14,8 +14,11 @@ linked-adrs: []
 depends-on:
   - SPIKE-005
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-specs:
+  - SPEC-020
+  - SPEC-022
 ---
 
 # Interpretation Output Schema

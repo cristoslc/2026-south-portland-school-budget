@@ -12,8 +12,12 @@ linked-research: []
 linked-adrs: []
 depends-on: []
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-specs:
+  - SPEC-017
+linked-artifacts:
+  - VISION-002
 ---
 
 # Meeting Bundle Schema

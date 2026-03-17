@@ -14,8 +14,13 @@ depends-on:
   - SPEC-005
   - SPEC-006
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-epics:
+  - EPIC-001
+  - EPIC-002
+linked-specs:
+  - SPEC-008
 ---
 
 # Pipeline Runner

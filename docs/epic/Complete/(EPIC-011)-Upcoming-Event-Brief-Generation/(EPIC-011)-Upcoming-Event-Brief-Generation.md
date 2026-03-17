@@ -15,7 +15,12 @@ success-criteria:
 depends-on:
   - EPIC-010
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-009
+  - EPIC-010
+linked-specs:
+  - SPEC-022
 ---
 
 # Upcoming-Event Brief Generation

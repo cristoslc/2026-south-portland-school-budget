@@ -16,8 +16,13 @@ depends-on:
   - SPEC-020
   - SPIKE-006
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-personas:
+  - PERSONA-001
+linked-specs:
+  - SPEC-018
+  - SPEC-020
 ---
 
 # Fold Engine

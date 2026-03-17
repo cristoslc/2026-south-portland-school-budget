@@ -15,7 +15,22 @@ success-criteria:
   - Pipeline can run hourly without excessive API load or log noise
 depends-on: []
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-adrs:
+  - ADR-001
+linked-artifacts:
+  - BUG-001
+linked-epics:
+  - EPIC-004
+  - EPIC-005
+linked-specs:
+  - SPEC-001
+  - SPEC-003
+  - SPEC-009
+  - SPEC-010
+  - SPEC-013
+  - SPEC-014
+  - SPEC-015
 ---
 
 # Live Discovery Pipeline

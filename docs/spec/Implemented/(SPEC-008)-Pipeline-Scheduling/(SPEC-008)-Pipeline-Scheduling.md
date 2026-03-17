@@ -12,8 +12,10 @@ linked-adrs: []
 depends-on:
   - SPEC-007
 addresses: []
-evidence-pool: ""
+trove: ""
 swain-do: required
+linked-specs:
+  - SPEC-007
 ---
 
 # Pipeline Scheduling

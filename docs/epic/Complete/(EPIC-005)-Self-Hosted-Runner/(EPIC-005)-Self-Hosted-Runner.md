@@ -14,7 +14,11 @@ success-criteria:
   - Schedule reduced to 2x/day (8 AM and 8 PM ET)
 depends-on: []
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-artifacts:
+  - RUNBOOK-001
+linked-specs:
+  - SPEC-012
 ---
 
 # Self-Hosted GitHub Actions Runner

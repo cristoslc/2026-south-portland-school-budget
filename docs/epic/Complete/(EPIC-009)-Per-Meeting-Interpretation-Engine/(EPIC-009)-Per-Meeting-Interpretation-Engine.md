@@ -15,7 +15,15 @@ success-criteria:
 depends-on:
   - EPIC-008
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-008
+  - EPIC-010
+linked-specs:
+  - SPEC-018
+  - SPEC-019
+linked-research:
+  - SPIKE-005
 ---
 
 # Per-Meeting Interpretation Engine

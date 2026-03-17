@@ -15,7 +15,16 @@ success-criteria:
 depends-on:
   - EPIC-001
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-001
+linked-specs:
+  - SPEC-004
+  - SPEC-005
+  - SPEC-006
+linked-research:
+  - SPIKE-002
+  - SPIKE-003
 ---
 
 # Content Normalization

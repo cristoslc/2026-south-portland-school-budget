@@ -13,7 +13,18 @@ success-criteria:
   - Pipeline runs on self-hosted GitHub Actions runner without manual intervention
 depends-on-artifacts: []
 addresses: []
-evidence-pool: ""
+trove: ""
+linked-epics:
+  - EPIC-001
+  - EPIC-002
+  - EPIC-003
+  - EPIC-004
+  - EPIC-005
+  - EPIC-006
+linked-artifacts:
+  - INITIATIVE-003
+  - VISION-003
+  - VISION-004
 ---
 
 # Evidence Pipeline

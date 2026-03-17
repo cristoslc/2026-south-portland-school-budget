@@ -12,7 +12,13 @@ risks-addressed:
   - Hallucinated facts not grounded in meeting evidence
   - Prompt token budget exceeding context limits with persona definitions + full meeting transcript
 depends-on: []
-evidence-pool: ""
+trove: ""
+linked-personas:
+  - PERSONA-001
+  - PERSONA-006
+  - PERSONA-012
+  - PERSONA-013
+  - PERSONA-014
 ---
 
 # Interpretation Prompt Design

@@ -26,5 +26,5 @@ __pycache__/
 # OS
 .DS_Store
 
-# Distribution
-dist/
+# Distribution build artifacts (but not dist/ itself — briefings are deliverables)
+dist/**/*.tmp

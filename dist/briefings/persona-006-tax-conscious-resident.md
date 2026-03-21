@@ -2,121 +2,79 @@
 schema_version: "1.0"
 persona_id: "PERSONA-006"
 persona_name: "Tom"
-upcoming_meeting_date: "2026-03-19"
-generated_date: "2026-03-17"
-has_agenda: true
-last_cumulative_meeting: "2026-03-09"
-inter_meeting_evidence_count: 0
+upcoming_meeting_date: "2026-03-23"
+generated_date: "2026-03-21"
+has_agenda: false
+last_cumulative_meeting: "2026-03-19"
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Tom (PERSONA-006)
-## Upcoming Meeting: 2026-03-19
+## Upcoming Meeting: 2026-03-23
 
 ## Since Last Meeting
 
-No inter-meeting evidence was recorded in the period between the March 9 school board meeting and Thursday's March 19 city council meeting. That silence carries its own meaning for Tom.
+The district has released a Google Slides budget presentation for the March 23 workshop — the first document to formally package the FY27 proposal, personnel and non-personnel reductions, two elementary closure options, and middle and high school cuts into a single decision-ready deck. For Tom, this matters in two ways.
 
-The school administration promised the city council a breakdown of the 82 positions added during the enrollment decline at the February 10 joint workshop. That was five weeks ago. Nothing has been delivered. Tom should treat the continued absence of that document not as an oversight but as a choice — and should note whether it surfaces at Thursday's meeting unprompted, or not at all.
+First, the existence of the deck means the board is finally moving toward actual decisions rather than preliminary framing. That's progress. But the $8.4 million deficit — revised up $1.2 million from the $7.2 million figure that held all winter — means the scope of what's being decided has grown. The 72 layoff notices issued March 18 confirm that some cuts are already in motion before the board has formally voted, which raises the question of whether the process is driving decisions or ratifying them after the fact.
 
-The 78 proposed position cuts, the unresolved $3M+ gap between the three "big ideas" and the full $7.2M need, and the board's veto of Option 1.7 all remain exactly where they were on March 9. Every day that passes without a credible closing plan is a day closer to the city council having to either override its own 3-6% guidance or fund the gap through the tax rate it said it would hold.
+Second, the mention of "two elementary closure options" is significant. The board effectively killed Option 1.7 (Skillin closure, $19.6 million over five years) on March 2 without fully analyzing alternatives. Now the presentation appears to bring at least two closure scenarios back to the table. Whether those alternatives are genuinely comparable to Skillin's savings potential — or whether the board is circling back to something they already ruled out politically — is exactly what Tom should be watching.
+
+What this presentation does not appear to address: the combined per-household tax impact of all four simultaneous cost pressures. The 82-position breakdown still has not been produced. And the question of whether the $8.4 million gap can be closed within the council's 3–6% guidance remains open heading into Monday night.
 
 ---
 
 ## Open Questions
 
-Tom is carrying the following into Thursday's meeting:
-
-- **Why hasn't the district delivered that 82-position breakdown?** The council asked for it February 10. It's March 19. Where is it, and does the council remember it asked?
-- **Where does the last $3M+ come from?** The three big ideas yield ~$4M of the $7.2M gap. Nobody has explained what closes the rest. Is that number hiding in the budget workshops?
-- **What does Mahoney actually add to my tax bill — on top of the school increase?** I've never seen a combined per-household number. Nobody has put both increases on the same piece of paper and told me what my property tax bill looks like in two years.
-- **What is this sewer bond going to do to my monthly bill?** Is this the Pearl Street pump station financing? South Portland is already at $56/month — where does this bond take us?
-- **Is the council going to actually bind itself to a Mahoney number tonight, or are we doing the TIF-vote script again?** Verbal concern, unanimous approval.
-- **What are they buying at 279 Main Street, and why now?**
-- **Another city position being added while the school district is cutting 78 — is the stormwater coordinator mandated, or is this a choice?**
-- **Will Feller or any board member appear at this council meeting and signal where the school budget is heading before April 14?**
-- **Is anyone tracking the combined annual cost to a typical South Portland homeowner: school increase + Mahoney bond + sewer rate increases? Has any council member asked for that number?**
+- **What is this going to cost me, in dollars, on my tax bill?** I've heard 18–19% for the full roll-forward, I've heard 6% as a ceiling, but no one has told me what a home assessed at $300,000 actually pays as a result of whatever gets decided Monday night.
+- **If the deficit grew by $1.2 million since December, does that mean 78 cuts aren't enough anymore?** The pink slips went out for 72 positions — where did the other six go, and is the new math forcing more cuts than what was advertised?
+- **Where is the breakdown of those 82 added positions?** The board promised this to the city council in February. It still hasn't been produced. Why not, and what's in there that they don't want people to see?
+- **What do the two elementary closure options actually save, and how do they compare to Skillin?** If Skillin was worth $19.6 million over five years and the board rejected it, are these alternatives producing similar savings, or is this the board finding a way to do less while calling it a comparable option?
+- **Is the 6% guidance real or not?** A board member was already floating the idea of blowing past it five days after the February public forum. With the deficit now $1.2 million larger, how does that not become the excuse to exceed it?
+- **What's the combined hit on my tax bill when you stack the school increase, the 22% sewer rate hike, the police and fire bond, and Mahoney together?** I need a single number, not four separate line items. Nobody has produced that.
+- **What are the actual governance consequences of two consecutive years of budget non-compliance?** The auditors found it. The assistant superintendent explained it away with staff turnover. But what actually happens to the people responsible?
+- **The board vetoed Skillin because of community pressure, not because of the numbers. How much does that political choice cost me and every other taxpayer?**
 
 ---
 
 ## Agenda Implications
 
-**C.1 — Stormwater Coordinator (New City Position)**
+No agenda is available for this meeting. The inter-meeting evidence confirms this is a board budget workshop, and the presentation structure gives a reasonable picture of what will be covered. Here is what Tom should expect and prepare for.
 
-The city manager is asking the council to approve a new municipal hire. Tom should note this against the backdrop of the school district cutting 78 positions. The relevant question is whether this position is required by the state stormwater permit (making it a mandated cost) or is a discretionary hire. If it's mandated, Tom will grudgingly accept it. If it's discretionary, it represents exactly the pattern he finds infuriating: school staffing gets cut while city staffing grows. He should listen for whether any councilor asks whether the position is mandatory, and what it costs in salary plus benefits.
+**The FY27 proposal will be presented in full.** This is the moment when the board formally frames its budget ask. Tom should listen specifically for the total proposed budget figure, the percentage increase over FY26, and whether the presentation quantifies the mil rate impact in per-household terms or buries it in aggregate dollar figures. If the board presents only a total dollar amount and a percentage increase without translating it to a specific tax impact on an average-assessed home, Tom should be prepared to ask that question directly during public comment.
 
-**C.2 — Sewer Revenue Bond**
+**Two elementary closure options will be on the table.** This is the highest-stakes decision of the workshop for fiscal purposes. Tom should listen for the total savings figure associated with each option — not just year-one savings, but five-year cumulative impact — and whether either option matches or exceeds what Option 1.7 (Skillin) would have produced. If the board is presenting cheaper alternatives to avoid the political difficulty of Skillin, the fiscal shortfall has to land somewhere. Tom should ask where.
 
-This is one of the two highest-stakes items for Tom at Thursday's meeting. The agenda includes a comparison table showing South Portland's current sewer cost at approximately $56/month ($670/year) — below the regional median. That framing is designed to make any increase sound reasonable by comparison.
+**Personnel reductions will be itemized.** The 72 layoff notices are already out. The presentation covers both personnel and non-personnel reductions. Tom should listen for whether the total reduction package, combined with the non-personnel cuts, actually closes the $8.4 million gap — or whether there is still a residual hole that requires either more cuts, a tax increase beyond 6%, or a draw on reserves. The $100,000 reserve draw the council approved on March 19 already signals the fund balance is being used as a pressure valve.
 
-What Tom needs to know is whether this bond is the Pearl Street pump station financing ($50M estimated), or something different. If it is, the monthly number is going up, and it's going up without a voter referendum because sewer rate increases bypass that mechanism. He should:
-- Listen for the specific dollar amount of the bond being authorized
-- Ask what the projected increase to the monthly sewer bill will be, and when it takes effect
-- Note whether Finance Director Sanborn's memo provides a per-household impact number or only shows the comparison table
+**Decisions are expected.** Unlike the framing workshops earlier this winter, this presentation is described as producing decisions. That means Tom is not watching an informational meeting — he is watching the moment when the board locks in a path. Procedural signals matter here: does the board vote on specific cuts, or does it take a "sense of the board" approach that leaves room for reversal? Binding votes versus directional consensus is a distinction Tom has watched the council blur all winter.
 
-The comparison table is not an answer. "We're cheaper than Cape Elizabeth" does not tell Tom what his bill will be next year.
-
-**E.5 — Setting Public Hearing Date / Budget Workshop Schedule**
-
-This is administratively dry but operationally critical for Tom. The school budget is the first item on Budget Workshop #1, scheduled for April 14. The council is effectively setting the clock for the final school budget confrontation. Tom should mark April 14 on his calendar — that is the meeting where the 3-6% guidance either holds or collapses. He should also note that Budget Workshop #2 on April 28 covers the city's own departments. Both workshops matter to his total tax burden, but the April 14 school session is where the outcome of the entire winter's budget fight gets settled.
-
-He should listen for whether any councilor flags the unresolved $3M+ gap or the missing 82-position breakdown before setting that date, or whether the council is treating the workshop schedule as purely procedural.
-
-**H.1 — Mahoney City Center Guidance**
-
-This is the most important item for Tom at Thursday's meeting, and possibly the most important Mahoney vote since the $194M price tag was revealed in January. The council is being asked three direct questions:
-
-1. Proceed with the scaled-down project at $57M–$105M?
-2. Look at other locations for City Hall?
-3. Engage a developer via RFP for a public/private partnership?
-
-For Tom, the only acceptable outcome is a binding answer — a ceiling number, a directive, something that stops the sunk-cost trap from deepening. The pattern he has documented across the winter is: council expresses concern, asks for alternatives, gets alternatives, expresses more concern, and adjourns without commitment. The $780K in design fees already spent exists precisely because the council never drew a hard line.
-
-He should watch for:
-- Whether any council member moves to cap the project at a specific dollar amount before authorizing further design work
-- Whether the public/private partnership option is treated seriously or dismissed quickly (a developer absorbing part of the cost stack would meaningfully reduce the bond size)
-- Whether the library facility question is folded into the Mahoney decision or deferred separately — deferring it creates a second capital ask that arrives after the Mahoney vote, when residents think they already know the total bill
-- Whether any council member asks for a combined per-household impact analysis (school increase + Mahoney bond) before committing to a direction
-
-If the council tonight authorizes continued design work on the $57M–$105M range without setting a binding ceiling and without producing a combined household cost number, Tom should treat that as the pattern repeating exactly.
-
-**I.1, I.2, I.3 — Postponed Orders from March 3**
-
-Three items were carried over from the March 3 meeting. The order numbers (amended versions of orders from the prior fiscal year) suggest these have been in process for some time. Tom should review the actual order text before the meeting if he can access the agenda packet online — items that get postponed twice often contain either spending authorizations or policy changes that failed to get traction the first time around. He should at minimum note what each order does and what it costs.
-
-**I.4 — Project Home Appropriation**
-
-Appropriating funds is spending. Tom knows nothing about "Project Home" from the agenda language alone. He should ask: what is this project, what is the dollar amount, is it grant-funded or tax-supported, and why is it appearing as a standalone appropriation outside the normal budget process?
-
-**I.5 — 279 Main Street Purchase**
-
-The city is buying a property. Tom's immediate questions: How much? What for? Is this discretionary or does the city have an option that expires? Property purchases made outside the budget cycle, while the school district is cutting 78 positions, are exactly the kind of expenditure Tom wants explained on the record before a vote.
-
-**E.8 (Consent Calendar) — Elm Street Property Sale**
-
-This is the reverse: the city selling property at Elm and Forest. Tom should note this as a potential revenue item and make sure it's not being folded into a broader transaction that obscures the net cost. If the city is simultaneously buying 279 Main Street and selling Elm Street property, he wants to understand the net financial position, not just each transaction in isolation.
-
-**D — Appointment Calendar (Postponed to April 7)**
-
-Twenty-two appointments or reappointments, including three actual vacancies from January resignations (Springer, Maxfield, Duvernay). The council is postponing all of them to April 7. Tom's interest is narrow: if any of these vacancies are on boards with fiscal oversight functions (finance committee, budget committee, audit-adjacent bodies), leaving them vacant through the April budget workshops means those bodies may be operating understaffed during the most consequential budget period of the year. He should note which boards are affected.
+**What Tom should prepare to ask:**
+- "What is the projected mil rate impact of tonight's proposal on a home assessed at $300,000?"
+- "Do either of the closure options produce savings comparable to Option 1.7, and if not, where does the remaining gap get closed?"
+- "Is the board prepared to commit tonight that the total FY27 tax increase will not exceed the city council's 3–6% guidance?"
+- "Where is the breakdown of the 82 positions added since 2021 that was promised to the city council in February?"
 
 ---
 
 ## Watch For
 
-- **Whether anyone on the council asks for a combined per-household tax impact number** before voting on Mahoney direction or approving the budget workshop schedule. If no one asks, Tom should. The question is: what does my total annual tax bill look like in FY27, accounting for both the school increase and the Mahoney bond?
+- **Whether either closure option is presented with five-year savings figures.** If the board presents only one-year savings, push for the long-term number. Skillin's value was $19.6 million over five years — the comparison is meaningless without equivalent data for the alternatives.
 
-- **Whether the council binds itself to a Mahoney ceiling tonight or adjourns without one.** Watch for language like "we'll continue to evaluate options" or "we'll bring this back" — these are the tells that another deferral is happening. A binding motion with a dollar number is the only outcome that breaks the pattern Tom has documented since January.
+- **The exact percentage increase in the proposed budget.** If the presenter says "within the council's guidance" but does not give a specific number, that language is doing work. Ask for the number.
 
-- **Whether Finance Director Sanborn's sewer bond memo provides a per-household rate impact.** If the memo only shows comparative rates and not the projected increase, that is a presentation designed to avoid the question Tom actually has.
+- **Any mention of a "residual gap" or "remaining shortfall."** The $8.4M deficit revised up from $7.2M. The three "big ideas" at the February forum only reached $4M in identified savings. Watch for language suggesting the cuts on the table don't fully close the gap — that is the signal that a tax increase beyond guidance is being prepared.
 
-- **Whether any council member references the school budget or the 3-6% guidance** during the budget workshop scheduling discussion. The school budget lands April 14. If the council sets that date without acknowledging that the gap isn't closed and the 82-position breakdown hasn't been delivered, they are effectively handing the administration six more weeks of runway.
+- **Whether the 82-position breakdown appears anywhere in the presentation.** It was promised. If it is not in this deck, it has now been withheld through three consecutive board events since the February 10 joint workshop. That is worth noting publicly.
 
-- **The stormwater coordinator vote and whether anyone asks if it's mandated.** If it passes unanimously without anyone asking, note it — it's a data point in the pattern of city staffing growing while school staffing is cut.
+- **Who chairs the discussion and whether motions are called.** If the board chair moves through decisions as directional consensus rather than recorded votes, that is the same pattern Tom has seen all winter — words without ceilings. Watch whether any board member calls for a formal vote on a specific tax increase cap.
 
-- **Who is absent from the council tonight.** A slim majority making major Mahoney decisions means individual votes matter. The February 10 guidance held because enough councilors showed up willing to push back. Track whether the same coalition is present and engaged.
+- **Public comment makeup.** If comment is again dominated by parents advocating for services without addressing costs — as it was on March 2 — Tom has grounds to reframe his own comments as speaking for the taxpayers who fund those services. The board hears one side consistently; balance matters.
 
-- **Whether the 279 Main Street purchase comes with a price and a stated purpose in the position paper.** If the item goes to a vote without a clear dollar amount in the public record, that is exactly the kind of fiscal opacity Tom has learned to treat as a warning sign.
+- **The superintendent's framing language.** Watch for aspirational phrases like "investing in our students" or "right-sizing" that replace dollar figures. When that language appears without a number attached, Tom should note the specific moment and be prepared to redirect to the fiscal question.
 
-- **Watch City Manager and Finance Director Sanborn's body language during the Mahoney discussion.** Administrators who have already internalized a preferred direction often show it when the council drifts toward options they didn't recommend. If staff visibly engages more with the "proceed with scaled-down project" framing than with the RFP/developer option, that tells Tom something about which way the institutional preference runs.
+- **Whether any board member raises the city council's 3–6% guidance as a binding constraint.** Only one member needs to put that on the record to create an accountability reference point. If no one does, Tom should be the one who names the guidance aloud during public comment.
 
-- **Whether any councilor mentions the school budget during the Mahoney discussion** — or conspicuously avoids doing so. The two decisions are fiscally linked. A council that treats them as separate items is either failing to do the math or choosing not to show it.
+- **How the board characterizes the nutrition fund deficit.** It was confirmed at $715K in FY25 and $1.1M in FY26, tracked separately from the main budget. If the board presents the FY27 proposal without folding this deficit into the total burden, the aggregate picture Tom is trying to build is being obscured.
+
+- **Any mention of the combined municipal burden.** If neither the board nor any presenter acknowledges the 22% annual sewer rate increase, the police/fire bond, or the Mahoney deferral as part of the homeowner's total picture, Tom is the one who should name all four pressures simultaneously during comment. That framing is his — and it has not appeared in any official presentation to date.

@@ -2,113 +2,95 @@
 schema_version: "1.0"
 persona_id: "PERSONA-008"
 persona_name: "Rachel"
-upcoming_meeting_date: "2026-03-19"
-generated_date: "2026-03-17"
-has_agenda: true
-last_cumulative_meeting: "2026-03-09"
-inter_meeting_evidence_count: 0
+upcoming_meeting_date: "2026-03-23"
+generated_date: "2026-03-21"
+has_agenda: false
+last_cumulative_meeting: "2026-03-19"
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Rachel (PERSONA-008)
-## Upcoming Meeting: 2026-03-19
+## Upcoming Meeting: 2026-03-23
 
 ## Since Last Meeting
 
-No new evidence has surfaced in the days since the March 2nd Budget Workshop I. There are no leaked scenario recommendations, no announcements from the superintendent's office, no board member statements, and no new community organizing developments to process.
+The most significant development since March 19th is the emergence of the presentation deck for tonight's meeting. The title is plain: **FY27 Budget 3.23.26 Board Meeting**. The deck includes a section on **two elementary closure options** and, critically, a section on **decisions expected at the workshop**.
 
-For Rachel, that silence is itself worth reading carefully. The administration is four days away from Budget Workshop II on March 23rd — the first of two sessions that are supposed to produce a final reconfiguration decision. The fact that no scenario has been publicly signaled, no community briefing has been offered, and no data response to the 51 outstanding information requests has been announced suggests one of two things: the administration is finalizing its recommendation internally and not telegraphing it, or the board is still genuinely uncertain. Rachel cannot tell which from the outside. What she can note is that tonight's city council meeting is the last public meeting before March 23rd — and it is not a school board meeting. If she wants to put her concerns on the public record before the decisive workshops, she would need to do it under public comment tonight.
+That last phrase is the alarm bell. Rachel has watched this administration frame every public session as informational right up until the moment a vote happens. "Decisions expected" in the slide deck is the clearest signal yet that tonight may not be another workshop in the deliberative sense — it may be the meeting where closure scenarios get narrowed or endorsed by the board before the April 7th public hearing.
+
+The other key development: the deficit figure revised upward to $8.4M at the March 19th council meeting. That's $1.2M more than the number used to justify the nine scenarios presented on March 2nd. A larger gap means either the existing scenarios don't pencil out the way the administration claimed, or the pressure is there to revisit scenarios the board appeared to close — including Skillin.
+
+Between March 2nd (nine scenarios) and tonight (two closure options), something filtered the field. Rachel does not know what that filter was or whether it happened in public. That gap in the record matters.
 
 ---
 
 ## Open Questions
 
-Carrying into tonight:
+- **Which two schools are on the closure list tonight?** The deck mentions two elementary closure options. Are they Kaler and Dyer? Kaler and Brown? Does one of them include Skillin despite the four board members who said no on March 2nd?
 
-- **Which school is my kid actually losing?** Nine scenarios are on the table. Dyer is named as a closure target in at least one. Are any of the three Kaler/Brown/Small/Dyer closure scenarios the ones the superintendent is preparing to recommend on the 23rd, or has something shifted?
-- **Is the $3M Skillin HVAC need going to be used to reopen the closure question for Skillin — and if it is, does that make my school safer or put pressure on a different building?**
-- **Is the Mahoney single-campus idea actually dead, or did it just go underground after someone floated it at the February 17th meeting and nobody shot it down?** If the city is reconsidering what happens at the Mahoney site tonight, I need to know whether schools are in that conversation.
-- **What is the city council actually going to ask the school department on April 14th?** They set the date tonight. Does the school department presentation on April 14th lock in whatever the board decides on March 30th, or is there still room for the council to push back?
-- **Why did three people resign from city boards in a three-day window in mid-January, right in the middle of all this?** Were any of them on bodies with oversight over schools, facilities, or planning? Does it matter who gets appointed to replace them?
-- **Where does the sewer bond fit in the total property tax picture?** I keep trying to add this up — school tax increase, Mahoney bond, sewer bond, revaluation. What does my household actually face, and does that make a 5-6% school increase politically impossible even if the math says it would prevent reconfiguration?
-- **Can I still get in front of the council tonight to say something before March 23rd, or will I just be talking to the record?**
+- **What does "decisions expected at the workshop" actually mean?** Are they taking a formal vote tonight? Giving direction to staff? Endorsing a recommendation? I need to know before I walk in whether tonight is still a workshop or whether it's already the decision point.
+
+- **How did nine scenarios become two?** Who made that cut? Was there any public process between March 2nd and tonight, or did the administration just pick the two they wanted?
+
+- **Did the $8.4M deficit reopen the Skillin question?** The four board members said no to closing Skillin. But the gap is now bigger. Has anyone on the board quietly shifted since March 2nd? Is the HVAC cost being used to pressure them?
+
+- **Are the termination notices connected to specific buildings?** The 72 notices went out March 18th. If they're concentrated at certain schools, that tells me which buildings are being prepared for closure — even if no one says it out loud tonight.
+
+- **Has transportation been modeled yet?** As of March 2nd it hadn't. If they're presenting closure options without transportation analysis, how are they calculating actual savings? Are they about to make a decision with incomplete numbers?
+
+- **What's in the personnel and non-personnel reduction sections?** Those cuts happen whether or not a closure happens. How many of my kids' teachers, ed techs, and programs are gone regardless of what gets decided on the building question?
+
+- **Will the union get any time to speak?** The union president pointed out six weeks ago that central office staffing data still hadn't been provided. Has it been provided now? Is bargaining going to be a real constraint on timeline or is the administration treating it as a formality?
+
+- **Is this the last workshop before April 7th?** If March 23rd and March 30th are the only two workshops before the public hearing, and "decisions are expected" tonight, what is actually left for the public to weigh in on?
+
+- **Who specifically is driving the two-option shortlist?** The interim superintendent? DeAngelos? Is the board being presented options or choosing them?
 
 ---
 
 ## Agenda Implications
 
-**Item H.1 — Mahoney City Facilities Guidance**
-*This is the most important item on tonight's agenda for Rachel.*
+No formal agenda has been published for tonight's meeting. However, the presentation deck is available and it defines the meeting structure more concretely than a typical agenda would. Based on that deck and Rachel's cumulative understanding, here is what to expect and prepare for.
 
-The council is being asked three pointed questions: proceed with the scaled-down Mahoney City Hall project, look at other city hall locations, and what to do about the library. Each answer carries implications for whether Mahoney remains a candidate for anything school-related.
+**The two elementary closure options are the centerpiece.** This is not a general budget presentation — the deck is organized around a specific decision set. Rachel should expect the administration to present two named scenarios (the names are not yet confirmed in available evidence) with a financial case for each. She should listen for:
+- Which schools are named, and whether Skillin is among them despite board opposition
+- What assumptions underlie the savings figures — particularly enrollment projections that may be partially ICE-suppressed
+- Whether transportation costs are modeled or still absent
+- Whether the "two options" framing is presented as a choice the board makes, or as a recommendation the board ratifies
 
-At the February 17th council meeting, a community member proposed consolidating all South Portland elementary students on the Mahoney campus. That idea was not refuted, not endorsed, and not formally recorded before adjournment. It disappeared into the meeting record. Tonight's Mahoney facilities discussion is the first formal council conversation since then.
+**"Decisions expected" is not a neutral phrase.** Rachel should treat this meeting as a potential action meeting, not purely deliberative. She should be prepared for a motion, a vote, a direction to staff, or a formal endorsement of a recommendation — even if the room is framed as still in "workshop" mode. If the board moves to endorse or select a closure scenario tonight, the window for parent influence narrows dramatically before April 7th.
 
-Rachel should listen for:
-- Whether any council member, the city manager, or staff references schools, enrollment, or the school department in connection with Mahoney — even casually, even in passing. The governing pattern in South Portland has been that real decisions surface first in informal language before appearing on formal agendas.
-- Whether the public/private partnership RFP option is described in a way that would foreclose school use (e.g., the site being committed to housing development) or preserve it.
-- Whether the "other locations for City Hall" option names any existing city properties — including any that might be freed up if a school closes.
-- Whether the library facility question is discussed in connection with school buildings at all. Libraries co-located with schools have come up in consolidation discussions in other districts.
+**The personnel and non-personnel reduction sections matter even if the building question dominates the room.** The cuts to teachers, ed techs, and programs apply across the system regardless of which buildings stay open. Rachel should listen for whether the reduction numbers have changed since March 2nd given the $8.4M revised deficit, and whether any reduction is described as contingent on a closure happening (suggesting the closure scenarios are load-bearing for the rest of the budget).
 
-Questions to prepare:
-- "Has the school department been consulted on any of the options under consideration for the Mahoney site, given that reconfiguration scenarios are currently on the table?"
-- "Would any of the options approved tonight have the effect of foreclosing the Mahoney campus as a potential school site before the school board completes its reconfiguration deliberations on March 30th?"
+**Middle and high school reductions are on the deck.** Rachel has been primarily focused on elementary, but middle and high school cuts affect families at every grade level. If the board tonight signals which level gets the deepest cuts, that is information about institutional priorities — and about which communities the administration is most willing to absorb opposition from.
 
-**Item E.5 — Setting City Budget Workshop Dates (April 14 and April 28)**
-*Procedural but consequential.*
-
-The school department is the very first item on the April 14th City Budget Workshop agenda. This locks in the sequence: school board decides reconfiguration in late March, and the city council reviews that school budget — including the reconfiguration's fiscal basis — on April 14th. Whatever the board approves on March 30th will be presented to the council sixteen days later.
-
-Rachel should note:
-- This confirms the city council is in the review chain. Even after the school board votes, there is a council review moment on April 14th. That is a second opportunity to apply pressure.
-- The council set guidance at 3–6% in February, gravitating toward 4–6%. If the March 30th school board decision produces savings that fall short of that guidance, there could be a conflict at the April 14th workshop that reopens questions.
-- Watch whether any council member comments on this item in a way that signals whether they view April 14th as a rubber-stamp or a genuine decision point.
-
-**Item C.2 — Sewer Revenue Bond**
-*The cumulative burden problem made concrete.*
-
-The sewer rate comparison shows South Portland at approximately $670/year per household. A sewer revenue bond would add to that. Rachel's concern isn't the sewer bond in isolation — it's what the full stack looks like: school tax increase, Mahoney bond (if it moves forward), sewer bond, revaluation adjustments.
-
-She doesn't need to speak on this item, but she should listen for the finance director's framing of the city's debt capacity. If the city is approaching a debt ceiling, that constrains the "just raise taxes a bit and avoid reconfiguration" argument. If debt capacity is healthy, it strengthens the case that the city could absorb a higher school tax increase without structural damage.
-
-**Items D.14–22 — Appointment Calendar (All Postponed to April 7th)**
-*Worth a closer look before dismissing.*
-
-Three of these are current vacancies from resignations in mid-to-late January 2026: Allison Springer (January 20), Lisa Maxfield (January 22), and Michael Duvernay (January 17). Three resignations in a six-day window is unusual. Rachel should try to identify, before or after the meeting, which bodies these individuals served on. If any of the vacancies are on the planning board, the facilities committee, or any body with advisory authority over school or city property decisions, their replacements — now being deferred until April 7th — could matter.
-
-The motion is to postpone all 22 appointments to April 7th. Rachel should note whether any council member objects to that postponement for any specific vacancy, which would signal that a particular appointment is time-sensitive.
-
-**Items I.4 and I.5 — Project Home Funding and 279 Main Street Purchase**
-*Watch for school-building adjacency.*
-
-"Project Home" and a city property purchase at 279 Main Street are abstract without the full position papers, but both involve city funds and city-controlled real estate. In the context of an administration that has been quietly treating elementary school buildings as future housing or city-use candidates, any city property transaction is worth a moment of attention. Rachel should listen for whether either item names or references any school-adjacent property, and whether the city manager's explanation connects either to the broader facilities conversation under Item H.1.
-
-**Items I.1–3 — Three Items Postponed from March 3rd**
-*Flag as unresolved.*
-
-These were already postponed once. Without knowing their specific content, Rachel should note that repeated postponements can be a sign either of unresolved disagreement among council members or of deliberate delay until related decisions are resolved. If any of these items involve land use, zoning, or property transfers, they belong on Rachel's watch list.
-
-**Items G.1–2 — Liquor and Amusement Licenses**
-Not relevant to Rachel.
-
-**Items I.6–7 — Marijuana Ordinance Readings**
-Not relevant to Rachel.
+**Questions to prepare:**
+- "What criteria were used to narrow nine scenarios to two, and when and where did that process happen?"
+- "Has transportation been modeled for these two options? If not, how are the savings figures being calculated?"
+- "What is the decision being made tonight — direction to staff, a formal vote, or something else?"
+- "Are the 72 termination notices distributed proportionally across buildings, or concentrated in specific schools?"
+- "How does the revised $8.4M figure affect the savings projections presented on March 2nd?"
 
 ---
 
 ## Watch For
 
-- **Any council member who references schools while discussing Mahoney (Item H.1).** This is the tell. If a councilor says anything like "we'll need to coordinate with the school department" or "this depends on what happens with reconfiguration," it confirms that school consolidation and city facilities planning are more linked than has been formally stated. Conversely, if no one mentions schools at all during a discussion about a site that was just proposed as a school campus five weeks ago, that silence is equally significant — it may mean the Mahoney-as-school option has already been informally closed.
+- **The names of the two closure schools the moment they appear on screen.** Write them down. If Skillin is one of them, the four board members who said no on March 2nd are being directly tested tonight. Watch their faces and body language when those names land.
 
-- **The city manager's framing of the public/private partnership option at Mahoney.** If the RFP option is described as potentially including residential development, listen for whether any school building — freed by closure under a reconfiguration scenario — is described as a candidate for that partnership or for housing conversion. This is the mechanism by which school closures get locked in: once a building is committed to another use, reopening it as a school becomes administratively impossible.
+- **Whether the framing is "here are two options for the board to consider" vs. "here is our recommendation."** The opt-out framing the administration used on March 2nd — where the default is approval unless the board actively resists — may reappear. If the deck presents a "preferred scenario," treat that as a near-decision, not an opening bid.
 
-- **Mayor Tipton's posture during the Mahoney discussion.** At the February 17th meeting, the mayor casually described the reconfiguration plan as settled vocabulary. Tonight, watch whether he speaks about Mahoney and schools in the same breath, and whether his framing treats the school reconfiguration as a done-deal input to city planning rather than an open question.
+- **Whether the $8.4M deficit is invoked to justify escalating past what the board agreed to on March 2nd.** If the administration says anything like "the updated numbers require us to revisit..." in connection with Skillin or a previously dismissed scenario, that's the lever Rachel identified being used in real time.
 
-- **Whether any council member raises the April 14th school budget workshop as a reason to delay or accelerate the Mahoney decision.** If anyone says the city should wait to see what the school board decides before committing to a Mahoney path, that signals the council is treating the decisions as linked. If no one makes that connection, it suggests the city is proceeding on a Mahoney track regardless of what the school board does.
+- **How DeAngelos manages the "decisions expected" moment.** If there is a motion or vote tonight, watch whether she moves it quickly, limits discussion, or uses procedural phrasing to narrow what's debatable. This is her established pattern.
 
-- **Finance Director Sanborn's comments, if he speaks on any item tonight.** He has been one of the cleaner sources of fiscal reality in prior meetings. If he characterizes the city's total debt position or the cumulative property tax trajectory in any public comment, that data directly bears on whether a higher school tax increase is financially viable as an alternative to reconfiguration.
+- **Board members Feller and Richardson specifically.** They were identified as potential allies. Are they asking hard questions tonight? Are they visibly uncomfortable? Are they getting answers, or being managed? If either of them seems to be softening their position, that's a sign the organized opposition needs to escalate before March 30th.
 
-- **Public comment dynamics.** Is the room packed with school parents tonight, or has the exhaustion of the past three months thinned the crowd? The administration will read the turnout. If parents show up in force at a city council meeting that is ostensibly about sewers and Mahoney, it signals that community mobilization is holding. If the room is thin, expect that to be noticed before March 23rd.
+- **Any mention of Skillin's HVAC cost in connection with the closure options.** If the $3M HVAC figure is cited tonight as a reason to reconsider a building the board appeared to protect, that's the scenario Rachel anticipated — and it should be called out immediately in public comment if the opportunity exists.
 
-- **Whether any council member asks — under Item E.5 or under public comment — what scenario the school department will be presenting on April 14th.** If a councilor presses for pre-commitment transparency, that's an ally signal. If the motion to set the date passes without any such question, it tells Rachel that the council is planning to receive the school budget as presented, not challenge it.
+- **Whether the union president or any union representative is in the room and whether they speak.** The union's ability to slow the timeline through bargaining is one of Rachel's few structural leverage points. If they're absent, that's notable. If they raise the still-missing central office staffing data, that's a crack in the administration's credibility worth amplifying.
 
-- **The three January resignations.** If any council member names which boards those vacancies represent during the appointment postponement discussion (Item D.14–22), Rachel should write down the board names and research them before the March 23rd school board workshop.
+- **Whether public comment is permitted tonight and when.** If this is a workshop format with no formal public comment period, Rachel should have her remarks ready for any open window — or be prepared to speak at the March 30th meeting with whatever was decided tonight fresh in the record.
+
+- **How the savings numbers have changed since March 2nd.** If the two closure options presented tonight show different savings figures than what was shown on March 2nd — especially if they're smaller — the $8.4M deficit is not actually being closed by these options, and that gap needs to be named publicly.
+
+- **Any reference to the April 7th public hearing as the community's "opportunity to weigh in."** If board members or staff point to April 7th as the moment for community input after making substantive decisions tonight, that is a procedural shell game. The decision, in effect, will already have been made.

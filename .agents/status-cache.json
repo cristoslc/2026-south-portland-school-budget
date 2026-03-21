@@ -1,0 +1,800 @@
+{
+  "timestamp": "2026-03-19T16:57:16Z",
+  "repo": "/Users/cristos/Documents/projects/south-portland-school-budget-FY27",
+  "project": "south-portland-school-budget-FY27",
+  "git": {
+    "branch": "main",
+    "dirty": true,
+    "changedFiles": 31,
+    "staged": 0,
+    "modified": 26,
+    "untracked": 5,
+    "lastCommit": {
+      "hash": "b989d32",
+      "message": "chore(swain): lifecycle transitions, skills update, and goose installation",
+      "age": "23 hours ago"
+    },
+    "recentCommits": [
+      {
+        "hash": "b989d32",
+        "message": "chore(swain): lifecycle transitions, skills update, and goose installation",
+        "age": "23 hours ago"
+      },
+      {
+        "hash": "4d742b2",
+        "message": "feat(briefings): publish 2026-03-19 persona briefings and unignore dist/",
+        "age": "2 days ago"
+      },
+      {
+        "hash": "5fe28f2",
+        "message": "feat(pipeline): add polling interpretation pipeline (ADR-002, EPIC-013)",
+        "age": "2 days ago"
+      },
+      {
+        "hash": "2ebd099",
+        "message": "chore(pipeline): auto-update evidence pools [2026-03-17]",
+        "age": "2 days ago"
+      },
+      {
+        "hash": "e49363b",
+        "message": "chore(pipeline): auto-update evidence pools [2026-03-17]",
+        "age": "2 days ago"
+      }
+    ]
+  },
+  "artifacts": {
+    "ready": [
+      {
+        "id": "INITIATIVE-003",
+        "status": "Active",
+        "title": "Interpretation Pipeline",
+        "type": "INITIATIVE",
+        "file": "docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md",
+        "description": "Systematically interpret every meeting through 14 persona lenses, fold interpretations into cumulative narratives that t",
+        "unblocks": [
+          "INITIATIVE-004"
+        ],
+        "unblock_count": 1
+      },
+      {
+        "id": "EPIC-007",
+        "status": "Proposed",
+        "title": "Budget Lever Analysis",
+        "type": "EPIC",
+        "file": "docs/epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md",
+        "description": "Extract the discrete decision points (\"levers\") from the FY27 budget evidence — staffing changes, program additions/cuts",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "EPIC-013",
+        "status": "Active",
+        "title": "Polling Interpretation Pipeline",
+        "type": "EPIC",
+        "file": "docs/epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md",
+        "description": "Automate the interpretation chain (bundling → interpretation → fold → briefs) using a two-track architecture: the runner",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "INITIATIVE-001",
+        "status": "Active",
+        "title": "Budget Lever Analysis",
+        "type": "INITIATIVE",
+        "file": "docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md",
+        "description": "Extract the discrete decision points (\"levers\") from the FY27 budget — staffing changes, program additions/cuts, capital",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "INITIATIVE-004",
+        "status": "Active",
+        "title": "Public Budget Site",
+        "type": "INITIATIVE",
+        "file": "docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md",
+        "description": "Build and deploy a question-first static site (Astro, GitHub Pages) that gives South Portland residents access to AI-ana",
+        "unblocks": [],
+        "unblock_count": 0
+      }
+    ],
+    "blocked": [],
+    "epics": {
+      "EPIC-007": {
+        "id": "EPIC-007",
+        "title": "Budget Lever Analysis",
+        "status": "Proposed",
+        "file": "docs/epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md",
+        "description": "Extract the discrete decision points (\"levers\") from the FY27 budget evidence — staffing changes, program additions/cuts",
+        "progress": {
+          "done": 0,
+          "total": 0
+        },
+        "children": []
+      },
+      "EPIC-013": {
+        "id": "EPIC-013",
+        "title": "Polling Interpretation Pipeline",
+        "status": "Active",
+        "file": "docs/epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md",
+        "description": "Automate the interpretation chain (bundling → interpretation → fold → briefs) using a two-track architecture: the runner",
+        "progress": {
+          "done": 0,
+          "total": 0
+        },
+        "children": []
+      }
+    },
+    "counts": {
+      "total": 73,
+      "resolved": 68,
+      "ready": 5,
+      "blocked": 0
+    },
+    "xref": [
+      {
+        "artifact": "ADR-001",
+        "file": "docs/adr/Active/(ADR-001)-Live-Discovery-Over-Static-Config/(ADR-001)-Live-Discovery-Over-Static-Config.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-006",
+          "SPEC-013",
+          "SPEC-014",
+          "SPEC-015"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "ADR-002",
+        "file": "docs/adr/Active/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "BUG-001",
+        "file": "docs/bug/Verified/(BUG-001)-Pipeline-Partial-Failure-Exit-Code/(BUG-001)-Pipeline-Partial-Failure-Exit-Code.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "SPEC-003",
+          "SPEC-007"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-012",
+        "file": "docs/epic/Abandoned/(EPIC-012)-Interpretation-Pipeline-Automation/(EPIC-012)-Interpretation-Pipeline-Automation.md",
+        "body_not_in_frontmatter": [
+          "ADR-002"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-013",
+        "file": "docs/epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md",
+        "body_not_in_frontmatter": [
+          "EPIC-012"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-001",
+        "file": "docs/epic/Complete/(EPIC-001)-Source-Connectors/(EPIC-001)-Source-Connectors.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-002",
+          "VISION-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-002",
+        "file": "docs/epic/Complete/(EPIC-002)-Content-Normalization/(EPIC-002)-Content-Normalization.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-002",
+          "VISION-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-003",
+        "file": "docs/epic/Complete/(EPIC-003)-Pipeline-Orchestration/(EPIC-003)-Pipeline-Orchestration.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-002",
+          "VISION-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-004",
+        "file": "docs/epic/Complete/(EPIC-004)-Source-Auto-Discovery/(EPIC-004)-Source-Auto-Discovery.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-002",
+          "VISION-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-005",
+        "file": "docs/epic/Complete/(EPIC-005)-Self-Hosted-Runner/(EPIC-005)-Self-Hosted-Runner.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-006",
+        "file": "docs/epic/Complete/(EPIC-006)-Live-Discovery-Pipeline/(EPIC-006)-Live-Discovery-Pipeline.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-008",
+        "file": "docs/epic/Complete/(EPIC-008)-Meeting-Bundler/(EPIC-008)-Meeting-Bundler.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-013",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-009",
+        "file": "docs/epic/Complete/(EPIC-009)-Per-Meeting-Interpretation-Engine/(EPIC-009)-Per-Meeting-Interpretation-Engine.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-013",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-010",
+        "file": "docs/epic/Complete/(EPIC-010)-Cumulative-Narrative-Fold/(EPIC-010)-Cumulative-Narrative-Fold.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-013",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-011",
+        "file": "docs/epic/Complete/(EPIC-011)-Upcoming-Event-Brief-Generation/(EPIC-011)-Upcoming-Event-Brief-Generation.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-013",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-007",
+        "file": "docs/epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-001",
+          "JOURNEY-001",
+          "JOURNEY-002",
+          "JOURNEY-003",
+          "JOURNEY-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "INITIATIVE-001",
+        "file": "docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "JOURNEY-001",
+          "JOURNEY-002",
+          "JOURNEY-003",
+          "JOURNEY-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "INITIATIVE-003",
+        "file": "docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md",
+        "body_not_in_frontmatter": [
+          "ADR-002",
+          "EPIC-012"
+        ],
+        "frontmatter_not_in_body": [
+          "VISION-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "INITIATIVE-004",
+        "file": "docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "INITIATIVE-002",
+        "file": "docs/initiative/Complete/(INITIATIVE-002)-Evidence-Pipeline/(INITIATIVE-002)-Evidence-Pipeline.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "JOURNEY-001",
+        "file": "docs/journey/Active/(JOURNEY-001)-Understanding-School-Impact/(JOURNEY-001)-Understanding-School-Impact.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "JOURNEY-002",
+        "file": "docs/journey/Active/(JOURNEY-002)-Evaluating-Budget-Fiscally/(JOURNEY-002)-Evaluating-Budget-Fiscally.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "JOURNEY-003",
+        "file": "docs/journey/Active/(JOURNEY-003)-Tracing-Equity/(JOURNEY-003)-Tracing-Equity.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "JOURNEY-004",
+        "file": "docs/journey/Active/(JOURNEY-004)-Navigating-Budget-Governance/(JOURNEY-004)-Navigating-Budget-Governance.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPIKE-007",
+        "file": "docs/research/Abandoned/(SPIKE-007)-LLM-Access-In-Pipeline-Runner/(SPIKE-007)-LLM-Access-In-Pipeline-Runner.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-012"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "RUNBOOK-001",
+        "file": "docs/runbook/Active/(RUNBOOK-001)-Standing-Up-Runner/(RUNBOOK-001)-Standing-Up-Runner.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-005",
+          "SPEC-012"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "RUNBOOK-002",
+        "file": "docs/runbook/Active/(RUNBOOK-002)-Interpretation-Pipeline-Run/(RUNBOOK-002)-Interpretation-Pipeline-Run.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-009",
+          "SPEC-019",
+          "SPEC-021",
+          "SPEC-022"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-001",
+        "file": "docs/spec/Complete/(SPEC-001)-Vimeo-VTT-Connector/(SPEC-001)-Vimeo-VTT-Connector.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-002",
+        "file": "docs/spec/Complete/(SPEC-002)-Diligent-Agenda-Connector/(SPEC-002)-Diligent-Agenda-Connector.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-003",
+        "file": "docs/spec/Complete/(SPEC-003)-Budget-PDF-Connector/(SPEC-003)-Budget-PDF-Connector.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-004",
+        "file": "docs/spec/Complete/(SPEC-004)-VTT-Normalizer/(SPEC-004)-VTT-Normalizer.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-005",
+        "file": "docs/spec/Complete/(SPEC-005)-PDF-Normalizer/(SPEC-005)-PDF-Normalizer.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-006",
+        "file": "docs/spec/Complete/(SPEC-006)-HTML-Normalizer/(SPEC-006)-HTML-Normalizer.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-002",
+          "SPIKE-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-007",
+        "file": "docs/spec/Complete/(SPEC-007)-Pipeline-Runner/(SPEC-007)-Pipeline-Runner.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-003",
+          "SPIKE-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-008",
+        "file": "docs/spec/Complete/(SPEC-008)-Pipeline-Scheduling/(SPEC-008)-Pipeline-Scheduling.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-011",
+        "file": "docs/spec/Complete/(SPEC-011)-XLSX-Normalizer/(SPEC-011)-XLSX-Normalizer.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-012",
+        "file": "docs/spec/Complete/(SPEC-012)-Docker-Runner-Setup/(SPEC-012)-Docker-Runner-Setup.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-005"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-013",
+        "file": "docs/spec/Complete/(SPEC-013)-Live-Discovery-Connector-Model/(SPEC-013)-Live-Discovery-Connector-Model.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-006"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-014",
+        "file": "docs/spec/Complete/(SPEC-014)-Vimeo-Live-Discovery/(SPEC-014)-Vimeo-Live-Discovery.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-006"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-015",
+        "file": "docs/spec/Complete/(SPEC-015)-Budget-Page-Live-Discovery/(SPEC-015)-Budget-Page-Live-Discovery.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-006"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-016",
+        "file": "docs/spec/Complete/(SPEC-016)-Meeting-Bundle-Schema/(SPEC-016)-Meeting-Bundle-Schema.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-008"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-017",
+        "file": "docs/spec/Complete/(SPEC-017)-Source-to-Meeting-Affiliation/(SPEC-017)-Source-to-Meeting-Affiliation.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-008"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-018",
+        "file": "docs/spec/Complete/(SPEC-018)-Interpretation-Output-Schema/(SPEC-018)-Interpretation-Output-Schema.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-009"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-019",
+        "file": "docs/spec/Complete/(SPEC-019)-Per-Meeting-Interpretation-Runner/(SPEC-019)-Per-Meeting-Interpretation-Runner.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-009"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-020",
+        "file": "docs/spec/Complete/(SPEC-020)-Cumulative-Interpretation-Format/(SPEC-020)-Cumulative-Interpretation-Format.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-010"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-021",
+        "file": "docs/spec/Complete/(SPEC-021)-Fold-Engine/(SPEC-021)-Fold-Engine.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-010",
+          "SPIKE-006"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-022",
+        "file": "docs/spec/Complete/(SPEC-022)-Upcoming-Event-Brief-Generator/(SPEC-022)-Upcoming-Event-Brief-Generator.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-011"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-009",
+        "file": "docs/spec/Superseded/(SPEC-009)-Vimeo-Channel-Auto-Discovery/(SPEC-009)-Vimeo-Channel-Auto-Discovery.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-010",
+        "file": "docs/spec/Superseded/(SPEC-010)-Budget-Page-Auto-Discovery/(SPEC-010)-Budget-Page-Auto-Discovery.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "VISION-001",
+        "file": "docs/vision/Active/(VISION-001)-SP-Budget-Analysis/(VISION-001)-SP-Budget-Analysis.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "VISION-002",
+        "file": "docs/vision/Active/(VISION-002)-Evidence-Pipeline/(VISION-002)-Evidence-Pipeline.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "VISION-003",
+        "file": "docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/(VISION-003)-Persona-Interpretation-Pipeline.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "VISION-004",
+        "file": "docs/vision/Active/(VISION-004)-Public-Budget-Site/(VISION-004)-Public-Budget-Site.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-002",
+          "VISION-003"
+        ],
+        "missing_reciprocal": []
+      }
+    ],
+    "xref_gap_count": 53
+  },
+  "tasks": {
+    "inProgress": [
+      {
+        "id": "2spsb-9c7f",
+        "title": "Run interpretation catch-up"
+      }
+    ],
+    "recentlyCompleted": [
+      {
+        "id": "2spsb-0n2j",
+        "title": "tmp capture probe"
+      },
+      {
+        "id": "2spsb-141t",
+        "title": "Write tests for poll_interpret.py gap detection"
+      },
+      {
+        "id": "2spsb-1xa1",
+        "title": "Task 4: Align generator prompt and verify"
+      },
+      {
+        "id": "2spsb-6i8p",
+        "title": "Verify poll_interpret.py detection logic passes tests"
+      },
+      {
+        "id": "2spsb-6ze0",
+        "title": "Pipeline.yml structure tests"
+      }
+    ],
+    "total": 131,
+    "available": true
+  },
+  "issues": {
+    "open": [],
+    "assigned": [],
+    "available": true
+  },
+  "linkedIssues": [],
+  "session": {
+    "bookmark": {
+      "note": "Session restored 2026-03-18",
+      "timestamp": "2026-03-18T16:18:23Z"
+    },
+    "lastBranch": "main",
+    "lastContext": "Session restored 2026-03-12",
+    "focus_lane": null,
+    "status_mode": null
+  },
+  "priority": {
+    "recommendations": [
+      {
+        "id": "INITIATIVE-003",
+        "score": 2,
+        "unblock_count": 1,
+        "vision_weight": 2,
+        "vision_id": "VISION-003",
+        "vision_debt": 0,
+        "is_decision": false,
+        "type": "INITIATIVE"
+      },
+      {
+        "id": "EPIC-007",
+        "score": 0,
+        "unblock_count": 0,
+        "vision_weight": 2,
+        "vision_id": "VISION-001",
+        "vision_debt": 1,
+        "is_decision": true,
+        "type": "EPIC"
+      },
+      {
+        "id": "INITIATIVE-001",
+        "score": 0,
+        "unblock_count": 0,
+        "vision_weight": 2,
+        "vision_id": "VISION-001",
+        "vision_debt": 1,
+        "is_decision": false,
+        "type": "INITIATIVE"
+      },
+      {
+        "id": "EPIC-013",
+        "score": 0,
+        "unblock_count": 0,
+        "vision_weight": 2,
+        "vision_id": "VISION-003",
+        "vision_debt": 0,
+        "is_decision": false,
+        "type": "EPIC"
+      }
+    ],
+    "decision_debt": {
+      "VISION-001": {
+        "count": 1,
+        "total_unblocks": 0,
+        "items": [
+          "EPIC-007"
+        ]
+      }
+    },
+    "attention": {
+      "_unaligned": {
+        "transitions": 131,
+        "last_activity": "2026-03-18T14:02:41-04:00"
+      },
+      "VISION-001": {
+        "transitions": 23,
+        "last_activity": "2026-03-18T14:02:41-04:00"
+      },
+      "VISION-002": {
+        "transitions": 126,
+        "last_activity": "2026-03-18T14:02:41-04:00"
+      },
+      "VISION-003": {
+        "transitions": 80,
+        "last_activity": "2026-03-18T14:02:41-04:00"
+      },
+      "VISION-004": {
+        "transitions": 2,
+        "last_activity": "2026-03-17T17:57:49-04:00"
+      }
+    },
+    "drift": []
+  }
+}

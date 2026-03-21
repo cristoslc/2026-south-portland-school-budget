@@ -2,149 +2,88 @@
 schema_version: "1.0"
 persona_id: "PERSONA-005"
 persona_name: "Priya"
-upcoming_meeting_date: "2026-03-19"
-generated_date: "2026-03-17"
-has_agenda: true
-last_cumulative_meeting: "2026-03-09"
-inter_meeting_evidence_count: 0
+upcoming_meeting_date: "2026-03-23"
+generated_date: "2026-03-21"
+has_agenda: false
+last_cumulative_meeting: "2026-03-19"
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Priya (PERSONA-005)
-## Upcoming Meeting: 2026-03-19
+## Upcoming Meeting: 2026-03-23
 
 ## Since Last Meeting
 
-No new inter-meeting evidence has emerged in the period between March 9 and March 19.
+The most significant development is the emergence of the **FY27 Budget Google Slides deck** prepared for the March 23 workshop — the first structured document to lay out the full reduction landscape in one place. For Priya, several elements of what's described in this presentation carry immediate equity weight:
 
-The absence of news is itself a data point. The board voted on March 9 to formalize the community school model and pass the immigration resolution — two of the more substantive equity commitments of the season — but also postponed non-biased hiring training for a second time and left the Skillin reconfiguration alternatives undefined. Two weeks later, there is no public update on what alternative reconfiguration criteria are being developed, no announcement of accountability infrastructure for the mismanaged ELL and disability grants, and no word on whether virtual public participation will be restored. The structural decisions are compounding in silence while the equity commitments remain aspirational.
+**Two elementary closure options are on the table.** The Skillin closure was rejected on March 2 specifically because board members named the racial politics directly. But "two elementary closure options" signals the administration has returned to reconfiguration as a cost mechanism — and the equity-washing risk hasn't disappeared; it has just been rerouted. Without knowing which two schools appear in these options, Priya cannot yet assess whether the administration has centered the confirmed de facto segregation data or is repeating the structural logic that produced Option 1.7.
 
-The March 19 meeting is primarily a city council meeting, not a school board meeting — and Priya should arrive calibrated accordingly. The school budget's next formal exposure is at the April 14 Budget Workshop, which this meeting will formally schedule. The work tonight is to watch how the city council handles several items that are directly upstream of the equity stakes she has been tracking all season.
+**The 72 pink slips are now a fact on the ground.** Issued March 18, these are no longer projections — they are active personnel actions. The composition of those eliminations (42 teachers, 16 ed techs, 14 food service/transportation/facilities workers, 2 administrators) is now the baseline against which every workshop discussion about "decisions" should be evaluated. If the March 23 meeting produces decisions that further shape this list, Priya needs to know which cuts are still in motion and which are locked.
+
+**The presentation explicitly includes decisions expected at the workshop.** This is unusual transparency about the meeting's purpose — it signals the board is being asked to make binding or near-binding choices on March 23, not just receive information. That raises the stakes considerably. Equity impacts that aren't raised before those decisions are made will be harder to inject afterward.
+
+**No equity impact analysis or disaggregated data has been publicly released** in the period since the last meeting. The absence of that information — despite the material weakness finding, the confirmed segregation data, and the mismanagement of equity-designated federal grants — is itself a data point. The district has demonstrated it can move quickly when motivated (WhatsApp pivot, Chromebook distribution, immigration resolution). Continued silence on disaggregated cut data is not a capacity problem.
 
 ---
 
 ## Open Questions
 
-Carrying into March 19:
-
-- **The Mahoney question won't go away**: The police co-location design chilled immigrant family participation in the Mahoney engagement process. Now the council is being asked to make a final direction decision. Will anyone name the chilling effect in that discussion, or will it be treated as a purely facilities and cost question?
-- **What happens to the buildings Mahoney vacates?** City Hall, the Hamlin building, the library — all potentially freed up. Given One 70 Ocean and Mahoney itself, what is the chance *any* of those redevelopment paths will carry enforceable affordability conditions? Will any councilor even raise the question?
-- **Project Home is on the agenda tonight.** Its emergency housing fund was identified as a resource potentially running out. Is this appropriation replenishment, a new commitment, or something more limited? Who qualifies, and does it reach the families most at risk of displacement?
-- **Who resigned from what?** Three board/committee vacancies opened in January and are now being postponed again to April 7. If any of these are Human Rights Commission seats, that body — already operating on $2,500 — is now running short-staffed through the rest of budget season.
-- **The budget workshop schedule is being formalized tonight.** School goes first on April 14, alongside Social Services/GA. What's the public comment structure? Will there be a mechanism for community input that doesn't require showing up in person at 6:30 PM?
-- **42 teacher and 16 ed tech eliminations**: Have any been mapped by school demographic? Does the district possess and will it release ELL endorsement data for positions being cut? Nothing has changed on this since February.
-- **Grant mismanagement accountability**: The repeat material weakness finding for equity-designated ELL and disability grants has produced no public accountability response. What is the district actually doing about this before the next audit cycle?
-- **The special education expansion mandate** — 80–90 additional 4-year-olds in fall 2026 — is structurally incompatible with eliminating the ed tech positions who serve students with disabilities. Has anyone modeled this collision?
-- **Why is central office staffing data still withheld** while frontline positions face elimination? At some point this stops being a data problem.
-- **What are the actual reconfiguration criteria post-Skillin?** The board rejected closure. Four members named the racial demographics explicitly. That was a genuine moment. But "what comes next" has not been publicly defined.
+- **Which two elementary schools appear in the closure options?** Is one of them Skillin again under a different framing? Is one of them Small — and if so, who bears the transportation and disruption burden?
+- **Has anyone run the demographic overlay on these two closure options?** After what happened with Option 1.7, the board said it wanted better data. Did they get it — and if so, why hasn't it been shared publicly before the workshop?
+- **Where are the 42 teacher eliminations concentrated by school?** Do higher-need schools — Skillin, schools with higher ELL populations — lose more teachers, or is this distributed in a way that compounds existing disparities?
+- **Do any of the 42 teachers being cut hold ELL endorsements or bilingual certification?** If the district is eliminating its own capacity to serve multilingual learners, that's not just a budget decision — it may be a legal one under Title III.
+- **Who is still working on the ed tech cuts?** Sixteen IEP-support positions eliminated is potentially a Special Education Act compliance problem. Has any board member asked the district's special ed director to map these cuts against current IEP caseloads?
+- **The special education mandate for 160-180 additional 3- and 4-year-olds was identified as a real and growing obligation. How is the district planning to resource that during a crisis that just eliminated 16 ed techs?**
+- **Are food service cuts being mapped to specific school routes and meal counts?** For students experiencing food insecurity, the cafeteria is not optional infrastructure — it's a federal nutrition obligation. Which students lose access?
+- **What does "non-personnel reductions" actually mean in this presentation?** Are equity-adjacent programs — wraparound services, community school staffing, mental health supports, multilingual family engagement — being cut under that category, quietly?
+- **The material weakness finding means equity-designated grants were mismanaged. Has any remediation plan been presented to the board, or is that still unaddressed?**
+- **Non-biased hiring training has been postponed twice. With 42 teacher positions being cut and rehires eventually coming, will that training be in place before the next hiring cycle?**
+- **If the community school model is approved district-wide, does this budget fund it? Or is it an unfunded commitment that gets quietly abandoned in the crisis?**
+- **Has any board member asked for a side-by-side comparison of cut distribution by school demographic profile — not just by position type?**
 
 ---
 
 ## Agenda Implications
 
-### Section C — City Manager Position Papers (Consent Calendar Candidates)
+No agenda has been published for the March 23 workshop. Based on the inter-meeting evidence — the budget presentation describing personnel reductions, two elementary closure options, and "decisions expected at the workshop" — the following topics are highly likely to surface, with specific implications for Priya:
 
-**C.1 — Stormwater Coordinator Position**
-The framing here is infrastructure and permit compliance, not equity. But a stormwater coordinator's work is directly relevant to environmental justice — South Portland's documented air quality and industrial land use patterns are not evenly distributed. Priya should note whether the position description includes any community engagement or environmental justice dimensions, and whether the role is scoped to serve the neighborhoods most exposed to stormwater and pollution risk (including Red Bank and the peninsula). Not worth extended engagement tonight, but worth clocking.
+**Elementary Closure Options**
+This is the highest-equity-stakes item on the workshop. The March 2 meeting established that four board members will reject closure options that cannot survive demographic scrutiny — but only when the racial stakes are named explicitly and specifically. Priya should be prepared for equity language to appear in the framing of whichever two options are presented. The question is whether that equity language is analytical (based on actual demographic modeling and transportation burden analysis) or rhetorical (invoking "access" and "opportunity" without disaggregated data). She should listen specifically for: whether the presentation acknowledges the confirmed segregation data from Walker's March 2 testimony; whether demographic composition of affected schools is presented for both options; and whether transportation burden and disruption cost are mapped to families by income and language status.
 
-**C.2 — Sewer Revenue Bond**
-The comparative cost table shows South Portland at ~$56/month, positioned between Westbrook and Windham. This is a rate structure question, not obviously an equity agenda item. But utility costs are regressive: $670/year is a proportionally larger burden on a household earning $25,000 than one earning $85,000. Priya should listen for whether the bond discussion includes any rate assistance, tiered pricing, or low-income exemption language. If it doesn't, that absence is worth noting. She should also pay attention to how the bond fits into the overall city debt picture — debt service competes with operating budgets for school and social services.
+**Personnel Reduction Decisions**
+The 72 pink slips are issued but the list is not necessarily final — workshop decisions could shape which positions are retained or restored. Priya should track: whether any discussion names the specific schools where teacher cuts fall; whether ed tech cuts are discussed in relation to IEP caseloads; whether any board member presses on the 2-administrator-versus-16-ed-tech ratio as a structural equity question.
 
----
+**Non-Personnel Reductions**
+These tend to get treated as budget-neutral line items. Priya should be alert to cuts that eliminate programs serving underserved students — mental health support, multilingual family engagement, community school coordination, wraparound services — framed as administrative efficiencies. Ask: which students depend on these programs, and what is the alternative if they're gone?
 
-### Section D — Appointment Calendar (Postponed to April 7)
+**Middle and High School Reductions**
+Less visible than the elementary closure drama, but worth tracking. Does the middle school athletic field inequity come up? Are any cuts proposed at schools serving higher concentrations of ELL students or students with disabilities?
 
-**Items 14–22 include three confirmed vacancies and several anticipated ones.**
-
-This is the item Priya needs to investigate *before* the meeting, not during it. Three vacancies opened in January:
-- Allison Springer resigned January 20
-- Lisa Maxfield resigned January 22
-- Michael Duvernay resigned January 17
-
-The agenda does not name which bodies these seats belong to. Priya should determine this before 6:30 PM. If any of these are **Human Rights Commission** seats, the council is about to extend a three-month vacancy period to at least four months, on a body already operating at $2,500. If any belong to housing, planning, or social services advisory bodies, the vacancy pattern matters for the equity infrastructure question. All appointments are being postponed en masse to April 7 — no apparent differentiation by urgency or body.
-
-**What to watch for**: Whether any councilor moves to break out time-sensitive equity-relevant vacancies from the bulk postponement. If they don't, that tells Priya something about how the council weighs equity body capacity against administrative convenience.
-
----
-
-### Section E — Consent Calendar
-
-**E.5 — Budget Workshop Schedule (Order #161 — Setting Public Hearing Date)**
-
-This is the most consequential item on the consent calendar for Priya's purposes, and it is being passed on consent — meaning without individual debate unless someone pulls it.
-
-The schedule:
-- **April 14 — Budget Workshop #1**: School, City Clerk, Human Resources/Benefits, **Social Services/GA**, Police, Fire, Library, Sustainability, Public Works, Facilities, Parks/Rec
-- **April 28 — Budget Workshop #2**: Finance, Economic Development, IT, Planning, Code Enforcement, and administrative departments
-
-School and Social Services/GA are both on April 14. For Priya, this means the two budget lines most directly affecting vulnerable community members — the $7.2M school cut package and the General Assistance program the council invoked as an alternative to the eviction moratorium — will be presented on the same night. That creates a one-night equity exposure window that advocates will need to prepare for intensively.
-
-**What to watch for**: Whether the public hearing order sets any minimum time for public testimony. Whether virtual testimony will be accepted on April 14. Whether any disaggregated impact analysis of school cuts will be required as a precondition for the workshop. If it goes on consent without discussion, Priya should be prepared to ask during public comment whether a disaggregated school-level impact analysis will be available before April 14 — not on the night of.
-
-**E.8 — Sale of Property at Elm and Forest**
-
-A land sale is passing on consent. Priya should check this one: what is the property, who is buying it, and under what terms? Given the documented pattern of market-rate dispositions without affordability conditions (One 70 Ocean, Mahoney), any city land transaction deserves scrutiny before it disappears into a consent vote. If the purchase and sale agreement is the attached document and no affordability condition is visible, this is another data point in the pattern.
-
----
-
-### Section H — Mahoney City Facilities Direction
-
-**This is the highest-stakes item of the night for Priya.**
-
-The council is being asked to answer three questions:
-1. Proceed with the scaled-down Mahoney project as proposed, or consider other City Hall locations?
-2. Pursue an RFP for a public/private partnership at Mahoney?
-3. How to address Library facility needs?
-
-For Priya, none of these questions is primarily about facilities. She has been tracking:
-
-- **The police co-location design** and Montgomery's unrefuted clinical testimony that police presence at Mahoney would create a chilling effect on immigrant families' use of city services — testimony that was simply erased from the deliberation that followed. If the scaled-down design still includes police co-location, tonight's direction decision locks that in.
-- **The public/private partnership option**: An RFP process for Mahoney carries enormous equity implications for the site's programming, affordability, and community access. Who would a developer serve? What income-targeting requirements would the city attach? Given One 70 Ocean and the first Mahoney vote, there is no established precedent for the council attaching enforceable affordability conditions to any public/private arrangement.
-- **The vacated buildings**: If Mahoney is consolidated and built, what happens to the current City Hall, the Hamlin building, and the library building? Those three properties represent the largest municipal land disposition opportunity in recent South Portland history. Priya's open thread has been explicit: will any councilor move to attach affordability or community use conditions before the development path is determined, or will the decision default to the market-rate pattern?
-
-**What to listen for**: Whether any councilor names the immigrant family chilling effect concern during the direction discussion. Whether the public/private partnership option is treated as a financial tool only, or whether community benefit agreements are raised. Whether any councilor asks what happens to the vacated buildings before approving a direction for Mahoney itself. If the discussion is purely architectural and fiscal, that silence is the answer to Priya's open thread.
-
-**Questions to prepare**: "If the RFP option proceeds, will the council establish community benefit requirements as part of the RFP terms before issuing it?" and "The Mahoney engagement process received documented feedback about police co-location. Does the scaled-down design retain police co-location, and if so, what accommodations are made for residents who have expressed concerns about accessing city services in that configuration?"
-
----
-
-### Section I — New Business
-
-**I.1, I.2, I.3 — Three items postponed from March 3**
-
-Without full text, Priya cannot fully assess these, but they have now been postponed twice. Orders that keep not passing are worth tracking. She should identify what these orders concern before the meeting and assess whether any carry equity dimensions that explain the delay.
-
-**I.4 — Appropriating Funds for Project Home**
-
-This directly answers one of Priya's longest-running open threads: whether Project Home's emergency housing fund would be replenished by any public action.
-
-**What to listen for**: The amount being appropriated, the eligibility criteria, and whether the fund reaches the families most at risk of displacement — specifically the immigrant families in Red Bank and other South Portland communities who were named in the eviction moratorium debate. The council voted down the moratorium 4-2; appropriating funds for Project Home could represent a good-faith alternative, or it could be a smaller gesture that closes the political loop without matching the scale of need. Priya should ask: how many households does this appropriation serve? Does it have language excluding undocumented families? How does a family access it — and does the application process create the same documentation risk the city manager described in the moratorium debate?
-
-**I.5 — 279 Main Street Purchase**
-
-A city property purchase. Priya should know: Is this in a neighborhood with concentrated poverty, immigrant population, or displacement risk? What is the intended use? Given the pattern of city land transactions proceeding without equity analysis, she should be alert to whether this purchase has any defined community use, affordability, or service delivery purpose — or whether it is being purchased for administrative or development reasons without community benefit conditions attached.
-
-**I.6 and I.7 — Marijuana Ordinance First Readings (Ch. 14 and Ch. 27)**
-
-First readings rarely invite substantive debate, but they are worth clocking for Priya. Marijuana licensing equity is a documented policy area: communities most harmed by drug enforcement — disproportionately Black and brown communities — have historically been excluded from the economic benefits of legal cannabis markets. Does South Portland's marijuana ordinance include social equity licensing provisions, fee waivers, or priority licensing for applicants from impacted communities? If not, the ordinances are replicating a national pattern. This is a first reading, so tonight is the moment to put that question into the public record before the second reading.
+**Process and Engagement**
+If the board is making significant decisions at this workshop, Priya should note whether public comment is structured in a way that allows community members — including those who cannot attend in-person due to ICE enforcement climate or transportation barriers — to meaningfully participate before the vote, not after.
 
 ---
 
 ## Watch For
 
-- **The Mahoney direction vote**: Watch whether the council frames the public/private partnership option as purely financial. If no councilor raises community benefit requirements or what happens to the vacated buildings during this discussion, Priya should use public comment to put both questions on record before any RFP is issued — once an RFP goes out without community benefit terms, it is very difficult to add them retroactively.
+- **Whether either elementary closure option involves Skillin** — even under altered framing. Any proposal that changes Skillin's grade configuration, student assignment, or staffing in ways that reduce its capacity to serve its current demographic is functionally a partial closure. Don't let the label obscure the effect.
 
-- **Project Home appropriation details**: Watch for the eligibility criteria and application process. If any councilor states or implies that undocumented families can access the fund, get the specific language. If no one addresses eligibility, ask directly in public comment. The moratorium debate's central tension was whether "alternatives" would actually reach the families most at risk.
+- **Whether demographic data accompanies both closure options or only one.** If the administration presents Option A with demographic analysis and Option B without, that asymmetry is itself a choice about which option survives scrutiny.
 
-- **Budget workshop consent vote (E.5)**: Watch whether anyone pulls this from the consent calendar to discuss public participation format. If it passes on consent without discussion, Priya should use public comment to ask on record whether virtual testimony will be accepted at the April 14 workshop and whether a disaggregated school-level equity impact analysis will be required before that session.
+- **Whether Walker or any board member asks specifically about cut distribution by school demographic profile.** Walker is the most consistent equity analyst on the board. If she doesn't raise it, no one will — and the meeting will produce decisions without that data on the record.
 
-- **Who owns the resigned seats (D.14–D.18)**: Before the meeting, identify which boards Springer, Maxfield, and Duvernay served on. If any of these are the Human Rights Commission, note the extended vacancy publicly — the HRC cannot do meaningful work with $2,500 and empty seats simultaneously.
+- **Any reference to "equal treatment" of schools in the context of cuts or closures.** This is the specific rhetorical move Priya has documented: redefining equity as equality when a real equity analysis would show different schools need different things. Equal percentage cuts to schools with wildly unequal starting conditions are not equitable.
 
-- **Elm and Forest land sale (E.8, consent)**: Scan the purchase and sale agreement before the meeting. If it contains no affordability conditions, Priya has a fifth data point in the market-rate disposition pattern — worth stating publicly even if tonight's vote cannot be changed.
+- **How ed tech cuts are discussed in relation to IEPs.** If the presentation references these positions without acknowledging the legal and compliance implications, that is a gap Priya should name aloud or in written public comment. "What is the district's plan to meet IEP obligations with 16 fewer educational technicians?" is a specific, answerable question.
 
-- **Councilor Walker specifically**: Walker has been the most consistent equity-adjacent voice on the council (named the HRC cap, defended the moratorium). Watch whether Walker pulls any item from consent, whether Walker raises the Mahoney co-location concern, and whether Walker asks about Project Home eligibility. Walker's silence on a given item is as informative as Walker's speech.
+- **Whether food service cuts are presented with impact data.** Eliminating cafeteria workers at specific schools affects federal meal program access for food-insecure students. If no school-level impact data is presented, that absence should be noted.
 
-- **The words "equity," "community benefit," and "affordable" in the Mahoney discussion**: Track whether these terms appear, who uses them, and whether they are attached to specific commitments or mechanisms. After the Skillin closure recommendation and the eviction moratorium inversion, Priya's operating posture is that equity language in council chambers requires a binding mechanism before it earns credence.
+- **Whether the community school model appears in the budget at all.** An approved model without a budget line is not a program — it's a statement. Look for whether community school staffing and coordination resources survive the non-personnel cuts.
 
-- **Marijuana ordinance social equity provisions**: During public comment period or after the first readings, watch whether any councilor raises social equity licensing. If the answer is silence or "that's not how we've structured it," ask directly: will there be opportunity to amend before second reading?
+- **Whether Superintendent Abramson or the finance team acknowledges the material weakness finding in framing the federal grant situation.** The mismanagement of equity-designated Title I and IDEA funds is not just a past error — it affects current year capacity. If it's treated as resolved without a remediation structure, that's worth noting.
 
-- **Tone in the Mahoney discussion regarding immigrant families**: The council's documented failure mode has been erasure (not refutation) of equity concerns. If the entire Mahoney direction discussion proceeds without any mention of the population most affected by police co-location, that erasure is itself a finding — and Priya should name it in public comment.
+- **Whether any board member raises the convergence of cuts on the same household populations** — families losing ed tech and food service support at school, facing sewer rate hikes, living in housing instability. This is the geographic concentration Priya has been building toward documenting. If no one on the board names it, that is itself part of the record.
+
+- **The tone around the two closure options.** After March 2, the administration knows the board will reject explicitly race-coded closures. Watch for whether the framing this time is more technocratic — "enrollment efficiency," "utilization rates," "programmatic alignment" — as a way to pursue similar outcomes through neutral-sounding language. The demographic outcomes matter more than the justification language.
+
+- **Whether any decision is formally deferred versus made.** If the board takes action on closure options at this workshop, it will happen fast. Watch for consent-agenda-style adoption of framing documents that constrain future decisions without explicit votes on the equity implications.

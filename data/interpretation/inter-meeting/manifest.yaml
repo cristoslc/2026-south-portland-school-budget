@@ -22,7 +22,22 @@
 
 schema_version: "1.0"
 
-entries: []
+entries:
+  - entry_id: "im-001"
+    date_posted: "2026-03-20"
+    source_type: document
+    source_path: "data/school-board/budget-fy27/presentations/2026-03-23-budget-workshop-ii-slides.pdf"
+    title: "FY27 Budget 3.23.26 Board Meeting"
+    description: >
+      Google Slides deck for the March 23, 2026 school board budget workshop.
+      The presentation outlines the current FY27 proposal, personnel and
+      non-personnel reductions, two elementary closure options, middle and
+      high school reductions, and the decisions expected at the workshop.
+    date_range:
+      posted_after: "2026-03-19"
+      posted_before: "2026-03-23"
+    body: school-board
+    normalized_path: "data/interpretation/inter-meeting/sources/2026-03-23-budget-workshop-ii-slides.md"
 # Example entry (uncomment and fill in when inter-meeting evidence is added):
 #
 # - entry_id: "im-001"

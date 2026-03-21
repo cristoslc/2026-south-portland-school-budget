@@ -1,9 +1,9 @@
 ---
 name: swain-init
-description: "One-time project onboarding for swain. Migrates existing CLAUDE.md content to AGENTS.md (with the @AGENTS.md include pattern), verifies vendored tk (ticket) for task tracking, configures pre-commit security hooks (gitleaks default), and offers to add swain governance rules. Run once when adopting swain in a new project — use swain-doctor for ongoing per-session health checks."
+description: "One-time project onboarding for swain. Invoke to set up swain, onboard this project, initialize swain, or migrate CLAUDE.md. Migrates existing CLAUDE.md content to AGENTS.md (with the @AGENTS.md include pattern), verifies vendored tk (ticket) for task tracking, configures pre-commit security hooks (gitleaks default), and offers to add swain governance rules. Use swain-doctor for ongoing per-session health checks."
 user-invocable: true
 license: MIT
-allowed-tools: Bash, Read, Write, Edit, Grep, Glob, AskUserQuestion
+allowed-tools: Bash, Read, Write, Edit, Grep, Glob, AskUserQuestion, Skill
 metadata:
   short-description: One-time swain project onboarding
   version: 3.1.0
@@ -141,6 +141,29 @@ If `.beads/` exists:
 5. Tell the user the results and that `.beads/` can be removed after verification.
 
 If `.beads/` does not exist, skip this step. tk creates `.tickets/` on first `tk create`.
+
+### Step 2.4 — swain-box symlink
+
+Find the swain-box script in the installed skill tree and create `./swain-box` as a relative symlink at the project root.
+
+```bash
+SWAIN_BOX_SCRIPT=$(find . .claude .agents -path '*/swain/scripts/swain-box' -print -quit 2>/dev/null)
+if [ -n "$SWAIN_BOX_SCRIPT" ]; then
+  SWAIN_BOX_REL=$(python3 -c "import os,sys; print(os.path.relpath(sys.argv[1]))" "$SWAIN_BOX_SCRIPT" 2>/dev/null || echo "$SWAIN_BOX_SCRIPT")
+  if [ -L swain-box ] && [ "$(readlink swain-box)" = "$SWAIN_BOX_REL" ]; then
+    echo "already linked"
+  elif [ -e swain-box ] && [ ! -L swain-box ]; then
+    echo "conflict — ./swain-box exists as a real file; skipping"
+  else
+    ln -sf "$SWAIN_BOX_REL" swain-box
+    echo "created ./swain-box -> $SWAIN_BOX_REL"
+  fi
+fi
+```
+
+Tell the user: `./swain-box created — run it from this project root to launch Claude Code in a Docker Sandbox for this directory.`
+
+If the script is not found, skip silently — swain-box is not installed in this skill tree.
 
 ## Phase 3: Pre-commit security hooks
 
@@ -286,6 +309,36 @@ If it fails, warn:
 
 Continue to Phase 5 regardless.
 
+### Step 4.4 — Tmux
+
+Check if tmux is installed:
+
+```bash
+which tmux
+```
+
+If tmux is **already installed**, report "tmux: already installed" and continue to Phase 5.
+
+If tmux is **not found**, ask the user:
+
+> tmux is not installed. swain-stage (workspace layouts) and swain-session (tab naming) require a tmux session to function. It is optional — swain works without it, but session and workspace features will be unavailable.
+>
+> Install tmux now? (yes/no)
+
+If the user says **yes**:
+
+```bash
+brew install tmux
+```
+
+If the install succeeds, tell the user:
+> tmux installed. Workspace layout and tab naming features are now available.
+
+If the install fails, warn:
+> tmux installation failed. You can install it manually: `brew install tmux`
+
+If the user says **no**, note "tmux: skipped" and continue to Phase 5.
+
 ## Phase 5: Swain governance
 
 Goal: add swain's routing and governance rules to AGENTS.md.
@@ -354,6 +407,7 @@ Report what was done:
 > - Beads migration: [done/skipped/no beads found]
 > - Pre-commit security hooks: [done/skipped/already configured]
 > - Superpowers: [installed/skipped/already present]
+> - tmux: [installed/skipped/already present]
 > - Swain governance in AGENTS.md: [done/skipped/already present]
 
 ## Re-running init

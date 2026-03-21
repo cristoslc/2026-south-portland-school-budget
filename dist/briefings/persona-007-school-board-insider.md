@@ -2,123 +2,114 @@
 schema_version: "1.0"
 persona_id: "PERSONA-007"
 persona_name: "Linda"
-upcoming_meeting_date: "2026-03-19"
-generated_date: "2026-03-17"
-has_agenda: true
-last_cumulative_meeting: "2026-03-09"
-inter_meeting_evidence_count: 0
+upcoming_meeting_date: "2026-03-23"
+generated_date: "2026-03-21"
+has_agenda: false
+last_cumulative_meeting: "2026-03-19"
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Linda (PERSONA-007)
-## Upcoming Meeting: 2026-03-19
-
-# Pre-Meeting Brief: Linda (PERSONA-007 — School Board Insider)
-**Meeting:** South Portland City Council — March 19, 2026, 6:30 PM Regular Session
-**Prepared:** 2026-03-17
-
----
+## Upcoming Meeting: 2026-03-23
 
 ## Since Last Meeting
 
-No new evidence events have emerged in the ten days since the March 9 board meeting. There are no inter-meeting developments to process.
+The significant development since March 19 is the arrival of the **FY27 Budget 3.23.26 Board Meeting** presentation deck — the Google Slides package that will drive Monday's workshop. This matters immediately: the deck is structured around *decisions expected at the workshop*, meaning this is not an informational session. Linda is walking into a meeting where the board may be asked to formally or informally ratify positions on personnel cuts, non-personnel reductions, and elementary reconfiguration options — five days before the April 7 public hearing, not after it.
 
-The absence of news is itself informative in two ways. First, the health insurance projection — the unconfirmed figure that shifted from 8% to 12% and has no confirmed final number until late March — has still not landed. That means Linda is walking into the March workshops, and now this council meeting, without the actual cost driver that could move the gap by hundreds of thousands of dollars. Second, there has been no public communication from the administration about the September 2026 reconfiguration implementation timeline, which remains unconfirmed after three hours of public comment on March 2. The silence on both fronts is not reassuring; it means the board is still navigating on preliminary figures and an unvalidated implementation schedule.
+The deck's outline — current FY27 proposal, personnel reductions, non-personnel reductions, two elementary closure options, and middle/high school reductions — is also the first confirmation that the administration has packaged the work into a single presentable proposal. That's a governance milestone: it signals the administration considers the options sufficiently developed to bring to the board for direction. For Linda, this shifts the posture from "we're still modeling" to "we need to decide."
 
-The March 19 city council agenda itself is the substantive new development. Three items on it — the sewer revenue bond, the budget workshop scheduling order, and the Mahoney facilities presentation — have direct implications for Linda's work heading into April.
+What's still absent, and therefore significant: no indication yet that the final health insurance figure (expected late March) has been incorporated. If the deck was finalized before that number landed, the personnel cost projections in it may still be based on the 12% estimate rather than the actuals. That's a material unknown embedded in whatever the board is being asked to decide.
 
 ---
 
 ## Open Questions
 
-These are the threads Linda is carrying into this meeting, in the order that the agenda makes them newly urgent:
+Carrying into Monday:
 
-- **The sewer rate increase has been an abstraction for me — tonight's agenda has a rate comparison table in the packet. What is the actual per-household annual increase South Portland ratepayers will absorb, and has anyone on the council or in the manager's office aggregated that with the school budget ask and the Mahoney bond debt service into a single homeowner impact figure?**
-- **The April 14 budget workshop lists School as the first department — what format is the council expecting? A formal presentation by DeAngelos? Finance committee testimony? Are they expecting a single number, a scenario range, or a full program-by-program walk?**
-- **Where does the Mahoney decision land tonight? If the council authorizes a scaled-down project for a November 2026 referendum, that's confirmed ballot collision. If they pivot to a developer RFP, the timeline is uncertain. Either way, the board's prior position that it has no use for Mahoney may need to be formally revisited — especially with reconfiguration still unresolved.**
-- **Is the Mahoney-as-school option being put on the table seriously, or is that still just mayoral trial balloon? If the council opens a developer RFP, does it explicitly contemplate educational use?**
-- **The appointment calendar has been pushed to April 7. The Human Rights Commission has three vacancies — two resignations in January that overlapped with the ICE enforcement crisis. Is anyone on the council connecting those dots publicly, or is this being treated as routine turnover?**
-- **Will Member Feller's break from the 6% ceiling come up in any council discussion — formally or in hallway conversation — before the April 14 workshop? The council gave guidance expecting a unified board presentation.**
-- **What is the full picture of current-year city spending health? The manager's office approved Project Home appropriations and a property purchase at 279 Main — are those drawing from the $8.5M undesignated fund balance I've been using as my floor, or are they separately funded?**
-- **Has the district's communication team prepared anything for the April 14 workshop? Twelve percent of parents adequately informed is not a number we can walk into a council chamber with.**
+- **What exactly are the "decisions expected"?** The deck language is explicit that decisions are on the table. Are these formal motions, informal consensus signals, or something the chair will try to frame as binding direction to administration? I need to know before the gavel drops, not after.
+
+- **Has the final health insurance number arrived?** The budget was built on a 12% estimate without board action. If the actual figure is higher — or lower — and it's not in the deck, any personnel math we approve tonight may need to be reopened. Who has that number right now, and when will we see it?
+
+- **Which two elementary options are being presented, and have the savings estimates been independently verified?** I'm assuming we're looking at 1.3 and 1.6. But do the fiscal projections account for transition costs, redistricting administration, and transportation changes? Or is this the gross number without implementation costs?
+
+- **Where is the $3M+ gap beyond the three big ideas?** The big three total roughly $4M. We need $7.2M. What does the non-personnel and central office reduction section actually show? Have we finally found the rest of it, or are we still walking into April 7 with an incomplete picture?
+
+- **What is the board being shown on per-position cost when we look at the 78 cuts?** Matthews has already put "72 pink slips / $8.4M" in the public record. If our numbers don't match or respond to that framing directly, we'll be on defense at the April 7 hearing.
+
+- **Is there anything in the middle/high school reductions section that creates a new equity or legal exposure?** Cuts at the secondary level are less visible but can trigger contract obligations, course-of-study requirements, or accreditation minimums that we haven't surfaced publicly.
+
+- **Can September 2026 implementation actually happen?** No redistricting plan exists before budget approval. If we're deciding on 1.3 or 1.6 tonight without a redistricting timeline attached, what are we actually deciding?
+
+- **Will Feller hold, break, or stay quiet?** He's already broken from the 6% ceiling publicly. If something in this deck gives him a new opening, do I have the votes to hold the line before we walk into the April 7 hearing fractured?
+
+- **Has anyone assembled the cumulative homeowner impact table — school increase, sewer doubling, public safety bond — in a format the board controls?** If not, it will exist by April 7, assembled by someone else.
+
+- **What's the SPED staffing picture in the personnel reductions?** We just lost experienced special education staff amid the Pre-K mandate expansion. If the personnel section shows further SPED reductions, I need to understand the mandated-services exposure before I'm on record supporting it.
 
 ---
 
 ## Agenda Implications
 
-**C.2 — Sewer Revenue Bond (Finance Director Sanborn memo)**
+No formal agenda has been published for the March 23 meeting. However, the structure of the budget deck is effectively the agenda: current FY27 proposal overview → personnel reductions → non-personnel reductions → elementary closure options → middle/high school reductions → decisions. Linda should prepare as if each section carries a potential ask for board direction.
 
-This is the most directly actionable item on tonight's agenda for Linda's budget work. The comparative sewer cost table embedded in the agenda shows South Portland at approximately $56/month ($670/year). Linda should treat this as a data point she has been waiting for: it is the closest thing to a published figure on the sewer rate increase she has been tracking as part of the cumulative homeowner burden.
+**Current FY27 Proposal Overview**
+This section will re-establish the baseline. For Linda, the key is whether the deficit number has changed since February 10 — particularly whether the health insurance actualization or any mid-year spending has shifted the $7.2M figure up or down. Listen for any new assumptions baked in that weren't there a month ago. If the number has grown, the downstream cut math in every other section changes.
 
-What to listen for: What is the proposed bond amount and debt service schedule? Does the Sanborn memo specify the rate increase per household? Is there any council discussion about timing relative to the school validation campaign and the Mahoney referendum? Does any councilor ask about combined homeowner impact — or does the discussion treat the sewer bond in complete isolation from the other asks coming in November?
+*Watch for:* Any revision to the structural deficit figure. Any acknowledgment that the late-March health insurance actuals are not yet incorporated.
 
-Questions to prepare: If the opportunity arises in public comment or in a post-meeting conversation with a councilor — "Has the Finance Director modeled the combined household impact of the sewer bond debt service, school budget validation increase, and Mahoney bond debt service side by side? If not, who owns that calculation before November?"
+*Prepare to ask:* "Are these projections based on the 12% health insurance estimate or the final figure? When will we have the actual number, and will we need to reconvene before April 7 if it materially changes the proposal?"
 
-**C.1 — Stormwater Coordinator Position**
+**Personnel Reductions**
+This is the section where Matthews' framing lives. The board needs to be able to speak precisely — not defensively — about what "78 positions" means, which positions, which cost centers, and how the cut decisions were made. If this section doesn't directly address the "72 pink slips" public narrative, Linda should treat that as a preparation gap before April 7.
 
-A new municipal hire adds to city payroll. Minor in isolation, but Linda should note it as a signal about the city's operating budget trajectory heading into the April 28 workshop. If the city is adding positions while the school side is cutting 78, that asymmetry will be visible to taxpayers during the validation campaign and will require a narrative response.
+*Watch for:* Whether the SPED and instructional support positions are identified separately. Whether the cut list has changed from the February 4 forum baseline. Whether administration is presenting a rationale for each cut category or just a list.
 
-**E.5 — Budget Workshop Schedule / Public Hearing Date (ORDER #161 25-26)**
+*Prepare to ask:* "What does this personnel reduction list look like relative to what was presented in February? And for the SPED positions — what's our compliance exposure as we add Pre-K caseload while cutting staff?"
 
-This is the structural item Linda cares most about in the consent calendar. The council is formally setting the April 14 and April 28 budget workshop dates and establishing a public hearing date. The school department is listed first on April 14 alongside City Clerk, Human Resources/Benefits, Social Services, Police, Fire, Library, Sustainability, Public Works, Facilities, and Parks.
+**Non-Personnel Reductions**
+This is where the $3M+ gap beyond the big three either gets resolved or doesn't. The non-personnel and central office cuts are politically harder to defend but fiscally necessary. If this section is thin — if it's supplies and travel rather than contracts and administrative overhead — the gap is still open.
 
-What to listen for: Is this on the consent calendar (passed without discussion) or is it pulled for comment? If pulled, does any councilor signal what they expect from the school's presentation — a single tax rate number, scenario modeling, a cut list? Does anyone on the council ask whether the 3–6% guidance range has been transmitted formally to the school board, or is there an assumption that the February 10 workshop was sufficient?
+*Watch for:* Whether central office administrative positions appear in this section or have been shielded. Whether contract reductions (ed tech, consulting, etc.) are itemized. Whether the total of personnel + non-personnel + reconfiguration actually closes the gap.
 
-Questions to prepare: Linda should confirm with DeAngelos after the meeting: is the school's April 14 presentation being coordinated with the council, or is the district preparing it in a vacuum? The difference between a presentation that lands and one that reopens the fracture over the ceiling depends on pre-coordination.
+*Prepare to ask:* "When I add up everything in this deck, what is the total projected reduction against the $7.2M structural deficit? Are we presenting a complete picture to the public on April 7, or is there still unidentified reduction work?"
 
-**H.1 — City Facilities Presentation (Mahoney / City Hall / Library)**
+**Elementary Closure Options**
+The two options being presented are almost certainly 1.3 and 1.6 (closing Kaler/Dyer or Small). The board already rejected 1.7 on equity grounds. What Linda needs from this section is not which option is better in the abstract, but whether either one can actually be implemented by September 2026, and whether the savings projections are net of transition costs.
 
-This is the meeting's highest-stakes item for Linda. The council is being asked three explicit questions: proceed with the scaled-down Mahoney project as-is, consider an RFP for a public-private partnership at Mahoney, or some combination. The library's facility needs are bundled in.
+*Watch for:* Whether redistricting timelines and family notification obligations are attached to the options. Whether the demographic and walkability analysis that drove the equity rejection of 1.7 has been applied comparably to 1.3 and 1.6. Whether the savings figures are gross or net.
 
-Linda's open thread on this is unresolved: the board's prior formal position is that it has no use for the Mahoney building, but that was stated before the reconfiguration process exposed that the board may close two schools while the city holds a functionally vacant building with potential for educational use. If the council votes to put a scaled-down Mahoney project on the November ballot tonight, it confirms the validation collision Linda has been tracking since January. If the council opens an RFP process, it introduces a public-private developer into a decision space that was previously city-only, and Mahoney's future becomes uncertain on a longer timeline — which may or may not benefit the school board's reconfiguration planning.
+*Prepare to ask:* "What is the redistricting timeline for the option we select, and can we legally and operationally complete it before the school year starts? And what are the transition costs we're netting out of these savings figures?"
 
-What to listen for:
-- Does any councilor explicitly raise the school board's prior position on Mahoney?
-- Does the phrase "educational use" or "school facility" appear in the council discussion?
-- Does Mayor Tipton revisit the Mahoney-as-school trial balloon she acknowledged publicly?
-- If a developer RFP is authorized, what is the timeline? Could it push the Mahoney referendum past November 2026, relieving the ballot collision?
-- What is the cost estimate for the scaled-down project, and what would debt service look like per household?
+**Middle and High School Reductions**
+This section is likely to receive less public scrutiny than elementary — which is exactly why Linda should scrutinize it. Secondary cuts can affect course offerings, accreditation standards, and staffing ratios in ways that don't surface in a budget headline but create legal or educational exposure.
 
-Questions Linda should be prepared to raise through her liaison channels, not necessarily in the council chamber tonight: "If the council authorizes an RFP, does the RFP scope contemplate educational or joint-use possibilities? And does the school board need to formally update its position before that RFP goes out?"
+*Watch for:* Any course eliminations that affect graduation requirements or college readiness metrics. Any coaching or co-curricular cuts that have been presented publicly as protected.
 
-**Appointment Calendar (D.14–D.22, Postponed to April 7)**
+**Decisions Expected**
+This is the section Linda should treat as the highest-stakes part of the meeting. The framing of what's being "decided" will shape what the board is on record for before April 7. Linda should resist any attempt to treat informal consensus as a decision, and should be equally resistant to leaving the meeting without enough clarity to prepare the board's public communication.
 
-Multiple committee vacancies are being bundled and postponed. Of note: three Human Rights Commission vacancies (two resigned in January during the ICE enforcement crisis, one anticipated). The Budget & Finance Committee has anticipated vacancies. Linda should note who is and isn't being replaced and on what timeline, especially for committees that intersect with budget oversight or community equity work. The $2,500 committee operating cap she has been tracking since December sits on top of these structural changes.
-
-**I.4 — Project Home Appropriation**
-**I.5 — 279 Main Street Property Purchase**
-
-Both items draw on city funds. Linda should track whether the manager's memo specifies the funding source — particularly whether either draw touches the $8.5M undesignated fund balance she has been using as a floor in her fiscal modeling. If the city is drawing down its reserve before the school side potentially needs a bailout, the floor is lower than she has been assuming.
-
-**I.6 & I.7 — Marijuana Ordinance First Readings**
-
-Low direct relevance to Linda's immediate concerns. Potential future revenue stream, but on a timeline too long to affect FY27.
-
-**G.1 & G.2 — Liquor License / Game Machine Applications**
-
-Routine business. Linda should not need to track these.
-
-**E.6 — DOT Agreement, E.7 — Springfest Road Closure, I.8 — Library Donation**
-
-Routine. No budget cycle implications.
+*Prepare to ask, as a procedural matter:* "Before we move to public comment and the April 7 hearing, can we confirm what decisions we are making tonight — what's formal, what's directional, and what remains open — so we're all operating from the same record?"
 
 ---
 
 ## Watch For
 
-- **What number comes out of the Mahoney discussion.** If the council tonight authorizes a November 2026 ballot item for Mahoney, Linda should immediately begin calculating the combined household ballot burden: school validation increase + Mahoney bond debt service + sewer bond debt service. If no councilor states this combined figure tonight, that is the clearest signal that no one is doing the aggregated math — and Linda's office needs to do it before April 14.
+**Decision framing language from the superintendent or chair.** If the meeting opens with "we're here to decide X," Linda needs to know whether that decision has been adequately staffed — meaning independent cost verification, redistricting feasibility confirmation, and compliance review. A premature formal decision is worse than a deferred one given the April 7 exposure.
 
-- **Whether any councilor pulls the budget workshop item (E.5) off the consent calendar.** If it passes quietly, the April 14 format is set without council input. If it's pulled, the council's comments will tell Linda exactly what frame they're bringing to the school presentation — whether they want reassurance, a line-item defense, or something else.
+**Health insurance actuals.** If someone in the room has the final figure and it hasn't been incorporated into the deck, that needs to surface before any vote is recorded. Watch for administration acknowledging this is still an estimate — or not acknowledging it, which is more concerning.
 
-- **Walker's posture.** Councilor Walker expressed willingness to support 6%+ as "unpopular but necessary" at the February 10 joint workshop. Watch whether Walker's language on the sewer bond or Mahoney reflects continued fiscal realism or a retreat toward caution now that the spring campaign is real and not hypothetical.
+**Feller's posture during the personnel and non-personnel sections.** He broke publicly on the 6% ceiling. If he signals skepticism about the size of the cuts in the deck — suggesting they're too deep — or about the framing of positions eliminated, that's an early read on whether board cohesion holds through April 7.
 
-- **Any reference to Member Feller by a councilor.** If council members have been tracking the board's internal fracture publicly, it will surface — likely obliquely — in questions about whether the school board is aligned on the guidance range heading into April. That signal matters for whether Linda needs to force a board resolution before April 14.
+**Whether the $3M+ gap is visibly closed.** Add the numbers in the deck yourself during the meeting. If the sum of all proposed reductions does not get to $7.2M, the gap is still open and Linda should name that fact explicitly before adjournment.
 
-- **The Sanborn memo language on the sewer bond.** Does it acknowledge the concurrent budget pressures on homeowners? Or does it present the sewer increase in isolation? The framing Finance Director Sanborn uses tonight will tell Linda whether the city's financial staff is coordinating across departments on cumulative impact, or operating in silos.
+**Any reference to Matthews' "72 pink slips / $8.4M" framing.** If administration has prepared a direct factual response, note whether it's precise enough for public use. If no one addresses it, that's a preparation failure Linda should flag before April 7.
 
-- **Any council comment on the three Human Rights Commission vacancies.** If the resignations are treated as routine turnover, no one is connecting them to the January ICE enforcement crisis. That connection matters for Linda's participation and community trust concerns heading into validation — a depleted HRC is one less institutional resource for the immigrant community engagement the board needs.
+**The SPED reduction line, if it exists.** Given the Pre-K mandate expansion and recent SPED resignations, any further SPED staffing reductions in this deck represent a mandated-services compliance risk. Linda should not let this pass without a direct question about legal exposure.
 
-- **Whether the Mahoney discussion includes any mention of co-location, joint use, or school reconfiguration.** If it does — even in passing — Linda should be ready with a formal request to DeAngelos: the school board needs a seat in any developer RFP scoping conversations before the bid goes out, not after.
+**Whether a cumulative homeowner impact statement exists in the packet.** If the finance committee or administration has produced a unified school + sewer + bond impact table, Linda needs to review and endorse it before it circulates publicly. If it doesn't exist, someone will produce it before April 7 — and it may not reflect the board's preferred framing.
 
-- **Body language and side-conversation patterns among councilors during H.1.** The Mahoney item is the most politically complex thing on tonight's agenda. Watch for councilors who look eager to move quickly versus those who want to slow down the decision — the ones who want to slow it down may be the allies for a November ballot delay that would relieve the validation collision.
+**September 2026 feasibility language.** If anyone says implementation is "on track" for September without a redistricting timeline attached, that statement should be challenged on the record. The board cannot defend an uncertain implementation date at the April 7 public hearing.
 
-- **Whether the $8.5M city fund balance appears in any budget-adjacent discussion.** If a councilor references it as available capacity during the sewer bond or Mahoney debate, Linda should note that as a signal about the city's own draw-down plans heading into FY27 — and whether the floor she's been modeling is still intact.
+**Tone from board members who have been quiet.** The public board fracture so far is Feller. But informal pre-meeting conversations may have shifted other members' positions. Quiet members who ask unusually pointed questions during this workshop may be signaling a coming break — or may be building a record for a later vote.
+
+**Whether DeAngelos references the April 7 hearing preparation directly.** If she signals what the administration intends to communicate publicly — and whether the board is expected to have a unified message — that's Linda's cue to either endorse that posture or shape it in the room rather than after the fact.

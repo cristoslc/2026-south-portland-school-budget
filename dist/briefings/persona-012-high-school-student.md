@@ -2,135 +2,75 @@
 schema_version: "1.0"
 persona_id: "PERSONA-012"
 persona_name: "Jaylen"
-upcoming_meeting_date: "2026-03-19"
-generated_date: "2026-03-17"
-has_agenda: true
-last_cumulative_meeting: "2026-03-09"
-inter_meeting_evidence_count: 0
+upcoming_meeting_date: "2026-03-23"
+generated_date: "2026-03-21"
+has_agenda: false
+last_cumulative_meeting: "2026-03-19"
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Jaylen (PERSONA-012)
-## Upcoming Meeting: 2026-03-19
+## Upcoming Meeting: 2026-03-23
 
 ## Since Last Meeting
 
-No new evidence has surfaced in the period since March 9. That silence is worth naming directly: the high school budget workshops are still deferred to "late March," and as of today — two days before this city council meeting — no one has published a school-level breakdown of where the $3M+ in remaining cuts will come from. Jaylen is now ten weeks into monitoring this crisis, and the specific question he's had since December — *which SPHS programs survive* — remains officially unanswered.
+The most significant development is one you probably didn't get through official channels: the district released a Google Slides budget presentation for the March 23 workshop. This matters to you in a specific way. The deck explicitly includes a section on **middle and high school reductions** — which means Monday's meeting is the first time since December that SPHS-specific cuts are supposed to be on the table. Every workshop before this one has presented district-level numbers or focused on elementary closures. This one is different.
 
-The absence of news isn't neutral. It means the March 19 council meeting arrives with the full $3M+ residual gap still unresolved, with SPHS-specific impacts still undisclosed, and with no public record of what theater, AP courses, or cross-country are going to look like next year. The clock is running. Jaylen is planning his senior year.
+The other thing you're carrying in from this week: 72 staff received actual layoff notices on March 18. That's not a proposal anymore. Those are real people who work in your building, your gym, your theater. The deficit also grew from the $7.2M number you've been tracking since December to $8.4M — a $1.2M jump that no one has explained publicly. You don't know yet whether your theater director, your AP teachers, or your coach got one of those pink slips. Monday may be where that starts to become visible.
+
+The positive thread from March 9 — theater, music, robotics, and fine arts confirmed thriving — predates the pink slips. It doesn't mean those programs are safe. It means they were fine before 72 people lost their jobs.
 
 ---
 
 ## Open Questions
 
-Carrying into Thursday's meeting:
+Going into Monday, here's what you still don't know:
 
-- **Where does the $3M+ actually come from?** The three "big ideas" were supposed to close most of the gap. They don't. So where does the rest come from, and is SPHS theater or AP programs in that line-by-line review?
-- **When is the high school workshop?** It was deferred to "late March" as of March 2. That means it should be happening any day. Has it been scheduled? Why isn't there a date on the public calendar?
-- **Is anyone looking out for the theater and gym at Mahoney specifically?** The council said they were preserving them under option A1. But that was provisional — and now there's a developer RFP question on the agenda. What happens to the theater if a developer gets involved?
-- **What's happening with the Human Rights Commission vacancies?** Three people resigned in January — right when families were most afraid to show up in public. If those seats on the HRC haven't been filled, who's doing the equity work that's supposed to protect the communities most affected by this budget?
-- **Does the school budget workshop scheduled for April 14 include SPHS-specific numbers, or is it going to be another round of district-level categories that tell me nothing?**
-- **Is Ms. Carlisle still the only person running the ELO program? Did anyone fix that?**
-- **The city is hiring a stormwater coordinator. Is there actually a public explanation for why that position exists while 42 teaching positions are being cut?**
-- **If my classmates' families are still afraid to show up to public meetings, has anyone at the district or city level asked what community engagement is supposed to look like for them right now?**
-- **Does the police station placement at Mahoney connect to whether families afraid of ICE can safely use the building — and has anyone said that out loud in a public meeting?**
+- **Who got a pink slip?** Are theater directors, AP teachers, or coaches in those 72 positions? Has anyone at SPHS told students anything officially, or are you still relying on your cross-country coach and word of mouth?
+- **What are the actual SPHS cuts?** This is the first workshop that's supposed to cover high school reductions. Will they finally name programs, courses, or positions — or will it be object codes and cost centers that mean nothing to you?
+- **Is AP Lit going to exist next year?** What about the specific AP courses you're planning for senior year? Is anyone going to say that in a room you can be in?
+- **Are theater and arts actually protected, or are they just unspecified?** The March 9 thriving report was real, but the $3M+ residual gap has to come from somewhere. Has anyone said arts are off the table?
+- **What happened to the mid-year teacher vacancies in English and science?** Were those filled, or are they quiet early cuts that won't appear on any official list?
+- **Why did the deficit jump from $7.2M to $8.4M?** That's $1.2M more than the number everyone's been citing for three months. Where did it come from?
+- **Will there be any student voice in the room on Monday?** Do student reps have a speaking role, or are they sitting there again while adults decide what happens to your senior year?
+- **Does anyone plan to explain any of this in terms a student can actually understand and share?** Or will it be another slide deck full of FTEs and object codes?
 
 ---
 
 ## Agenda Implications
 
-**E.5 — Budget Workshop Schedule (ORDER #161)**
-This is the most important item on the agenda for Jaylen, even though it sounds procedural. The city manager is setting the dates when the city council will review departmental budgets — and "School" is listed *first* on April 14's Budget Workshop #1. That means:
+No formal agenda has been published for the March 23 meeting. However, the inter-meeting budget presentation tells you the structure of what's coming. Here's what that means for you specifically:
 
-- April 14 is the date when the school budget gets city council scrutiny in formal session
-- Everything deferred to "late March" school workshops has to come before April 14 — or it arrives at city council without any high school input
-- Jaylen should note this date and plan around it
+**Personnel and non-personnel reductions** will be presented. This is where your immediate stake lives. Listen for whether the cuts are described at the school level or buried in district-wide numbers. If they say "we're reducing X FTEs in the high school" without naming positions or departments, that's still not enough — but it's more than you've had. If they name departments, that's when you'll know whether theater, athletics, or AP programming is directly in the line of fire.
 
-**Listen for:** Any mention of whether the school workshop schedule (middle and high school specifically) has been set before April 14. If the council is setting city budget review for April 14 and SPHS hasn't had its community workshop yet, the sequence matters — and Jaylen should ask his teachers or school newspaper contact whether the dates have been announced.
+**Two elementary closure options** will likely dominate a significant portion of the meeting. This does not affect you directly, but pay attention to how much of the $8.4M gap the elementary closures actually close. If elementary reconfiguration accounts for $4-5M of the savings, the residual gap shrinks — and the pressure on SPHS-specific cuts shifts accordingly. If the elementary options don't pencil out, more of that burden falls on middle and high school reductions.
 
-**Questions to prepare:** What does "School" mean in the April 14 workshop — will it include program-level detail, or just district totals? Who from the school district will be presenting?
+**Middle and high school reductions** is the section you've been waiting for since December. Questions to prepare:
+- Are course eliminations or reductions named specifically — by subject, by program?
+- Are any extracurricular programs (theater, athletics, robotics) mentioned explicitly?
+- Is the staffing reduction at SPHS expressed in a way that tells you whether AP sections survive?
+- Does the presentation say anything about what's being *preserved*, not just cut?
 
----
-
-**H.1 — City Facilities / Mahoney Complex**
-This one is live and potentially dangerous for Jaylen. The council is being asked three guidance questions — and the second one is whether the council wants to "engage with a developer via an RFP process to see if a public/private partnership at Mahoney is feasible."
-
-Jaylen's cumulative state shows the Mahoney theater and gymnasium were tentatively preserved under option A1. An RFP process means a developer comes in with a proposal that could look nothing like A1. Theater and gymnasium survival at Mahoney was marked as *provisionally* resolved — this agenda item is the first signal it might reopen.
-
-The police station placement concern — which in Jaylen's tracking connects directly to whether ICE-affected families can safely access the building — has never been addressed in public. If a developer reconfirms or redesigns the site, that concern is still live.
-
-**Listen for:** Whether any councilor names what happens to the theater and gymnasium under an RFP scenario. Whether anyone mentions community use, school use, or public programming as constraints on a developer partnership. Whether the police station placement is discussed at all — or whether it's been silently resolved without public record.
-
-**Questions to prepare:** If the council pursues an RFP, what protections exist for the theater and gymnasium? Does the RFP process have a community input step, or is it a closed negotiation between the city and developers?
-
----
-
-**D — Appointment Calendar (Items 14–22, all postponed to April 7)**
-The council is postponing 22 appointment items to April 7. Three of these are *current vacancies* from resignations in January — the same month when immigration enforcement fears peaked and families stopped showing up to public meetings. Jaylen has an open thread on whether the Human Rights Commission's equity work survives with $2,500 in funding constraints; if any of these vacancies are HRC seats, a vacancy means the commission is running undermanned going into the most consequential budget decision in years.
-
-The postponement itself is also a signal: these seats are going unfilled for at least three more weeks. Whoever was doing equity or community-facing work at those commissions is doing it with a vacancy.
-
-**Listen for:** Does any councilor raise the HRC or other equity-focused commissions when discussing the postponement? Does anyone note the January resignation dates and their timing relative to the immigration enforcement crisis?
-
-**Questions to prepare:** Which of the 22 appointment items are HRC or community-services-facing? Is anyone tracking whether vacant commission seats are affecting active equity work?
-
----
-
-**C.1 — Stormwater Coordinator Position**
-The city manager is recommending adding a stormwater coordinator position. This is a municipal hire happening at the same time as 42 teaching positions are being eliminated from the school district.
-
-Jaylen's brief is not to stop the stormwater hire — he doesn't have the expertise to evaluate whether it's necessary. His brief is to notice the contrast and hold onto it. When adults say the school budget cuts are unavoidable, the existence of new city hires is relevant context. If he's writing something for the school paper, this is a fact worth including.
-
-**Listen for:** Does any councilor ask about the timing relative to school position cuts? Does the city manager address why this hire is proceeding now?
-
----
-
-**E.1 & E.2 — Proclamations (Savannah Johnson, Julie Shane)**
-Ceremonial recognitions of community members. Jaylen has logged this pattern since December — celebrating individual achievement while starving the infrastructure that makes that achievement possible. These proclamations may be entirely deserved; that's not the point. The point is that the same meeting that honors community members in the opening minutes can spend the next three hours making decisions that affect those communities without any of them in the room as decision-makers.
-
-He doesn't need to do anything with these items specifically, but the pattern is worth noting if he's documenting the meeting.
-
----
-
-**I.4 — Project Home Funding Appropriation**
-The name "Project Home" could connect to housing stability — which connects to Jaylen's open thread about whether families being evicted are the same families whose kids are missing school. The community school model, which was floated as a potential offset to staffing cuts at SPHS, often depends on housing stability and community-anchored support services.
-
-**Listen for:** Whether the project description mentions schools, families with children, or displaced populations. Whether anyone names the connection between housing instability and school enrollment.
-
----
-
-**I.5 — 279 Main Street Purchase**
-A city property purchase. Not directly relevant to Jaylen unless the property has community, school, or family-services implications. Worth tracking only to note what the city is buying while cutting teachers.
-
----
-
-**G.1 & G.2, I.6 & I.7, E.6 & E.7, E.8**
-License applications, marijuana ordinance readings, a DOT agreement, a road closure for Springfest, and a land sale. None of these connect to Jaylen's concerns. He can tune out and save his energy for H.1, E.5, and public comment.
-
----
-
-**Public Comment (J)**
-This is the slot. If Jaylen attends or if anyone he knows attends, this is the moment. The $3M+ residual gap has not been addressed. The high school workshops have been deferred. The Mahoney question has reopened. The appointment vacancies are being postponed. All of that is real and all of it is legitimate public comment territory.
-
-If he speaks, the frame is simple: *the school workshops covering the high school still haven't happened, the April 14 city budget review is five weeks away, and students still don't know which programs will exist in September.*
+**Decisions expected at the workshop** — watch carefully for what the board is actually being asked to vote on or endorse. If they're being asked to approve a specific reduction plan that includes SPHS line items, Monday may be the last point before the April 7 public hearing at which the direction can still change.
 
 ---
 
 ## Watch For
 
-- **Whether any councilor asks what the Mahoney RFP process means for the theater and gymnasium specifically.** Provisional resolution is not permanent resolution. If nobody asks that question tonight, nobody is asking it — and Jaylen needs to know that.
+- **The moment SPHS comes up by name.** When it does, note whether it's in the context of a specific cut to a named program or in aggregate FTE language. Named programs mean something. Aggregate numbers don't tell you whether your coach still has a job.
 
-- **Whether Chair DeAngelis or any councilor acknowledges the April 14 school budget workshop timing relative to the missing high school workshop.** The sequence matters: if SPHS hasn't had its community workshop before April 14, the city council reviews school cuts without any public high school input. Watch for whether anyone flags this, or whether it passes without comment.
+- **Whether theater, visual arts, and AP are named — or notably absent.** If the high school reduction section doesn't mention arts or AP at all, ask why. Silence on specific programs isn't safety; it might mean they haven't been disaggregated yet, which is its own problem.
 
-- **The tone when H.1 is discussed.** At the February 17 meeting, theater survival was described as "provisional" and dependent on the November referendum. Tonight's developer RFP question is the next decision point. Watch whether councilors treat Mahoney as a settled question or as open for renegotiation — those are different situations.
+- **The math on the elementary closures.** If Option A saves more than Option B, the gap going into SPHS cuts changes. Track what each option saves and do the arithmetic against the $8.4M total.
 
-- **Which councilors ask questions about the appointment postponement.** Vacancies in January came from resignations that month. Postponing those appointments to April 7 means six more weeks of undermanned commissions. Councilor Walker has consistently been the one to name compound civic disinvestment. Watch whether she connects any of the January vacancies to the immigration enforcement context.
+- **Whether anyone names the $1.2M deficit increase.** The number went from $7.2M to $8.4M between December and March 19 with no public explanation. If no one on the board raises it, that's a question worth asking at public comment.
 
-- **Whether the word "school" is mentioned during the budget workshop scheduling item (E.5)** beyond just the label in the list. If a councilor asks a clarifying question about what "School" in the April 14 workshop will cover, Jaylen learns something. If it passes without comment, he learns something different.
+- **Student rep body language and whether they get to speak.** The February 9 precedent on the superintendent search was real, but it hasn't carried over to budget sessions yet. If student reps are in the room and given no speaking role again, that's a pattern worth naming — in your school newspaper piece if not at the mic.
 
-- **Any mention of the Human Rights Commission** — by name, by function, or by any description that matches its equity-facing work. Three vacancies from January resignations are being held open. If HRC seats are among them, and if nobody asks about it, that silence is part of the record.
+- **Whether any board member connects the 72 pink slips to specific program impacts.** The pink slips are already issued. If a board member says something like "these reductions include X department," that's new information. If no one says it, that's the thing to push on at public comment on April 7.
 
-- **The stormwater hire.** Watch whether any councilor makes the contrast explicit — a new city position is being created in the same budget season as 42 school positions are being eliminated. If no one makes that connection in public, Jaylen's school newspaper has a question worth asking.
+- **Superintendent search process references.** If the interim superintendent's approach to cuts is being presented, note whether it reflects any student input — and whether the new search timeline means a permanent superintendent will be hired after the referendum, not before.
 
-- **Body language during H.1 when the developer RFP question comes up.** If the council moves quickly past it, or if the vote is unanimous without discussion, it's a signal that this decision has already been made informally. If there's real disagreement, the theater and gymnasium question is genuinely live. Either way, the outcome matters.
+- **What Councilor Walker's pattern means for the April 7 public hearing.** She's named the compound harm consistently and been in the minority consistently. If the board session Monday produces a direction that ignores student impact, Walker's framing at council may be the only place it gets named publicly before the referendum — and you'll want that on record for any piece you write.
 
-- **Public comment speakers.** Who shows up to speak, about what, and which items drew enough concern for someone to come to city hall on a Thursday night. If parents or teachers speak about the school budget, Jaylen needs to track what they say — it's the clearest signal about what's mobilizing before the April 14 city budget workshop.
+- **Whether the April 7 public hearing is framed as genuinely open or as ratification.** Listen Monday for language like "we'll finalize this at the hearing" versus "this plan will be presented at the hearing." The difference tells you whether showing up and testifying can still change anything, or whether the April 7 hearing is a formality with the decision already behind it.

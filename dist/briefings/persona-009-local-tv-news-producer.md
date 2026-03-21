@@ -2,90 +2,74 @@
 schema_version: "1.0"
 persona_id: "PERSONA-009"
 persona_name: "Dana"
-upcoming_meeting_date: "2026-03-19"
-generated_date: "2026-03-17"
-has_agenda: true
-last_cumulative_meeting: "2026-03-09"
-inter_meeting_evidence_count: 0
+upcoming_meeting_date: "2026-03-23"
+generated_date: "2026-03-21"
+has_agenda: false
+last_cumulative_meeting: "2026-03-19"
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Dana (PERSONA-009)
-## Upcoming Meeting: 2026-03-19
+## Upcoming Meeting: 2026-03-23
 
 ## Since Last Meeting
 
-No new evidence has surfaced since the March 9 school board workshop. That quiet is itself a signal worth noting: the first of three consecutive March workshops was scheduled for yesterday, March 16 — and you have nothing on it yet. You're walking into a city council meeting tonight without knowing whether Workshop 1 produced direction, drama, or another procedural delay. Before the March 19 meeting starts, check your source (board member or active parent) for a read on how March 16 landed. If it went badly, the council room tonight may carry residual tension. If it produced movement, tonight's Mahoney discussion may be the bigger story.
+The most significant development is a Google Slides budget presentation published March 20 for the March 23 workshop. This is the first pre-meeting document Dana has that actually names what decisions are expected at the session — not just "workshop," but a structured presentation with personnel cuts, non-personnel cuts, **two** elementary closure options, and middle and high school reductions.
 
-The enrollment tick (+6 students as of March 9) also remains unaddressed in any official channel. No one on the board or administration has publicly acknowledged the counter-narrative it introduces to the closure justification. Watch for whether that number surfaces — or gets buried — in any council commentary tonight.
+This matters for Dana in a specific way: the slide deck confirms that March 23 is not a procedural meeting. The board is being asked to make choices — or at least signal direction — on questions that directly affect which buildings close, which teachers lose jobs, and which neighborhoods absorb the disruption. That makes this the meeting she has been calendar-blocking since March 9.
+
+Two elementary closure options are now on the table. Skillin was removed on equity grounds at the March 2 workshop; what's in the deck are the alternatives the administration has assembled since then. Dana does not yet know which two buildings, but the shift from "should we close a school" to "here are your two options, choose one" is a gear change that changes the stakes for everyone in the room.
+
+The 72 pink slips issued on March 18 are still fresh. Those employees were notified the day before the city council meeting and received zero formal agenda time there. That silence is a story Dana hasn't fully aired yet. If the March 23 presentation quantifies how many of those 72 are tied to whichever closure option the board accepts — or rejects — the pink slips become concrete and nameable rather than abstract.
 
 ---
 
 ## Open Questions
 
-Going into March 19, you're still holding:
+Dana is carrying these into the meeting:
 
-- **The calendar anchor is almost solved — but not quite.** April 14 is confirmed as Budget Workshop #1 on the city side. Is that the night a parent breaks down at the mic, or is the emotional peak actually at a school board workshop before then?
-- **Which school board meeting is worth the crew?** March 23 at Redbank is still your best candidate, but you haven't confirmed whether redistricting details will actually be ready by then — the administration couldn't answer logistics questions on March 2.
-- **Has the city council's 3% guidance shifted after February 10?** Nobody has publicly revised it. Is the silence consent, or are they waiting for tonight to move?
-- **Who is Project Home and what does real financial commitment actually look like?** The council voted down the eviction moratorium. Project Home was down to ten days of emergency funds. Is tonight's appropriation order the follow-through — or is it another $500 gesture?
-- **The Mahoney story and the school tax story are the same story.** Can I find one homeowner who can speak to both on camera? I still don't have that person.
-- **Does Feller's break from the 6% ceiling get company tonight?** She went public in February. Has anyone else moved?
-- **What about the state?** I have the 20% vs. 55% funding gap fully assembled and no legislator on camera. Does tonight produce any hook to make that call?
-- **Six finance directors in five years — is anyone in that building being held accountable, or is this going to be another administrative cycle with no consequences?**
-- **Are staff resignations accelerating?** Two special ed resignations as of March 9. Is that noise or signal?
-- **Will anyone go on record saying the word "death spiral"?**
+- **Which two buildings are the closure options, and where are they?** She needs a visual address, a neighborhood, a face — the way Red Bank gave the immigration story an anchor. "Option A" and "Option B" don't cut it on camera.
+- **How many of the 72 pink slips survive under each closure scenario?** She's been using "72 pink slips" as a number. She needs to know if any of those jobs come back depending on what the board decides tonight.
+- **Is there a teacher or ed tech from the March 18 cohort who will go on camera before that story goes cold?** She's been asking this since March 19. Tonight is the last realistic window.
+- **Will the board actually make a decision, or defer again?** She's watched this board overrule its own superintendent on Skillin in real time. Is tonight the night they move, or is this another round of workshopping?
+- **What does "decisions expected at the workshop" actually mean?** A straw poll? A formal vote? Direction to staff? She needs to know before she frames the segment.
+- **Will any board member break from the equity frame and name the fiscal math publicly?** Feller already abandoned the 6% ceiling. Is anyone ready to say on record that closing a school is unavoidable regardless of which one it is?
+- **Will parents from the affected neighborhoods show up, and who cries, who yells, who walks out?** That's her segment if it happens.
+- **Are the busing costs for the proposed options in this deck?** The administration had no answer when pressed on this in February. If they still don't have a number, that's a line.
+- **Does the enrollment uptick — up 6 students — get cited by anyone opposing closures tonight?** The counter-narrative she's been tracking since March 9 gets stronger if a board member or parent uses it as a reason to pump the brakes.
+- **Is the $8.4 million figure Matthews cited on March 19 now the official number, or is the administration still using $7.2 million?** She needs to know which number to put on screen.
+- **Is the Red Bank neighborhood specifically named in either closure option?** The community already has immigration stress layered on top of school disruption anxiety. If a closure option hits Red Bank, those stories merge.
 
 ---
 
 ## Agenda Implications
 
-**E.5 — Budget Workshop Schedule (setting April 14 and April 28 public hearings)**
-This is your calendar anchor, confirmed in writing. April 14, Budget Workshop #1, leads with **School**. The school budget is the first department in front of the city council on the night the fiscal year numbers land in the joint setting. That's the night the intergovernmental confrontation that blew up on February 10 will either resolve or escalate on the record — in an election-adjacent, publicly noticed format. Tonight's passage of this order is procedural, but you want to confirm: is there a public comment period attached to April 14, or is this council-only? If there's public testimony that night, it's worth a crew. Listen for whether any councilor signals how they're planning to approach the school portion on April 14 — any foreshadowing is usable context for your March coverage.
+No agenda is available. Based on the pre-meeting slide deck and Dana's cumulative tracking, here is what is likely to come up and how she should prepare.
 
-**H.1 — City Facilities / Mahoney Guidance**
-This is tonight's most camera-worthy item for your purposes. The council is being asked three explicit guidance questions: whether to proceed with the scaled-down Mahoney project, whether to pursue a public/private partnership RFP, and how to address library needs. These are the questions a five-hour session in January couldn't resolve. The combinatorial tax burden story you've been holding since January 13 — school tax increase *and* Mahoney bond landing on the same property tax bill — becomes narratively live the moment the council decides to proceed. Watch the vote split and the dissent. If it passes 4-3 or 5-2, the dissenters are your soundbyte. If it fails to reach a majority again, the paralysis is the story. The three specific questions being asked publicly tonight also tell you where the council's actual fault lines are — City Hall location and the public/private partnership question are the two most explosive. Questions to prepare: *How much would the scaled-down version add to the average homeowner's tax bill, and does that number compound with the school increase?* Get that math from the city manager's office tonight if it isn't in the position paper.
+**The two elementary closure options are the story.** The deck names them as the central decision. Dana should expect the administration to walk through each option with enrollment numbers, cost projections, and likely implementation timelines. She should listen for:
+- Which schools are named — she needs the building addresses for b-roll
+- Whether either option is in a lower-income or higher-minority-enrollment neighborhood, which layers the equity frame DeAngelos has used all season
+- Whether the superintendent recommends one option or presents both neutrally — if he recommends, watch for whether the board overrules him again
 
-**I.4 — Appropriating Funds for Project Home**
-This is a direct test of the pattern you documented: symbolic action versus financial commitment. The eviction moratorium failed on February 17. Project Home had roughly ten days of emergency housing funds as of that week. Tonight the council is voting on an actual appropriation. The amount is everything. A $10,000 gesture is a story about political theater. Real money — enough to carry Project Home through the spring — changes the frame. Get the dollar figure before the vote if you can. If the order is on the consent calendar or passes quickly with no debate, that's also a story: the council found money for Project Home the week the cameras are pointed at Mahoney. Listen for whether any councilor names the families being served — or doesn't.
+**Personnel reductions are going to get specific.** The deck includes personnel cuts at the middle and high school level, not just elementary. This is new terrain. If a coach, a counselor, or a specialist program gets named, that's a human story with a face. She should listen for any role that is described in concrete human terms, not just FTE counts.
 
-**I.1, I.2, I.3 — Postponed Orders from March 3**
-Three items that got bumped from the March 3 meeting. Without knowing their content, these are low-signal — but confirm quickly what they cover before the meeting starts. If any of them touch housing, taxation, or school-adjacent matters, they become relevant to your running threads.
+**Expect community testimony.** This is a workshop that will affect specific neighborhoods. Parents who attended the March 2 meeting know which way the wind is blowing. If the Redbank community has organized since the March 2 equity showdown, they may arrive in force. She should be ready to flag which speakers are from which neighborhood and whether any break down or go off-script.
 
-**I.5 — 279 Main Street Purchase**
-City is buying property on Main Street. On its own, not your story. But in the context of the Mahoney question on the same agenda — the city acquiring property while also being asked whether to rebuild a civic campus — it could contribute to a "what kind of city are we building" frame if you need connective tissue for a broader segment.
+**The "decisions expected" framing is worth pressing.** If this is a workshop where the board is supposed to signal direction, Dana should listen for whether they actually do — or whether they table it again with a promise of more information. A third consecutive deferral is itself a story: a board that received 72 pink slips and still can't choose.
 
-**C.2 — Sewer Revenue Bond**
-A sewer bond on top of Mahoney on top of a potential 18.95% school tax increase. South Portland's sewer rate sits in the middle of the pack at ~$56/month — that's defensible on its own. But the layering is the story. If tonight produces any public comment about municipal cost accumulation, file that away. You don't have your dual-burden homeowner yet. Any resident who shows up tonight to complain about any of these costs simultaneously is a lead to follow.
-
-**D — Appointment Calendar (postponed to April 7)**
-Three current vacancies from January resignations plus multiple upcoming term expirations. The postponement itself is procedural — but check what boards these vacancies are on. If any of them sit on a budget advisory or oversight body, the governance collapse thread gets one more data point.
-
-**E.1, E.2 — Proclamations (Savannah Johnson, Julie Shane)**
-Human interest potential only if either of these individuals has a connection to the school budget story — a teacher, a community advocate, someone whose role is being eliminated. Worth a ten-second check before the meeting. Otherwise, this is your b-roll opportunity while the room fills: faces, reactions, the physical chamber where the fiscal decisions happen.
-
-**G.1, G.2 — Liquor Licenses**
-Not your story tonight.
+**Prepare one smart follow-up question for her reporter.** Based on the deck, the most camera-ready question a reporter can ask a board member on the way out: *"You have two options in front of you tonight. Which one were you leaning toward, and what would change your mind?"* That gets a usable answer regardless of what the board does.
 
 ---
 
 ## Watch For
 
-- **The Mahoney vote split.** You need the specific vote count and any verbal dissent on the record. A 4-3 or deadlocked result is a stronger story than unanimous passage. If it splits, the dissenting voice is your soundbyte for a segment that ties Mahoney and school taxes together as the dual burden on South Portland homeowners.
-
-- **Project Home dollar amount and who speaks to it.** Before or immediately after I.4 is called, confirm the appropriation figure. Any councilor who names the immigrant families being protected — or pointedly does not — is quotable. The contrast between this vote and the February 17 eviction moratorium failure is your narrative engine.
-
-- **Any councilor who voluntarily says a number for April 14.** If someone tonight signals what school tax increase they'd accept, or what they plan to ask the superintendent at Budget Workshop #1, that's a preview of the April 14 confrontation you can use to frame your next segment.
-
-- **Feller's body language and vote on anything touching fiscal guidance.** She was the first councilor to publicly break from the 6% ceiling. Does she signal anything tonight about where she's landed for April 14?
-
-- **The city manager's framing of Mahoney vs. the school situation.** The city manager named the February guidance process as "unfair" on January 6. Tonight he's presenting on a city capital project while the school department is in certified institutional failure. If he draws any explicit contrast — even an implicit one through confidence level — that's a storytelling moment.
-
-- **Whether anyone in the room mentions the school budget during Mahoney discussion.** The connection between these two tax increases has been made in hallways and source calls but not yet on camera in one sentence. If a resident or councilor makes it tonight, that's the clip that ties your season together.
-
-- **Room temperature and attendance.** How full is the chamber? Is there organized public testimony, or is this a sparse procedural night? If the room is empty for Mahoney, that's itself a story about public engagement — or its absence — that rhymes with the three-person virtual stakeholder session you've already clocked.
-
-- **Any comment or question about the March 16 school board workshop.** Councilors may reference what happened at the first March school budget workshop as context for tonight's fiscal discussions. That's your first read on Workshop 1 if your source hasn't called back yet.
-
-- **Signs of acceleration in governance vacancies.** Three board/committee resignations in January, multiple term expirations coming — if any councilor or staff member names the governance strain out loud tonight, you have new material for the institutional failure thread.
-
-- **Tone shift from February 10.** The last joint moment on camera was open warfare. How do these same councilors behave toward school-related topics tonight — even obliquely? Any thawing or hardening is preview material for April 14.
+- **The moment a board member names a specific school out loud for the first time under the new closure options.** That is the clip the segment will open on. It will probably happen early in the administration's presentation, not in public comment.
+- **Any board member who visibly checks their phone, leans back, or breaks eye contact when the cost projections are read aloud.** DeAngelos in particular has held the equity frame against fiscal math all season — watch whether that posture holds under two concrete options rather than one.
+- **The first parent who uses a child's name or a teacher's name in public comment.** "My daughter's teacher" beats "the affected educators" every time. Dana's reporter needs to be positioned at the mic when this happens.
+- **Whether the administration has busing cost figures in the presentation.** At the February workshops, they had no answer when pressed. If tonight's deck still doesn't have a number, that's a question that goes on camera: *"You're recommending a reconfiguration that requires busing, and you still don't have the cost?"*
+- **Whether any board member cites the enrollment uptick — 6 additional students — as a reason to delay or reconsider closures.** If that argument surfaces, it directly undercuts the declining-enrollment justification that has anchored all closure logic since December 17.
+- **The gap between the $7.2 million number in all prior coverage and the $8.4 million figure Councilor Matthews used on March 19.** If the board or administration uses $8.4 million tonight as the official number, Dana's prior segments are slightly off and she needs to correct forward.
+- **Whether any of the 72 pink slip recipients are in the room.** A teacher sitting in the audience while the board debates whether to close her building is the visual story Dana has been waiting to produce since March 18.
+- **Feller specifically.** She was the first board member to publicly break from the 6% tax ceiling. Watch whether she signals support for one closure option over the other, or whether she pushes back on both. She has established herself as the board's on-record dissenter — that makes her the most useful post-meeting soundbyte source in the room.
+- **Whether anyone uses the word "referendum" and what they say around it.** The spring vote deadline is approaching. If a board member or administrator names the referendum window tonight, that's the sentence that tells a general-audience viewer why this meeting actually matters.
+- **The tone in the room when public comment opens.** March 2 had the equity showdown; March 9 was quieter. A meeting where two specific buildings are named and two specific closure options are on the table will read differently in the room. If the gallery is full and tense before the meeting even starts, send the crew; if it's sparse and procedural, Dana can watch at 2x.

@@ -1,6 +1,6 @@
 ---
 name: swain-doctor
-description: "ALWAYS invoke this skill at the START of every session before doing any other work. Validates project health: governance rules, tool availability, memory directory, settings files, script permissions, .agents directory, and .tickets/ validation. Auto-migrates stale .beads/ directories to .tickets/ and removes them. Remediates issues across all swain skills. Idempotent — safe to run every session."
+description: "Auto-invoked at session start when swain-preflight detects issues. Also user-invocable for on-demand health checks. Validates project health: governance rules, tool availability, memory directory, settings files, script permissions, .agents directory, and .tickets/ validation. Auto-migrates stale .beads/ directories to .tickets/ and removes them. Remediates issues across all swain skills. Idempotent — safe to run any time."
 user-invocable: true
 license: MIT
 allowed-tools: Bash, Read, Write, Edit, Grep, Glob
@@ -98,6 +98,43 @@ Memory directory, settings validation, script permissions, .agents directory, an
 
 Verify vendored tk is executable at `skills/swain-do/bin/tk` and check for stale lock files. **Skip if `.tickets/` does not exist.** See [references/tickets-validation.md](references/tickets-validation.md) for details.
 
+## swain-box symlink
+
+Ensure `./swain-box` exists as a symlink to the installed `swain-box` script so operators can launch Docker Sandboxes from the project root. The script is distributed inside the swain skill tree at `*/swain/scripts/swain-box`. **Skip if the script cannot be found.**
+
+### Detection
+
+```bash
+SWAIN_BOX_SCRIPT=$(find . .claude .agents -path '*/swain/scripts/swain-box' -print -quit 2>/dev/null)
+if [ -n "$SWAIN_BOX_SCRIPT" ]; then
+  # Get relative path from project root
+  SWAIN_BOX_REL=$(python3 -c "import os,sys; print(os.path.relpath(sys.argv[1]))" "$SWAIN_BOX_SCRIPT" 2>/dev/null || echo "$SWAIN_BOX_SCRIPT")
+  if [ -L swain-box ] && [ "$(readlink swain-box)" = "$SWAIN_BOX_REL" ]; then
+    echo "ok"
+  elif [ -e swain-box ] && [ ! -L swain-box ]; then
+    echo "conflict"  # a real file named swain-box exists — do not overwrite
+  else
+    echo "missing"
+  fi
+fi
+```
+
+### Remediation
+
+- **ok** — silent, no output.
+- **missing** — create the symlink automatically:
+  ```bash
+  ln -sf "$SWAIN_BOX_REL" swain-box
+  ```
+  Report: `swain-box symlink created (./swain-box → $SWAIN_BOX_REL)`
+- **conflict** — warn: `./swain-box exists but is not a symlink — skipping. To fix manually: rm swain-box && ln -sf <path> swain-box`
+
+### Status values
+
+- **ok** — symlink present and correct
+- **repaired** — symlink created
+- **warning** — conflict (real file); manual action needed
+
 ## Lifecycle directory migration
 
 Detect old phase directories from before ADR-003's three-track normalization. Old directory names: `Draft/`, `Planned/`, `Review/`, `Approved/`, `Testing/`, `Implemented/`, `Adopted/`, `Deprecated/`, `Archived/`, `Sunset/`, `Validated/`.
@@ -122,8 +159,8 @@ done
 
 1. List each old directory and its artifact count.
 2. Explain: "ADR-003 normalized artifact lifecycle phases into three tracks. Old phase directories need migration."
-3. Check for the migration script: `skills/swain-design/scripts/migrate-lifecycle-dirs.py`
-   - If available: offer to run `uv run python3 skills/swain-design/scripts/migrate-lifecycle-dirs.py --dry-run` first, then the real migration.
+3. Check for the migration script: `$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/migrate-lifecycle-dirs.py' -print -quit 2>/dev/null)`
+   - If available: offer to run `uv run python3 "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/migrate-lifecycle-dirs.py' -print -quit 2>/dev/null)" --dry-run` first, then the real migration.
    - If unavailable: provide manual `git mv` instructions using the phase mapping from ADR-003.
 4. After migration, clean up empty old directories.
 
@@ -253,7 +290,8 @@ If any EPICs are found without `parent-initiative`:
 Run the scan helper to list all epics without `parent-initiative`, grouped by `parent-vision`:
 
 ```bash
-bash skills/swain-doctor/scripts/swain-initiative-scan.sh
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+bash "$REPO_ROOT/skills/swain-doctor/scripts/swain-initiative-scan.sh"
 ```
 
 Analyze the output and propose initiative clusters. For example:
@@ -309,8 +347,8 @@ They can defer — everything defaults to `medium` and the system works without 
 Run specgraph to verify the new hierarchy looks correct:
 
 ```bash
-bash skills/swain-design/scripts/chart.sh
-bash skills/swain-design/scripts/chart.sh recommend
+bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/chart.sh' -print -quit 2>/dev/null)"
+bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/chart.sh' -print -quit 2>/dev/null)" recommend
 ```
 
 Check that initiatives appear in the tree and that recommendations reflect the new structure.
@@ -329,8 +367,8 @@ Detect unmigrated evidence pools:
 - If any artifact frontmatter contains `evidence-pool:`: warn and offer migration
 - If both `docs/troves/` and `docs/evidence-pools/` exist: warn about incomplete migration
 
-Migration script: `bash skills/swain-search/scripts/migrate-to-troves.sh`
-Dry run first: `bash skills/swain-search/scripts/migrate-to-troves.sh --dry-run`
+Migration script: `bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-search/scripts/migrate-to-troves.sh' -print -quit 2>/dev/null)"`
+Dry run first: `bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-search/scripts/migrate-to-troves.sh' -print -quit 2>/dev/null)" --dry-run`
 
 ## Summary report
 

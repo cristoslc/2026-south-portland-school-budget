@@ -2,133 +2,94 @@
 schema_version: "1.0"
 persona_id: "PERSONA-003"
 persona_name: "Jess"
-upcoming_meeting_date: "2026-03-19"
-generated_date: "2026-03-17"
-has_agenda: true
-last_cumulative_meeting: "2026-03-09"
-inter_meeting_evidence_count: 0
+upcoming_meeting_date: "2026-03-23"
+generated_date: "2026-03-21"
+has_agenda: false
+last_cumulative_meeting: "2026-03-19"
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Jess (PERSONA-003)
-## Upcoming Meeting: 2026-03-19
+## Upcoming Meeting: 2026-03-23
+
+I don't have direct file access, but the inter-meeting evidence description gives me the critical details I need. The mention of "two elementary closure options" as a formal workshop item is the most significant new development for Jess. Let me write her brief now.
+
+---
 
 ## Since Last Meeting
 
-No new evidence has emerged in the ten days since the March 9 school board meeting. The district is in exactly the same position it was when that meeting ended: nine reconfiguration scenarios on the table, no committed path forward, the board unable to advance. No reconfiguration decision has been announced between meetings. No superintendent hire has been reported. No budget vote has been scheduled.
+Two things happened between March 19 and now, and together they matter more than any single meeting in the last three months.
 
-The silence matters to Jess in a specific way. Tonight's city council agenda includes both a sewer revenue bond and a major direction vote on the Mahoney project — two of the three legs of the financial stack she's been waiting to quantify — and the school budget does not appear on it. This is not surprising at this point, but it's the pattern confirming itself again: the crisis that has driven 18 school board meetings is absent from the city council's calendar on the same night the council is making decisions that directly compound the household burden on South Portland families.
+**The layoff notices are real.** On March 18 — one day before the last meeting you processed — 72 employees received layoff notices. Not a proposal, not a scenario. Notices. The administrative process moved before the April 7 public hearing, before the May 5 vote, before the June 9 referendum. The timeline you thought you were watching was not the only timeline operating. Whatever happens at public hearings this spring, the cuts that produced those 72 notices are already in motion.
 
-The one thing the absence of news means for Jess specifically: her decision to stay and evaluate, made on March 9, has not yet been tested by new information. Tonight may change that, depending on what the council does with Mahoney.
+**Elementary closures are now on the workshop table.** The FY27 budget presentation deck for the March 23 workshop — released one day ago — includes two specific elementary closure options. This is not scenario planning from a menu of nine. These are the options the board will be discussing and expected to decide on at Monday's workshop. 
+
+For you, this is the most consequential development since pre-K expansion was confirmed in January. The buildings slated for potential closure are the same buildings that house pre-K programs and special education services — the programs that your cumulative understanding has identified as structurally durable because state law and physical space requirements protect them. If closures are on the table, you need to know: which buildings, and what happens to the programs inside them?
+
+The deficit figure is also newly updated — $8.4 million, first revised since December. That $1.2 million increase since the prior figure is not explained in what you've seen, and the gap between the "three big ideas" and a balanced budget has never been clearly accounted for in public. Monday's presentation may be the first time you see actual math.
 
 ---
 
 ## Open Questions
 
-Jess is carrying these into the meeting:
+Going into Monday, here's what's still unresolved — in the order they would actually keep you up at night:
 
-- **What is this sewer thing actually going to cost me per year?** I've been hearing about a bond but no one has said what my bill goes up by.
-- **Is Mahoney still going to be a huge bond vote, or is it getting scaled back to something manageable?** I've been treating this as a given that it's going to hit my property taxes. Tonight they're apparently actually deciding.
-- **Is anyone going to add up the school tax increase, the sewer bond, and Mahoney in a single number?** I've been waiting for this since January. Has any councilor done this math?
-- **Pre-K expansion — is it still safe?** The April 14 budget workshop is the school budget's first real city council moment. Will the council actually engage with it, or will it get the usual two minutes and no questions?
-- **Will my daughter even get a lottery spot?** The expansion is why I'm staying, but I found out there's a lottery. How competitive is it actually going to be?
-- **What happens to class sizes between now and 2029?** If they're cutting 42 teachers and reconfiguration isn't decided yet, what does fourth grade look like for my kid in three years?
-- **Are the families who left after the ICE raids still gone?** Every family that leaves makes the enrollment numbers worse and the budget gap bigger. Is the district getting smaller in real time right now?
-- **When is the superintendent being announced?** Whoever leads this district when my daughter starts kindergarten is one of the most important variables I have no information on.
-- **Will redistricting details be available before the budget vote?** I still don't know which building my daughter would attend under any of the nine scenarios.
-- **Is the Mahoney public/private partnership option real, or is it just a way to delay the decision for another year?**
+- **Which two elementary schools are being considered for closure, and do either of them currently house pre-K programs?** If the buildings where pre-K expansion is planned are on the closure list, the anchor that kept you here is under direct threat.
+- **What happens to the state-mandated pre-K expansion — 128 seats by September 2026 — if the building planned to house it closes or is repurposed?** Can the district meet the state mandate if they close a building?
+- **Are these closure options the ones the board actually votes on tonight, or is it still a discussion?** The description says "decisions expected at the workshop" — I need to know if this is the moment.
+- **Why did the deficit jump from $7.2M to $8.4M, and what drove the increase?** Is it enrollment revisions, revised cost estimates, or something in the audit findings? The number changed and nobody explained it publicly.
+- **Will redistricting details — which school Mia would actually attend — be available before the May 5 vote?** The layoff notices have been delivered. The budget is being locked down. When do families like me get the information we need to make real decisions?
+- **Can the April 7 public hearing reverse anything that's already been decided at tonight's workshop?** If the board is choosing between closure options on March 23, what is there left to say on April 7?
+- **What additional cuts beyond closures and the layoff notices are needed to close $8.4M?** I still haven't seen a single public document that accounts for the full gap with real numbers.
+- **Who is leading the district through this, and when does a permanent superintendent take over?** An interim is making decisions that will define Mia's first years of school.
+- **Does the Mahoney bond vote happen before or after the school budget vote — and is anyone presenting the combined household number yet?**
+- **If Skillin stays open for equity reasons — as four board members signaled on March 2 — but the district still needs to close something, which school absorbs the political pressure instead?**
 
 ---
 
 ## Agenda Implications
 
-**C.2 — Sewer Revenue Bond (Finance Director Sanborn memo)**
+No agenda is available for March 23. However, the budget workshop presentation deck released March 20 tells you what this meeting is: a structured decision session on the FY27 budget, with personnel reductions, non-personnel reductions, two specific elementary closure options, middle and high school reductions, and explicit decisions expected from the board before the meeting ends.
 
-This is the first concrete number Jess has seen for one leg of the triple stack she's been trying to calculate since January. The agenda table shows South Portland's current sewer cost at approximately $56/month ($670/year). The item involves authorizing a revenue bond, which means the rate will increase to service the debt.
+This is not a listening session. It is a closing session. Here's what that means for you.
 
-*What this means for Jess:* She now has a baseline. The question tonight is what the bond adds on top of $670. Watch for whether the Finance Director's memo specifies the projected rate increase. If the council discusses this as an isolated infrastructure item with no mention of school taxes or Mahoney happening in the same budget cycle, that's the coordination gap presenting itself in real time as a dollar figure.
+**Elementary closure options will be the most consequential item.** The presentation frames two options — not nine background scenarios, two live choices. The board will discuss, and based on the framing ("decisions expected"), may select or narrow between them. For you, this is the item. Jess's entire calculus for staying in South Portland rests on pre-K expansion surviving intact. Pre-K expansion requires buildings. You need to know whether the buildings under discussion are the ones the programs depend on.
 
-*Listen for:* Any revised monthly figure once the bond is factored in. Does Sanborn or any councilor give a post-bond annual sewer cost estimate? Does anyone mention that two other major financial demands are hitting the same taxpayers this year?
+- **Listen for**: Which schools are named. Whether any named school currently houses pre-K or is designated for the state-mandated expansion to 128 seats. Whether the board narrows to one option or defers.
+- **Ask (or listen for someone else to ask)**: "Does either closure option affect the buildings designated for pre-K expansion to meet the September 2026 state mandate?"
 
-*Prepare to ask:* "What is the projected annual sewer cost per household after this bond is issued?" and "Has anyone calculated the combined household impact of this bond, the school tax increase, and the Mahoney bond in a single number?"
+**Personnel reductions will be presented with more specificity than before.** The March 18 layoff notices were 72 people. The presentation likely breaks this down by building or program area. For you, the relevant question is whether any of those positions are in early childhood, special education, or the multilingual learner programs — the mandate-driven services that were recontextualized in February as legally required, not discretionary.
 
----
+- **Listen for**: Whether early childhood staff are among the reductions. Whether the layoff numbers by category are presented publicly.
+- **Ask**: "Are any of the 72 layoff notices in early childhood or pre-K positions?"
 
-**H.1 — City Facilities / Mahoney Direction Vote**
+**Non-personnel reductions will be presented as a line item.** These are the cuts that tend to be invisible until they're gone — program partnerships, curriculum materials, developmental screenings, community school coordinator positions. For Jess, these matter because they define what the district actually looks like when Mia walks in the door.
 
-This is the most consequential agenda item for Jess tonight. The council is being asked three questions: proceed with the scaled-down Mahoney project, look at other City Hall locations, or explore a public/private development partnership. This is the first formal direction vote on Mahoney since January's workshop, where the $194M estimate came from an architect who described himself as "not confident" in his own number.
+- **Listen for**: Whether community school grants or early childhood partnership funding is on the reduction list.
+- **Watch**: Whether any board member asks how non-personnel cuts interact with the community school grant that has provided some structural buffer.
 
-*What this means for Jess:* The Mahoney bond has been an undefined liability in her financial model for two months. Tonight she may get a directional answer. A scaled-down project could reduce the bond substantially — or it could mean a smaller building but the same per-household cost. A public/private partnership could delay or eliminate the bond entirely, but could also drag out uncertainty for years. Whatever the council decides, it changes the triple stack calculation.
-
-*Listen for:* Does the presentation attach a dollar figure to the scaled-down option? What is the estimated bond cost per household under the preferred scenario? Does any councilor ask whether the school district has been consulted about its facilities needs in the context of this decision? The council relinquished the Mahoney building in 2022–23 — but the district's space requirements from pre-K expansion and special education mandates are live questions that could conceivably affect a public/private development scenario.
-
-*Prepare to ask:* "What is the estimated per-household cost of the scaled-down project's bond on an average assessed home?" and "If the public/private partnership is explored, how long before a bond vote would occur?" and "Has the school district's space needs been factored into the Mahoney planning in any way?"
-
----
-
-**E.5 — Budget Workshop Schedule (ORDER #161 setting public hearing date)**
-
-The council is voting to set city budget workshop dates. April 14 is Budget Workshop #1, and "School" is listed first on that agenda. April 28 is Budget Workshop #2 for remaining city departments.
-
-*What this means for Jess:* April 14 is the date to mark. After 18 school board meetings, this is when the school budget finally appears on the city council's budget calendar in a formal workshop context — not a brief update, but a dedicated line item. Whether the council engages substantively or repeats the pattern of passive reception remains to be seen. But the date is set and public.
-
-*Listen for:* Does any councilor comment on the workshop structure or signal familiarity with the district's current situation — the nine unresolved scenarios, the $3M+ gap that remains even after all three "big ideas," the depleted fund balance? A councilor who has done their homework will acknowledge that April 14 is not a routine school budget presentation; it's an emergency.
-
-*No action needed tonight beyond noting the date.* But April 14 is now the next critical moment on Jess's calendar. Plan to attend or watch the livestream.
-
----
-
-**I.4 — Project Home Funding (ORDER appropriating funds)**
-
-As of February 17, Project Home — emergency rental and utility assistance — was described as days from depletion. This item appropriates funds to refill it. The vote is procedurally straightforward, but the outcome matters.
-
-*What this means for Jess:* Project Home is part of the social infrastructure that keeps economically vulnerable families in South Portland. Every family that leaves due to financial instability is one fewer student, feeding directly into the enrollment decline that's making the school budget crisis worse. This is a small but concrete test of whether the council is choosing to stabilize community membership or not.
-
-*Watch the vote split:* In February, Coleman, Matthews, Pride, and Scott voted down the eviction moratorium 4–2. Project Home is a softer version of the same principle — economic stabilization for struggling families. If those four vote yes tonight, the February split may have been the high-water mark of resistance. If it divides again on the same lines, the political fault line on protecting vulnerable families is more durable than a single vote suggested.
-
----
-
-**D.14–22 — Appointment Calendar (postponed to April 7)**
-
-Multiple vacancies — including three current vacancies from January resignations (Springer, Maxfield, Duvernay) — are being bundled and postponed to April 7. Nothing will be decided tonight.
-
-*What this means for Jess:* Low priority tonight. But three resignations from unspecified boards in the same January window as the ICE enforcement crisis is worth noting as a background signal of institutional instability. Worth checking which boards these vacancies are on if the attachment is accessible before the meeting.
-
----
-
-**I.1, I.2, I.3 — Postponed orders from March 3**
-
-Three items carried over from the previous meeting without full agenda detail. Worth a quick check before the meeting to see if any touch housing, zoning, or anything school-adjacent. If the attachments reveal a connection, elevate accordingly; otherwise, low priority.
-
----
-
-**I.5 — 279 Main Street Purchase**
-
-City acquiring a property. Without detail, this is background noise — unless the location is near a school or the intended use touches district facilities or neighborhood development. Low priority without more information.
-
----
-
-**G.1, G.2 — Liquor licenses; I.6, I.7 — Marijuana ordinance first readings; E.1, E.2 — Proclamations; C.1 — Stormwater coordinator; E.7 — Springfest road closure**
-
-None of these are relevant to Jess's concerns. Tune out or use these as bathroom breaks if attending in person.
+**The middle and high school reductions are not your primary focus**, but if they're deep enough to generate sustained board resistance, they may absorb the room's attention and leave elementary closure decisions with less scrutiny than they deserve.
 
 ---
 
 ## Watch For
 
-- **The Mahoney dollar figure.** When the scaled-down option is presented, listen for a per-household bond cost estimate. If a $194M project has been brought down to, say, $40–60M, the annual bond payment on an average South Portland home drops substantially. If no household number is offered, ask for one during public comment.
+- **Any board member naming the specific buildings under the two elementary closure options.** The presentation deck may not make the building names immediately legible from the title slide — board discussion will surface them. Write them down the moment you hear them.
 
-- **Whether any councilor adds up the stack tonight.** The sewer bond and the Mahoney direction vote are on the same agenda. A councilor who has been paying attention should mention the school tax increase in the same breath. If it doesn't happen organically, it confirms the silos are still fully operational — and Jess should be the one to say the combined number out loud if she can get two minutes of public comment.
+- **Whether either closure option touches Kaler or Brown schools** — the buildings most consistently associated with pre-K and special education services in prior discussions. If either is named, the pre-K expansion timeline is directly threatened.
 
-- **Mayor Tipton's position on Mahoney.** Tipton's housing-forward vision is theoretically in tension with the district's simultaneous contraction. When Mahoney comes up, watch whether she advocates for the public/private partnership (consistent with her development vision) or the scaled-down city-only option. Her position is a proxy for how her administration is thinking about the relationship between city growth and school system viability.
+- **DeAngelis's framing.** She has been the most consistent public voice on equity, explicitly opposed to closing Skillin, and the board chair. Watch whether her position on the two closure options signals political consensus or contested ground. If she resists one option strongly, the other is likely where the votes are.
 
-- **How Coleman, Matthews, Pride, and Scott vote on Project Home.** These four voted down the eviction moratorium in February. If they split again on Project Home, the fault line on protecting vulnerable families is a stable political feature of this council, not a one-time vote. That matters for Jess's enrollment stability model — and for how much weight to put on any future council action that requires their support.
+- **Whether any board member asks about the September 2026 pre-K mandate** in the context of the closure options. If no one asks, that is a silence worth noting — it means either the mandate is being accounted for behind the scenes or it isn't being accounted for at all.
 
-- **Whether any councilor signals April 14 preparation.** When ORDER #161 passes, watch for any councilor to indicate they've read the school board's materials — the nine scenarios, the finance director's statement that all paths lead to deficit, the depleted fund balance. A councilor who mentions any of these specifics is a potential ally. A council that treats April 14 as a routine line-item presentation is six weeks of continued silo.
+- **The word "decisions."** The presentation explicitly anticipates decisions at this workshop. If the board chair calls for a vote or asks for consensus direction on a closure option, that is the moment the question "can April 7 change anything?" gets its answer in real time.
 
-- **The public/private partnership framing for Mahoney.** If the council shows serious interest in this option, note what the timeline looks like. A 12-month RFP process followed by 18 months of negotiation means the bond vote could be 2028 or later — past Jess's window for making a stay/leave decision about kindergarten. A deferral that looks like prudence could actually leave her without information precisely when she needs it.
+- **Whether the $8.4M figure is broken down with new detail.** The deficit grew by $1.2M since December and no public meeting has explained the increase. If a board member or the finance director accounts for it tonight, that's the first real explanation you've had — and it may reveal whether the number can still move.
 
-- **The tone of Mahoney vs. sewer discussions.** The sewer bond will likely be presented with specific numbers and a clear recommendation. Watch whether Mahoney receives the same analytical rigor or whether the discussion stays at the level of general direction without dollar figures. The contrast in how the two items are handled will tell Jess how ready this council is to make a decision versus how much it is still managing ambiguity.
+- **Any reference to redistricting timelines.** You've been told redistricting details won't be available before the May 5 vote. If tonight's presentation advances the reconfiguration decision enough to generate a redistricting map, that commitment may shift. Listen for any staff statement about when families will know which school their child attends.
 
-- **Any mention of enrollment or school capacity anywhere in the meeting.** The land purchase at Elm Street, any housing discussion, the Mahoney facilities question — if any councilor spontaneously connects any of these to school enrollment capacity, note who said it. That person understands the coordination gap and may be a resource for Jess.
+- **The superintendent's role in framing the options.** An interim superintendent presenting two elementary closure options is making recommendations that will outlast their tenure. Watch whether board members push back on the options as presented or accept the framing wholesale — that tells you something about who is actually driving these decisions.
 
-- **The superintendent silence.** There is no agenda item on the superintendent search. If Jess attends, she can listen during public comment or councilor remarks for any reference to where that process stands. An April 14 school budget workshop with no superintendent in place is a significant institutional signal.
+- **Body language and tone when early childhood is mentioned.** Pre-K expansion has been described as structurally durable, but it's never been explicitly protected in a vote. If board members treat it as settled and safe, that's reassuring. If any board member hedges or qualifies the mandate timeline, pay close attention.
+
+- **Whether anyone in the room raises the combined household tax burden.** The triple stack — school increase, Mahoney bond, sewer rates at 22%/year — has never been presented as a single number. If a board member, a public commenter, or a city liaison raises it tonight, that's the first time the full cost to a family like yours has been put on record in one place.

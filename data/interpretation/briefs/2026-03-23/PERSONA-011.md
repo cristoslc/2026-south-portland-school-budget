@@ -3,10 +3,10 @@ schema_version: "1.0"
 persona_id: "PERSONA-011"
 persona_name: "Meg"
 upcoming_meeting_date: "2026-03-23"
-generated_date: "2026-03-20"
+generated_date: "2026-03-21"
 has_agenda: false
 last_cumulative_meeting: "2026-03-19"
-inter_meeting_evidence_count: 0
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Meg (PERSONA-011)
@@ -14,80 +14,59 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new evidence has surfaced in the period between March 19 and March 23. No documents were released, no statements were made publicly, and no follow-up reporting has clarified outstanding questions.
+The most significant development is the emergence of the **March 23 budget workshop presentation deck** (Google Slides, dated 2026-03-20). This is directly useful to you in a way it wouldn't be to most people watching Monday's meeting: you now have access to the document before the meeting starts. That means you can load the deck on your iPad while you watch the stream on your phone — the cross-referencing workflow you've been doing manually under pressure is partially solved tonight if you pull that deck now.
 
-For Meg, that silence is itself meaningful. The two biggest unresolved items heading into tonight — the $8.4M vs. $7.2M deficit discrepancy and whether the 72 layoff notices issued March 18 map cleanly to the 78 positions she's been citing for three months — remain unresolved. She's been holding the $8.4M figure since Councilor Matthews cited it on the record March 19, unwilling to update her group chats until she can reconcile it with the $7.2M number her credibility is built on. If March 23 passes without a clarification from the superintendent or CFO, that discrepancy will have been live for five days with no official explanation.
+What the deck reportedly covers: the current FY27 proposal, personnel and non-personnel reductions, **two elementary closure options**, middle and high school reductions, and the decisions the board is expected to make at the workshop.
 
-The quiet also means Meg is going into a high-stakes workshop — the designated decision point on elementary reconfiguration — with no leaked agenda, no preview documents, and no indication of which of the nine options the board intends to discuss seriously. She's prepared to watch the whole thing cold.
+That phrase — **two elementary closure options** — is the detail that should stop you cold. Your running record says the "no school closures" thread was resolved in February: buildings were needed for state-mandated pre-K expansion. But if the March 23 deck is presenting closure options (not just reconfiguration options), something has shifted, or the language is being used differently than you've been using it. This is exactly the kind of figure/framing discrepancy that has burned relays before. You need to know whether "closure option" in this deck means the same thing as it would mean in your group chat — a building shutting down — or whether it refers to closing a grade configuration within a building. Don't post on this until you know which it is.
+
+The other unresolved piece you're carrying in is the **$8.4M vs. $7.2M gap discrepancy** from Councilor Matthews' March 18 statement. This workshop may or may not address it directly, but any budget presentation should make the current deficit figure legible. Watch the cover slide.
 
 ---
 
 ## Open Questions
 
-Meg is carrying a lot into tonight. In her voice:
-
-- **The number problem:** Feller and the board have been saying $7.2M since December. Matthews said $8.4M on the record last Wednesday during an unrelated vote. Nobody has corrected him or explained the difference. Which number is tonight's budget conversation going to use — and if it's $8.4M, when did the gap grow and why am I only hearing it sideways?
-
-- **The pink slip math:** They sent 72 layoff notices on Tuesday. I've been telling people 78 positions for three months. Are those the same thing? Did six positions get saved somewhere, or is this two different counts measuring two different things? I need to be able to say one number with confidence.
-
-- **Which reconfiguration option is actually on the table tonight?** The board killed Option 1.7 (Skillin closure) before March 2 was even over. There are eight other options. Do they have a shortlist, or are we going through all nine again?
-
-- **What's the savings number now that Skillin is off the table?** Option 1.7 was the superintendent's top pick for a reason. Whatever option survives tonight saves less. How much less — and where does that gap go?
-
-- **Do they have school-by-school staffing impact data?** The layoff notices are out. Parents in my chats are asking which schools lose which positions. I have aggregate numbers. I don't have building-level breakdowns I can stand behind.
-
-- **Is September 2026 still the reconfiguration target?** They haven't made a decision and it's the end of March. If they pick an option tonight, is there enough runway to actually implement it for fall?
-
-- **What happens to the two SpEd positions at Brown and Dyer?** Mingle left Brown, Beland left Dyer. With layoff notices going out, are those vacancies going to be filled or just quietly left open?
-
-- **Will any of the reconfiguration options get a formal vote tonight, or is this another workshop where nothing is decided?**
-
-- **When do we get the full budget document ahead of April 14?** I need page numbers I can cite. What gets posted and when?
+- **Which number is right — $7.2M or $8.4M?** Matthews said $8.4M on the record on March 18. The deck was published March 20. Which figure is on the cover slide? If the district is still presenting $7.2M, I need to flag the discrepancy in my summary, not just pick the lower number because it's familiar.
+- **What exactly do "two elementary closure options" mean?** Are we talking about physically closing a building? Or is this reconfiguration language I've been misreading? This could be the biggest news of the night or a nothing-burger depending on the answer.
+- **Which reconfiguration options survived?** Nine were on the table March 2. Skillin closure is off politically. What's the board actually voting on tonight — or are they just narrowing the field?
+- **Do the 72 layoff notices map to the same 78 positions I've been reporting?** If the deck has a position-cut breakdown, I need to compare it against what I've told my networks since December.
+- **Is there any school-by-school breakdown in this deck?** My networks have kids at Brown, Dyer, Skillin, and elsewhere. If the deck just shows aggregate numbers, I'm going to have to do the inference live again.
+- **What are the middle and high school reductions specifically?** I have a kid at the middle school. "Middle and high school reductions" in the deck summary is vague — I need the specifics.
+- **Where does the remaining $3M+ in unidentified cuts come from?** Has the deck filled in that blank, or is it still a gap?
+- **Will the tightened public comment rules limit what I can hear from the community?** The new policy tightened rules right before this critical workshop. If public comment is compressed, I'm going to be posting board decisions without the community reaction context my networks care about.
+- **Will they actually make a decision tonight, or are they kicking to April 14?** The budget calendar has April 14 as the next workshop. If tonight is just more narrowing, my summary needs to say that clearly — my networks will want to know whether this is still moveable.
 
 ---
 
 ## Agenda Implications
 
-No agenda has been published for the March 23 workshop. Based on what the board designated this meeting for — and where the decision process stands — here's what Meg should be prepared for:
+No agenda has been posted for the March 23 workshop. However, this meeting's purpose has been publicly framed since at least February 10 as **the reconfiguration decision point** — the moment when the board is expected to narrow or select the elementary school reconfiguration option that will anchor the FY27 cut package. The deck that surfaced March 20 confirms this scope: it covers the FY27 proposal, personnel and non-personnel reductions, two elementary options, middle and high school reductions, and workshop decisions.
 
-**Elementary reconfiguration is the centerpiece.** This workshop was explicitly positioned as the decision point after the nine-option presentation on March 2. The board is expected to narrow the field or signal which option(s) they're prepared to advance. For Meg, that means tonight is potentially the most reportable meeting in months — if the board actually narrows to one option, that's the lead for every group chat post she'll write. She should be ready to post during the meeting, not just after.
+**For you specifically, here's how to think about the meeting's likely structure:**
 
-- **Listen for:** Whether any board member names a specific option by number (1.1, 1.3, 1.6, etc.) as their preference or the board's apparent direction. If Chair DeAngelis signals consensus around a particular option, that's the headline.
-- **Listen for:** Any updated savings estimate attached to a specific option. The reconfiguration savings range has been fuzzy since Skillin closed as an option; if staff presents revised numbers tonight, those are citable figures she needs to capture exactly.
-- **Prepare to ask (or find someone to ask):** "What is the projected savings figure for the option under discussion, and how does that compare to the $2M estimate presented in February?"
+**Opening: Budget status and deficit framing.** This is where the $7.2M vs. $8.4M question may resolve — or not. Listen for whether administration presents a revised gap figure. If they present $7.2M and say nothing about $8.4M, your post needs to note the discrepancy, not just go with the number on the slide. If they acknowledge a revised figure, that's your lead.
 
-**The deficit number may finally get reconciled.** If the CFO or superintendent presents an updated fiscal picture, tonight could be the first time the $7.2M vs. $8.4M discrepancy is either explained or officially superseded. Meg should watch for any budget overview slide or verbal framing at the opening of the meeting.
+**Elementary reconfiguration decision.** This is the heart of the meeting and the hardest part for you to summarize accurately for a general audience. The key distinction your group chats will need: is the board *deciding* tonight, or *narrowing*? And if they're deciding: which option, and what does it mean for which buildings? The deck's reference to "two elementary closure options" is your anchor — find out what those two options are before the meeting ends and before you post. If you can get page numbers from the deck, use them.
 
-- **Listen for:** Any number other than $7.2M used without explanation. If staff says $8.4M without attribution, that's the new official number. If they say $7.2M, Matthews' March 19 statement is unresolved.
-- **Listen for:** Any language like "updated projections" or "revised estimates" — signals that the gap has grown and is about to be explained.
+**Personnel and non-personnel reductions.** The 72 layoff notices are already out. This section of the presentation may clarify whether the 78-position figure is still current, whether any positions have been added or removed from the cut list, and whether any early retirement buyout outcomes are reported. Your networks will ask about their kids' teachers — if any school-specific names or positions appear in the deck, note them.
 
-**Layoff scope and school-level impacts may surface.** With 72 notices out and parents in every school asking questions, board members may be pushed — either by public comment or by their own agenda items — to provide building-level specificity on which positions were cut where.
+**Middle and high school reductions.** You have a kid at the middle school. This section is both personal and reportable. Watch for specifics: which programs, which positions, which grades.
 
-- **Listen for:** Any mention of specific schools by name alongside staffing numbers. This is Meg's highest-value data point for her group chats — school-specific impacts are exactly what her networks are asking for.
-- **Prepare to note:** Whether the administration distinguishes between "position eliminated" and "notice issued" — these may not be the same count.
-
-**Public comment under tightened rules.** The board adopted tighter public comment procedures on March 9. Tonight will likely draw heavy turnout given the reconfiguration stakes. Meg should watch how the chair enforces the new rules — it directly affects whether the community voices she'll want to relay actually get heard.
+**Workshop decisions.** The board may be asked to vote on a direction tonight — or just to signal preference. The distinction matters for your summary. A formal vote is news. A "straw poll" or "board consensus direction" is softer news but still reportable if it's on the record.
 
 ---
 
 ## Watch For
 
-- **Any official use of the $8.4M figure without explanation.** If the administration adopts that number tonight without reconciling it against $7.2M, Meg's working number has been wrong for three months through no fault of her own — and she needs to update her networks immediately.
-
-- **Whether the board votes, straw-polls, or just "continues the discussion."** Three months of workshops with no binding votes is a pattern. If tonight ends without any directional signal, that's news too — "still no decision" is a post.
-
-- **Feller's framing of the reconfiguration options.** Watch whether he presents a new preferred option now that 1.7 is dead, or whether he's stepping back and letting the board drive. A superintendent who's stopped advocating for a specific option is a notable shift.
-
-- **DeAngelis on Skillin.** She drew the clearest line on March 2 — Skillin stays, equity imperative, immigrant families west of Dairy Queen. Watch whether she holds that position or signals any softening. If she moves, the option space opens back up.
-
-- **Any board member asking about school-by-school impact breakdowns.** If a board member requests building-level staffing data and staff says they don't have it or won't present it tonight, that's a story about what the board is making decisions without.
-
-- **The words "September" or "fall implementation."** If anyone on staff or the board raises the September 2026 reconfiguration timeline and the room goes quiet or someone hedges, that's a sign the timeline is slipping and families need to know.
-
-- **Any mention of a number between $7.2M and $8.4M.** A "revised estimate" or "updated projection" in that range would confirm the gap has grown since December without fully validating Matthews' March 19 figure — and Meg needs to report that distinction accurately.
-
-- **Whether public comment is cut short or redirected.** Under the new rules, the chair has more procedural tools to manage comment. If parents from specific schools are cut off or rerouted, that's both a procedural story and a signal about which voices the board is prioritizing.
-
-- **Any reference to the April 14 workshop document release date.** Meg needs to know when the full budget document will be posted so she can have page numbers ready before the April meeting. If staff names a date, write it down.
-
-- **The tone between board members and administration on the savings estimates.** If a board member challenges the projected savings figure for a specific option and staff can't defend the number in the room, that's a credibility problem Meg's networks need to know about — especially given the district's track record of inaccurate projections.
+- **The deficit number on the first substantive slide.** Screenshot it. If it says $7.2M, note the discrepancy with Matthews' $8.4M March 18 statement in your summary. If it says something different from both, that's your lede.
+- **Whether "two elementary closure options" means physical building closure or something else.** This is your single most important fact-check of the night. Do not post "they're closing schools" if the language in the deck means something narrower.
+- **Skillin.** Chair DeAngelis explicitly framed Skillin's protection as an equity imperative for immigrant families. If either of the two elementary options includes Skillin, watch how DeAngelis and the four board members who previously blocked Option 1.7 respond. If they've reversed, that's news. If they hold, note who's holding.
+- **Whether anyone explicitly addresses the $8.4M figure Matthews cited.** Councilor Matthews said it on the record. If no board member or administrator acknowledges it tonight, that silence is worth noting in your summary.
+- **Any school-level specifics — building names, grade assignments, transportation implications.** Your networks have kids at specific schools. Aggregate numbers are less useful to them than "Dyer becomes a primary school serving K–2."
+- **The phrase "just the first wave."** Matthews used that language about the 72 layoff notices. If any speaker references additional cuts beyond the current package tonight, that's a major escalation.
+- **Feller's posture on the tax rate.** He signaled willingness to exceed 6% in February. The council guidance is 4–6%. If he presents a scenario above 6% tonight, or signals flexibility, that changes the "cuts are happening no matter what" framing you've been using.
+- **Whether early retirement buyouts are reported.** 41 staff were eligible; buyouts could yield over $1M in relief. If administration reports on uptake, that affects how deep the remaining cuts need to go.
+- **Board members who don't speak.** In a workshop this consequential, silence from a board member who has been vocal previously (particularly on equity or reconfiguration) is worth noting.
+- **Public comment tone and length.** The new tightened comment rules are in effect. If public comment is limited or cut off, your networks will ask why the community wasn't heard. Note the format — how many speakers, how long, whether immigrant family voices are present given the ongoing absence pattern post-ICE.
+- **Any mention of September 2026 implementation.** You have an open question about whether that timeline is realistic. If administration says September is still the target for reconfiguration implementation, note it — your networks with elementary kids need to know if a school change is happening in five months.
+- **Page numbers from the deck.** You are now in possession of the advance document. If someone cites a figure at the podium, you can say "that's page X of the March 23 budget deck." That's exactly the citation capability your group chats need from you — and it's the defense you need when someone pushes back in the thread.

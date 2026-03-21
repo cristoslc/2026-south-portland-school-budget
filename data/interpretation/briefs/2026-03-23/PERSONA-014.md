@@ -3,77 +3,87 @@ schema_version: "1.0"
 persona_id: "PERSONA-014"
 persona_name: "Lila"
 upcoming_meeting_date: "2026-03-23"
-generated_date: "2026-03-20"
+generated_date: "2026-03-21"
 has_agenda: false
 last_cumulative_meeting: "2026-03-19"
-inter_meeting_evidence_count: 0
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Lila (PERSONA-014)
 ## Upcoming Meeting: 2026-03-23
 
-# Forward-Looking Brief: Lila (PERSONA-014)
-**Meeting Date:** 2026-03-23
-**Prepared:** 2026-03-20
-
----
-
 ## Since Last Meeting
 
-No new inter-meeting evidence has arrived in the days since the March 19 city council meeting. That silence has its own meaning for Lila.
+The most significant development is also the one that should put anyone attending on Lila's behalf on high alert: the nine reconfiguration scenarios from the March 2 workshop have been narrowed. The inter-meeting evidence is a Google Slides presentation prepared for this very meeting — the March 23 board budget workshop — and it describes **two elementary closure options**, not nine. The field has been cut by more than three-quarters in under three weeks.
 
-The last meeting she processed was one of the most consequential in this entire crisis: 72 school employees received layoff notices, the deficit was formally stated at $8.4 million, and the decision timeline was locked to three irreversible dates. And then — nothing. No announcement clarifying which positions were cut, no statement from the district about what this means for specific schools, no communication directly to families at Dyer.
+This matters enormously through Lila's lens. When there were nine scenarios, Dyer's fate was uncertain but diffuse — one possible outcome among many. Two options means the decision is close, the range is tight, and whatever choices remain are the real ones. Someone, somewhere, made decisions between March 2 and March 23 about which scenarios survived. That process was not public.
 
-For Lila, the absence of news does not feel like a pause. It feels like the adults know something she doesn't. The layoff notices went out. Her teacher may or may not still have a job next year. The school she has attended since kindergarten is listed as "CLOSED" in at least one of the nine scenarios on the table. And the world has gone quiet.
+The presentation also uses language Lila's advocates should treat as a signal: it describes **decisions expected at the workshop**. This is not a listening session. This is not a forum. This is a board meeting organized around making choices. The adults in that room are expected to leave with something resolved. Lila is not in the room. No one has spoken to her. The decisions being made are about her school, her teacher, her daily life — and the deck is structured for board efficiency, not for a nine-year-old who cried drawing a picture of her building.
 
-This is the gap where rumors grow. At recess, Lila and her classmates are filling the silence with what they've heard, guessed, or misheard. The official process has moved faster than the communication about it, and the space between those two things is where Lila lives.
+One additional thread remains unresolved and urgent: the 72 layoff notices issued before this meeting. The presentation covers personnel reductions. Lila's two-year looping teacher may already be among those notified. This meeting may be where that thread either surfaces or gets buried in aggregate numbers.
 
 ---
 
 ## Open Questions
 
-These are the questions Lila is carrying — stated the way she actually carries them:
+*In Lila's voice, or the voice of someone who holds her experience as their north star:*
 
-- **Is my teacher one of the 72?** She's had Ms. [her looping teacher] for two years. That teacher knows her. Nobody has said whether her teacher got a pink slip or not.
-- **Why is Dyer the one closing? What's wrong with our school?** She keeps asking and nobody gives her an answer that makes sense. "Enrollment" doesn't mean anything to her. She knows her school doesn't feel empty.
-- **Where am I going next year?** Not "where are students going in the reconfiguration" — *where am I going*. Which building. Will it be far. Will there be a bathroom situation.
-- **Will my friends come with me?** Her whole world is at Dyer. If the kids scatter to different intermediate schools, she loses everything at once.
-- **What about my brother?** He's in 1st grade. Under the grade-band model, if Dyer becomes an intermediate school (grades 2–4), does that mean she stays and her brother is the one who has to leave? Or do they both move?
-- **Does anyone in that room even know Dyer exists?** Four board members have said they want to protect Skillin. Nobody has said Dyer's name. Nobody.
-- **Are other teachers going to quit before they even decide?** One pre-K teacher already resigned. If more teachers leave before the vote, the school she's being reassured about won't be the same school anyway.
-- **Will the adults at the April 7 hearing actually say anything different than what they've been saying, or is it already decided?**
-- **My parents came home from the last meeting really upset. Is it worse than they're telling me?**
+- **Is my teacher one of the 72?** The layoff notices went out before this meeting. The personnel reduction slides are supposed to explain the cuts. Will anyone in that room say which positions at which schools are affected — or will it stay abstract?
+
+- **Which two options are actually on the table, and is Dyer in both of them?** At March 2, option 1.3 named Dyer as "CLOSED." Have the two surviving options each kept Dyer in play, or has one of them dropped it — and if so, which one, and why?
+
+- **Why did nine options become two, and who decided?** The narrowing happened between board meetings, outside public view. What criteria were used? Was community opposition weighed? Was the 85% parent opposition figure part of any calculus, or just noted and set aside?
+
+- **Will any board member say Dyer's name tonight — and mean it as something worth protecting?** Four members went on record about Skillin. Zero have done so for Dyer. Is tonight the night that changes, or does Dyer stay unnamed again?
+
+- **If Dyer is in both options, is there any path where it stays open?** Or has the decision effectively already been made and tonight is about ratifying it?
+
+- **Where will I go to school next year, and will my friends come with me?** The grade-band model reassigns students by age, not by neighborhood. Nobody has explained to kids at Dyer what the transition would actually look like.
+
+- **Is Ms. Beland's resignation the start of something?** One special education pre-K teacher has already left. Are other Dyer teachers looking for jobs elsewhere? Will the school be functionally hollowed out before any official decision is made?
+
+- **Does anyone in that room know what it feels like to be a kid at Dyer right now?** Not as an abstraction. Not as a survey statistic. As something that changes how a decision gets made.
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for the March 23 meeting. Based on Lila's cumulative state and the trajectory of recent meetings, the following topics are likely to surface — and each carries specific stakes for her.
+No formal agenda has been published for the March 23 meeting. However, the inter-meeting evidence — the budget presentation slides — provides a clearer picture of what will be covered than most agendas would. Based on that document and Lila's cumulative state, here is what to expect and prepare for:
 
-**Reconfiguration scenario narrowing.** The board has nine scenarios on the table and a June 9 referendum approaching. The March 23 meeting may be where the field begins to narrow — or where the board signals which options are being seriously considered. For Lila, this is the meeting where Dyer's fate could shift from uncertain to probable. If the board begins to converge on scenarios that include option 1.3 (Dyer closed) or options that assign Dyer as a primary school (pre-K–1, meaning Lila leaves for 4th grade), the practical impact on her daily life becomes more concrete. *Listen for any language that removes scenarios from consideration, particularly whether any scenario protecting Dyer is being discussed at all.*
+**The two elementary closure options will be the central item for Lila's advocates.** Everything else on the deck — non-personnel reductions, middle and high school cuts — is real and significant, but it is not Lila's fight. Her fight is in the elementary closure portion of the presentation. Whoever attends on her behalf should not get drawn into the middle school discussion or the non-personnel line items at the cost of being unprepared when elementary closures come up.
 
-**Layoff notice follow-through.** Seventy-two notices went out on March 18. The March 23 meeting may include administrative updates on what comes next — recall rights, positions affected, timeline for finalization. For Lila, this is where the abstract becomes personal: if her teacher's position was among those notified, any update on that process is information that directly affects her sense of stability for the rest of this school year, not just next year. *Listen for any breakdown of which roles or school buildings were affected by the layoffs.*
+*What to listen for*: How the two options are framed. Are they presented as roughly equivalent choices for the board to weigh? Or is one clearly the staff recommendation and the other a nominal alternative? The slide language and presenter tone will signal which direction administration is already leaning.
 
-**April 7 public hearing format.** With less than three weeks until the public hearing, the board may take up logistical questions about how it will be run — whether virtual comment will be available, how time will be allocated, whether community members will have meaningful voice or whether the hearing will be ceremonial. Parents who want to speak for Dyer need to know right now whether they can participate without paying for childcare. *Listen for any procedural discussion about the April 7 hearing — format, access, and whether public comment will be substantive or constrained.*
+*Questions to prepare*:
+- "Which schools are proposed for closure under each of the two options — and can you name them explicitly?"
+- "What is the transition plan for students at a closing school — specifically regarding teacher continuity and peer cohort reassignment?"
+- "Were the closure options developed with any input from students or families at the specific affected schools?"
+- "What criteria were used to narrow from nine scenarios to two, and was community opposition weighted in that process?"
 
-**Any mention of Dyer by name.** In the entire history of city council meetings tracked in this cumulative record, Dyer has not been named once. The school board has named it only as a line item in reconfiguration scenarios. If a board member — any board member — names Dyer as a place with a community worth protecting, that is a signal. Its absence is also a signal. *Track whether Dyer is named, and by whom, and in what context.*
+**The "decisions expected" framing is a warning.** If the board intends to make directional commitments tonight, advocates for Lila need to be in the room (or at the microphone) before those commitments happen — not afterward during a comment period. Watch whether the meeting structure places public comment before or after the board discussion on closure options.
+
+**Personnel reductions will be discussed in a way that obscures individual impact.** The presentation frames layoffs as aggregate numbers and position types. No one will say "Dyer's second-grade looping team." The advocates who care about Lila need to be the ones who translate the aggregate back into the specific.
 
 ---
 
 ## Watch For
 
-- **Whether any board member advocates specifically for Dyer** the way four members have committed to protecting Skillin. If the March 23 meeting passes without a single member naming Dyer as a place worth protecting, that asymmetry is now a documented pattern — and the April 7 hearing may be the last opportunity to change it.
+- **Whether Dyer appears in both, one, or neither of the two closure options.** This is the single most important fact in the entire meeting for Lila. If Dyer appears in both options, closure is nearly certain regardless of which option the board chooses. If it appears in only one, there's still a live path.
 
-- **Any narrowing of the nine reconfiguration scenarios.** If the board signals it is moving away from certain options, watch whether the remaining options all include Dyer closure or whether any scenario keeping Dyer open survives. A reduction in scenarios is not neutral — it is a decision about which children's schools are still on the table.
+- **Whether the board chair allows discussion of children's emotional experience, or steers away from it.** At the February 9 meeting, the chair dismissed children's anxiety as parental projection. Watch whether she does it again — and whether any other board member pushes back.
 
-- **Which positions were included in the 72 layoff notices.** If the district provides any breakdown by school or by role (classroom teachers vs. specialists vs. support staff), this is the closest available signal to whether Lila's looping teacher is directly affected. Even if specific names aren't disclosed, a breakdown like "X classroom teaching positions at elementary level" tells Dyer families what they are facing.
+- **Whether the "decisions expected" language means a vote is actually called tonight.** If the board moves to vote on a preferred option at this meeting, the April 7 public hearing becomes a formality. Watch for procedural motions.
 
-- **Whether the grade-band model's school assignments are becoming more defined.** The reconfiguration designates schools as either primary (pre-K–1) or intermediate (grades 2–4). If the March 23 meeting includes any further refinement of which buildings fall into which band, Lila's family can begin to understand whether she stays at Dyer (if it's intermediate) or is moved (if it's primary or closed). This question also determines whether her younger brother's 1st-grade cohort faces the same disruption.
+- **Whether any board member names Dyer specifically in a protective context.** Four members went on record about Skillin at or before the March 2 meeting. If no one speaks for Dyer tonight, that silence is now its own data point with three weeks of context behind it.
 
-- **The board chair's framing of children's emotional responses.** At the February 9 meeting, the board chair explicitly dismissed children's anxiety as parental projection rather than a legitimate concern in its own right. Watch for whether that framing reappears — or whether any board member pushes back on it. The April 7 hearing is the next high-stakes opportunity for a child's voice to be read or heard in a civic room, and the board chair's posture on this directly shapes how that moment will land.
+- **How administration describes the narrowing process.** If staff present the two options without explaining how the other seven were eliminated, that's a gap worth asking about during public comment. The criteria used to narrow are the same criteria being used to determine Lila's school year.
 
-- **Whether any board member or administrator addresses the communication gap** between the March 18 layoff notices and the families at affected schools. Parents at Dyer are carrying acute uncertainty right now. A board member who acknowledges that gap — and commits to direct, school-level communication before April 7 — is treating Lila's experience as a real thing that requires a real response. Watch for that acknowledgment, and note its absence if it doesn't come.
+- **Whether the 85% opposition figure from the March 2 survey is cited, acknowledged, or absent.** If it disappears from the presentation entirely, that tells you how the board is weighting community feedback.
 
-- **Signs of teacher attrition beyond Ms. Beland's resignation.** One pre-K teacher at Dyer has already resigned effective August 31. If any board member or administrator references additional departures, early retirements, or difficulty retaining staff at schools under reconfiguration consideration, that is a signal that the school Lila is being told she might stay in is already changing underneath her.
+- **Tone and pace of the elementary closure slides relative to the rest of the presentation.** If administration moves quickly through closure options and slows down on, say, middle school programming cuts, that pacing is itself a signal about where leadership attention is focused.
 
-- **Whether the June 9 referendum is framed as a meaningful community voice or a ratification of a done deal.** The city council's pattern — safety resolutions followed by 4-2 votes against concrete protection — has demonstrated that formal process and protective action are not the same thing. If the June 9 referendum is discussed at the March 23 meeting, listen for language about what the community vote can actually change, and what has already been decided before they vote.
+- **Whether any speaker — board member, administrator, or public commenter — uses the name of a child or a specific classroom experience.** At every prior meeting where children were mentioned, it was either as aggregate enrollment data or as a single letter read by an adult. Watch whether tonight that changes — and if it doesn't, that silence is the brief speaking for itself.
+
+- **The Finance Director's presentation approach.** This is among the first major public appearances for the new finance director. Watch whether the $8.4 million figure is presented as a hard constraint or as a range with flexibility — that framing will shape every subsequent discussion about which cuts are "necessary."
+
+- **Public comment timing and logistics.** After the virtual access issues that forced parents to pay for babysitters to attend, and with the April 7 hearing less than three weeks away, watch whether virtual comment is enabled and whether the comment period comes before or after board deliberation on closures.

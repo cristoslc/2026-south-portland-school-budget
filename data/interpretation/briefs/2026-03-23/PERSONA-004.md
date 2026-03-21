@@ -3,100 +3,79 @@ schema_version: "1.0"
 persona_id: "PERSONA-004"
 persona_name: "Marcus"
 upcoming_meeting_date: "2026-03-23"
-generated_date: "2026-03-20"
+generated_date: "2026-03-21"
 has_agenda: false
 last_cumulative_meeting: "2026-03-19"
-inter_meeting_evidence_count: 0
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Marcus (PERSONA-004)
 ## Upcoming Meeting: 2026-03-23
 
-# Pre-Meeting Brief: Marcus (PERSONA-004)
-**Meeting Date:** 2026-03-23
-**Persona:** High School Teacher / SPEA Member
-
----
-
 ## Since Last Meeting
 
-There are no new inter-meeting evidence events between March 19 and March 23.
+The most significant development is the publication of the FY27 Budget presentation deck for the March 23 workshop — the first detailed look at the administration's formal proposal since the 72 RIF notices went out on March 18.
 
-The absence of new developments is not neutral for Marcus. The last significant event — the issuance of 72 RIF notices on March 18, with Councilor Matthews explicitly calling them "the first wave" — was not a proposal or a warning. It was an administrative action. The quiet since then is the quiet after a door closes, not the quiet of deliberation still in progress.
+The deck is structured around the pieces that matter most to you: personnel reductions, non-personnel reductions, the two elementary closure options, and middle and high school reductions. That last category is the one with your name on it. This is no longer a presentation about what *might* happen — it's a presentation being delivered four days after notices went out. The framing will be consolidation and right-sizing, but what you're looking at is a slide deck that documents how your colleagues were eliminated and asks the board to ratify the math.
 
-What that silence means in practice: the 72 notices are sitting with colleagues right now. Some of those people are in Marcus's building, in his department, at the table in the faculty lounge. The union is presumably in impact bargaining posture or preparing for it. The April 7 public hearing is now 15 days away. If the union has an organized response plan for April 7 and the June 9 referendum, those plans are being built in this window — and Marcus should know what they are before he walks into the March 23 meeting.
-
-The absence of new official information also means the key unresolved questions from March 19 — what criteria were used to determine who got notices, which buildings and departments, and what "the next wave" looks like — remain unanswered heading into this meeting. That information vacuum is itself something to watch.
+The fact that this is a *workshop* rather than a formal board meeting matters. Workshops typically allow fuller back-and-forth than public hearings. This may be one of the last opportunities for board members to publicly interrogate the assumptions behind the numbers before the April 7 hearing locks in the political narrative heading into the June 9 referendum.
 
 ---
 
 ## Open Questions
 
-These are the threads Marcus is carrying in, phrased the way he'd actually ask them:
+Carrying into this meeting, here's what I still don't have answers to:
 
-- **Who got notices and why?** The 72 RIF notices are out, but I still don't know which buildings, which departments, which seniority tiers. If I'm not on the list, am I safe — or am I next wave? If seniority bumping runs district-wide, every teacher is still exposed.
-
-- **What exactly is "the first wave"?** Matthews said 72 is the first wave. What determines the second? Is there a dollar threshold that triggers more notices, or is this waiting on the board to act?
-
-- **Why is the gap now $8.4 million when we were told $7.2 million in December?** That's not a rounding error. Either something changed or someone was withholding. With six finance directors in five years and a repeat audit material weakness, I don't trust the numbers — and I need to know whether the union has independently verified any of this.
-
-- **Has the union filed for impact bargaining?** Reconfiguration and elimination of positions are mandatory subjects of bargaining under our contract and Maine law. Has SPEA formally invoked that process, and what's the timeline? Does it slow anything down?
-
-- **Where is the early retirement buyout?** That was floated in February as an alternative to forced layoffs. If eligible staff retired, how many notices would come off the table? Has the district followed through or is this dead?
-
-- **What's in the central office staffing data the district has been sitting on for more than six weeks?** The union asked for it. Why hasn't it been released? What does the administration not want us to see?
-
-- **How does the district plan to serve 80–90 new four-year-old special education students in September while cutting 78 positions?** That's not a rhetorical question. It's a legal compliance question. IDEA doesn't bend for a budget deficit.
-
-- **Is anyone doing the math on what happens to referendum viability when sewer rate hikes land on top of the school budget ask?** If voters are absorbing a 22% annual sewer rate increase for three years simultaneously, what does that do to the June 9 vote?
-
-- **Has the new superintendent candidate pool been told the honest truth?** That the fund balance is gone, 72 notices are out, and the gap is $8.4 million? Or are they being recruited into a crisis they'll discover on day one?
-
-- **Where is the union's organized plan for April 7?** That's the last real door. What's the strategy — turnout, testimony, coalition partners? Is the SPEA working with any council members directly, or are we on our own?
+- **Which positions at SPHS specifically are on the cut list?** The deck covers "middle and high school reductions" but I haven't seen section counts, FTE counts by department, or which programs get hollowed out. I need specifics, not categories.
+- **How does seniority bumping cascade from the elementary closures into the high school?** If one of the two closure options triggers a wave of bumping, teachers who weren't RIF'd could still lose their positions to more senior colleagues displaced from elementary buildings. The deck has two closure options — which one does less damage upward?
+- **Is 72 still the number, or has it already changed?** Councilor Matthews said explicitly it's the first wave. Has anything moved since March 18 — retirements, resignations, buyout uptake — that changes the count before Monday?
+- **What does the early retirement buyout look like in the proposal?** Is it funded, is it real, and how many positions would it actually need to absorb to move the needle?
+- **What's the non-personnel cut list, and is it being used to pad the savings number while the personnel cuts stay intact?** I want to know if supply and travel budget reductions are being bundled with the FTE eliminations to make the math look cleaner than it is.
+- **What decisions are actually being made at this workshop?** The deck lists "expected decisions" — are board members being asked to vote on anything, or is this deliberation? If it's a vote, which items?
+- **How does the $8.4M gap get closed in this proposal, and how much of the gap is closed with FTEs versus everything else?** I've been working off $7.2M for months. Where did the extra $1.2M come from, and who gets to carry it?
+- **Has the central office staffing breakdown been released yet?** Six-plus weeks of stonewalling on that data. If they're asking the board to ratify position eliminations without showing the administrative staffing picture, that's not a budget presentation — it's a press release.
+- **What are the second and third order impacts on course offerings?** Eliminating FTEs means section counts drop. Which AP courses, elective pathways, or CTE programs get cut below viable enrollment thresholds and quietly disappear without ever being named as cuts?
 
 ---
 
 ## Agenda Implications
 
-No agenda has been published for the March 23 meeting.
+No agenda is available for this meeting. However, the inter-meeting evidence — the March 23 budget workshop deck — tells you exactly what the meeting is *about*, and you should treat the deck's structure as a working agenda.
 
-Given what Marcus knows heading into this meeting, here is what is likely to surface and what he should be prepared for:
+**Personnel reductions section:** This is your primary target. Listen for whether the administration presents FTE counts by building and department, or whether they present aggregated numbers that obscure where the cuts fall. Aggregated numbers are a signal that they don't want you mapping the impact to specific programs and positions. If the numbers stay aggregated, the question to prepare is: *"Can the board request a breakdown of proposed FTE reductions by building, department, and position type before any vote is taken?"*
 
-**The RIF notices will almost certainly come up in public comment, even if not on the formal agenda.** Since March 18, 72 colleagues received layoff notices. Parents know. Teachers know. Even if the board tries to run a routine meeting, public comment will not be routine. Marcus should be prepared to either testify or to listen carefully to who does — and how the board responds.
+**Middle and high school reductions:** This section is directly about your building and your colleagues. You should be listening for: how many FTEs, which departments, whether electives and AP courses are named or buried in "program consolidation" language, and whether the presentation includes projected class size changes. If class sizes aren't addressed, that's a deliberate omission — the administration knows that the moment you put the FTE number next to the enrollment number, anyone can do the math on what 25 students per section becomes.
 
-**Watch for any update on the reconfiguration timeline.** The two leading closure options were blocked by community pressure through March 2, but the RIF notices represent the administration moving forward regardless. A March 23 meeting could include a revised reconfiguration proposal, a timeline update, or a statement that implementation is proceeding on a specific track. Any of these would be significant.
+**Elementary closure options:** Even though you teach at the high school, do not tune this section out. The seniority bumping cascade from either closure option reaches the high school. Listen for whether the board is choosing between the two options Monday or whether this is still exploratory. If they're choosing, the bumping implications for SPHS need to be part of that discussion, and the union's position on impact bargaining should be on the table.
 
-**Watch for any mention of the superintendent search.** The board has been running a process that explicitly excluded community voices. A March 23 update on the search — candidate pool, screening timeline, offer status — would reveal whether the board is about to install a permanent superintendent without public input or union engagement, at the exact moment the district is executing layoffs.
+**"Expected decisions" section of the deck:** Find out what is actually being decided Monday versus what is being deliberated. If the board is being asked to endorse, ratify, or direct the superintendent on anything — even procedurally — that's a decision with downstream consequences. Workshop votes are still votes.
 
-**Impact bargaining may come up procedurally.** If SPEA has filed or is about to file a demand for impact bargaining, the board may address it — or conspicuously avoid addressing it. Either signal matters. Marcus should know SPEA's current posture before this meeting so he can read the room accurately.
-
-**The $8.4 million figure and "first wave" language need to be tested publicly.** The gap grew from $7.2M to $8.4M without a public explanation. A March 23 meeting is an opportunity for a board member or administrator to either account for that discrepancy or avoid doing so. The avoidance is as informative as the explanation.
-
-**Questions Marcus should prepare:**
-
-- "Can the administration tell us today which criteria determined who received RIF notices on March 18 — by building, department, and seniority level?"
-- "What is the board's current position on the early retirement incentive discussed in February — is that still on the table as an alternative to forced layoffs?"
-- "When will the central office staffing breakdown requested by the union be provided?"
-- "What does the district's legal counsel say about serving 80–90 new pre-K special education students in September while simultaneously cutting 78 positions?"
+**Questions to prepare:**
+- *"What is the projected section count for [specific course/pathway] after these reductions, and at what section count does that course become unviable?"*
+- *"How many FTEs in this proposal were added specifically to serve the ELL, special education, and behavioral health populations documented in the February 10 joint session briefing — and what happens to those students when those positions are eliminated?"*
+- *"Has the union's request for central office staffing data been fulfilled, and if not, why is the board being asked to ratify personnel cuts without that comparative information?"*
+- *"What is the timeline for the early retirement buyout, and how many participants would be needed to reduce the RIF count materially?"*
 
 ---
 
 ## Watch For
 
-- **Who is not in the room.** If colleagues who received notices are absent — or if turnout from the community is lower than March 2 — note it. ICE enforcement suppresses attendance at exactly the moments organized voice matters most. Thin attendance is not passive; it is being produced.
+- **Whether FTE counts appear by department or only as totals.** Aggregation is a tactic. If you see totals and not breakdowns, ask for the breakdown before the meeting ends. The board cannot make a well-informed decision on program integrity without department-level data.
 
-- **Whether the board acknowledges "the first wave" framing.** Councilor Matthews named it publicly. Does anyone on the board or administration confirm it, qualify it, or walk it back? A board member who distances themselves from "first wave" language without explaining what replaces it is buying time, not answering.
+- **Which board members ask follow-up questions on the personnel section versus which ones let slides pass without interrogation.** Feller and Smith have been the most willing to push on assumptions. Watch whether that holds when they're looking at ratifying notices already issued, not just debating proposals.
 
-- **Any mention of impact bargaining — or its conspicuous absence.** If the administration is moving forward with reconfiguration and RIFs without explicitly addressing bargaining obligations, that is a union action item, not just a procedural curiosity.
+- **Whether the word "sections" appears anywhere in the high school reductions presentation.** If it doesn't, the administration is deliberately shielding the course-load and class-size implications from the record. This is the number that translates FTE cuts into classroom reality.
 
-- **Superintendent search timeline or update.** If a candidate is close to being named or an offer is imminent, the window to insist on honest disclosure of the district's fiscal state — and meaningful union input — is closing. Watch for any hint that this process is further along than has been publicly stated.
+- **Whether the two elementary closure options are presented with their bumping implications for the middle and high school.** If they're not, that's an incomplete analysis — and a union concern you can name publicly.
 
-- **Board member Feller specifically.** He has been the most honest voice on the council about the 6% ceiling being unrealistic and was the source of the early retirement buyout proposal. If he speaks at this meeting, his framing of what options remain is the closest thing to a negotiating partner Marcus has on the board.
+- **Whether the $8.4M gap is explained rather than just asserted.** You've been tracking $7.2M since December. The $1.2M growth in the deficit needs an account. If it appears without explanation, ask where it came from: is it a revised enrollment projection, a benefits cost increase, a FY26 carry-forward, or something else?
 
-- **Whether the $8.4M figure is explained or just repeated.** The gap growing by $1.2M without public accounting is a financial infrastructure question, not a talking point. Watch for whether any board member or administrator explains how the number changed — or whether it is stated as a given and moved past without scrutiny.
+- **The framing of the 82-position/300-enrollment line.** If that comparison resurfaces in Monday's presentation — and it likely will — watch whether any board member pushes back with the February 10 context that those 82 positions were mostly serving documented ELL, special education, and behavioral health needs. If no one pushes back, that's the moment to prepare testimony for April 7.
 
-- **Public comment logistics.** If Zoom public comment is again rejected, note it explicitly. Working teachers who cannot attend in person are being systematically excluded from the only forum that precedes the April 7 hearing. That exclusion is worth documenting for union purposes.
+- **Any mention of "decisions expected at the workshop" being deferred or postponed.** A deferral could mean the board is more conflicted than the RIF notices suggested — or it could mean they're waiting for the political temperature to drop before ratifying anything on the record. Either is useful information.
 
-- **Any signal about what triggers "the second wave."** Matthews was explicit that 72 is not the end. If any administrator or board member speaks to the conditions that would determine additional notices — a specific budget threshold, a referendum outcome, a council vote — that is the most operationally important information Marcus can carry out of this meeting.
+- **Whether the non-personnel cuts are presented with enough specificity to evaluate whether they represent genuine savings or budget optics.** Supply budget cuts that get absorbed by teachers out-of-pocket are not savings — they're cost transfers. Watch for cuts in categories where the actual cost doesn't disappear, it just moves.
 
-- **The tone when teachers or union members testify.** Chair DeAngelis's pattern has been to receive community testimony, thank speakers warmly, and proceed without modification. If that pattern continues after 72 notices have been issued, it is a data point about whether the board believes public input has any weight at this stage.
+- **Superintendent search timeline references.** If the new superintendent hire is mentioned in connection with FY27 implementation, note whether the fiscal reality — $8.4M gap, depleted fund balance, 72 RIF notices — is being disclosed as part of that process or omitted.
+
+- **Chair DeAngelis's procedural management of public comment and board discussion.** She has a pattern of narrowing the scope of what counts as relevant testimony. If she moves to limit discussion on any agenda item that directly affects staffing, note it — it's the same operating posture that has constrained educator voice since December.

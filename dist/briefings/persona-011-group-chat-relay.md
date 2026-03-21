@@ -2,132 +2,71 @@
 schema_version: "1.0"
 persona_id: "PERSONA-011"
 persona_name: "Meg"
-upcoming_meeting_date: "2026-03-19"
-generated_date: "2026-03-17"
-has_agenda: true
-last_cumulative_meeting: "2026-03-09"
-inter_meeting_evidence_count: 0
+upcoming_meeting_date: "2026-03-23"
+generated_date: "2026-03-21"
+has_agenda: false
+last_cumulative_meeting: "2026-03-19"
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Meg (PERSONA-011)
-## Upcoming Meeting: 2026-03-19
+## Upcoming Meeting: 2026-03-23
 
 ## Since Last Meeting
 
-No inter-meeting evidence has surfaced in the ten days between the March 9 school board meeting and tonight's city council meeting. Meg should register what that silence means: nothing has leaked, nothing has been reported in the Sentry or the Facebook groups she monitors, and no reconfiguration option has emerged from back-channel discussion — at least not publicly. The March 23 school board workshop, where a final reconfiguration recommendation is expected, is still four days away. Meg is walking into tonight's council meeting with her March 9 picture intact: 78 positions cut under every scenario, Skillin closure rejected, public comment tightened, and a final recommendation still outstanding.
+The most significant development is the emergence of the **March 23 budget workshop presentation deck** (Google Slides, dated 2026-03-20). This is directly useful to you in a way it wouldn't be to most people watching Monday's meeting: you now have access to the document before the meeting starts. That means you can load the deck on your iPad while you watch the stream on your phone — the cross-referencing workflow you've been doing manually under pressure is partially solved tonight if you pull that deck now.
 
-The significance of the quiet period is mostly in what it confirms: the decision weight has shifted entirely to March 23. Tonight is a city council meeting, not a school board meeting. But tonight contains at least two items — Mahoney City Center guidance and a budget workshop schedule — that will directly shape the taxpayer context her networks need to understand before March 23 arrives.
+What the deck reportedly covers: the current FY27 proposal, personnel and non-personnel reductions, **two elementary closure options**, middle and high school reductions, and the decisions the board is expected to make at the workshop.
+
+That phrase — **two elementary closure options** — is the detail that should stop you cold. Your running record says the "no school closures" thread was resolved in February: buildings were needed for state-mandated pre-K expansion. But if the March 23 deck is presenting closure options (not just reconfiguration options), something has shifted, or the language is being used differently than you've been using it. This is exactly the kind of figure/framing discrepancy that has burned relays before. You need to know whether "closure option" in this deck means the same thing as it would mean in your group chat — a building shutting down — or whether it refers to closing a grade configuration within a building. Don't post on this until you know which it is.
+
+The other unresolved piece you're carrying in is the **$8.4M vs. $7.2M gap discrepancy** from Councilor Matthews' March 18 statement. This workshop may or may not address it directly, but any budget presentation should make the current deficit figure legible. Watch the cover slide.
 
 ---
 
 ## Open Questions
 
-Meg is carrying these into tonight's meeting:
-
-- **Which reconfiguration option survives now that Skillin is off the table, and what does the savings shortfall mean for class sizes at every other school?** This is her biggest unanswered question for the March 23 workshop, but tonight's city council context shapes how she frames it.
-- **Are South Portland taxpayers going to get hit with the school tax increase AND a Mahoney capital bond in the same fiscal year?** She's been tracking this since January 13 and tonight may be the night she gets an actual answer.
-- **What happened with Project Home?** They were projected to run out of funds around February 27. Families waiting on emergency rental assistance include parents of kids in her schools. Is there money or isn't there?
-- **Where does the remaining $3M+ in unidentified cuts come from?** The three "big ideas" cover ~$4M; reconfiguration covers ~$2M — but the total gap is $7.2M and the math still doesn't close publicly.
-- **Is September 2026 reconfiguration actually happening?** The pace of decision-making doesn't match the implementation timeline anyone has been citing.
-- **Will the new tighter public comment rules suppress turnout at the March 23 workshop?** Parents already feel 85% uninformed — and now the comment window is shorter. She wants to know what to tell people about whether showing up matters.
-- **Are the special ed positions at Brown and Dyer going to be filled or left vacant through June?** Two more resignations in March with cuts pending — her networks want to know if kids are losing support now, not just next fall.
-- **Will the city actually use its fund balance to cover school deficits, and what does that cost city services?**
-- **Is the TI TIF 20-year extension locked in, and what does locking in another $1.2M/year in diverted property tax mean for the district's funding base?**
+- **Which number is right — $7.2M or $8.4M?** Matthews said $8.4M on the record on March 18. The deck was published March 20. Which figure is on the cover slide? If the district is still presenting $7.2M, I need to flag the discrepancy in my summary, not just pick the lower number because it's familiar.
+- **What exactly do "two elementary closure options" mean?** Are we talking about physically closing a building? Or is this reconfiguration language I've been misreading? This could be the biggest news of the night or a nothing-burger depending on the answer.
+- **Which reconfiguration options survived?** Nine were on the table March 2. Skillin closure is off politically. What's the board actually voting on tonight — or are they just narrowing the field?
+- **Do the 72 layoff notices map to the same 78 positions I've been reporting?** If the deck has a position-cut breakdown, I need to compare it against what I've told my networks since December.
+- **Is there any school-by-school breakdown in this deck?** My networks have kids at Brown, Dyer, Skillin, and elsewhere. If the deck just shows aggregate numbers, I'm going to have to do the inference live again.
+- **What are the middle and high school reductions specifically?** I have a kid at the middle school. "Middle and high school reductions" in the deck summary is vague — I need the specifics.
+- **Where does the remaining $3M+ in unidentified cuts come from?** Has the deck filled in that blank, or is it still a gap?
+- **Will the tightened public comment rules limit what I can hear from the community?** The new policy tightened rules right before this critical workshop. If public comment is compressed, I'm going to be posting board decisions without the community reaction context my networks care about.
+- **Will they actually make a decision tonight, or are they kicking to April 14?** The budget calendar has April 14 as the next workshop. If tonight is just more narrowing, my summary needs to say that clearly — my networks will want to know whether this is still moveable.
 
 ---
 
 ## Agenda Implications
 
-**E.5 — Budget Workshop Schedule (Consent Calendar)**
-This is the item Meg should screenshot immediately. The position paper sets:
-- **April 14, 2026 — Budget Workshop #1**, with the School listed as the first department reviewed
-- **April 28, 2026 — Budget Workshop #2**
+No agenda has been posted for the March 23 workshop. However, this meeting's purpose has been publicly framed since at least February 10 as **the reconfiguration decision point** — the moment when the board is expected to narrow or select the elementary school reconfiguration option that will anchor the FY27 cut package. The deck that surfaced March 20 confirms this scope: it covers the FY27 proposal, personnel and non-personnel reductions, two elementary options, middle and high school reductions, and workshop decisions.
 
-This is a concrete, citable date she can post to her group chats tonight: the city council will formally review the school budget on April 14. That's six days before the April 20 school board deadline for budget submission (if that deadline still holds — she should verify). She needs to know whether the April 14 council workshop is advisory input or a formal approval step, and whether the school board's final budget vote happens before or after the council sees it. She should also check whether the "School" item at Workshop #1 includes any community comment opportunity.
+**For you specifically, here's how to think about the meeting's likely structure:**
 
-**What to listen for:** Any council member who asks when the school board's formal budget submission deadline is. Any signal that April 14 is a rubber-stamp or a genuine review. Any reference to what document format the school department is expected to bring.
+**Opening: Budget status and deficit framing.** This is where the $7.2M vs. $8.4M question may resolve — or not. Listen for whether administration presents a revised gap figure. If they present $7.2M and say nothing about $8.4M, your post needs to note the discrepancy, not just go with the number on the slide. If they acknowledge a revised figure, that's your lead.
 
-**What to prepare:** "Is April 14 the first time the council formally reviews the school budget number, and does that happen before or after the school board votes?" She needs this for sequencing — her networks will ask.
+**Elementary reconfiguration decision.** This is the heart of the meeting and the hardest part for you to summarize accurately for a general audience. The key distinction your group chats will need: is the board *deciding* tonight, or *narrowing*? And if they're deciding: which option, and what does it mean for which buildings? The deck's reference to "two elementary closure options" is your anchor — find out what those two options are before the meeting ends and before you post. If you can get page numbers from the deck, use them.
 
----
+**Personnel and non-personnel reductions.** The 72 layoff notices are already out. This section of the presentation may clarify whether the 78-position figure is still current, whether any positions have been added or removed from the cut list, and whether any early retirement buyout outcomes are reported. Your networks will ask about their kids' teachers — if any school-specific names or positions appear in the deck, note them.
 
-**H.1 — Mahoney City Center Guidance**
-This is the most consequential item of the night for Meg's networks. The council is being asked three explicit questions:
-1. Proceed with the scaled-down Mahoney project as proposed, or look at other City Hall locations?
-2. Pursue a public/private partnership at Mahoney via an RFP?
-3. How to address Library facility needs?
+**Middle and high school reductions.** You have a kid at the middle school. This section is both personal and reportable. Watch for specifics: which programs, which positions, which grades.
 
-Meg has been tracking this since January 13, when the Mahoney estimate was $194M and the architect openly said he wasn't confident in the number. By February 17, the range had narrowed to $57M–$104M across six scaled-down scenarios, with the committee recommending against the bare-bones approach. Tonight is the first formal council guidance vote.
-
-This matters to her networks for one reason: if the council signals intent to move forward with a bond, that bond could land on the same November ballot or in the same tax cycle as the school budget increase. Two hits to the same property tax bill in the same year is the story her networks don't yet know is possible.
-
-**What to listen for:** Does any council member explicitly connect the Mahoney decision to the school tax timeline? Does anyone ask how a capital bond interacts with the 4-6% guidance they gave the school district in February? Does the city manager or finance director clarify whether a Mahoney bond would be a separate levy or fold into the same tax rate calculation? Does the council take a straw poll on the three questions, or defer?
-
-**What to prepare:** "If the council votes to pursue a bond for Mahoney, does that bond appear on the same tax bill as the school budget increase — and is there a combined-impact number anyone has modeled?" She needs this number, or she needs to be able to say "no one has modeled it yet."
-
-**Document to have open:** The Mahoney presentation PDF (260319 SoPo City Facilities Council Meeting Draft.pdf) — she should pull it up before the meeting so she can cross-reference any numbers cited at the podium tonight.
-
----
-
-**I.4 — Project Home Funding Appropriation**
-Meg has an unresolved thread on this since February 17: Project Home was projected to exhaust its funds around February 27, and the eviction moratorium that might have helped tenants was defeated 4-2. This order appropriates new funds for Project Home. If it passes, she can report to her networks that emergency rental assistance is back online. If it fails or is amended down, she has a story about immigrant and low-income families — some with kids in South Portland schools — losing the last safety net after the moratorium was defeated.
-
-**What to listen for:** The dollar amount being appropriated (it's not stated in the agenda text she has). Any council member who questions whether Project Home is the right vehicle or suggests redirecting funds. Any reference to how many families are currently in the pipeline and whether this appropriation covers their outstanding need. Any mention of whether the fund will be replenished on a recurring basis or this is a one-time bridge.
-
-**What to prepare:** "How much is being appropriated, and is that enough to cover the families who were already in the pipeline when Project Home ran out of funds in late February?" — She needs a number she can post.
-
----
-
-**I.1, I.2, I.3 — Postponed Orders from March 3**
-Three orders were held over from the March 3 meeting (which she may not have watched closely, since her focus has been school board meetings). The agenda references amended orders by number but doesn't name the subject clearly. These are uncharacterized in her current understanding.
-
-**What to listen for:** Any reference to TIF agreements, development deals, or tax increment financing when these come up. Any fiscal figures. Given the pattern she's been tracking — TI, 170 Ocean Street — any postponed financial order involving property could affect the school district's funding base.
-
-**What to prepare:** She should look up orders #142-24/25, #212-24/25, and #134-24/25 before the meeting if she has time, or at minimum have the district website open to cross-check if a figure gets cited that sounds like it involves tax diversion.
-
----
-
-**C.2 — Sewer Revenue Bond**
-The comparison table in the agenda shows South Portland's monthly sewer cost (~$56/month, ~$670/year) is the second-lowest among peer communities. This is city infrastructure spending, not school spending — but context matters. If a council member uses South Portland's relatively low sewer costs to argue the city has "fiscal room" for other investments (like Mahoney), or conversely argues that residents are already near their limit, Meg should note that framing. It's background noise for the tax burden story, not a headline.
-
----
-
-**D — Appointment Calendar Postponed to April 7**
-Twenty-two appointments are being postponed, including three active vacancies (Allison Springer resigned January 20, Lisa Maxfield resigned January 22, Michael Duvernay resigned January 17). This is largely procedural, but Meg should scan the board names when the motion is read to check whether any of the postponed appointments involve the School Committee, Budget Committee, or any body with school oversight. If any do, she should flag the vacancy to her networks as a potential governance gap.
-
----
-
-**E.1, E.2 — Proclamations (Savannah Johnson and Julie Shane)**
-Ceremonial. Meg can use this opening segment to orient her phone, open her documents, and set up her notes. Nothing to report here, but she should watch who else is in the room during proclamations — parents, advocates, or school staff who showed up to testify on later items.
-
----
-
-**G.1, G.2 — Liquor License Hearings (Willows Pizza, Makoto LLC)**
-Routine business licensing. Not relevant to her networks. Safe to post to her group chat about the budget workshop date during this segment if she needs to.
-
----
-
-**I.5 — 279 Main Street Property Purchase**
-City buying property. She should note the price if cited, as it contributes to the picture of city capital expenditure in the same fiscal cycle as the school tax increase. Not a headline item, but worth logging.
+**Workshop decisions.** The board may be asked to vote on a direction tonight — or just to signal preference. The distinction matters for your summary. A formal vote is news. A "straw poll" or "board consensus direction" is softer news but still reportable if it's on the record.
 
 ---
 
 ## Watch For
 
-- **The Mahoney guidance vote structure:** Watch whether the council gives clear directional answers to all three questions posed or deflects to further study. A deferral tonight means the double-tax-hit question stays open past March 23 — she should report that explicitly as unresolved, not resolved. A clear "yes, we're pursuing a bond" vote gives her something concrete to post.
-
-- **Any council member who explicitly links the Mahoney decision to the school budget timeline or the 4-6% tax ceiling.** If someone says "we need to be careful about stacking this on top of the school increase," that's the most important sentence of the night for her group chats. If no one says it, that's also newsworthy.
-
-- **The Project Home dollar amount.** It's not in the agenda text. She won't know until the position paper is read or a council member cites it. She needs that number before she can post anything accurate about whether the families in the pipeline are covered.
-
-- **Budget Workshop #1 structure:** When E.5 comes up, listen for whether the council signals the School will get the full workshop or share time with other departments. "School" is listed first on April 14, but so are ten other departments. If the school presentation is being compressed into a multi-department night, that's a different story than a dedicated school budget review.
-
-- **Finance Director Sanborn's presence and any off-agenda comments.** Sanborn authored the sewer bond memo. If he speaks to anything beyond sewer costs — especially fund balance, reserve levels, or debt capacity — Meg should capture it. Sanborn is one of the people most likely to say the quiet part out loud about combined fiscal pressure.
-
-- **Chair DeAngelis is not on this council** — but watch for any school board member who may be in the public comment section. School board members attending a city council meeting four days before the March 23 workshop would be a signal worth noting.
-
-- **Procedural signals on the postponed orders (I.1-I.3):** If any of these are further amended or significantly debated rather than passed cleanly, that's worth timestamping — they were already delayed once from March 3. A second delay on a financial order is a pattern.
-
-- **Public comment on Mahoney:** Who shows up to speak, and do any of them mention the school budget in the same breath? Parent voices in city council public comment on a non-school item would signal that Meg's networks are already connecting the dots — or that she needs to help them do it.
-
-- **Whether anyone asks about the April 14 school budget workshop format before or after the consent calendar vote.** If a council member pulls E.5 off the consent calendar for discussion, that's a sign there's disagreement about the school review process that she'd want to know about.
+- **The deficit number on the first substantive slide.** Screenshot it. If it says $7.2M, note the discrepancy with Matthews' $8.4M March 18 statement in your summary. If it says something different from both, that's your lede.
+- **Whether "two elementary closure options" means physical building closure or something else.** This is your single most important fact-check of the night. Do not post "they're closing schools" if the language in the deck means something narrower.
+- **Skillin.** Chair DeAngelis explicitly framed Skillin's protection as an equity imperative for immigrant families. If either of the two elementary options includes Skillin, watch how DeAngelis and the four board members who previously blocked Option 1.7 respond. If they've reversed, that's news. If they hold, note who's holding.
+- **Whether anyone explicitly addresses the $8.4M figure Matthews cited.** Councilor Matthews said it on the record. If no board member or administrator acknowledges it tonight, that silence is worth noting in your summary.
+- **Any school-level specifics — building names, grade assignments, transportation implications.** Your networks have kids at specific schools. Aggregate numbers are less useful to them than "Dyer becomes a primary school serving K–2."
+- **The phrase "just the first wave."** Matthews used that language about the 72 layoff notices. If any speaker references additional cuts beyond the current package tonight, that's a major escalation.
+- **Feller's posture on the tax rate.** He signaled willingness to exceed 6% in February. The council guidance is 4–6%. If he presents a scenario above 6% tonight, or signals flexibility, that changes the "cuts are happening no matter what" framing you've been using.
+- **Whether early retirement buyouts are reported.** 41 staff were eligible; buyouts could yield over $1M in relief. If administration reports on uptake, that affects how deep the remaining cuts need to go.
+- **Board members who don't speak.** In a workshop this consequential, silence from a board member who has been vocal previously (particularly on equity or reconfiguration) is worth noting.
+- **Public comment tone and length.** The new tightened comment rules are in effect. If public comment is limited or cut off, your networks will ask why the community wasn't heard. Note the format — how many speakers, how long, whether immigrant family voices are present given the ongoing absence pattern post-ICE.
+- **Any mention of September 2026 implementation.** You have an open question about whether that timeline is realistic. If administration says September is still the target for reconfiguration implementation, note it — your networks with elementary kids need to know if a school change is happening in five months.
+- **Page numbers from the deck.** You are now in possession of the advance document. If someone cites a figure at the podium, you can say "that's page X of the March 23 budget deck." That's exactly the citation capability your group chats need from you — and it's the defense you need when someone pushes back in the thread.

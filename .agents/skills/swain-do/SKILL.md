@@ -1,8 +1,8 @@
 ---
 name: swain-do
-description: Bootstrap, install, and operate an external task-management CLI as the source of truth for agent execution tracking (instead of built-in todos). Provides the abstraction layer between swain-design intent (implementation plans and tasks) and concrete CLI commands. MUST be invoked when any implementation-tier artifact (SPEC) comes up for implementation — create a tracked plan before writing code. Optional but recommended for complex SPIKEs. For coordination-tier artifacts (EPIC, VISION, JOURNEY), swain-design must decompose into implementable children first — this skill tracks the children, not the container. Also use for standalone tasks that require backend portability, persistent progress across agent runtimes, or external supervision. Use this skill whenever the user asks to track tasks, create an implementation plan, check what to work on next, see task status, manage dependencies between work items, or close/abandon tasks — even if they don't mention "execution tracking" explicitly.
+description: Operate the external task-management CLI (tk) as source of truth for agent execution tracking. Invoke when any SPEC comes up for implementation, when the user asks to track tasks, check what to work on next, see task status, manage work dependencies, or close/abandon tasks. For coordination-tier artifacts (EPIC, VISION, JOURNEY), swain-design must decompose into child SPECs first — this skill tracks the children, not the container.
 license: UNLICENSED
-allowed-tools: Bash, Read, Write, Edit, Grep, Glob
+allowed-tools: Bash, Read, Write, Edit, Grep, Glob, EnterWorktree, ExitWorktree
 metadata:
   short-description: Bootstrap and operate external task tracking
   version: 3.1.0
@@ -83,11 +83,11 @@ When work cannot proceed as designed, abandon tasks and escalate to swain-design
 
 ## "What's next?" flow
 
-Run `tk ready` for unblocked tasks and `ticket-query '.status == "in_progress"'` for in-flight work. If `.tickets/` is empty or missing, defer to `bash skills/swain-design/scripts/chart.sh ready` for artifact-level guidance.
+Run `tk ready` for unblocked tasks and `ticket-query '.status == "in_progress"'` for in-flight work. If `.tickets/` is empty or missing, defer to `bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/chart.sh' -print -quit 2>/dev/null)" ready` for artifact-level guidance.
 
 ## Context on claim
 
-When claiming a task tagged with `spec:<ID>`, show the Vision ancestry breadcrumb to provide strategic context. Run `bash skills/swain-design/scripts/chart.sh scope <SPEC-ID> 2>/dev/null | head -5` to display the parent chain. This tells the agent/operator how the current task connects to project strategy.
+When claiming a task tagged with `spec:<ID>`, show the Vision ancestry breadcrumb to provide strategic context. Run `bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/chart.sh' -print -quit 2>/dev/null)" scope <SPEC-ID> 2>/dev/null | head -5` to display the parent chain. This tells the agent/operator how the current task connects to project strategy.
 
 ## Artifact/tk reconciliation
 
@@ -119,6 +119,38 @@ When a superpowers plan file exists, use the ingestion script (`skills/swain-do/
 
 Selects serial vs. subagent-driven execution based on superpowers availability and task complexity. Read [references/execution-strategy.md](references/execution-strategy.md) for the decision tree, detection commands, and worktree-artifact mapping.
 
+## Pre-plan implementation detection
+
+Before creating a plan for a SPEC, check whether it is already implemented. Perform all three steps:
+
+**Step 1 — Check git history for the spec ID:**
+```bash
+git log --oneline --all | grep -i "<SPEC-ID>"
+```
+Matching commits are a strong signal.
+
+**Step 2 — Check whether deliverable files exist:**
+Read the spec artifact to identify described deliverables (files, scripts, configs). Check whether those files exist using `ls` or `Glob`.
+
+**Step 3 — Re-run tests fresh (REQUIRED if tests are mentioned in the spec):**
+Do NOT trust any prior claim or cached result. Run the tests now and read the actual output. This is the critical evidence gate.
+
+**Decision:**
+- **2 or more signals confirm implementation** → offer the retroactive-close path (below)
+- **1 signal** → proceed with normal plan creation; note the signal in the first task's description
+- **0 signals** → proceed normally
+
+**Retroactive-close path:**
+1. Do NOT create a full task decomposition.
+2. Create a single tracking task: `tk create "Retroactive verification: <SPEC-ID>" -t task --external-ref <SPEC-ID>`
+3. Claim it: `tk claim <id>`
+4. Run `verification-before-completion` (if superpowers installed) or re-run the spec's tests manually.
+5. If verification passes: add a note with the evidence, close the task, then invoke swain-design to transition the spec to Complete.
+6. If verification fails: fall back to normal plan creation — the prior implementation was incomplete.
+
+**Anti-rationalization safeguard (CRITICAL):**
+The agent MUST re-run tests during detection — it cannot assume prior passing results are current. "Tests passed before" or "I implemented this earlier" is NOT evidence. Fresh test execution output is evidence.
+
 ## Worktree isolation preamble
 
 Before any implementation or execution operation (plan creation, task claim, code writing, execution handoff), run this detection:
@@ -135,17 +167,19 @@ GIT_DIR=$(git rev-parse --git-dir 2>/dev/null)
 
 **If `IN_WORKTREE=no`** (main worktree) and the operation is implementation or execution:
 
-1. Detect superpowers:
+1. Use the `EnterWorktree` tool to create an isolated worktree. This is the only mechanism that actually changes the agent's working directory — manual `git worktree add` + `cd` does not persist across tool calls.
+
+2. After entering, re-run tab naming to reflect the new branch:
    ```bash
-   ls .agents/skills/using-git-worktrees/SKILL.md .claude/skills/using-git-worktrees/SKILL.md 2>/dev/null | head -1
+   REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+   bash "$REPO_ROOT/skills/swain-session/scripts/swain-tab-name.sh" --path "$(pwd)" --auto
    ```
-2. If **superpowers absent** — stop. Report:
-   > Worktree isolation requires the `using-git-worktrees` superpowers skill. Install superpowers first, then retry.
-   Do not begin implementation work.
 
-3. If **superpowers present** — invoke the `using-git-worktrees` skill to create a linked worktree, then hand off execution into that worktree.
+3. If **`EnterWorktree` fails** — stop. Surface the error to the operator. Do not begin implementation work.
 
-4. If **worktree creation fails** — stop. Surface the error message from `using-git-worktrees` to the operator. Do not begin implementation work.
+**Note:** swain-session auto-enters a worktree at startup (Step 1.5), so this preamble is a fallback for sessions that skipped isolation or where the operator exited the worktree mid-session.
+
+When all tasks in the plan complete, or when the operator requests, call `ExitWorktree` to return to the main checkout.
 
 ## Fallback
 

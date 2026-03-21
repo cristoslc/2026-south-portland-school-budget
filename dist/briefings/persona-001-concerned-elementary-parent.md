@@ -2,124 +2,90 @@
 schema_version: "1.0"
 persona_id: "PERSONA-001"
 persona_name: "Maria"
-upcoming_meeting_date: "2026-03-19"
-generated_date: "2026-03-17"
-has_agenda: true
-last_cumulative_meeting: "2026-03-09"
-inter_meeting_evidence_count: 0
+upcoming_meeting_date: "2026-03-23"
+generated_date: "2026-03-21"
+has_agenda: false
+last_cumulative_meeting: "2026-03-19"
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Maria (PERSONA-001)
-## Upcoming Meeting: 2026-03-19
+## Upcoming Meeting: 2026-03-23
 
 ## Since Last Meeting
 
-No new inter-meeting evidence has surfaced in the period between March 9 and March 19. Maria has been in deliberate "strategic patience" mode since the March 2 workshop — maintaining her parent network, waiting for March 23.
+The most significant development since March 19 is the release of the school board's presentation deck for tonight's March 23 workshop. This is not a minor update — it tells you several things before the meeting even starts.
 
-The silence itself carries meaning: **the administration has not publicly signaled which of the nine reconfiguration options it will recommend** at the March 23 school budget workshop, which is now four days away. If a recommendation were generating internal controversy or leaking informally, parent networks would likely have caught something by now. The quiet could mean the administration is holding a tightly managed reveal — or that the decision isn't as settled as the board's confident posture suggests. Either way, Maria is walking into the March 19 council meeting without knowing what the March 23 recommendation will look like. That's a problem because **tonight's council meeting contains at least two items that are directly entangled with the school budget's unresolved questions**.
+**The nine options are down to two.** The March 23 deck includes "two elementary closure options." Six weeks of community input across multiple workshops, 24-plus parents on record in opposition, the teachers' union declining to endorse any plan that eliminates colleagues — and the administration has landed on two specific options to present tonight. You don't know yet which schools those options target, but you're walking into a room where the field has been dramatically narrowed since March 2.
+
+**Tonight may be a decision meeting, not just an information meeting.** The deck explicitly outlines "decisions expected at the workshop." That phrase matters. Previous meetings were framed as input-gathering. If the board is signaling that decisions are expected, tonight may be the last point at which the full board publicly deliberates before locking in a recommendation. The April 14 workshop was the date you've been organizing toward — but March 23 may move the effective decision earlier than you planned.
+
+**Personnel and non-personnel reductions are on the deck.** The presentation covers both categories alongside the closure options. This means staffing cuts are being presented alongside the reconfiguration plan tonight — not as a separate future discussion. The pink slips went out March 18. The FY27 staffing picture is being formalized in real time.
+
+**Middle and high school reductions are also on the agenda.** This matters to you not because you follow secondary education closely, but because it's the comparison point you've been waiting for. Are secondary cuts proportional to what's happening at the elementary level, or are they smaller in scale? That comparison is your equity benchmark.
+
+The absence of a formal public agenda for tonight means you may not know until you walk in the door what the procedural posture is — whether public comment is scheduled, when it occurs in the meeting order, or how much time is available. Plan to arrive early and find out before the meeting starts.
 
 ---
 
 ## Open Questions
 
-These are the threads Maria is carrying in as of tonight:
+- **Which two elementary schools are in the closure options?** Of the nine options presented March 2, two have survived. Is my child's school one of them? Is Skillin protected again, as DeAngelis suggested, and if so, who absorbs the impact instead?
 
-- **Which nine options will actually survive to March 23, and is there any chance the administration surprises us with something that protects elementary specialists and ed techs?** Or has this been settled for weeks and the workshop is theater?
-- **Is the non-reconfiguration path a real option, or was it only ever presented to make reconfiguration look inevitable?**
-- **How many of those 42 teacher eliminations hit elementary schools specifically — and does the number change depending on which reconfiguration option gets chosen?**
-- **My daughter is thriving at her school right now. If her school gets turned into a "2–4 intermediate campus," what actually changes about her day? Does she lose her art teacher? Her PE teacher? Does she still have the same classroom aide who's been working with her friend who has an IEP?**
-- **Project Home's emergency fund was supposed to be exhausted days after February 17. What happened to the families it was serving? Are those kids still showing up to school?**
-- **Is the district even tracking the kids who stopped coming because of ICE enforcement — and is anyone adjusting the enrollment numbers that are being used to justify eliminating 42 teaching positions?**
-- **The Mahoney discussion keeps getting bigger. Could the city's facility decisions actually intersect with which school buildings are available for reconfiguration — and is anyone connecting those dots?**
-- **Every time I do the math, I keep landing on: Mahoney debt service, school tax increase, sewer costs... What is the actual total impact on a household like mine? Is anyone in city government even looking at this as one number?**
-- **Will the council's sub-6% guidance force even more cuts than the 78 positions already on the table?**
-- **The budget workshop schedule puts schools on April 14. What does the board bring to that workshop — a final reconfiguration recommendation, or still nine options?**
+- **What does "decisions expected" actually mean tonight?** Is the board taking a formal vote to select one of the two options? Narrowing to one for further study? Or using "decisions" loosely to mean "direction-setting"? I need to know whether tonight is the last real deliberation before April 14 or a checkpoint that still has flexibility after.
+
+- **What exactly are the "non-personnel reductions" — and do they hit classroom supplies, specialist programs, or both?** The spending freeze is already in effect. Are these additional cuts layered on top, or the formalization of the freeze?
+
+- **How many elementary teaching and ed-tech positions are eliminated under each of the two options — not combined, not averaged, but specifically per option?** I want to see the staffing tables side by side.
+
+- **Are art, music, and PE specialists named in the personnel reductions, or are they assumed to survive reconfiguration?** I know from March 2 that class sizes increase under any option. I don't know what happens to the people who teach subjects that aren't tested.
+
+- **Is the $8.4M gap reflected in tonight's math, or are they still working off the $7.2M figure from February?** Councilor Matthews cited the higher number on March 19. If the gap has grown and the board's reconfiguration options were sized for $7.2M, the savings may not close the actual hole.
+
+- **Which positions were assumed in the March 18 pink slips?** Were the notifications tied to a specific reconfiguration scenario, or worst-case across all options? If they assumed Option X and the board selects Option Y tonight, do people get rescinded notices, or does the board pick the option that matches the notifications already sent?
+
+- **Are the middle and high school reductions proportional to what elementary is absorbing?** I want to see the cuts as a percentage of each level's budget, not just dollar totals. If high school is cutting 3% and elementary is cutting 12%, that needs to be said out loud.
+
+- **Is September 2026 implementation still the target?** The pink slips are out. Decisions are expected tonight. But the logistics of actually restructuring two schools by fall — transportation, family notification, staff placement — have never been publicly detailed.
+
+- **What's the transportation plan, and what does it cost?** Grade-band campuses mean families with a kindergartner and a third-grader drop off at two different buildings. If the district is saving $2M on the buildings side but spending it on bus routes and family coordination, what's the net?
 
 ---
 
 ## Agenda Implications
 
-**Item E.5 — Budget Workshop Schedule (Consent Calendar)**
-This is the most actionable school-adjacent item on tonight's agenda, and it's buried in the consent calendar. The city manager is proposing to set **April 14 as Budget Workshop #1**, and the School Department is **first on that workshop's agenda**.
+No formal agenda has been published for tonight's meeting. What you know comes from the presentation deck: FY27 proposal overview, personnel reductions, non-personnel reductions, two elementary closure options, middle and high school reductions, and "decisions expected." Treat that structure as your de facto agenda, with these implications for how you prepare:
 
-What this means for Maria: The sequence is now hardening. March 23 school workshop → April 14 city council budget workshop. That's a 22-day window in which the school board is expected to narrow nine reconfiguration options to a recommendation and have it ready for the council's formal review. Maria should note whether this timeline is realistic given that September 2026 implementation is already in question. If the council approves this schedule tonight without discussion, it's locking in a sprint that leaves almost no room for substantive community input between the March 23 recommendation and the April 14 council workshop.
+**The two elementary closure options are the center of gravity.** Everything else in the deck supports or contextualizes this. When the administration presents the two options, your job is to hold both in your head simultaneously and ask about the specifics that don't appear in summary slides: class sizes by grade level, number of ed-tech positions per option, which specialist positions survive, and whether the savings numbers include or exclude transition costs.
 
-*Listen for:* Any council member questioning whether April 14 is premature given the pace of school board deliberations. *Question to prepare:* If the March 23 workshop produces a recommendation, how many days will the public have to review it before April 14?
+**Personnel reductions will be presented as a block.** Watch for whether elementary cuts and secondary cuts are separated or aggregated. If they're presented as a combined total, ask for the breakdown. "78 positions total" tells you nothing about whether your child's school lost its reading specialist.
 
----
+**"Decisions expected" puts pressure on public comment timing.** If the board plans to deliberate and move toward a decision in the same session, public comment may occur before the key deliberation — or it may be cut short if the meeting runs long. Find out at the start of the meeting whether public comment is scheduled and when.
 
-**Item H.1 — City Facilities Discussion (Mahoney, City Hall, Library)**
-This is the biggest item on tonight's agenda from Maria's perspective, and it has nothing officially to do with schools — which is exactly why she needs to pay close attention.
+**Non-personnel reductions are easy to miss and hard to recover from.** Cuts to curriculum materials, technology, field trips, and specialist time often disappear into line items. Ask specifically: do non-personnel reductions affect any programs that directly touch elementary classrooms, and are any of these reductions reversible if enrollment recovers?
 
-The council is being asked three questions: proceed with a scaled-down Mahoney project, explore a public/private partnership RFP, or consider other city hall locations? How does the council address the library's facility needs?
-
-What this means for Maria: On February 17, a late-night mention floated Mahoney entering the reconfiguration conversation. That thread was never formally pursued. Tonight's Mahoney discussion is the first chance she's had to watch whether any council member connects the Mahoney decision to the school facility footprint. The district is already asking which buildings house which grade configurations. Mahoney is a large public building. If the council chooses a scaled-down project or a developer partnership, the building's future use becomes an open question on a timeline that could intersect with school reconfiguration decisions.
-
-The $194M in capital costs and the $1,152/year per-household debt service impact are still on the table. If the council endorses a scaled-down Mahoney project tonight, Maria wants to understand what that scaled-down cost is — and whether the council is integrating that burden with the school budget increase it is simultaneously directing.
-
-*Listen for:* Any council member mentioning schools or the school building footprint in the Mahoney discussion. Listen for cost estimates on the "scaled-down" option — does anyone state a number? Listen for whether the public/private partnership RFP is seriously entertained or quickly dismissed. *Questions to prepare:* Has the city manager modeled the combined household tax impact of the scaled-down Mahoney option plus the school budget increase? Has anyone in city administration talked to the school department about whether any Mahoney square footage could serve a reconfiguration scenario?
-
----
-
-**Item I.4 — Appropriating Funds for Project Home**
-This is the item Maria has been waiting for since February 17, when Project Home's emergency fund was projected to exhaust within days. The council is now voting on an appropriation.
-
-What this means for Maria: She needs to know the amount and conditions. Is this a one-time emergency bridge, or is it meaningful sustained funding? Project Home serves families — including immigrant families — whose housing instability is directly affecting school enrollment. The children who stopped attending school because their parents are afraid of ICE, or because their family faced eviction: Project Home is one of the only organizations positioned to keep those families connected to the school community.
-
-Maria also needs to register the political context: the same council that voted down the eviction moratorium 4–2 is now voting on Project Home funding. If this appropriation passes unanimously, that's a different political signal than if it passes 4–2 or fails.
-
-*Listen for:* The dollar amount and whether it's characterized as emergency relief or ongoing support. Listen for whether any council member connects this to school enrollment stability. Listen for the vote split — unanimous passage would be a meaningful data point. *Question to prepare for public comment:* Given that Project Home serves families whose children are enrolled in South Portland schools, has the school department been consulted about the enrollment impact of housing instability in the communities Project Home serves?
-
----
-
-**Item D (Appointment Calendar — Postponed to April 7)**
-The full appointment calendar is being postponed, including three current vacancies: the Human Rights Commission (Allison Springer resigned January 20), and two others. The HRC vacancy is notable to Maria because she has been watching the equity dimensions of the budget process and the specific erasure of immigrant families from the reconfiguration conversation.
-
-*Listen for:* Whether anyone objects to the postponement or requests that specific vacancies be fast-tracked. A council that fast-tracks appointments when it wants to signals priorities. The HRC vacancy has been sitting since January 20 — nearly two months.
-
----
-
-**Items I.1, I.2, I.3 — Postponed Items from March 3**
-These three items were carried over from March 3 without public explanation. The agenda doesn't provide enough detail to assess their school-relevance directly, but Maria should note them.
-
-*Listen for:* Whether any of these items involve land use, housing, or fiscal transfers that could affect the school budget picture. If they pass without discussion, note that they had been delayed once before.
-
----
-
-**Item C.2 — Sewer Revenue Bond**
-The sewer cost comparison shows South Portland at approximately $56/month ($670/year), second-lowest among the seven communities listed.
-
-What this means for Maria: This is another line item in the household tax burden calculation she's been informally running. It's not a school budget item, but the city is actively managing its debt posture. Maria's question — *is anyone in city government looking at combined household burden as a single number?* — gets one more data point tonight. The answer appears to still be no.
-
-*Watch for:* Whether the finance director presents this in the context of total municipal cost of living, or only as a siloed infrastructure decision.
-
----
-
-**Items E.3–E.4 (Orders #98 and #112), E.6, E.7, E.8 — Routine Consent Items**
-Road closures, a DOT agreement, Springfest, land sale at Elm Street. Nothing in the agenda descriptions suggests direct school relevance.
-
-*Action:* Skim. Note the Elm Street land sale in passing — any city property sale is theoretically relevant to the Mahoney/facilities conversation, but this doesn't appear to be connected.
+**The decisions framing creates a closing window.** If the board reaches a direction tonight, the April 14 workshop becomes implementation detail, not deliberation. Your organizing window may be shorter than you planned.
 
 ---
 
 ## Watch For
 
-- **Budget workshop schedule passes without discussion**: If Item E.5 slides through the consent calendar on a single motion, note that the council just locked in a 22-day window between the March 23 school recommendation and the April 14 budget workshop with no public debate about whether that timeline is adequate. Use this in your parent network communications.
+- **Which two elementary options are on the table and which schools they target.** Listen for whether the options were chosen because they save the most money, avoid closing Skillin (per DeAngelis's constraint), or some other criterion. The reasoning matters as much as the outcome — it tells you whether the process was analytically driven or politically predetermined.
 
-- **Any council member who draws a line between Mahoney and schools**: The February 17 late-night mention may resurface tonight. If a council member — especially one in the 4–2 majority bloc — raises the school building footprint during the Mahoney discussion, that's the first public signal that the two tracks are being integrated. It could mean the school reconfiguration recommendation is already known to at least some council members.
+- **Whether the vote or "decision" is framed as binding or advisory.** Watch for procedural language: "move to recommend," "direct the administration," "take action." If Board Member Feller or another member motions toward a formal vote, that's the moment to track. A 5–2 vote tonight effectively ends the nine-option phase.
 
-- **The Mahoney cost number**: If a "scaled-down" figure is presented tonight, compare it mentally to the $1,152/year per-household estimate from the January 13 workshop. How much has it dropped? Is it enough to change the combined-burden calculation?
+- **DeAngelis's framing language.** She has consistently used equity and belonging language while advancing decisions that constrain participation. If she invokes those frames tonight while moving toward a vote that eliminates positions at specific elementary schools, note the gap between the language and the action. Her framing has been a reliable signal of which way the vote goes.
 
-- **Project Home vote split**: The 4–2 eviction moratorium vote was a political marker. Watch whether the Project Home appropriation breaks along the same lines or achieves consensus. A fractured vote on Project Home funding would confirm that immigrant and housing-vulnerable families lack reliable council support. A unanimous vote would be worth noting — but also worth scrutinizing for conditions or limits on the funding.
+- **Whether any board member asks about the $8.4M vs. $7.2M discrepancy.** If tonight's math is built on $7.2M and the real gap is $8.4M, the savings projections are underpowered. If no one raises this, you should during public comment.
 
-- **Project Home dollar amount vs. the need**: Maria knows the fund was projected to be exhausted "within days" of February 17. That's now four weeks ago. Whatever is being appropriated tonight: was it enough? Does the position paper give any indication of how it was calculated?
+- **The staffing detail per closure option.** If the presentation shows total savings numbers without breaking out positions by school or by level (elementary/secondary), that's the abstraction you need to pierce. Ask: "How many ed-tech positions are eliminated under Option A versus Option B, specifically at the elementary level?"
 
-- **HRC vacancy**: Watch whether any council member flags the Human Rights Commission vacancy as urgent given current ICE enforcement activity in the community. Silence from the dais on this point is itself meaningful.
+- **Whether middle and high school reductions are presented as proportional.** Listen for the percentage of budget cut at each level. If secondary cuts are smaller per-student than elementary cuts, that asymmetry should be named publicly — and if no board member names it, you should.
 
-- **Finance Director Sanborn's presentation style and confidence**: Sanborn is presenting the sewer bond memo. The district has had six finance directors in five years. Sanborn is new. Maria can use tonight's council presentation as a low-stakes opportunity to calibrate: Does Sanborn present numbers with specificity and confidence? Does the council treat her as credible? This matters because Sanborn's credibility at the school level will affect whether the board's April 14 presentation lands.
+- **Superintendent search status and its relationship to tonight's decision.** If the board is selecting a reconfiguration option tonight, they are binding a superintendent who hasn't been hired yet to a structural decision made in their absence. Watch for whether any board member raises this — and if not, it's a question worth asking.
 
-- **Chair DeAngelis's absence or presence**: This is a city council meeting, not a school board meeting — DeAngelis won't be there. But watch whether any city council member volunteers a public statement about the school budget timeline, the March 23 workshop, or parent concerns. If a council member uses tonight's public comment period or business session to signal support for or against the reconfiguration path, that's intelligence Maria's network should have before March 23.
+- **Public comment rules and timing.** Arrive early and confirm: Is public comment before or after the presentation? Is there a sign-up sheet? Is there a time limit? If public comment is after the deliberation, your ability to influence the decision tonight is effectively zero — but your statement still goes on the record before April 14.
 
-- **Public comment**: Is anyone else in the room for school-related reasons? Maria should scan attendance. If other parents are present and prepared to speak on Project Home, Mahoney, or the budget timeline, coordinate before the meeting if possible. Public comment is more effective when multiple speakers reinforce the same specific point rather than repeating the same general concern.
+- **Feller's positioning.** She previously raised the possibility of exceeding the 6% tax ceiling to avoid draconian cuts. If she's moved off that position and is now aligning with the majority on a closure option, the deliberation phase may be closing faster than it appears. If she's still raising the higher-tax alternative, there may be one more opportunity to influence the outcome.
 
-- **Council's tone on the Mahoney decision**: Is this treated as a fiscal decision (cost minimization) or a vision decision (what does South Portland want to be)? The way the council frames its Mahoney deliberations will tell Maria something about how they'll frame the school budget in April — and whether the combined household burden is understood as a political constraint or just arithmetic.
+- **Any mention of September 2026 feasibility.** If an administrator or board member says "we can implement this by September" without any transportation plan, family communication timeline, or staff placement process on the table, challenge that claim. Reconfiguration without logistics is a promise, not a plan.

@@ -3,10 +3,10 @@ schema_version: "1.0"
 persona_id: "PERSONA-005"
 persona_name: "Priya"
 upcoming_meeting_date: "2026-03-23"
-generated_date: "2026-03-20"
+generated_date: "2026-03-21"
 has_agenda: false
 last_cumulative_meeting: "2026-03-19"
-inter_meeting_evidence_count: 0
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Priya (PERSONA-005)
@@ -14,70 +14,76 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new inter-meeting evidence has emerged in the period between the March 19 meeting and the upcoming March 23 meeting. That silence is itself worth noting.
+The most significant development is the emergence of the **FY27 Budget Google Slides deck** prepared for the March 23 workshop — the first structured document to lay out the full reduction landscape in one place. For Priya, several elements of what's described in this presentation carry immediate equity weight:
 
-The 72 pink slips issued March 18 are now real, served personnel — not proposals. The window for stopping that specific harm has closed. What remains open is the question of whether the district will now be held accountable for *how* those cuts land: which schools lose which teachers, whether ELL-endorsed positions were eliminated at higher rates in high-need schools, and whether the 16 ed tech eliminations functionally dismantle IEP support infrastructure at schools like Skillin.
+**Two elementary closure options are on the table.** The Skillin closure was rejected on March 2 specifically because board members named the racial politics directly. But "two elementary closure options" signals the administration has returned to reconfiguration as a cost mechanism — and the equity-washing risk hasn't disappeared; it has just been rerouted. Without knowing which two schools appear in these options, Priya cannot yet assess whether the administration has centered the confirmed de facto segregation data or is repeating the structural logic that produced Option 1.7.
 
-The absence of news in the past four days also means no public statement has emerged from the district clarifying whether food service cuts have been mapped to specific schools and routes, whether transportation equity analysis has been completed, or whether the special education Pre-K mandate expansion has any identified funding pathway that doesn't depend on the same federal grant infrastructure that has been mismanaged for years.
+**The 72 pink slips are now a fact on the ground.** Issued March 18, these are no longer projections — they are active personnel actions. The composition of those eliminations (42 teachers, 16 ed techs, 14 food service/transportation/facilities workers, 2 administrators) is now the baseline against which every workshop discussion about "decisions" should be evaluated. If the March 23 meeting produces decisions that further shape this list, Priya needs to know which cuts are still in motion and which are locked.
 
-The $100,000 Project Home appropriation passed 6-1 on March 19. That is now the only concrete financial protection for immigrant and low-income families enacted by the city in this entire budget season. Matthews' no vote and his explicit framing of immigrant rental aid as competing with school staff budgets is now on the record. Whether that framing spreads — whether other councilors or community members begin triangulating these two groups against each other — is the live threat Priya carries into March 23.
+**The presentation explicitly includes decisions expected at the workshop.** This is unusual transparency about the meeting's purpose — it signals the board is being asked to make binding or near-binding choices on March 23, not just receive information. That raises the stakes considerably. Equity impacts that aren't raised before those decisions are made will be harder to inject afterward.
+
+**No equity impact analysis or disaggregated data has been publicly released** in the period since the last meeting. The absence of that information — despite the material weakness finding, the confirmed segregation data, and the mismanagement of equity-designated federal grants — is itself a data point. The district has demonstrated it can move quickly when motivated (WhatsApp pivot, Chromebook distribution, immigration resolution). Continued silence on disaggregated cut data is not a capacity problem.
+
+---
 
 ## Open Questions
 
-- The 72 pink slips are served. Which schools are absorbing which cuts? Do the eliminations concentrate in schools with higher percentages of English learners, students with IEPs, or students experiencing poverty — or has the district distributed the pain equitably? Has anyone actually run that analysis, or are we being asked to trust that "everyone is hurting equally"?
+- **Which two elementary schools appear in the closure options?** Is one of them Skillin again under a different framing? Is one of them Small — and if so, who bears the transportation and disruption burden?
+- **Has anyone run the demographic overlay on these two closure options?** After what happened with Option 1.7, the board said it wanted better data. Did they get it — and if so, why hasn't it been shared publicly before the workshop?
+- **Where are the 42 teacher eliminations concentrated by school?** Do higher-need schools — Skillin, schools with higher ELL populations — lose more teachers, or is this distributed in a way that compounds existing disparities?
+- **Do any of the 42 teachers being cut hold ELL endorsements or bilingual certification?** If the district is eliminating its own capacity to serve multilingual learners, that's not just a budget decision — it may be a legal one under Title III.
+- **Who is still working on the ed tech cuts?** Sixteen IEP-support positions eliminated is potentially a Special Education Act compliance problem. Has any board member asked the district's special ed director to map these cuts against current IEP caseloads?
+- **The special education mandate for 160-180 additional 3- and 4-year-olds was identified as a real and growing obligation. How is the district planning to resource that during a crisis that just eliminated 16 ed techs?**
+- **Are food service cuts being mapped to specific school routes and meal counts?** For students experiencing food insecurity, the cafeteria is not optional infrastructure — it's a federal nutrition obligation. Which students lose access?
+- **What does "non-personnel reductions" actually mean in this presentation?** Are equity-adjacent programs — wraparound services, community school staffing, mental health supports, multilingual family engagement — being cut under that category, quietly?
+- **The material weakness finding means equity-designated grants were mismanaged. Has any remediation plan been presented to the board, or is that still unaddressed?**
+- **Non-biased hiring training has been postponed twice. With 42 teacher positions being cut and rehires eventually coming, will that training be in place before the next hiring cycle?**
+- **If the community school model is approved district-wide, does this budget fund it? Or is it an unfunded commitment that gets quietly abandoned in the crisis?**
+- **Has any board member asked for a side-by-side comparison of cut distribution by school demographic profile — not just by position type?**
 
-- The 16 ed tech positions eliminated: do any of those individuals hold specific IEP assignments for named students? What happens to those students' federally mandated services on the first day of the next school year?
-
-- Two years of material weakness findings on equity-designated grants. What accountability structure is being put in place — not promised, *put in place* — to prevent continued mismanagement of Title I, IDEA, and ELL funds while we're simultaneously cutting the frontline staff those funds were supposed to support?
-
-- The community school model was approved district-wide. Will implementation prioritize Skillin and other high-need schools, or will it roll out on a demographically neutral timeline that effectively serves already-resourced schools first?
-
-- The special education mandate for 160–180 additional 3- and 4-year-olds: where is the money coming from? Because the federal grant infrastructure that was supposed to fund this work has been mismanaged, and the ed techs who would have supported these kids are being cut.
-
-- Pre-K equity lottery: do the Chickadee partnership seats still bypass it? That is a specific, named inequity in the district's own approved program.
-
-- Non-biased hiring training has been postponed twice. The superintendent search is presumably ongoing. At what point does a search conducted without anti-bias training produce a hire who reflects the same structural blind spots that produced this budget?
-
-- Matthews framed the $100,000 Project Home appropriation as money that could have gone to school staff. Will that framing appear again — at school board meetings, at city council, in community forums — as a wedge between immigrant families and the school employees who just lost their jobs, many of whom serve immigrant students?
-
-- The sewer rate is increasing 22% per year for three years. That's a 66% compounding increase. Does South Portland's oldest wastewater infrastructure geographically overlap with Red Bank and the west side — the same neighborhoods where the families receiving Project Home assistance live, where ICE enforcement has been documented, and where Skillin's student population is concentrated? Has anyone mapped that convergence?
-
-- Ahern's acknowledgment of the racial slur "missed opportunity" is on the record. Is it still only a personal statement? Has any policy change been initiated governing SPPD's relationship with HSI and federal enforcement agencies?
+---
 
 ## Agenda Implications
 
-No agenda is available for the March 23 meeting. Based on the trajectory of events and the open work before both governing bodies, here is what Priya should be prepared for:
+No agenda has been published for the March 23 workshop. Based on the inter-meeting evidence — the budget presentation describing personnel reductions, two elementary closure options, and "decisions expected at the workshop" — the following topics are highly likely to surface, with specific implications for Priya:
 
-**Budget implementation is the most likely centerpiece.** With 72 pink slips served, the March 23 meeting may address either the formal budget reduction process, community response, or both. Priya should listen for whether any school-by-school, program-by-program, or population-by-population breakdown of the cuts is presented — or conspicuously absent. If administrators present the reductions as a clean, neutral process, that absence of disaggregation is itself the equity story. She should be ready to ask, on the record, whether the district has analyzed the demographic distribution of eliminated positions by school and by student population served.
+**Elementary Closure Options**
+This is the highest-equity-stakes item on the workshop. The March 2 meeting established that four board members will reject closure options that cannot survive demographic scrutiny — but only when the racial stakes are named explicitly and specifically. Priya should be prepared for equity language to appear in the framing of whichever two options are presented. The question is whether that equity language is analytical (based on actual demographic modeling and transportation burden analysis) or rhetorical (invoking "access" and "opportunity" without disaggregated data). She should listen specifically for: whether the presentation acknowledges the confirmed segregation data from Walker's March 2 testimony; whether demographic composition of affected schools is presented for both options; and whether transportation burden and disruption cost are mapped to families by income and language status.
 
-**Elementary reconfiguration may return with revised options.** The Skillin closure was rejected, but the board has not completed the reconfiguration decision. Any new options presented should be evaluated against the specific demographic data Walker and others put on the record March 2: Skillin at 60% BIPOC, 54% free/reduced lunch, 33% multilingual learners; Small under 20% BIPOC and 6% multilingual learners. If a new option uses equity language without addressing that documented segregation, Priya should be prepared to name it as a continuation of the Option 1.7 pattern.
+**Personnel Reduction Decisions**
+The 72 pink slips are issued but the list is not necessarily final — workshop decisions could shape which positions are retained or restored. Priya should track: whether any discussion names the specific schools where teacher cuts fall; whether ed tech cuts are discussed in relation to IEP caseloads; whether any board member presses on the 2-administrator-versus-16-ed-tech ratio as a structural equity question.
 
-**Special education and ELL services are likely to surface.** The Pre-K mandate expansion, combined with ed tech eliminations, creates a legal and operational contradiction the district will eventually have to address publicly. Priya should watch for whether administrators present these as separate problems (budget crisis vs. mandate compliance) or acknowledge the structural connection. She should also watch for whether any timeline or funding pathway for the IEP compliance infrastructure is offered.
+**Non-Personnel Reductions**
+These tend to get treated as budget-neutral line items. Priya should be alert to cuts that eliminate programs serving underserved students — mental health support, multilingual family engagement, community school coordination, wraparound services — framed as administrative efficiencies. Ask: which students depend on these programs, and what is the alternative if they're gone?
 
-**Community school model implementation timeline** may be on the table. If so, Priya should ask directly: which schools are in the first cohort, what is the selection rationale, and how does it account for the confirmed disparity in need across elementary schools?
+**Middle and High School Reductions**
+Less visible than the elementary closure drama, but worth tracking. Does the middle school athletic field inequity come up? Are any cuts proposed at schools serving higher concentrations of ELL students or students with disabilities?
 
-**Matthews' framing may echo.** Whether at the school board, the city council, or both, the argument that immigrant housing aid competes with school funding is now available as a rhetorical tool. Priya should be prepared for it to appear in public comment or from elected officials and should have a factual counter ready: the families Project Home serves are among those most harmed by the school cuts, not a separate constituency.
+**Process and Engagement**
+If the board is making significant decisions at this workshop, Priya should note whether public comment is structured in a way that allows community members — including those who cannot attend in-person due to ICE enforcement climate or transportation barriers — to meaningfully participate before the vote, not after.
+
+---
 
 ## Watch For
 
-- Any presentation of budget cut impacts in the aggregate ("72 positions eliminated") without school-by-school or population-by-population breakdown. Push for disaggregated data every time it's absent.
+- **Whether either elementary closure option involves Skillin** — even under altered framing. Any proposal that changes Skillin's grade configuration, student assignment, or staffing in ways that reduce its capacity to serve its current demographic is functionally a partial closure. Don't let the label obscure the effect.
 
-- Whether the district presents any analysis of which eliminated positions held ELL endorsements, served students with active IEPs, or worked in Title I schools. If no one on the dais raises it, Priya should.
+- **Whether demographic data accompanies both closure options or only one.** If the administration presents Option A with demographic analysis and Option B without, that asymmetry is itself a choice about which option survives scrutiny.
 
-- Whether food service and transportation cuts have been mapped to specific schools and routes before any final vote or implementation timeline is confirmed. "We're still working on that" at this stage, after pink slips are served, is not an acceptable answer.
+- **Whether Walker or any board member asks specifically about cut distribution by school demographic profile.** Walker is the most consistent equity analyst on the board. If she doesn't raise it, no one will — and the meeting will produce decisions without that data on the record.
 
-- Whether administrators or board members treat the community school model as an equity initiative that offsets the structural damage of the cuts, rather than a complement that requires its own equity-targeted implementation. These are not equivalent.
+- **Any reference to "equal treatment" of schools in the context of cuts or closures.** This is the specific rhetorical move Priya has documented: redefining equity as equality when a real equity analysis would show different schools need different things. Equal percentage cuts to schools with wildly unequal starting conditions are not equitable.
 
-- Tone and specificity from Superintendent when discussing the ed tech eliminations. Listen for whether she acknowledges the IEP compliance implications directly, or routes around them with general language about "supporting all students."
+- **How ed tech cuts are discussed in relation to IEPs.** If the presentation references these positions without acknowledging the legal and compliance implications, that is a gap Priya should name aloud or in written public comment. "What is the district's plan to meet IEP obligations with 16 fewer educational technicians?" is a specific, answerable question.
 
-- Whether Walker continues to press the demographic data from March 2 into the conversation, or whether the post-Skillin dynamic has shifted the board's willingness to name racial outcomes directly. The March 2 moment showed it's possible; watch whether it holds.
+- **Whether food service cuts are presented with impact data.** Eliminating cafeteria workers at specific schools affects federal meal program access for food-insecure students. If no school-level impact data is presented, that absence should be noted.
 
-- Any reference to the non-biased hiring training postponement in relation to the superintendent search timeline. If the search is advancing while the training remains deferred, that's a specific procedural inconsistency worth naming publicly.
+- **Whether the community school model appears in the budget at all.** An approved model without a budget line is not a program — it's a statement. Look for whether community school staffing and coordination resources survive the non-personnel cuts.
 
-- Any city council member or school board member who repeats Matthews' framing — explicitly or implicitly — that immigrant housing aid and school funding are competing priorities. Document the language precisely; this is the weaponization pattern establishing itself.
+- **Whether Superintendent Abramson or the finance team acknowledges the material weakness finding in framing the federal grant situation.** The mismanagement of equity-designated Title I and IDEA funds is not just a past error — it affects current year capacity. If it's treated as resolved without a remediation structure, that's worth noting.
 
-- Whether Ahern or SPPD leadership addresses the racial slur acknowledgment with any policy-level follow-through, or whether the personal accountability statement from March 19 is simply allowed to expire without institutional consequence.
+- **Whether any board member raises the convergence of cuts on the same household populations** — families losing ed tech and food service support at school, facing sewer rate hikes, living in housing instability. This is the geographic concentration Priya has been building toward documenting. If no one on the board names it, that is itself part of the record.
 
-- Whether the sewer rate increase appears on any agenda or in public comment in a way that opens space to connect it geographically to the households already bearing the school cut burden and the Project Home need. If that connection isn't made on the record, Priya should make it.
+- **The tone around the two closure options.** After March 2, the administration knows the board will reject explicitly race-coded closures. Watch for whether the framing this time is more technocratic — "enrollment efficiency," "utilization rates," "programmatic alignment" — as a way to pursue similar outcomes through neutral-sounding language. The demographic outcomes matter more than the justification language.
 
-- Procedural signals: late-night scheduling of equity-adjacent items, consent-agenda treatment of decisions with demographic impact, or any motion to defer community input on reconfiguration options. These scheduling choices are policy choices.
+- **Whether any decision is formally deferred versus made.** If the board takes action on closure options at this workshop, it will happen fast. Watch for consent-agenda-style adoption of framing documents that constrain future decisions without explicit votes on the equity implications.

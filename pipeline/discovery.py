@@ -82,7 +82,11 @@ class DiscoveryHistory:
             return False
         return True
 
-    def record_attempt(self, url, label, status, error=None):
+    def get_record(self, url):
+        """Return the latest history record for url, or None if unseen."""
+        return self._records.get(url)
+
+    def record_attempt(self, url, label, status, error=None, local_path=None):
         """Record a download attempt for a URL.
 
         Args:
@@ -90,6 +94,9 @@ class DiscoveryHistory:
             label: Human-readable label (title, filename, etc.).
             status: One of 'ok', 'failed', 'skipped'.
             error: Optional error message string (for failed attempts).
+            local_path: Basename of the file saved locally (for skip-existing
+                        checks on subsequent runs when the filename was derived
+                        from Content-Disposition rather than the URL).
         """
         now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -110,6 +117,8 @@ class DiscoveryHistory:
         record["status"] = status
         if label:
             record["label"] = label
+        if local_path:
+            record["local_path"] = local_path
 
         if status == "ok":
             record["fail_count"] = 0

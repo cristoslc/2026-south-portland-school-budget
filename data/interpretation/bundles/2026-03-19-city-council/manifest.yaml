@@ -15,3 +15,12 @@ sources:
     normalized_path: docs/evidence-pools/city-council-meetings-2026/sources/020-city-council-agenda-2026-03-19-2026-03-19.md
     evidence_pool: city-council-meetings-2026
     hash: "sha256:4b47882538edf8ee3f7753684014a8ef785d122bae79953202a1665a7114ad9e"
+
+  - source_id: "cc-transcript-2026-03-19-022"
+    source_type: transcript
+    title: "City Council Meeting — 2026-03-19"
+    path: data/city-council/meetings/2026-03-19/transcript.en-x-autogen.vtt
+    normalized_path: docs/troves/city-council-meetings-2026/sources/022-city-council-meeting-2026-03-19-2026-03-19.md
+    evidence_pool: city-council-meetings-2026
+    hash: "sha256:85aee6a6d1ecd2e2c71ee1f274ad88be1b1feb80dc615504c501421c7512c9e1"
+    duration: "04:22:23"

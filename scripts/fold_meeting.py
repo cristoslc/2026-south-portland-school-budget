@@ -46,7 +46,7 @@ log = logging.getLogger("fold_meeting")
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
-PERSONA_DIR = PROJECT_ROOT / "docs" / "persona" / "Validated"
+PERSONA_DIR = PROJECT_ROOT / "docs" / "persona" / "Active"
 MEETINGS_DIR = PROJECT_ROOT / "data" / "interpretation" / "meetings"
 CUMULATIVE_DIR = PROJECT_ROOT / "data" / "interpretation" / "cumulative"
 BUNDLES_DIR = PROJECT_ROOT / "data" / "interpretation" / "bundles"

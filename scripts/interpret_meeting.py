@@ -38,7 +38,7 @@ log = logging.getLogger("interpret_meeting")
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
-PERSONA_DIR = PROJECT_ROOT / "docs" / "persona" / "Validated"
+PERSONA_DIR = PROJECT_ROOT / "docs" / "persona" / "Active"
 MEETINGS_OUTPUT_DIR = PROJECT_ROOT / "data" / "interpretation" / "meetings"
 
 MODEL_ID = _DEFAULT_MODEL

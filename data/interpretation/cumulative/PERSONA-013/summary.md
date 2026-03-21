@@ -2,100 +2,133 @@
 schema_version: "1.0"
 persona_id: "PERSONA-013"
 persona_name: "Amira"
-last_meeting_date: "2026-03-09"
-record_count: 18
-generated_date: "2026-03-17"
+last_meeting_date: "2026-03-19"
+record_count: 19
+generated_date: "2026-03-20"
 ---
 
 # Cumulative Summary: Amira (PERSONA-013)
 
 ### Current Understanding
 
-As of March 9, 2026, Amira understands the South Portland school budget crisis as a compound failure with multiple causes: state underfunding (covering roughly 20% of the mandated 55% share), enrollment decline (elementary enrollment down 23% over four years; district-wide enrollment down 300+ students since 2017 while 82 positions were added), and internal financial mismanagement (34 audit errors, $400K in misallocated grants, six finance directors in five years, emergency reserves now entirely depleted). The result is an $8 million gap, 78 proposed position eliminations including 42 teachers and 16 educational technicians, and a June 9 budget adoption deadline.
+Amira understands the $7.2–8.4 million budget gap — now confirmed by 72 layoff notices issued March 18 — as a three-part failure: state underfunding covering only ~20% of actual costs against a mandated 55%; a decade of staffing growth during enrollment decline (82 positions added while 300+ students left since 2017); and internal financial mismanagement — six finance directors in five years, 34 accounting errors, $400K in misallocated grants. The proposed 78 position cuts (42 teachers, 16 ed techs, plus facilities, food, and transportation workers) represent 12% of the district workforce, and voluntary resignations are accelerating on top of the planned reductions.
 
-The leading closure proposal, Option 1.7, would close Skillin Elementary and reconfigure four remaining schools into grade-band buildings, saving $19.5M over five years primarily by avoiding a $3M HVAC replacement — not because it scores better educationally. At least four board members publicly oppose it. Dozens of parents said they were never told this was being considered.
+She understands the crisis as embedded in a four-party competition for the same tax pool: schools already claim 61% of South Portland's property taxes; the $194M Mahoney building project would add roughly $1,150/year to typical homeowners; Texas Instruments holds a TIF extension claim; and homeowners are already being forced out. A statewide property tax task force exists but has produced no relief before the June 9 adoption deadline. The fund balance is depleted — there is no emergency cushion.
 
-Civic participation, Amira now understands, is structurally limited by complexity, documented hostility, financial cost, active immigration enforcement fear, and upstream unrecorded decisions — city council goal-setting in January precedes and shapes all downstream participatory moments. Student voice exists but is unevenly distributed: visible only to already-engaged students through processes invisible to Amira. The immigrant community welcomed in their native languages on December 1st watched ICE arrive at neighborhood businesses in January, had concrete eviction protection voted down 4-2 in February, and now faces a closure proposal that would primarily harm their children. Programs Amira personally values — band trips, music competitions, robotics — now require special board approval. Special education teachers are resigning on their own, before they can even be cut.
+The elementary reconfiguration has narrowed to Option 1.7 — closing Skillin — as leadership's top recommendation, justified by $19.5M in five-year savings driven by avoiding a $3M HVAC replacement, not by any educational advantage over other options. At least four board members publicly oppose it. The decision is unresolved.
+
+Amira now maps institutional decision-making across invisible upstream layers: city council goal-setting in January (closed, unrecorded) sets directions that constrain all downstream participatory moments — the forums, the joint sessions, the public comments. Student voice exists but is unevenly distributed, never reaching her through any visible pathway. Running parallel to the school crisis, the immigrant family crisis reached its first concrete institutional response on March 19 — a $100K appropriation to Project Home — but Councilor Matthews' sole no vote explicitly named the two crises as zero-sum competitors for the same limited fund, choosing school over families without asking any students which mattered more. The police chief's personal on-record apology that same night is the first accountability statement from any official across the entire record.
+
+---
 
 ### Timeline of Understanding Shifts
 
-1. **2025-12-01** — Looking back from March, Amira recognizes this as the last quiet moment before the storm: immigrant families were welcomed in their native languages, Jules Vazquez read a poem about South Portland's future, and DeAngelis gave a passionate speech about the harm of ignoring students — none of which protected anything that came after.
-2. **2025-12-04** — Councilor Scott's December school tour, in which she named "challenging facilities and resources," introduces the first elected official who sees what Amira has normalized; Amira also learns that civic meeting spaces can be actively hostile (Zoom bombing), expanding her understanding of why families like hers stay away beyond complexity alone.
-3. **2025-12-08** — First direct encounter with the budget crisis: a spending freeze preventing purchase of basic supplies, a four-year-broken field Amira accepted as normal, and 78 positions at risk; Amira shifts from unawareness to worried, angry attention.
-4. **2025-12-09** — The 61% figure resolves a long-standing mystery: that number is why her parents are tense about taxes at dinner; she also learns attending civic meetings costs families $40+ in childcare, adding a concrete financial barrier to her model of why her community stays away.
-5. **2025-12-10** — The board hires the most expensive superintendent search firm ($30,000) with no budget for it while schools cannot buy paper; Amira sees community input will not determine the final hire, and the workshop room is almost empty.
-6. **2025-12-17** — The full scale lands: 42 teachers, 16 ed techs, 78 positions total, a 6% tax increase despite the cuts, and state funding covering only 20% of its mandated 55%; Amira shifts from frustrated curiosity to genuine fear and begins to see the crisis as partly systemic, not just local.
-7. **2026-01-06** — The January 22 forum and February 10 joint guidance workshop are announced; Amira encounters, for the first time across all records, a community member who came to a civic meeting to propose adding something to community life (the Bug Light musician) rather than defending against a loss.
-8. **2026-01-12** — Two Memorial math teachers are retiring with no guaranteed replacements; immigration enforcement is causing student absences; the district is already tracking toward a current-year deficit on top of the projected gap; student board reps are approved to interview superintendent candidates.
-9. **2026-01-13** — The $194M Mahoney building project proceeds with no mention of schools across four hours; a social worker warns a police station placement will deter immigrant families; Amira learns "dozens of students" gave input on Mahoney through a process she was never told about, shifting her understanding of student voice from absent to unevenly distributed; the property tax squeeze becomes a three-way competition.
-10. **2026-01-15** — The January 15 city council goal-setting workshop left no public record — no video, no minutes; Amira learns this closed, upstream session structurally precedes and shapes all the participatory forums she has been tracking; she also learns the district's emergency fund is completely gone.
-11. **2026-01-20** — ICE was at the car wash and laundromat in her neighborhood — places she walks past — making immigration enforcement geographic rather than abstract; the January 22 forum is cancelled because families are too afraid to leave their homes; civic participation now has a fourth barrier: active federal enforcement that collapses the invitation entirely.
-12. **2026-02-03** — The school auditor reports 34 accounting errors and $400K in misallocated grants; the district has cycled through six finance directors in five years; internal mismanagement is now a third cause of the crisis alongside state underfunding and staffing growth; TI's tax abatement request adds a fourth competitor to the tax pool; immigrant advocates wait 3.5 hours to speak and receive a unanimous but toothless resolution.
-13. **2026-02-04** — The elementary reconfiguration plan becomes concrete: grade-band buildings, class sizes jumping from 16 to 22–23, and a $3M+ gap remaining even after all restructuring; Amira learns enrollment fell while the district added staff — a self-inflicted component of the crisis that makes her angrier, not more sympathetic.
-14. **2026-02-09** — The board votes to request a formal reconfiguration proposal; DeAngelis declares children are "far more flexible than parents" and reconfiguration "educationally beneficial" without asking any students — directly contradicting her December speech about the harm of ignoring young people; The Little Kitchen shows students taking direct action where adults hesitated.
-15. **2026-02-10** — The city council enters the picture as a competing budget authority, with councilors calling for up to 50 staff reductions and saying taxpayers "cannot afford any of your options"; Amira understands the decision space is now contested between two bodies with different priorities, and teachers describe the reconfiguration as losing "family."
-16. **2026-02-17** — A neighbor dove flat on the floor of her car to hide from ICE, then went to work; a 10-year-old asked "Why are they doing this to us?"; eviction notices were being posted; Ordinance 17 failed 4–2, with Councilor Scott — who toured schools in December and named their difficulty — voting no; Councilor Walker named the risk of a community that stops investing in schools and libraries.
-17. **2026-03-02** — Nine closure options are presented; Option 1.7 (close Skillin) ranks highest on savings, driven by HVAC cost avoidance, not educational merit; at least four board members publicly oppose it; dozens of parents say they had no idea any of this was being planned; June 9 is the hard deadline.
-18. **2026-03-09** — Two special education teachers resign; band and robotics trips now require explicit board approval; normal school life — Read-a-Thons, assemblies, donations — continues alongside adult-level chaos; Amira cannot tell which parts of the school she knows will survive September.
+1. **2025-12-01** — Watching this meeting retroactively, Amira first encounters the civic calm before the storm: Jules Vazquez reading a poem demonstrates that young people can have a public voice, the public welcome of Somali and other immigrant families sharpens the grief of everything that followed, and the board chair's passionate speech about unheard students now reads as a standard she set for herself that she failed to keep.
+
+2. **2025-12-04** — Amira's understanding of why families like hers stay away from civic meetings shifts from "it's boring and confusing" to something more specific: civic spaces are sometimes actively hostile to targeted communities, and Jeff Steinbrink's public defense of Somali Americans in December existed in the same calendar as the budget threat to Skillin already accumulating unseen.
+
+3. **2025-12-08** — First encounter with the school board reveals a spending freeze preventing purchase of basic supplies, a field broken for her entire middle school career, and adults who do not know how to accept student help when it is offered — Amira shifts from unaware to worried and angry about what is happening behind the scenes.
+
+4. **2025-12-09** — The 61% figure resolves a long-standing mystery, connecting her parents' dinner-table tax anxiety directly to her school's funding; a reported $40 babysitter cost reveals that civic participation is financially inaccessible to families like hers, not merely culturally distant or logistically confusing.
+
+5. **2025-12-10** — The board's $30,000 superintendent search consultant — authorized with no budget, during a spending freeze — deepens a pattern Amira is beginning to name: expensive institutional processes that exclude the community while basic student needs go unmet.
+
+6. **2025-12-17** — The scale of cuts becomes personal — 78 positions, 42 teachers, a real threat to Mrs. Rodriguez and band — and the revelation that the state pays ~20% vs. its mandated 55% adds a layer of structural helplessness: even well-intentioned local adults cannot fix what a system above them is breaking.
+
+7. **2026-01-06** — The Jan 22 forum and Feb 10 joint workshop are announced as civic openings that Amira now knows led somewhere worse; the Bug Light musician is the only person she encounters across all records who comes to a civic meeting to propose adding something to community life rather than defending against loss.
+
+8. **2026-01-12** — Abstract budget fears become concrete at Memorial itself: two specific math teachers leaving without replacement, kids missing school due to immigration enforcement fears, and the district already tracking toward a current-year deficit at midyear.
+
+9. **2026-01-13** — The $194M Mahoney project consumes four hours of city council time with no mention of schools; learning that "dozens" of students gave input on Mahoney through a process she never knew existed shifts Amira's understanding of student voice from absent to unevenly distributed; the property tax competition becomes explicitly three-way — schools, the Mahoney project, and homeowners.
+
+10. **2026-01-15** — The January 15 city council goal-setting workshop leaves no public record; Amira discovers that the city council sets school directions upstream of all public forums in a closed, unrecorded session — the participatory moments she has evaluated since December were built on top of goals already decided here; the fund balance is confirmed as depleted with no cushion remaining.
+
+11. **2026-01-20** — ICE activity at the Red Bank car wash and laundromat — places Amira walks past — makes the immigration threat geographic and personal rather than abstract; the January 22 budget forum is cancelled because families are too afraid to attend, adding a fourth and most severe barrier to civic participation: acute federal enforcement that collapses the participation invitation entirely.
+
+12. **2026-02-03** — The auditor's 34 errors and $400K in misallocated grants, combined with six finance directors in five years, add a third cause to the budget crisis beyond structural state failure: preventable internal mismanagement; the Texas Instruments TIF extends the tax pool competition to four parties; the immigration resolution's placement at the end of a 3.5-hour agenda reveals the institution's gap between civic welcome and institutional priority is structural, not merely an external interruption.
+
+13. **2026-02-04** — The rescheduled budget forum reveals elementary grade-band reconfiguration with class sizes jumping to 22–23, and Amira learns that the district hired more staff while enrollment fell — shifting her understanding of the crisis as partly self-inflicted through choices made in specific rooms by people no longer there.
+
+14. **2026-02-09** — The board votes to formally request a reconfiguration proposal; DeAngelis declares children are "far more flexible than parents" without consulting any — sharpening the contradiction with her December speech about the crisis of ignored students; "The Little Kitchen" at the high school demonstrates that students can take direct action where adults are still talking; the $1.1M nutrition fund deficit finally answers a question open since December.
+
+15. **2026-02-10** — The joint council/school board session makes visible a political dimension Amira had not fully grasped: city councilors framing schools primarily as a cost problem, the precise staffing math (82 added positions against 300+ lost students since 2017), and the crystallizing pattern of adults saying they value teachers while planning to eliminate dozens of them.
+
+16. **2026-02-17** — The neighbor on the car floor and the 10-year-old's question ("Why are they doing this to us?") give the immigration crisis a human scale matching the budget crisis; Ordinance 17 fails 4–2, with Councilor Scott — who toured schools in December and named their difficult conditions — voting no; the institution's response to the immigrant community shifts from symbolic inadequacy to active rejection.
+
+17. **2026-03-02** — Nine reconfiguration options converge on Option 1.7 (close Skillin) as leadership's top recommendation, justified by $19.5M in five-year savings primarily from avoiding a $3M HVAC replacement — not by educational advantage; Amira understands school closure is being driven by facilities costs, not outcomes; parents who learned about the proposals from neighbors confirm the district-wide communication failure she has experienced since December.
+
+18. **2026-03-09** — Two special education teachers resign voluntarily on top of the planned 42-position cuts; music trips and robotics trips require explicit board approval for the first time; Amira begins living in two simultaneous realities — normal school life on the surface, adult crisis underneath — and can no longer trust the present will persist into September.
+
+19. **2026-03-19** — The police chief's personal on-record apology is the first accountability statement from any official across the entire record; the $100K Project Home appropriation passes 6–1, the first concrete financial action for immigrant families — but Councilor Matthews' no vote explicitly names the school budget and immigrant family relief as competing for the same fund, choosing one over the other without asking any students whose lives contain both crises at once.
+
+---
 
 ### Active Supersessions
 
 | What Changed | From | To | When |
 |---|---|---|---|
-| Why families like Amira's stay away from civic meetings | Mainly complexity | Complexity plus documented hostility (Zoom bombing; anti-Semitic and racist speech drove elimination of public Zoom access) | 2025-12-04 |
-| Connection between her parents' tax stress and school funding | Vague, unresolved adult-world mystery | Concrete figure: 61% of all South Portland property taxes is the school department | 2025-12-09 |
-| Model of civic non-participation | Complexity plus documented hostility | Complexity plus hostility plus concrete financial cost: $40+ in childcare to attend a three-minute public comment | 2025-12-09 |
-| Civic meeting participation as an experience | Exclusively oriented toward defending against loss | Mostly loss-oriented, but the Bug Light musician demonstrates civic rooms can also be used to propose adding something to community life | 2026-01-06 |
-| Student voice in South Portland civic decisions | Simply absent — students have no voice | Unevenly distributed — voice exists (Jules Vazquez, student board reps, Mahoney "dozens") but is visible only to students already inside the system, through processes invisible to those outside it | 2026-01-13 |
-| Property tax squeeze framing | Two-party problem: school budget needs vs. taxpayer capacity | Three-way competition: school budget needs, Mahoney capital project costs, and homeowners already near their limit — all drawing from the same pool | 2026-01-13 |
-| Primary venue where school decisions originate | School board budget process, with city council as approving body | City council goal-setting in January is structurally upstream of all downstream participatory moments, including every public forum and workshop she has tracked | 2026-01-15 |
-| Immigration enforcement as a condition | Something happening abstractly somewhere in South Portland | A geographic fact in her own neighborhood — specific businesses she walks past | 2026-01-20 |
-| Model of barriers to civic participation | Three-part: complexity plus hostility plus financial cost | Four-part: adds active federal enforcement that can collapse a participation invitation entirely, preventing families from physically leaving their homes | 2026-01-20 |
-| Why the budget crisis happened | Two causes: state underfunding plus staffing growth during enrollment decline | Three causes: adds internal financial mismanagement — 34 audit errors, $400K in misallocated grants, six finance directors in five years | 2026-02-03 |
-| The January 20 forum cancellation | An external interruption to otherwise good-faith civic inclusion | A pattern the institution itself produces: placing the community's most urgent concern last, then passing a resolution without protective action | 2026-02-03 |
-| Staffing growth detail | Vague: enrollment fell while district added staff | Specific: 300+ students lost since 2017 while 82 positions were added | 2026-02-10 |
-| DeAngelis's position on student voice | Passionately argued in December that ignoring students causes harm — used her own middle school story of boys who burned down a school because no one listened | Makes reconfiguration decisions she calls "educationally beneficial" without asking any students, and says children are "far more flexible than parents" | 2026-02-09 |
-| Councilor Scott | The first elected official who saw and named the difficult conditions in Amira's school | Someone who holds both realities: saw and named those conditions in December, then voted against concrete protection for the families whose children attend school in those conditions | 2026-02-17 |
-| The institution's maximum response to the immigrant community crisis | Symbolic inadequacy — unanimous resolution with no protective mechanism, after a 3.5-hour wait; leaving open the possibility of future action | Active institutional rejection — Ordinance 17 (temporary eviction moratorium) voted down 4–2; declining to act and voting no are categorically different | 2026-02-17 |
+| Explanation for civic non-participation | "Boring and confusing" (complexity alone) | Complexity plus documented active hostility in civic spaces | 2025-12-04 |
+| Connection between property taxes and school funding | Vague, unresolved adult-world mystery | Concrete figure: 61% of all South Portland property taxes go to schools | 2025-12-09 |
+| Model of civic non-participation barriers | Two factors: complexity + hostility | Three factors: complexity + hostility + literal financial cost ($40 babysitter) | 2025-12-09 |
+| Whether students have a voice in civic decisions | Students simply have no voice in civic processes | Voice exists but is unevenly distributed — opaque processes invisible to students outside the system | 2026-01-13 |
+| The property tax competition | Two-party: school budget vs. taxpayer capacity | Three-way: school budget, Mahoney capital project, and homeowner capacity | 2026-01-13 |
+| Where school decisions originate | School board budget process is primary; city council approves | City council goal-setting in January (closed, unrecorded) is upstream and structurally shapes all downstream participatory moments | 2026-01-15 |
+| Geographic reality of immigration enforcement | Happening abstractly "somewhere in South Portland" | Specific places Amira personally knows and walks past — the car wash, the laundromat | 2026-01-20 |
+| Model of civic participation barriers | Three-part: complexity + hostility + financial cost | Adds a fourth: acute federal enforcement threat that physically prevents families from leaving their homes | 2026-01-20 |
+| Why the budget crisis happened | Two causes: state underfunding + staffing growth during enrollment decline | Three causes: adds internal financial mismanagement (revolving finance directors, $400K in mishandled grants, 34 audit errors) | 2026-02-03 |
+| Reading of civic welcome vs. institutional harm for immigrant community | Forum cancellation as external disruption to otherwise good-faith inclusion | The institution itself produces the gap: scheduling the community last, passing symbolic resolutions without protective mechanisms | 2026-02-03 |
+| Significance of Councilor Scott | First elected official who genuinely saw and named school conditions ("challenging facilities and resources") | Holds both realities simultaneously — saw the conditions, voted against protecting the families of children inside them | 2026-02-17 |
+| Maximum institutional response to immigrant community needs | Feb 3 unanimous but toothless resolution as ceiling, with future concrete action still possible | Active institutional rejection: voting down Ordinance 17 is categorically different from inaction | 2026-02-17 |
+| City council's relationship to the immigrant community crisis | Active rejection (Feb 17 vote) as the institutional ceiling | More complicated: $100K vote shows institution can act, but contested 6–1 result with explicit school-vs-families framing | 2026-03-19 |
+| Police chief's role in the crisis | Official making reassuring statements without bearing personal cost for the community's fear | Person who stood at a microphone and accepted personal, on-record accountability | 2026-03-19 |
+| Relationship between the school budget crisis and the immigrant family crisis | Two parallel crises, not yet in formal competition | Explicitly named as zero-sum by Councilor Matthews; an elected official chose one over the other without asking students | 2026-03-19 |
+
+---
 
 ### Open Threads
 
-- What happens when students are ignored long enough — and is that starting to happen at Memorial right now?
+- What happens when students are ignored long enough — and is that already starting at Memorial right now?
 - Is the mental health and drug overdose crisis DeAngelis described in December affecting students at Memorial?
-- Will the Somali families and other immigrant families who were publicly welcomed in December still feel welcome if Skillin — the school their children depend on — is closed to save money on an HVAC system?
-- Will Councilor Scott's December acknowledgment of "challenging facilities and resources" ever translate into protective action for the schools and families she witnessed?
-- Why can the district afford some things (expensive consultants, capital renovations) but not basic classroom supplies or field repairs?
-- How can students actually help with supply drives or other school needs when adults don't have systems in place to accept that help?
-- What other school infrastructure problems have students normalized as "just how things are" that are actually broken and unaddressed?
-- Why is the board spending $30,000 on a superintendent search firm while schools cannot buy paper?
-- Will community input in the superintendent search actually matter if the board makes all final decisions?
-- Which specific teachers and programs will be cut — could Mrs. Rodriguez, band, or the gifted program be affected?
-- What happens to students who need extra support when educational technicians are eliminated?
+- Will Somali and other immigrant families who were publicly welcomed in December still feel welcome if Skillin — the school many depend on — is closed to save money on an HVAC system?
+- Why can the district afford some things (expensive consultants, capital projects) but not basic classroom supplies or field repairs?
+- How can students actually help with supply drives and district problems when adults have no systems in place to accept that help?
+- What other school infrastructure problems exist that students have normalized as "just how things are"?
+- Will the Ocean Street apartment building's promised tax contribution actually reach the school budget in a meaningful amount, and on what timeline relative to the June 9 deadline?
+- How much of the school board chair's public invitation to participate in the budget process was genuine, and how much was the appearance of participation?
+- Why is the board spending $30,000 on a superintendent search consultant while schools cannot buy basic supplies?
+- Will community input in the superintendent search actually matter if the board makes all final candidate decisions?
+- Which specific teachers and programs will be cut — could Mrs. Rodriguez or band be affected?
+- What happens to students who need extra support when ed techs are eliminated?
 - Will the statewide property tax relief task force produce reforms that materially reduce pressure on South Portland's school budget before the June 9 adoption deadline?
-- Are students safe at school during immigration enforcement actions, and does the district have a clear plan?
-- Which students gave input on the Mahoney project, through what process, and how were they selected — and is this invisible-to-most-students process the template for all student engagement in South Portland civic decisions?
-- Will the Mahoney project's property tax impact compete with school budget needs in the same taxpayers' calculus, and will the two pressures land on the same families at the same time?
-- Will the police station placement adjacent to city hall actually deter immigrant families from accessing city services, and did the council take the social worker's warning seriously enough to let it change the design?
-- If city council sets school goals in a closed, unrecorded January workshop before any public forum opens, could students or families have changed anything even if they showed up everywhere they were invited?
-- Who is responsible for holding the state accountable to its 55% school funding obligation — and is anyone trying, or has the district simply absorbed the gap as a permanent condition?
-- When immigration enforcement makes families too afraid to leave their homes and cancels the meeting where they were supposed to shape decisions about their children's schools — who speaks for those families in the budget process, and does anyone notice they're missing?
-- Will the denser housing development permitted near Memorial and across South Portland eventually add enough tax revenue to reduce pressure on the school budget — and on what timeline relative to the June 9 deadline and the 78 positions at stake?
-- How much of the $7.2–8M gap is attributable to preventable mismanagement, and is anyone being held accountable — or did the crisis simply get reassigned to students and teachers?
-- Will elementary reconfiguration actually happen, and what does it mean for younger students and families Amira knows?
-- What additional cuts beyond reconfiguration will be needed to close the remaining gap after restructuring savings are counted?
-- Will teachers actively oppose reconfiguration plans, and what happens to students if they do?
-- Will city council push for deeper cuts than the school board wants, overriding educational concerns with taxpayer relief priorities?
-- The 10-year-old's question — "Why are they doing this to us? My parents work and pay taxes and do everything right" — has no answer in the civic record; who is responsible for answering a child that age, and does anyone in that room feel accountable?
-- Councilor Scott voted against protecting immigrant families while previously acknowledging the difficult conditions those families' children attend school in — does she connect those two facts, and has anyone asked her to?
-- Project Home was 10–11 days from running out of money as of February 17 — what happened when the fund was exhausted, and did any formal city mechanism replace it before the families facing eviction were displaced?
-- Councilor Walker named the risk of a community that stops investing in schools and libraries, speaking near midnight in a Mahoney workshop — will that observation ever become a formal public reckoning, or does it disappear the way the January 15 goal-setting session left no public trace?
-- Will at least four board members' public opposition to closing Skillin be enough to change the leadership recommendation?
-- Can meaningful school restructuring affecting thousands of children be planned and implemented responsibly in three months?
-- What happens to special education students whose teachers are resigning in the middle of the crisis, before cuts have even been finalized?
-- Will the school experience Amira knows — the specific teachers, programs, trips, and routines — survive the summer, or will September 2026 be unrecognizable?
+- Are students safe at school during immigration enforcement actions?
+- Which students gave input on the Mahoney project, through what process, and how were they selected — and is the same invisible-to-most process the template for all student engagement in South Portland civic decisions?
+- Will the Mahoney project's property tax impact compete with school budget needs on the same families at the same time?
+- Will the proposed police station placement near city hall actually deter immigrant families from accessing city services, and did the council take the social worker's warning seriously enough to change the design?
+- If city council goals are set upstream in a closed, unrecorded January session, how could students or families have changed anything even if they showed up everywhere they were invited?
+- Who is actually responsible for holding the state accountable to its 55% school funding obligation — and is anyone trying, or has the district simply absorbed the gap as permanent?
+- When immigration enforcement makes families afraid to leave their homes and cancels the forum where they were supposed to shape decisions about their children's schools — who speaks for those families in the budget process, and does anyone notice they're missing?
+- Will the denser housing development permitted near Memorial eventually add enough tax revenue to reduce pressure on the school budget — and on what timeline relative to the June 9 deadline and 78 positions at stake?
+- How much of the $7.2M gap is attributable to preventable mismanagement, and is anyone being held accountable, or did the crisis get reassigned to students and teachers?
+- The council passed a unanimous immigration resolution on Feb 3 but declined local eviction protections — structurally, what mechanism exists to protect families facing eviction if the city's symbolic ceiling is lower than the need?
+- Will teachers actively oppose reconfiguration plans, and what happens if they do?
+- Will city council push for deeper cuts than the school board wants, overriding educational concerns?
+- The 10-year-old's question — "Why are they doing this to us?" — has no answer in the civic record; who is responsible for answering a child that age, and does anyone in that room feel accountable?
+- Does Councilor Scott connect her no vote on Ordinance 17 to her prior acknowledgment of the difficult conditions those families' children attend school in — and has anyone asked her to?
+- Will Councilor Walker's midnight observation about South Portland potentially becoming a community that no longer invests in schools and libraries ever become a formal public reckoning, or does it disappear into the record the way the January 15 goal-setting session left no public trace?
+- Will board members' opposition to Skillin closure be enough to change the recommendation?
+- Can meaningful school restructuring realistically be planned in three months without harming students?
+- What happens to special education students when their teachers resign mid-crisis, before the planned cuts even take effect?
+- Will the school experience Amira knows survive the summer, or will September 2026 be unrecognizable?
+- Does anyone in a position of authority see the school budget crisis and the immigrant family crisis as connected rather than competing — and is anyone trying to solve both at once?
+- Who is responsible for bringing the student experience of the ICE fear into the public record before the June 9 budget deadline, given that Councilor West confirmed the fear moved through children of every background across the district?
+- Does the police chief's personal, on-record apology change anything structurally, or does accountability that lives only in one person's statement disappear when that person is replaced or reassigned?
+
+---
 
 ### Resolved Threads
 
-- **What does "reducing nutrition fund deficit" actually mean for school meals?**: The nutrition fund deficit is $1.1 million because state reimbursement falls far short of actual meal costs; the district absorbs the difference. (resolved 2026-02-09)
-- **Will the January 22 forum be genuine participation where community input shapes decisions — or a format where the community is informed of what has already been decided?**: The forum was cancelled before it happened because the community it was designed to reach was too afraid to attend due to active immigration enforcement activity in the neighborhood; the question of whether it would have been genuine is moot. (resolved 2026-01-20)
-- **When symbolic support is the maximum the institution will offer, who advocates for families facing actual eviction before the June 9 budget deadline?**: The council was offered Ordinance 17 as a concrete temporary eviction moratorium and four members voted it down; the symbolic resolution of February 3 was the ceiling, not a floor, and no institutional mechanism replaced it. (resolved 2026-02-17)
+- **What does "reducing nutrition fund deficit" actually mean for school meals?**: The deficit is $1.1 million — state reimbursement falls far short of actual meal costs, and the district absorbs the difference. (resolved 2026-02-09)
+- **Will the January 22 budget forum represent genuine participation — or a format where the community is informed of decisions already made?**: The forum was cancelled before it happened because the community it was designed to reach was too afraid to attend; the question of whether participation would have been genuine is now moot. (resolved 2026-01-20)
+- **Will the community budget forum actually change decisions, or is it performative?**: The forum was postponed and then cancelled due to immigration enforcement fear; the community could not participate in any form. (resolved 2026-01-20)
+- **When symbolic support is the maximum the institution will offer, who advocates for families facing actual eviction before the June 9 deadline?**: The $100,000 appropriation to Project Home passed 6–1 on March 19 — the institution provided real money, not only a resolution, when given a second opportunity; the structural question about whether more protective mechanisms exist remains open. (resolved 2026-03-19)
+- **Project Home was 10–11 days from running out of money as of February 17 — what happened when the fund was exhausted?**: The city council appropriated $100,000 to Project Home on March 19, roughly a month after the fund was projected to collapse; the fund did not disappear into a void, but the gap required a council vote to close. (resolved 2026-03-19)

@@ -38,7 +38,7 @@ log = logging.getLogger("generate_briefs")
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
-PERSONA_DIR = PROJECT_ROOT / "docs" / "persona" / "Validated"
+PERSONA_DIR = PROJECT_ROOT / "docs" / "persona" / "Active"
 CUMULATIVE_DIR = PROJECT_ROOT / "data" / "interpretation" / "cumulative"
 INTER_MEETING_MANIFEST = (
     PROJECT_ROOT / "data" / "interpretation" / "inter-meeting" / "manifest.yaml"

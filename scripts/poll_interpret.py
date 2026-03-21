@@ -48,7 +48,7 @@ MEETINGS_DIR = PROJECT_ROOT / "data" / "interpretation" / "meetings"
 CUMULATIVE_DIR = PROJECT_ROOT / "data" / "interpretation" / "cumulative"
 BRIEFS_DIR = PROJECT_ROOT / "data" / "interpretation" / "briefs"
 DIST_BRIEFS_DIR = PROJECT_ROOT / "dist" / "briefings"
-PERSONA_DIR = PROJECT_ROOT / "docs" / "persona" / "Validated"
+PERSONA_DIR = PROJECT_ROOT / "docs" / "persona" / "Active"
 
 MEETING_ID_RE = re.compile(r"^\d{4}-\d{2}-\d{2}-(school-board|city-council)$")
 PERSONA_DIR_RE = re.compile(r"^\(PERSONA-(\d{3})\)-.+$")

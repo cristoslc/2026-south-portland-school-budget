@@ -218,7 +218,7 @@ class TestDetectGaps:
     def _freeze_date(self):
         """Pin 'today' to 2026-03-16 for deterministic tests."""
         fake_today = datetime.date(2026, 3, 16)
-        with patch("scripts.poll_interpret.datetime") as mock_dt:
+        with patch("poll_interpret.datetime") as mock_dt:
             mock_dt.date.today.return_value = fake_today
             mock_dt.date.side_effect = lambda *a, **kw: datetime.date(*a, **kw)
             yield
@@ -315,3 +315,14 @@ class TestDetectGaps:
             "2026-03-02-school-board",
             "2026-03-10-city-council",
         ]
+
+
+class TestRunBriefs:
+    def test_runs_generate_briefs_once_for_all_outputs(self):
+        with patch.object(pi, "run_script", return_value=True) as mock_run_script:
+            assert pi.run_briefs("2026-03-23", dry_run=True, max_workers=4) is True
+
+        mock_run_script.assert_called_once_with(
+            "generate_briefs.py",
+            ["2026-03-23", "--force", "--dry-run"],
+        )

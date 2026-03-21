@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Upcoming-Event Brief Generator — SPEC-022.
+"""Public Brief Generator.
 
-Generates forward-looking per-persona briefs before an upcoming meeting,
-synthesizing cumulative interpretation state, inter-meeting evidence,
-and (optionally) a meeting agenda into actionable preparation.
+Generates all public-facing briefings for an upcoming meeting date:
+- per-persona upcoming briefs
+- a general upcoming brief
+- a general evergreen budget briefing
 
 Usage:
     python3 scripts/generate_briefs.py <upcoming-meeting-date>
@@ -40,16 +41,23 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 
 PERSONA_DIR = PROJECT_ROOT / "docs" / "persona" / "Active"
 CUMULATIVE_DIR = PROJECT_ROOT / "data" / "interpretation" / "cumulative"
+BUNDLES_DIR = PROJECT_ROOT / "data" / "interpretation" / "bundles"
 INTER_MEETING_MANIFEST = (
     PROJECT_ROOT / "data" / "interpretation" / "inter-meeting" / "manifest.yaml"
 )
 BRIEFS_DIR = PROJECT_ROOT / "data" / "interpretation" / "briefs"
 
 MODEL_ID = _DEFAULT_MODEL
+GENERAL_PERSONA_ID = "PERSONA-000"
+GENERAL_PERSONA_NAME = "General Community Member"
+GENERAL_UPCOMING_FILE = "PERSONA-000-upcoming.md"
+GENERAL_EVERGREEN_FILE = "PERSONA-000-evergreen.md"
+GENERAL_SOURCE_BUNDLE_LIMIT = 3
 
 # Persona ID pattern
 PERSONA_ID_RE = re.compile(r"^PERSONA-\d{3}$")
 PERSONA_DIR_RE = re.compile(r"^\(PERSONA-(\d{3})\)-(.+)$")
+MEETING_BUNDLE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}-(school-board|city-council)$")
 
 
 # ============================================================================
@@ -67,6 +75,58 @@ class Persona:
 
     def __repr__(self):
         return f"Persona({self.id}, {self.name})"
+
+
+def build_general_audience_persona():
+    """Return the synthetic broad-audience persona used for general briefs."""
+    content = f"""\
+# {GENERAL_PERSONA_NAME}
+
+## Archetype Label
+Broad Public Audience
+
+## Core Orientation
+This person wants a clear, accurate, plain-language understanding of the
+school budget. They are not deeply embedded in district process and are not
+approaching the issue from a specialized role. They want to know what is
+changing, why it matters, what decisions are still open, and what the
+practical impact could be for students, families, taxpayers, and the city.
+
+## What They Care About
+- What the total budget is and how it compares with prior proposals
+- What major reductions, restorations, or tradeoffs are under discussion
+- What decisions the board still needs to make
+- What the likely impact is on schools, staffing, programs, and taxes
+- What is confirmed versus still uncertain
+
+## Information Needs
+- Plain-language summary of the current budget picture
+- Clear explanation of recent changes
+- Upcoming decisions and timelines
+- Major unresolved questions
+- Specific items to watch in the next meeting
+
+## Questions They Bring
+- What changed since the last update?
+- What are the biggest live decisions right now?
+- What does this mean for the average resident or family?
+- What should the public pay attention to next?
+- Where can I verify the details myself?
+
+## Tone And Framing
+Use straightforward public-facing language. Avoid insider jargon. Prefer
+synthesis over roleplay. Do not assume strong prior knowledge. Emphasize
+confirmed facts, active decisions, and practical consequences.
+
+## Reaction Audience
+A neighbor, friend, or resident looking for a reliable summary
+"""
+    return Persona(
+        persona_id=GENERAL_PERSONA_ID,
+        name=GENERAL_PERSONA_NAME,
+        content=content,
+        archetype="Broad Public Audience",
+    )
 
 
 def load_personas(persona_dir=None):
@@ -359,10 +419,119 @@ def load_inter_meeting_evidence(last_meeting_date, upcoming_date):
             "source_type": entry.get("source_type", "unknown"),
             "title": entry.get("title", ""),
             "description": entry.get("description", "").strip(),
+            "source_path": entry.get("source_path", ""),
+            "normalized_path": entry.get("normalized_path", ""),
         })
 
     log.info("Found %d inter-meeting evidence event(s) in date range", len(matching))
     return matching
+
+
+def _load_yaml(path):
+    try:
+        import yaml
+    except ImportError:
+        log.warning("PyYAML not available; cannot read %s", path)
+        return None
+
+    with open(path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f)
+
+
+def _truncate_text(text, max_chars=5000):
+    text = text.strip()
+    if len(text) <= max_chars:
+        return text
+    return text[:max_chars].rstrip() + "\n\n[truncated]"
+
+
+def _read_markdownish_source(rel_path):
+    if not rel_path:
+        return None
+
+    full_path = PROJECT_ROOT / rel_path
+    if not full_path.exists() or full_path.suffix not in (".md", ".txt", ".vtt"):
+        return None
+
+    return full_path.read_text(encoding="utf-8")
+
+
+def _load_bundle_source_context(upcoming_date, limit=GENERAL_SOURCE_BUNDLE_LIMIT):
+    """Load recent readable bundle sources for direct-evidence general briefs."""
+    manifests = []
+    if not BUNDLES_DIR.exists():
+        return "No recent meeting bundle sources available."
+
+    for bundle_dir in sorted(BUNDLES_DIR.iterdir(), reverse=True):
+        if not bundle_dir.is_dir() or not MEETING_BUNDLE_RE.match(bundle_dir.name):
+            continue
+
+        meeting_date = bundle_dir.name[:10]
+        if meeting_date >= upcoming_date:
+            continue
+
+        manifest_path = bundle_dir / "manifest.yaml"
+        if manifest_path.exists():
+            manifests.append(manifest_path)
+        if len(manifests) >= limit:
+            break
+
+    blocks = []
+    for manifest_path in manifests:
+        manifest = _load_yaml(manifest_path)
+        if not isinstance(manifest, dict):
+            continue
+
+        meeting_title = manifest.get("title", manifest_path.parent.name)
+        meeting_date = manifest.get("meeting_date", manifest_path.parent.name[:10])
+
+        for source in manifest.get("sources", []):
+            content = None
+            for key in ("normalized_path", "path"):
+                content = _read_markdownish_source(source.get(key, ""))
+                if content:
+                    break
+
+            if not content:
+                continue
+
+            source_title = source.get("title", "Untitled source")
+            source_type = source.get("source_type", "unknown")
+            blocks.append(
+                f"--- Meeting: {meeting_title} ({meeting_date}) / "
+                f"Source: {source_title} [{source_type}] ---\n\n"
+                f"{_truncate_text(_strip_frontmatter(content))}"
+            )
+
+    if not blocks:
+        return "No readable recent meeting bundle sources available."
+    return "\n\n".join(blocks)
+
+
+def _load_inter_meeting_source_context(inter_meeting_events):
+    """Load readable inter-meeting source text for direct-evidence prompts."""
+    blocks = []
+    for event in inter_meeting_events:
+        content = None
+        for key in ("normalized_path", "source_path"):
+            content = _read_markdownish_source(event.get(key, ""))
+            if content:
+                break
+
+        if not content:
+            continue
+
+        title = event.get("title") or event.get("entry_id", "Untitled source")
+        source_type = event.get("source_type", "unknown")
+        blocks.append(
+            f"--- Inter-meeting source: {title} "
+            f"({event.get('date_posted', 'unknown date')}, {source_type}) ---\n\n"
+            f"{_truncate_text(_strip_frontmatter(content))}"
+        )
+
+    if not blocks:
+        return "No readable inter-meeting source text available."
+    return "\n\n".join(blocks)
 
 
 # ============================================================================
@@ -468,6 +637,26 @@ Critical instruction: Your brief must be DISTINCT to this persona. Different \
 personas should focus on different agenda items, carry different concerns, \
 and prepare different questions. If your brief could belong to any persona, \
 you have failed."""
+
+GENERAL_UPCOMING_SYSTEM_PROMPT = """\
+You are a public briefing generator for a municipal school budget analysis
+project. Your job is to prepare a broad, plain-language briefing for the next
+upcoming meeting using direct evidence only: recent source documents,
+inter-meeting evidence, and the agenda if available.
+
+Write for an interested resident who wants clarity, not insider jargon.
+Ground every substantive claim in the evidence provided. Do not invent facts,
+quotes, or certainty where the sources are unresolved."""
+
+GENERAL_EVERGREEN_SYSTEM_PROMPT = """\
+You are a public budget explainer for a municipal school budget analysis
+project. Your job is to summarize the current state of the budget for a broad
+audience using direct evidence only: recent meeting source documents and
+inter-meeting evidence.
+
+Write in plain language. Distinguish confirmed facts from unresolved issues.
+Do not frame the output as a persona reaction or roleplay. Do not invent
+facts, quotes, or certainty beyond the provided evidence."""
 
 
 def build_brief_prompt(persona, cumulative_state, inter_meeting_events,
@@ -611,6 +800,161 @@ something this persona could actually act on during the meeting.
     return prompt
 
 
+def build_general_upcoming_prompt(general_persona, source_context,
+                                  inter_meeting_events, inter_meeting_context,
+                                  agenda_items, upcoming_date):
+    """Construct the general upcoming-meeting prompt."""
+    persona_body = _extract_persona_body(general_persona.content)
+
+    if inter_meeting_events:
+        event_lines = [
+            f"- **{evt.get('title') or evt.get('entry_id', '')}** "
+            f"({evt['date_posted']}, {evt['source_type']}): "
+            f"{evt['description']}"
+            for evt in inter_meeting_events
+        ]
+        inter_meeting_block = "\n".join(event_lines)
+    else:
+        inter_meeting_block = "No inter-meeting evidence events in this period."
+
+    if agenda_items:
+        agenda_block = "\n".join(f"- {item}" for item in agenda_items)
+        agenda_instruction = (
+            "Use the agenda to explain what this meeting appears designed to "
+            "do and which decisions are most likely to be advanced tonight."
+        )
+    else:
+        agenda_block = "Agenda not yet available."
+        agenda_instruction = (
+            "No agenda is available. Explain what the public should watch for "
+            "based on the latest direct evidence and note where uncertainty "
+            "remains because the agenda has not yet been posted."
+        )
+
+    return f"""\
+<audience_card>
+{persona_body}
+</audience_card>
+
+<recent_bundle_sources>
+{source_context}
+</recent_bundle_sources>
+
+<inter_meeting_evidence_summary>
+{inter_meeting_block}
+</inter_meeting_evidence_summary>
+
+<inter_meeting_source_text>
+{inter_meeting_context}
+</inter_meeting_source_text>
+
+<upcoming_agenda>
+{agenda_block}
+</upcoming_agenda>
+
+<instruction>
+Prepare a broad public briefing for the upcoming meeting on {upcoming_date}.
+{agenda_instruction}
+
+Produce a brief with EXACTLY these five sections, using the markdown headers
+shown.
+
+## Since Last Meeting
+
+Summarize what changed since the latest meeting sources included here.
+Highlight concrete updates from inter-meeting evidence and direct documents.
+
+## What This Meeting Is For
+
+Explain, in plain language, what this meeting appears intended to do.
+
+## Decisions Likely Tonight
+
+List the major decisions, votes, or directional calls that seem most likely
+to be advanced, refined, or clarified at this meeting.
+
+## Key Public Questions
+
+Write a bulleted list of the biggest questions an informed resident would
+still have walking into the meeting.
+
+## What To Watch For
+
+Write a bulleted list of concrete things the public should listen for,
+including decision points, clarifications, conflicts, caveats, or signs that
+the proposal is shifting.
+</instruction>"""
+
+
+def build_general_evergreen_prompt(general_persona, source_context,
+                                   inter_meeting_events, inter_meeting_context,
+                                   upcoming_date):
+    """Construct the evergreen general public explainer prompt."""
+    persona_body = _extract_persona_body(general_persona.content)
+
+    if inter_meeting_events:
+        event_lines = [
+            f"- **{evt.get('title') or evt.get('entry_id', '')}** "
+            f"({evt['date_posted']}, {evt['source_type']}): "
+            f"{evt['description']}"
+            for evt in inter_meeting_events
+        ]
+        inter_meeting_block = "\n".join(event_lines)
+    else:
+        inter_meeting_block = "No inter-meeting evidence events in this period."
+
+    return f"""\
+<audience_card>
+{persona_body}
+</audience_card>
+
+<recent_bundle_sources>
+{source_context}
+</recent_bundle_sources>
+
+<inter_meeting_evidence_summary>
+{inter_meeting_block}
+</inter_meeting_evidence_summary>
+
+<inter_meeting_source_text>
+{inter_meeting_context}
+</inter_meeting_source_text>
+
+<instruction>
+Prepare an evergreen public explainer of the current budget picture as of
+{upcoming_date}. This is not a meeting-prep brief; it is a current-state
+summary for a broad audience.
+
+Produce a brief with EXACTLY these five sections, using the markdown headers
+shown.
+
+## Budget Snapshot
+
+Summarize the current proposal in plain language: what stage the budget is
+in, the biggest live components, and the clearest headline facts supported by
+the sources.
+
+## What Changed
+
+Explain the most important recent changes or clarifications reflected in the
+evidence.
+
+## Major Decisions Ahead
+
+Identify the biggest unresolved decisions still in front of the board or city.
+
+## Open Questions
+
+Write a bulleted list of the main questions that remain unresolved based on
+the evidence provided.
+
+## Where To Verify
+
+Write a bulleted list of the most useful source materials or source types a
+reader should consult to verify details.
+</instruction>"""
+
+
 def _strip_frontmatter(text):
     """Strip YAML frontmatter from a markdown document."""
     text = text.lstrip("\ufeff")
@@ -652,9 +996,42 @@ inter_meeting_evidence_count: {inter_meeting_count}
     return f"{frontmatter}\n\n# Brief: {persona.name} ({persona.id})\n## Upcoming Meeting: {upcoming_date}\n\n{body}\n"
 
 
+def format_general_brief_output(mode, response_text, *, has_agenda,
+                                upcoming_date=None,
+                                inter_meeting_count=0):
+    """Wrap a general brief in non-persona frontmatter."""
+    today = datetime.date.today().isoformat()
+    frontmatter_lines = [
+        "---",
+        'schema_version: "1.0"',
+        'brief_type: "general"',
+        f'brief_mode: "{mode}"',
+        f'generated_date: "{today}"',
+        f'has_agenda: {"true" if has_agenda else "false"}',
+        f"inter_meeting_evidence_count: {inter_meeting_count}",
+    ]
+    if upcoming_date:
+        frontmatter_lines.append(f'upcoming_meeting_date: "{upcoming_date}"')
+    frontmatter_lines.append("---")
+    frontmatter = "\n".join(frontmatter_lines)
+
+    title = (
+        "General Upcoming Briefing"
+        if mode == "upcoming"
+        else "General Budget Briefing"
+    )
+    subtitle = (
+        f"## Upcoming Meeting: {upcoming_date}"
+        if upcoming_date and mode == "upcoming"
+        else "## Current Budget Picture"
+    )
+    body = response_text.strip()
+    return f"{frontmatter}\n\n# {title}\n{subtitle}\n\n{body}\n"
+
+
 def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
                single_persona=None, dry_run=False):
-    """Generate briefs for all (or one) persona for an upcoming meeting.
+    """Generate persona and general public briefs for an upcoming meeting.
 
     Args:
         upcoming_date: ISO date string for the upcoming meeting
@@ -666,17 +1043,23 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
 
     Returns:
         dict with counts: processed, skipped, failed,
-                          with_cumulative, without_cumulative
+                          with_cumulative, without_cumulative, general_processed
     """
     output_dir = BRIEFS_DIR / upcoming_date
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    include_general = single_persona is None or single_persona == GENERAL_PERSONA_ID
     if single_persona:
-        personas = [p for p in personas if p.id == single_persona]
-        if not personas:
+        if single_persona != GENERAL_PERSONA_ID:
+            personas = [p for p in personas if p.id == single_persona]
+        else:
+            personas = []
+
+        if not personas and not include_general:
             log.error("Persona %s not found in loaded personas", single_persona)
             return {"processed": 0, "skipped": 0, "failed": 1,
-                    "with_cumulative": 0, "without_cumulative": 0}
+                    "with_cumulative": 0, "without_cumulative": 0,
+                    "general_processed": 0}
 
     stats = {
         "processed": 0,
@@ -684,6 +1067,7 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
         "failed": 0,
         "with_cumulative": 0,
         "without_cumulative": 0,
+        "general_processed": 0,
     }
 
     # Load inter-meeting evidence once (shared across all personas)
@@ -703,7 +1087,11 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
     inter_meeting_events = load_inter_meeting_evidence(
         global_last_date, upcoming_date
     )
-
+    general_persona = build_general_audience_persona()
+    general_source_context = _load_bundle_source_context(upcoming_date)
+    inter_meeting_source_context = _load_inter_meeting_source_context(
+        inter_meeting_events
+    )
 
     for persona in personas:
         output_path = output_dir / f"{persona.id}.md"
@@ -786,6 +1174,103 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
             stats["failed"] += 1
             continue
 
+    if include_general:
+        general_specs = [
+            {
+                "mode": "upcoming",
+                "filename": GENERAL_UPCOMING_FILE,
+                "system_prompt": GENERAL_UPCOMING_SYSTEM_PROMPT,
+                "prompt": build_general_upcoming_prompt(
+                    general_persona,
+                    general_source_context,
+                    inter_meeting_events,
+                    inter_meeting_source_context,
+                    agenda_items,
+                    upcoming_date,
+                ),
+                "validator": _validate_general_upcoming_brief,
+                "has_agenda": agenda_items is not None,
+                "title": "general upcoming",
+            },
+            {
+                "mode": "evergreen",
+                "filename": GENERAL_EVERGREEN_FILE,
+                "system_prompt": GENERAL_EVERGREEN_SYSTEM_PROMPT,
+                "prompt": build_general_evergreen_prompt(
+                    general_persona,
+                    general_source_context,
+                    inter_meeting_events,
+                    inter_meeting_source_context,
+                    upcoming_date,
+                ),
+                "validator": _validate_general_evergreen_brief,
+                "has_agenda": False,
+                "title": "general evergreen",
+            },
+        ]
+
+        for spec in general_specs:
+            output_path = output_dir / spec["filename"]
+            prompt_tokens = estimate_tokens(spec["system_prompt"] + spec["prompt"])
+
+            if output_path.exists() and not force:
+                log.info("  [skip] %s — brief already exists: %s",
+                         spec["title"], output_path.name)
+                stats["skipped"] += 1
+                continue
+
+            if output_path.exists() and force:
+                log.info("  [force] %s — regenerating (existing brief will be "
+                         "overwritten)", spec["title"])
+
+            log.info("  [prompt] %s — ~%d tokens", spec["title"], prompt_tokens)
+
+            if dry_run:
+                log.info("  [dry-run] %s — would call LLM (%s), write to %s",
+                         spec["title"], MODEL_ID, output_path.name)
+                stats["processed"] += 1
+                stats["general_processed"] += 1
+                continue
+
+            try:
+                log.info("  [call] %s — calling %s ...", spec["title"], MODEL_ID)
+                output_text = call_llm(
+                    spec["prompt"],
+                    system_prompt=spec["system_prompt"],
+                    model=MODEL_ID,
+                )
+
+                if not output_text.strip():
+                    log.error("  [fail] %s — empty response from LLM", spec["title"])
+                    stats["failed"] += 1
+                    continue
+
+                validation_errors = spec["validator"](output_text)
+                if validation_errors:
+                    log.warning("  [warn] %s — %d validation issue(s):",
+                                spec["title"], len(validation_errors))
+                    for err in validation_errors:
+                        log.warning("    %s", err)
+
+                formatted = format_general_brief_output(
+                    spec["mode"],
+                    output_text,
+                    has_agenda=spec["has_agenda"],
+                    upcoming_date=upcoming_date if spec["mode"] == "upcoming" else None,
+                    inter_meeting_count=len(inter_meeting_events),
+                )
+
+                output_path.write_text(formatted, encoding="utf-8")
+                log.info("  [done] %s — wrote %s (%d chars)",
+                         spec["title"], output_path.name, len(formatted))
+                stats["processed"] += 1
+                stats["general_processed"] += 1
+
+            except Exception as e:
+                log.error("  [fail] %s — LLM call failed: %s", spec["title"], e)
+                stats["failed"] += 1
+                continue
+
     return stats
 
 
@@ -809,6 +1294,36 @@ def _validate_brief(text):
     return errors
 
 
+def _validate_general_upcoming_brief(text):
+    errors = []
+    required_sections = (
+        "## Since Last Meeting",
+        "## What This Meeting Is For",
+        "## Decisions Likely Tonight",
+        "## Key Public Questions",
+        "## What To Watch For",
+    )
+    for section in required_sections:
+        if section not in text:
+            errors.append(f"missing '{section}' section")
+    return errors
+
+
+def _validate_general_evergreen_brief(text):
+    errors = []
+    required_sections = (
+        "## Budget Snapshot",
+        "## What Changed",
+        "## Major Decisions Ahead",
+        "## Open Questions",
+        "## Where To Verify",
+    )
+    for section in required_sections:
+        if section not in text:
+            errors.append(f"missing '{section}' section")
+    return errors
+
+
 def estimate_tokens(text):
     """Rough token estimate: ~4 chars per token for English text."""
     return len(text) // 4
@@ -820,7 +1335,7 @@ def estimate_tokens(text):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Upcoming-Event Brief Generator (SPEC-022)"
+        description="Public Brief Generator"
     )
     parser.add_argument(
         "upcoming_meeting_date",
@@ -873,7 +1388,7 @@ def main():
         )
         sys.exit(2)
 
-    log.info("=== Upcoming-Event Brief Generator (SPEC-022) ===")
+    log.info("=== Public Brief Generator ===")
     log.info("Upcoming meeting: %s", args.upcoming_meeting_date)
     if args.dry_run:
         log.info("Mode: DRY RUN (no LLM calls will be made)")
@@ -881,7 +1396,7 @@ def main():
     # Step 1: Load personas
     log.info("--- Loading personas ---")
     personas = load_personas()
-    if not personas:
+    if not personas and args.persona != GENERAL_PERSONA_ID:
         log.error("No personas found. Check %s", PERSONA_DIR)
         sys.exit(2)
 
@@ -923,9 +1438,10 @@ def main():
     log.info("With cumulative:   %d", stats["with_cumulative"])
     log.info("Without cumulative:%d (baseline briefs)",
              stats["without_cumulative"])
+    log.info("General briefs:    %d", stats["general_processed"])
 
     total = stats["processed"] + stats["skipped"] + stats["failed"]
-    log.info("Total:             %d persona(s)", total)
+    log.info("Total:             %d brief artifact(s)", total)
 
     log.info("")
     log.info("Agenda available:  %s", "yes" if has_agenda else "no")
@@ -942,7 +1458,7 @@ def main():
         # Estimate total token usage (load evidence once to avoid log noise)
         total_prompt_tokens = 0
         target_personas = personas
-        if args.persona:
+        if args.persona and args.persona != GENERAL_PERSONA_ID:
             target_personas = [p for p in personas if p.id == args.persona]
 
         all_last = [load_cumulative_state(p.id)["last_meeting_date"]
@@ -961,6 +1477,35 @@ def main():
                 args.upcoming_meeting_date,
             )
             total_prompt_tokens += estimate_tokens(BRIEF_SYSTEM_PROMPT + prompt)
+        if not args.persona or args.persona == GENERAL_PERSONA_ID:
+            general_persona = build_general_audience_persona()
+            general_source_context = _load_bundle_source_context(
+                args.upcoming_meeting_date
+            )
+            inter_meeting_source_context = _load_inter_meeting_source_context(
+                evidence
+            )
+            total_prompt_tokens += estimate_tokens(
+                GENERAL_UPCOMING_SYSTEM_PROMPT
+                + build_general_upcoming_prompt(
+                    general_persona,
+                    general_source_context,
+                    evidence,
+                    inter_meeting_source_context,
+                    agenda_items,
+                    args.upcoming_meeting_date,
+                )
+            )
+            total_prompt_tokens += estimate_tokens(
+                GENERAL_EVERGREEN_SYSTEM_PROMPT
+                + build_general_evergreen_prompt(
+                    general_persona,
+                    general_source_context,
+                    evidence,
+                    inter_meeting_source_context,
+                    args.upcoming_meeting_date,
+                )
+            )
         log.info("Estimated total input tokens: ~%d", total_prompt_tokens)
         log.info("Estimated cost at $3/MTok input: ~$%.2f",
                  total_prompt_tokens * 3.0 / 1_000_000)

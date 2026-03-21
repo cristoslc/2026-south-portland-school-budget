@@ -298,22 +298,15 @@ def run_fold(meeting_id, dry_run=False, max_workers=4):
 
 
 def run_briefs(upcoming_date, dry_run=False, max_workers=4):
-    """Run generate_briefs.py per persona in parallel."""
-    all_personas = list_persona_ids()
-    tasks = []
-    for persona_id in all_personas:
-        args = [upcoming_date, "--force", "--persona", persona_id]
-        if dry_run:
-            args.append("--dry-run")
-        tasks.append(("generate_briefs.py", args,
-                       f"Brief {upcoming_date} {persona_id}"))
-
-    log.info("  Dispatching %d persona(s) with %d workers", len(tasks), max_workers)
-    return _run_parallel(tasks, max_workers)
+    """Run generate_briefs.py once for all persona and general briefs."""
+    args = [upcoming_date, "--force"]
+    if dry_run:
+        args.append("--dry-run")
+    return run_script("generate_briefs.py", args)
 
 
 def publish_briefs(upcoming_date):
-    """Copy generated briefs to dist/briefings/ with persona-friendly names."""
+    """Copy generated persona and general briefs to dist/briefings/."""
     source_dir = BRIEFS_DIR / upcoming_date
     if not source_dir.exists():
         log.warning("No briefs found at %s", source_dir)
@@ -335,6 +328,22 @@ def publish_briefs(upcoming_date):
 
     count = 0
     for brief_file in sorted(source_dir.glob("PERSONA-*.md")):
+        if brief_file.name == "PERSONA-000-upcoming.md":
+            dest_name = "general-upcoming-briefing.md"
+            dest_path = DIST_BRIEFS_DIR / dest_name
+            shutil.copy2(brief_file, dest_path)
+            count += 1
+            log.info("  Published %s → %s", brief_file.name, dest_name)
+            continue
+
+        if brief_file.name == "PERSONA-000-evergreen.md":
+            dest_name = "general-budget-briefing.md"
+            dest_path = DIST_BRIEFS_DIR / dest_name
+            shutil.copy2(brief_file, dest_path)
+            count += 1
+            log.info("  Published %s → %s", brief_file.name, dest_name)
+            continue
+
         persona_id = brief_file.stem  # e.g., PERSONA-001
         slug = persona_names.get(persona_id, persona_id.lower())
         dest_name = f"{persona_id.lower().replace('persona-', 'persona-')}-{slug}.md"

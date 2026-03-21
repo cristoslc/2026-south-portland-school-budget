@@ -478,6 +478,12 @@ Produce a Mermaid journey diagram tracing {persona_name}'s emotional \
 experience through the meeting chronologically. Use this EXACT format \
 (include the triple-backtick fences and the word "journey"):
 
+The journey should make these dimensions legible across the sequence:
+- Position
+- Meeting Event
+- Persona Cognitive State
+- Persona Emotional State
+
 ```mermaid
 journey
     title {persona_name}'s journey: [4-6 word meeting description]

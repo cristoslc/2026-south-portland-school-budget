@@ -11,6 +11,7 @@ The `dist/briefings/` folder contains ready-to-read briefings -- the main output
 | Briefing | Audience |
 |----------|----------|
 | [General Budget Briefing](dist/briefings/general-budget-briefing.md) | Anyone -- covers the full budget picture |
+| [General Upcoming Briefing](dist/briefings/general-upcoming-briefing.md) | Anyone -- what to watch at the next budget meeting |
 | [Maria (Concerned Elementary Parent)](dist/briefings/persona-001-maria-concerned-elementary-parent.md) | Parents worried about school closures and classroom impact |
 | [David (Pragmatic Elementary Parent)](dist/briefings/persona-002-david-pragmatic-elementary-parent.md) | Parents focused on logistics -- redistricting, transportation, transitions |
 | [Jess (Anxious Pre-K Parent)](dist/briefings/persona-003-jess-anxious-prek-parent.md) | Incoming families navigating uncertainty |
@@ -70,7 +71,7 @@ VISION-002 defines an automated pipeline that detects new meeting materials, dow
 **In progress (Draft specs):**
 - **Per-meeting interpretation** -- Generate 14 persona-specific interpretations per meeting bundle, each with structured analysis points, emotional journey maps, and persona-voice reactions
 - **Cumulative narratives** -- Log-structured fold system that integrates new meeting interpretations into running per-persona narratives, preserving how each persona's understanding evolves over time
-- **Pre-meeting briefs** -- Forward-looking briefings generated before each upcoming meeting, surfacing open questions and agenda implications personalized to each persona
+- **Briefings** -- Forward-looking persona briefs plus public general briefings for the full budget picture and the next meeting
 
 Pipeline code lives in `pipeline/` (library modules) and `scripts/` (CLI entry points).
 
@@ -90,7 +91,7 @@ CLI entry points in `scripts/`:
 - `validate_bundle.py` -- Validate meeting bundle schema compliance
 - `interpret_meeting.py` -- Generate persona-specific interpretations for a meeting bundle *(WIP)*
 - `fold_meeting.py` -- Fold new interpretations into cumulative narratives *(WIP)*
-- `generate_briefs.py` -- Generate pre-meeting briefings per persona *(WIP)*
+- `generate_briefs.py` -- Generate persona and general public briefings *(WIP)*
 
 ## Timeline
 

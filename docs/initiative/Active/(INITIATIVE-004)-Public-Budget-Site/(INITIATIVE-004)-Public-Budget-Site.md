@@ -17,13 +17,12 @@ depends-on-artifacts:
 addresses: []
 trove: ""
 linked-epics:
-  - EPIC-012
-  - EPIC-013
   - EPIC-014
   - EPIC-015
   - EPIC-016
   - EPIC-017
   - EPIC-018
+  - EPIC-019
 linked-artifacts:
   - INITIATIVE-001
   - INITIATIVE-002
@@ -48,12 +47,12 @@ Build and deploy a question-first static site (Astro, GitHub Pages) that gives S
 
 | Artifact | Title | Status |
 |----------|-------|--------|
-| EPIC-013 | Site Scaffolding | _to be created_ |
-| EPIC-014 | Site Data Assembly | _to be created_ |
-| EPIC-015 | Core Pages | _to be created_ |
-| EPIC-016 | Feedback System | _to be created_ |
-| EPIC-017 | Visual Design | _to be created_ |
-| EPIC-018 | Continuous Deploy | _to be created_ |
+| EPIC-014 | Site Scaffolding and Deploy | Complete |
+| EPIC-015 | Core Pages | Complete |
+| EPIC-016 | Site Visual Design | Active |
+| EPIC-017 | Question Hub | Proposed |
+| EPIC-018 | Community Feedback | Proposed |
+| EPIC-019 | Site Data Assembly | Proposed |
 
 ## Small Work (Epic-less Specs)
 
@@ -70,3 +69,4 @@ _None currently._
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Active | 2026-03-16 | — | Created during initiative migration; child epics not yet created |
+| Active | 2026-03-22 | — | Child epics decomposed; EPIC-014/015 complete, EPIC-016 active, EPIC-017/018/019 proposed |

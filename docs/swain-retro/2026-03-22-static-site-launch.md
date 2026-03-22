@@ -5,7 +5,7 @@ track: standing
 status: Active
 created: 2026-03-22
 last-updated: 2026-03-22
-scope: "INITIATIVE-004 / VISION-004 — initial public site build and deploy"
+scope: "INITIATIVE-004 / VISION-004 — full static site build, a11y, and polish"
 period: "2026-03-22"
 linked-artifacts:
   - VISION-004
@@ -16,7 +16,7 @@ linked-artifacts:
 
 ## Summary
 
-Built and deployed the public-facing static site for the FY27 budget analysis in a single autonomous session. The site went from zero scaffolding to 36 pages live on GitHub Pages in under 30 minutes, including a follow-up dark mode feature. Content is sourced directly from existing `dist/briefings/` and `docs/persona/Active/` via Astro content collections — no content duplication.
+Built, polished, and deployed the public-facing static site for the FY27 budget analysis in a single autonomous session. Four commits across the night: initial scaffolding (36 pages), dark mode, accessibility fixes with research banner, and interaction delight. Content is sourced directly from existing `dist/briefings/` and `docs/persona/Active/` via Astro content collections — no content duplication.
 
 ## Artifacts
 
@@ -31,6 +31,9 @@ Built and deployed the public-facing static site for the FY27 budget analysis in
 - **36 pages generated:** landing, 16 briefings, 14 persona profiles, evidence, timeline, about
 - **GitHub Pages deployment** with automatic workflow on push
 - **Dark mode** with three-state toggle (Auto/Light/Dark), localStorage persistence, and flash prevention
+- **Accessibility pass:** dark mode headings fixed from ~1.1:1 to 8.2:1 contrast, header/footer/hero separation, WCAG AA across all color pairings
+- **Research project banner:** prominent amber disclaimer on every page, dark mode adapted
+- **Interaction delight:** card lift with accent bar, staggered hero stat entrance, timeline dot pulse, nav underline slide, scroll-reveal sections, smooth theme crossfade, prefers-reduced-motion support
 
 ## Reflection
 
@@ -40,6 +43,8 @@ Built and deployed the public-facing static site for the FY27 budget analysis in
 - **Autonomous execution worked.** The user said "I'm going to bed" and the entire site was built, deployed, and verified without intervention. Background agents for git operations kept the main thread productive.
 - **Fast iteration cycle.** Astro v6 builds 36 pages in ~800ms. Build-fix-rebuild loops were quick even with content collection issues.
 - **GitHub Pages setup via API.** Using `gh api` to enable Pages programmatically avoided needing the user to configure anything in the GitHub UI.
+- **Accessibility audit caught a critical dark mode bug.** Headings used `--color-navy` which mapped to `#0f1d33` in dark mode — nearly identical to the `#0f172a` background. The fix was straightforward (remap to `#93c5fd`) but the bug would have made the entire site unreadable in dark mode. Lesson: always test variable-driven color schemes end-to-end, not just the variable definitions.
+- **CSS-only delight works well for a static site.** Card lift, timeline pulse, scroll-reveal, hero stat stagger — all pure CSS with a single IntersectionObserver for scroll triggers. No framework, no JS library, minimal payload.
 
 ### What was surprising
 
@@ -51,12 +56,15 @@ Built and deployed the public-facing static site for the FY27 budget analysis in
 
 - **Start with a content inventory script.** Before building the site, a quick script that lists all content files with their frontmatter fields would have prevented the glob pattern issue and revealed the exact schema up front.
 - **Validate URLs before the first push.** The missing trailing slash produced broken links that only showed up when reading the generated HTML. A post-build link checker would catch this.
+- **Test dark mode with a real browser, not just CSS inspection.** The heading contrast issue was visible in the CSS variables but easy to miss by reading code. A quick visual check would have caught it immediately.
 
 ### Patterns observed
 
 - **Content-first architecture pays off.** The project's investment in structured briefings with YAML frontmatter meant the site could be built almost entirely as a presentation layer. The hard work was already done in the interpretation pipeline.
 - **Background agents for git are effective.** Delegating commit-and-push to background agents kept the main thread focused on building the next feature. This pattern works well for autonomous sessions.
 - **Child epics remain undecomposed.** [INITIATIVE-004](../initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md) lists six child epics (EPIC-013 through EPIC-018) that are still marked "to be created." The site that shipped covers scaffolding (EPIC-013) and core pages (EPIC-015) but the data assembly, feedback, visual design, and continuous deploy epics haven't been formally created. The work outpaced the artifact graph.
+- **Dark mode is a second product.** It's not just "invert the colors." Every element that uses a semantic variable needs its own dark-mode value. The header, footer, hero, badges, and research banner all needed independent dark palettes. The initial dark mode commit missed this, requiring a full accessibility pass as a follow-up.
+- **Delight should be the last layer.** Building scaffolding -> content -> a11y -> delight was the right sequence. Adding animations before fixing contrast would have polished something broken.
 
 ## Learnings captured
 
@@ -64,3 +72,4 @@ Built and deployed the public-facing static site for the FY27 budget analysis in
 |------------|------|---------|
 | feedback_retro_astro_globs.md | feedback | Astro glob loaders fail silently on parenthesized directory names — use `**/*.md` |
 | feedback_retro_autonomous_site.md | feedback | Background agents for git + fast build tools = effective autonomous sessions |
+| feedback_retro_dark_mode_a11y.md | feedback | Dark mode CSS variables need end-to-end contrast verification — semantic names hide failures |

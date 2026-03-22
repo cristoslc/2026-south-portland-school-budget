@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL;
+
+const events = [
+  { date: '2025-12-04', label: 'Dec 4, 2025', title: 'Initial Budget Presentation', desc: 'Superintendent introduces the FY27 budget landscape and structural gap. Four broad ideas for exploration presented.', status: 'past' },
+  { date: '2026-01-12', label: 'Jan 12', title: 'School Board Meeting', desc: 'Board discussion on budget constraints and timeline. Revenue projections and fund balance status reviewed.', status: 'past' },
+  { date: '2026-02-04', label: 'Feb 4', title: 'School Board Meeting', desc: 'Elementary reconfiguration analysis refined to three primary options. Grade-level campus model introduced.', status: 'past' },
+  { date: '2026-02-09', label: 'Feb 9', title: 'Budget Workshop', desc: 'Detailed analysis of reconfiguration savings. Three tiers of options: close one school, reconfigure grades, or deeper cuts.', status: 'past' },
+  { date: '2026-03-02', label: 'Mar 2', title: 'Budget Workshop I', desc: 'Nine elementary reconfiguration options formally presented with evaluation matrix. Leadership ranks top three options.', status: 'past' },
+  { date: '2026-03-16', label: 'Mar 16', title: 'Open Conversation with District Leadership', desc: 'Community Q&A session on the budget proposal. Public input opportunity.', status: 'past' },
+  { date: '2026-03-18', label: 'Mar 18', title: 'Pink Slips Issued', desc: 'Reduction-in-force notifications sent to affected staff members.', status: 'past' },
+  { date: '2026-03-19', label: 'Mar 19', title: 'City Council Meeting', desc: 'Council discusses school budget implications. Consent order to set FY27 budget public hearing.', status: 'past' },
+  { date: '2026-03-23', label: 'Mar 23', title: 'Budget Workshop II', desc: 'Two elementary closure options presented. Personnel and non-personnel reductions detailed. Decisions expected.', status: 'past' },
+  { date: '2026-03-30', label: 'Mar 30', title: 'Budget Workshop III', desc: 'Continued board deliberation on the budget and elementary reconfiguration.', status: 'future' },
+  { date: '2026-04-14', label: 'Apr 14', title: 'City Council Budget Workshop #1', desc: 'Council reviews the school budget allocation within the overall city spending plan.', status: 'future' },
+  { date: '2026-04-28', label: 'Apr 28', title: 'City Council Budget Workshop #2', desc: 'Continued council review of the municipal budget including school allocation.', status: 'future' },
+  { date: '2026-05-05', label: 'May 5', title: 'City Council Budget Vote (Expected)', desc: 'Council votes on the overall city spending plan that includes the school allocation.', status: 'future' },
+  { date: '2026-05-12', label: 'May 12', title: 'City Council Budget Workshop #3', desc: 'Final council workshop if needed before referendum.', status: 'future' },
+  { date: '2026-06-09', label: 'Jun 9', title: 'Public Referendum Vote', desc: 'Maine law requires a public referendum on the school budget. If voters reject, the board must revise and re-present.', status: 'future' },
+];
+---
+
+<BaseLayout title="Timeline" activePage="timeline" description="Key dates in the South Portland FY27 school budget process.">
+  <main class="container">
+    <h1>Budget Timeline</h1>
+    <p>
+      Key dates in the FY27 budget process. The budget season typically runs from December through June,
+      ending with a public referendum vote required by Maine law.
+    </p>
+
+    <div class="timeline">
+      {events.map(event => (
+        <div class={`timeline-item ${event.status}`}>
+          <div class="timeline-date">{event.label}</div>
+          <div class="timeline-title">{event.title}</div>
+          <div class="timeline-desc">{event.desc}</div>
+        </div>
+      ))}
+    </div>
+
+    <hr />
+
+    <section>
+      <h2>What Happens If the Budget Fails?</h2>
+      <p>
+        Under Maine law, if voters reject the school budget at the June 9 referendum, the school board
+        must revise the budget and hold another vote. This process can repeat until a budget is approved.
+        During this period, the district operates on a continuation budget (spending at the prior year's level).
+      </p>
+    </section>
+  </main>
+</BaseLayout>

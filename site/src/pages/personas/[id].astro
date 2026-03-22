@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const personas = await getCollection('personas');
+  return personas.map(persona => ({
+    params: { id: persona.data.artifact },
+    props: { persona },
+  }));
+}
+
+const { persona } = Astro.props;
+const { Content } = await render(persona);
+const base = import.meta.env.BASE_URL;
+
+const categoryMap: Record<string, { badge: string; className: string }> = {
+  'PERSONA-001': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-002': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-003': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-004': { badge: 'Teacher', className: 'badge-teacher' },
+  'PERSONA-005': { badge: 'Community', className: 'badge-community' },
+  'PERSONA-006': { badge: 'Community', className: 'badge-community' },
+  'PERSONA-007': { badge: 'Community', className: 'badge-community' },
+  'PERSONA-008': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-009': { badge: 'Media', className: 'badge-media' },
+  'PERSONA-010': { badge: 'Media', className: 'badge-media' },
+  'PERSONA-011': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-012': { badge: 'Student', className: 'badge-student' },
+  'PERSONA-013': { badge: 'Student', className: 'badge-student' },
+  'PERSONA-014': { badge: 'Student', className: 'badge-student' },
+};
+
+const cat = categoryMap[persona.data.artifact] ?? { badge: 'Persona', className: 'badge-persona' };
+
+// Find matching briefing
+const briefings = await getCollection('briefings');
+const matchingBriefing = briefings.find(b => b.data.persona_id === persona.data.artifact);
+---
+
+<BaseLayout title={persona.data.title} activePage="personas" description={`${persona.data.title} — stakeholder perspective on the South Portland FY27 budget`}>
+  <main class="container">
+    <a href={`${base}personas/`} class="back-link">&larr; All Perspectives</a>
+
+    <span class={`badge ${cat.className}`}>{cat.badge}</span>
+    <h1>{persona.data.title}</h1>
+
+    <div class="briefing-meta">
+      <span>{persona.data.artifact}</span>
+    </div>
+
+    {matchingBriefing && (
+      <div class="card" style="margin-bottom: 2rem; border-color: var(--color-sky);">
+        <p style="margin-bottom: 0.5rem; font-weight: 600;">Budget briefing available for this perspective:</p>
+        <a href={`${base}briefings/${matchingBriefing.id}/`}>
+          Read {persona.data.title}'s briefing &rarr;
+        </a>
+      </div>
+    )}
+
+    <article class="briefing-content">
+      <Content />
+    </article>
+  </main>
+</BaseLayout>

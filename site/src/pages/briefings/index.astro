@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const briefings = await getCollection('briefings');
+const generalBriefings = briefings.filter(b => b.data.brief_type === 'general');
+const personaBriefings = briefings.filter(b => b.data.persona_id).sort((a, b) => {
+  const aId = parseInt(a.data.persona_id?.replace('PERSONA-', '') ?? '0');
+  const bId = parseInt(b.data.persona_id?.replace('PERSONA-', '') ?? '0');
+  return aId - bId;
+});
+const base = import.meta.env.BASE_URL;
+
+const categoryMap: Record<string, { label: string; className: string; description: string }> = {
+  parent: { label: 'Parents', className: 'badge-parent', description: 'Parents of current and incoming students' },
+  teacher: { label: 'Teachers', className: 'badge-teacher', description: 'Educators facing staffing changes' },
+  community: { label: 'Community', className: 'badge-community', description: 'Taxpayers, board members, advocates' },
+  media: { label: 'Media', className: 'badge-media', description: 'Journalists covering the budget story' },
+  student: { label: 'Students', className: 'badge-student', description: 'Students directly affected by the budget' },
+};
+
+function getCategory(personaId: string | undefined): string {
+  const parents = ['PERSONA-001', 'PERSONA-002', 'PERSONA-003', 'PERSONA-008', 'PERSONA-011'];
+  const teachers = ['PERSONA-004'];
+  const community = ['PERSONA-005', 'PERSONA-006', 'PERSONA-007'];
+  const media = ['PERSONA-009', 'PERSONA-010'];
+  const students = ['PERSONA-012', 'PERSONA-013', 'PERSONA-014'];
+  if (!personaId) return 'general';
+  if (parents.includes(personaId)) return 'parent';
+  if (teachers.includes(personaId)) return 'teacher';
+  if (community.includes(personaId)) return 'community';
+  if (media.includes(personaId)) return 'media';
+  if (students.includes(personaId)) return 'student';
+  return 'persona';
+}
+
+const grouped = Object.entries(categoryMap).map(([key, meta]) => ({
+  ...meta,
+  key,
+  briefings: personaBriefings.filter(b => getCategory(b.data.persona_id) === key),
+})).filter(g => g.briefings.length > 0);
+---
+
+<BaseLayout title="Briefings" activePage="briefings" description="Budget briefings for South Portland residents — general overview and persona-tailored perspectives.">
+  <main class="container">
+    <h1>Budget Briefings</h1>
+    <p>
+      Ready-to-read analysis of the FY27 budget proposal. General briefings cover the full picture;
+      persona briefings are tailored to the questions and concerns of specific community groups.
+    </p>
+
+    <section>
+      <h2>General Briefings</h2>
+      <div class="card-grid">
+        {generalBriefings.map(briefing => (
+          <a href={`${base}briefings/${briefing.id}/`} class="card">
+            <span class="badge badge-general">General</span>
+            <h3>{briefing.data.brief_mode === 'evergreen' ? 'General Budget Briefing' : 'Upcoming Meeting Briefing'}</h3>
+            <p>
+              {briefing.data.brief_mode === 'evergreen'
+                ? 'Comprehensive overview: the full budget picture, what changed, and major decisions ahead.'
+                : 'What to watch at the next board meeting, agenda implications, and things that have changed.'}
+            </p>
+            <span class="briefing-meta">
+              <span>Updated {briefing.data.generated_date}</span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    {grouped.map(group => (
+      <section>
+        <h2>{group.label}</h2>
+        <p>{group.description}</p>
+        <div class="card-grid">
+          {group.briefings.map(briefing => (
+            <a href={`${base}briefings/${briefing.id}/`} class="card">
+              <span class={`badge ${group.className}`}>{group.label.replace(/s$/, '')}</span>
+              <h3>{briefing.data.persona_name}</h3>
+              <p>{briefing.data.persona_id} — Briefing for the {briefing.data.upcoming_meeting_date ?? briefing.data.generated_date} meeting</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </main>
+</BaseLayout>

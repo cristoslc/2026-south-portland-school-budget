@@ -1,0 +1,96 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="About" activePage="about" description="About this project — methodology, limitations, and how to verify.">
+  <main class="container">
+    <h1>About This Project</h1>
+
+    <section>
+      <h2>What This Is</h2>
+      <p>
+        SP Budget Watch is an independent, volunteer analysis of the South Portland School Department's
+        proposed FY27 (2026-2027) budget. The project translates the raw budget — meeting transcripts,
+        presentations, spreadsheets, and committee discussions — into forms that residents can actually use.
+      </p>
+      <p>
+        The analysis is organized around 14 community stakeholder profiles (personas) representing the
+        range of people affected: parents, teachers, taxpayers, board members, journalists, community
+        advocates, and students from elementary through high school.
+      </p>
+    </section>
+
+    <section>
+      <h2>How It Works</h2>
+      <h3>Evidence Collection</h3>
+      <p>
+        Source materials are collected from public sources: the South Portland Schools website, meeting
+        video platforms (Vimeo), the city's agenda portal (Diligent Community), and official budget documents.
+        An automated pipeline checks for new materials daily.
+      </p>
+
+      <h3>Analysis Pipeline</h3>
+      <ol>
+        <li><strong>Collection:</strong> Meeting transcripts (auto-generated from video), budget documents, and presentations are downloaded and stored.</li>
+        <li><strong>Normalization:</strong> Raw files are converted to structured markdown for consistent analysis.</li>
+        <li><strong>Interpretation:</strong> Each meeting is analyzed through all 14 stakeholder perspectives using AI (Claude). The AI identifies what matters most to each persona based on their defined concerns and information needs.</li>
+        <li><strong>Cumulative Narrative:</strong> New interpretations are folded into running per-persona narratives, tracking how each stakeholder's understanding evolves across meetings.</li>
+        <li><strong>Briefings:</strong> Forward-looking briefings highlight what changed, what to watch for, and open questions — tailored to each perspective.</li>
+      </ol>
+
+      <h3>AI Usage</h3>
+      <p>
+        This project uses Claude (by Anthropic) for meeting interpretation, narrative synthesis, and
+        briefing generation. The AI operates within structured prompts that specify persona characteristics,
+        output schemas, and evidence requirements. All AI-generated content is clearly labeled.
+      </p>
+      <p>
+        The AI does not make editorial judgments or advocacy claims. It identifies facts, tracks positions,
+        surfaces discrepancies, and frames information from each stakeholder's perspective. When evidence
+        is insufficient or ambiguous, the briefings say so explicitly.
+      </p>
+    </section>
+
+    <section>
+      <h2>Limitations</h2>
+      <ul>
+        <li><strong>Auto-generated transcripts:</strong> Meeting transcripts are auto-generated from Vimeo video captions and may contain errors, especially for proper nouns, technical terms, and cross-talk.</li>
+        <li><strong>Not real-time:</strong> The site reflects the state of the analysis as of the last pipeline run, not live data.</li>
+        <li><strong>Selection bias:</strong> The evidence pools include publicly available materials. Executive sessions, informal conversations, and materials not posted online are not captured.</li>
+        <li><strong>AI interpretation:</strong> Persona interpretations are AI-generated approximations. They reflect the persona definitions, not the views of actual individuals.</li>
+        <li><strong>No insider access:</strong> This project has no access to internal district deliberations, draft documents, or unpublished analyses.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>How to Verify</h2>
+      <p>Every briefing includes a "Where To Verify" section pointing to primary sources. Key verification paths:</p>
+      <ul>
+        <li><strong>South Portland Schools budget page:</strong> <a href="https://www.spsdme.org/page/budget27" target="_blank" rel="noopener">spsdme.org/page/budget27</a></li>
+        <li><strong>School board meeting materials:</strong> Check the South Portland Schools website or the district's board portal for agendas, minutes, and presentations.</li>
+        <li><strong>City Council agenda portal:</strong> Meeting materials are available on the Diligent/BoardDocs portal.</li>
+        <li><strong>Meeting videos:</strong> Full meeting recordings are posted on the district's Vimeo channel.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What This Is Not</h2>
+      <ul>
+        <li>Not affiliated with or endorsed by the South Portland School Department or City of South Portland</li>
+        <li>Not advocacy — the analysis is descriptive, not prescriptive</li>
+        <li>Not a replacement for attending meetings or reading official communications</li>
+        <li>Not legal, financial, or professional advice</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Open Source</h2>
+      <p>
+        The full analysis pipeline, evidence pools, and source code are available on
+        <a href="https://github.com/cristoslc/south-portland-school-budget-FY27" target="_blank" rel="noopener">GitHub</a>.
+        Contributions, corrections, and feedback are welcome.
+      </p>
+    </section>
+  </main>
+</BaseLayout>

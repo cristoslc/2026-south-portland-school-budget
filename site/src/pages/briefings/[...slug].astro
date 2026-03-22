@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const briefings = await getCollection('briefings');
+  return briefings.map(briefing => ({
+    params: { slug: briefing.id },
+    props: { briefing },
+  }));
+}
+
+const { briefing } = Astro.props;
+const { Content } = await render(briefing);
+const base = import.meta.env.BASE_URL;
+
+// Derive a display title
+let displayTitle = 'Budget Briefing';
+if (briefing.data.persona_name) {
+  displayTitle = `Briefing: ${briefing.data.persona_name}`;
+} else if (briefing.data.brief_mode === 'evergreen') {
+  displayTitle = 'General Budget Briefing';
+} else if (briefing.data.brief_mode === 'upcoming') {
+  displayTitle = 'Upcoming Meeting Briefing';
+}
+
+const categoryMap: Record<string, { badge: string; className: string }> = {
+  'PERSONA-001': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-002': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-003': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-004': { badge: 'Teacher', className: 'badge-teacher' },
+  'PERSONA-005': { badge: 'Community', className: 'badge-community' },
+  'PERSONA-006': { badge: 'Community', className: 'badge-community' },
+  'PERSONA-007': { badge: 'Community', className: 'badge-community' },
+  'PERSONA-008': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-009': { badge: 'Media', className: 'badge-media' },
+  'PERSONA-010': { badge: 'Media', className: 'badge-media' },
+  'PERSONA-011': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-012': { badge: 'Student', className: 'badge-student' },
+  'PERSONA-013': { badge: 'Student', className: 'badge-student' },
+  'PERSONA-014': { badge: 'Student', className: 'badge-student' },
+};
+
+const cat = briefing.data.persona_id
+  ? categoryMap[briefing.data.persona_id] ?? { badge: 'Persona', className: 'badge-persona' }
+  : { badge: 'General', className: 'badge-general' };
+---
+
+<BaseLayout title={displayTitle} activePage="briefings" description={`${displayTitle} — South Portland FY27 School Budget`}>
+  <main class="container">
+    <a href={`${base}briefings/`} class="back-link">&larr; All Briefings</a>
+
+    <span class={`badge ${cat.className}`}>{cat.badge}</span>
+
+    <h1>{displayTitle}</h1>
+
+    <div class="briefing-meta">
+      {briefing.data.generated_date && <span>Updated: {briefing.data.generated_date}</span>}
+      {briefing.data.upcoming_meeting_date && <span>Next meeting: {briefing.data.upcoming_meeting_date}</span>}
+      {briefing.data.persona_id && (
+        <span>
+          <a href={`${base}personas/${briefing.data.persona_id}/`}>View persona profile &rarr;</a>
+        </span>
+      )}
+    </div>
+
+    <article class="briefing-content">
+      <Content />
+    </article>
+  </main>
+</BaseLayout>

@@ -1,0 +1,57 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  activePage?: string;
+}
+
+const { title, description = 'Independent analysis of South Portland Schools\' FY27 budget proposal', activePage = '' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <title>{title} | SP Budget Watch</title>
+  <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href={base} class="site-title">SP Budget Watch</a>
+      <nav class="site-nav">
+        <a href={base} class:list={[{ active: activePage === 'home' }]}>Home</a>
+        <a href={`${base}briefings/`} class:list={[{ active: activePage === 'briefings' }]}>Briefings</a>
+        <a href={`${base}personas/`} class:list={[{ active: activePage === 'personas' }]}>Perspectives</a>
+        <a href={`${base}evidence/`} class:list={[{ active: activePage === 'evidence' }]}>Evidence</a>
+        <a href={`${base}timeline/`} class:list={[{ active: activePage === 'timeline' }]}>Timeline</a>
+        <a href={`${base}about/`} class:list={[{ active: activePage === 'about' }]}>About</a>
+      </nav>
+    </div>
+  </header>
+
+  <slot />
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>
+        <strong>SP Budget Watch</strong> — Independent analysis of the South Portland Schools FY27 budget.
+        Built with sourced evidence from public meetings and budget documents.
+      </p>
+      <p class="footer-disclaimer">
+        This is an independent, volunteer project. It is not affiliated with or endorsed by the
+        South Portland School Department or City of South Portland. All analysis is AI-assisted
+        with full source transparency.
+        <a href={`${base}about/`}>Learn more about our methodology.</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+</style>

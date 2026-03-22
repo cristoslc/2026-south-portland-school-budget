@@ -1,0 +1,240 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="Evidence" activePage="evidence" description="Source evidence behind the South Portland FY27 budget analysis.">
+  <main class="container">
+    <h1>Evidence Base</h1>
+    <p>
+      Every claim in our briefings traces back to specific public documents and meeting records.
+      This page describes the evidence pools that feed the analysis.
+    </p>
+
+    <section>
+      <h2>Evidence Pools</h2>
+      <p>
+        Primary source research, organized by topic. Each pool has individual source notes and a thematic synthesis.
+      </p>
+
+      <div class="card-grid">
+        <div class="card">
+          <span class="badge badge-general">12 Sources</span>
+          <h3>FY27 Budget Documents</h3>
+          <p>
+            Meeting packets, presentations, and spreadsheets from the district.
+            Covers December 2025 through March 2026.
+          </p>
+          <ul style="font-size: 0.85rem; color: var(--color-slate);">
+            <li>Budget overview presentations</li>
+            <li>Elementary reconfiguration evaluation matrix</li>
+            <li>Staffing comparison tables</li>
+            <li>Revenue and expenditure breakdowns</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <span class="badge badge-general">4 Meetings</span>
+          <h3>School Board Budget Meetings</h3>
+          <p>
+            Transcripts and analysis of board meetings where the budget was discussed.
+            January through March 2026.
+          </p>
+          <ul style="font-size: 0.85rem; color: var(--color-slate);">
+            <li>Full meeting transcripts (auto-generated from video)</li>
+            <li>Board deliberation on reconfiguration options</li>
+            <li>Public comment periods</li>
+            <li>Superintendent presentations</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <span class="badge badge-general">7 Meetings</span>
+          <h3>City Council Meetings 2026</h3>
+          <p>
+            Council meeting transcripts covering budget-adjacent municipal context.
+            January through March 2026.
+          </p>
+          <ul style="font-size: 0.85rem; color: var(--color-slate);">
+            <li>Council budget guidance and cost drivers</li>
+            <li>Municipal spending priorities</li>
+            <li>Tax levy discussions</li>
+            <li>School-city budget coordination</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>How Evidence Becomes Briefings</h2>
+      <div class="pipeline-flow">
+        <div class="pipeline-step">
+          <h4>1. Collection</h4>
+          <p>Meeting transcripts, budget documents, and presentations are collected from public sources — district websites, meeting portals, and video platforms.</p>
+        </div>
+        <div class="pipeline-step">
+          <h4>2. Normalization</h4>
+          <p>Raw files (VTT transcripts, PDFs, spreadsheets) are converted to structured markdown for consistent analysis.</p>
+        </div>
+        <div class="pipeline-step">
+          <h4>3. Interpretation</h4>
+          <p>Each meeting is analyzed through 14 stakeholder perspectives. The AI identifies what matters most to each persona and why.</p>
+        </div>
+        <div class="pipeline-step">
+          <h4>4. Cumulative Narrative</h4>
+          <p>New meeting interpretations are folded into running per-persona narratives — tracking how understanding evolves across meetings.</p>
+        </div>
+        <div class="pipeline-step">
+          <h4>5. Briefings</h4>
+          <p>Forward-looking briefings are generated from cumulative narratives, highlighting what changed, what to watch for, and open questions.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>Key Budget Numbers</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Amount</th>
+            <th>Context</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>FY26 Operating Budget</td>
+            <td>$73.4M</td>
+            <td>Current year baseline</td>
+          </tr>
+          <tr>
+            <td>FY27 Roll-Forward Estimate</td>
+            <td>$82.9M-$84.0M</td>
+            <td>Same services + new contract rates + health insurance</td>
+          </tr>
+          <tr>
+            <td>FY27 Proposed Budget</td>
+            <td>$75.6M</td>
+            <td>Superintendent's proposal (3.3% increase)</td>
+          </tr>
+          <tr>
+            <td>Structural Gap</td>
+            <td>$8.4M</td>
+            <td>Required reductions to balance</td>
+          </tr>
+          <tr>
+            <td>Positions Eliminated</td>
+            <td>78 (12%)</td>
+            <td>From 657 FTE to 579 FTE</td>
+          </tr>
+          <tr>
+            <td>Special Education</td>
+            <td>$16.4M</td>
+            <td>Up from $12.7M two years ago</td>
+          </tr>
+          <tr>
+            <td>Facilities Costs</td>
+            <td>$7.3M</td>
+            <td>Up from $6.2M two years ago</td>
+          </tr>
+          <tr>
+            <td>Fund Balance (entering FY26)</td>
+            <td>$739K</td>
+            <td>Down from $5.9M in FY23</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>Staffing Impact</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Group</th>
+            <th>FY26</th>
+            <th>FY27</th>
+            <th>Cut</th>
+            <th>%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Teachers (SPTA)</td>
+            <td>354</td>
+            <td>312</td>
+            <td>42</td>
+            <td>12%</td>
+          </tr>
+          <tr>
+            <td>Ed Techs & Clerks (SPESPA)</td>
+            <td>155</td>
+            <td>139</td>
+            <td>16</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>Building Administrators (SPAA)</td>
+            <td>13</td>
+            <td>11</td>
+            <td>2</td>
+            <td>15%</td>
+          </tr>
+          <tr>
+            <td>Facilities/Food/Transport (SEA)</td>
+            <td>100</td>
+            <td>86</td>
+            <td>14</td>
+            <td>14%</td>
+          </tr>
+          <tr>
+            <td>Non-Bargaining</td>
+            <td>35</td>
+            <td>31</td>
+            <td>4</td>
+            <td>11%</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="font-size: 0.85rem; color: var(--color-slate);">
+        Of the 78 reductions, approximately 20 can be absorbed through existing vacancies, retirements,
+        or resignations, leaving about 58 positions where staff will be directly impacted.
+      </p>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .pipeline-flow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .pipeline-step {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 1rem;
+    position: relative;
+  }
+
+  .pipeline-step h4 {
+    color: var(--color-sky);
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+  }
+
+  .pipeline-step p {
+    font-size: 0.85rem;
+    color: var(--color-slate);
+    margin: 0;
+  }
+</style>

@@ -1,0 +1,173 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const briefings = await getCollection('briefings');
+const generalBriefings = briefings.filter(b => b.data.brief_type === 'general');
+const personaBriefings = briefings.filter(b => b.data.persona_id);
+const base = import.meta.env.BASE_URL;
+
+const categories: Record<string, { badge: string; className: string }> = {
+  'PERSONA-001': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-002': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-003': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-004': { badge: 'Teacher', className: 'badge-teacher' },
+  'PERSONA-005': { badge: 'Community', className: 'badge-community' },
+  'PERSONA-006': { badge: 'Community', className: 'badge-community' },
+  'PERSONA-007': { badge: 'Community', className: 'badge-community' },
+  'PERSONA-008': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-009': { badge: 'Media', className: 'badge-media' },
+  'PERSONA-010': { badge: 'Media', className: 'badge-media' },
+  'PERSONA-011': { badge: 'Parent', className: 'badge-parent' },
+  'PERSONA-012': { badge: 'Student', className: 'badge-student' },
+  'PERSONA-013': { badge: 'Student', className: 'badge-student' },
+  'PERSONA-014': { badge: 'Student', className: 'badge-student' },
+};
+
+function getCat(personaId: string | undefined) {
+  return categories[personaId ?? ''] ?? { badge: 'Persona', className: 'badge-persona' };
+}
+---
+
+<BaseLayout title="Home" activePage="home">
+  <section class="hero">
+    <div class="container">
+      <h1>South Portland Budget Watch</h1>
+      <p class="subtitle">
+        Independent, AI-assisted analysis of the FY27 school budget proposal.
+        Sourced from public meetings and budget documents. Written for residents, not accountants.
+      </p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="number">$75.6M</span>
+          <span class="label">Proposed Budget</span>
+        </div>
+        <div class="hero-stat">
+          <span class="number">$8.4M</span>
+          <span class="label">Structural Gap</span>
+        </div>
+        <div class="hero-stat">
+          <span class="number">78</span>
+          <span class="label">Positions Cut</span>
+        </div>
+        <div class="hero-stat">
+          <span class="number">1</span>
+          <span class="label">School Closure</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <section>
+      <h2>What's Happening</h2>
+      <p>
+        South Portland Schools has proposed a $75.6 million budget for FY27 (2026-2027) — a 3.3% increase
+        that still requires <strong>$8.4 million in cuts</strong> to bridge the gap between costs and revenue.
+        The proposal includes eliminating 78 positions (12% of staff) and closing one elementary school.
+      </p>
+      <p>
+        This site translates the raw budget into forms that residents can actually use. Every claim is
+        sourced from public meetings and official documents. The analysis is AI-assisted with full
+        transparency about methodology and limitations.
+      </p>
+    </section>
+
+    <hr />
+
+    <section>
+      <div class="section-header">
+        <h2>Budget Briefings</h2>
+        <a href={`${base}briefings/`}>View all &rarr;</a>
+      </div>
+      <p>Ready-to-read briefings covering the full budget picture and tailored to specific community perspectives.</p>
+
+      <div class="card-grid">
+        {generalBriefings.map(briefing => (
+          <a href={`${base}briefings/${briefing.id}/`} class="card">
+            <span class="badge badge-general">General</span>
+            <h3>{briefing.data.brief_mode === 'evergreen' ? 'General Budget Briefing' : 'Upcoming Meeting Briefing'}</h3>
+            <p>
+              {briefing.data.brief_mode === 'evergreen'
+                ? 'Comprehensive overview of the FY27 budget proposal, cuts, and major decisions ahead.'
+                : 'What to watch at the next budget meeting and what has changed since the last one.'}
+            </p>
+            <span class="briefing-meta">
+              <span>Updated {briefing.data.generated_date}</span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <div class="section-header">
+        <h2>Perspectives</h2>
+        <a href={`${base}personas/`}>View all &rarr;</a>
+      </div>
+      <p>
+        The budget affects different people in different ways. These briefings are tailored to the
+        questions, concerns, and information needs of 14 community stakeholder groups.
+      </p>
+
+      <div class="card-grid">
+        {personaBriefings.slice(0, 6).map(briefing => {
+          const cat = getCat(briefing.data.persona_id);
+          return (
+            <a href={`${base}briefings/${briefing.id}/`} class="card">
+              <span class={`badge ${cat.className}`}>{cat.badge}</span>
+              <h3>{briefing.data.persona_name}</h3>
+              <p>{briefing.data.persona_id}</p>
+            </a>
+          );
+        })}
+      </div>
+      <p style="margin-top: 1rem; text-align: center;">
+        <a href={`${base}briefings/`}>See all {personaBriefings.length} persona briefings &rarr;</a>
+      </p>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>Key Dates</h2>
+      <div class="timeline">
+        <div class="timeline-item past">
+          <div class="timeline-date">Mar 2</div>
+          <div class="timeline-title">Budget Workshop I</div>
+          <div class="timeline-desc">Nine elementary reconfiguration options presented with evaluation matrix.</div>
+        </div>
+        <div class="timeline-item past">
+          <div class="timeline-date">Mar 16</div>
+          <div class="timeline-title">Open Conversation with District Leadership</div>
+          <div class="timeline-desc">Community Q&A session on the budget proposal.</div>
+        </div>
+        <div class="timeline-item past">
+          <div class="timeline-date">Mar 23</div>
+          <div class="timeline-title">Budget Workshop II</div>
+          <div class="timeline-desc">Two elementary closure options presented. Personnel and non-personnel reductions detailed.</div>
+        </div>
+        <div class="timeline-item future">
+          <div class="timeline-date">Mar 30</div>
+          <div class="timeline-title">Budget Workshop III</div>
+          <div class="timeline-desc">Continued board deliberation on the budget and elementary reconfiguration.</div>
+        </div>
+        <div class="timeline-item future">
+          <div class="timeline-date">Apr 14</div>
+          <div class="timeline-title">City Council Budget Workshop #1</div>
+          <div class="timeline-desc">Council reviews the school budget allocation within the overall city spending plan.</div>
+        </div>
+        <div class="timeline-item future">
+          <div class="timeline-date">Jun 9</div>
+          <div class="timeline-title">Public Referendum Vote</div>
+          <div class="timeline-desc">Maine law requires a public vote on the school budget.</div>
+        </div>
+      </div>
+      <p style="margin-top: 1rem;">
+        <a href={`${base}timeline/`}>Full timeline &rarr;</a>
+      </p>
+    </section>
+  </main>
+</BaseLayout>

@@ -50,7 +50,7 @@ Build and deploy a question-first static site (Astro, GitHub Pages) that gives S
 | EPIC-014 | Site Scaffolding and Deploy | Complete |
 | EPIC-015 | Core Pages | Complete |
 | EPIC-016 | Site Visual Design | Active |
-| EPIC-017 | Question Hub | Proposed |
+| EPIC-017 | Question Hub | Active |
 | EPIC-018 | Community Feedback | Proposed |
 | EPIC-019 | Site Data Assembly | Proposed |
 

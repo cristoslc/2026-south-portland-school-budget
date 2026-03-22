@@ -2,7 +2,7 @@
 title: "Question Hub"
 artifact: EPIC-017
 track: container
-status: Proposed
+status: Active
 author: cristos
 created: 2026-03-22
 last-updated: 2026-03-22
@@ -41,9 +41,9 @@ Residents who arrive at the site with a specific concern ("Will my kid's school 
 
 | Artifact | Title | Status |
 |----------|-------|--------|
-| SPEC-027 | Question extraction from briefings | _to be created_ |
-| SPEC-028 | Questions index page | _to be created_ |
-| SPEC-029 | Answer page template | _to be created_ |
+| SPEC-025 | Question extraction from briefings | _to be created_ |
+| SPEC-026 | Questions index page | _to be created_ |
+| SPEC-027 | Answer page template | _to be created_ |
 
 ## Key Dependencies
 
@@ -55,3 +55,4 @@ Residents who arrive at the site with a specific concern ("Will my kid's school 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-22 | — | Agent-suggested during decomposition; operator decision needed on question sourcing |
+| Active | 2026-03-22 | — | Activated by operator — approach C (auto-extract + curate) |

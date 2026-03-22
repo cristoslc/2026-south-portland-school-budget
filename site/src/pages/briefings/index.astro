@@ -17,7 +17,7 @@ const base = import.meta.env.BASE_URL;
 
 const categoryMap: Record<string, { label: string; className: string; description: string }> = {
   parent: { label: 'Parents', className: 'badge-parent', description: 'Parents of current and incoming students' },
-  teacher: { label: 'Teachers', className: 'badge-teacher', description: 'Educators facing staffing changes' },
+  teacher: { label: 'Educators & Staff', className: 'badge-teacher', description: 'Teachers, specialists, and staff navigating staffing changes' },
   community: { label: 'Community', className: 'badge-community', description: 'Taxpayers, board members, advocates' },
   media: { label: 'Media', className: 'badge-media', description: 'Journalists covering the budget story' },
   student: { label: 'Students', className: 'badge-student', description: 'Students directly affected by the budget' },
@@ -25,7 +25,7 @@ const categoryMap: Record<string, { label: string; className: string; descriptio
 
 function getCategory(personaId: string | undefined): string {
   const parents = ['PERSONA-001', 'PERSONA-002', 'PERSONA-003', 'PERSONA-008', 'PERSONA-011'];
-  const teachers = ['PERSONA-004'];
+  const teachers = ['PERSONA-004', 'PERSONA-015'];
   const community = ['PERSONA-005', 'PERSONA-006', 'PERSONA-007'];
   const media = ['PERSONA-009', 'PERSONA-010'];
   const students = ['PERSONA-012', 'PERSONA-013', 'PERSONA-014'];

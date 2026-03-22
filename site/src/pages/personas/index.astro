@@ -25,30 +25,65 @@ const categoryMap: Record<string, { badge: string; className: string }> = {
   'PERSONA-012': { badge: 'Student', className: 'badge-student' },
   'PERSONA-013': { badge: 'Student', className: 'badge-student' },
   'PERSONA-014': { badge: 'Student', className: 'badge-student' },
+  'PERSONA-015': { badge: 'Staff', className: 'badge-teacher' },
 };
+
+function getCategory(personaId: string): string {
+  const parents = ['PERSONA-001', 'PERSONA-002', 'PERSONA-003', 'PERSONA-008', 'PERSONA-011'];
+  const teachers = ['PERSONA-004', 'PERSONA-015'];
+  const community = ['PERSONA-005', 'PERSONA-006', 'PERSONA-007'];
+  const media = ['PERSONA-009', 'PERSONA-010'];
+  const students = ['PERSONA-012', 'PERSONA-013', 'PERSONA-014'];
+  if (parents.includes(personaId)) return 'parent';
+  if (teachers.includes(personaId)) return 'teacher';
+  if (community.includes(personaId)) return 'community';
+  if (media.includes(personaId)) return 'media';
+  if (students.includes(personaId)) return 'student';
+  return 'other';
+}
+
+const groupMeta: Record<string, { label: string; className: string; description: string }> = {
+  parent: { label: 'Parents', className: 'badge-parent', description: 'Parents of current and incoming students' },
+  teacher: { label: 'Educators & Staff', className: 'badge-teacher', description: 'Teachers, specialists, and staff navigating staffing changes' },
+  community: { label: 'Community', className: 'badge-community', description: 'Taxpayers, board members, and equity advocates' },
+  media: { label: 'Media', className: 'badge-media', description: 'Journalists covering the budget story' },
+  student: { label: 'Students', className: 'badge-student', description: 'Students directly affected by the budget' },
+};
+
+const grouped = Object.entries(groupMeta).map(([key, meta]) => ({
+  ...meta,
+  key,
+  personas: sorted.filter(p => getCategory(p.data.artifact) === key),
+})).filter(g => g.personas.length > 0);
 ---
 
-<BaseLayout title="Perspectives" activePage="personas" description="14 community stakeholder perspectives on the South Portland FY27 school budget.">
+<BaseLayout title="Perspectives" activePage="personas" description="15 community stakeholder perspectives on the South Portland FY27 school budget.">
   <main class="container">
     <h1>Community Perspectives</h1>
     <p>
-      The budget affects different people in different ways. We've developed 14 stakeholder profiles
-      representing the range of people affected — parents, teachers, taxpayers, board members, journalists,
-      community advocates, and students. Each perspective shapes how the budget analysis is presented.
+      The budget affects different people in different ways. We've developed 15 stakeholder profiles
+      representing the range of people affected — parents, teachers, staff, taxpayers, board members,
+      journalists, community advocates, and students. Each perspective shapes how the budget analysis
+      is presented.
     </p>
 
-    <div class="card-grid">
-      {sorted.map(persona => {
-        const cat = categoryMap[persona.data.artifact] ?? { badge: 'Persona', className: 'badge-persona' };
-        // Extract the display name from the title (format: "Concerned Elementary Parent")
-        return (
-          <a href={`${base}personas/${persona.data.artifact}/`} class="card">
-            <span class={`badge ${cat.className}`}>{cat.badge}</span>
-            <h3>{persona.data.title}</h3>
-            <p>{persona.data.artifact}</p>
-          </a>
-        );
-      })}
-    </div>
+    {grouped.map(group => (
+      <section>
+        <h2>{group.label}</h2>
+        <p>{group.description}</p>
+        <div class="card-grid">
+          {group.personas.map(persona => {
+            const cat = categoryMap[persona.data.artifact] ?? { badge: 'Persona', className: 'badge-persona' };
+            return (
+              <a href={`${base}personas/${persona.data.artifact}/`} class="card">
+                <span class={`badge ${cat.className}`}>{cat.badge}</span>
+                <h3>{persona.data.title}</h3>
+                <p>{persona.data.artifact}</p>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    ))}
   </main>
 </BaseLayout>

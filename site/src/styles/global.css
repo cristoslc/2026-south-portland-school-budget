@@ -641,6 +641,16 @@ a.card .briefing-meta {
 
 /* Briefing content styling */
 
+/* Hide the duplicate h1 from rendered markdown (layout already provides the page title) */
+.briefing-content > h1:first-child {
+  display: none;
+}
+
+/* Also hide h2 that immediately follows the hidden h1 if it's just "Upcoming Meeting: DATE" */
+.briefing-content > h1:first-child + h2 {
+  display: none;
+}
+
 .briefing-content h2 {
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--color-border);

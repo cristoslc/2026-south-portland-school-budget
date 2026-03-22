@@ -3,9 +3,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const briefings = await getCollection('briefings');
+const personas = await getCollection('personas');
 const generalBriefings = briefings.filter(b => b.data.brief_type === 'general');
 const personaBriefings = briefings.filter(b => b.data.persona_id);
 const base = import.meta.env.BASE_URL;
+
+// Build persona title lookup: PERSONA-001 -> "Concerned Elementary Parent"
+const personaTitles: Record<string, string> = {};
+personas.forEach(p => { personaTitles[p.data.artifact] = p.data.title; });
 
 const categories: Record<string, { badge: string; className: string }> = {
   'PERSONA-001': { badge: 'Parent', className: 'badge-parent' },
@@ -118,8 +123,8 @@ function getCat(personaId: string | undefined) {
           return (
             <a href={`${base}briefings/${briefing.id}/`} class="card">
               <span class={`badge ${cat.className}`}>{cat.badge}</span>
-              <h3>{briefing.data.persona_name}</h3>
-              <p>{briefing.data.persona_id}</p>
+              <h3>{personaTitles[briefing.data.persona_id ?? ''] ?? briefing.data.persona_name}</h3>
+              <p>{briefing.data.persona_name} ({briefing.data.persona_id})</p>
             </a>
           );
         })}

@@ -3,6 +3,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const briefings = await getCollection('briefings');
+const personas = await getCollection('personas');
+const personaTitles: Record<string, string> = {};
+personas.forEach(p => { personaTitles[p.data.artifact] = p.data.title; });
+
 const generalBriefings = briefings.filter(b => b.data.brief_type === 'general');
 const personaBriefings = briefings.filter(b => b.data.persona_id).sort((a, b) => {
   const aId = parseInt(a.data.persona_id?.replace('PERSONA-', '') ?? '0');
@@ -77,8 +81,8 @@ const grouped = Object.entries(categoryMap).map(([key, meta]) => ({
           {group.briefings.map(briefing => (
             <a href={`${base}briefings/${briefing.id}/`} class="card">
               <span class={`badge ${group.className}`}>{group.label.replace(/s$/, '')}</span>
-              <h3>{briefing.data.persona_name}</h3>
-              <p>{briefing.data.persona_id} — Briefing for the {briefing.data.upcoming_meeting_date ?? briefing.data.generated_date} meeting</p>
+              <h3>{personaTitles[briefing.data.persona_id ?? ''] ?? briefing.data.persona_name}</h3>
+              <p>{briefing.data.persona_name} — {briefing.data.upcoming_meeting_date ?? briefing.data.generated_date}</p>
             </a>
           ))}
         </div>

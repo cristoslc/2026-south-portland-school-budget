@@ -14,9 +14,16 @@ const { briefing } = Astro.props;
 const { Content } = await render(briefing);
 const base = import.meta.env.BASE_URL;
 
-// Derive a display title
+// Get persona title from personas collection
+const personas = await getCollection('personas');
+const personaTitles: Record<string, string> = {};
+personas.forEach(p => { personaTitles[p.data.artifact] = p.data.title; });
+
+// Derive a display title using persona description, not first name
 let displayTitle = 'Budget Briefing';
-if (briefing.data.persona_name) {
+if (briefing.data.persona_id && personaTitles[briefing.data.persona_id]) {
+  displayTitle = `Briefing: ${personaTitles[briefing.data.persona_id]}`;
+} else if (briefing.data.persona_name) {
   displayTitle = `Briefing: ${briefing.data.persona_name}`;
 } else if (briefing.data.brief_mode === 'evergreen') {
   displayTitle = 'General Budget Briefing';

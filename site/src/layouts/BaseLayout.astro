@@ -17,6 +17,15 @@ const base = import.meta.env.BASE_URL;
   <meta name="description" content={description} />
   <title>{title} | SP Budget Watch</title>
   <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+  <script is:inline>
+    // Apply saved theme before first paint to prevent flash
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark' || saved === 'light') {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    })();
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -29,6 +38,10 @@ const base = import.meta.env.BASE_URL;
         <a href={`${base}evidence/`} class:list={[{ active: activePage === 'evidence' }]}>Evidence</a>
         <a href={`${base}timeline/`} class:list={[{ active: activePage === 'timeline' }]}>Timeline</a>
         <a href={`${base}about/`} class:list={[{ active: activePage === 'about' }]}>About</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <span class="icon" id="theme-icon"></span>
+          <span id="theme-label"></span>
+        </button>
       </nav>
     </div>
   </header>
@@ -49,6 +62,66 @@ const base = import.meta.env.BASE_URL;
       </p>
     </div>
   </footer>
+  <script is:inline>
+    (function() {
+      var btn = document.getElementById('theme-toggle');
+      var icon = document.getElementById('theme-icon');
+      var label = document.getElementById('theme-label');
+      var root = document.documentElement;
+
+      // Three states: system (no data-theme), light, dark
+      function getEffective() {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') return saved;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      function getSaved() {
+        return localStorage.getItem('theme'); // null means "system"
+      }
+
+      function update() {
+        var saved = getSaved();
+        var effective = getEffective();
+        if (saved) {
+          icon.textContent = effective === 'dark' ? '\u263E' : '\u2600';
+          label.textContent = effective === 'dark' ? 'Dark' : 'Light';
+        } else {
+          icon.textContent = effective === 'dark' ? '\u263E' : '\u2600';
+          label.textContent = 'Auto';
+        }
+      }
+
+      btn.addEventListener('click', function() {
+        var saved = getSaved();
+        var effective = getEffective();
+        // Cycle: auto -> light -> dark -> auto
+        var next;
+        if (!saved) {
+          next = 'light';
+        } else if (saved === 'light') {
+          next = 'dark';
+        } else {
+          next = null; // back to auto
+        }
+        if (next) {
+          localStorage.setItem('theme', next);
+          root.setAttribute('data-theme', next);
+        } else {
+          localStorage.removeItem('theme');
+          root.removeAttribute('data-theme');
+        }
+        update();
+      });
+
+      // Listen for system changes when in auto mode
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+        if (!getSaved()) update();
+      });
+
+      update();
+    })();
+  </script>
 </body>
 </html>
 

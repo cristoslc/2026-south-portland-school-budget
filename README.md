@@ -1,12 +1,20 @@
 # South Portland 2026 School Budget Analysis
 
+**[Read the briefings on the website &rarr;](https://cristoslc.github.io/south-portland-school-budget-FY27/)**
+
 Independent analysis of the South Portland School Department's proposed FY27 (2026-2027) budget. The district faces an **$8.4 million structural gap** and has proposed **eliminating 78 positions** and **closing one elementary school** to bridge it. This project translates the raw budget into forms that residents can actually use.
 
-This is a research project, not a software application. The outputs are documents, not code.
+This is a research project, not a software application. It is not affiliated with or endorsed by the South Portland School Department or City of South Portland.
 
-## Start Here: Budget Briefings
+## Start Here
 
-The `dist/briefings/` folder contains ready-to-read briefings -- the main output of this project.
+The easiest way to read the briefings is on the website: **[cristoslc.github.io/south-portland-school-budget-FY27](https://cristoslc.github.io/south-portland-school-budget-FY27/)**
+
+The site includes all briefings, persona profiles, evidence summaries, a budget timeline, and methodology documentation. It supports dark mode and is designed for readability on all devices.
+
+### Briefings (also available as raw markdown)
+
+The `dist/briefings/` folder contains the same briefings as raw markdown files.
 
 | Briefing | Audience |
 |----------|----------|

@@ -103,7 +103,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -112,7 +112,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
   color: var(--color-text);
   background: var(--color-bg);
-  line-height: 1.7;
+  line-height: 1.75;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -128,10 +128,10 @@ h1, h2, h3, h4 {
   transition: color 0.3s ease;
 }
 
-h1 { font-size: 2rem; margin-bottom: 1rem; }
-h2 { font-size: 1.5rem; margin-top: 2rem; margin-bottom: 0.75rem; }
-h3 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
-h4 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+h1 { font-size: 2.1rem; margin-bottom: 1rem; }
+h2 { font-size: 1.6rem; margin-top: 2rem; margin-bottom: 0.75rem; }
+h3 { font-size: 1.25rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+h4 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
 
 p {
   margin-bottom: 1rem;
@@ -169,7 +169,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 th, td {
@@ -267,7 +267,7 @@ main {
 .site-nav a {
   color: rgba(255,255,255,0.85);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 500;
   padding: 0.5rem 0.75rem;
   border-radius: 4px;
@@ -307,7 +307,7 @@ main {
   color: rgba(255,255,255,0.7);
   padding: 2rem 0;
   margin-top: 3rem;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   border-top: 1px solid var(--color-border);
 }
 
@@ -323,7 +323,7 @@ main {
 
 .footer-disclaimer {
   margin-top: 0.75rem;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: var(--color-footer-muted);
 }
 
@@ -374,13 +374,38 @@ main {
 
 .card h3 {
   margin-top: 0;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 .card p {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--color-slate);
   margin-bottom: 0.5rem;
+}
+
+/* Cards as links — prevent link styling from leaking into card content */
+a.card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+a.card:hover {
+  text-decoration: none;
+}
+
+a.card h3 {
+  color: var(--color-navy);
+  transition: color 0.2s ease;
+}
+
+a.card:hover h3 {
+  color: var(--color-sky);
+}
+
+a.card p,
+a.card .briefing-meta {
+  color: var(--color-slate);
 }
 
 .card a {
@@ -501,8 +526,8 @@ main {
   background: #fefce8;
   border-bottom: 1px solid #fde68a;
   color: #854d0e;
-  font-size: 0.85rem;
-  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  padding: 0.6rem 1.5rem;
   text-align: center;
   line-height: 1.5;
 }
@@ -540,7 +565,7 @@ main {
   background: linear-gradient(135deg, var(--color-hero-from) 0%, var(--color-hero-to) 100%);
   color: white;
   padding: 3rem 0;
-  margin: -2rem 0 2rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .hero h1 {
@@ -630,7 +655,7 @@ main {
   gap: 1rem;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--color-slate-light);
 }
 
@@ -646,7 +671,7 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--color-slate-light);
   margin-bottom: 1.5rem;
   transition: color 0.2s ease, gap 0.2s ease;
@@ -733,17 +758,18 @@ main {
 }
 
 .timeline-date {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--color-navy);
 }
 
 .timeline-title {
   font-weight: 500;
+  font-size: 1.05rem;
 }
 
 .timeline-desc {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--color-slate);
 }
 
@@ -775,17 +801,34 @@ a[href$="/"] .arrow,
 /* Responsive */
 
 @media (max-width: 768px) {
+  html { font-size: 17px; }
   .hero h1 { font-size: 1.75rem; }
-  .hero-stats { gap: 1.5rem; }
+  .hero .subtitle { font-size: 1.05rem; }
+  .hero-stats { gap: 1.25rem; }
+  .hero-stat .number { font-size: 1.75rem; }
+  .hero-stat .label { font-size: 0.75rem; }
   .card-grid { grid-template-columns: 1fr; }
   .header-inner { flex-direction: column; height: auto; padding: 0.75rem 1rem; gap: 0.5rem; }
-  .site-nav { flex-wrap: wrap; justify-content: center; }
+  .site-nav { flex-wrap: wrap; justify-content: center; gap: 0.15rem; }
+  .site-nav a { padding: 0.4rem 0.6rem; font-size: 0.85rem; }
+  .research-banner { font-size: 0.8rem; padding: 0.5rem 1rem; }
   h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.35rem; }
+  .section-header { flex-direction: column; gap: 0.25rem; }
+  .container { padding: 0 1rem; }
+  table { font-size: 0.85rem; }
+  th, td { padding: 0.5rem; }
 }
 
 @media (max-width: 480px) {
+  html { font-size: 16px; }
   .hero { padding: 2rem 0; }
-  .hero-stats { flex-direction: column; gap: 1rem; }
+  .hero h1 { font-size: 1.5rem; }
+  .hero-stats { flex-direction: column; gap: 0.75rem; }
   .hero-stat { text-align: left; display: flex; align-items: baseline; gap: 0.5rem; }
-  .hero-stat .number { font-size: 1.5rem; }
+  .hero-stat .number { font-size: 1.4rem; }
+  .site-title { font-size: 1rem; }
+  .theme-toggle { font-size: 0.8rem; padding: 0.3rem 0.4rem; }
+  .research-banner { font-size: 0.75rem; padding: 0.4rem 0.75rem; }
+  .card { padding: 1rem; }
 }

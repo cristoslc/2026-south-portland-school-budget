@@ -3,63 +3,63 @@ schema_version: "1.0"
 persona_id: "PERSONA-014"
 persona_name: "Lila"
 last_meeting_date: "2026-03-19"
-record_count: 19
-generated_date: "2026-03-20"
+record_count: 20
+generated_date: "2026-03-23"
 ---
 
 # Cumulative Summary: Lila (PERSONA-014)
 
 ### Current Understanding
 
-Lila is a fourth-grader at Dyer Elementary whose entire school life is being decided in rooms she has never entered, in language she can barely understand. The district faces an $8.4 million deficit — a figure that began as a $1.9 million spending freeze she first heard about in December and has grown at every turn. A spending freeze has prevented teachers from buying classroom supplies since at least December. Elementary enrollment has dropped 300 students over four years. The district's fund balance is depleted. The state covers only approximately 20% of school costs instead of the 55% it should.
+Lila is a fourth-grader at Dyer Elementary who has been tracking the South Portland school budget crisis since December 2025. As of March 19, 2026, she understands the following: the district faces an $8.4 million deficit, grown from the $1.9 million shortfall she first heard about in December. The spending freeze that began then has never ended — teachers still cannot buy supplies. On March 18, seventy-two school workers received layoff notices. Her teacher, who has looped with her for two years and knows her better than any other adult at school, may be among them.
 
-Nine reconfiguration scenarios were presented at the March 2 budget workshop. One of them — option 1.3 — explicitly lists Dyer as "CLOSED." All nine eliminate between 15.5 and 23.5 teaching positions. The school board voted 7-0 to formally request the reconfiguration proposal. Yesterday, 72 school department employees received layoff notices. A special education pre-K teacher at Dyer has already resigned effective August 31. Reconfiguration would reorganize elementary schools by grade band — pre-K through 1st in primary schools, grades 2–4 in intermediate schools — replacing the neighborhood model, with class sizes growing from approximately 16 to 22–23 students.
+Nine specific reconfiguration scenarios now exist in official documents. One of them, option 1.3, would close Dyer entirely. Early statements in February suggested no building would close outright because they are needed for pre-K programs; that was explicitly reversed when the nine scenarios were presented in March. Under the grade-band model common to most scenarios, two schools would serve pre-K through first grade and three would serve grades 2–4. Class sizes would grow from roughly sixteen to twenty-two or twenty-three. Lila might be moved; her brother might stay; her friends might scatter to different buildings.
 
-Eighty-five percent of surveyed parents oppose reconfiguration. Four board members have stated opposition to closing Skillin; no board member has specifically committed to protecting Dyer. The teachers' union has formally refused to endorse plans that eliminate colleagues' jobs. The city council offered budget guidance of only 3–6%, far short of what is needed. The city formally passed a safety resolution in February and voted 4-2 against concrete eviction protection for at-risk families two weeks later — confirming for Lila that formal statements and protective action are entirely different things.
-
-The decision timeline is now locked: public hearing April 7, city council vote May 5, community referendum June 9. Dyer has not been named once in any of these city council meetings. No adult in any of these rooms has spoken directly to Lila.
+Special education teacher Ms. Beland has already resigned from Dyer effective August 31 — the first teacher departure ahead of any official decision. The budget timeline is now formalized: public hearing April 7, city council vote May 5, community referendum June 9. Eighty-five percent of surveyed parents oppose reconfiguration. The teachers union has refused to endorse plans that eliminate colleagues. The board chair has declared reconfiguration is "good for kids" and that children are "far more flexible than parents." The city council voted $87 million for new police and fire buildings in the same fortnight the school board presented nine closure scenarios. Nobody has asked Lila.
 
 ---
 
 ### Timeline of Understanding Shifts
 
-1. **2025-12-01** — Lila's "before": a warm, ordinary civic meeting — student poetry, new board members, Mayor Tipton's story about families given nine days to vacate their homes — that retrospectively marks the last moment before the crisis, with the mayor's 1942 displacement story landing as an unwitting metaphor for what Lila is about to experience.
+1. **2025-12-01** — Establishes Lila's "before": a retrospective baseline in which South Portland is a place that protects its children; Mayor Tipton's story about families given nine days to vacate their homes in 1942 now reads as an unwitting metaphor for what Lila is living through.
 
-2. **2025-12-04** — Three days before the crisis became real, the city conducted ordinary business (tree lighting, Zoom debates) with zero school mention; Lila learns that adults are sometimes too afraid to show up in civic rooms, which begins to explain why early voices were absent during the months that mattered most.
+2. **2025-12-04** — Lila learns that adults, too, are sometimes too afraid to show up — a community member explains people avoid civic meetings out of fear of social retaliation — deepening her sense that no one is reliably in the room fighting for children like her; city council says nothing about schools.
 
-3. **2025-12-08** — Lila first hears the words "spending freeze" and "$1.9 million shortfall" and learns teachers cannot buy books; she clings to fragile hope that donations to Dyer ($780 from Hannaford, $934 from a photo company) might signal the school is safe.
+3. **2025-12-08** — First direct awareness of the spending freeze and a $1.9 million shortfall; teachers cannot buy books or supplies; small donations to Dyer spark a fragile, misplaced hope that the school might be saved.
 
-4. **2025-12-09** — The city council holds its second consecutive meeting with zero school discussion — one day after the spending freeze was made public — hardening city silence from a single anomaly into an established pattern.
+4. **2025-12-09** — City council holds two hours of meetings one day after the spending freeze is made public and says nothing about schools; the silence hardens from a single omission into the beginning of a pattern; parents must pay for babysitters just to attend civic meetings.
 
-5. **2025-12-10** — The board spends $30,000 on a superintendent search firm despite no budget for it; the empty community meeting room and mention of negative press about the district add a new layer of anxiety — nobody is paying attention and something is deeply wrong beyond just money.
+5. **2025-12-10** — The school board spends $30,000 on a superintendent search firm despite the budget freeze; an outside presenter mentions "bad articles" about the district; no community members attended; disillusionment deepens as new adults are promised as solutions while the crisis grows.
 
-6. **2025-12-17** — The crisis balloons to a $7.2 million gap, 78 positions at risk, 300-student enrollment decline, and a depleted fund balance; the Dyer donation thread collapses entirely, and Lila grasps for the first time that no one can fix this by trying harder.
+6. **2025-12-17** — The true scale of the crisis arrives: the gap is $7.2 million, not $1.9 million; seventy-eight positions face elimination; elementary enrollment has dropped three hundred students in four years; the district's savings are depleted; the fragile hope that donations might save Dyer collapses against these numbers.
 
-7. **2026-01-06** — The city council breaks its months-long silence, announcing a January 22 forum and a February 10 guidance workshop; small relief is immediately undercut when Lila recognizes the conversation was framed around cost-cutting before anyone could say what they wanted to save.
+7. **2026-01-06** — The city finally says "school budget" out loud after two meetings of total silence; a January 22 forum and a February 10 guidance workshop are announced; but the conversation is framed around "cost saving measures" before parents have said a word, signaling what kind of listening the city intends to do.
 
-8. **2026-01-12** — The abstract threat to Dyer becomes concrete: a board member formally requests an elementary school reconfiguration proposal for March, and Lila learns that other children are also frightened — just for different reasons.
+8. **2026-01-12** — Board member DeAngelos formally requests an elementary school reconfiguration proposal for the March workshop; Dyer closure moves from vague future possibility to active official planning; Lila learns that other children in her city are also frightened at school, though for different reasons.
 
-9. **2026-01-13** — A four-hour city council workshop on the $194 million Mahoney renovation passes without Dyer's name spoken once (except to remove a planned bike trail); Mahoney becomes the vivid image of what a school looks like after it closes — an empty building the city argues about for years — and Lila can now picture that future for Dyer.
+9. **2026-01-13** — A four-hour city council workshop on the Mahoney building — a school that closed years ago and still sits empty — gives concrete shape to Lila's fear of closure; Dyer is mentioned once, to announce a planned bike trail to her school is being removed from the agenda; a preservationist argues empty buildings deserve protection because they give people a sense of place, but nobody has said that about Dyer.
 
-10. **2026-01-15** — A goal-setting workshop passes with no documented school discussion nine days after the forum was announced; the city's January re-entry into the school budget conversation is confirmed as episodic rather than sustained.
+10. **2026-01-15** — A goal-setting workshop passes with no documented school discussion, nine days after the city advertised school budget engagement; Lila registers that city involvement is episodic rather than sustained, and the "not yet" rhythm of waiting has begun to feel permanent.
 
-11. **2026-01-20** — The January 22 forum is postponed to February 4 due to immigration enforcement fear; Mayor Tipton says the postponement "breaks my heart and makes me so angry" — the first time a civic leader responds to displacement of Lila's school crisis with something that sounds like grief — but caring out loud does not change the date.
+11. **2026-01-20** — The January 22 forum is postponed to February 4 because immigration enforcement has made families too frightened to attend public meetings; ICE agents appear at a Red Bank car wash and laundromat, children stay home from school; Mayor Tipton says the situation "breaks my heart and makes me so angry" — the first civic leader to sound like something is slipping away — but the forum is postponed regardless; Lila learns that caring out loud and fixing the problem are not the same thing.
 
-12. **2026-02-03** — A district audit reveals 34 accounting errors requiring $400,000 in corrections; a new finance director is announced as "amazing"; the board chair explicitly demands "clear guidance" from the city; five-year-olds at Brown School are hiding in darkened homes; the city passes a safety resolution the night before the February 4 forum.
+12. **2026-02-03** — A district audit reveals thirty-four accounting corrections and $400,000 moved to fix tracking errors; Board Chair DeAngelos appears before city council visibly frustrated and asks for "clear guidance"; five-year-olds at Brown School are hiding in darkened homes out of immigration fear; the city passes a resolution saying all residents should feel safe going to school; the forum is tomorrow.
 
-13. **2026-02-04** — Reconfiguration takes concrete shape as a grade-band model, with class sizes rising from ~16 to 22–23; partial reassurance that no school building will fully close (needed for pre-K) supersedes the fear of outright closure — but the "big ideas" framing feels dishonest when the math has already been done.
+13. **2026-02-04** — The grade-band model takes shape: pre-K through second grade at primary schools, third and fourth grade at intermediate schools; class sizes would grow from sixteen to twenty-two or twenty-three; Dyer's building will not be demolished outright (buildings are needed for pre-K), but Lila's school as she knows it would be unrecognizable; the "big ideas" framing — detailed financial projections presented as not-yet-proposals — feels dishonest even to a nine-year-old.
 
-14. **2026-02-09** — The board votes 7-0 to formally request the reconfiguration proposal; the board chair declares it "good for kids" and dismisses children's anxiety as parental projection — Lila feels directly invalidated; the teachers' union announces its opposition.
+14. **2026-02-09** — The board votes unanimously, 7–0, to request the formal reconfiguration proposal; Board Chair DeAngelos says reconfiguration "is good for kids" and that "kids are far more flexible than parents," making Lila feel dismissed and erased; the teachers union president publicly refuses to endorse plans that eliminate colleagues, giving Lila her first adult ally who sounds like they mean it.
 
-15. **2026-02-10** — The joint city council and school board workshop exposes the institutional fracture: the board chair publicly confronts the council for offering only 3–6% guidance; up to 50 staff could be cut under minimal increases; the adults responsible for Lila's education are fighting with the adults responsible for funding it.
+15. **2026-02-10** — The specific grade-band structure is named: two primary schools (pre-K–first grade), three intermediate schools (second through fourth); the board chair publicly confronts city council for failing to give clear budget guidance; city council members offer 3–6% increases against a $7.2 million gap; up to fifty staff positions could be cut; a parent describes a bike-bus community that reconfiguration would destroy.
 
-16. **2026-02-17** — A ten-year-old's question is read aloud in city council chambers — the first child voice in any civic meeting about this crisis — and the council votes 4-2 against eviction protection the same evening; the February 3 safety resolution is directly contradicted within two weeks; Mahoney shifts from cautionary symbol to proposed destination for Lila herself.
+16. **2026-02-17** — A ten-year-old child's question — "Why are they doing this to us?" — is read aloud in council chambers, the first time a child Lila's age has been voiced in any civic meeting; the city council votes 4–2 against tenant eviction protections, directly contradicting the February 3 resolution; Mahoney is proposed as a single consolidated campus for all elementary students, shifting from a symbol of what closure looks like to a possible destination for Lila herself; Lila understands that being heard and being helped are not the same thing.
 
-17. **2026-03-02** — Nine reconfiguration scenarios are presented, including option 1.3 explicitly listing Dyer as "CLOSED"; 85% of parents surveyed oppose reconfiguration; all scenarios eliminate teaching positions; the June 9 deadline is confirmed; the partial February 4 reassurance that buildings would stay open is directly superseded.
+17. **2026-03-02** — Nine specific reconfiguration scenarios are presented in an official document; option 1.3 lists Dyer as "CLOSED"; some scenarios would require Lila to change schools twice before middle school; all scenarios eliminate between 15.5 and 23.5 teaching positions; four board members protect Skillin but no one specifically names Dyer; eighty-five percent of surveyed parents oppose reconfiguration; the June 9 budget deadline is now concrete.
 
-18. **2026-03-09** — Dyer's Read-A-Thon and Books and Bites continue as if nothing is wrong while a special education pre-K teacher resigns effective August 31; a board member confirms a prior South Portland school closure around 2005 as precedent; anticipatory grief overlays forced normalcy.
+18. **2026-03-05** — City council votes to place an $87 million police-and-fire referendum on the November ballot — within days of the nine scenarios presentation — while saying nothing about Dyer; the library director presents evidence of deterioration and is told "later"; the contrast between city capital investment and school crisis reaches its sharpest and most specific form.
 
-19. **2026-03-19** — Seventy-two school employees received layoff notices yesterday; the deficit is now stated at $8.4 million; the city formally calendars April 7, May 5, and June 9; Dyer is not named once in four hours; Lila's chronic fear about her teacher shifts to acute fear that it may already have happened.
+19. **2026-03-09** — Dyer's Read-a-Thon and Books and Bites events continue under a veneer of normalcy; special education teacher Ms. Beland submits her resignation effective August 31 — before any official reconfiguration decision — signaling that uncertainty itself is driving attrition; a board member shares the precedent of a South Portland elementary school that closed around 2005 and never came back; the new superintendent's salary is set at $165,000.
+
+20. **2026-03-19** — Seventy-two school workers receive layoff notices on March 18; the deficit is now named as $8.4 million by a city council member; the budget calendar is formally set (April 7 hearing, May 5 council vote, June 9 referendum); Dyer is not mentioned once in the four-hour meeting; Lila carries seventy-two and $87 million as a matched pair she cannot stop counting.
 
 ---
 
@@ -67,49 +67,53 @@ The decision timeline is now locked: public hearing April 7, city council vote M
 
 | What Changed | From | To | When |
 |---|---|---|---|
-| Total budget deficit | $1.9M current-year shortfall (first stated Dec 8, 2025) | $8.4M total deficit | 2026-03-19 (via $7.2M, 2025-12-17) |
-| Scale of staff cuts | 78 projected positions at risk | 72 confirmed layoff notices already issued | 2026-03-19 (via "up to 50 under minimal-increase scenario," 2026-02-10) |
-| School closure possibility | "No complete school closures planned — buildings needed for pre-K" | Option 1.3 explicitly lists Dyer as "CLOSED"; closure is on the table | 2026-03-02 |
-| Reconfiguration status | "These are not proposals yet — just big ideas" | Formal board directive; 7-0 vote to request reconfiguration proposal | 2026-02-09 |
-| City safety commitment | City council resolution affirming all residents should feel safe attending school | Council voted 4-2 against concrete tenant eviction protection for at-risk families two weeks later | 2026-02-17 |
+| District budget gap | $1.9 million current-year shortfall | $7.2 million total gap requiring cuts or 18–19% tax increase | 2025-12-17 |
+| District deficit figure | $7.2 million | $8.4 million (stated by city council member) | 2026-03-19 |
+| Nature of reconfiguration threat | Assumption that "Dyer is closing" as a simple school closure | Grade-band reorganization; Dyer building likely remains open in some form for pre-K | 2026-02-04 |
+| School building closures | "Closing an entire school is not on their list — buildings are needed for pre-K" | Option 1.3 in the nine scenarios explicitly lists Dyer as "CLOSED" | 2026-03-02 |
+| Reconfiguration framing | "These are not proposals, just big ideas" | Formal board directive — 7–0 unanimous vote to proceed with proposal | 2026-02-09 |
+| Projected staffing cuts | 78 positions slated for elimination (December estimate) | Up to 50 staff under minimal-increase scenario (February clarification) | 2026-02-10 |
+| Layoff scale (cumulative) | 42 teacher positions → up to 50 staff under minimal-increase scenario | 72 confirmed layoff notices issued March 18 | 2026-03-19 |
+| Origin of board–city council tension | Appeared to emerge as a sudden rupture at the February 10 joint workshop | Already audible on February 3 when DeAngelos publicly asked city for "clear guidance" | 2026-02-03 |
+| City council safety commitment | February 3 resolution affirming all residents should feel safe attending school | 4–2 vote against tenant eviction protections on February 17, within the same month | 2026-02-17 |
 
 ---
 
 ### Open Threads
 
-- Will the new school board chair be an advocate for children's emotional experience during reconfiguration, or will she prioritize fiscal logic over those feelings?
-- How bad are the money problems now that teachers can't buy books — has the spending freeze ever been lifted or updated?
-- How can students meaningfully help with the budget crisis, and did the food drive and book drive ideas ever go anywhere?
-- Will the city council restore virtual public comment access before the April 7 hearing, given that parents have been paying babysitters just to participate?
-- Why are there negative articles about the district when you Google it — what happened with the prior superintendent?
-- Will Lila's teacher be among the positions eliminated under the cuts projected since December? *(evolved into the more acute Mar 19 form below)*
-- Is Lila's teacher — who has looped with her for two years — among the 72 employees who received pink slips yesterday?
-- Are other children in South Portland as frightened about school as Lila, just for different reasons?
-- Is the city already operating on an assumption that Dyer will not exist — evidenced by the quiet removal of the planned bike trail to Dyer from the January 13 workshop agenda?
-- Who, if anyone, will speak for Dyer's "sense of place" in any civic venue before the final decision is made?
-- What goals did the city council actually set at the January 15 workshop, given that the attachment was never made public?
-- With immigration fear still active in South Portland elementary schools, did the families most affected by both crises actually make it into the February 4 forum?
-- Will the new finance director's accounting corrections actually close the structural $8.4 million gap, or is this another personnel change that leaves the crisis intact?
-- Will the city council provide clear budget guidance before June 9, or does the vague 3–6% range persist until it is too late to matter?
-- Which building will Lila attend for grades 3–4 under the grade-band reconfiguration model?
-- Will Lila's friends from Dyer end up at the same intermediate school as her?
-- Will the teachers' union's opposition slow down or change the reconfiguration trajectory?
-- Will Dyer be designated a primary school (pre-K–1, meaning Lila leaves) or an intermediate school (grades 2–4, meaning her younger brother's cohort leaves)?
-- Does the Mahoney consolidation proposal — moving all South Portland elementary students to the former Mahoney building — have any traction with the school board, and does it interact with or supersede the nine scenarios already on the table?
-- Is Dyer one of the three intermediate schools under the reconfiguration model, or is it assigned to the pre-K/K/1 primary band?
-- Does any board member specifically want to protect Dyer the way four members have committed to protecting Skillin?
-- Will the 85% parent opposition surveyed at the March 2 workshop actually change the board's direction?
-- Is Ms. Beland's resignation the beginning of a wave of teacher exits from Dyer ahead of any official decision?
-- Will the city council's May 5 vote effectively determine Dyer's fate before the June 9 community referendum, or does the referendum give residents the final word?
+- Will the new school board chair be an advocate for children's emotional experience during reconfiguration, or will she ultimately prioritize fiscal logic over those feelings?
+- Are parents being priced out of civic participation by childcare costs — will the council restore virtual public comment access before the June 9 vote?
+- How can students help with the budget crisis through drives and volunteering, given that the board didn't know how to let the student who offered to help at the December 8 meeting actually do so?
+- Why are there "bad articles" about the district when you Google it, and what happened with the previous superintendent?
+- Are other children as scared as Lila about losing something essential at school, just for different reasons — and does that shared fear mean anything to the adults making the decisions?
+- With the bike-ped trail from Bonnie Brooks Terrace to Dyer quietly removed from the January 13 workshop agenda, are other city-side plans for the school's neighborhood being cancelled on an assumption that Dyer will not be there?
+- Who, if anyone, will argue in a civic venue that Dyer's "sense of place" makes it worthy of preservation before the decision is made — the way the Historic Preservation Committee argued for the fire station?
+- What goals did the city actually set at the January 15 goal-setting workshop, and do any of them address the school crisis in a way that was not made public?
+- With immigration fear still active the day before the February 4 forum, who actually showed up — did the families most affected by both crises make it into the room?
+- Will the new finance director's accounting corrections actually change the structural $8.4 million deficit, or is this another personnel change that leaves the underlying gap intact?
+- Will the city provide clear and actionable budget guidance to the school board before June 9, or did the vague 3–6% range offered at the February 10 joint workshop represent the city's final answer?
+- Which building will Lila attend for third and fourth grade under the grade-band reconfiguration model?
+- Will Lila's friends from Dyer end up at the same intermediate school as she does?
+- Will the teachers union's refusal to endorse job-eliminating plans slow down or materially change the reconfiguration proposal before June 9?
+- Will Dyer become a primary school (meaning Lila is moved out while her younger brother stays) or an intermediate school (meaning Lila stays but the younger cohort leaves)?
+- Does the community proposal to consolidate all elementary students onto the former Mahoney campus have any traction with the board, and does it interact with or supersede the nine scenarios already on the table?
+- Mayor Tipton confirmed grades 2–4 will attend three schools under reconfiguration but named none of them — is Dyer one of those three intermediate schools, or is it assigned as a pre-K/K/1 primary school?
+- Does anyone on the school board specifically want to protect Dyer the way four board members have committed to protecting Skillin?
+- Will the 85% parent opposition documented at the March 2 workshop actually change the board's direction before the June 9 deadline?
+- Will the city's $87 million police-and-fire referendum on the November 2026 ballot crowd out fiscal or political capacity for school funding when taxpayers face both asks in the same year?
+- How long is "later" for the library — and does the city's indefinite deferral of library needs follow the same slide into inaction that characterized its silence on school finances in December?
+- Is Ms. Beland's resignation from Dyer the beginning of a wave of teacher exits driven by reconfiguration uncertainty, before any official decision has even been made?
+- With 72 layoff notices already issued on March 18, is Lila's teacher — who has looped with her for two years and knows her better than any other adult at school — among them?
+- Will the April 7 public hearing and May 5 city council vote effectively determine Dyer's fate before the June 9 community referendum gives residents the final word?
 
 ---
 
 ### Resolved Threads
 
-- **When did city leaders first engage seriously with the school budget, and did their late attention shape how severe the crisis became?**: January 6, 2026 was the first meeting where the city publicly acknowledged the school budget crisis and invited community participation — months after the crisis was already underway. (resolved 2026-01-06)
-- **Was the city council being kept in the dark about the school budget, or choosing not to engage?**: Resolved as delay, not ignorance — by January 6 the council was actively advertising forums and workshops, confirming their December silence was a choice to defer rather than an absence of information. (resolved 2026-01-06)
-- **Will the "cost saving measures" framing of the January 22 forum constrain what parents can say?**: Superseded — the forum did not occur on January 22; the question of its framing became moot when it was postponed to February 4. (resolved 2026-01-20)
-- **Was the city council's January engagement with the school budget genuine or performative?**: Confirmed as episodic rather than sustained — nine days after advertising the school budget forum, the council held a goal-setting workshop with zero documented school discussion. (resolved 2026-01-15)
-- **Was Mayor Tipton's visible anger about families being too scared to attend school meetings translating into any protective action?**: The mayor voted yes on the tenant eviction protection ordinance, confirming the emotion was genuine and became action — but she was outvoted 4-2, confirming the limit of that action within the council. (resolved 2026-02-17)
-- **If Dyer is receiving donations, does that mean it might not close after all?**: Donations to Dyer ($780 + $934) are insignificant against a multi-million-dollar structural gap — they cannot save the school. (resolved 2025-12-17)
-- **Will the nine reconfiguration scenarios narrow before the June 9 deadline, or will uncertainty persist?**: The timeline is now locked — April 7 hearing, May 5 council vote, June 9 referendum — even though the specific scenario to be adopted remains undecided. (resolved 2026-03-19)
+- **When did city leaders first engage seriously with the school budget, and did their late attention shape how severe the crisis became?**: January 6 marked the first meeting where city bodies publicly acknowledged the school budget crisis and invited community participation — after complete silence on December 4 and December 9. (resolved 2026-01-06)
+- **Is the city council being kept in the dark about the school budget crisis, or choosing not to engage?**: By January 6 the council was actively advertising forums and budget guidance workshops, confirming that December's silence was delay rather than ignorance. (resolved 2026-01-06)
+- **If Dyer is receiving donations, does that mean it might not close after all?**: The $780 from Hannaford and $934 from the photo company are insignificant against a $7.2 million gap — donations cannot save the school. (resolved 2025-12-17)
+- **Will the "cost saving measures" framing of the January 22 forum constrain what parents can say?**: The forum did not occur on January 22; the question became moot when the forum was postponed to February 4 due to immigration fears. (resolved 2026-01-20)
+- **Was the city council's January 6 re-entry into the school budget conversation genuine or performative?**: City engagement is episodic rather than sustained — within nine days the council held another workshop with zero documented school discussion, confirming attention does not hold between meetings. (resolved 2026-01-15)
+- **Is Mayor Tipton's visible anger about families being too scared to attend school meetings translating into protective action?**: The mayor voted yes on the tenant eviction protection ordinance on February 17, confirming the emotion is genuine and does become action — but she was outvoted 4–2, confirming the limit of that action within the current council. (resolved 2026-02-17)
+- **Will the nine reconfiguration scenarios narrow to a smaller set before the June 9 deadline?**: The timeline is now locked — the city has formally calendared April 7, May 5, and June 9 as the decision sequence — though the specific scenario among the nine remains undecided. (resolved 2026-03-19, partial)

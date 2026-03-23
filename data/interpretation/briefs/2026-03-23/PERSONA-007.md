@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-007"
 persona_name: "Linda"
 upcoming_meeting_date: "2026-03-23"
-generated_date: "2026-03-21"
+generated_date: "2026-03-23"
 has_agenda: false
 last_cumulative_meeting: "2026-03-19"
 inter_meeting_evidence_count: 1
@@ -14,102 +14,93 @@ inter_meeting_evidence_count: 1
 
 ## Since Last Meeting
 
-The significant development since March 19 is the arrival of the **FY27 Budget 3.23.26 Board Meeting** presentation deck — the Google Slides package that will drive Monday's workshop. This matters immediately: the deck is structured around *decisions expected at the workshop*, meaning this is not an informational session. Linda is walking into a meeting where the board may be asked to formally or informally ratify positions on personnel cuts, non-personnel reductions, and elementary reconfiguration options — five days before the April 7 public hearing, not after it.
+The primary new development is the slide deck circulated for tonight's workshop: **"FY27 Budget 3.23.26 Board Meeting."** This is not a preview — it is the working document that will structure live decision-making tonight. Its existence signals that the administration considers the proposal mature enough to bring to a decision workshop, which matters for Linda because it compresses the window for board members to request material changes before the April 7 public hearing.
 
-The deck's outline — current FY27 proposal, personnel reductions, non-personnel reductions, two elementary closure options, and middle/high school reductions — is also the first confirmation that the administration has packaged the work into a single presentable proposal. That's a governance milestone: it signals the administration considers the options sufficiently developed to bring to the board for direction. For Linda, this shifts the posture from "we're still modeling" to "we need to decide."
+The deck's structure tells Linda what the administration believes is settled and what it is asking the board to decide: current FY27 proposal figures, personnel and non-personnel reductions, two elementary closure options (almost certainly Options 1.3 and 1.6 given the March 2 vote's clear direction away from Skillin), and middle and high school reductions. The phrase "decisions expected at the workshop" in the deck's own framing is a governance signal — the superintendent's office is treating this as a convergence point, not another deliberation cycle.
 
-What's still absent, and therefore significant: no indication yet that the final health insurance figure (expected late March) has been incorporated. If the deck was finalized before that number landed, the personnel cost projections in it may still be based on the 12% estimate rather than the actuals. That's a material unknown embedded in whatever the board is being asked to decide.
+What is not yet confirmed — and was still unresolved as of March 19 — is the **health insurance figure**. The cumulative state explicitly flagged late March as the window for confirmation of whether the 8%→12% projection holds. If that number arrives tonight, every personnel-cost line in the proposal may need revision on the fly. If it does not arrive tonight, the board may be asked to approve a budget framework resting on an unconfirmed cost driver — which Linda will recognize immediately as a governance problem.
+
+The broader fiscal environment is unchanged but is now calculable in a way it was not three weeks ago: sewer doubling is quantified, Mahoney is resolved at 2027, the November public safety bond is locked at $87M. The validation environment is bad and now measurable. The April 7 hearing is fifteen days out. The Matthews "72 pink slips" framing is already in Council minutes and will be deployed.
 
 ---
 
 ## Open Questions
 
-Carrying into Monday:
+Carrying into tonight's meeting, Linda is tracking:
 
-- **What exactly are the "decisions expected"?** The deck language is explicit that decisions are on the table. Are these formal motions, informal consensus signals, or something the chair will try to frame as binding direction to administration? I need to know before the gavel drops, not after.
+- **Has the health insurance figure been confirmed?** We were told late March. If it lands tonight at 12% as projected, does it change any personnel math in the deck? If it comes in higher, who authorized the current figures and why was the board operating on an unconfirmed number during the decision workshops?
 
-- **Has the final health insurance number arrived?** The budget was built on a 12% estimate without board action. If the actual figure is higher — or lower — and it's not in the deck, any personnel math we approve tonight may need to be reopened. Who has that number right now, and when will we see it?
+- **Which two closure options are actually in the deck, and what are the specific savings numbers attributed to each?** The March 2 workshop showed a clear board majority toward 1.3 or 1.6, but the administration's own recommendation was Skillin — does tonight's presentation reflect the board's direction or a last attempt to reopen that question?
 
-- **Which two elementary options are being presented, and have the savings estimates been independently verified?** I'm assuming we're looking at 1.3 and 1.6. But do the fiscal projections account for transition costs, redistricting administration, and transportation changes? Or is this the gross number without implementation costs?
+- **Has the administration identified a credible path to closing the $3M+ gap that remains after the three big ideas?** The February 4 forum left more than $3M unaccounted for. I need to see that number either closed or explicitly surfaced as a remaining gap in the deck — not buried.
 
-- **Where is the $3M+ gap beyond the three big ideas?** The big three total roughly $4M. We need $7.2M. What does the non-personnel and central office reduction section actually show? Have we finally found the rest of it, or are we still walking into April 7 with an incomplete picture?
+- **What happens to our mandatory special education obligations as we cut 78 positions?** We have 80–90 additional Pre-K special needs students arriving in the fall and experienced SPED staff already leaving. Which positions in tonight's personnel reduction list are SPED-adjacent, and does legal counsel know we're touching them?
 
-- **What is the board being shown on per-position cost when we look at the 78 cuts?** Matthews has already put "72 pink slips / $8.4M" in the public record. If our numbers don't match or respond to that framing directly, we'll be on defense at the April 7 hearing.
+- **Can the redistricting plan for whichever school closes actually be completed in time for a September 2026 opening?** No redistricting plan exists. If we're voting toward a closure option tonight, when does the operational implementation timeline enter the record?
 
-- **Is there anything in the middle/high school reductions section that creates a new equity or legal exposure?** Cuts at the secondary level are less visible but can trigger contract obligations, course-of-study requirements, or accreditation minimums that we haven't surfaced publicly.
+- **Do we have a board-ready answer to Matthews' "72 pink slips / $8.4M deficit" framing before April 7?** That argument is in City Council minutes now. It will be used at the hearing. What is our factual, public-ready response, and who is responsible for preparing it?
 
-- **Can September 2026 implementation actually happen?** No redistricting plan exists before budget approval. If we're deciding on 1.3 or 1.6 tonight without a redistricting timeline attached, what are we actually deciding?
+- **Should the finance committee be producing a unified cumulative homeowner impact table — school increase plus sewer rate doubling plus the November public safety bond — before the April 7 hearing?** If we don't control that narrative, someone else will, and their version will be less accurate and more damaging.
 
-- **Will Feller hold, break, or stay quiet?** He's already broken from the 6% ceiling publicly. If something in this deck gives him a new opening, do I have the votes to hold the line before we walk into the April 7 hearing fractured?
+- **Where does board cohesion actually stand tonight?** Feller publicly broke from 6% in February. The council's range is 3–6%. We have three March workshops and an April 14 council session before June 9. Are we converging or still in a range that validation opponents can exploit as indecision?
 
-- **Has anyone assembled the cumulative homeowner impact table — school increase, sewer doubling, public safety bond — in a format the board controls?** If not, it will exist by April 7, assembled by someone else.
+- **Has the 12% parent adequacy figure from the survey prompted any concrete engagement plan changes before April 7?** The survey was presented March 2. We have fifteen days until the public hearing. What has actually changed in how we're reaching families?
 
-- **What's the SPED staffing picture in the personnel reductions?** We just lost experienced special education staff amid the Pre-K mandate expansion. If the personnel section shows further SPED reductions, I need to understand the mandated-services exposure before I'm on record supporting it.
+- **Is anyone in this room — or in the city council — planning to formally name the ICE enforcement enrollment risk as a budget variable?** The fiscal-mechanics consequence (displacement → enrollment loss → reduced per-pupil state subsidy) has not been publicly named by either governance body. If it materializes in FY28 projections and we never acknowledged the risk, that's a governance failure.
 
 ---
 
 ## Agenda Implications
 
-No formal agenda has been published for the March 23 meeting. However, the structure of the budget deck is effectively the agenda: current FY27 proposal overview → personnel reductions → non-personnel reductions → elementary closure options → middle/high school reductions → decisions. Linda should prepare as if each section carries a potential ask for board direction.
+No formal agenda has been published for tonight's meeting. However, the inter-meeting slide deck effectively *is* the agenda, and its stated structure is clear enough to prepare specifically.
 
-**Current FY27 Proposal Overview**
-This section will re-establish the baseline. For Linda, the key is whether the deficit number has changed since February 10 — particularly whether the health insurance actualization or any mid-year spending has shifted the $7.2M figure up or down. Listen for any new assumptions baked in that weren't there a month ago. If the number has grown, the downstream cut math in every other section changes.
+**What is almost certainly happening tonight:**
 
-*Watch for:* Any revision to the structural deficit figure. Any acknowledgment that the late-March health insurance actuals are not yet incorporated.
+**1. Current FY27 proposal review — likely with updated figures**
+- *What this means for Linda*: This is the moment when the health insurance number either confirms or disrupts the framework. She should arrive having reviewed every cost driver line she can access in advance and should be prepared to ask explicitly whether the health insurance figure is now confirmed before the board proceeds.
+- *Listen for*: Whether Prince or the CFO explicitly states the health insurance figure is confirmed or still projected. Any hedging language here is a red flag.
+- *Questions to prepare*: "Is the health insurance cost in this proposal a confirmed figure or still a projection? If it is still projected, when will we have the confirmed number, and can we formally note in tonight's minutes that this decision is made on an unconfirmed cost driver?"
 
-*Prepare to ask:* "Are these projections based on the 12% health insurance estimate or the final figure? When will we have the actual number, and will we need to reconvene before April 7 if it materially changes the proposal?"
+**2. Personnel reduction presentation**
+- *What this means for Linda*: She needs to know which positions are being cut, in what sequence, and whether any are legally protected obligations (SPED, ELL, mandated ratios). She also needs to assess whether the total reduction number in the deck matches the 78-position framework or has been revised.
+- *Listen for*: Any change to the total position count. Any mention of SPED, pre-K, or mandated services in the cut list. Any sequencing language about when pink slips go out.
+- *Questions to prepare*: "Does legal counsel confirm that none of the positions in this list trigger a due-process or ADA/IDEA compliance risk? What is the timeline for issuing reduction-in-force notices relative to the June 9 referendum?"
 
-**Personnel Reductions**
-This is the section where Matthews' framing lives. The board needs to be able to speak precisely — not defensively — about what "78 positions" means, which positions, which cost centers, and how the cut decisions were made. If this section doesn't directly address the "72 pink slips" public narrative, Linda should treat that as a preparation gap before April 7.
+**3. Two elementary closure options**
+- *What this means for Linda*: This is the highest-stakes decision in tonight's workshop. The board formed a clear majority against Skillin on March 2, but no redistricting plan exists and implementation by September 2026 was already questioned. Tonight's options need to come with feasibility analysis, not just savings figures.
+- *Listen for*: Whether the administration has engaged legal counsel on redistricting timelines. Whether transportation cost modeling accompanies the closure options. Whether any board member reopens the Skillin question. Whether savings attributed to each option are net of transition and redistricting costs.
+- *Questions to prepare*: "What is the implementation timeline assumption embedded in these savings figures — specifically, when does redistricting need to be approved, and have we confirmed with legal and operations that September 2026 is achievable for either option?"
 
-*Watch for:* Whether the SPED and instructional support positions are identified separately. Whether the cut list has changed from the February 4 forum baseline. Whether administration is presenting a rationale for each cut category or just a list.
+**4. Middle and high school reductions**
+- *What this means for Linda*: These reductions have received less public attention than elementary reconfiguration, but they compound the validation narrative. She should understand what programs are being cut and whether any trigger collective bargaining obligations.
+- *Listen for*: Any mention of elective elimination, course sections, or extracurricular cuts that will generate parent backlash in time for the April 7 hearing. Any union notification requirements.
+- *Questions to prepare*: "Has administration notified the union of any mid-year or next-year reductions that require contractual notice periods? Are any of these reductions reversible if the referendum fails?"
 
-*Prepare to ask:* "What does this personnel reduction list look like relative to what was presented in February? And for the SPED positions — what's our compliance exposure as we add Pre-K caseload while cutting staff?"
-
-**Non-Personnel Reductions**
-This is where the $3M+ gap beyond the big three either gets resolved or doesn't. The non-personnel and central office cuts are politically harder to defend but fiscally necessary. If this section is thin — if it's supplies and travel rather than contracts and administrative overhead — the gap is still open.
-
-*Watch for:* Whether central office administrative positions appear in this section or have been shielded. Whether contract reductions (ed tech, consulting, etc.) are itemized. Whether the total of personnel + non-personnel + reconfiguration actually closes the gap.
-
-*Prepare to ask:* "When I add up everything in this deck, what is the total projected reduction against the $7.2M structural deficit? Are we presenting a complete picture to the public on April 7, or is there still unidentified reduction work?"
-
-**Elementary Closure Options**
-The two options being presented are almost certainly 1.3 and 1.6 (closing Kaler/Dyer or Small). The board already rejected 1.7 on equity grounds. What Linda needs from this section is not which option is better in the abstract, but whether either one can actually be implemented by September 2026, and whether the savings projections are net of transition costs.
-
-*Watch for:* Whether redistricting timelines and family notification obligations are attached to the options. Whether the demographic and walkability analysis that drove the equity rejection of 1.7 has been applied comparably to 1.3 and 1.6. Whether the savings figures are gross or net.
-
-*Prepare to ask:* "What is the redistricting timeline for the option we select, and can we legally and operationally complete it before the school year starts? And what are the transition costs we're netting out of these savings figures?"
-
-**Middle and High School Reductions**
-This section is likely to receive less public scrutiny than elementary — which is exactly why Linda should scrutinize it. Secondary cuts can affect course offerings, accreditation standards, and staffing ratios in ways that don't surface in a budget headline but create legal or educational exposure.
-
-*Watch for:* Any course eliminations that affect graduation requirements or college readiness metrics. Any coaching or co-curricular cuts that have been presented publicly as protected.
-
-**Decisions Expected**
-This is the section Linda should treat as the highest-stakes part of the meeting. The framing of what's being "decided" will shape what the board is on record for before April 7. Linda should resist any attempt to treat informal consensus as a decision, and should be equally resistant to leaving the meeting without enough clarity to prepare the board's public communication.
-
-*Prepare to ask, as a procedural matter:* "Before we move to public comment and the April 7 hearing, can we confirm what decisions we are making tonight — what's formal, what's directional, and what remains open — so we're all operating from the same record?"
+**5. Expected decisions**
+- *What this means for Linda*: The deck promises this section, which means the superintendent's office expects votes or formal direction tonight. Linda should know in advance what the decision-making threshold is: is this a straw poll, a formal vote, or a motion to proceed? The distinction matters enormously for the public record.
+- *Listen for*: Whether Chair DeAngelos frames any action as a formal vote vs. consensus direction. Whether the motion language for any closure decision is specific enough to bind the redistricting process or vague enough to kick that question to a future workshop.
+- *Questions to prepare*: "Before we vote on any closure option tonight, I want to confirm: does this vote initiate the formal redistricting process, and does the administration have a redistricting plan ready to present, or are we voting on a direction that still requires that plan to be developed?"
 
 ---
 
 ## Watch For
 
-**Decision framing language from the superintendent or chair.** If the meeting opens with "we're here to decide X," Linda needs to know whether that decision has been adequately staffed — meaning independent cost verification, redistricting feasibility confirmation, and compliance review. A premature formal decision is worse than a deferred one given the April 7 exposure.
+- **Whether the health insurance figure is stated as confirmed or projected.** This is the most important single data point in tonight's meeting. If it is still a projection and the board proceeds as if it were final, Linda should note that in the minutes and ask for a date certain for confirmation. If it comes in at 12%, no action needed. If it comes in above 12%, the entire budget math needs to be recalculated before April 7.
 
-**Health insurance actuals.** If someone in the room has the final figure and it hasn't been incorporated into the deck, that needs to surface before any vote is recorded. Watch for administration acknowledging this is still an estimate — or not acknowledging it, which is more concerning.
+- **Whether Prince or the CFO has updated the fund balance figure.** As of February 10, it was $739K with $850K budgeted for use — functionally zero, with a structural deficit risk. If any of the savings estimates tonight rely on fund balance drawdown to close the gap, Linda needs to ask explicitly whether the board is being asked to approve a plan that is structurally solvent.
 
-**Feller's posture during the personnel and non-personnel sections.** He broke publicly on the 6% ceiling. If he signals skepticism about the size of the cuts in the deck — suggesting they're too deep — or about the framing of positions eliminated, that's an early read on whether board cohesion holds through April 7.
+- **Whether the two closure options include net savings figures accounting for redistricting, transportation, and transition costs** — not just building closure savings. The March 2 presentation showed raw savings; Linda should not let implementation costs remain invisible in the record.
 
-**Whether the $3M+ gap is visibly closed.** Add the numbers in the deck yourself during the meeting. If the sum of all proposed reductions does not get to $7.2M, the gap is still open and Linda should name that fact explicitly before adjournment.
+- **Feller's posture tonight.** He publicly broke from the 6% ceiling in February. If he re-raises that question during tonight's decision discussion, it re-opens the board cohesion problem publicly, six weeks before the referendum. Watch whether he speaks to the tax ceiling or stays on substance.
 
-**Any reference to Matthews' "72 pink slips / $8.4M" framing.** If administration has prepared a direct factual response, note whether it's precise enough for public use. If no one addresses it, that's a preparation failure Linda should flag before April 7.
+- **Whether any board member attempts to reintroduce Skillin as an option.** Four members formed a clear majority against it on March 2. If that coalition shows any cracks tonight, it will register as indecision to anyone in the room tracking board dynamics — including local press.
 
-**The SPED reduction line, if it exists.** Given the Pre-K mandate expansion and recent SPED resignations, any further SPED staffing reductions in this deck represent a mandated-services compliance risk. Linda should not let this pass without a direct question about legal exposure.
+- **How the administration handles the $3M+ gap.** If tonight's proposal closes that gap, ask how. If it does not close it, ask when and with what mechanism. Do not let that number disappear into vague "additional operational efficiencies."
 
-**Whether a cumulative homeowner impact statement exists in the packet.** If the finance committee or administration has produced a unified school + sewer + bond impact table, Linda needs to review and endorse it before it circulates publicly. If it doesn't exist, someone will produce it before April 7 — and it may not reflect the board's preferred framing.
+- **Any mention of September 2026 implementation feasibility from administration staff.** If operations or facilities staff is present, watch whether they hedge on the timeline. Legal counsel's presence or absence also matters — redistricting is a legal process with community notice requirements.
 
-**September 2026 feasibility language.** If anyone says implementation is "on track" for September without a redistricting timeline attached, that statement should be challenged on the record. The board cannot defend an uncertain implementation date at the April 7 public hearing.
+- **Whether anyone on the board raises Matthews' "72 pink slips" framing** or the absence of a public-facing response to it. April 7 is fifteen days away. If no one raises communication strategy tonight, Linda should — even briefly. This is exactly the kind of narrative vacuum that validation opponents fill.
 
-**Tone from board members who have been quiet.** The public board fracture so far is Feller. But informal pre-meeting conversations may have shifted other members' positions. Quiet members who ask unusually pointed questions during this workshop may be signaling a coming break — or may be building a record for a later vote.
+- **Whether DeAngelos signals how she plans to manage public comment at the April 7 hearing.** Given the 12% adequacy figure and the compressed engagement timeline, the hearing format matters. Will it be open comment or structured testimony? Will translation services be available? This is Linda's wheelhouse and no one else in the room will track it with the same attention.
 
-**Whether DeAngelos references the April 7 hearing preparation directly.** If she signals what the administration intends to communicate publicly — and whether the board is expected to have a unified message — that's Linda's cue to either endorse that posture or shape it in the room rather than after the fact.
+- **Tone and confidence of the superintendent's presentation.** Prince has been credible but has also presented incomplete figures at prior workshops. If he hedges on numbers, costs, or timelines tonight, Linda should take note of exactly where the hedges are — those are the spots validation opponents will attack in June.

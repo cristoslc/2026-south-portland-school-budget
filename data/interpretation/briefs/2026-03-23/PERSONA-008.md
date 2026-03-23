@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-008"
 persona_name: "Rachel"
 upcoming_meeting_date: "2026-03-23"
-generated_date: "2026-03-21"
+generated_date: "2026-03-23"
 has_agenda: false
 last_cumulative_meeting: "2026-03-19"
 inter_meeting_evidence_count: 1
@@ -14,83 +14,69 @@ inter_meeting_evidence_count: 1
 
 ## Since Last Meeting
 
-The most significant development since March 19th is the emergence of the presentation deck for tonight's meeting. The title is plain: **FY27 Budget 3.23.26 Board Meeting**. The deck includes a section on **two elementary closure options** and, critically, a section on **decisions expected at the workshop**.
+The March 20th publication of the FY27 Budget slide deck for tonight's workshop is the most significant development since March 19th — and it carries direct, urgent implications for your situation.
 
-That last phrase is the alarm bell. Rachel has watched this administration frame every public session as informational right up until the moment a vote happens. "Decisions expected" in the slide deck is the clearest signal yet that tonight may not be another workshop in the deliberative sense — it may be the meeting where closure scenarios get narrowed or endorsed by the board before the April 7th public hearing.
+The deck confirms that the administration has **narrowed the field from nine scenarios to two elementary closure options**. That filtration happened between March 2nd and tonight, somewhere off the public record. You do not know what criteria drove that narrowing, which two schools are the remaining options, or whether the four board members who publicly opposed Skillin closure were consulted before the field was reduced. The slide deck description also indicates the workshop is expected to produce **decisions** — not just discussion. That makes tonight a materially higher-stakes event than a typical workshop.
 
-The other key development: the deficit figure revised upward to $8.4M at the March 19th council meeting. That's $1.2M more than the number used to justify the nine scenarios presented on March 2nd. A larger gap means either the existing scenarios don't pencil out the way the administration claimed, or the pressure is there to revisit scenarios the board appeared to close — including Skillin.
+The combination of these two facts — narrowed options plus decision expectations — means Rachel is walking into a meeting where the administration has pre-shaped the choice set and the board may be asked to endorse a direction before the April 7th public hearing. If that sequence holds, the public hearing becomes a ratification ritual rather than a genuine input window.
 
-Between March 2nd (nine scenarios) and tonight (two closure options), something filtered the field. Rachel does not know what that filter was or whether it happened in public. That gap in the record matters.
+The $8.4M deficit confirmed March 19th and Councilor Matthews's "just the first wave" language on the 72 pink slips are now the fiscal backdrop against which tonight's two remaining closure options will be presented. The administration will likely use both data points to frame the remaining choices as constrained and urgent.
 
 ---
 
 ## Open Questions
 
-- **Which two schools are on the closure list tonight?** The deck mentions two elementary closure options. Are they Kaler and Dyer? Kaler and Brown? Does one of them include Skillin despite the four board members who said no on March 2nd?
-
-- **What does "decisions expected at the workshop" actually mean?** Are they taking a formal vote tonight? Giving direction to staff? Endorsing a recommendation? I need to know before I walk in whether tonight is still a workshop or whether it's already the decision point.
-
-- **How did nine scenarios become two?** Who made that cut? Was there any public process between March 2nd and tonight, or did the administration just pick the two they wanted?
-
-- **Did the $8.4M deficit reopen the Skillin question?** The four board members said no to closing Skillin. But the gap is now bigger. Has anyone on the board quietly shifted since March 2nd? Is the HVAC cost being used to pressure them?
-
-- **Are the termination notices connected to specific buildings?** The 72 notices went out March 18th. If they're concentrated at certain schools, that tells me which buildings are being prepared for closure — even if no one says it out loud tonight.
-
-- **Has transportation been modeled yet?** As of March 2nd it hadn't. If they're presenting closure options without transportation analysis, how are they calculating actual savings? Are they about to make a decision with incomplete numbers?
-
-- **What's in the personnel and non-personnel reduction sections?** Those cuts happen whether or not a closure happens. How many of my kids' teachers, ed techs, and programs are gone regardless of what gets decided on the building question?
-
-- **Will the union get any time to speak?** The union president pointed out six weeks ago that central office staffing data still hadn't been provided. Has it been provided now? Is bargaining going to be a real constraint on timeline or is the administration treating it as a formality?
-
-- **Is this the last workshop before April 7th?** If March 23rd and March 30th are the only two workshops before the public hearing, and "decisions are expected" tonight, what is actually left for the public to weigh in on?
-
-- **Who specifically is driving the two-option shortlist?** The interim superintendent? DeAngelos? Is the board being presented options or choosing them?
+- **Which two schools are the remaining options?** Kaler, Dyer, Brown, Small, and Skillin were all named on March 2nd. The administration picked two — by what process and what criteria, and why weren't parents notified before tonight?
+- **What happened to the other seven scenarios?** Who made the call to narrow the field, and when? Was there a board vote, a staff recommendation, or did the superintendent's office just decide?
+- **Is Skillin one of the two?** Four board members said they opposed closing Skillin. Did the $3M HVAC need override that opposition before tonight's meeting even starts?
+- **What does "decisions expected at the workshop" actually mean?** Are they asking for a formal vote? A direction endorsement? A straw poll? And if the board gives direction tonight, how much does the April 7th public hearing actually change?
+- **Are the two options structured so one is clearly the "preferred" path?** The March 2nd presentation used an opt-out default framing — are tonight's two options presented the same way, with one pre-loaded as the recommendation?
+- **Where did those 72 pink slips land?** Are they concentrated in specific buildings — the ones that are now the two remaining closure options?
+- **Has anyone modeled what happens to the kids at the closed school?** Transportation, class sizes at the receiving school, what grades go where — none of this was resolved on March 2nd. Is it resolved tonight?
+- **Is the remaining $3M+ gap addressed by closure alone, or are there additional cuts on top of it?** The "big ideas" only covered about $4M of an $8.4M problem. What fills the rest, and is it on tonight's agenda?
+- **Will Feller and Richardson hold their opposition publicly, or has institutional pressure moved them since March 2nd?**
 
 ---
 
 ## Agenda Implications
 
-No formal agenda has been published for tonight's meeting. However, the presentation deck is available and it defines the meeting structure more concretely than a typical agenda would. Based on that deck and Rachel's cumulative understanding, here is what to expect and prepare for.
+No formal agenda has been published for tonight's meeting. Based on the slide deck description and Rachel's cumulative state, here is what is likely to come up and what to be prepared for.
 
-**The two elementary closure options are the centerpiece.** This is not a general budget presentation — the deck is organized around a specific decision set. Rachel should expect the administration to present two named scenarios (the names are not yet confirmed in available evidence) with a financial case for each. She should listen for:
-- Which schools are named, and whether Skillin is among them despite board opposition
-- What assumptions underlie the savings figures — particularly enrollment projections that may be partially ICE-suppressed
-- Whether transportation costs are modeled or still absent
-- Whether the "two options" framing is presented as a choice the board makes, or as a recommendation the board ratifies
+**The two elementary closure options will be the centerpiece of the meeting.** The administration will present the narrowed field and explain the recommendation logic. Rachel should listen for whether the criteria used to eliminate the other seven scenarios are made explicit and whether they are educational or purely fiscal. If the rationale is framed entirely around building costs, deferred maintenance (Skillin's HVAC), or enrollment-per-square-foot efficiency, that is the administration treating children as interchangeable units — and it should be named as such in public comment if one is available.
 
-**"Decisions expected" is not a neutral phrase.** Rachel should treat this meeting as a potential action meeting, not purely deliberative. She should be prepared for a motion, a vote, a direction to staff, or a formal endorsement of a recommendation — even if the room is framed as still in "workshop" mode. If the board moves to endorse or select a closure scenario tonight, the window for parent influence narrows dramatically before April 7th.
+**Watch for a board direction vote or endorsement motion.** Even if tonight is formally a "workshop," the slide deck describes decisions as expected. If the chair calls for a direction vote, that is the moment. Board members who expressed opposition on March 2nd need to be watched for whether they maintain, soften, or reverse their positions.
 
-**The personnel and non-personnel reduction sections matter even if the building question dominates the room.** The cuts to teachers, ed techs, and programs apply across the system regardless of which buildings stay open. Rachel should listen for whether the reduction numbers have changed since March 2nd given the $8.4M revised deficit, and whether any reduction is described as contingent on a closure happening (suggesting the closure scenarios are load-bearing for the rest of the budget).
+**Personnel and non-personnel reductions will also be presented.** Rachel should track whether the cuts are described at the building level or only district-wide. Building-level specificity signals which schools the administration is preparing to close. Vague, district-wide framing on cuts paired with specific closure options is a tell.
 
-**Middle and high school reductions are on the deck.** Rachel has been primarily focused on elementary, but middle and high school cuts affect families at every grade level. If the board tonight signals which level gets the deepest cuts, that is information about institutional priorities — and about which communities the administration is most willing to absorb opposition from.
+**Middle and high school reductions are on the slide deck.** This is not Rachel's primary focus, but she should listen for whether any high school or middle school reduction is described as contingent on the elementary closure proceeding — that would be the administration linking the two to make closure seem like the load-bearing piece of the whole budget solution.
 
-**Questions to prepare:**
-- "What criteria were used to narrow nine scenarios to two, and when and where did that process happen?"
-- "Has transportation been modeled for these two options? If not, how are the savings figures being calculated?"
-- "What is the decision being made tonight — direction to staff, a formal vote, or something else?"
-- "Are the 72 termination notices distributed proportionally across buildings, or concentrated in specific schools?"
-- "How does the revised $8.4M figure affect the savings projections presented on March 2nd?"
+**Questions Rachel should prepare:**
+- "Can you tell us specifically which two schools are being considered tonight and what criteria were used to eliminate the other seven?"
+- "When and how was the field narrowed from nine to two? Was the board involved in that decision, or was it a staff determination?"
+- "Has the district modeled transportation impacts, class sizes at receiving schools, and per-building program effects for both options?"
+- "What is the projected per-pupil cost at the receiving school after consolidation, and how does it compare to the current cost at the school being closed?"
+- "If the board endorses a direction tonight, what is the mechanism for community input between now and the April 7th hearing to actually change that direction?"
 
 ---
 
 ## Watch For
 
-- **The names of the two closure schools the moment they appear on screen.** Write them down. If Skillin is one of them, the four board members who said no on March 2nd are being directly tested tonight. Watch their faces and body language when those names land.
+- **Which two schools are named.** The moment those names appear on a slide or leave a board member's mouth, note the room's reaction — particularly from the four members who opposed Skillin closure on March 2nd.
 
-- **Whether the framing is "here are two options for the board to consider" vs. "here is our recommendation."** The opt-out framing the administration used on March 2nd — where the default is approval unless the board actively resists — may reappear. If the deck presents a "preferred scenario," treat that as a near-decision, not an opening bid.
+- **Whether Skillin is one of the two options despite stated board opposition.** If it is, watch how it's framed: the HVAC cost will almost certainly be used as the justification. Listen for whether any board member objects to that framing or whether the March 2nd opposition has quietly dissolved.
 
-- **Whether the $8.4M deficit is invoked to justify escalating past what the board agreed to on March 2nd.** If the administration says anything like "the updated numbers require us to revisit..." in connection with Skillin or a previously dismissed scenario, that's the lever Rachel identified being used in real time.
+- **The opt-out framing.** On March 2nd, the administration structured the presentation so the burden was on board members to actively stop the preferred plan. If tonight's two options are presented the same way — one recommended, one "alternative" — that is the same playbook. The recommendation is the default if no one pushes back hard enough.
 
-- **How DeAngelos manages the "decisions expected" moment.** If there is a motion or vote tonight, watch whether she moves it quickly, limits discussion, or uses procedural phrasing to narrow what's debatable. This is her established pattern.
+- **DeAngelos's procedural control of the meeting.** She ruled out a public referendum on February 9th in the same breath she called restructuring "fabulous." Watch whether she accelerates toward a direction vote tonight, limits discussion time, or steers away from dissenting board members before they can build momentum.
 
-- **Board members Feller and Richardson specifically.** They were identified as potential allies. Are they asking hard questions tonight? Are they visibly uncomfortable? Are they getting answers, or being managed? If either of them seems to be softening their position, that's a sign the organized opposition needs to escalate before March 30th.
+- **Feller and Richardson specifically.** These are Rachel's identified board allies. Watch their body language before they speak, whether they get recognized at all, and whether their questions are substantive or deferential. If they've shifted position since March 2nd, she needs to know before she counts on them at April 7th.
 
-- **Any mention of Skillin's HVAC cost in connection with the closure options.** If the $3M HVAC figure is cited tonight as a reason to reconsider a building the board appeared to protect, that's the scenario Rachel anticipated — and it should be called out immediately in public comment if the opportunity exists.
+- **Any mention of the April 7th public hearing and what it can actually change.** If a board member or the chair implies tonight's decision is essentially final with the public hearing as a formality, that needs to be stated on the public record and challenged.
 
-- **Whether the union president or any union representative is in the room and whether they speak.** The union's ability to slow the timeline through bargaining is one of Rachel's few structural leverage points. If they're absent, that's notable. If they raise the still-missing central office staffing data, that's a crack in the administration's credibility worth amplifying.
+- **The "decisions expected" language actualized.** If the board moves toward any vote, endorsement, or direction statement tonight — before the public has had a formal hearing — Rachel should be prepared to request that the motion be postponed until after April 7th and to state that reason explicitly in public comment.
 
-- **Whether public comment is permitted tonight and when.** If this is a workshop format with no formal public comment period, Rachel should have her remarks ready for any open window — or be prepared to speak at the March 30th meeting with whatever was decided tonight fresh in the record.
+- **Enrollment numbers used to justify the closure options.** If the administration presents enrollment projections as the primary driver, Rachel should be prepared to raise — either in the room or through a follow-up — that ICE enforcement is actively suppressing attendance and that projecting forward from a depressed enrollment baseline bakes in a federal enforcement effect as if it were demographic reality.
 
-- **How the savings numbers have changed since March 2nd.** If the two closure options presented tonight show different savings figures than what was shown on March 2nd — especially if they're smaller — the $8.4M deficit is not actually being closed by these options, and that gap needs to be named publicly.
+- **Whether the $8.4M figure is formally acknowledged tonight.** This number appeared in casual council conversation on March 19th but has not been formally presented in a school board session. If the administration presents a lower figure tonight, that discrepancy is a direct question.
 
-- **Any reference to the April 7th public hearing as the community's "opportunity to weigh in."** If board members or staff point to April 7th as the moment for community input after making substantive decisions tonight, that is a procedural shell game. The decision, in effect, will already have been made.
+- **What the pink slip distribution looks like building by building.** If the administration has data on where the 72 notices landed, that distribution is a proxy for which buildings they are preparing to close. Ask directly if it's not volunteered.

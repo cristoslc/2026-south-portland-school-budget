@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-002"
 persona_name: "David"
 upcoming_meeting_date: "2026-03-23"
-generated_date: "2026-03-21"
+generated_date: "2026-03-23"
 has_agenda: false
 last_cumulative_meeting: "2026-03-19"
 inter_meeting_evidence_count: 1
@@ -14,88 +14,76 @@ inter_meeting_evidence_count: 1
 
 ## Since Last Meeting
 
-**The March 23 budget workshop presentation has been circulated.** The Google Slides deck for tonight's meeting is the most significant inter-meeting development. Based on what's been described, it covers: the current FY27 proposal structure, personnel and non-personnel reductions, the two elementary closure options, middle and high school reductions, and the specific decisions the board is expected to reach at this workshop.
+The most significant development since March 19 is the existence of the March 23 budget workshop slide deck itself. The description confirms this is a decision-oriented presentation — not another information session — covering personnel reductions, non-personnel reductions, **two** elementary closure options, middle and high school reductions, and "decisions expected at the workshop." That last phrase matters: after weeks of modeling and scenario analysis, the board is apparently being asked to make or narrow choices tonight.
 
-**What this means for David:** This is the first time the full cut package — not just the reconfiguration scenarios — is being laid out together in a single presentation for board decision-making. The March 23 workshop is not a listening session. Decisions are expected. That changes the stakes considerably compared to the consultative sessions of February and early March.
+The framing of "two elementary closure options" is analytically significant for you. The March 2 nine-scenario analysis identified option 1.7 (close Skillin) as the financially strongest scenario, while option 1.2 (no reconfiguration) was conspicuously left unmodeled. If tonight presents exactly two closure options without a no-closure baseline, that pattern continues — the administration is controlling the choice set. You should know going in whether the options presented constitute a genuine menu or a constrained one.
 
-**The timing is notable for what it's missing.** Health insurance cost actuals aren't expected until March 25 — two days after this workshop. The board will be making or signaling significant personnel decisions before one of the largest non-salary cost variables is locked. David should flag this gap explicitly in his own tracking. If the presentation embeds a health insurance assumption, he needs to know what it is and whether the March 25 number could move it materially.
+Also still pending as of this meeting: health insurance actuals are not due until March 25 — two days from now. Any budget figures presented tonight are still carrying an estimate on one of the largest cost drivers. The board may be making directional decisions on numbers that will shift by the end of the week.
 
-**No new public information has surfaced on the open threads David has been carrying** — the combined tax burden analysis, transportation cost modeling for reconfiguration, Pre-K mandate funding, or the missing January 15 goals attachment. The absence of any of these being resolved before a decision-point workshop is itself a signal.
+No other inter-meeting evidence has surfaced since March 19. The absence of any council-side communication about the school budget in the lead-up to this workshop is itself a data point: the April 14 council workshop is three weeks out, and there is no visible coordination signal between the two bodies in this window.
 
 ---
 
 ## Open Questions
 
-David is carrying these into the meeting — phrased the way he'd actually think about them:
+Carrying into tonight's meeting:
 
-- **Where does the remaining $3M+ come from?** The three big ideas (reconfiguration ~$2M, MS/HS efficiency ~$1M, operations ~$1M) were never enough to close $8–9M. This presentation should show the full cut package. I want to see the complete list, not just the headline items.
+- **What exactly are the "two elementary closure options"?** Are both closure scenarios? Is one a modified no-closure option? If the no-reconfiguration path still hasn't been modeled with the same rigor as closure scenarios, I want to know that before any decision is made based on tonight's presentation.
 
-- **What health insurance number is baked into these projections?** The actuals land March 25. If the presentation locks in personnel numbers tonight, what assumption is underneath them — and is there a stated contingency if the March 25 number is materially higher?
+- **Where does the remaining $3M+ come from?** The three big ideas from the February 4 forum left a gap. Tonight's personnel and non-personnel reduction slides presumably address this — but I want to see the math close, not just a list of cuts without totals.
 
-- **Has the no-reconfiguration option (1.2) been modeled yet?** The March 2 analysis called it "more analysis needed." I'm not accepting a reconfiguration decision without seeing a real financial model for staying put, not a placeholder.
+- **Are the transportation costs finally quantified?** Any reconfiguration scenario requires redistricting elementary students, and we've had no actual cost figure on that through three workshop cycles. If tonight presents a closure option as financially viable without transportation costs included, the savings number is incomplete.
 
-- **What are the actual transportation costs?** $60K–$125K for consultancy is not a transportation cost model. Where are the route, driver, and operational cost estimates? If Skillin closure saves $19.6M over five years but adds $2M in annual transportation, that's a different calculation.
+- **Is the Pre-K mandate capacity cost built into any of these scenarios?** 80–90 additional four-year-olds by September 2026 is an unfunded obligation that reconfiguration planning should be accommodating — or explicitly excluding and explaining why.
 
-- **How does the Pre-K mandate factor into any closure option?** 80–90 four-year-olds by September 2026, another cohort the year after. Where do they go if we close or consolidate buildings? Who pays for it?
+- **What budget assumptions are still floating ahead of the March 25 health insurance actuals?** Health insurance moved from an 8% to a 12% estimate. If actuals come in higher, which line items absorb the difference? Has the administration flagged this contingency or is it being treated as settled?
 
-- **Where does Councilor Matthews' "$8.4M" number come from?** It matches nothing in my spreadsheet — not the structural gap, not the February 10 guidance range, not any scenario I've seen. I want to understand whether that's a different methodology or a different set of assumptions.
+- **Are the early retirement buyouts still a live savings mechanism?** The February 9 framing was 41 eligible staff, potential $1M from 20 buyouts. Has uptake materialized, or is that $1M still theoretical?
 
-- **Is the board being handed decisions tonight that are actually ripe for decision?** Or are the missing variables — health insurance, transportation, Pre-K — significant enough that a decision before March 25 is premature?
+- **Where does Councilor Matthews' "$8.4 million" deficit figure actually come from?** It matches no number in my own tracking and it's going to appear in the April 14 council workshop framing. I need the source before then.
 
-- **What does the combined household tax bill look like?** Mahoney ($70–76M, November 2027), existing bonds ($89.1M), Pearl Street ($51.68M revenue bond, doubling sewer bills), school structural gap ($8–9M, 61% falling on local property taxes. No one has put these on one page. Is anyone going to tonight?
-
-- **Did leadership know in December?** I still don't have an answer. Every crisis-management decision since then is partially opaque without it.
+- **What decisions is the board actually being asked to make tonight, and what gets locked in?** "Decisions expected at the workshop" is vague — I want to know whether any vote tonight constrains the April 7 public hearing or the council's options.
 
 ---
 
 ## Agenda Implications
 
-**No agenda is available.** However, the inter-meeting evidence — the circulated presentation deck — effectively telegraphs what the meeting will cover. This is a significant workshop, not a routine business meeting.
+No agenda is available for this meeting. Based on the slide deck description and the cumulative state, here is what you should be prepared for:
 
-**What's likely on the table:**
+**This is a decision-narrowing meeting, not an information meeting.** The presence of a formal deck with an expected-decisions section means the administration has structured tonight to produce an outcome — likely narrowing the elementary reconfiguration options before the April 7 public hearing. For you, this is the most analytically important meeting since the February 4 forum: whatever the board affirms or eliminates tonight will shape what the public hears three weeks from now.
 
-**Personnel reductions.** The deck explicitly includes personnel cuts. David should listen for:
-- How cuts are distributed across grade levels and programs — are they proportional, or are certain programs being protected without stated rationale?
-- Whether FTE reductions are specified with dollar amounts attached, or presented only as headcount
-- Whether any reductions are conditional on reconfiguration decisions (i.e., cuts that only land if a school closes)
+**The elementary closure options will be the center of gravity.** Four board members have publicly opposed closing Skillin. If both options presented tonight involve closure, watch whether the board pushes back on the choice set or accepts the framing. A board that accepts a closure-only menu without modeling the no-reconfiguration alternative has effectively made a decision before the public hearing. If a board member asks for option 1.2 to be modeled before any vote, that's the most analytically defensible move and you should note whether it's made and how administration responds.
 
-**Elementary closure options.** The two options are back on the table for a decision signal, if not a final vote. David should prepare for:
-- Whether Option 1.2 (no reconfiguration) appears with actual financial modeling or is still "more analysis needed"
-- Whether the $19.6M five-year savings for Skillin closure still holds, or whether the presentation updates the figure
-- Whether transportation costs and Pre-K mandate impacts have been added to any option's model — if not, the board is being asked to decide based on an incomplete cost picture
-- Any board member who votes to advance a closure option without transportation modeling should be asked, directly or through someone David trusts on the board, to explain what assumption they're making
+**Personnel reductions across middle and high school deserve scrutiny.** The three big ideas framing focused on elementary reconfiguration as the $2M structural play. Tonight's middle and high school reduction slides presumably contain the rest of the gap-closing math. You should be tracking whether the total of all presented reductions actually closes the $8–9M gap or whether there's still a residual that goes unaddressed.
 
-**Non-personnel reductions.** This is the area where David will want to verify that cuts add up. He should track:
-- Whether the totals across all categories — personnel and non-personnel — actually close the $8–9M gap, or whether the presentation leaves a remaining shortfall
-- Whether any category is flagged as uncertain (health insurance being the obvious one)
+**Prepare for the health insurance timing issue to be glossed over.** With actuals two days out, the board may proceed as if the 12% estimate is settled. If no one names that assumption explicitly, you should notice the silence.
 
-**Decisions expected.** The deck apparently specifies what decisions the board is expected to reach tonight. David should note:
-- Which decisions require information that isn't available yet (health insurance actuals, transportation costs)
-- Whether the board explicitly defers any items pending missing data, or proceeds anyway
-- Whether the stated decision scope matches what the board actually has in front of them
+**Questions to have ready:**
+- Do the savings figures in tonight's scenarios include transportation costs for redistricting, or are those still unmodeled?
+- What is the total gap-closing figure across all reductions presented tonight, and does it reach $8M or $9M?
+- Are the early retirement buyouts reflected in tonight's personnel reduction numbers, or are they additive?
+- When will the board receive health insurance actuals, and does tonight's decision-making assume those won't change the calculus?
 
 ---
 
 ## Watch For
 
-- **The health insurance line item.** Find it in the presentation. Whatever number they're using, write it down. When March 25 actuals arrive, you'll want to compare. If actuals are higher and no one revisits the personnel math, that's a governance failure in real time.
+- **Whether "two elementary closure options" means both options involve closing a school.** If the choice set excludes no-reconfiguration, the administration is still steering the analysis. Watch whether any board member names this gap and demands option 1.2 be modeled before a vote.
 
-- **Whether Option 1.2 gets a real financial model tonight.** If the no-reconfiguration alternative is still unmodeled when the board signals a direction on closures, the decision process is structurally compromised. Watch whether any board member names this gap before voting.
+- **The specific dollar figures attached to each closure option.** The March 2 analysis showed option 1.7 saving approximately $2M. If tonight's two options produce materially different savings figures, track which is larger and whether the board gravitates toward the financially weaker option for political reasons — that's the trade-off you expect to see obscured.
 
-- **How the total cut package adds up.** Bring your spreadsheet and a running total. If the presentation's aggregate savings don't reach $8M at minimum, note the shortfall and which categories are described as TBD.
+- **Whether transportation costs appear in any line item.** A savings figure that omits redistricting transportation costs is not a complete savings figure. Look for a transportation line in the non-personnel section; if it's absent, that's a question worth raising after the meeting with board members you know.
 
-- **Transportation cost methodology.** If closure options are presented without transportation cost estimates — not the $60–125K consultancy line, but actual operational cost modeling — watch whether any board member asks for it. If none do, that's a signal about who's doing the financial scrutiny.
+- **Feller's framing.** Feller broke from the 6% ceiling publicly on February 9 and has been the board member most willing to name uncomfortable numbers. If she provides a dissenting data frame tonight — especially on which option is financially strongest — her reasoning is worth tracking closely.
 
-- **Pre-K language.** Listen for any mention of how the 80–90 additional four-year-olds (September 2026 mandate) are accommodated under each scenario. If reconfiguration advances without this answered, the cost model is incomplete.
+- **Smith and Fowler's question quality.** These are the two board members whose analytical rigor you registered cautious optimism about in December. Tonight's decision context is the first real test of whether they press for complete modeling or accept the presented options.
 
-- **Tyler Smith and board members who have shown analytical independence.** Smith asked for spending-freeze impact data in January. Watch whether he presses on missing variables tonight — transportation costs, unmodeled scenarios, health insurance assumptions — before the board is asked to decide.
+- **Whether the expected decisions are framed as votes or "direction."** If the board gives "direction" rather than voting, that's a governance signal — it avoids a formal record while still narrowing options. Watch the procedural language.
 
-- **Any dollar figure you haven't seen before.** The presentation may introduce new estimates or revised savings projections. Cross-reference against the March 2 figures ($19.6M five-year Skillin savings, $3.2M annual for Option 1.7). If numbers have changed, they should be explained.
+- **Any mention of the $8.4M figure Matthews cited on March 19.** If that number appears in tonight's presentation without sourcing, you have confirmation it's being used as a working figure before its origin is established.
 
-- **Whether the board treats this as a decision meeting or a workshop.** The deck says decisions are expected. If the meeting ends with no decisions taken, note whether that's because missing data (health insurance, transportation) justified the delay — or whether it's another deferral without a stated reason.
+- **Whether health insurance cost uncertainty is acknowledged at all.** With actuals due in 48 hours, anyone presenting tonight's numbers as final without flagging that assumption is presenting incomplete information. Notice whether administration names this and whether the board accepts the framing.
 
-- **Feller's position on early retirement buyouts.** She broke from the 6% ceiling in February and proposed buyouts as a savings mechanism. Watch whether that line shows up in the non-personnel reductions — and if so, whether the 20-participant assumption is supported by any actual enrollment data from eligible staff.
+- **The tone of the reconfiguration opposition.** Four board members have opposed closing Skillin publicly. If that opposition tonight shifts from "we oppose this" to "we want the no-reconfiguration option modeled" — that's a governance move with real analytical teeth. If it stays at the level of sentiment without demanding data, the structural analysis gap persists.
 
-- **Who is absent and who is silent.** In a decision meeting, board members who don't speak on major cuts are making a choice. David trusts data over rhetoric — but silence from a member who has previously pushed back analytically is worth noting.
-
-- **Matthews' $8.4M figure and whether it gets reconciled.** If the presentation uses a different gap number than what any councilor has stated publicly, that discrepancy has not been explained. If the total cuts in tonight's package don't match the gap figure in the presentation, ask why.
+- **The gap between tonight's presented savings and $8–9M.** Add up every reduction figure presented. If the total falls short, watch whether anyone names the residual — or whether the meeting closes without a visible path to the full cut target.

@@ -3,43 +3,63 @@ schema_version: "1.0"
 persona_id: "PERSONA-004"
 persona_name: "Marcus"
 last_meeting_date: "2026-03-19"
-record_count: 19
-generated_date: "2026-03-20"
+record_count: 20
+generated_date: "2026-03-23"
 ---
 
 # Cumulative Summary: Marcus (PERSONA-004)
 
 ### Current Understanding
 
-Marcus is a South Portland teacher who has tracked the FY27 budget crisis from its earliest institutional signals in December 2025 through the issuance of 72 RIF notices on March 18, 2026. As of March 19, the crisis has moved from proposal to execution: the district is functionally insolvent — fund balance fully depleted, FY26 already in confirmed deficit across all scenarios, and a structural gap now described publicly as $8.4 million, exceeding even the $7.2 million figure he had been tracking since December. The 72 notices Councilor Matthews named on the council floor are explicitly "the first wave," with more anticipated.
+As of March 19, 2026, Marcus understands the South Portland school budget crisis as a multi-layered institutional failure that has moved from deliberation into execution. Seventy-two reduction-in-force notices were issued on March 18 — acknowledged on the council floor as "the first wave" — with the structural deficit now stated publicly as $8.4 million. The fund balance is fully depleted. FY26 is in deficit across all scenarios. The district must simultaneously begin serving 80–90 new special-education four-year-olds in September with no corresponding revenue.
 
-The structural causes are layered and mutually reinforcing. The state covers only 20% of its statutory 55% funding target. Six finance directors in five years produced repeat audit material weaknesses and legally non-compliant overspending, making the projections driving every decision institutionally compromised. The district hired 82 positions as enrollment fell by 300 — mostly ed techs and teachers serving documented ELL, special education, and behavioral health needs — and those hires are now being weaponized as justification for eliminating the same workforce. The city council set a 6% tax ceiling at the February 10 joint session that mathematically required deep cuts, while simultaneously advancing a $70–76 million Mahoney building renovation and a 30-year TIF at 170 Ocean that discounts new development tax revenue for a generation.
+Three compounding causes drive the crisis: the state covers only 20% of its statutory 55% obligation; the board set a 6% political tax ceiling that forces cuts rather than adequate funding; and the district added 82 positions while enrollment dropped 300 students — positions Marcus now understands were mostly classroom-facing educators and ed techs hired for documented needs (ELL, special education, behavioral health), but which the administration has weaponized as a scapegoating narrative. The financial infrastructure behind every projection has itself been found materially weak, with six finance directors in five years and legally non-compliant budget overspending on the public record.
 
-ICE enforcement has suppressed community participation throughout the crisis and now keeps students out of classrooms entirely. The budget calendar is locked: April 7 public hearing, May 5 council vote, June 9 referendum. Marcus understands the April 7 hearing as the last real intervention point before the referendum ratifies a demolition already underway.
+City government functions as a structural aggravator rather than a partner: TIF agreements have discounted school tax revenue for 30 years, an $87 million public safety bond is heading to a November referendum, sewer rate increases of approximately 22% annually begin in FY27, and the council's annual goal-setting session — held with the full crisis briefing in hand — produced an unreleased attachment. ICE enforcement has moved from suppressing community forum participation to emptying classroom seats. The budget calendar is locked: April 7 public hearing, April 14 workshop, May 5 council vote, June 9 referendum. Marcus believes April 7 is the last real intervention point before voters are asked to ratify a demolition job already underway.
 
 ---
 
 ### Timeline of Understanding Shifts
 
-1. **2025-12-01** — Four new board members and Chair DeAngelis were inaugurated with equity rhetoric and zero mention of the budget crisis already coiling underneath; looking back, the silence read not as ceremonial accommodation but as the opening note of a pattern that would repeat for three months.
-2. **2025-12-04** — Three days of routine business after inauguration confirmed that the council's silence on school finances was a deliberate operating posture, not a one-time exception; the Zoom public comment rejection built the first concrete barrier to the organized community voice that would later prove to be the only thing capable of moving the board.
-3. **2025-12-08** — The immediate spending freeze and $1.3M–$1.9M deficit arrived despite assurances the contract was fully budgeted, shattering Marcus's trust in the district's fiscal planning and making classroom impacts — copy paper, supplies, substitutes — an immediate personal reality.
-4. **2025-12-09** — The 170 Ocean TIF (50% property tax credit, 30 years) revealed the city as an active structural constraint on school revenue, not merely a passive bystander; the council's unanimous yes after Councilor West named every objection established the pattern Marcus would watch repeat for the next three months.
-5. **2025-12-10** — The board's $24,000+ superintendent search consultant approval — explicitly chosen for recommending that community members be excluded from candidate screening, during a crisis requiring 42 teacher cuts — reframed the budget crisis as a governance failure with deliberately broken priorities, not merely financial mismanagement.
-6. **2025-12-17** — The full scale crystallized for the first time: 42 teachers, 16 ed techs, only 2 administrators, revealing a disproportionate burden on frontline staff for leadership's failure to align staffing with enrollment and a state that covers 20% of what its own formula requires.
-7. **2026-01-06** — The February 10 joint workshop announcement revealed the council as actively engineering the tax ceiling through procedural machinery; the January 22 forum framed as "cost-saving measures" signaled political groundwork for cuts before most teachers even knew a fight was coming.
-8. **2026-01-12** — A unanimous board vote to explore elementary reconfiguration and the discovery that FY26 was already at 92% of funds expended at the halfway mark shifted the spending freeze from precaution to confirmed triage for a current year already underwater.
-9. **2026-01-13** — The $194M Mahoney City Center proposal made the city a direct fiscal competitor for the same finite voter goodwill Marcus needs to protect teaching positions, with a $900K rooftop garden as a pending political liability that will sit beside every FTE elimination list shared on social media.
-10. **2026-01-15** — The annual goal-setting session, held with the full crisis briefing distributed and 42 teacher names implicitly on the table, produced only an unreleased attachment; the council's silence is no longer a gap but a completed answer about what this body believes the crisis requires.
-11. **2026-01-20** — The January 22 budget forum was cancelled due to ICE raids in Red Bank; the threat to organized community voice shifted from institutional friction to the active displacement of the most vulnerable families — the same multilingual families Chair DeAngelis invoked in her inauguration address — while the council advanced housing streamlining without missing a beat.
-12. **2026-02-03** — The city auditor's repeat material weakness finding — 34 corrective journal entries, 6 finance directors in 5 years, legally non-compliant overspending — revealed that every projection driving decisions since December was produced by a structurally compromised financial infrastructure, not a basically functional accounting operation.
-13. **2026-02-04** — The administration's "three big ideas" still leave a $3M+ gap; the 6% ceiling was confirmed as a political number, not an educational one; and the staffing-enrollment data was being deployed to scapegoat teachers for hires the district itself approved to serve documented student needs.
-14. **2026-02-09** — All FY26 scenarios were confirmed to end in deficit; Chair DeAngelis's "fabulous" declaration on the reconfiguration vote made the outcome feel predetermined; the early retirement buyout was the first creative alternative to forced layoffs; and Feller's admission that the 6% ceiling might need to move was the most honest budget accounting Marcus had heard from any board member.
-15. **2026-02-10** — The joint session confirmed that the 82 added positions were mostly ed techs and teachers serving complex student needs, meaning proposed cuts specifically undo capacity for the most vulnerable students; six weeks of withheld central office staffing data pointed to deliberate concealment rather than administrative delay.
-16. **2026-02-17** — ICE enforcement moved from suppressing forum attendance to keeping students out of classrooms entirely, now visible in Marcus's own gradebook; the joint session produced no durable council attention shift; and the eviction moratorium's 4–2 failure set the stage for cascading housing instability in the same families.
-17. **2026-03-02** — The seniority-bumping revelation confirmed that any teacher anywhere in the district is vulnerable regardless of which building gets reconfigured; organized community resistance successfully blocked the administration's top two closure options, demonstrating that sustained pressure works even against a predetermined-feeling process.
-18. **2026-03-09** — The fund balance was confirmed fully depleted and 80–90 new pre-K special education students must be served in September with no new revenue; the crisis shifted from "severe but possibly manageable" to a controlled demolition of the public education infrastructure that brought families to South Portland.
-19. **2026-03-19** — 72 RIF notices were issued March 18 — with Councilor Matthews explicitly naming them "the first wave" and the deficit now described as $8.4 million — confirming the deliberation phase is over and converting what Marcus had been treating as a fight over proposals into a fight to reverse actions already taken, with the April 7 public hearing as the last meaningful door.
+1. **2025-12-01** — Four new school board members sworn in while no mention of the budget crisis appeared anywhere in the inauguration proceedings; the silence registers retroactively as the last moment of institutional innocence, with DeAngelis's teacher-centered inaugural address setting up a betrayal Marcus could not yet see.
+
+2. **2025-12-04** — The council conducted a full routine session three days after inauguration with zero school budget discussion, locking in the pattern as deliberate operating posture rather than ceremonial accommodation; the Zoom public comment rejection simultaneously closed doors to working teachers and parents.
+
+3. **2025-12-08** — An immediate non-personnel spending freeze and a $1.3M–$1.9M deficit were revealed despite prior assurances the contract was budgeted; Marcus felt personally betrayed and first understood his classroom was directly inside the crisis.
+
+4. **2025-12-09** — The TIF structure of the 170 Ocean development revealed that the city's own active decisions structurally constrain school tax revenue for 30 years; the council shifted in Marcus's understanding from passive bystander to active fiscal architect of the funding environment.
+
+5. **2025-12-10** — The board approved $24,000 in superintendent search consulting despite zero budget for it while cutting teacher positions, and specifically chose a firm that recommended excluding community from candidate screening; Marcus reframed the crisis from financial mismanagement to fundamental governance failure.
+
+6. **2025-12-17** — The scale of proposed cuts became concrete: 42 teachers, 16 ed techs, only 2 administrators — with the district having added 82 positions while enrollment dropped 300; the disproportionate burden on frontline educators deepened the sense of institutional betrayal.
+
+7. **2026-01-06** — The city manager's announcement of the February 10 joint workshop revealed that a "quiet" procedural meeting was actually the pivot where the 6% tax ceiling would originate; Marcus began treating every procedural announcement as a strategic alarm.
+
+8. **2026-01-12** — Board unanimously approved an elementary reconfiguration study while FY26 tracking showed 92% of funds expended at the midyear mark; Marcus shifted from treating the spending freeze as precautionary to understanding the current fiscal year is already failing.
+
+9. **2026-01-13** — The $194 million Mahoney City Center proposal — drawing from the same property tax base — revealed the city as a direct fiscal competitor for the voter goodwill Marcus needs to protect teacher positions, not merely a structural constraint; the $900,000 rooftop garden line item became a political image he could not unknow.
+
+10. **2026-01-15** — The council's annual goal-setting session, held with full crisis materials distributed, produced an unreleased attachment; the absence of any public commitment crystallized as a completed answer rather than a gap, and the 82-positions/300-enrollment framing was formally embedded in council planning documents.
+
+11. **2026-01-20** — The January 22 budget forum was cancelled because ICE raids in Red Bank made families too frightened to attend; the threat to organized community voice shifted from institutional friction to active displacement of the most vulnerable families from public life.
+
+12. **2026-02-03** — The city auditor documented a repeat material weakness, 34 corrective journal entries, $400,000 in misallocated grant funds, six finance directors in five years, and legally non-compliant budget overspending; Marcus recognized that all projections since December were produced by a structurally broken financial infrastructure.
+
+13. **2026-02-04** — The administration's three "big ideas" totaled roughly $4 million but left a $3 million+ gap unaddressed; Marcus recognized the 82-positions/300-enrollment data was being weaponized to scapegoat teachers for documented, needs-driven hires rather than acknowledged as a response to real student complexity.
+
+14. **2026-02-09** — All FY26 budget scenarios were confirmed in deficit; Chair DeAngelis declared reconfiguration "fabulous" and dismissed parent testimony, resolving any remaining doubt that the fix was predetermined; Feller's early retirement buyout proposal and the union's impact-bargaining leverage emerged as the only genuine alternatives.
+
+15. **2026-02-10** — The joint session confirmed council guidance ranging from 3% to 6%+ with one faction arguing taxpayers cannot afford any option; six weeks of administration stonewalling on the central office staffing breakdown shifted Marcus's interpretation from incompetence to deliberate concealment; the 82 positions were confirmed as mostly classroom-facing.
+
+16. **2026-02-17** — One week after the joint session, the 42 positions went unmentioned across five hours of council business; ICE enforcement was confirmed as moving from forum suppression to classroom attendance; the PFML half-percent pay reduction, the failed eviction moratorium, and the Councilor Scott recusal denial documented additional layers of professional and community erosion.
+
+17. **2026-03-02** — Nine reconfiguration models were presented without a department-by-department position breakdown; the finance director confirmed that seniority bumping means any teacher anywhere in the district is vulnerable regardless of which buildings are reconfigured; four board members rejected closing Skillin, demonstrating that organized community resistance can work.
+
+18. **2026-03-05** — The $87 million public safety bond, advancing to a November referendum, revealed the city is layering two distinct major capital asks on the same voter base across one calendar year, with the school gap now stated as $8 million and sewer rate increases adding a third compounding burden; the library director's testimony about 25 years of deferred needs landed as a mirror of educational erosion.
+
+19. **2026-03-09** — The fund balance was confirmed fully depleted, making the district functionally insolvent; the mandate to serve 80–90 new special-education students in September with no new revenue compounded the crisis; Marcus shifted from understanding the situation as severe to understanding it as a controlled demolition.
+
+20. **2026-03-19** — Seventy-two RIF notices issued the prior day were confirmed on the council floor as the first wave, with the deficit now cited as $8.4 million; the budget calendar was locked; the council spent the same evening in a substantive workshop on Mahoney square footage; Marcus shifted from treating the budget fight as a deliberation to understanding it as a rearguard action against decisions already executed.
 
 ---
 
@@ -47,51 +67,52 @@ ICE enforcement has suppressed community participation throughout the crisis and
 
 | What Changed | From | To | When |
 |---|---|---|---|
-| Council's December silence on school budget | Potentially ceremonially appropriate on inauguration night | Deliberate operating posture confirmed within three days of new term | 2025-12-04 |
-| Understanding of spending freeze impact | Vague fear about "cascading effects" on instruction | Concrete understanding: 42 teachers and 78 total positions targeted for elimination | 2025-12-17 |
-| Nature of the spending freeze | Short-term precaution for a contract-year deficit | Triage for a current fiscal year already in deficit | 2026-01-12 |
-| Root cause of budget crisis | Contract-planning failure / staffing-enrollment misalignment | Structural financial infrastructure failure: 6 finance directors in 5 years, repeat audit material weakness, legally non-compliant overspending | 2026-02-03 |
-| Reliability of fiscal projections | Numbers alarming but produced by a basically functional accounting operation | Institutionally compromised: built on a finance function the city auditor documented as materially weak for multiple consecutive years | 2026-02-03 |
-| Nature of the 82-position staffing growth | Purely a leadership oversight justifying cuts | Documented hires for real needs (ELL, special education, behavioral health) being weaponized to scapegoat teachers for district-approved decisions | 2026-02-04 |
-| FY26 fiscal status | "Tracking toward" a deficit | Confirmed deficit across all scenarios — current year already underwater | 2026-02-09 |
-| Composition of the 82 added positions | Ambiguous; possibly central office bloat | Confirmed mostly ed techs and teachers serving complex student needs — proposed cuts specifically undo capacity for vulnerable students | 2026-02-10 |
-| Overall severity of the crisis | Severe but potentially manageable with the right decisions | District functionally insolvent: fund balance depleted, no safety net, no resolution in sight | 2026-03-09 |
-| Status of 78-position cuts | Proposal under deliberation, subject to board decisions | 72 RIF notices already issued (March 18); explicitly "the first wave"; operative deficit is $8.4M, exceeding the $7.2M structural gap tracked since December | 2026-03-19 |
+| Root cause of shifting budget projections | Contract-planning failure (2025-12-08) and staffing-enrollment misalignment (2025-12-17) | Structural financial infrastructure failure: six finance directors in five years, repeat material weakness audit finding, legally non-compliant budget overspending | 2026-02-03 |
+| Reliability assumption underlying all fiscal projections | Projections, however alarming, reflected a basically functional accounting operation | All projections were produced by a finance function formally documented as non-compliant and materially weak for multiple consecutive years | 2026-02-03 |
+| Nature of the 82 positions added since 2017 | Ambiguous — possible administrative bloat or leadership oversight (2025-12-17, 2026-02-04) | Confirmed mostly classroom-facing ed techs and teachers hired to serve complex student needs (ELL, special ed, behavioral health) | 2026-02-10 |
+| Framing of staffing growth | A leadership oversight failure to align positions with enrollment (2025-12-17) | Needs-driven hires for documented student complexity, now being weaponized as justification for a workforce purge | 2026-02-04 |
+| FY26 fiscal status | "Tracking toward" deficit at 92% funds expended at midyear (2026-01-12) | Confirmed deficit across all scenarios — current year already underwater | 2026-02-09 |
+| Spending freeze framing | Short-term precautionary measure (2025-12-08) | Triage for a patient already in deficit — not a precaution but an emergency response | 2026-01-12 |
+| General understanding of position threat | Vague fear about cascading classroom effects (2025-12-08) | Concrete: 42 teachers, 16 ed techs, 2 administrators — and seniority bumping means any teacher in any building is vulnerable | 2025-12-17 → 2026-03-02 |
+| Overall crisis framing | Severe but potentially manageable budget crisis (all prior records) | District is functionally insolvent with no reserves, expanding obligations, and no resolution in sight | 2026-03-09 |
+| Operative scale of the workforce threat | 78 position eliminations as a proposal under deliberation (first established 2025-12-17, carried through 2026-03-09) | 72 RIF notices issued March 18 as the confirmed first wave; deliberation phase is over | 2026-03-19 |
+| Phase of the budget fight | Fight over proposals, with board still deliberating | Fight to reverse actions already taken; remaining intervention points are April 7 hearing and June 9 referendum | 2026-03-19 |
 
 ---
 
 ### Open Threads
 
-- Will the council's Zoom public comment rejection systematically exclude working teachers and parents from the remaining budget hearings at the moment organized community voice is most critical?
-- How could contract increases create a deficit if they were supposedly budgeted for — was this a planning lie, a forecasting failure, or something the audit findings now explain?
-- What specific day-to-day classroom impacts has the spending freeze produced on instruction, and how long can teachers absorb them out of pocket?
-- Will substitute coverage gaps force teachers to lose planning periods or absorb enlarged classes, and how does that compound the attrition pressure?
-- Can the ELO program function effectively and sustainably with only one staff member?
-- Will the new superintendent be hired with honest disclosure of the full fiscal context — $8.4M gap, depleted fund balance, 72 RIF notices issued — or will they be recruited into a crisis they don't fully understand until it is too late to decline?
-- Does the 30-year TIF discount on 170 Ocean represent a broader pattern in South Portland's development agreements that systematically limits the tax revenue available for school funding across multiple projects?
-- How can the board justify paying premium consultant fees to exclude community voices from the superintendent search while simultaneously eliminating 42 teaching positions?
-- Will the union be able to force meaningful engagement in the superintendent selection process despite the board's demonstrated preference to exclude stakeholders?
-- Will the state property tax relief task force produce any result that materially changes the school district's fiscal position before the FY27 budget is finalized?
-- Will elementary reconfiguration become a vehicle for cuts beyond the 78 positions already proposed, compounding the damage?
-- How many additional positions will be lost through non-backfilling of retirements and resignations on top of the 72 RIF notices already issued?
-- What is the cumulative tax ask — city bond plus required school budget increase plus sewer rate increases — that South Portland homeowners will face in 2026, and has any official body calculated the combined number?
-- Is there any scenario in which both the Mahoney city building project and a school budget sufficient to restore cut positions succeed, or is this a zero-sum competition for finite voter goodwill?
-- When the $900,000 rooftop garden line item becomes a social media story alongside the FTE elimination list, how does that reshape the political environment for the June 9 referendum?
-- Will the 82-positions/300-enrollment framing embedded in the council's goal-setting briefing become the dominant public narrative for the spring budget hearings, crowding out the harder story about state funding failure and documented service needs?
+- Will the Zoom public comment rejection systematically exclude working teachers and parents from the remaining budget hearings at the moment organized community voice is most critical?
+- How can contract increases have created a deficit when administrators previously assured the union the contract costs were budgeted?
+- What are the full day-to-day classroom impacts of the spending freeze across the remaining school year?
+- Will substitute coverage gaps force teachers to lose planning periods or absorb larger classes through the end of the year?
+- Can the ELO program function effectively with only one staff member?
+- Will the new superintendent be hired — or will they have been hired — with honest disclosure of the full fiscal context: the $8.4M gap, the depleted fund balance, and the 72-plus positions already cut?
+- Does the 30-year TIF discount on 170 Ocean represent a broader pattern in South Portland's development agreements that systematically limits the tax revenue available for school funding?
+- How can the board justify premium superintendent search consultant spending while eliminating teaching positions?
+- Will the union be able to force meaningful engagement in the superintendent selection process despite the board's expressed preference to exclude stakeholders?
+- Will the state property tax task force produce any relief that materially changes the school district's fiscal position before the FY27 budget is finalized?
+- Will elementary reconfiguration become a vehicle for even deeper teacher cuts beyond those already proposed?
+- How many positions will be lost through attrition (non-backfilling of retirements and resignations) on top of the 72-plus RIF notices already issued?
+- What is the full cumulative tax ask — school referendum increase, sewer rate hikes, and November public safety bond — that South Portland homeowners will face in 2026, and has any official body modeled the combined impact on referendum viability?
+- Is there any scenario in which both the city's capital programs and a school budget sufficient to restore cut positions succeed in 2026, or is this a zero-sum competition for finite voter goodwill?
+- When the $900,000 rooftop garden becomes a local news and social media story, how does that reshape the political environment for school budget advocacy heading into the June 9 referendum?
+- Will the 82-positions/300-enrollment framing embedded in the council's goal-setting materials become the dominant public narrative for the spring budget hearings, crowding out the harder story about state funding failure and documented service needs?
 - Did education stabilization or school funding advocacy appear among the council's annual goals — and is the answer permanently unknowable given the unreleased attachment?
-- Does the city's parallel institutional agenda — housing development streamlining, revolving business loan funds, Mahoney renovation advancement — represent a structural reallocation of civic bandwidth that leaves the school budget crisis without the sustained municipal attention it requires?
-- Given the repeat audit finding and legal non-compliance, how much confidence can the board — or the union — place in the fiscal projections being used to justify eliminating positions?
-- Will the new finance director's improvements produce materially different numbers in time to affect FY27 budget decisions, or does five years of institutional damage run too deep to correct this cycle?
-- What additional cuts beyond the three "big ideas" are still being withheld, given that those proposals left a $3M+ gap even before the deficit figure grew to $8.4M?
-- Will the early retirement buyout materialize as a real alternative to forced layoffs, and how many eligible staff would need to participate to materially reduce the RIF count?
-- Can union impact bargaining requirements slow or substantively reshape the reconfiguration timeline before September implementation?
-- Why has the administration withheld the central office staffing breakdown requested by the union for more than six weeks — and what does the data show?
-- Does the PFML Symetra plan's half-percent take-home reduction apply to teachers through their collective bargaining agreement, and has the union been formally consulted on mid-contract implementation?
-- With Councilor Scott confirmed eligible to vote on the school budget despite her spousal relationship to a district employee, what is the full council vote count math on the tax increase and position restoration scenarios — and who are the persuadable votes?
-- How many of the students currently absent due to ICE enforcement will experience housing instability in coming months as the eviction moratorium has failed and Project Home's emergency fund runs dry — and what will that demand on school support services look like in September?
-- How will the district serve 80–90 new four-year-old special education students beginning in September while simultaneously cutting 78 positions and operating with a depleted fund balance?
-- If 72 is the first wave, what criteria determined who received notices — which departments, seniority levels, and buildings — and how does this map against the seniority-bumping vulnerability confirmed on March 2?
-- With sewer rate increases of ~22% annually for three years landing on top of the school referendum ask, what is the combined household cost increase South Portland voters will absorb in FY27, and has any official body modeled the cumulative impact on referendum viability?
+- Does the city's parallel institutional agenda — housing development streamlining, revolving business loan funds, bond advancement, building workshops — represent a structural reallocation of civic bandwidth that leaves the school budget crisis without the sustained municipal attention it requires?
+- Given the repeat audit finding and legally non-compliant overspending, how much confidence can the board or the union place in the fiscal projections being used to justify position eliminations?
+- Will the new finance director's improvements produce materially different budget numbers in time to affect FY27 decisions, or does five years of institutional damage run too deep to correct this cycle?
+- What additional cuts beyond the three "big ideas" will ultimately be needed to close the full gap — and what does the second wave of RIF notices look like?
+- Will early retirement buyouts materialize as a real alternative to forced layoffs, and how many of the 41 eligible staff would participate?
+- Can union impact bargaining requirements slow or reshape the reconfiguration timeline before implementation?
+- Why has the administration withheld the central office staffing breakdown for more than six weeks after the union's formal request?
+- Does the PFML Symetra plan's half-percent take-home pay reduction apply to teachers through their collective bargaining agreement, and has the union been formally consulted?
+- With Councilor Scott confirmed eligible to vote on the school budget, what is the full council vote count math on tax increase and position restoration scenarios — and who are the persuadable votes?
+- How many of the students currently absent due to ICE enforcement will experience housing instability in the coming months as the eviction moratorium has failed and Project Home's emergency fund ran dry — and what will that demand on school support services look like in September?
+- Will the November public safety bond referendum draw voter fiscal energy away from the June 9 school referendum, or will the separate dates allow both to succeed?
+- Will the library's 25-years-of-deferred-needs narrative compete with or inadvertently reinforce the school budget advocacy framing in civic discourse leading into the June referendum?
+- How will the district serve 80–90 new special-education four-year-olds beginning in September while simultaneously eliminating 72-plus positions?
+- If 72 is the first wave, what criteria determined who received notices — which departments, seniority levels, buildings — and how does this map against the seniority-bumping district-wide vulnerability confirmed on March 2?
 - Is anyone on the city council prepared to affirmatively advocate for restoring school positions at the May 5 vote, or will the board face the referendum math alone?
 - What is the union's organized response plan for the April 7 public hearing and the period between now and the June 9 referendum?
 
@@ -99,14 +120,26 @@ ICE enforcement has suppressed community participation throughout the crisis and
 
 ### Resolved Threads
 
-- **Would Chair DeAngelis's teaching background translate into defense of teaching positions and educator voices in the budget process?** Resolved: she became the board's primary reconfiguration advocate, declared it "fabulous," and dismissed parent testimony as underestimating children's flexibility — the teacher credential did not protect teacher positions (resolved 2025-12-01, confirmed 2026-02-09 and 2026-03-02).
-- **Would the four newly sworn board members prove receptive to union and educator concerns during the budget crisis?** Resolved: outcomes mixed — Feller most responsive (admitted 6% ceiling unrealistic, proposed retirement buyouts); Smith engaged on spending freeze impacts; Richardson associated with "PTAs fill gaps" framing dismissive of teacher resource needs (resolved 2025-12-01, confirmed across 2026-01 through 2026-03).
-- **Does Order 109's budget request process affect the structural relationship between city council and the school board?** Partially resolved: council's TIF and development decisions operate as a separate, longer-term constraint on the school tax base — the relationship is structural but works through revenue limitation rather than direct budget authority (resolved 2025-12-09).
-- **Will the February 10 joint budget guidance workshop set the tax increase ceiling that drives the $7.2M gap?** Resolved: yes — the 6% ceiling announced at the February 10 joint session is the direct product of the council guidance process announced on January 6 (resolved 2026-01-06).
-- **Will the January 13 city capital agenda independently shape the tax environment for the school budget?** Partially resolved: the Mahoney workshop reveals the city's capital agenda is constraining the tax environment through a parallel track, independently of the joint session process (resolved 2026-01-13).
-- **Will the January 22nd citizen forum be dominated by anti-tax voices, and can the union organize sufficient presence to counter the "cost-saving measures" framing?** Resolved: the forum was postponed entirely due to ICE activity in Red Bank suppressing community participation — the organizing question became moot for that date (resolved 2026-01-20).
-- **Will the January 22nd citizen forum be replaced and community voices given a path back in?** Resolved: February 4 (in-person) and February 5 (virtual) forums were confirmed as rescheduled venues (resolved 2026-02-03).
-- **Will ICE raids suppress the participation of multilingual families and the most vulnerable community members at all remaining budget hearings?** Confirmed and expanded: as of February 17, suppression moved beyond forum attendance to student school attendance itself — families not leaving their homes, children missing instruction visible in Marcus's own gradebook (resolved 2026-02-17).
-- **Which specific departments and subject areas will lose positions?** Partially resolved: seniority bumping means cuts are district-wide and not building-specific — any teacher in any department or building is vulnerable regardless of reconfiguration model (resolved 2026-03-02).
-- **Will Mahoney's emergence as a publicly named consolidation option at a city council meeting prompt formal cross-body communication between the district and city?** Resolved in the negative: Mahoney reappeared at the March 19 meeting as a city building renovation project occupying a full council workshop hour, with no school district involvement or cross-body consolidation dialogue evident (resolved 2026-03-19).
-- **Is sustained community organizing enough to reshape the board's approach, or is the reconfiguration predetermined?** Partially resolved: the RIF notices confirm the administration has moved from deliberation to execution; the April 7 public hearing and June 9 referendum are now the remaining intervention points, not the workshop process (resolved 2026-03-19).
+- **Would Chair DeAngelis's own teaching background translate into defense of teaching positions and educator voices in the budget process?**: Resolved — she became the board's primary reconfiguration advocate, declared it "fabulous," dismissed parent testimony as underestimating children's flexibility; teacher credential did not protect teacher positions (resolved 2025-12-01, confirmed 2026-02-09 and 2026-03-02).
+
+- **Would the four newly sworn board members prove receptive to union and educator concerns during the unfolding budget crisis?**: Resolved — outcomes mixed: Feller most responsive (admitted 6% ceiling may be unrealistic, proposed retirement buyouts); Smith engaged on spending freeze classroom impacts; Richardson associated with "PTAs can fill the gaps" framing dismissive of teacher resource needs (resolved 2025-12-01, confirmed across multiple 2026-01 through 2026-03 records).
+
+- **Does Order 109's budget request process affect the structural relationship between city council and school board?**: Partially resolved (2025-12-09) — council's TIF and development decisions operate as a separate, longer-term constraint on the tax base available to schools; the relationship is structural but works through revenue limitation rather than direct budget authority.
+
+- **Will the February 10 joint budget guidance workshop set the tax increase ceiling that drives the $7.2M gap?**: Resolved (2026-01-06) — yes, the 6% ceiling locked in at the February 10 joint session is the direct product of the council guidance process announced on January 6.
+
+- **Did the January 22nd and February 10th sessions serve as the venues where the tax ceiling was locked in?**: Partially resolved (2026-01-13) — the city's own capital agenda is shaping the tax environment independently of the school board process; the ceiling is not only set by council guidance but consumed by a parallel municipal spending track.
+
+- **Will the January 22nd citizen forum be dominated by anti-tax voices, and can the union organize sufficient teacher and parent presence to counter the "cost-saving measures" framing?**: Resolved (2026-01-20) — the forum was postponed entirely due to ICE activity suppressing community participation; the organizing question became moot for that date, though the underlying vulnerability recurred at the February 4 rescheduled forum.
+
+- **Will the January 22nd community forum be replaced with rescheduled venues for public input?**: Resolved (2026-02-03) — February 4 (in-person) and February 5 (virtual) forums confirmed as the rescheduled venues.
+
+- **Will ICE raids suppress the participation of multilingual families and the most vulnerable community members at all remaining budget hearings?**: Resolved and expanded (2026-02-17) — confirmed; suppression moved beyond forum attendance to student school attendance itself, with children missing instruction and families not leaving their homes.
+
+- **Which specific departments and subject areas will lose positions?**: Partially resolved (2026-03-02) — seniority bumping means cuts are district-wide rather than building-specific; any teacher in any building or department is vulnerable regardless of which reconfiguration model is chosen.
+
+- **Will Mahoney's emergence as a publicly named consolidation option at a city council meeting prompt formal cross-body communication between the district and the city about building use?**: Resolved in the negative (2026-03-19) — Mahoney reappeared at the March 19 council meeting not as a school consolidation proposal but as a city building renovation project consuming a full workshop hour, with no school district involvement or formal cross-body dialogue evident.
+
+- **Will the city's Mahoney project evolve into a competing referendum splitting voter goodwill on the same June 9 ballot as the school budget?**: Resolved (2026-03-05) — the operative competing referendum is a November public safety bond, not Mahoney; the asks are on separate timelines, partially changing the zero-sum calculus, though the cumulative annual burden on the same homeowners remains the operative risk.
+
+- **Is sustained community organizing enough to reshape the board's approach, or is the reconfiguration predetermined?**: Partially resolved (2026-03-19) — the issuance of 72 RIF notices confirms the administration has moved from deliberation to execution; the April 7 public hearing and June 9 referendum are now the remaining intervention points; organizing can still affect referendum outcome but cannot unilaterally halt implementation.

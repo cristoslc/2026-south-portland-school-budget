@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.spbudget.track2</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/cristos/Documents/projects/south-portland-school-budget-FY27/scripts/track2-cron.sh</string>
+    </array>
+
+    <!-- Run 30 min after Track 1 GitHub Actions (8:30 AM and 8:30 PM ET) -->
+    <!-- UTC times: 12:30 and 00:30 (EDT) or 13:30 and 01:30 (EST) -->
+    <!-- Using 12:30 and 00:30 UTC to cover EDT; EST runs will just find nothing new -->
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict>
+            <key>Hour</key>
+            <integer>0</integer>
+            <key>Minute</key>
+            <integer>30</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>12</integer>
+            <key>Minute</key>
+            <integer>30</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>1</integer>
+            <key>Minute</key>
+            <integer>30</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>13</integer>
+            <key>Minute</key>
+            <integer>30</integer>
+        </dict>
+    </array>
+
+    <!-- Inherit user's full shell environment (needed for claude CLI auth) -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/cristos/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>HOME</key>
+        <string>/Users/cristos</string>
+    </dict>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/cristos/Documents/projects/south-portland-school-budget-FY27</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/cristos/Documents/projects/south-portland-school-budget-FY27/.local/logs/launchd-stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/cristos/Documents/projects/south-portland-school-budget-FY27/.local/logs/launchd-stderr.log</string>
+
+    <!-- Don't retry on failure — next scheduled run will pick up gaps -->
+</dict>
+</plist>

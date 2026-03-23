@@ -12,7 +12,7 @@ const briefings = defineCollection({
     upcoming_meeting_date: z.string().optional(),
     generated_date: z.string().optional(),
     has_agenda: z.boolean().optional(),
-    last_cumulative_meeting: z.string().optional(),
+    last_cumulative_meeting: z.string().nullable().optional(),
     inter_meeting_evidence_count: z.number().optional(),
   }),
 });

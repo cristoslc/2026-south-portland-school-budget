@@ -1,0 +1,56 @@
+trove: journalism-editorial-practices
+created: 2026-03-21
+refreshed: '2026-03-21'
+tags:
+- journalism
+- editorial-writing
+- opinion-writing
+- op-ed
+- column-writing
+- civic-journalism
+- news-ethics
+- persuasive-writing
+freshness-ttl:
+  web: 180d
+sources:
+- source-id: journalism-university-editorials
+  title: "A Comprehensive Guide to Crafting Impactful Editorials"
+  type: web
+  url: https://journalism.university/writing-and-editing-for-print-media/guide-crafting-impactful-editorials/
+  fetched: 2026-03-21
+  hash: aba34f9c0b638e680567f4538824a85ef3dc380ad08e237873fb11e867f6d21d
+  file: sources/journalism-university-editorials/journalism-university-editorials.md
+  highlights: []
+  selective: false
+- source-id: jerz-editorial-writing
+  title: "Editorials: How to Write Opinion Journalism"
+  type: web
+  url: https://jerz.setonhill.edu/writing/journalism1/writing-an-editorial-journalism-tips/
+  fetched: 2026-03-21
+  hash: be291ebce22809e603d5978902aa255afd1ea7d2ab8d9d0ef9bce3b9e6b8304f
+  file: sources/jerz-editorial-writing/jerz-editorial-writing.md
+  highlights: []
+  selective: false
+- source-id: elon-opinion-columns
+  title: "Writing Opinion Columns and Op-Eds: Techniques, Voice, and Audience"
+  type: web
+  url: https://www.elon.edu/u/writers-syndicate/writing-opinion-columns/
+  fetched: 2026-03-21
+  hash: 5d083665dab70f223f4faf7d4f52d5fc4931b673e38f9faccae40d5d8c75bd8c
+  file: sources/elon-opinion-columns/elon-opinion-columns.md
+  highlights: []
+  selective: false
+- source-id: api-civic-discourse
+  title: "How Local Opinion Journalism Serves Civic Discourse and Democracy"
+  type: web
+  url: https://americanpressinstitute.org/how-local-opinion-journalism-serves-civic-discourse-and-democracy/
+  fetched: 2026-03-21
+  hash: 92acc5e2b887a863d1bedb1b0487dc75adc1a51706a978279ecf71f5b2e8fd22
+  file: sources/api-civic-discourse/api-civic-discourse.md
+  highlights: []
+  selective: false
+history:
+- event: created
+  date: 2026-03-21
+  commit: "96388945a51acecef4026c0e9482ab5f4b62c168"
+  sources: 4

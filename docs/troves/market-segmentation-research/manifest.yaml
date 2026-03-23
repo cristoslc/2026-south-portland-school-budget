@@ -1,0 +1,56 @@
+trove: market-segmentation-research
+created: 2026-03-21
+refreshed: '2026-03-21'
+tags:
+- market-segmentation
+- market-research
+- audience-research
+- qualitative-research
+- quantitative-research
+- customer-segmentation
+- demographics
+- psychographics
+freshness-ttl:
+  web: 180d
+sources:
+- source-id: omnisend-market-segmentation
+  title: "Market Segmentation: Strategies, Types, and Best Practices for 2025"
+  type: web
+  url: https://www.omnisend.com/blog/market-segmentation/
+  fetched: 2026-03-21
+  hash: cfcb20fdd548c6ab1f34b2156767355d7d1687ffc1a99b88eee101868a329963
+  file: sources/omnisend-market-segmentation/omnisend-market-segmentation.md
+  highlights: []
+  selective: false
+- source-id: prelaunch-segmentation-analysis
+  title: "Market Segmentation Analysis: The Ultimate Guide"
+  type: web
+  url: https://prelaunch.com/blog/market-segmentation-analysis
+  fetched: 2026-03-21
+  hash: 417c3c8eb40282661d6346fbb48b121dc20c6ac3878ec820a2f4449271fb9fff
+  file: sources/prelaunch-segmentation-analysis/prelaunch-segmentation-analysis.md
+  highlights: []
+  selective: false
+- source-id: brandspeak-segmentation-research
+  title: "Market Segmentation Research Guide for 2025"
+  type: web
+  url: https://brandspeak.co.uk/blog/how-to-conduct-market-segmentation-research/
+  fetched: 2026-03-21
+  hash: 59b8525cede1196aaf6c7582f292591c2435ce25d2e4fa3183a4e184af3f1f89
+  file: sources/brandspeak-segmentation-research/brandspeak-segmentation-research.md
+  highlights: []
+  selective: false
+- source-id: driveresearch-qualitative-quantitative
+  title: "Qualitative vs. Quantitative Market Research: Methods and Best Practices"
+  type: web
+  url: https://www.driveresearch.com/market-research-company-blog/difference-between-qualitative-and-quantitative-market-research/
+  fetched: 2026-03-21
+  hash: 4244dd34eadf90db339c27d568463afe9fb76f167c91ff2fc2d5836301293bd6
+  file: sources/driveresearch-qualitative-quantitative/driveresearch-qualitative-quantitative.md
+  highlights: []
+  selective: false
+history:
+- event: created
+  date: 2026-03-21
+  commit: "96388945a51acecef4026c0e9482ab5f4b62c168"
+  sources: 4

@@ -1,0 +1,56 @@
+trove: voter-guides-nonpartisan
+created: 2026-03-21
+refreshed: '2026-03-21'
+tags:
+- voter-guide
+- nonpartisan
+- civic-education
+- ballot-measures
+- plain-language
+- public-information
+- league-of-women-voters
+- civic-design
+freshness-ttl:
+  web: 180d
+sources:
+- source-id: lwvmn-best-practices
+  title: "Voter Guide Best Practices — League of Women Voters Minnesota"
+  type: web
+  url: https://www.lwvmn.org/voter-guide-best-practices
+  fetched: 2026-03-21
+  hash: d8286b89d8414d17dcbe0f009ff5a8d97c93c45a211076d64b011479419fed76
+  file: sources/lwvmn-best-practices/lwvmn-best-practices.md
+  highlights: []
+  selective: false
+- source-id: civicdesign-plain-language
+  title: "Plain Language and Design for Voter Guides — Center for Civic Design"
+  type: web
+  url: https://civicdesign.org/voter-guides-tips-for-plain-language/
+  fetched: 2026-03-21
+  hash: d8b6843a1abb39d2f83434998456fb8c96502d4b1907f6d5b0ae93516eadbd4b
+  file: sources/civicdesign-plain-language/civicdesign-plain-language.md
+  highlights: []
+  selective: false
+- source-id: ballotpedia-voter-guides
+  title: "Voter Guides: Types, Sources, and Platforms"
+  type: web
+  url: https://ballotpedia.org/Voter_guides
+  fetched: 2026-03-21
+  hash: 2e072d0a2ed0e3aad5952de057646cda0c1ac4a5f929013c4d34ff74fed7d3ce
+  file: sources/ballotpedia-voter-guides/ballotpedia-voter-guides.md
+  highlights: []
+  selective: false
+- source-id: nonprofitvote-nonpartisan
+  title: "Nonpartisan Voter Guides: What Nonprofits Need to Know"
+  type: web
+  url: https://www.nonprofitvote.org/wp-content/uploads/2022/08/Voter-Guides.pdf
+  fetched: 2026-03-21
+  hash: 2d644b6f3285393b266f7ac1bc3ce292e7e478350a1ee3769eea87975b03638e
+  file: sources/nonprofitvote-nonpartisan/nonprofitvote-nonpartisan.md
+  highlights: []
+  selective: false
+history:
+- event: created
+  date: 2026-03-21
+  commit: "96388945a51acecef4026c0e9482ab5f4b62c168"
+  sources: 4

@@ -268,7 +268,7 @@ class TestSourceValidation:
     def test_source_optional_fields(self):
         """Optional source fields are preserved when present."""
         src = _minimal_source()
-        src["normalized_path"] = "docs/evidence-pools/school-board/transcript.md"
+        src["normalized_path"] = "docs/troves/school-board/transcript.md"
         src["evidence_pool"] = "school-board-budget-meetings"
         src["description"] = "Full meeting transcript"
         src["hash"] = "sha256:" + "a" * 64

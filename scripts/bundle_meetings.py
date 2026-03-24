@@ -35,7 +35,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
 # Evidence pool directories
-POOLS_DIR = PROJECT_ROOT / "docs" / "evidence-pools"
+POOLS_DIR = PROJECT_ROOT / "docs" / "troves"
 BUNDLES_DIR = PROJECT_ROOT / "data" / "interpretation" / "bundles"
 
 # Data directories
@@ -112,7 +112,7 @@ class PoolSource:
     def normalized_path(self):
         """Full relative path to normalized markdown in evidence pool."""
         if self.file:
-            pool_dir = f"docs/evidence-pools/{self.pool}"
+            pool_dir = f"docs/troves/{self.pool}"
             # file field may already include the pool prefix or be relative
             if self.file.startswith("sources/"):
                 return f"{pool_dir}/{self.file}"

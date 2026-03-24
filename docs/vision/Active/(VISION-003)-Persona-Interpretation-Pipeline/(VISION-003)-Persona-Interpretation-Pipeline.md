@@ -37,7 +37,7 @@ The deeper problem is temporal. The budget process is a story that unfolds meeti
 ## Existing Landscape
 
 - **Current briefings** (`dist/briefings/`) -- persona-specific but monolithic. They're authored at a point in time and don't decompose into reusable interpretive units.
-- **Evidence pool synthesis** (`docs/evidence-pools/*/synthesis.md`) -- thematic summaries of source material, but persona-agnostic. They describe what happened, not what it means to specific stakeholders.
+- **Evidence pool synthesis** (`docs/troves/*/synthesis.md`) -- thematic summaries of source material, but persona-agnostic. They describe what happened, not what it means to specific stakeholders.
 - **Persona definitions** (`docs/persona/`) -- rich profiles with goals, fears, information needs, and behavioral patterns. These are the interpretation lenses but aren't yet systematically applied to evidence.
 - **No existing tool** combines persona-driven interpretation with temporal folding across a series of public meetings.
 

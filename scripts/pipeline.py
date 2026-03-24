@@ -184,7 +184,7 @@ def normalize_file(filepath):
         log.warning("Cannot determine pool for %s — skipping normalization", filepath)
         return False
 
-    pool_dir = os.path.join(PROJECT_ROOT, "docs", "evidence-pools", pool_name)
+    pool_dir = os.path.join(PROJECT_ROOT, "docs", "troves", pool_name)
     if not os.path.exists(pool_dir):
         log.warning("Pool directory %s does not exist — skipping", pool_dir)
         return False
@@ -233,8 +233,8 @@ def normalize_file(filepath):
 
 
 def stage_changes():
-    """Stage all changes in data/ and docs/evidence-pools/ to the git index."""
-    cmd = ["git", "add", "data/", "docs/evidence-pools/", "scripts/connectors/"]
+    """Stage all changes in data/ and docs/troves/ to the git index."""
+    cmd = ["git", "add", "data/", "docs/troves/", "scripts/connectors/"]
     result = subprocess.run(cmd, capture_output=True, text=True, cwd=PROJECT_ROOT)
     if result.returncode == 0:
         log.info("Changes staged in git index")

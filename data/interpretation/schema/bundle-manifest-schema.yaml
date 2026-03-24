@@ -145,7 +145,7 @@ $defs:
         type: string
         description: >
           Relative path (from project root) to the normalized markdown
-          in docs/evidence-pools/. Optional — some sources may not yet
+          in docs/troves/. Optional — some sources may not yet
           be normalized.
 
       evidence_pool:

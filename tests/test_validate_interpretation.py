@@ -17,7 +17,7 @@ from scripts.validate_interpretation import validate_interpretation
 def _structured_point(
     *,
     fact: str = "Families heard that several staffing scenarios would change support levels next year.",
-    source_reference: str = "docs/evidence-pools/school-board-budget-meetings/sources/004-budget-workshop-1-2026-03-02.md#L12",
+    source_reference: str = "docs/troves/school-board-budget-meetings/sources/004-budget-workshop-1-2026-03-02.md#L12",
     emotional_valence: str = "negative",
     threat_level: int | str = 5,
     open_question: bool | str = True,

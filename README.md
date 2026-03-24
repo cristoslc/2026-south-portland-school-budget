@@ -43,9 +43,9 @@ The `docs/` folder contains the research artifacts behind the briefings.
 
 Primary source research, organized by topic. Each pool has a manifest, individual source notes, and a thematic synthesis.
 
-- **[FY27 Budget Documents](docs/evidence-pools/fy27-budget-documents/synthesis.md)** -- Meeting packets, presentations, and spreadsheets from the district (12 sources, Dec 2025 - Mar 2026)
-- **[School Board Budget Meetings](docs/evidence-pools/school-board-budget-meetings/synthesis.md)** -- Transcripts and analysis of board meetings where the budget was discussed (4 meetings, Jan - Mar 2026)
-- **[City Council Meetings 2026](docs/evidence-pools/city-council-meetings-2026/synthesis.md)** -- Council meeting transcripts covering budget-adjacent municipal context (7 meetings, Jan - Mar 2026)
+- **[FY27 Budget Documents](docs/troves/fy27-budget-documents/synthesis.md)** -- Meeting packets, presentations, and spreadsheets from the district (12 sources, Dec 2025 - Mar 2026)
+- **[School Board Budget Meetings](docs/troves/school-board-budget-meetings/synthesis.md)** -- Transcripts and analysis of board meetings where the budget was discussed (4 meetings, Jan - Mar 2026)
+- **[City Council Meetings 2026](docs/troves/city-council-meetings-2026/synthesis.md)** -- Council meeting transcripts covering budget-adjacent municipal context (7 meetings, Jan - Mar 2026)
 
 ### Personas
 

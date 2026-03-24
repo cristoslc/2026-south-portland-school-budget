@@ -32,7 +32,7 @@ def _write_yaml(path: Path, data: dict):
 
 def _setup_pool(tmp_path, sources):
     """Create an evidence pool manifest with given sources."""
-    pool_dir = tmp_path / "docs" / "evidence-pools" / "test-pool"
+    pool_dir = tmp_path / "docs" / "troves" / "test-pool"
     pool_dir.mkdir(parents=True)
     _write_yaml(pool_dir / "manifest.yaml", {
         "pool": "test-pool",
@@ -194,7 +194,7 @@ class TestCheckSourceCompleteness:
     def test_multiple_pools(self, tmp_path):
         """Sources from multiple evidence pools are all checked."""
         # Pool 1
-        pool1 = tmp_path / "docs" / "evidence-pools" / "pool-1"
+        pool1 = tmp_path / "docs" / "troves" / "pool-1"
         pool1.mkdir(parents=True)
         _write_yaml(pool1 / "manifest.yaml", {
             "pool": "pool-1",
@@ -202,7 +202,7 @@ class TestCheckSourceCompleteness:
         })
 
         # Pool 2
-        pool2 = tmp_path / "docs" / "evidence-pools" / "pool-2"
+        pool2 = tmp_path / "docs" / "troves" / "pool-2"
         pool2.mkdir(parents=True)
         _write_yaml(pool2 / "manifest.yaml", {
             "pool": "pool-2",

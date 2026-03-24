@@ -1,6 +1,6 @@
 trove: fy27-budget-documents
 created: 2026-03-09
-refreshed: '2026-03-13'
+refreshed: '2026-03-24'
 tags:
 - budget
 - fy27
@@ -37,8 +37,7 @@ sources:
   selective: false
 - source-id: 004-004-budget-workshop-1-agenda-2026-03-02
   type: document
-  path: 
-    data/school-board/budget-fy27/meetings/2026-03-02-budget-workshop-1/agenda.pdf
+  path: data/school-board/budget-fy27/meetings/2026-03-02-budget-workshop-1/agenda.pdf
   fetched: 2026-03-09 00:00:00+00:00
   title: FY27 Budget Workshop I Agenda, March 2, 2026
   hash: ca019bc72ab2979de0077bfb9364452ec12ff22b63f3fc9f4b20d9678eccf28b
@@ -46,8 +45,7 @@ sources:
   selective: false
 - source-id: 005-005-workshop-slides-2025-12-17
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2025-12-17-workshop-slides.pdf
+  path: data/school-board/budget-fy27/presentations/2025-12-17-workshop-slides.pdf
   fetched: 2026-03-09 00:00:00+00:00
   title: FY27 Budget Workshop Slides - December 17, 2025
   hash: bbce387a35e1535fb29d2a87287efa1ffeadd9ec454b6c7105469bcaf84ac52e
@@ -55,8 +53,7 @@ sources:
   selective: false
 - source-id: 006-006-regular-meeting-slides-2026-01-12
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2026-01-12-regular-meeting-slides.pdf
+  path: data/school-board/budget-fy27/presentations/2026-01-12-regular-meeting-slides.pdf
   fetched: 2026-03-09 00:00:00+00:00
   title: Board of Education Regular Meeting Slides - January 12, 2026
   hash: b1193a6ca6c1af6885df5553df0e04a3d08b99f5416aa669b83b3f52cc05d669
@@ -64,8 +61,7 @@ sources:
   selective: false
 - source-id: 007-007-budget-forum-slides-2026-02-04
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2026-02-04-budget-forum-slides.pdf
+  path: data/school-board/budget-fy27/presentations/2026-02-04-budget-forum-slides.pdf
   fetched: 2026-03-09 00:00:00+00:00
   title: FY27 Budget Forum Slides - February 4-5, 2026
   hash: 20c509c57364ef0ecbb24da0f04970c0516c05aaa99932d1a27574ed69c9c938
@@ -73,8 +69,7 @@ sources:
   selective: false
 - source-id: 8-008-regular-meeting-slides-2026-02-09
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2026-02-09-regular-meeting-slides.pdf
+  path: data/school-board/budget-fy27/presentations/2026-02-09-regular-meeting-slides.pdf
   fetched: 2026-03-09 00:00:00+00:00
   title: Board of Education Regular Meeting Slides - February 9, 2026
   hash: a7024b03c80990505ba860f1bb7b86dfc7285247d7137c3af4e29c4a3a56e1dc
@@ -82,8 +77,7 @@ sources:
   selective: false
 - source-id: 9-009-council-board-discussion-2026-02-10
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2026-02-10-council-board-discussion.pdf
+  path: data/school-board/budget-fy27/presentations/2026-02-10-council-board-discussion.pdf
   fetched: 2026-03-09 00:00:00+00:00
   title: City Council and Board Budget Discussion - February 10, 2026
   hash: 4d5e36b0cf563e9321e686d09f820cf6037a7b1bacc7669f428ed6d74c9db5e8
@@ -91,8 +85,7 @@ sources:
   selective: false
 - source-id: 010-010-workshop-slides-2026-03-02
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2026-03-02-workshop-slides.pdf
+  path: data/school-board/budget-fy27/presentations/2026-03-02-workshop-slides.pdf
   fetched: 2026-03-09 00:00:00+00:00
   title: FY27 Budget Workshop I Slides - March 2, 2026
   hash: 0774a76687f8b79e6028beaf5beda7ba1179a2174384df1d6e4069e748d99537
@@ -100,8 +93,7 @@ sources:
   selective: false
 - source-id: 011-011-budget-presentation-2026-03-09
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2026-03-09-budget-presentation.pdf
+  path: data/school-board/budget-fy27/presentations/2026-03-09-budget-presentation.pdf
   fetched: 2026-03-09 00:00:00+00:00
   title: FY27 Superintendent Budget Presentation - March 9, 2026
   hash: 54d0c3df3c471d6180e550135ce9febbb35f1ad6af5e439ae70fdfa80cc30990
@@ -109,11 +101,10 @@ sources:
   selective: false
 - source-id: 012-012-models-and-matrix-2026-03-02
   type: document
-  path: 
-    data/school-board/budget-fy27/documents/2026-03-02-models-and-matrix.xlsx
+  path: data/school-board/budget-fy27/documents/2026-03-02-models-and-matrix.xlsx
   fetched: 2026-03-09 00:00:00+00:00
-  title: Elementary School Reconfiguration Models and Evaluation Matrix - March 
-    2, 2026
+  title: Elementary School Reconfiguration Models and Evaluation Matrix - March 2,
+    2026
   hash: fa763e55671dfb640dcec1f644adbc73ab3797e4dcb065afd683e0a8c84493be
   highlights: []
   selective: false
@@ -144,8 +135,7 @@ sources:
 - source-id: '016'
   title: Agenda
   type: document
-  path: 
-    data/school-board/budget-fy27/meetings/2026-03-02-budget-workshop-1/agenda.pdf
+  path: data/school-board/budget-fy27/meetings/2026-03-02-budget-workshop-1/agenda.pdf
   hash: 603436265efdb1a08724609d81ce84dbcaa58344e81fc8472ed6179e1922e5de
   file: sources/016-agenda-2026-south.md
   highlights: []
@@ -161,8 +151,7 @@ sources:
 - source-id: 018
   title: 2025 12 17 Workshop Slides
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2025-12-17-workshop-slides.pdf
+  path: data/school-board/budget-fy27/presentations/2025-12-17-workshop-slides.pdf
   hash: 268fbffabba0c1c0834d0d2190585a1c479bc7c381357ab5e08c73e279845e9a
   file: sources/018-2025-12-17-workshop-slides-2026-south.md
   highlights: []
@@ -170,8 +159,7 @@ sources:
 - source-id: 019
   title: 2026 01 12 Regular Meeting Slides
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2026-01-12-regular-meeting-slides.pdf
+  path: data/school-board/budget-fy27/presentations/2026-01-12-regular-meeting-slides.pdf
   hash: 5be49d45c2f80620763c96659c7ab4243e1befcf377a1a8694165a9cbc001453
   file: sources/019-2026-01-12-regular-meeting-slides-2026-south.md
   highlights: []
@@ -179,8 +167,7 @@ sources:
 - source-id: '020'
   title: 2026 02 04 Budget Forum Slides
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2026-02-04-budget-forum-slides.pdf
+  path: data/school-board/budget-fy27/presentations/2026-02-04-budget-forum-slides.pdf
   hash: 0813b591bfacb791badb24603ac1041c6091f5aed96d57880702d0b3487970f9
   file: sources/020-2026-02-04-budget-forum-slides-2026-south.md
   highlights: []
@@ -188,8 +175,7 @@ sources:
 - source-id: '021'
   title: 2026 02 09 Regular Meeting Slides
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2026-02-09-regular-meeting-slides.pdf
+  path: data/school-board/budget-fy27/presentations/2026-02-09-regular-meeting-slides.pdf
   hash: 469ed7a7be460b750e5cc20d76e63b5313999ca677389cff83dc437681682b5a
   file: sources/021-2026-02-09-regular-meeting-slides-2026-south.md
   highlights: []
@@ -197,8 +183,7 @@ sources:
 - source-id: '022'
   title: 2026 02 10 Council Board Discussion
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2026-02-10-council-board-discussion.pdf
+  path: data/school-board/budget-fy27/presentations/2026-02-10-council-board-discussion.pdf
   hash: b707e93b1a5a0f8b678da05698d2233ba0963d2dfa52680c243622aabfa5f24f
   file: sources/022-2026-02-10-council-board-discussion-2026-south.md
   highlights: []
@@ -206,8 +191,7 @@ sources:
 - source-id: '023'
   title: 2026 03 02 Workshop Slides
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2026-03-02-workshop-slides.pdf
+  path: data/school-board/budget-fy27/presentations/2026-03-02-workshop-slides.pdf
   hash: 142a2b36585292b8c84b6ad03cd6dfff69bd0d1e6afd6a572023e1a14dc26052
   file: sources/023-2026-03-02-workshop-slides-2026-south.md
   highlights: []
@@ -215,8 +199,7 @@ sources:
 - source-id: '024'
   title: 2026 03 09 Budget Presentation
   type: document
-  path: 
-    data/school-board/budget-fy27/presentations/2026-03-09-budget-presentation.pdf
+  path: data/school-board/budget-fy27/presentations/2026-03-09-budget-presentation.pdf
   hash: f02afdf364026be65158bdf7517d6735021b932df93d6380b10eaeaf91c841c5
   file: sources/024-2026-03-09-budget-presentation-2026-south.md
   highlights: []
@@ -224,8 +207,7 @@ sources:
 - source-id: '025'
   title: Budget Models and Cost Matrix
   type: spreadsheet
-  path: 
-    data/school-board/budget-fy27/documents/2026-03-02-models-and-matrix.xlsx
+  path: data/school-board/budget-fy27/documents/2026-03-02-models-and-matrix.xlsx
   hash: 82715073464a832d76db54f7e37521ef0699769fa154d8817d0489341827ef9f
   file: sources/025-budget-models-and-cost-matrix-2026-03-02.md
   highlights: []
@@ -246,3 +228,105 @@ sources:
   file: sources/027-edit.md
   highlights: []
   selective: false
+- source-id: 028
+  title: 12.17.25 Workshop Agenda
+  type: document
+  path: data/school-board/budget-fy27/documents/12.17.25-Workshop-Agenda.pdf
+  hash: sha256:dbef24b50de6adf789d2553f84afc885f6c8676c288b48456215d9cf93a3455c
+  file: sources/028-12-17-25-workshop-agenda.md
+- source-id: 029
+  title: 2026 03 02 Models And Matrix
+  type: spreadsheet
+  path: data/school-board/budget-fy27/documents/2026-03-02-models-and-matrix.xlsx
+  hash: sha256:82715073464a832d76db54f7e37521ef0699769fa154d8817d0489341827ef9f
+  file: sources/029-2026-03-02-models-and-matrix-2026-03-02.md
+- source-id: '030'
+  title: 3.2.25 Budget Workshop I Agenda
+  type: document
+  path: data/school-board/budget-fy27/documents/3.2.25-Budget-Workshop-I-Agenda.pdf
+  hash: sha256:603436265efdb1a08724609d81ce84dbcaa58344e81fc8472ed6179e1922e5de
+  file: sources/030-3-2-25-budget-workshop-i-agenda.md
+- source-id: '031'
+  title: Board Slides 1.12.26
+  type: document
+  path: data/school-board/budget-fy27/documents/Board-Slides-1.12.26.pdf
+  hash: sha256:5be49d45c2f80620763c96659c7ab4243e1befcf377a1a8694165a9cbc001453
+  file: sources/031-board-slides-1-12-26.md
+- source-id: '032'
+  title: Board Slides 2.9.26
+  type: document
+  path: data/school-board/budget-fy27/documents/Board-Slides-2.9.26.pdf
+  hash: sha256:469ed7a7be460b750e5cc20d76e63b5313999ca677389cff83dc437681682b5a
+  file: sources/032-board-slides-2-9-26.md
+- source-id: '033'
+  title: Es Models For Board Public
+  type: spreadsheet
+  path: data/school-board/budget-fy27/documents/ES-Models-for-Board-Public.xlsx
+  hash: sha256:2b57e32db3dc1953ca9160db96b4b3eb4bbe2a08577e02eb379cf3fcaf8ef574
+  file: sources/033-es-models-for-board-public.md
+- source-id: '034'
+  title: Fy27 Budget 2.10.26 City Council
+  type: document
+  path: data/school-board/budget-fy27/documents/FY27-Budget-2.10.26-City-Council.pdf
+  hash: sha256:b707e93b1a5a0f8b678da05698d2233ba0963d2dfa52680c243622aabfa5f24f
+  file: sources/034-fy27-budget-2-10-26-city-council.md
+- source-id: '035'
+  title: Fy27 Budget 3.2.26 Board Workshop
+  type: document
+  path: data/school-board/budget-fy27/documents/FY27-Budget-3.2.26-Board-Workshop.pdf
+  hash: sha256:142a2b36585292b8c84b6ad03cd6dfff69bd0d1e6afd6a572023e1a14dc26052
+  file: sources/035-fy27-budget-3-2-26-board-workshop.md
+- source-id: '036'
+  title: Fy27 Budget 3.23.26 Board Meeting
+  type: document
+  path: data/school-board/budget-fy27/documents/FY27-Budget-3.23.26-Board-Meeting.pdf
+  hash: sha256:b8ee72786e77094539c3b5646fc3e89dac3e7ed5a85f7dbea6f3346537d163e3
+  file: sources/036-fy27-budget-3-23-26-board-meeting.md
+- source-id: '037'
+  title: Fy27 Budget 3.9.26 Board Meeting
+  type: document
+  path: data/school-board/budget-fy27/documents/FY27-Budget-3.9.26-Board-Meeting.pdf
+  hash: sha256:807e6e7167e8302ef33c42b0c8500959dd52d7594635fcf003c4100aa67f060f
+  file: sources/037-fy27-budget-3-9-26-board-meeting.md
+- source-id: 038
+  title: Fy27 Spsd Budget Forum Feb 4 And 5
+  type: document
+  path: data/school-board/budget-fy27/documents/FY27-SPSD-Budget-Forum-Feb-4-and-5.pdf
+  hash: sha256:0813b591bfacb791badb24603ac1041c6091f5aed96d57880702d0b3487970f9
+  file: sources/038-fy27-spsd-budget-forum-feb-4-and-5.md
+- source-id: 039
+  title: Fy27 Spsd Budget Workshop 12 17 25
+  type: document
+  path: data/school-board/budget-fy27/documents/FY27-SPSD-Budget-Workshop-12-17-25.pdf
+  hash: sha256:268fbffabba0c1c0834d0d2190585a1c479bc7c381357ab5e08c73e279845e9a
+  file: sources/039-fy27-spsd-budget-workshop-12-17-25.md
+- source-id: '040'
+  title: Fy27Budgetbook 3.23.26
+  type: document
+  path: data/school-board/budget-fy27/documents/FY27BudgetBook-3.23.26.pdf
+  hash: sha256:a77912b5f8880ec791283f1c697b814d7cc2421761dca30417f18101edb09506
+  file: sources/040-fy27budgetbook-3-23-26.md
+- source-id: '041'
+  title: February 2026 Board Meeting Packet   Revised
+  type: document
+  path: data/school-board/budget-fy27/documents/February-2026-Board-Meeting-Packet---Revised.pdf
+  hash: sha256:f13a3bc30bcb60798d38e2b278cb402d0c3e9776d0faf304b7c419375221133e
+  file: sources/041-february-2026-board-meeting-packet-revised.md
+- source-id: '042'
+  title: March 2026 Board Meeting Packet   Revised
+  type: document
+  path: data/school-board/budget-fy27/documents/March-2026-Board-Meeting-Packet---Revised.pdf
+  hash: sha256:f74651b1e511fea0e59ab040f9b40a9bc5483228c04aa98c472a7f3cdf6b7477
+  file: sources/042-march-2026-board-meeting-packet-revised.md
+- source-id: '043'
+  title: Middle School Athletics Fall
+  type: document
+  path: data/school-board/budget-fy27/documents/Middle-School-Athletics-Fall.pdf
+  hash: sha256:2bed84e9189a6a06c7a4f21d9b7b2ebdd7abb2ca6f837ade6d8e498973d0af11
+  file: sources/043-middle-school-athletics-fall.md
+- source-id: '044'
+  title: Revised January 2026 Board Meeting Packet
+  type: document
+  path: data/school-board/budget-fy27/documents/REVISED-January-2026-Board-Meeting-Packet.pdf
+  hash: sha256:06d6210782f681dc6adb5c38ef595fc6b28ae055d713fa7088187a442e3cb24a
+  file: sources/044-revised-january-2026-board-meeting-packet.md

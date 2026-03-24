@@ -29,7 +29,7 @@ class CompletenessReport:
 
 def _collect_pool_source_paths(project_root: Path) -> set[str]:
     """Collect all source paths from evidence pool manifests."""
-    pools_dir = project_root / "docs" / "evidence-pools"
+    pools_dir = project_root / "docs" / "troves"
     if not pools_dir.exists():
         return set()
 

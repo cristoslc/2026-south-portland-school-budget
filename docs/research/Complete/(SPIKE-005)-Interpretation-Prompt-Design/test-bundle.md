@@ -19,22 +19,22 @@
 | Source | Path | Notes |
 |--------|------|-------|
 | Meeting transcript (VTT) | `data/school-board/meetings/2026-03-02-budget-workshop-1/transcript.en-x-autogen.vtt` | Auto-generated captions, ~17,800 lines. No speaker attribution. Proper noun errors likely. |
-| Source digest (evidence pool) | `docs/evidence-pools/school-board-budget-meetings/sources/004-budget-workshop-1-2026-03-02.md` | Timestamped, cleaned transcript with paragraph groupings. |
+| Source digest (evidence pool) | `docs/troves/school-board-budget-meetings/sources/004-budget-workshop-1-2026-03-02.md` | Timestamped, cleaned transcript with paragraph groupings. |
 
 ### Supporting Budget Documents
 
 | Source | Path | Relevance |
 |--------|------|-----------|
-| Workshop slides digest | `docs/evidence-pools/fy27-budget-documents/sources/010-workshop-slides-2026-03-02.md` | Presentation slides referenced during the meeting |
-| Reconfiguration models & matrix | `docs/evidence-pools/fy27-budget-documents/sources/012-models-and-matrix-2026-03-02.md` | Nine elementary reconfiguration options with scoring matrix |
-| Budget forum slides (Feb 4) | `docs/evidence-pools/fy27-budget-documents/sources/007-budget-forum-slides-2026-02-04.md` | Background context on the $7.2M gap and "big ideas" |
+| Workshop slides digest | `docs/troves/fy27-budget-documents/sources/010-workshop-slides-2026-03-02.md` | Presentation slides referenced during the meeting |
+| Reconfiguration models & matrix | `docs/troves/fy27-budget-documents/sources/012-models-and-matrix-2026-03-02.md` | Nine elementary reconfiguration options with scoring matrix |
+| Budget forum slides (Feb 4) | `docs/troves/fy27-budget-documents/sources/007-budget-forum-slides-2026-02-04.md` | Background context on the $7.2M gap and "big ideas" |
 
 ### Synthesis Documents
 
 | Source | Path | Relevance |
 |--------|------|-----------|
-| School board meetings synthesis | `docs/evidence-pools/school-board-budget-meetings/synthesis.md` | Cross-meeting thematic analysis covering Jan 12 -- Mar 2 |
-| FY27 budget documents synthesis | `docs/evidence-pools/fy27-budget-documents/synthesis.md` | Fiscal context: $7.2M gap, 78 position cuts, reconfiguration options |
+| School board meetings synthesis | `docs/troves/school-board-budget-meetings/synthesis.md` | Cross-meeting thematic analysis covering Jan 12 -- Mar 2 |
+| FY27 budget documents synthesis | `docs/troves/fy27-budget-documents/synthesis.md` | Fiscal context: $7.2M gap, 78 position cuts, reconfiguration options |
 
 ## Personas Selected for Testing
 

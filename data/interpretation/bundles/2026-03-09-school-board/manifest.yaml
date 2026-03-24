@@ -10,7 +10,7 @@ sources:
     source_type: packet
     title: "Packet"
     path: data/school-board/budget-fy27/meetings/2026-03-09-regular/packet.pdf
-    normalized_path: docs/evidence-pools/fy27-budget-documents/sources/017-packet-2026-south.md
+    normalized_path: docs/troves/fy27-budget-documents/sources/017-packet-2026-south.md
     evidence_pool: fy27-budget-documents
     hash: "sha256:f74651b1e511fea0e59ab040f9b40a9bc5483228c04aa98c472a7f3cdf6b7477"
 

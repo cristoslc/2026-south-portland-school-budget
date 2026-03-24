@@ -10,7 +10,7 @@ sources:
     source_type: transcript
     title: "School Board Regular Meeting — January 12, 2026"
     path: data/school-board/meetings/2026-01-12/transcript.en-x-autogen.vtt
-    normalized_path: docs/evidence-pools/school-board-budget-meetings/sources/001-regular-meeting-2026-01-12.md
+    normalized_path: docs/troves/school-board-budget-meetings/sources/001-regular-meeting-2026-01-12.md
     evidence_pool: school-board-budget-meetings
     hash: "sha256:4c96e47cc44caff3c4212ced5d5a8540f285c4546690d01e8aed15d408b0c4b5"
     duration: "02:00:36"

@@ -4,7 +4,7 @@
 import os
 
 BASE_DIR = "/Users/cristos/Documents/projects/2026-south-portland-school-budget"
-SOURCES_DIR = os.path.join(BASE_DIR, "docs/evidence-pools/city-council-meetings-2026/sources")
+SOURCES_DIR = os.path.join(BASE_DIR, "docs/troves/city-council-meetings-2026/sources")
 
 KEY_POINTS = {
     "001-council-meeting-2026-01-06.md": """

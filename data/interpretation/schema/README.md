@@ -50,7 +50,7 @@ Every bundle directory contains exactly one file: `manifest.yaml`.
 
 Source paths in `manifest.yaml` are **relative to the project root**, not
 relative to the bundle directory. This matches the convention used by
-evidence pool manifests in `docs/evidence-pools/`.
+evidence pool manifests in `docs/troves/`.
 
 ### Path fields
 
@@ -59,7 +59,7 @@ Each source entry has two path fields:
 - **`path`** (required) — path to the raw source file in `data/`
   (e.g., `data/school-board/meetings/2026-03-02-budget-workshop-1/transcript.en-x-autogen.vtt`)
 - **`normalized_path`** (optional) — path to the normalized markdown in
-  `docs/evidence-pools/` (e.g., `docs/evidence-pools/school-board-budget-meetings/sources/004-budget-workshop-1-2026-03-02.md`)
+  `docs/troves/` (e.g., `docs/troves/school-board-budget-meetings/sources/004-budget-workshop-1-2026-03-02.md`)
 
 Sources reference existing files; bundles do not copy or symlink data.
 

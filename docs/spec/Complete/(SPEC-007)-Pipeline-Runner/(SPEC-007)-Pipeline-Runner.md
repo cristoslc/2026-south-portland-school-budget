@@ -37,7 +37,7 @@ Source connectors (EPIC-001) download raw files and normalizers (EPIC-002) conve
 - `scripts/pipeline.py run --connector vimeo` — run only one connector
 
 **Output:**
-- New/updated files in `data/` (from connectors) and `docs/evidence-pools/*/sources/` (from normalizers)
+- New/updated files in `data/` (from connectors) and `docs/troves/*/sources/` (from normalizers)
 - Staged git changes (unstaged by default; `--stage` flag adds to git index)
 - Summary report to stdout: what was downloaded, normalized, and staged
 - Exit code 0 on success, 1 on partial failure (some connectors failed), 2 on total failure
@@ -73,7 +73,7 @@ Source connectors (EPIC-001) download raw files and normalizers (EPIC-002) conve
 | AC2: One failure doesn't block others | Error isolation per connector with try/except and continue | Pass |
 | AC3: No new content exits cleanly | All files exist → "No new content" message, exit 0 | Pass |
 | AC4: --check-only dry run | Connectors invoked with --check-only, no downloads, no normalization | Pass |
-| AC5: --stage adds to git index | stage_changes() runs `git add data/ docs/evidence-pools/` | Pass |
+| AC5: --stage adds to git index | stage_changes() runs `git add data/ docs/troves/` | Pass |
 | AC6: --connector filters | `--connector vimeo` runs only vimeo connector | Pass |
 
 ## Scope & Constraints

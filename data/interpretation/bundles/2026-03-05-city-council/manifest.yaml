@@ -16,7 +16,7 @@ sources:
     source_type: transcript
     title: "City Council Regular Meeting — March 5, 2026 (Transcript)"
     path: data/city-council/meetings/2026-03-05/transcript.en-x-autogen.vtt
-    normalized_path: docs/evidence-pools/city-council-meetings-2026/sources/007-council-meeting-2026-03-05.md
+    normalized_path: docs/troves/city-council-meetings-2026/sources/007-council-meeting-2026-03-05.md
     evidence_pool: city-council-meetings-2026
     description: "Auto-generated Vimeo captions. May contain transcription errors."
     hash: "sha256:da654e25c713261e634bc161a2d994cc168fe8842a98e5e146a944342cae65a3"
@@ -26,6 +26,6 @@ sources:
     source_type: agenda
     title: "City Council Agenda — March 5, 2026"
     path: data/city-council/meetings/2026-03-05/agenda.txt
-    normalized_path: docs/evidence-pools/city-council-meetings-2026/sources/015-council-agenda-2026-03-05.md
+    normalized_path: docs/troves/city-council-meetings-2026/sources/015-council-agenda-2026-03-05.md
     evidence_pool: city-council-meetings-2026
     description: "Meeting agenda retrieved via Diligent connector."

@@ -12,7 +12,7 @@ sources:
     source_type: agenda
     title: "City Council Agenda — 2026-03-19"
     path: data/city-council/meetings/2026-03-19/agenda.txt
-    normalized_path: docs/evidence-pools/city-council-meetings-2026/sources/020-city-council-agenda-2026-03-19-2026-03-19.md
+    normalized_path: docs/troves/city-council-meetings-2026/sources/020-city-council-agenda-2026-03-19-2026-03-19.md
     evidence_pool: city-council-meetings-2026
     hash: "sha256:4b47882538edf8ee3f7753684014a8ef785d122bae79953202a1665a7114ad9e"
 

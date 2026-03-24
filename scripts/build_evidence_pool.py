@@ -11,7 +11,7 @@ import subprocess
 import sys
 
 BASE_DIR = "/Users/cristos/Documents/projects/2026-south-portland-school-budget"
-POOL_DIR = os.path.join(BASE_DIR, "docs/evidence-pools/city-council-meetings-2026")
+POOL_DIR = os.path.join(BASE_DIR, "docs/troves/city-council-meetings-2026")
 SOURCES_DIR = os.path.join(POOL_DIR, "sources")
 DATA_DIR = os.path.join(BASE_DIR, "data/city-council/meetings")
 PARSER_SCRIPT = os.path.join(BASE_DIR, "scripts/parse_vtt.py")

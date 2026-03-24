@@ -232,7 +232,7 @@ class TestResolveSourcePaths:
                 "source_type": "transcript",
                 "title": "Transcript",
                 "path": "data/raw/transcript.vtt",
-                "normalized_path": "docs/evidence-pools/transcript.md",
+                "normalized_path": "docs/troves/transcript.md",
             }],
         })
         errors = resolve_source_paths(bundle, project_root=tmp_path)

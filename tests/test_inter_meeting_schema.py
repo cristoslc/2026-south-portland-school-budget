@@ -215,9 +215,9 @@ class TestEntryOptionalFields:
 
     def test_normalized_path_preserved(self):
         data = _minimal_entry()
-        data["normalized_path"] = "docs/evidence-pools/news/article.md"
+        data["normalized_path"] = "docs/troves/news/article.md"
         entry = InterMeetingEntry.from_dict(data)
-        assert entry.normalized_path == "docs/evidence-pools/news/article.md"
+        assert entry.normalized_path == "docs/troves/news/article.md"
 
     def test_optional_fields_default_none(self):
         entry = InterMeetingEntry.from_dict(_minimal_entry())

@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2025-12-01-city-council"
 persona_id: "PERSONA-012"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2025-12-01
 meeting_title: "City Council Regular Meeting -- December 1, 2025"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-012)
+# Interpretation: Kira (PERSONA-012)
 ## Meeting: City Council Regular Meeting -- December 1, 2025 -- 2025-12-01
 
 ### Structured Points
@@ -67,17 +67,17 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: New board, old silence
+    title Kira's journey: New board, old silence
     section City council ceremony
-        Tipton invokes middle school precedent: 4: Sheanna
+        Tipton invokes middle school precedent: 4: Kira
     section School board inauguration opens
-        Multilingual families take the mic: 5: Sheanna
-        Jean Tam's daughter is at Kaler: 4: Sheanna
+        Multilingual families take the mic: 5: Kira
+        Jean Tam's daughter is at Kaler: 4: Kira
     section New board seated
-        Four unknowns sworn in unanimously: 3: Sheanna
-        DeAngelos on equity and belonging: 4: Sheanna
+        Four unknowns sworn in unanimously: 3: Kira
+        DeAngelos on equity and belonging: 4: Kira
     section Meeting closes
-        Budget never mentioned, gavel drops: 2: Sheanna
+        Budget never mentioned, gavel drops: 2: Kira
 ```
 
 ### Reactions

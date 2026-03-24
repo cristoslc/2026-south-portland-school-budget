@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2025-12-04-city-council"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2025-12-04
 meeting_title: "City Council Regular Meeting -- December 4, 2025"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: City Council Regular Meeting -- December 4, 2025 -- 2025-12-04
 
 ### Structured Points
@@ -60,16 +60,16 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: Equity signals in a routine council night
+    title Kira's journey: Equity signals in a routine council night
     section Public comment & early votes
-        Somali solidarity words from public: 5: Sheanna
-        Affordable housing density passes: 4: Sheanna
+        Somali solidarity words from public: 5: Kira
+        Affordable housing density passes: 4: Kira
     section Committee budget debate
-        HRC equity funding raised, partially protected: 3: Sheanna
-        Budget tightness warning issued: 2: Sheanna
+        HRC equity funding raised, partially protected: 3: Kira
+        Budget tightness warning issued: 2: Kira
     section Rules and participation
-        Zoom public comment: no path forward: 1: Sheanna
-        Participation gap named, no solution found: 3: Sheanna
+        Zoom public comment: no path forward: 1: Kira
+        Participation gap named, no solution found: 3: Kira
 ```
 
 ### Reactions

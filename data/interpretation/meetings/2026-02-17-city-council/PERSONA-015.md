@@ -2,19 +2,19 @@
 schema_version: "1.0"
 meeting_id: "2026-02-17-city-council"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2026-02-17
 meeting_title: "City Council Regular Meeting -- February 17, 2026"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: City Council Regular Meeting -- February 17, 2026 -- 2026-02-17
 
 ### Structured Points
 
-#### 1. ICE Fear Is Emptying Sheanna's Classrooms
+#### 1. ICE Fear Is Emptying Kira's Classrooms
 - **Fact:** Multiple community members testified during Citizen Discussion that immigrant families had been keeping children home from school out of fear of ICE. Julia Edwards noted that her white 6-year-old son was asking why classmates still weren't at school. Carolyn Nihon described young people potentially dropping out entirely. Zenya Pantos, who works in early intervention, described a high-needs toddler family that had been sheltering in place for over a week — and noted they were working with South Portland schools for support.
 - **Source:** Transcript [00:14:07--00:25:01; 01:46:11--01:47:33]
 - **Emotional valence:** negative
@@ -76,15 +76,15 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: Fear, failed vote, school crossover
+    title Kira's journey: Fear, failed vote, school crossover
     section Immigration Testimony
-        Families describe hiding from ICE: 2: Sheanna
-        Community aid workers bear witness: 3: Sheanna
+        Families describe hiding from ICE: 2: Kira
+        Community aid workers bear witness: 3: Kira
     section Eviction Moratorium
-        Moratorium debate, vote approaching: 3: Sheanna
-        First reading fails 4 to 2: 1: Sheanna
+        Moratorium debate, vote approaching: 3: Kira
+        First reading fails 4 to 2: 1: Kira
     section Late Night Mahoney
-        School campus idea floated publicly: 4: Sheanna
+        School campus idea floated publicly: 4: Kira
 ```
 
 ---

@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2025-12-10-school-board"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2025-12-10
 meeting_title: "School Board Workshop -- December 10, 2025"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: School Board Workshop -- December 10, 2025 -- 2025-12-10
 
 ### Structured Points
@@ -69,16 +69,16 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: Selecting the superintendent search firm
+    title Kira's journey: Selecting the superintendent search firm
     section Search firm presentations
-        MSMA: Maine-centric process, no equity tools: 2: Sheanna
-        Board presses diversity at every firm: 3: Sheanna
+        MSMA: Maine-centric process, no equity tools: 2: Kira
+        Board presses diversity at every firm: 3: Kira
     section Zeal makes its case
-        Zeal commits to going to communities: 4: Sheanna
-        Melendez names immigrant family fear aloud: 5: Sheanna
+        Zeal commits to going to communities: 4: Kira
+        Melendez names immigrant family fear aloud: 5: Kira
     section Board deliberates and votes
-        Chair notes the room is completely empty: 2: Sheanna
-        Board votes 4-2 for Zeal: 3: Sheanna
+        Chair notes the room is completely empty: 2: Kira
+        Board votes 4-2 for Zeal: 3: Kira
 ```
 
 ---

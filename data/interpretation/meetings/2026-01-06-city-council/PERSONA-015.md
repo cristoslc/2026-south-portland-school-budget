@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2026-01-06-city-council"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2026-01-06
 meeting_title: "City Council Regular Meeting -- January 6, 2026"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: City Council Regular Meeting -- January 6, 2026 -- 2026-01-06
 
 ---
@@ -56,7 +56,7 @@ interpreter_model: "claude-sonnet-4-6"
 - **Source:** Transcript [44:25–56:06]
 - **Emotional valence:** positive
 - **Threat level:** 1
-- **Open question:** false — The "we stood together" framing is exactly what Sheanna uses when she connects families across buildings. Hearing it from an elected official is validating, not threatening.
+- **Open question:** false — The "we stood together" framing is exactly what Kira uses when she connects families across buildings. Hearing it from an elected official is validating, not threatening.
 
 #### 7. State property tax relief task force — distant hope, no near-term relief
 - **Fact:** Mayor Tipton noted that the legislature has launched a statewide property tax relief task force, with a first report due this month and a final report at year end. She stated that South Portland is "part of the conversation" and that the city is "paying attention."
@@ -71,18 +71,18 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: school budget buried in city routine
+    title Kira's journey: school budget buried in city routine
     section Sitting Through Irrelevant Business
-        Tank farm update, music festival proposal: 2: Sheanna
-        Cemetery ordinance consumes 15 minutes: 1: Sheanna
+        Tank farm update, music festival proposal: 2: Kira
+        Cemetery ordinance consumes 15 minutes: 1: Kira
     section A Civility Moment That Actually Lands
-        Jan 6 anniversary remarks on community solidarity: 3: Sheanna
+        Jan 6 anniversary remarks on community solidarity: 3: Kira
     section School Budget Finally Surfaces
-        Feb 10 budget guidance workshop announced: 2: Sheanna
-        "Add positions or programs this year?": 1: Sheanna
+        Feb 10 budget guidance workshop announced: 2: Kira
+        "Add positions or programs this year?": 1: Kira
     section Small Opening, Big Uncertainty
-        Jan 22 citizen forum date announced: 3: Sheanna
-        Property tax task force: cautious shrug: 3: Sheanna
+        Jan 22 citizen forum date announced: 3: Kira
+        Property tax task force: cautious shrug: 3: Kira
 ```
 
 ---

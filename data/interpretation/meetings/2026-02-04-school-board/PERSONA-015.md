@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2026-02-04-school-board"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2026-02-04
 meeting_title: "School Board Public Budget Forum -- February 4, 2026"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: School Board Public Budget Forum -- February 4, 2026 -- 2026-02-04
 
 ### Structured Points
@@ -76,17 +76,17 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: Budget gap, reconfiguration, and a worrying search
+    title Kira's journey: Budget gap, reconfiguration, and a worrying search
     section Fiscal framing
-        78 positions, $7.2M gap confirmed: 2: Sheanna
+        78 positions, $7.2M gap confirmed: 2: Kira
     section Big ideas presented
-        Reconfiguration named as primary idea: 4: Sheanna
-        $3M+ gap remains after all three ideas: 2: Sheanna
+        Reconfiguration named as primary idea: 4: Kira
+        $3M+ gap remains after all three ideas: 2: Kira
     section Q&A on class sizes
-        10-to-24 range disclosed publicly: 4: Sheanna
-        Busing impact not yet modeled: 2: Sheanna
+        10-to-24 range disclosed publicly: 4: Kira
+        Busing impact not yet modeled: 2: Kira
     section Wrap-up
-        Super search: only 3 people showed up: 1: Sheanna
+        Super search: only 3 people showed up: 1: Kira
 ```
 
 ---

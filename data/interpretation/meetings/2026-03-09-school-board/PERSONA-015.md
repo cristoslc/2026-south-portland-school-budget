@@ -9,4 +9,4 @@ To proceed, I need one or more of the following:
 - **Board presentation slides or documents** referenced during the meeting
 - **Minutes or summary** from the March 9, 2026 school board meeting
 
-Could you paste or attach the meeting evidence? Once I have it, I'll produce Sheanna's full interpretation.
+Could you paste or attach the meeting evidence? Once I have it, I'll produce Kira's full interpretation.

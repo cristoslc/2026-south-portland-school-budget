@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2026-01-15-city-council"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2026-01-15
 meeting_title: "City Council Goal Setting Workshop — January 15, 2026"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: City Council Goal Setting Workshop — January 15, 2026
 
 > **Interpreter's Note:** The documented meeting content for this session consists solely of the workshop agenda — one item, "Annual Goal-Setting Session," with an attached document not reproduced in the evidence. No transcript, no public comment, no board discussion, and no vote record are available for this meeting. The structured points below draw on that agenda and the FY27 fiscal background context provided. Where a point references fiscal data, it is sourced to that background context, not to anything said or decided in this meeting. Points cannot be made about what was discussed, because the record does not show it.
@@ -40,7 +40,7 @@ interpreter_model: "claude-sonnet-4-6"
 - **Open question:** true
 
 #### 4. 78 Positions Proposed for Elimination Include Specialists and Interventionists
-- **Fact:** The proposed FY27 cuts include 42 teachers, 16 ed techs, and other support staff — the categories most likely to include the cross-building specialist and interventionist roles Sheanna inhabits and depends on.
+- **Fact:** The proposed FY27 cuts include 42 teachers, 16 ed techs, and other support staff — the categories most likely to include the cross-building specialist and interventionist roles Kira inhabits and depends on.
 - **Source:** FY27 Budget Fiscal Context
 - **Emotional valence:** negative
 - **Threat level:** 5
@@ -66,16 +66,16 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: City Council sets goals, schools absorb cuts
+    title Kira's journey: City Council sets goals, schools absorb cuts
     section Arrival and Orientation
-        Sees "goal setting" on agenda: 3: Sheanna
-        Realizes no transcript exists: 2: Sheanna
+        Sees "goal setting" on agenda: 3: Kira
+        Realizes no transcript exists: 2: Kira
     section Connecting the Dots
-        Council's tax ceiling drives the $7.2M cut: 2: Sheanna
-        78 positions at risk, including specialists: 1: Sheanna
+        Council's tax ceiling drives the $7.2M cut: 2: Kira
+        78 positions at risk, including specialists: 1: Kira
     section Sitting With It
-        No public comment in this format: 2: Sheanna
-        No answers, only questions: 2: Sheanna
+        No public comment in this format: 2: Kira
+        No answers, only questions: 2: Kira
 ```
 
 ---

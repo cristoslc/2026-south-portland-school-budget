@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2026-03-19-city-council"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2026-03-19
 meeting_title: "City Council Regular Meeting -- March 19, 2026"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: City Council Regular Meeting -- March 19, 2026 -- 2026-03-19
 
 ### Structured Points
@@ -33,28 +33,28 @@ interpreter_model: "claude-sonnet-4-6"
 - **Source:** Consent Calendar, ORDER #161-25/26 position paper
 - **Emotional valence:** neutral
 - **Threat level:** 3
-- **Open question:** true — The workshop is where program-level cuts get examined. Sheanna does not yet know whether specialist staffing, intervention services, or cross-building positions are part of the proposed reductions she'll be watching that day.
+- **Open question:** true — The workshop is where program-level cuts get examined. Kira does not yet know whether specialist staffing, intervention services, or cross-building positions are part of the proposed reductions she'll be watching that day.
 
-#### 4. Pedro Vasquez describes community fear that Sheanna sees in her buildings every day
+#### 4. Pedro Vasquez describes community fear that Kira sees in her buildings every day
 - **Fact:** Pedro Vasquez, chair of the South Portland Human Rights Commission, testified: "members of our community have been afraid... afraid to go to work, afraid to leave their homes... My own family experienced that fear. We had conversations about what we would do if one of us was detained. We carried our documentation with us." He also noted that community members are withdrawing from school and economic life.
 - **Source:** Transcript [93:28–95:51]
 - **Emotional valence:** negative
 - **Threat level:** 4
-- **Open question:** false — Sheanna already knows this is happening. She sees attendance irregularities, hears from families, and watches the effects on multilingual learners across her three schools. This testimony confirmed what she already knows operationally.
+- **Open question:** false — Kira already knows this is happening. She sees attendance irregularities, hears from families, and watches the effects on multilingual learners across her three schools. This testimony confirmed what she already knows operationally.
 
 #### 5. $100,000 for Project Home passes 6-1 — direct relief for families on her caseload
 - **Fact:** The council voted 6-1 to appropriate $100,000 from undesignated fund balance to Project Home for rental assistance to South Portland residents impacted by federal immigration enforcement. Project Home estimates this will assist approximately 50 South Portland households.
 - **Source:** Transcript [129:34–140:29], ORDER #167-25/26
 - **Emotional valence:** positive
 - **Threat level:** 1
-- **Open question:** false — This is a concrete action with a named delivery mechanism. For Sheanna, 50 households means children who can stay in stable housing and stay enrolled. That matters directly to her work.
+- **Open question:** false — This is a concrete action with a named delivery mechanism. For Kira, 50 households means children who can stay in stable housing and stay enrolled. That matters directly to her work.
 
 #### 6. Police Chief's apology on ICE texts — accountability acknowledged, but community trust damage is real
 - **Fact:** Chief Ahearn addressed the council directly, acknowledging he "missed" by not pushing back on racist language from an HSI agent in their text exchange, and stated: "I can do better than that." He maintained that the department did not cooperate with ICE on immigration enforcement.
 - **Source:** Transcript [103:45–110:07]
 - **Emotional valence:** negative
 - **Threat level:** 3
-- **Open question:** true — The families of multilingual learners Sheanna works with make decisions about whether to engage with institutions based on exactly this kind of moment. An apology matters, but what changes in practice? She doesn't know yet.
+- **Open question:** true — The families of multilingual learners Kira works with make decisions about whether to engage with institutions based on exactly this kind of moment. An apology matters, but what changes in practice? She doesn't know yet.
 
 #### 7. Sewer rates doubling over three years — another household squeeze on the families she serves
 - **Fact:** The council was presented with projections showing sewer user fees increasing approximately 22% annually in FY27, FY28, and FY29, representing roughly $116/year more in FY27 and an additional $141/year in FY28 for the average residential customer.
@@ -69,17 +69,17 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: Pink slips buried in a long night
+    title Kira's journey: Pink slips buried in a long night
     section Waiting for what matters
-        Sewer rate hike presentation: 2: Sheanna
-        ICE community fear testimony: 2: Sheanna
+        Sewer rate hike presentation: 2: Kira
+        ICE community fear testimony: 2: Kira
     section The moment she came for
-        Chief Ahearn apologizes publicly: 3: Sheanna
-        Project Home passes 6-1: 4: Sheanna
+        Chief Ahearn apologizes publicly: 3: Kira
+        Project Home passes 6-1: 4: Kira
     section The gut punch
-        72 pink slips used as talking point: 1: Sheanna
+        72 pink slips used as talking point: 1: Kira
     section Tuning out the rest
-        Mahoney and licensing debate: 3: Sheanna
+        Mahoney and licensing debate: 3: Kira
 ```
 
 ---

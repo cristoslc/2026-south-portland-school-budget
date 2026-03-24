@@ -2,19 +2,19 @@
 schema_version: "1.0"
 meeting_id: "2026-03-02-school-board"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2026-03-02
 meeting_title: "School Board Budget Workshop I -- March 2, 2026"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: School Board Budget Workshop I -- March 2, 2026 -- 2026-03-02
 
 ### Structured Points
 
-#### 1. Multilingual learner distribution data confirms what Sheanna lives daily
+#### 1. Multilingual learner distribution data confirms what Kira lives daily
 - **Fact:** Director of Multilingual Programs Perkins presented data showing that multilingual learners range from 6% of students at Small Elementary to 33% at Skilling — a 27-point spread across five buildings in the same district — directly linking this disparity to unequal learning experiences and noting that greater demographic parity would "create greater efficiency and consistency of these services within and across schools."
 - **Source:** Transcript [00:22:09--00:23:55]
 - **Emotional valence:** positive
@@ -35,7 +35,7 @@ interpreter_model: "claude-sonnet-4-6"
 - **Threat level:** 1
 - **Open question:** false
 
-#### 4. SPTA raises MTSS and specialized-services space crisis that Sheanna works inside daily
+#### 4. SPTA raises MTSS and specialized-services space crisis that Kira works inside daily
 - **Fact:** The SPTA president, reading member questions during public comment, asked: "Are we accounting for space for learning that takes place already outside of a traditional full group classroom setting? We already have issues with space for specialized services and small group instruction for students with unique learning needs. Multilingual, gifted and talented, special education students receiving MTSS services. A great deal of that work happens in hallways and stairwells."
 - **Source:** Transcript [02:15:50--02:16:15]
 - **Emotional valence:** negative
@@ -67,16 +67,16 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: Equity stakes in a budget crisis
+    title Kira's journey: Equity stakes in a budget crisis
     section Presentation
-        ML data confirms cross-school inequity: 4: Sheanna
-        Prince links addresses to structural segregation: 5: Sheanna
+        ML data confirms cross-school inequity: 4: Kira
+        Prince links addresses to structural segregation: 5: Kira
     section Board Q&A
-        Smith names this as desegregation: 5: Sheanna
-        Richardson: B&C work never acted on: 2: Sheanna
+        Smith names this as desegregation: 5: Kira
+        Richardson: B&C work never acted on: 2: Kira
     section Board Signals
-        Four members reject closing Skilling: 3: Sheanna
-        Drift to Kaler, no redistricting plan: 2: Sheanna
+        Four members reject closing Skilling: 3: Kira
+        Drift to Kaler, no redistricting plan: 2: Kira
 ```
 
 ### Reactions

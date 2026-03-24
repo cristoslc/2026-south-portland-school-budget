@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2025-12-09-south-portland-city-council"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2025-12-09
 meeting_title: "City Council Regular Meeting -- December 9, 2025"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: City Council Regular Meeting -- December 9, 2025 -- 2025-12-09
 
 ### Structured Points
@@ -60,15 +60,15 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: School crisis glimpsed from outside
+    title Kira's journey: School crisis glimpsed from outside
     section City Business
-        Residential tax burden keeps shifting: 2: Sheanna
+        Residential tax burden keeps shifting: 2: Kira
     section Public Comment
-        Parents pay $40 just to speak: 4: Sheanna
-        School board: budget season starts now: 1: Sheanna
+        Parents pay $40 just to speak: 4: Kira
+        School board: budget season starts now: 1: Kira
     section Development Vote
-        Developer promises education relief: 3: Sheanna
-        TIF: 50% rebate for 30 years: 2: Sheanna
+        Developer promises education relief: 3: Kira
+        TIF: 50% rebate for 30 years: 2: Kira
 ```
 
 ### Reactions

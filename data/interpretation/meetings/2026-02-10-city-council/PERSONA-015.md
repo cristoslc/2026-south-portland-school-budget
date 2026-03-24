@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2026-02-10-city-council"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2026-02-10
 meeting_title: "City Council & School Board Joint Budget Guidance Workshop -- February 10, 2026"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: City Council & School Board Joint Budget Guidance Workshop -- February 10, 2026 -- 2026-02-10
 
 ### Structured Points
@@ -76,16 +76,16 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: equity named then the math drops
+    title Kira's journey: equity named then the math drops
     section School district presents the picture
-        Staffing vs. enrollment gap revealed: 3: Sheanna
-        Grade reconfig commissioned: 4: Sheanna
+        Staffing vs. enrollment gap revealed: 3: Kira
+        Grade reconfig commissioned: 4: Kira
     section Public comment
-        Lika misframes the 82 positions: 2: Sheanna
-        Walker names school segregation: 5: Sheanna
+        Lika misframes the 82 positions: 2: Kira
+        Walker names school segregation: 5: Kira
     section Council sets the number
-        Guidance coalesces below 6%: 2: Sheanna
-        Prince names 50 reductions at 3%: 1: Sheanna
+        Guidance coalesces below 6%: 2: Kira
+        Prince names 50 reductions at 3%: 1: Kira
 ```
 
 ---

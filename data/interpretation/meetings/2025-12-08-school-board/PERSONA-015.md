@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2025-12-08-school-board"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2025-12-08
 meeting_title: "School Board Regular Meeting -- December 8, 2025"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: School Board Regular Meeting -- December 8, 2025 -- 2025-12-08
 
 ### Structured Points
@@ -69,17 +69,17 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: redistricting named, equity muddled
+    title Kira's journey: redistricting named, equity muddled
     section Openings and Reports
-        New members speak; Tyler names vulnerable kids: 3: Sheanna
-        ELO solo staffing noted; enrollment flat: 3: Sheanna
+        New members speak; Tyler names vulnerable kids: 3: Kira
+        ELO solo staffing noted; enrollment flat: 3: Kira
     section Finance Crisis Lands
-        Spending freeze: no supplies, no MTSS materials: 2: Sheanna
-        PTAs asked to fill gaps; inequity unspoken: 1: Sheanna
+        Spending freeze: no supplies, no MTSS materials: 2: Kira
+        PTAs asked to fill gaps; inequity unspoken: 1: Kira
     section Equity Signals -- Mixed
-        Chair: equity is not about moving kids: 2: Sheanna
+        Chair: equity is not about moving kids: 2: Kira
     section Closing: The Word Gets Said
-        Holman names redistricting; chair affirms: 4: Sheanna
+        Holman names redistricting; chair affirms: 4: Kira
 ```
 
 ---

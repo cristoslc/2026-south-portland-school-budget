@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2026-03-05-city-council"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2026-03-05
 meeting_title: "City Council Regular Meeting -- March 5, 2026"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: City Council Regular Meeting -- March 5, 2026 -- 2026-03-05
 
 ### Structured Points
@@ -28,7 +28,7 @@ interpreter_model: "claude-sonnet-4-6"
 - **Threat level:** 2
 - **Open question:** true
 
-#### 3. Library Director's "We'll Deal With It Later" Frustration Mirrors Sheanna's Own Reality
+#### 3. Library Director's "We'll Deal With It Later" Frustration Mirrors Kira's Own Reality
 - **Fact:** Library director Kevin Davis stated, "I've been here 25 years... saying we'll deal with the library at some point without a real plan, without identifying a parcel of land, is uncomfortable." He noted this was the second time in his tenure that outside consultants had assessed the library's needs and been told to wait.
 - **Source:** Transcript [02:04:11–02:05:09]
 - **Emotional valence:** neutral
@@ -62,16 +62,16 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: Schools surface inside a city meeting
+    title Kira's journey: Schools surface inside a city meeting
     section Community Crisis Lands on Her Caseload
-        Immigrant kids afraid to go to school: 2: Sheanna
-        City considers rent relief program: 3: Sheanna
+        Immigrant kids afraid to go to school: 2: Kira
+        City considers rent relief program: 3: Kira
     section Institutions Getting the Same Runaround
-        Library told to wait, again: 2: Sheanna
-        Shapiro names housing-school connection: 4: Sheanna
+        Library told to wait, again: 2: Kira
+        Shapiro names housing-school connection: 4: Kira
     section Schools Enter the Room Uninvited
-        Cullen drops the four-school bombshell: 1: Sheanna
-        $87M bond night; schools cut $8M: 1: Sheanna
+        Cullen drops the four-school bombshell: 1: Kira
+        $87M bond night; schools cut $8M: 1: Kira
 ```
 
 ---

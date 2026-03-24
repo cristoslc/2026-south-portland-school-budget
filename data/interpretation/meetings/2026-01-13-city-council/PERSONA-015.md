@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2026-01-13-city-council"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2026-01-13
 meeting_title: "City Council Regular Meeting -- January 13, 2026"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: City Council Regular Meeting -- January 13, 2026 -- 2026-01-13
 
 ---
@@ -24,7 +24,7 @@ interpreter_model: "claude-sonnet-4-6"
 - **Threat level:** 3
 - **Open question:** true
 
-#### 2. Olivia Montgomery Said Exactly What Sheanna Knows From Her Caseload
+#### 2. Olivia Montgomery Said Exactly What Kira Knows From Her Caseload
 
 - **Fact:** Clinical social worker and social work professor Olivia Montgomery spoke during public comment about how placing a police station adjacent to city services would create "immediate disenfranchisement of large portions of our immigrant community" — warning that immigrant families and communities of color would not access city services, or potentially vote, if police are stationed next door. She named the current national political climate as a concrete factor, not a hypothetical.
 - **Source:** Olivia Montgomery public comment [01:56--01:58]
@@ -56,7 +56,7 @@ interpreter_model: "claude-sonnet-4-6"
 - **Threat level:** 5
 - **Open question:** true
 
-#### 6. The Middle School Energy Project Got a Name-Check — Sheanna Knows That Work
+#### 6. The Middle School Energy Project Got a Name-Check — Kira Knows That Work
 
 - **Fact:** Ellen Sanborn specifically cited the "school department project, the middle school project" as a case study for energy grant reimbursement through IRS tax credits for geothermal systems, noting it "took over a year to get that money back from the IRS." This is the only direct reference to school district work in the entire meeting — and it surfaces in the context of explaining why grant funding won't reduce the upfront city bond cost.
 - **Source:** Ellen Sanborn finance presentation [01:21--01:22]
@@ -78,16 +78,16 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: City reclaims the school's closed building
+    title Kira's journey: City reclaims the school's closed building
     section Paying Attention
-        City manager walks through years of Mahoney process: 3: Sheanna
+        City manager walks through years of Mahoney process: 3: Kira
     section The Price Tag Lands
-        $194M confirmed; tax impact analysis delivered: 1: Sheanna
+        $194M confirmed; tax impact analysis delivered: 1: Kira
     section Public Comment Opens Up
-        Olivia Montgomery names the immigrant access problem: 5: Sheanna
+        Olivia Montgomery names the immigrant access problem: 5: Kira
     section Council Talks in Circles
-        Two hours of cost debate, equity ignored: 2: Sheanna
-        No decision — sent back for more study: 2: Sheanna
+        Two hours of cost debate, equity ignored: 2: Kira
+        No decision — sent back for more study: 2: Kira
 ```
 
 ---

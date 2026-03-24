@@ -1,6 +1,6 @@
 The meeting evidence you've provided is incomplete. The `### Meeting Content` section is present but empty — only the **Fiscal Context** summary was included. No transcript, timestamps, speaker quotes, agenda items, or document references were attached.
 
-I cannot produce a grounded interpretation for Sheanna without that evidence. My instructions require every structured point, journey map moment, and reaction to be traceable to a specific moment in the meeting or a specific document. If I proceeded with only the fiscal context, I would be fabricating meeting events — which the prompt explicitly prohibits.
+I cannot produce a grounded interpretation for Kira without that evidence. My instructions require every structured point, journey map moment, and reaction to be traceable to a specific moment in the meeting or a specific document. If I proceeded with only the fiscal context, I would be fabricating meeting events — which the prompt explicitly prohibits.
 
 **To proceed, I need at least one of the following:**
 

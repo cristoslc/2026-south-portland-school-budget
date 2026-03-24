@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2026-02-03-city-council"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2026-02-03
 meeting_title: "City Council Regular Meeting -- February 3, 2026"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: City Council Regular Meeting -- February 3, 2026 -- 2026-02-03
 
 ---
@@ -71,17 +71,17 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: audit, ICE crisis, budget urgency
+    title Kira's journey: audit, ICE crisis, budget urgency
     section School Finance on Trial
-        Title I swept to general fund: 2: Sheanna
-        Joe Prince explains 3 fiscal years: 3: Sheanna
+        Title I swept to general fund: 2: Kira
+        Joe Prince explains 3 fiscal years: 3: Kira
     section TIF Workshop Runs Long
-        TIF presentation: not her meeting: 3: Sheanna
+        TIF presentation: not her meeting: 3: Kira
     section Immigrant Families in Crisis
-        Community testifies on eviction fear: 4: Sheanna
-        Resolution + moratorium request passes: 4: Sheanna
+        Community testifies on eviction fear: 4: Kira
+        Resolution + moratorium request passes: 4: Kira
     section Budget Forum Starts Tomorrow
-        Supt search live, forum in 18 hours: 3: Sheanna
+        Supt search live, forum in 18 hours: 3: Kira
 ```
 
 ---

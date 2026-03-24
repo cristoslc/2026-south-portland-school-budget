@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2026-01-20-city-council"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2026-01-20
 meeting_title: "City Council Regular Meeting -- January 20, 2026"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: City Council Regular Meeting -- January 20, 2026 -- 2026-01-20
 
 ### Structured Points
@@ -69,17 +69,17 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: Budget forum cancelled, ICE in Red Bank
+    title Kira's journey: Budget forum cancelled, ICE in Red Bank
     section Routine Business
-        Business awards, consent items: 3: Sheanna
+        Business awards, consent items: 3: Kira
     section ICE Reaches Her Students
-        ICE confirmed in Red Bank: 1: Sheanna
-        Forum postponed, families afraid: 1: Sheanna
-        Police: won't block lawful ICE: 2: Sheanna
+        ICE confirmed in Red Bank: 1: Kira
+        Forum postponed, families afraid: 1: Kira
+        Police: won't block lawful ICE: 2: Kira
     section Long Agenda, Waiting for Close
-        Zoning workshop, city business: 3: Sheanna
+        Zoning workshop, city business: 3: Kira
     section Validation at the End
-        Mayor names the real outrage: 4: Sheanna
+        Mayor names the real outrage: 4: Kira
 ```
 
 ---

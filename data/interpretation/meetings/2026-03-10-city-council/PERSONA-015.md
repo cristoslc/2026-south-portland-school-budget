@@ -2,14 +2,14 @@
 schema_version: "1.0"
 meeting_id: "2026-03-10-city-council"
 persona_id: "PERSONA-015"
-persona_name: "Sheanna"
+persona_name: "Kira"
 meeting_date: 2026-03-10
 meeting_title: "City Council Regular Meeting -- March 10, 2026"
 interpretation_date: 2026-03-22
 interpreter_model: "claude-sonnet-4-6"
 ---
 
-# Interpretation: Sheanna (PERSONA-015)
+# Interpretation: Kira (PERSONA-015)
 ## Meeting: City Council Regular Meeting -- March 10, 2026 -- 2026-03-10
 
 ### Structured Points
@@ -67,21 +67,21 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Sheanna's journey: Rental aid debate and who counts
+    title Kira's journey: Rental aid debate and who counts
     section Metro Update
-        Student free rides confirmed: 4: Sheanna
-        Possible Metro-school bus integration floated: 3: Sheanna
+        Student free rides confirmed: 4: Kira
+        Possible Metro-school bus integration floated: 3: Kira
     section Rental Assistance Introduced
-        City presents ICE rental aid options: 4: Sheanna
-        GA ineligible for fear-based absences: 2: Sheanna
+        City presents ICE rental aid options: 4: Kira
+        GA ineligible for fear-based absences: 2: Kira
     section Public Testimony and Council Debate
-        Families' letters read at the mic: 1: Sheanna
-        West frames surge as four days, five arrests: 1: Sheanna
-        Scott connects 80 families to 80 students: 5: Sheanna
-        No decision - deferred to next meeting: 2: Sheanna
+        Families' letters read at the mic: 1: Kira
+        West frames surge as four days, five arrests: 1: Kira
+        Scott connects 80 families to 80 students: 5: Kira
+        No decision - deferred to next meeting: 2: Kira
     section Bike Share and Wind-Down
-        Bike share debate: council declines: 3: Sheanna
-        E-bikes on Greenbelt resolved: 3: Sheanna
+        Bike share debate: council declines: 3: Kira
+        E-bikes on Greenbelt resolved: 3: Kira
 ```
 
 ### Reactions

@@ -11,7 +11,7 @@ linked-stories: []
 depends-on: []
 ---
 
-# Sheanna (Cross-Building Staff Advocate)
+# Kira (Cross-Building Staff Advocate)
 
 ## Archetype Label
 

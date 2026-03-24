@@ -2,10 +2,10 @@
 title: "Evidence Source Links"
 artifact: SPEC-033
 type: enhancement
-status: Proposed
+status: Active
 author: cristos
 created: 2026-03-22
-last-updated: 2026-03-22
+last-updated: 2026-03-24
 parent-epic: EPIC-015
 parent-initiative: ""
 priority-weight: medium
@@ -33,3 +33,4 @@ Add direct links to spsdme.org budget page, Vimeo meeting recordings, and Dilige
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-22 | — | From persona-lens design review (Tom and Linda personas) |
+| Active | 2026-03-24 | — | Promoted — evidence page has zero links to sources |

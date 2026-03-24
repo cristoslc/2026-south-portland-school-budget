@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-012"
 persona_name: "Jaylen"
 upcoming_meeting_date: "2026-03-23"
-generated_date: "2026-03-21"
+generated_date: "2026-03-23"
 has_agenda: false
 last_cumulative_meeting: "2026-03-19"
 inter_meeting_evidence_count: 1
@@ -12,65 +12,77 @@ inter_meeting_evidence_count: 1
 # Brief: Jaylen (PERSONA-012)
 ## Upcoming Meeting: 2026-03-23
 
+# Meeting Brief: Jaylen (PERSONA-012)
+**Prepared for:** School Board Budget Workshop, 2026-03-23
+
+---
+
 ## Since Last Meeting
 
-The most significant development is one you probably didn't get through official channels: the district released a Google Slides budget presentation for the March 23 workshop. This matters to you in a specific way. The deck explicitly includes a section on **middle and high school reductions** — which means Monday's meeting is the first time since December that SPHS-specific cuts are supposed to be on the table. Every workshop before this one has presented district-level numbers or focused on elementary closures. This one is different.
+Two things happened between March 19 and now, and together they change the situation significantly.
 
-The other thing you're carrying in from this week: 72 staff received actual layoff notices on March 18. That's not a proposal anymore. Those are real people who work in your building, your gym, your theater. The deficit also grew from the $7.2M number you've been tracking since December to $8.4M — a $1.2M jump that no one has explained publicly. You don't know yet whether your theater director, your AP teachers, or your coach got one of those pink slips. Monday may be where that starts to become visible.
+**The pink slips became real.** On March 18, 72 of the 78 proposed positions received physical layoff notices. You knew the cuts were coming — you've tracked this since December — but notices in hand are different from proposals on a slide. At least 42 of those 72 are teachers. The district has not released which positions or which schools. That silence has now been in place for five days.
 
-The positive thread from March 9 — theater, music, robotics, and fine arts confirmed thriving — predates the pink slips. It doesn't mean those programs are safe. It means they were fine before 72 people lost their jobs.
+**The March 23 meeting has a budget workshop deck, and it specifically includes middle and high school reductions.** A Google Slides presentation circulated ahead of this meeting covers the full FY27 budget proposal: personnel and non-personnel cuts, two elementary closure options, and — critically — a dedicated section on middle and high school reductions. This is the first time SPHS-specific budget information is expected to appear in a public-facing document since the cuts were proposed in December. The high school workshops you've been waiting for since December appear to finally be happening.
+
+This meeting is the one. If there's ever going to be a public accounting of what specifically is being cut at South Portland High School — theater staffing, AP sections, coaching positions, science and English vacancies that were never filled — this workshop is the most likely place it surfaces. The April 7 public hearing is two weeks away. If you want to testify with facts rather than generalities, what you learn Monday is what you'll use.
 
 ---
 
 ## Open Questions
 
-Going into Monday, here's what you still don't know:
+Carrying these into the meeting:
 
-- **Who got a pink slip?** Are theater directors, AP teachers, or coaches in those 72 positions? Has anyone at SPHS told students anything officially, or are you still relying on your cross-country coach and word of mouth?
-- **What are the actual SPHS cuts?** This is the first workshop that's supposed to cover high school reductions. Will they finally name programs, courses, or positions — or will it be object codes and cost centers that mean nothing to you?
-- **Is AP Lit going to exist next year?** What about the specific AP courses you're planning for senior year? Is anyone going to say that in a room you can be in?
-- **Are theater and arts actually protected, or are they just unspecified?** The March 9 thriving report was real, but the $3M+ residual gap has to come from somewhere. Has anyone said arts are off the table?
-- **What happened to the mid-year teacher vacancies in English and science?** Were those filled, or are they quiet early cuts that won't appear on any official list?
-- **Why did the deficit jump from $7.2M to $8.4M?** That's $1.2M more than the number everyone's been citing for three months. Where did it come from?
-- **Will there be any student voice in the room on Monday?** Do student reps have a speaking role, or are they sitting there again while adults decide what happens to your senior year?
-- **Does anyone plan to explain any of this in terms a student can actually understand and share?** Or will it be another slide deck full of FTEs and object codes?
+- **Which of the 72 positions are at SPHS?** The notices went out March 18. Theater was confirmed alive on March 9 — but that was nine days before the pink slips. Is the theater director still employed?
+- **Are the two English and science teachers who resigned mid-year being replaced, or did those vacancies just quietly become two of the 42 teacher cuts?**
+- **Will I still have AP Lit, AP History, or whatever I'm registering for senior year?** If AP sections are being collapsed or eliminated, when are students supposed to find out — after registration closes?
+- **Cross-country and athletics: is there a coaching cut in the 72?** My coach knows things before they're official. But "I heard from my coach" isn't the same as a board presentation. What's actually on the record?
+- **The deficit grew from $7.2M to $8.4M — that's $1.2M nobody explained.** What drove that increase? Is it a new number or a correction to the old one?
+- **The three "big ideas" from February only closed $4M of the gap. Where does the remaining $3M+ actually come from?** Is the high school absorbing a disproportionate share of it?
+- **If theater is "thriving and expanding" as of March 9, but 72 unnamed people just got pink slips, how do I reconcile those two things?** Which is the real story for March 23?
+- **Is anyone at this meeting going to say directly: here are the SPHS programs and positions that are being cut, and here is what that means for students currently in those programs?** Or is it going to be more object codes and budget categories?
 
 ---
 
 ## Agenda Implications
 
-No formal agenda has been published for the March 23 meeting. However, the inter-meeting budget presentation tells you the structure of what's coming. Here's what that means for you specifically:
+No official agenda has been released for this meeting. However, the pre-meeting Google Slides deck provides enough structure to know what to expect, and one section in particular matters more than the rest combined.
 
-**Personnel and non-personnel reductions** will be presented. This is where your immediate stake lives. Listen for whether the cuts are described at the school level or buried in district-wide numbers. If they say "we're reducing X FTEs in the high school" without naming positions or departments, that's still not enough — but it's more than you've had. If they name departments, that's when you'll know whether theater, athletics, or AP programming is directly in the line of fire.
+**The middle and high school reductions section is the reason to be in the room.**
 
-**Two elementary closure options** will likely dominate a significant portion of the meeting. This does not affect you directly, but pay attention to how much of the $8.4M gap the elementary closures actually close. If elementary reconfiguration accounts for $4-5M of the savings, the residual gap shrinks — and the pressure on SPHS-specific cuts shifts accordingly. If the elementary options don't pencil out, more of that burden falls on middle and high school reductions.
+Every other meeting in the last three months has deferred SPHS specifics. The February 4 forum never got there. The March 2 workshop was entirely elementary reconfiguration. March 9 gave a student report with good news about theater. None of those meetings produced a line-by-line accounting of what's changing at your school. The slides deck for this meeting specifically names high school reductions as a covered topic. That's new.
 
-**Middle and high school reductions** is the section you've been waiting for since December. Questions to prepare:
-- Are course eliminations or reductions named specifically — by subject, by program?
-- Are any extracurricular programs (theater, athletics, robotics) mentioned explicitly?
-- Is the staffing reduction at SPHS expressed in a way that tells you whether AP sections survive?
-- Does the presentation say anything about what's being *preserved*, not just cut?
+**What this means for Jaylen specifically:**
+This is likely the only time between now and the April 7 public hearing when board members will publicly discuss what's being cut at SPHS before the hearing locks in testimony. If program-level information surfaces here — AP sections, performing arts staffing, athletic coaching, the unfilled English and science vacancies — you'll have two weeks to process it, talk to your teachers, and prepare something credible to say on April 7. If it doesn't surface here, you're going into the public hearing blind.
 
-**Decisions expected at the workshop** — watch carefully for what the board is actually being asked to vote on or endorse. If they're being asked to approve a specific reduction plan that includes SPHS line items, Monday may be the last point before the April 7 public hearing at which the direction can still change.
+**What to listen for:**
+- Any mention of SPHS by name alongside specific positions or programs, not just district-level headcounts
+- Whether the slide deck differentiates between elementary cuts (which have driven most of the meeting time) and secondary cuts
+- Any reference to "AP offerings," "co-curricular," "performing arts," or "athletics" — these are the budget categories that map to your actual experience
+- Whether the two mid-year vacancies (English, science) appear in the personnel accounting or have already been quietly absorbed
+- How the board members respond to the high school section — do they move through it quickly, or does it generate discussion?
+
+**Questions to prepare:**
+- "The layoff notices went out March 18. Can the board confirm which positions at South Portland High School were notified?"
+- "Will students currently enrolled in AP courses be able to complete those courses next year under this budget?"
+- "When will students and families be told directly — not through a budget document — which programs and classes are changing?"
 
 ---
 
 ## Watch For
 
-- **The moment SPHS comes up by name.** When it does, note whether it's in the context of a specific cut to a named program or in aggregate FTE language. Named programs mean something. Aggregate numbers don't tell you whether your coach still has a job.
+- **The slide deck's SPHS section: how specific does it get?** If it lists positions by school and department, that's a significant disclosure. If it stays at the district level, you're still in the dark. Watch for whether anyone pushes for specificity or accepts the aggregate numbers.
 
-- **Whether theater, visual arts, and AP are named — or notably absent.** If the high school reduction section doesn't mention arts or AP at all, ask why. Silence on specific programs isn't safety; it might mean they haven't been disaggregated yet, which is its own problem.
+- **The phrase "to be determined" or "subject to further review" applied to high school line items.** That language has historically meant the details are being deferred again. If you hear it about SPHS, it means the April 7 public hearing may arrive before any disclosure.
 
-- **The math on the elementary closures.** If Option A saves more than Option B, the gap going into SPHS cuts changes. Track what each option saves and do the arithmetic against the $8.4M total.
+- **Whether the deficit figure is updated.** You know it grew from $7.2M to $8.4M by March 19. If the board presents a different number Monday — higher or lower — that change has not been explained publicly and is worth asking about.
 
-- **Whether anyone names the $1.2M deficit increase.** The number went from $7.2M to $8.4M between December and March 19 with no public explanation. If no one on the board raises it, that's a question worth asking at public comment.
+- **Whether theater, performing arts, or co-curriculars are named as protected or cut.** March 9's student report said theater was thriving. That was before the pink slips. If a board member or administrator states that performing arts positions were included in the 72, that supersedes the March 9 optimism. If no one addresses it, the ambiguity continues.
 
-- **Student rep body language and whether they get to speak.** The February 9 precedent on the superintendent search was real, but it hasn't carried over to budget sessions yet. If student reps are in the room and given no speaking role again, that's a pattern worth naming — in your school newspaper piece if not at the mic.
+- **Whether the two elementary closure options change anything for SPHS.** Elementary reconfiguration affects enrollment projections district-wide. If one closure option produces significantly different projected enrollment at the middle and high school level, that could affect staffing ratios and program viability at SPHS in ways the board might not connect explicitly.
 
-- **Whether any board member connects the 72 pink slips to specific program impacts.** The pink slips are already issued. If a board member says something like "these reductions include X department," that's new information. If no one says it, that's the thing to push on at public comment on April 7.
+- **Superintendent search parallel.** The board approved student access to superintendent search executive sessions in February. The new superintendent — whoever it is — will inherit this budget. If the search timeline is mentioned Monday, note whether it aligns with the budget finalization timeline or creates a leadership vacuum during the most critical period.
 
-- **Superintendent search process references.** If the interim superintendent's approach to cuts is being presented, note whether it reflects any student input — and whether the new search timeline means a permanent superintendent will be hired after the referendum, not before.
+- **Who's in the room.** If SPHS teachers are present and watching the high school section of the presentation, their body language is information. Teachers who received pink slips will have been notified five days before this meeting. If any of them are your teachers, they may not say anything publicly — but they know things you don't.
 
-- **What Councilor Walker's pattern means for the April 7 public hearing.** She's named the compound harm consistently and been in the minority consistently. If the board session Monday produces a direction that ignores student impact, Walker's framing at council may be the only place it gets named publicly before the referendum — and you'll want that on record for any piece you write.
-
-- **Whether the April 7 public hearing is framed as genuinely open or as ratification.** Listen Monday for language like "we'll finalize this at the hearing" versus "this plan will be presented at the hearing." The difference tells you whether showing up and testifying can still change anything, or whether the April 7 hearing is a formality with the decision already behind it.
+- **The April 7 public hearing is your window.** Everything you learn Monday feeds into whether you can speak credibly on April 7. Track which claims are made with specificity (numbers, positions, programs) versus which are made in budget-category language. Specific claims are things you can respond to. Budget-category language is not.

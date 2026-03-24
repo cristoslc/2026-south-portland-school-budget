@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-003"
 persona_name: "Jess"
 upcoming_meeting_date: "2026-03-23"
-generated_date: "2026-03-21"
+generated_date: "2026-03-23"
 has_agenda: false
 last_cumulative_meeting: "2026-03-19"
 inter_meeting_evidence_count: 1
@@ -12,84 +12,60 @@ inter_meeting_evidence_count: 1
 # Brief: Jess (PERSONA-003)
 ## Upcoming Meeting: 2026-03-23
 
-I don't have direct file access, but the inter-meeting evidence description gives me the critical details I need. The mention of "two elementary closure options" as a formal workshop item is the most significant new development for Jess. Let me write her brief now.
-
----
-
 ## Since Last Meeting
 
-Two things happened between March 19 and now, and together they matter more than any single meeting in the last three months.
+The biggest development since March 19 is a budget presentation deck prepared specifically for tonight's meeting. It's not just a status update — it's a decision document. The board is expected to make choices tonight, and the presentation explicitly includes **two elementary closure options**.
 
-**The layoff notices are real.** On March 18 — one day before the last meeting you processed — 72 employees received layoff notices. Not a proposal, not a scenario. Notices. The administrative process moved before the April 7 public hearing, before the May 5 vote, before the June 9 referendum. The timeline you thought you were watching was not the only timeline operating. Whatever happens at public hearings this spring, the cuts that produced those 72 notices are already in motion.
+This matters enormously for Jess because her entire "decided to stay" position rests on one structural argument: buildings can't close because pre-K expansion and special education mandates require the physical space. That argument is now being formally tested. The presentation doesn't describe these as speculative scenarios — they are options presented to the board for action.
 
-**Elementary closures are now on the workshop table.** The FY27 budget presentation deck for the March 23 workshop — released one day ago — includes two specific elementary closure options. This is not scenario planning from a menu of nine. These are the options the board will be discussing and expected to decide on at Monday's workshop. 
+The other threads Jess already knew about are now accelerating. The 72 layoff notices delivered March 18 — the day before the last meeting — mean that administrative execution is no longer waiting on civic process. The $8.4M deficit (revised upward from $7.2M) is the operating number. Personnel reductions and non-personnel reductions are both on tonight's agenda.
 
-For you, this is the most consequential development since pre-K expansion was confirmed in January. The buildings slated for potential closure are the same buildings that house pre-K programs and special education services — the programs that your cumulative understanding has identified as structurally durable because state law and physical space requirements protect them. If closures are on the table, you need to know: which buildings, and what happens to the programs inside them?
-
-The deficit figure is also newly updated — $8.4 million, first revised since December. That $1.2 million increase since the prior figure is not explained in what you've seen, and the gap between the "three big ideas" and a balanced budget has never been clearly accounted for in public. Monday's presentation may be the first time you see actual math.
+What Jess doesn't yet know: which two buildings are named as closure candidates, whether either closure option would directly affect pre-K space, or how the board is expected to respond to these options. Tonight is the meeting where that becomes visible.
 
 ---
 
 ## Open Questions
 
-Going into Monday, here's what's still unresolved — in the order they would actually keep you up at night:
-
-- **Which two elementary schools are being considered for closure, and do either of them currently house pre-K programs?** If the buildings where pre-K expansion is planned are on the closure list, the anchor that kept you here is under direct threat.
-- **What happens to the state-mandated pre-K expansion — 128 seats by September 2026 — if the building planned to house it closes or is repurposed?** Can the district meet the state mandate if they close a building?
-- **Are these closure options the ones the board actually votes on tonight, or is it still a discussion?** The description says "decisions expected at the workshop" — I need to know if this is the moment.
-- **Why did the deficit jump from $7.2M to $8.4M, and what drove the increase?** Is it enrollment revisions, revised cost estimates, or something in the audit findings? The number changed and nobody explained it publicly.
-- **Will redistricting details — which school Mia would actually attend — be available before the May 5 vote?** The layoff notices have been delivered. The budget is being locked down. When do families like me get the information we need to make real decisions?
-- **Can the April 7 public hearing reverse anything that's already been decided at tonight's workshop?** If the board is choosing between closure options on March 23, what is there left to say on April 7?
-- **What additional cuts beyond closures and the layoff notices are needed to close $8.4M?** I still haven't seen a single public document that accounts for the full gap with real numbers.
-- **Who is leading the district through this, and when does a permanent superintendent take over?** An interim is making decisions that will define Mia's first years of school.
-- **Does the Mahoney bond vote happen before or after the school budget vote — and is anyone presenting the combined household number yet?**
-- **If Skillin stays open for equity reasons — as four board members signaled on March 2 — but the district still needs to close something, which school absorbs the political pressure instead?**
+- **If a building closes, where does pre-K go?** The whole reason I thought closures were off the table was that pre-K and special ed need the space. If two closure options are now being formally presented, did something change — or did I misunderstand the protection all along?
+- **Which two buildings are the closure options?** If it's Skillin, I already know board members had equity concerns. If it's a building in my neighborhood, that could directly affect where Mia ends up.
+- **Are any pre-K or early childhood staff positions being cut in tonight's personnel reductions?** The layoff notices went out — are early childhood educators among the 72?
+- **Does pre-K expansion still reach 128 seats with a September 2026 deadline if a building closes?** Or does closure set that back?
+- **Will the lottery system still be the access mechanism, and what does a closure do to the number of seats actually available for Mia's cohort?**
+- **What decisions are actually being made tonight versus just presented?** If the board votes tonight, that's different from a discussion. I need to know what's reversible and what isn't after this meeting.
+- **Has the reconfiguration plan — grade-band pre-K through 1, then 2 through 4 — been maintained in the closure options, or does a closure change the whole grade-band architecture?**
+- **Is the new superintendent search still on track, and who is actually going to be in charge when these decisions go into effect?**
+- **Does anyone on the board or in administration know that redistricting details won't be available before May 5, but families are supposed to vote on the budget anyway?**
+- **Are the cuts being made tonight reversible, or am I watching decisions get locked in that Mia will inherit no matter what?**
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for March 23. However, the budget workshop presentation deck released March 20 tells you what this meeting is: a structured decision session on the FY27 budget, with personnel reductions, non-personnel reductions, two specific elementary closure options, middle and high school reductions, and explicit decisions expected from the board before the meeting ends.
+No formal agenda has been published for tonight's meeting. However, the inter-meeting budget presentation deck provides a clear map of what the board intends to cover. Tonight is a budget workshop — not a public hearing and not a final vote — but the framing of the deck suggests the board is expected to make decisions or take positions, not just receive information.
 
-This is not a listening session. It is a closing session. Here's what that means for you.
+**The two elementary closure options are the most important item for Jess to track.**
 
-**Elementary closure options will be the most consequential item.** The presentation frames two options — not nine background scenarios, two live choices. The board will discuss, and based on the framing ("decisions expected"), may select or narrow between them. For you, this is the item. Jess's entire calculus for staying in South Portland rests on pre-K expansion surviving intact. Pre-K expansion requires buildings. You need to know whether the buildings under discussion are the ones the programs depend on.
+The presentation identifies these as distinct options among the broader reconfiguration framework. What Jess needs to understand tonight:
 
-- **Listen for**: Which schools are named. Whether any named school currently houses pre-K or is designated for the state-mandated expansion to 128 seats. Whether the board narrows to one option or defers.
-- **Ask (or listen for someone else to ask)**: "Does either closure option affect the buildings designated for pre-K expansion to meet the September 2026 state mandate?"
+- *What it means for her specifically:* If a building closes, the spatial argument for pre-K expansion's durability — the argument she used to decide to stay — comes directly into question. A closure could reallocate, consolidate, or delay pre-K infrastructure. It could also reshape which school Mia attends for kindergarten in a way that won't be visible before the May 5 vote.
+- *What to listen for:* Does the board treat the closure options as serious financial tools, or does the equity argument (which has been advanced by at least four board members regarding Skillin) effectively take closures off the table again? Listen for whether any board member mentions pre-K seat preservation as a constraint on which closure options are viable. Listen for whether the finance director or superintendent links closure savings to the $8.4M number — is closure the mechanism that closes the remaining gap?
+- *Questions to prepare:* "If either closure option is adopted, what happens to the pre-K seats currently planned for that building?" and "Is the September 2026 pre-K expansion deadline still achievable under either closure option?"
 
-**Personnel reductions will be presented with more specificity than before.** The March 18 layoff notices were 72 people. The presentation likely breaks this down by building or program area. For you, the relevant question is whether any of those positions are in early childhood, special education, or the multilingual learner programs — the mandate-driven services that were recontextualized in February as legally required, not discretionary.
+**Personnel and non-personnel reductions are also on the agenda.** For Jess, this matters in two ways: first, whether early childhood or pre-K positions are in the reduction list; second, whether class size increases in grades 2-4 will be significant enough to affect educational quality when Mia eventually moves through those grades. She won't get redistricting details tonight, but she might get enough about staffing ratios to start modeling what Mia's elementary experience will actually look like.
 
-- **Listen for**: Whether early childhood staff are among the reductions. Whether the layoff numbers by category are presented publicly.
-- **Ask**: "Are any of the 72 layoff notices in early childhood or pre-K positions?"
-
-**Non-personnel reductions will be presented as a line item.** These are the cuts that tend to be invisible until they're gone — program partnerships, curriculum materials, developmental screenings, community school coordinator positions. For Jess, these matter because they define what the district actually looks like when Mia walks in the door.
-
-- **Listen for**: Whether community school grants or early childhood partnership funding is on the reduction list.
-- **Watch**: Whether any board member asks how non-personnel cuts interact with the community school grant that has provided some structural buffer.
-
-**The middle and high school reductions are not your primary focus**, but if they're deep enough to generate sustained board resistance, they may absorb the room's attention and leave elementary closure decisions with less scrutiny than they deserve.
+**The "decisions expected at this workshop" framing in the deck is significant procedurally.** Jess should find out at the start of the meeting whether the board plans to vote tonight or whether this is a deliberation session. If votes happen tonight on closure options, the outcome is likely durable — boards rarely reverse course on structural decisions once formally adopted.
 
 ---
 
 ## Watch For
 
-- **Any board member naming the specific buildings under the two elementary closure options.** The presentation deck may not make the building names immediately legible from the title slide — board discussion will surface them. Write them down the moment you hear them.
-
-- **Whether either closure option touches Kaler or Brown schools** — the buildings most consistently associated with pre-K and special education services in prior discussions. If either is named, the pre-K expansion timeline is directly threatened.
-
-- **DeAngelis's framing.** She has been the most consistent public voice on equity, explicitly opposed to closing Skillin, and the board chair. Watch whether her position on the two closure options signals political consensus or contested ground. If she resists one option strongly, the other is likely where the votes are.
-
-- **Whether any board member asks about the September 2026 pre-K mandate** in the context of the closure options. If no one asks, that is a silence worth noting — it means either the mandate is being accounted for behind the scenes or it isn't being accounted for at all.
-
-- **The word "decisions."** The presentation explicitly anticipates decisions at this workshop. If the board chair calls for a vote or asks for consensus direction on a closure option, that is the moment the question "can April 7 change anything?" gets its answer in real time.
-
-- **Whether the $8.4M figure is broken down with new detail.** The deficit grew by $1.2M since December and no public meeting has explained the increase. If a board member or the finance director accounts for it tonight, that's the first real explanation you've had — and it may reveal whether the number can still move.
-
-- **Any reference to redistricting timelines.** You've been told redistricting details won't be available before the May 5 vote. If tonight's presentation advances the reconfiguration decision enough to generate a redistricting map, that commitment may shift. Listen for any staff statement about when families will know which school their child attends.
-
-- **The superintendent's role in framing the options.** An interim superintendent presenting two elementary closure options is making recommendations that will outlast their tenure. Watch whether board members push back on the options as presented or accept the framing wholesale — that tells you something about who is actually driving these decisions.
-
-- **Body language and tone when early childhood is mentioned.** Pre-K expansion has been described as structurally durable, but it's never been explicitly protected in a vote. If board members treat it as settled and safe, that's reassuring. If any board member hedges or qualifies the mandate timeline, pay close attention.
-
-- **Whether anyone in the room raises the combined household tax burden.** The triple stack — school increase, Mahoney bond, sewer rates at 22%/year — has never been presented as a single number. If a board member, a public commenter, or a city liaison raises it tonight, that's the first time the full cost to a family like yours has been put on record in one place.
+- **Whether either of the two closure options names a building that currently houses or is planned to house pre-K programming.** If so, the spatial protection argument Jess has been relying on is materially weakened.
+- **Chair DeAngelis's language around the closure options.** She previously said "we don't have neighborhood schools anymore" — framing reconfiguration as formalizing reality. Watch whether she uses similar reframing tonight to absorb opposition to closures, or whether she signals that the board is genuinely divided.
+- **Any board member invoking the equity/Skillin argument as a procedural block.** Four board members have publicly opposed Skillin closure on equity grounds. If that argument surfaces tonight, watch whether it expands to protect both buildings or only one — which would signal that one closure is politically viable and one is not.
+- **Whether pre-K is mentioned in connection with the closure options at all.** If neither the administration nor any board member raises pre-K space constraints as a factor in the closure decision, that silence is significant — it may mean the spatial protection argument has already been quietly retired from the official reasoning.
+- **The finance director's framing of the $8.4M gap after tonight's decisions.** If closure options save approximately $X and the board endorses them, how much gap remains? Jess needs to track whether an adopted closure option still leaves a substantial unaddressed deficit — which would mean more cuts are still coming.
+- **Any mention of pre-K lottery mechanics, seat counts, or September 2026 timeline.** If the board is discussing elementary reconfiguration and no one mentions what happens to the 128 pre-K seats, that's a gap Jess should raise or note for the public hearing.
+- **Superintendent transition signals.** If interim leadership is presenting these decisions, watch whether board members express confidence in their authority to make durable structural choices — or whether anyone defers to "the incoming permanent superintendent." Deference would be a signal that tonight's decisions might be revisited; confidence would mean they're being treated as final.
+- **Whether anyone raises the redistricting timing problem.** Families are expected to vote on May 5 without knowing which school their child will attend. If a board member or community member raises this tonight, track whether the board treats it as a legitimate concern or dismisses it as a sequencing inevitability.
+- **The tone when discussing the 72 layoff notices.** These went out before tonight's meeting, before any public hearing, and before the budget vote. If board members express discomfort with that sequencing, it may indicate some openness to process adjustments. If they treat it as standard procedure, it confirms that administrative decisions are moving faster than the public engagement process.
+- **Any mention of alternative funding — Education Foundation grants, community school designations, state early childhood dollars.** Jess should track whether any revenue-side options are discussed at this meeting or explicitly ruled out as meaningful offsets to the $8.4M gap.

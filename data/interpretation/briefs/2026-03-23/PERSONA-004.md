@@ -12,78 +12,88 @@ inter_meeting_evidence_count: 1
 # Brief: Marcus (PERSONA-004)
 ## Upcoming Meeting: 2026-03-23
 
+# Pre-Meeting Brief: Marcus (PERSONA-004 — High School Teacher / Frontline Educator)
+**Upcoming Meeting: South Portland School Board Budget Workshop — March 23, 2026**
+
+---
+
 ## Since Last Meeting
 
-The only new evidence since March 19 is a single document: the Google Slides deck prepared for tonight's March 23 board budget workshop. This is significant for you in several concrete ways.
+The critical development since your last processed meeting is the existence of the March 23 budget workshop presentation deck itself. The "FY27 Budget 3.23.26 Board Meeting" Google Slides document has been prepared for tonight's workshop and represents the administration's first structured, slide-by-slide layout of the proposed FY27 reductions since the 72 RIF notices went out on March 18. That sequencing matters: RIF notices went out *before* the board has formally voted on the structure they reflect. Tonight, the board is being asked to make decisions — presumably to ratify or advance a framework that colleagues already received notice about.
 
-This is not a public hearing and not a deliberation — it is a decision workshop. The presentation is organized around choices the board is expected to make tonight: FY27 personnel and non-personnel reductions, two elementary closure options, and **middle and high school reductions**. That last category is where your job lives. After weeks of watching the elementary reconfiguration dominate the public narrative, tonight's agenda puts the high school cuts on the table as a formal decision item.
+The deck is organized around five tracks: the current FY27 proposal overview, personnel reductions, non-personnel reductions, two elementary closure options, and middle and high school reductions. The final track is "decisions expected at the workshop." That phrase is the most significant detail available to you right now. This is not a listening session — the administration intends to come out of March 23 with board direction on specific cuts. That means tonight is a live decision point, not a preview of one.
 
-The 72 RIF notices issued March 18 were called "the first wave" on the council floor. Tonight's presentation almost certainly reflects the shape of that wave and potentially the second. You are not walking into an information session — you are watching the board formalize what has already been issued to your colleagues.
+For you specifically: the "middle and high school reductions" track is the one that maps most directly onto your building, your colleagues, and your students. This is the first time those reductions will be enumerated in a presentation format rather than described in aggregate. The gap between the headline number (72 RIF notices, 42 teacher cuts) and the actual department-by-department, course-by-course breakdown has been the central information problem for weeks. Tonight may partially close that gap — or the administration may continue to present aggregates.
 
-The deck's structure also signals what the administration considers resolved versus open. The fact that it includes "decisions expected at the workshop" means the board will be pushed toward votes or direction-setting tonight, potentially before the April 7 public hearing that you've been treating as the last real intervention point.
+The secondary concern is the two elementary closure options. You are not an elementary teacher, but every seniority bump triggered by an elementary reconfiguration flows districtwide. If a veteran elementary teacher bumps a less-senior middle school teacher who bumps into the high school, your department's staffing is affected regardless of which building is named in the closure model.
 
 ---
 
 ## Open Questions
 
-- **What specifically are the "middle and high school reductions"?** I need FTE counts by department, not categories. Which subject areas? Which course sections disappear? Which electives, AP courses, or CTE pathways get cut? The presentation exists — if it doesn't answer this tonight, I need to know why.
-
-- **How does seniority bumping cascade from elementary closures into SPHS?** If elementary buildings close and veteran elementary teachers bump into K–8 or even secondary positions, what does that do to my colleagues at the high school level who are lower on the seniority list?
-
-- **Are the 72 notices actually the first wave, and what triggers the second?** What is the decision tonight that determines whether more notices go out — and when?
-
-- **Has the administration finally produced the central office staffing breakdown?** The union formally requested this more than six weeks ago. The presentation covers personnel reductions — does it show administrative reductions proportional to the teacher cuts, or is it still 2 administrators to 42 teachers?
-
-- **How do the two elementary closure options differ in their downstream staffing impacts at the secondary level?** I need to understand which option displaces more teachers into positions that bump mine.
-
-- **What happens to AP course offerings, the CTE pathway, and elective sections?** Can SPHS maintain a competitive program of study with the headcount reductions on the table? Has anyone modeled section counts?
-
-- **Is the retirement buyout still live?** Feller proposed it. Has anyone pushed the administration to quantify how many of the 41 eligible staff would take it, and whether that changes the second-wave RIF math?
-
-- **What's the union's posture going into tonight?** Is SPEA on record tonight, and do they have any procedural leverage on the decisions being made at a workshop rather than a public hearing?
-
-- **Does tonight's vote or direction-setting lock in cuts before April 7, or is the public hearing still a genuine intervention point?** If the board gives direction tonight, the April 7 testimony window may be narrower than anyone is telling us.
+- **What exactly is in the "middle and high school reductions" slide?** Are we finally getting a department-by-department or course-by-course breakdown, or another aggregate FTE number with no program-level transparency?
+- **Which specific electives, AP sections, and CTE pathways are proposed for elimination — and has the administration modeled what happens to course section counts and class sizes when those positions go?**
+- **Has the early retirement buyout actually been offered to the 41 eligible employees, or is it still a proposal sitting on a slide somewhere while RIF notices are already out the door?**
+- **What are the "decisions expected at the workshop"?** Is the board being asked to vote on the reconfiguration model tonight, or on the personnel reduction framework? Because if colleagues received RIF notices on March 18 and the board is ratifying the cuts on March 23, the sequence is backwards — and the union needs to know what's being decided and when.
+- **Does the personnel reduction slide show FTE counts by building and department, or just totals?** Because district-level totals have been used consistently to obscure the high school's specific exposure.
+- **Which of the two elementary closure options creates more seniority-bumping pressure at the high school level — and has anyone modeled that cascade?**
+- **Is substitute coverage and planning period loss accounted for anywhere in the non-personnel reductions slide — or is the administrative cost of a leaner staffing model being hidden in teachers' unpaid time?**
+- **Will impact bargaining be triggered by anything the board votes on tonight, and if so, what's the union's timeline for demanding bargaining before implementation?**
+- **Why did 72 people get RIF notices before the board formally voted on the structure that generated those notices? In what order are these decisions actually being made?**
+- **Is the $8.4 million gap figure being revised again tonight — and if so, what changed between March 9 and now?**
+- **Are ed tech positions being shown as a separate line in the personnel slides, or are they buried in aggregates? Because the 16 ed tech cuts hit support for students with the highest needs and I need to see that number explicitly.**
 
 ---
 
 ## Agenda Implications
 
-No formal agenda is available for the March 23 meeting, but the budget workshop presentation provides a clear map of what to expect.
+No agenda has been published for the March 23 meeting. However, the budget workshop presentation structure is known from the inter-meeting evidence, and it gives you enough to prepare.
 
-**This is a high-stakes decision session, not an information exchange.** The board is being asked to make or ratify choices tonight. As a teacher, your role in the room — whether as an attendee, a testifier if public comment is permitted, or simply an informed observer — is to hold those decisions to account in real time and carry what you learn back to your colleagues and union before April 7.
+**Personnel Reductions track** — This is your primary focus. Listen for:
+- Whether FTE counts are broken out by building and department, or aggregated to obscure high school-specific exposure.
+- Whether the administration distinguishes between "frozen" positions (vacant, not being filled) and active RIF eliminations — these have very different seniority implications.
+- Whether ed tech reductions are presented as a separate line or folded into aggregate staffing numbers.
+- Whether anyone on the board asks what happens to class sizes in specific course sections after these reductions — and whether anyone can answer that question in concrete numbers rather than percentages.
 
-**On "middle and high school reductions":** This is the agenda item most directly relevant to your classroom, your department, and your colleagues. Listen for whether the presentation specifies which positions, which courses, and which buildings bear the SPHS-side cuts. If the slide deck aggregates cuts into totals without department-level breakdowns, that is not an accident — and you should flag it. A number without a breakdown is a political abstraction. You need the breakdown.
+**Prepare to ask or prompt a board member to ask:** How many teaching sections at the high school are proposed for elimination, and what is the projected average class size in affected departments after consolidation?
 
-**On elementary closure options:** Do not treat this as someone else's problem. Based on what was confirmed March 2, seniority bumping is district-wide. Every teacher eliminated or displaced from an elementary building potentially moves down the seniority ladder and pushes out a secondary teacher. Watch for whether tonight's closure decision includes a seniority displacement analysis or whether the board is voting without one.
+**Middle and High School Reductions track** — This is the slide you have been waiting three months for. Listen for:
+- Any naming of specific programs, course offerings, or pathways being eliminated (AP, electives, CTE). If the presentation stays at the FTE level without naming what disappears, push for program-level specificity.
+- Whether counselor and social worker positions are addressed here or are missing entirely from the presentation.
+- Any acknowledgment of the mandated four-year-old special education cohort arriving in September and what staffing that requires at any level.
 
-**On the overall framing:** The administration's three "big ideas" left a $3M+ gap unaddressed as of February. The deficit is now stated at $8.4M with the fund balance depleted. Watch for whether tonight's presentation accounts for the full gap or whether the cuts on the table still don't close it — which would confirm more waves are coming.
+**Prepare to ask:** Which specific programs or course sections at the high school are being eliminated under this proposal, and what does that mean for students who were enrolled in those courses?
 
-**Questions to prepare:**
-- What is the FTE count by department for the high school reductions? Which specific positions have received RIF notices?
-- Has a secondary seniority displacement analysis been completed for each elementary closure option?
-- Does the retirement buyout option reduce the number of forced RIF notices, and has the board been given a participation estimate?
-- If tonight's direction-setting proceeds, does the board consider April 7 testimony capable of materially altering the decisions made here?
+**Elementary Closure Options track** — You have to pay attention to this even though it's not your building. Listen for:
+- Whether either closure model triggers a seniority-bumping cascade that reaches the high school, and whether the presentation acknowledges that risk.
+- Whether the closures are presented as separate from or additive to the 78 positions already proposed for elimination.
+
+**"Decisions Expected at the Workshop" track** — This is the highest-stakes section of the meeting for your purposes as a union member. Listen for:
+- What specifically is being asked of the board tonight — is this a vote on the reconfiguration model, on the personnel reduction framework, or both?
+- Whether any board member raises the procedural question of why RIF notices preceded a board vote.
+- Whether Feller raises the early retirement buyout as a precondition for any board endorsement of the RIF structure.
+- Whether impact bargaining obligations are mentioned at all — if the administration is asking for a decision tonight without flagging bargaining requirements, that is a procedural signal worth flagging to union leadership immediately after the meeting.
 
 ---
 
 ## Watch For
 
-- **The specific content of the "middle and high school reductions" slides.** If the deck lists departments and course counts, note them. If it presents only aggregate FTE numbers, that tells you the administration is managing optics rather than informing the board.
+- **The word "decisions" in the final slide track.** If the board is asked to endorse or vote on the reduction framework tonight, that vote is time-stamped. Whatever impact bargaining rights exist need to be triggered before that vote hardens into an implementation directive. Watch whether any board member or the superintendent frames tonight's action as final or as directional.
 
-- **Whether the two elementary closure options are presented with a seniority cascade analysis.** If not, watch for whether any board member asks for one before voting. Feller has been the most union-adjacent board member — watch whether he demands this analysis before accepting a recommendation.
+- **Whether Feller raises the retirement buyout explicitly.** He has been the most responsive board member on alternatives to forced layoffs. If he doesn't raise it tonight — when the board is being asked to make decisions — it may be off the table entirely. His silence on that topic is as informative as his words.
 
-- **The administrative-to-teacher cut ratio.** If tonight's presentation still shows something like 2 administrators to 40+ classroom educators, the six-week stonewalling on the central office breakdown has a purpose. Document the ratio explicitly.
+- **Whether the high school reductions slide shows course-section-level specificity or stays at FTE totals.** Administration has used aggregates consistently to avoid naming what disappears. If tonight's presentation maintains that pattern, you have direct evidence to bring to the April 7 hearing: the board is being asked to vote on cuts it has not seen at the program level.
 
-- **Whether the board votes or gives formal direction tonight.** A "workshop" can quietly become a decision session. If the chair asks for a show of hands, consensus, or any motion, that is a binding signal — not just discussion. Track which members signal support for which closure option and which reduction package.
+- **Chair DeAngelis's management of public comment and board discussion.** Her pattern has been to move toward closure and dismiss dissent. If she limits board discussion of the "decisions expected" track, or moves to call the question before members like Feller or Smith have weighed in, that procedural compression is worth documenting.
 
-- **Any mention of a second wave of RIF notices — timing, triggers, or scope.** If the March 18 notices were "the first wave," tonight's decisions about how to close the remaining gap will determine the second.
+- **Whether any board member asks about the seniority-bumping cascade from the elementary models.** If no one raises it, the board is voting on reconfiguration without understanding its staffing implications for the entire district — including your building.
 
-- **Chair DeAngelis's posture on the high school reductions specifically.** She has driven the elementary reconfiguration narrative as "fabulous" and dismissed parent testimony. Watch whether she applies the same framing to secondary cuts or whether the high school's political profile creates any hesitation.
+- **Whether the non-personnel reductions slide attempts to address substitute coverage costs.** If leaner staffing creates substitute shortages, the hidden cost is teachers covering classes during planning periods. That cost doesn't show up in the budget as an expense — it shows up in your gradebook and your work hours. Watch whether anyone accounts for it.
 
-- **Any board member who asks about program integrity at SPHS** — AP course viability, CTE pathway continuity, section counts. That member is a potential ally and worth engaging after the meeting.
+- **Whether the $8.4 million gap figure is restated, revised upward, or quietly revised down.** Any number change tonight relative to the March 19 figure needs to be flagged. A moving gap number — especially one that contracts conveniently right before a decision vote — is a data-integrity signal given the audit history.
 
-- **Whether public comment is permitted and how it is structured.** If this is a workshop with no public comment window, that is itself information — and it strengthens the argument that April 7 is the only remaining public intervention point. If comment is permitted, note who speaks and what the board's response is.
+- **The sequencing of RIF notices vs. board votes.** The notices went out March 18. The board is voting March 23. If anyone on the board — or in the room — raises the question of whether the administration acted ahead of board authorization, pay close attention to how the superintendent and board chair respond. That answer tells you whether the board is governing the process or ratifying decisions already made.
 
-- **Any language suggesting tonight's decisions are "preliminary" or "directional."** That framing is often used to insulate decisions from accountability while still locking them in. If you hear it, treat it as a done deal and plan accordingly for April 7.
+- **Who is in the room from the union, and whether union reps are given public comment time before the "decisions" vote, not after it.** If public comment is scheduled after the decision track, that's a procedural inversion worth objecting to publicly or through the union rep present.
 
-- **The retirement buyout.** If it appears in the presentation or in board discussion, watch for a concrete participation estimate and timeline. If it has quietly disappeared from the agenda entirely, that is worth raising through union channels before April 7.
+- **Tone shift from any board member who has been quiet.** Smith engaged on spending freeze impacts; Richardson has been dismissive. Any shift from either — toward urgency, toward skepticism of the administration's numbers, toward explicit questions about high school program survival — is a signal worth noting for the April 7 hearing strategy.

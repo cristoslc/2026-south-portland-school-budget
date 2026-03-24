@@ -2,7 +2,7 @@
 schema_version: "1.0"
 brief_type: "general"
 brief_mode: "evergreen"
-generated_date: "2026-03-21"
+generated_date: "2026-03-23"
 has_agenda: false
 inter_meeting_evidence_count: 1
 ---
@@ -12,69 +12,61 @@ inter_meeting_evidence_count: 1
 
 ## Budget Snapshot
 
-South Portland Schools has released a draft FY27 budget proposal totaling **$75,600,000** — up roughly $2.5 million from the FY26 budget of $73,131,556, and up nearly $9.5 million from two years ago. The proposal is currently in the board workshop phase, with the school board scheduled to hold a workshop and special meeting on March 23, 2026.
+South Portland Schools is in the middle of its annual budget process for the 2026–27 school year (FY27). As of March 23, 2026, the superintendent has presented a draft proposed budget of **$75,600,000** — up from $73,131,556 in FY26 and $69,279,601 in FY25. The budget is still labeled "draft" in the official presentation materials.
 
-Despite the overall increase, the proposal includes **significant cuts** intended to reduce what would otherwise be a larger gap:
+The proposal is built around significant cost-cutting measures alongside some spending increases driven by special education and facilities costs:
 
-- **12% staff reduction** across the district
-- **$703,000 in non-personnel cuts**, including reduced building costs, software and hardware purchases, supplies, and the elimination of a second lunch period
-- **$808,000 in other reductions**, including reduced nutrition program transfers, a deferred FY26 deficit payment, reduced transportation overtime, elimination of five part-time lunch aide positions, and removal of an auditorium stipend
+- **A 12% staff reduction** across the district
+- **Closing one elementary school** for the 2026–27 school year (the building would not be demolished — the district recommends keeping it available for potential lease revenue for up to four years)
+- **$703,000 in non-personnel reductions**, including cuts to building supplies, software and hardware purchases, a second lunch period, and custodial contingency spending
+- **$808,000 in other reductions**, including a scaled-back nutrition fund transfer, deferred payment of an FY26 deficit to the city (pushed to FY28), reduced transportation overtime, and elimination of five part-time lunch aide positions
 
-The biggest driver of cost increases is **Special Education**, which has risen from $12.7 million two years ago to a proposed $16.4 million in FY27. Facilities costs are also up substantially, from $6.2 million to $7.3 million.
+Despite these cuts, some cost centers are growing. Special Education is budgeted at $16.4 million — up from $15 million in FY26. Transportation and Facilities costs are also higher than last year.
 
-The clearest headline: the district is proposing to **close one elementary school** for the 2026–27 school year as a core part of balancing this budget. The administration recommends against permanently decommissioning the building; instead, it would be taken out of use for school programs and potentially leased for up to four years while the district evaluates long-term options.
-
-The exact **tax impact** has not yet been released. As of the presentation materials dated March 20, school administration was meeting with city finance staff and planned to post finalized tax information by Monday, March 23.
+The **tax impact** of this proposal was not yet finalized at the time the presentation was prepared. The document notes that school administration was meeting with City Finance and planned to post finalized numbers the same day as the March 23 workshop.
 
 ---
 
 ## What Changed
 
-The most significant recent development is the **sharpening of the elementary school closure proposal**. Earlier in the budget process, closure was one of several possibilities under discussion. As of the March 23 workshop materials, the superintendent's budget officially includes a closure recommendation and presents two specific options for the board to consider.
+The most significant recent development is the formal presentation of a specific budget number ($75.6 million) along with concrete line-item reductions. Earlier in the process, the board had been exploring options without a settled proposal on the table.
 
-A key clarification was also added: **if the board does not move forward with a school closure**, the administration estimates that an additional **12 to 16 positions** would need to be eliminated from across the district to achieve a balanced budget. This frames the closure decision directly as a tradeoff against deeper staffing cuts elsewhere.
+Key clarifications since earlier discussions:
 
-The **PreK program structure** was also refined. The current proposal maintains four locally funded PreK classrooms (64 seats) and expands total PreK capacity to 120 seats by adding state-funded and partnership seats — but does not use new local dollars for that expansion.
-
-The **FY26 deficit payment to the city** (estimated at $200,000) was pushed back to FY28. This reduces the FY27 budget obligation but does not eliminate it.
+- **Pre-K is not being expanded using local dollars.** The district is maintaining four locally funded Pre-K classrooms at the same level. Any expansion — from 80 total seats in 2025–26 to 120 in 2026–27 — would come through state CDS funding and a new Headstart partnership, not from the local budget.
+- **Elementary closure is now the superintendent's stated recommendation**, not just one scenario among several. The superintendent's budget formally includes this recommendation. Two specific options are under board consideration, though the slide text provided does not name the buildings.
+- **The alternative to closing a school is steeper cuts elsewhere.** The presentation explicitly states that if no school is closed, an estimated 12 to 16 additional positions would need to be eliminated from across the district to balance the budget.
+- **An FY26 deficit payment to the city has been deferred.** A previously anticipated $200,000 payment to the city for an FY26 shortfall has been removed from the FY27 budget and pushed to FY28.
 
 ---
 
 ## Major Decisions Ahead
 
-**1. Which elementary school to close (or whether to close one at all)**
-This is the most consequential near-term decision. The board is being presented with two closure options at the March 23 workshop. The administration has made clear the alternatives involve deeper staffing cuts.
+The budget is not finalized. Several major decisions remain in front of the School Board and City Council:
 
-**2. Finalizing the tax impact**
-The tax impact on city residents has not yet been publicly confirmed. It was expected to be posted the morning of March 23. This number will significantly shape public and council reaction.
-
-**3. City Council approval**
-The City Council does not set the school budget, but it does vote on the overall city spending plan that includes the school allocation. The Council's budget workshops on April 14, April 28, and May 12 will be key, with a formal vote expected May 5.
-
-**4. Public vote on June 9**
-Maine law requires a public referendum on the school budget. The June 9 date has been set. If voters reject the budget, the board must revise and re-present.
-
-**5. Long-term use of any closed school building**
-The administration has proposed a leasing model for up to four years before any permanent decision. The board has not yet acted on this.
+1. **Which elementary school to close, or whether to close one at all.** The board is evaluating two options for closure. If they reject both, they must find 12–16 additional positions to cut.
+2. **Approval of the FY27 budget by the School Board.** Two more board workshops are scheduled (March 30 and April 13) before a formal presentation to City Council.
+3. **City Council budget vote on May 5, 2026.** The council will vote on the school budget after its own workshops in April.
+4. **Public referendum on June 9, 2026.** South Portland voters will have a final say on the school budget at a public vote.
 
 ---
 
 ## Open Questions
 
-- **Which specific elementary school will be proposed for closure?** The two options were to be presented at the March 23 workshop; they are not identified in the available pre-meeting materials.
-- **What is the estimated tax impact per household?** This figure was pending finalization at the time the source documents were prepared.
-- **What happens to students and staff displaced by an elementary closure?** Redistricting plans and transition details have not been detailed in the available evidence.
-- **What is the total number of positions eliminated, and which roles are affected?** The "12% staff reduction" figure is stated but a breakdown by department or role type is not provided in the available materials.
-- **How was the $75.6 million total determined?** The budget overview is labeled "draft" and the tax impact was still being finalized, meaning this figure may shift.
-- **What are the middle school and high school reductions?** The March 23 presentation agenda lists these, but the detail was not available in the pre-meeting slide text provided.
-- **Will the board consider a closure at the March 23 meeting, or only discuss options?** The agenda lists "Decisions" as a step but it is not confirmed whether a final vote on closure is expected that night or at the March 30 follow-up workshop.
+- **Which two elementary schools are the closure options?** The presentation references two options but the source text does not name the specific buildings.
+- **What is the actual tax impact?** The presentation explicitly notes this was not yet finalized as of the workshop date.
+- **What are the specific middle school and high school reductions?** The agenda lists these as a separate section of the presentation, but the full slide content was not available in the provided sources.
+- **Will the board accept the elementary closure recommendation?** No vote has occurred yet; the March 23 workshop is a decision point, not a final vote.
+- **How will the FY26 deficit owed to the city be handled in FY28?** The $200,000 has been deferred, not eliminated.
+- **Will any lease revenue from a closed building materialize, and when?** The district has not confirmed a leasing arrangement.
 
 ---
 
 ## Where To Verify
 
-- **South Portland Schools budget page**: The administration indicated slides would be posted at [https://www.spsdme.org/page/budget27](https://www.spsdme.org/page/budget27) — this is the most direct source for the full presentation and any updated figures.
-- **School board meeting materials**: The March 23 and March 30 workshop agendas and any posted minutes will reflect official board discussion and decisions. Check the South Portland Schools website or the district's board portal.
-- **City Council agenda portal**: The March 19 council meeting materials, including the consent order to set the FY27 budget public hearing, are available at the Diligent/Boarddocs portal linked in the agenda source. Budget workshop materials will appear there ahead of the April 14 council session.
-- **Tax impact notice**: The administration stated finalized tax information would be posted publicly by the morning of March 23. Check the district's budget page for that figure.
-- **City Finance Department**: For questions about the city-side budget allocation and how the school budget fits into the overall municipal spending plan, the City of South Portland Finance Director's office is the authoritative source.
+- **The official FY27 budget slide deck** (March 23, 2026 board workshop): Available at [https://www.spsdme.org/page/budget27](https://www.spsdme.org/page/budget27) — this is the primary source for the figures and proposals described above.
+- **South Portland School Board meeting records**: Board workshops on March 23 and March 30 are the next scheduled budget discussions. Meeting agendas and materials are posted through the district website.
+- **City Council workshop agenda (April 14, 2026)**: Listed on the city's meeting calendar as "Budget Workshop #1." The City Council portal is at [southportland-gov.community.diligentoneplatform.com](https://southportland-gov.community.diligentoneplatform.com).
+- **City Council vote (May 5, 2026)**: The council will vote on the school budget at its regular meeting. Agendas and minutes are publicly posted.
+- **Public referendum (June 9, 2026)**: South Portland voters will vote on the final school budget. Watch for official notice from the city clerk.
+- **City Finance Department announcements**: The tax impact figures were expected to be posted publicly the week of March 23. Check the district and city websites for that update.

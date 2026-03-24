@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-010"
 persona_name: "Ben"
 upcoming_meeting_date: "2026-03-23"
-generated_date: "2026-03-21"
+generated_date: "2026-03-23"
 has_agenda: false
 last_cumulative_meeting: "2026-03-19"
 inter_meeting_evidence_count: 1
@@ -12,83 +12,80 @@ inter_meeting_evidence_count: 1
 # Brief: Ben (PERSONA-010)
 ## Upcoming Meeting: 2026-03-23
 
+# Pre-Meeting Brief: Ben (PERSONA-010 — Forecaster Writer)
+**Upcoming Meeting: South Portland School Board Budget Workshop — March 23, 2026**
+
+---
+
 ## Since Last Meeting
 
-The significant development is the appearance of the March 23 budget workshop presentation deck (dated March 20), which means Ben now has advance sight of what the district intends to put in front of the board Monday night. This matters for his reporting in two specific ways.
+The most significant inter-meeting development is the existence of a budget presentation deck prepared specifically for tonight's workshop. A Google Slides document titled *FY27 Budget 3.23.26 Board Meeting* was circulated ahead of the meeting and contains more operational specificity than anything Ben has seen from this administration in the past three months. Its outline — current FY27 proposal, personnel reductions, non-personnel reductions, two elementary closure options, middle and high school reductions, and decisions expected at the workshop — is consequential in several ways.
 
-First, the deck's existence confirms this is a decision-oriented meeting, not another information-only presentation. The agenda description explicitly names "decisions expected at the workshop" — which means Monday night could be the first meeting where the board has to go on record about specific cuts, not just react to administrator recommendations. For Ben's publication cycle (meeting Monday, draft Wednesday, publish Friday), this is a potential turning point piece.
+**The "two elementary closure options" framing is new and significant.** Three weeks ago (March 2), four board members publicly rejected Option 1.7, the administration's highest-ranked option to close Skillin Elementary, on equity grounds. That vote effectively killed the district's top recommendation. The March 23 deck now references two options — suggesting the administration has either reformulated its proposal, surfaced a second closure scenario (a different school? a merge-down? a partial closure?), or is presenting Skillin alongside an alternative to give the board a genuine choice. For Ben, this is the most story-rich item tonight: if the board was willing to kill Option 1.7, what does the second option look like, and will the same four members accept it on educational equity terms they did not apply to Skillin?
 
-Second, the deck reportedly includes "two elementary closure options" — which is notable given that the administration's top option (close Skillin) was functionally declared dead by four board members on March 2. If two closure options are still in the deck on March 20, either the administration hasn't absorbed the political signal, or they're presenting a scaled-down alternative alongside Skillin to give the board a politically survivable choice. Ben needs to know which.
+**The "decisions expected at the workshop" language is the most operationally important phrase in the inter-meeting evidence.** Nine months into a crisis that has produced no formal board votes on reconfiguration, the administration appears to be framing tonight as a decision meeting — not another deliberation. If that's accurate, Ben is walking into the first moment the board has to actually commit to a path. That's a story regardless of which direction they go.
 
-No other new public information has surfaced between March 19 and this meeting. The absence of intervening news is itself a signal: the $100K Project Home vote, Councilor Matthews' explicit linkage of school pink slips to her no vote, and the sewer rate data from March 19 have not been publicly answered or addressed by school leadership. Ben is walking into Monday's meeting with a story the school board hasn't formally acknowledged.
+**Middle and high school reductions are explicitly named in the deck's outline.** These have received almost no public airing in Ben's months of coverage — the debate has centered almost entirely on elementary reconfiguration. If specific secondary cuts are being proposed or decided tonight, Ben may be writing about programs and positions that readers at Mahoney Middle or SPHS haven't heard are at risk.
+
+The absence of any other inter-meeting evidence — no press release, no community letter, no updated enrollment data — is itself a signal. The district is letting the budget workshop do the communicating. Ben should treat the slide deck outline as a map, not a summary: the specific numbers, scenarios, and decision language inside it will matter far more than the section headers suggest.
 
 ---
 
 ## Open Questions
 
-Ben is carrying these into Monday:
-
-- **Which number is right — 72 or 78?** Matthews said 72 formal RIF notices were issued March 18. The board's own records show 78 positions. I need a direct answer from someone official before I publish a specific number, because that discrepancy could mean a second RIF wave is coming — or it could mean different counting methods, and either story is significant.
-
-- **What are the two closure options in this deck, and is Skillin still one of them?** If the administration is still presenting Skillin as an option after four board members publicly rejected it on March 2, what does that tell me about who's actually driving this process?
-
-- **Where does the other $4 million come from?** The three big ideas get you to roughly $4M in savings against an ~$8M gap. That other $4M hasn't been named publicly in any specific list. Does this deck name it? If not, why not — and is Monday the night the board finally has to confront that silence?
-
-- **Can this actually be implemented by September 2026?** It's March 23. Any reconfiguration decision made tonight gives the district roughly five months to notify families, manage transfers, handle staff assignments, and open a restructured school in the fall. Has anyone put a realistic implementation calendar in front of the board?
-
-- **Has the district given the union the administrative staffing growth data it formally requested?** Three months, still not public. If I can't get that data, I can't independently verify whether the cuts are landing proportionally on classroom staff versus administrators — and that's the most important equity question in this budget.
-
-- **What does the early retirement buyout actually look like now?** It was floated in February — 41 eligible staff, estimated $1M savings if 20 accept. Has this become a formal proposal? Is it in this deck? If it is, what are the acceptance incentives, and are any of those 41 people in positions that would otherwise be eliminated?
-
-- **What is the all-in number for a median South Portland homeowner through FY29?** I still don't have an official combined calculation — school increase plus sewer rate increases (22%/year for three years) plus the November 2026 public safety bond plus the potential November 2027 Mahoney bond ($70–76M), all priced against the $514K average assessed value. That's the lead of the pre-referendum piece and no official body has published it.
-
-- **Will the board go on record tonight about the tax rate?** The council handed down 3–4% guidance while the school side needs something much higher to avoid catastrophic cuts. At some point, the board has to say a number. Is Monday that meeting?
-
-- **Does the middle and high school reduction section of this deck contain cuts that haven't been surfaced publicly yet?** The community conversation has been almost entirely about elementary reconfiguration. If there are significant secondary-level cuts in this proposal that haven't been announced to affected families, that's a story on its own.
+- **What exactly are the two elementary closure options?** Is one of them Skillin? Is the second a different school — Dora L. Small? Brown? — or a reconfiguration that avoids closure framing entirely? The administration's March 2 ranking was publicly discredited by four board members; what did they put in its place?
+- **Are we finally getting a specific cut list tonight?** The gap above the three "big ideas" is still roughly $4M with no public accounting. Does the deck actually name the positions and programs that fill it — or does "decisions expected" mean something softer?
+- **Which number goes to print: 72 or 78?** Matthews cited 72 formal RIF notices issued March 18. My running count from board records has been 78 positions. The administration needs to reconcile those figures tonight. If they don't, I need to ask.
+- **What are "middle and high school reductions"?** I haven't heard a substantive discussion of secondary cuts. Are there specific programs on the chopping block at Mahoney or SPHS that nobody has told the public about yet?
+- **Is the board actually voting tonight, or is "decisions expected" aspirational language?** Nine months of deliberation with no formal votes. If the administration is signaling decisional intent, does the full board agree? Will the same four who killed Skillin fracture again on a second option?
+- **What's the current gap figure the administration is working from?** It was "closer to $8 million" on March 2. Matthews said $8.4M on March 19. The deck either updates that number or works from one of the existing figures — I need to know which before I can write anything with a dollar sign in it.
+- **Does the administration present any academic achievement rationale for the closure options?** On March 2, I noted zero educational outcome data to justify disrupting 300 families. If they're bringing two closure options tonight, do they bring the evidence this time?
+- **Is the early retirement buyout (41 eligible staff, potential $1M savings) included in the FY27 proposal, or still floating?** It surfaced February 9 and hasn't been formally acted on. Where does it land in tonight's accounting?
+- **What does this proposal mean for a specific family — at a specific school, in a specific grade?** I have the macro picture. I need one or two concrete human situations I can call a parent about Wednesday morning.
 
 ---
 
 ## Agenda Implications
 
-No formal agenda has been posted for the March 23 meeting. However, the budget workshop presentation deck gives Ben a working outline of what will be covered. Based on that document and the cumulative state of the budget process, here is what Ben should expect and prepare for:
+No formal agenda is available for this meeting. However, the slide deck outline provides a working map of tonight's structure. Based on that outline and Ben's cumulative understanding, here is what each section likely means for his reporting:
 
-**The FY27 formal proposal is being presented for the first time as a coherent package.** This is different from every previous meeting, where the district presented scenarios, options, and ranges. If Monday night includes a specific proposed budget with line-item reductions, it is the first document Ben can cite as the district's actual proposal — not a planning exercise. He should be ready to get that document, read the totals carefully, and compare them to the figures he's been tracking (the ~$8M gap, the 78 positions, the three big ideas).
+**"Current FY27 Proposal"**
+This section should establish the updated budget baseline — the gap figure, the tax rate implied, and the fund balance status. Ben should listen for whether the administration formally adopts $8M, $8.4M, or a different number as the operative gap. Any change from prior figures is news. He should also watch whether the nutrition fund deficit ($1.1M, surfaced February 9) is incorporated into the current-year baseline or treated separately. If it's been folded in without announcement, that's a quiet supersession worth flagging.
 
-**What this means for Ben specifically**: This is potentially the most important meeting of the budget season for his purposes. A formal proposal with a tax rate number attached is the piece he needs to write the pre-referendum story. If the board votes on anything tonight — even a straw poll on the tax rate or a direction on elementary configuration — that is a publishable development. He should watch SPC-TV recording at 1.5x no later than Tuesday morning and have his draft started by end of day Tuesday.
+**"Personnel and Non-Personnel Reductions"**
+This is the section most likely to contain the specific cut list Ben has been missing. Listen for whether named positions, programs, or schools appear for the first time — especially anything affecting Mahoney Middle or SPHS, which has had almost no public coverage. The union's formal request for administrative position growth data (unanswered for three months) is still unresolved: does tonight's personnel section finally show administrative staffing alongside instructional staffing, or does it present only cuts to classroom positions? If administrative cuts are absent or opaque, that's a question to ask in public comment or afterward.
 
-**What to listen for**:
-- Any board member stating a specific tax rate number they will or won't support
-- Any signal that the two closure options represent a genuine choice vs. one surviving option plus a placeholder
-- Whether the middle and high school reductions section surfaces cuts that families don't yet know about
-- Whether the $4M gap above the big ideas is addressed with a specific list or left as a placeholder
-- Whether the implementation timeline for September 2026 is mentioned at all — and if so, who raises it and how the administration responds
+**"Two Elementary Closure Options"**
+This is the story within the story. Ben should prepare to document both options completely — which schools, what savings estimates, what enrollment affected, what equity arguments each invites. He should listen specifically for whether either option is Skillin, and whether the four members who killed Option 1.7 three weeks ago have any different posture toward whatever is being offered tonight. If both options are rejected again, the administration's reconfiguration path is effectively exhausted and the board has to explain where the remaining gap comes from.
 
-**Questions to prepare**:
-- After the meeting: "What is the proposed tax rate in tonight's document, and is that the number going to referendum on June 9?"
-- After the meeting: "Are the two elementary options being presented as genuine alternatives, or does the administration have a recommendation between them?"
-- Background call with business manager: "Can you walk me through the non-personnel reductions section — what's in that category, and what's the dollar total?"
-- Background call with union: "Was any of tonight's proposal new information to you, or had you been consulted on the personnel reduction list before tonight?"
+**"Middle and High School Reductions"**
+Relatively uncharted territory. Ben should be prepared to take detailed notes on anything named here — specific electives, sports, staffing ratios, support positions. These reductions have not been previewed in public, which means the families affected haven't heard yet. This section has the most potential for the kind of human story (a teacher, a program, a team) that Ben needs to ground the macro numbers.
+
+**"Decisions Expected at the Workshop"**
+This is the section Ben should watch most carefully. If the board votes on anything tonight, it is the first formal decision on FY27 reconfiguration after nine months of deliberation — and that is the lede. He should be alert to procedural signals: does the chair call for a formal vote or a "consensus check"? Does any member object to the decisional framing? Does the administration present a recommended path and ask for board affirmation, or does it lay out options and wait? The distinction between a vote and a straw poll matters for what Ben can report.
 
 ---
 
 ## Watch For
 
-- **The exact language used for the two closure options.** If one is "close Skillin" and the other is a consolidation that affects Skillin differently, listen for how board members who rejected Option 1.7 on March 2 respond — whether they treat the second option as a genuine alternative or as the same medicine with a different label.
+- **Whether either of the two elementary closure options is Skillin** — and if so, whether the administration has repackaged it or made a genuine structural change. If Skillin is back on the table under a different label, that's a story about political semantics, not a new proposal.
 
-- **Whether anyone names the $4M gap explicitly.** If the proposal adds up to roughly $4M in identified savings and the gap is ~$8M, someone in the room either has to pretend the math works or acknowledge it doesn't. The moment a board member or administrator is forced to address that discrepancy on the record is quotable.
+- **The first formal board vote on FY27 reconfiguration.** If it happens tonight, note exactly what was voted, which members voted yes and no, and what the motion text was. This is the moment that transitions the story from "board is deliberating" to "board has decided."
 
-- **Member Feller's positioning.** She was the first board member to signal willingness to exceed 6% in January. If she speaks tonight about tax rate, her language has shifted three months and may represent where the board majority is actually landing.
+- **Any named cuts at the secondary level (Mahoney Middle, SPHS)** that have not appeared in prior public meetings. Secondary families have been largely absent from the story Ben has been building. New cuts here open a new chapter.
 
-- **Any mention of a specific implementation calendar for September 2026.** The absence of a timeline in the presentation would itself be a story — and if someone asks and no one can answer, that's the lede of the "can they actually do this?" piece.
+- **The updated gap figure.** Watch for whether the administration formally states $8M, $8.4M, or something else — and whether the nutrition fund deficit ($1.1M) is now embedded in that figure or still separated.
 
-- **The middle and high school reductions section.** This has received almost no public attention. If significant secondary cuts are being proposed tonight that haven't been publicly discussed, the families and staff affected may be learning about it for the first time through this meeting. Watch for audience reaction, not just board reaction.
+- **DeAngelos' body language and framing on the two closure options.** Her consistent equity-driven opposition to Skillin closure has been the defining through-line of the board's deliberations. Does she champion one of the two options tonight, or does she signal skepticism about both? Her posture will tell Ben whether the board is closer to consensus or about to fracture again.
 
-- **Whether Matthews' March 19 framing — 72 pink slips, $8.4M deficit — is referenced, corrected, or ignored.** If board members or staff address her figures, you have an on-the-record reconciliation. If no one addresses them, that silence is notable.
+- **The board member(s) who killed Option 1.7 three weeks ago (specifically the four equity-objectors).** Watch whether any of them have shifted position. A single defection from that bloc changes the political math entirely.
 
-- **Any mention of the retirement buyout as a formal line item.** If it appears in the proposal with a savings figure, it means the administration is treating it as bankable — and you need to know what the acceptance assumption is, because that assumption could be wrong.
+- **Whether "decisions expected" produces an actual decision or a deferral.** If the board punts again after the administration frames this as a decision workshop, that's not a status-quo non-event — it's an escalation of the execution-risk story Ben has been building since March 9. The question to prepare: "When does the board need to decide in order to implement reconfiguration by September?"
 
-- **Body language and procedural signals when the tax rate comes up.** Watch for any board member requesting a recess, requesting tabling, or asking for "more information before we vote" on tax guidance — those are signals of a board not ready to go on record, which is itself the story at this stage of the calendar.
+- **Any figures that reconcile the 72 vs. 78 RIF discrepancy.** If the administration presents a specific headcount tonight, write it down precisely and compare it to both Matthews' March 19 statement and Ben's running count. Whichever number is wrong, someone needs to explain it before Ben publishes.
 
-- **Superintendent DeAngelos' framing language.** She has consistently used equity framing throughout this process. If her language tonight shifts toward urgency and deadline pressure — "we must decide tonight" or "the calendar requires a vote" — that represents a change in her public posture that's worth noting.
+- **Whether the "decisions expected" framing includes any vote on the early retirement buyout.** This is a $1M item with 41 eligible staff that has been floating since February 9. If it appears in the personnel section tonight, it may finally be moving toward adoption — which gives Ben a human-interest angle (staff who might take it) and a financial reality check (even if all 20 threshold acceptances materialize, it covers ~12% of the gap).
 
-- **Any reference to the June 9 referendum date and the milestones between now and then.** The April 14 budget workshop (first time the school department formally presents to full council) is the next major calendar anchor. If someone mentions April 14 tonight, or if the timeline between March 23 and June 9 is laid out explicitly, that sequence becomes the spine of Ben's remaining coverage.
+- **Anything that allows Ben to calculate a per-household, per-school, or per-student number.** The macro $8M figure lands for very few readers. If the administration presents per-pupil cost implications, school-specific budget shifts, or a tax rate scenario attached to tonight's proposal, those are the numbers that make the Friday piece work for a non-engaged resident.
+
+- **Whether any board member explicitly invokes the combined tax burden** — school increase plus sewer rate increases (22%/year through FY29) plus the November 2026 public safety bond plus the November 2027 Mahoney bond. Matthews did this implicitly on March 19 when she linked the $100K Project Home vote to the 72 pink slips. Does any member do it explicitly tonight, in the context of the school budget itself? If so, that's Ben's connective quote.

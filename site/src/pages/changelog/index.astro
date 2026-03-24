@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { readFileSync, existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+
+const changelogPath = resolve('..', 'dist', 'changelog.md');
+let changelogHtml = '<p>No changelog available yet.</p>';
+
+if (existsSync(changelogPath)) {
+  const raw = readFileSync(changelogPath, 'utf-8');
+  // Simple markdown-to-html: headings, lists, paragraphs
+  changelogHtml = raw
+    .split('\n')
+    .map(line => {
+      if (line.startsWith('# ')) return `<h1>${line.slice(2)}</h1>`;
+      if (line.startsWith('## ')) return `<h2>${line.slice(3)}</h2>`;
+      if (line.startsWith('### ')) return `<h3>${line.slice(4)}</h3>`;
+      if (line.startsWith('- ')) return `<li>${line.slice(2)}</li>`;
+      if (line.trim() === '') return '';
+      return `<p>${line}</p>`;
+    })
+    .join('\n')
+    // Wrap consecutive <li> in <ul>
+    .replace(/(<li>.*<\/li>\n?)+/g, match => `<ul>${match}</ul>`);
+}
+---
+
+<BaseLayout title="Changelog" activePage="changelog">
+  <main class="container">
+    <h1>Site Updates</h1>
+    <p class="briefing-meta">A record of what changed with each pipeline run.</p>
+
+    <article class="briefing-content" set:html={changelogHtml} />
+  </main>
+</BaseLayout>

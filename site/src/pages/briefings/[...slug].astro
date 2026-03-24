@@ -54,7 +54,7 @@ const cat = briefing.data.persona_id
   : { badge: 'General', className: 'badge-general' };
 ---
 
-<BaseLayout title={displayTitle} activePage="briefings" description={`${displayTitle} — South Portland FY27 School Budget`}>
+<BaseLayout title={displayTitle} activePage="briefings" description={`${displayTitle} — South Portland FY27 School Budget`} lastRefreshed={briefing.data.generated_date}>
   <main class="container">
     <a href={`${base}briefings/`} class="back-link">&larr; All Briefings</a>
 

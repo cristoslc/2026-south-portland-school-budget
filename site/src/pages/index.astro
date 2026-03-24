@@ -33,9 +33,15 @@ const categories: Record<string, { badge: string; className: string }> = {
 function getCat(personaId: string | undefined) {
   return categories[personaId ?? ''] ?? { badge: 'Persona', className: 'badge-persona' };
 }
+
+const latestDate = briefings
+  .map(b => b.data.generated_date)
+  .filter(Boolean)
+  .sort()
+  .pop();
 ---
 
-<BaseLayout title="Home" activePage="home">
+<BaseLayout title="Home" activePage="home" lastRefreshed={latestDate ? `Briefings ${latestDate}` : undefined}>
   <section class="hero">
     <div class="container">
       <h1>South Portland Budget Watch</h1>

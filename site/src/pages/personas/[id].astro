@@ -39,7 +39,7 @@ const briefings = await getCollection('briefings');
 const matchingBriefing = briefings.find(b => b.data.persona_id === persona.data.artifact);
 ---
 
-<BaseLayout title={persona.data.title} activePage="personas" description={`${persona.data.title} — stakeholder perspective on the South Portland FY27 budget`}>
+<BaseLayout title={persona.data.title} activePage="personas" description={`${persona.data.title} — stakeholder perspective on the South Portland FY27 budget`} lastRefreshed={persona.data['last-updated']}>
   <main class="container">
     <a href={`${base}personas/`} class="back-link">&larr; All Perspectives</a>
 

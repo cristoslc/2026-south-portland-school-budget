@@ -321,6 +321,14 @@ main {
   color: var(--color-sky-light);
 }
 
+.footer-freshness {
+  font-size: 0.8rem;
+  color: var(--color-footer-muted);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
 .footer-disclaimer {
   margin-top: 0.75rem;
   font-size: 0.85rem;

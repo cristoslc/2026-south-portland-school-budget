@@ -10,7 +10,6 @@ sources:
     source_type: transcript
     title: "City Council Meeting — 2025-12-04"
     path: data/city-council/meetings/2025-12-04/transcript.en-x-autogen.vtt
-    normalized_path: docs/troves/city-council-meetings-2026/sources/018-city-council-meeting-2025-12-04-2026-south.md
     evidence_pool: city-council-meetings-2026
-    hash: "sha256:f6546c6fab0abea378f5995a6ad28ff027da7422dcd4dfec16ac9bf5e8e6b9cf"
+    hash: "f6546c6fab0abea378f5995a6ad28ff027da7422dcd4dfec16ac9bf5e8e6b9cf"
     duration: "02:24:01"

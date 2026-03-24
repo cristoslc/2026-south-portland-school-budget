@@ -8,14 +8,6 @@ title: "City Council Regular Meeting — March 19, 2026"
 agenda_ref: data/city-council/meetings/2026-03-19/agenda.txt
 
 sources:
-  - source_id: "cc-agenda-2026-03-19-020"
-    source_type: agenda
-    title: "City Council Agenda — 2026-03-19"
-    path: data/city-council/meetings/2026-03-19/agenda.txt
-    normalized_path: docs/troves/city-council-meetings-2026/sources/020-city-council-agenda-2026-03-19-2026-03-19.md
-    evidence_pool: city-council-meetings-2026
-    hash: "sha256:4b47882538edf8ee3f7753684014a8ef785d122bae79953202a1665a7114ad9e"
-
   - source_id: "cc-transcript-2026-03-19-022"
     source_type: transcript
     title: "City Council Meeting — 2026-03-19"
@@ -24,3 +16,10 @@ sources:
     evidence_pool: city-council-meetings-2026
     hash: "sha256:85aee6a6d1ecd2e2c71ee1f274ad88be1b1feb80dc615504c501421c7512c9e1"
     duration: "04:22:23"
+
+  - source_id: "cc-agenda-2026-03-19-020"
+    source_type: agenda
+    title: "City Council Agenda — 2026-03-19"
+    path: data/city-council/meetings/2026-03-19/agenda.txt
+    evidence_pool: city-council-meetings-2026
+    hash: "4b47882538edf8ee3f7753684014a8ef785d122bae79953202a1665a7114ad9e"

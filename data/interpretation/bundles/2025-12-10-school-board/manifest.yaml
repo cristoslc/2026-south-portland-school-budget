@@ -10,7 +10,6 @@ sources:
     source_type: transcript
     title: "School Board Workshop — 2025-12-10"
     path: data/school-board/meetings/2025-12-10-workshop/transcript.en-x-autogen.vtt
-    normalized_path: docs/troves/school-board-budget-meetings/sources/006-school-board-workshop-2025-12-10-2026-south.md
     evidence_pool: school-board-budget-meetings
-    hash: "sha256:1d0cc26069529ca4bc8e6ae257a52d0570caf43aabf3a704bbc67b1e46ef25a8"
+    hash: "1d0cc26069529ca4bc8e6ae257a52d0570caf43aabf3a704bbc67b1e46ef25a8"
     duration: "03:53:07"

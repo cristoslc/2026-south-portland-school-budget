@@ -1,34 +1,95 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { parse } from 'yaml';
 
 const base = import.meta.env.BASE_URL;
+const REPO = 'https://github.com/cristoslc/south-portland-school-budget-FY27';
 
-// Load trove manifests for source counts and titles
-function loadTrove(name: string) {
+interface TroveSource {
+  title: string;
+  type: string;
+  duration?: string;
+  file?: string;
+  path?: string;
+  githubUrl: string;
+}
+
+interface Trove {
+  id: string;
+  label: string;
+  description: string;
+  refreshed: string;
+  sources: TroveSource[];
+  count: number;
+  originals: { label: string; url: string }[];
+}
+
+function loadTrove(name: string, label: string, description: string, originals: { label: string; url: string }[]): Trove {
   try {
     const raw = readFileSync(resolve('..', 'docs', 'troves', name, 'manifest.yaml'), 'utf-8');
     const manifest = parse(raw);
+    const troveDir = `docs/troves/${name}`;
+
+    // Also scan the sources/ dir for normalized files if manifest doesn't have file fields
+    const sourcesDir = resolve('..', troveDir, 'sources');
+    let normalizedFiles: string[] = [];
+    try { normalizedFiles = readdirSync(sourcesDir).filter(f => f.endsWith('.md')).sort(); } catch {}
+
+    const sources: TroveSource[] = (manifest.sources || []).map((s: any, i: number) => {
+      // Determine the github-linkable path for the normalized markdown
+      let githubPath = '';
+      if (s.file) {
+        githubPath = `${troveDir}/${s.file}`;
+      } else if (normalizedFiles[i]) {
+        githubPath = `${troveDir}/sources/${normalizedFiles[i]}`;
+      }
+
+      return {
+        title: s.title || s['source-id'] || `Source ${i + 1}`,
+        type: s.type || 'document',
+        duration: s.duration,
+        file: s.file,
+        path: s.path,
+        githubUrl: githubPath ? `${REPO}/blob/main/${githubPath}` : '',
+      };
+    });
+
     return {
-      name: manifest.trove,
-      refreshed: manifest.refreshed,
-      sources: manifest.sources || [],
-      count: (manifest.sources || []).length,
+      id: name,
+      label,
+      description,
+      refreshed: manifest.refreshed || '',
+      sources,
+      count: sources.length,
+      originals,
     };
   } catch {
-    return { name, refreshed: '', sources: [], count: 0 };
+    return { id: name, label, description, refreshed: '', sources: [], count: 0, originals };
   }
 }
 
-const budgetDocs = loadTrove('fy27-budget-documents');
-const schoolBoard = loadTrove('school-board-budget-meetings');
-const cityCouncil = loadTrove('city-council-meetings-2026');
+const troves: Trove[] = [
+  loadTrove('fy27-budget-documents', 'FY27 Budget Documents',
+    'Meeting packets, presentations, spreadsheets, and the budget book from the district. December 2025 through March 2026.',
+    [{ label: 'District budget page', url: 'https://www.spsdme.org/budget27' }]),
+  loadTrove('school-board-budget-meetings', 'School Board Budget Meetings',
+    'Transcripts of board meetings where the budget was discussed. December 2025 through March 2026.',
+    [
+      { label: 'SPC-TV Vimeo (video recordings)', url: 'https://vimeo.com/spctv' },
+      { label: 'School Board page', url: 'https://www.spsdme.org/school-board' },
+    ]),
+  loadTrove('city-council-meetings-2026', 'City Council Meetings 2026',
+    'Council meeting transcripts and agendas covering budget-adjacent municipal context. January through March 2026.',
+    [
+      { label: 'SPC-TV Vimeo (video recordings)', url: 'https://vimeo.com/spctv' },
+      { label: 'Meeting agendas (Diligent)', url: 'https://southportland-gov.community.diligentoneplatform.com' },
+    ]),
+];
 
-const totalSources = budgetDocs.count + schoolBoard.count + cityCouncil.count;
-const latestRefresh = [budgetDocs.refreshed, schoolBoard.refreshed, cityCouncil.refreshed]
-  .filter(Boolean).sort().pop() || '';
+const totalSources = troves.reduce((sum, t) => sum + t.count, 0);
+const latestRefresh = troves.map(t => t.refreshed).filter(Boolean).sort().pop() || '';
 ---
 
 <BaseLayout title="Sources" activePage="evidence" description="Primary sources behind the South Portland FY27 budget analysis." lastRefreshed={latestRefresh}>
@@ -38,68 +99,6 @@ const latestRefresh = [budgetDocs.refreshed, schoolBoard.refreshed, cityCouncil.
       Every claim in our briefings traces back to specific public documents and meeting records.
       We currently track <strong>{totalSources} primary sources</strong> across three collections.
     </p>
-
-    <section>
-      <h2>Source Collections</h2>
-
-      <div class="card-grid">
-        <div class="card">
-          <span class="badge badge-general">{budgetDocs.count} Documents</span>
-          <h3>FY27 Budget Documents</h3>
-          <p>
-            Meeting packets, presentations, and spreadsheets from the district.
-            Covers December 2025 through March 2026.
-          </p>
-          <ul class="source-list">
-            {budgetDocs.sources.slice(0, 6).map((s: any) => (
-              <li>{s.title}</li>
-            ))}
-            {budgetDocs.count > 6 && <li class="more">+ {budgetDocs.count - 6} more</li>}
-          </ul>
-          <div class="source-links">
-            <a href="https://www.spsdme.org/budget27" target="_blank" rel="noopener">District budget page &rarr;</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <span class="badge badge-general">{schoolBoard.count} Meetings</span>
-          <h3>School Board Budget Meetings</h3>
-          <p>
-            Transcripts and analysis of board meetings where the budget was discussed.
-            December 2025 through March 2026.
-          </p>
-          <ul class="source-list">
-            {schoolBoard.sources.map((s: any) => (
-              <li>{s.title}{s.duration ? ` (${s.duration})` : ''}</li>
-            ))}
-          </ul>
-          <div class="source-links">
-            <a href="https://vimeo.com/spctv" target="_blank" rel="noopener">SPC-TV Vimeo channel &rarr;</a>
-            <a href="https://www.spsdme.org/school-board" target="_blank" rel="noopener">School Board page &rarr;</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <span class="badge badge-general">{cityCouncil.count} Sources</span>
-          <h3>City Council Meetings 2026</h3>
-          <p>
-            Council meeting transcripts and agendas covering budget-adjacent municipal context.
-            January through March 2026.
-          </p>
-          <ul class="source-list">
-            {cityCouncil.sources.filter((s: any) => s.type === 'media').map((s: any) => (
-              <li>{s.title}{s.duration ? ` (${s.duration})` : ''}</li>
-            ))}
-          </ul>
-          <div class="source-links">
-            <a href="https://vimeo.com/spctv" target="_blank" rel="noopener">SPC-TV Vimeo channel &rarr;</a>
-            <a href="https://southportland-gov.community.diligentoneplatform.com" target="_blank" rel="noopener">Meeting agendas (Diligent) &rarr;</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <hr />
 
     <section>
       <h2>How Sources Become Briefings</h2>
@@ -168,6 +167,58 @@ const latestRefresh = [budgetDocs.refreshed, schoolBoard.refreshed, cityCouncil.
     <hr />
 
     <section>
+      <h2>Our Source Collections</h2>
+      <p>Click a collection to see every source we've collected and processed.</p>
+
+      <div class="card-grid">
+        {troves.map(trove => (
+          <div class="card source-card" data-trove={trove.id}>
+            <span class="badge badge-general">{trove.count} Sources</span>
+            <h3>{trove.label}</h3>
+            <p>{trove.description}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Modals -->
+    {troves.map(trove => (
+      <div class="modal-overlay" id={`modal-${trove.id}`}>
+        <div class="modal">
+          <button class="modal-close" aria-label="Close">&times;</button>
+          <h2>{trove.label}</h2>
+          <p class="modal-subtitle">{trove.count} sources &middot; Last refreshed: {trove.refreshed}</p>
+
+          <div class="modal-originals">
+            <h4>Original sources</h4>
+            <div class="modal-original-links">
+              {trove.originals.map(o => (
+                <a href={o.url} target="_blank" rel="noopener">{o.label} &rarr;</a>
+              ))}
+            </div>
+          </div>
+
+          <div class="modal-sources">
+            <h4>Collected &amp; processed sources</h4>
+            <ul>
+              {trove.sources.map(s => (
+                <li>
+                  {s.githubUrl
+                    ? <a href={s.githubUrl} target="_blank" rel="noopener">{s.title}</a>
+                    : <span>{s.title}</span>
+                  }
+                  {s.duration && <span class="source-duration">{s.duration}</span>}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    ))}
+
+    <hr />
+
+    <section>
       <h2>Key Budget Numbers</h2>
       <table>
         <thead>
@@ -178,46 +229,14 @@ const latestRefresh = [budgetDocs.refreshed, schoolBoard.refreshed, cityCouncil.
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>FY26 Operating Budget</td>
-            <td>$73.4M</td>
-            <td>Current year baseline</td>
-          </tr>
-          <tr>
-            <td>FY27 Roll-Forward Estimate</td>
-            <td>$82.9M-$84.0M</td>
-            <td>Same services + new contract rates + health insurance</td>
-          </tr>
-          <tr>
-            <td>FY27 Proposed Budget</td>
-            <td>$75.6M</td>
-            <td>Superintendent's proposal (3.3% increase)</td>
-          </tr>
-          <tr>
-            <td>Structural Gap</td>
-            <td>$8.4M</td>
-            <td>Required reductions to balance</td>
-          </tr>
-          <tr>
-            <td>Positions Eliminated</td>
-            <td>78 (12%)</td>
-            <td>From 657 FTE to 579 FTE</td>
-          </tr>
-          <tr>
-            <td>Special Education</td>
-            <td>$16.4M</td>
-            <td>Up from $12.7M two years ago</td>
-          </tr>
-          <tr>
-            <td>Facilities Costs</td>
-            <td>$7.3M</td>
-            <td>Up from $6.2M two years ago</td>
-          </tr>
-          <tr>
-            <td>Fund Balance (entering FY26)</td>
-            <td>$739K</td>
-            <td>Down from $5.9M in FY23</td>
-          </tr>
+          <tr><td>FY26 Operating Budget</td><td>$73.4M</td><td>Current year baseline</td></tr>
+          <tr><td>FY27 Roll-Forward Estimate</td><td>$82.9M-$84.0M</td><td>Same services + new contract rates + health insurance</td></tr>
+          <tr><td>FY27 Proposed Budget</td><td>$75.6M</td><td>Superintendent's proposal (3.3% increase)</td></tr>
+          <tr><td>Structural Gap</td><td>$8.4M</td><td>Required reductions to balance</td></tr>
+          <tr><td>Positions Eliminated</td><td>78 (12%)</td><td>From 657 FTE to 579 FTE</td></tr>
+          <tr><td>Special Education</td><td>$16.4M</td><td>Up from $12.7M two years ago</td></tr>
+          <tr><td>Facilities Costs</td><td>$7.3M</td><td>Up from $6.2M two years ago</td></tr>
+          <tr><td>Fund Balance (entering FY26)</td><td>$739K</td><td>Down from $5.9M in FY23</td></tr>
         </tbody>
       </table>
     </section>
@@ -228,50 +247,14 @@ const latestRefresh = [budgetDocs.refreshed, schoolBoard.refreshed, cityCouncil.
       <h2>Staffing Impact</h2>
       <table>
         <thead>
-          <tr>
-            <th>Group</th>
-            <th>FY26</th>
-            <th>FY27</th>
-            <th>Cut</th>
-            <th>%</th>
-          </tr>
+          <tr><th>Group</th><th>FY26</th><th>FY27</th><th>Cut</th><th>%</th></tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Teachers (SPTA)</td>
-            <td>354</td>
-            <td>312</td>
-            <td>42</td>
-            <td>12%</td>
-          </tr>
-          <tr>
-            <td>Ed Techs & Clerks (SPESPA)</td>
-            <td>155</td>
-            <td>139</td>
-            <td>16</td>
-            <td>10%</td>
-          </tr>
-          <tr>
-            <td>Building Administrators (SPAA)</td>
-            <td>13</td>
-            <td>11</td>
-            <td>2</td>
-            <td>15%</td>
-          </tr>
-          <tr>
-            <td>Facilities/Food/Transport (SEA)</td>
-            <td>100</td>
-            <td>86</td>
-            <td>14</td>
-            <td>14%</td>
-          </tr>
-          <tr>
-            <td>Non-Bargaining</td>
-            <td>35</td>
-            <td>31</td>
-            <td>4</td>
-            <td>11%</td>
-          </tr>
+          <tr><td>Teachers (SPTA)</td><td>354</td><td>312</td><td>42</td><td>12%</td></tr>
+          <tr><td>Ed Techs & Clerks (SPESPA)</td><td>155</td><td>139</td><td>16</td><td>10%</td></tr>
+          <tr><td>Building Administrators (SPAA)</td><td>13</td><td>11</td><td>2</td><td>15%</td></tr>
+          <tr><td>Facilities/Food/Transport (SEA)</td><td>100</td><td>86</td><td>14</td><td>14%</td></tr>
+          <tr><td>Non-Bargaining</td><td>35</td><td>31</td><td>4</td><td>11%</td></tr>
         </tbody>
       </table>
       <p style="font-size: 0.85rem; color: var(--color-slate);">
@@ -281,6 +264,45 @@ const latestRefresh = [budgetDocs.refreshed, schoolBoard.refreshed, cityCouncil.
     </section>
   </main>
 </BaseLayout>
+
+<script is:inline>
+  // Modal open/close
+  document.querySelectorAll('.source-card').forEach(function(card) {
+    card.addEventListener('click', function() {
+      var id = card.getAttribute('data-trove');
+      var modal = document.getElementById('modal-' + id);
+      if (modal) {
+        modal.classList.add('open');
+        document.body.style.overflow = 'hidden';
+      }
+    });
+  });
+
+  document.querySelectorAll('.modal-overlay').forEach(function(overlay) {
+    // Close on backdrop click
+    overlay.addEventListener('click', function(e) {
+      if (e.target === overlay) {
+        overlay.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+    });
+    // Close button
+    overlay.querySelector('.modal-close').addEventListener('click', function() {
+      overlay.classList.remove('open');
+      document.body.style.overflow = '';
+    });
+  });
+
+  // Close on Escape
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.modal-overlay.open').forEach(function(m) {
+        m.classList.remove('open');
+      });
+      document.body.style.overflow = '';
+    }
+  });
+</script>
 
 <style>
   .pipeline-flow {
@@ -295,7 +317,6 @@ const latestRefresh = [budgetDocs.refreshed, schoolBoard.refreshed, cityCouncil.
     border: 1px solid var(--color-border);
     border-radius: 8px;
     padding: 1rem;
-    position: relative;
   }
 
   .pipeline-step h4 {
@@ -310,31 +331,131 @@ const latestRefresh = [budgetDocs.refreshed, schoolBoard.refreshed, cityCouncil.
     margin: 0;
   }
 
-  .source-list {
-    font-size: 0.8rem;
+  /* Source cards — clickable, no links visible */
+  .source-card {
+    cursor: pointer;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .source-card:hover {
+    border-color: var(--color-sky);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+
+  /* Modal overlay */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .modal-overlay.open {
+    display: flex;
+  }
+
+  .modal {
+    background: var(--color-surface);
+    border-radius: 12px;
+    max-width: 640px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 2rem;
+    position: relative;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  }
+
+  .modal h2 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.3rem;
+  }
+
+  .modal-subtitle {
+    font-size: 0.85rem;
     color: var(--color-slate);
-    margin: 0.75rem 0;
-    padding-left: 1.2rem;
+    margin: 0 0 1.25rem 0;
   }
 
-  .source-list li {
-    margin-bottom: 0.25rem;
+  .modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--color-slate);
+    line-height: 1;
+    padding: 0.25rem 0.5rem;
   }
 
-  .source-list .more {
-    list-style: none;
-    margin-left: -1.2rem;
-    font-style: italic;
-    color: var(--color-sky);
+  .modal-close:hover {
+    color: var(--color-text);
   }
 
-  .source-links {
+  .modal-originals {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .modal-originals h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-slate);
+  }
+
+  .modal-original-links {
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
-    margin-top: 0.75rem;
-    padding-top: 0.75rem;
-    border-top: 1px solid var(--color-border);
+    font-size: 0.9rem;
+  }
+
+  .modal-sources h4 {
+    margin: 0 0 0.5rem 0;
     font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-slate);
+  }
+
+  .modal-sources ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .modal-sources li {
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--color-border);
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+
+  .modal-sources li:last-child {
+    border-bottom: none;
+  }
+
+  .modal-sources a {
+    color: var(--color-sky);
+  }
+
+  .source-duration {
+    font-size: 0.75rem;
+    color: var(--color-slate);
+    white-space: nowrap;
   }
 </style>

@@ -1,66 +1,100 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { parse } from 'yaml';
+
 const base = import.meta.env.BASE_URL;
+
+// Load trove manifests for source counts and titles
+function loadTrove(name: string) {
+  try {
+    const raw = readFileSync(resolve('..', 'docs', 'troves', name, 'manifest.yaml'), 'utf-8');
+    const manifest = parse(raw);
+    return {
+      name: manifest.trove,
+      refreshed: manifest.refreshed,
+      sources: manifest.sources || [],
+      count: (manifest.sources || []).length,
+    };
+  } catch {
+    return { name, refreshed: '', sources: [], count: 0 };
+  }
+}
+
+const budgetDocs = loadTrove('fy27-budget-documents');
+const schoolBoard = loadTrove('school-board-budget-meetings');
+const cityCouncil = loadTrove('city-council-meetings-2026');
+
+const totalSources = budgetDocs.count + schoolBoard.count + cityCouncil.count;
+const latestRefresh = [budgetDocs.refreshed, schoolBoard.refreshed, cityCouncil.refreshed]
+  .filter(Boolean).sort().pop() || '';
 ---
 
-<BaseLayout title="Evidence" activePage="evidence" description="Source evidence behind the South Portland FY27 budget analysis.">
+<BaseLayout title="Sources" activePage="evidence" description="Primary sources behind the South Portland FY27 budget analysis." lastRefreshed={latestRefresh}>
   <main class="container">
-    <h1>Evidence Base</h1>
+    <h1>Sources</h1>
     <p>
       Every claim in our briefings traces back to specific public documents and meeting records.
-      This page describes the evidence pools that feed the analysis.
+      We currently track <strong>{totalSources} primary sources</strong> across three collections.
     </p>
 
     <section>
-      <h2>Evidence Pools</h2>
-      <p>
-        Primary source research, organized by topic. Each pool has individual source notes and a thematic synthesis.
-      </p>
+      <h2>Source Collections</h2>
 
       <div class="card-grid">
         <div class="card">
-          <span class="badge badge-general">12 Sources</span>
+          <span class="badge badge-general">{budgetDocs.count} Documents</span>
           <h3>FY27 Budget Documents</h3>
           <p>
             Meeting packets, presentations, and spreadsheets from the district.
             Covers December 2025 through March 2026.
           </p>
-          <ul style="font-size: 0.85rem; color: var(--color-slate);">
-            <li>Budget overview presentations</li>
-            <li>Elementary reconfiguration evaluation matrix</li>
-            <li>Staffing comparison tables</li>
-            <li>Revenue and expenditure breakdowns</li>
+          <ul class="source-list">
+            {budgetDocs.sources.slice(0, 6).map((s: any) => (
+              <li>{s.title}</li>
+            ))}
+            {budgetDocs.count > 6 && <li class="more">+ {budgetDocs.count - 6} more</li>}
           </ul>
+          <div class="source-links">
+            <a href="https://www.spsdme.org/budget27" target="_blank" rel="noopener">District budget page &rarr;</a>
+          </div>
         </div>
 
         <div class="card">
-          <span class="badge badge-general">4 Meetings</span>
+          <span class="badge badge-general">{schoolBoard.count} Meetings</span>
           <h3>School Board Budget Meetings</h3>
           <p>
             Transcripts and analysis of board meetings where the budget was discussed.
-            January through March 2026.
+            December 2025 through March 2026.
           </p>
-          <ul style="font-size: 0.85rem; color: var(--color-slate);">
-            <li>Full meeting transcripts (auto-generated from video)</li>
-            <li>Board deliberation on reconfiguration options</li>
-            <li>Public comment periods</li>
-            <li>Superintendent presentations</li>
+          <ul class="source-list">
+            {schoolBoard.sources.map((s: any) => (
+              <li>{s.title}{s.duration ? ` (${s.duration})` : ''}</li>
+            ))}
           </ul>
+          <div class="source-links">
+            <a href="https://vimeo.com/spctv" target="_blank" rel="noopener">SPC-TV Vimeo channel &rarr;</a>
+            <a href="https://www.spsdme.org/school-board" target="_blank" rel="noopener">School Board page &rarr;</a>
+          </div>
         </div>
 
         <div class="card">
-          <span class="badge badge-general">7 Meetings</span>
+          <span class="badge badge-general">{cityCouncil.count} Sources</span>
           <h3>City Council Meetings 2026</h3>
           <p>
-            Council meeting transcripts covering budget-adjacent municipal context.
+            Council meeting transcripts and agendas covering budget-adjacent municipal context.
             January through March 2026.
           </p>
-          <ul style="font-size: 0.85rem; color: var(--color-slate);">
-            <li>Council budget guidance and cost drivers</li>
-            <li>Municipal spending priorities</li>
-            <li>Tax levy discussions</li>
-            <li>School-city budget coordination</li>
+          <ul class="source-list">
+            {cityCouncil.sources.filter((s: any) => s.type === 'media').map((s: any) => (
+              <li>{s.title}{s.duration ? ` (${s.duration})` : ''}</li>
+            ))}
           </ul>
+          <div class="source-links">
+            <a href="https://vimeo.com/spctv" target="_blank" rel="noopener">SPC-TV Vimeo channel &rarr;</a>
+            <a href="https://southportland-gov.community.diligentoneplatform.com" target="_blank" rel="noopener">Meeting agendas (Diligent) &rarr;</a>
+          </div>
         </div>
       </div>
     </section>
@@ -68,11 +102,11 @@ const base = import.meta.env.BASE_URL;
     <hr />
 
     <section>
-      <h2>How Evidence Becomes Briefings</h2>
+      <h2>How Sources Become Briefings</h2>
       <div class="pipeline-flow">
         <div class="pipeline-step">
           <h4>1. Collection</h4>
-          <p>Meeting transcripts, budget documents, and presentations are collected from public sources — district websites, meeting portals, and video platforms.</p>
+          <p>Meeting transcripts, budget documents, and presentations are collected automatically from public sources twice daily.</p>
         </div>
         <div class="pipeline-step">
           <h4>2. Normalization</h4>
@@ -80,7 +114,7 @@ const base = import.meta.env.BASE_URL;
         </div>
         <div class="pipeline-step">
           <h4>3. Interpretation</h4>
-          <p>Each meeting is analyzed through 14 stakeholder perspectives. The AI identifies what matters most to each persona and why.</p>
+          <p>Each meeting is analyzed through 15 stakeholder perspectives. The AI identifies what matters most to each persona and why.</p>
         </div>
         <div class="pipeline-step">
           <h4>4. Cumulative Narrative</h4>
@@ -91,6 +125,44 @@ const base = import.meta.env.BASE_URL;
           <p>Forward-looking briefings are generated from cumulative narratives, highlighting what changed, what to watch for, and open questions.</p>
         </div>
       </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>Original Source Portals</h2>
+      <p>All source material comes from these public portals. You can verify any claim by checking the originals.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Portal</th>
+            <th>What's There</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SP School Department — Budget</td>
+            <td>Budget presentations, packets, models, the budget book</td>
+            <td><a href="https://www.spsdme.org/budget27" target="_blank" rel="noopener">spsdme.org/budget27</a></td>
+          </tr>
+          <tr>
+            <td>SPC-TV Vimeo</td>
+            <td>Full video recordings of school board and city council meetings</td>
+            <td><a href="https://vimeo.com/spctv" target="_blank" rel="noopener">vimeo.com/spctv</a></td>
+          </tr>
+          <tr>
+            <td>Diligent Community</td>
+            <td>City council meeting agendas and minutes</td>
+            <td><a href="https://southportland-gov.community.diligentoneplatform.com" target="_blank" rel="noopener">Diligent portal</a></td>
+          </tr>
+          <tr>
+            <td>SP School Board</td>
+            <td>Board meeting schedules, agendas, policies</td>
+            <td><a href="https://www.spsdme.org/school-board" target="_blank" rel="noopener">spsdme.org/school-board</a></td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     <hr />
@@ -236,5 +308,33 @@ const base = import.meta.env.BASE_URL;
     font-size: 0.85rem;
     color: var(--color-slate);
     margin: 0;
+  }
+
+  .source-list {
+    font-size: 0.8rem;
+    color: var(--color-slate);
+    margin: 0.75rem 0;
+    padding-left: 1.2rem;
+  }
+
+  .source-list li {
+    margin-bottom: 0.25rem;
+  }
+
+  .source-list .more {
+    list-style: none;
+    margin-left: -1.2rem;
+    font-style: italic;
+    color: var(--color-sky);
+  }
+
+  .source-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.85rem;
   }
 </style>

@@ -54,6 +54,15 @@ GENERAL_UPCOMING_FILE = "PERSONA-000-upcoming.md"
 GENERAL_EVERGREEN_FILE = "PERSONA-000-evergreen.md"
 GENERAL_SOURCE_BUNDLE_LIMIT = 3
 
+# Per-source-type character limits for _truncate_text.
+# Transcripts are much larger than other source types and need a higher ceiling
+# to avoid silently clipping content (which causes the LLM to hallucinate that
+# the source was incomplete).  Other types keep the conservative default.
+SOURCE_CHAR_LIMITS = {
+    "transcript": 200_000,   # ~50K tokens — covers a 5-hour meeting
+}
+DEFAULT_SOURCE_CHAR_LIMIT = 5_000
+
 # Persona ID pattern
 PERSONA_ID_RE = re.compile(r"^PERSONA-\d{3}$")
 PERSONA_DIR_RE = re.compile(r"^\(PERSONA-(\d{3})\)-(.+)$")
@@ -438,7 +447,9 @@ def _load_yaml(path):
         return yaml.safe_load(f)
 
 
-def _truncate_text(text, max_chars=5000):
+def _truncate_text(text, max_chars=None, source_type=None):
+    if max_chars is None:
+        max_chars = SOURCE_CHAR_LIMITS.get(source_type, DEFAULT_SOURCE_CHAR_LIMIT)
     text = text.strip()
     if len(text) <= max_chars:
         return text
@@ -500,7 +511,7 @@ def _load_bundle_source_context(upcoming_date, limit=GENERAL_SOURCE_BUNDLE_LIMIT
             blocks.append(
                 f"--- Meeting: {meeting_title} ({meeting_date}) / "
                 f"Source: {source_title} [{source_type}] ---\n\n"
-                f"{_truncate_text(_strip_frontmatter(content))}"
+                f"{_truncate_text(_strip_frontmatter(content), source_type=source_type)}"
             )
 
     if not blocks:
@@ -526,7 +537,7 @@ def _load_inter_meeting_source_context(inter_meeting_events):
         blocks.append(
             f"--- Inter-meeting source: {title} "
             f"({event.get('date_posted', 'unknown date')}, {source_type}) ---\n\n"
-            f"{_truncate_text(_strip_frontmatter(content))}"
+            f"{_truncate_text(_strip_frontmatter(content), source_type=source_type)}"
         )
 
     if not blocks:

@@ -1,0 +1,673 @@
+[
+  {
+    "question": "What classes and programs are being cut at the middle school and high school?",
+    "category": "Programs & Classes",
+    "personas": [
+      "PERSONA-000",
+      "PERSONA-004",
+      "PERSONA-012"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop — 2026-03-23",
+        "detail": "Middle and high school program reductions were listed on the March 23 workshop agenda."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "FY27 Budget Workshop I Slides - March 2, 2026",
+        "detail": "The March 2 slides included proposed cuts to secondary school programs and teaching positions across multiple subject areas."
+      }
+    ],
+    "context": "The district has proposed cutting multiple teaching positions at the middle and high schools across several subjects. Specific course names have not been fully released to the public. It is not confirmed whether AP classes, computer science, or arts programs are on the cut list.",
+    "slug": "what-classes-and-programs-are-being-cut-at-the-middle"
+  },
+  {
+    "question": "Is the pre-K expansion protected, or are the staff who run it being cut?",
+    "category": "Programs & Classes",
+    "personas": [
+      "PERSONA-002",
+      "PERSONA-003",
+      "PERSONA-005"
+    ],
+    "evidence": [
+      {
+        "trove": "fy27-budget-documents",
+        "title": "FY27 Superintendent Budget Presentation - March 9, 2026",
+        "detail": "The March 9 presentation described plans to expand pre-K to 128 seats while also reducing some early childhood support staff."
+      },
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop I — March 2, 2026",
+        "detail": "The March 2 workshop included discussion of state-mandated pre-K expansion requirements alongside proposed cuts to early elementary support positions."
+      }
+    ],
+    "context": "State law requires the district to add about 80 to 90 pre-K seats in fall 2026. At the same time, the budget cuts 16 education technician positions, some of which work in early grades. It has not been made clear whether enough staff will remain to run the expanded program.",
+    "slug": "is-the-pre-k-expansion-protected-or-are-the-staff-who-run"
+  },
+  {
+    "question": "Were early retirement offers made to reduce the number of layoffs?",
+    "category": "Staffing Cuts",
+    "personas": [
+      "PERSONA-002",
+      "PERSONA-004"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop I — March 2, 2026",
+        "detail": "A board member proposed early retirement buyouts for about 41 eligible staff at the March 2 workshop, with estimated savings of over $1 million."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "FY27 Budget Workshop I Slides - March 2, 2026",
+        "detail": "Early retirement buyouts appeared in the March 2 slides as one option for reducing payroll costs."
+      }
+    ],
+    "context": "A board member proposed early retirement buyouts for about 41 eligible staff in March. The proposal could save more than $1 million. How many staff accepted the offer — or whether it was formally extended — has not been confirmed publicly.",
+    "slug": "were-early-retirement-offers-made-to-reduce-the-number-of"
+  },
+  {
+    "question": "Has the district had serious financial audit problems?",
+    "category": "How Decisions Get Made",
+    "personas": [
+      "PERSONA-002",
+      "PERSONA-006"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Meeting — 2026-01-12",
+        "detail": "The January 12 board meeting addressed a second consecutive serious audit finding and roughly $400,000 in misapplied federal funds."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "Regular Meeting Packet - Board of Education, January 12, 2026",
+        "detail": "The January packet included the audit report describing financial reporting failures and misused grant money."
+      }
+    ],
+    "context": "The district received a serious financial audit problem for two years in a row. About $400,000 in federal grant money was not spent correctly. A new finance director was hired, but a written plan to fix the underlying problems has not been made public.",
+    "slug": "has-the-district-had-serious-financial-audit-problems"
+  },
+  {
+    "question": "Has the district gotten a legal opinion on whether closing Kayler is allowed under civil rights law?",
+    "category": "Equity & Fairness",
+    "personas": [
+      "PERSONA-005",
+      "PERSONA-007",
+      "PERSONA-009",
+      "PERSONA-010",
+      "PERSONA-011"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop I — March 2, 2026",
+        "detail": "Community members raised federal civil rights concerns at the March 2 workshop, citing Kayler's high share of students of color and multilingual learners."
+      },
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop — 2026-03-23",
+        "detail": "The board chair acknowledged the civil rights question at the March 23 workshop but gave no legal answer on the record."
+      }
+    ],
+    "context": "Kayler Elementary serves a high share of students of color and multilingual learners. Community members and a board member raised concerns that closing it may violate federal civil rights rules. No legal opinion on this question has been made public.",
+    "slug": "has-the-district-gotten-a-legal-opinion-on-whether-closing"
+  },
+  {
+    "question": "Are English learner students losing teachers because fewer kids showed up during immigration enforcement?",
+    "category": "Equity & Fairness",
+    "personas": [
+      "PERSONA-001",
+      "PERSONA-005",
+      "PERSONA-015"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop I — March 2, 2026",
+        "detail": "Community members testified that over 80 immigrant families kept children home in January due to fear of immigration enforcement."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "FY27 Budget Forum Slides - February 4-5, 2026",
+        "detail": "The February budget forum included English learner staffing levels based on January language test score data."
+      }
+    ],
+    "context": "The district based English learner staffing partly on January test scores. But more than 80 multilingual families kept children home in January due to fear of immigration raids, which may have lowered those scores. The district has not said whether it will adjust those staffing numbers.",
+    "slug": "are-english-learner-students-losing-teachers-because-fewer"
+  },
+  {
+    "question": "Are the budget cuts falling harder on schools with more low-income students and students of color?",
+    "category": "Equity & Fairness",
+    "personas": [
+      "PERSONA-005",
+      "PERSONA-011",
+      "PERSONA-015"
+    ],
+    "evidence": [
+      {
+        "trove": "fy27-budget-documents",
+        "title": "Elementary School Reconfiguration Models and Evaluation Matrix - March 2, 2026",
+        "detail": "The evaluation matrix compares the demographic impact of each closure option on schools with high shares of English learners and low-income students."
+      },
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop I — March 2, 2026",
+        "detail": "The March 2 workshop included equity analysis comparing how each reorganization option affects different school communities."
+      }
+    ],
+    "context": "The district's own documents compare how each closure option affects schools with more low-income students and students of color. Some options shift more of the impact to those schools. A building-by-building breakdown of where the 78 position cuts will land has not been released publicly.",
+    "slug": "are-the-budget-cuts-falling-harder-on-schools-with-more-low"
+  },
+  {
+    "question": "How is the district making sure federal education money is spent correctly?",
+    "category": "Equity & Fairness",
+    "personas": [
+      "PERSONA-005",
+      "PERSONA-006"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Meeting — 2026-01-12",
+        "detail": "The January 12 meeting discussed audit findings showing $400,000 in Title I and other federal funds were misapplied."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "Regular Meeting Packet - Board of Education, January 12, 2026",
+        "detail": "The January board packet included the auditor's findings on federal grant management failures."
+      }
+    ],
+    "context": "The district misapplied about $400,000 in federal money meant for low-income students and students with disabilities. A new finance director was hired. No formal plan to prevent this from happening again has been shared with the public.",
+    "slug": "how-is-the-district-making-sure-federal-education-money-is"
+  },
+  {
+    "question": "How much will it cost to bus students to new schools if one elementary school closes?",
+    "category": "School Closures",
+    "personas": [
+      "PERSONA-002",
+      "PERSONA-008",
+      "PERSONA-009",
+      "PERSONA-015"
+    ],
+    "evidence": [
+      {
+        "trove": "fy27-budget-documents",
+        "title": "Elementary School Reconfiguration Models and Evaluation Matrix - March 2, 2026",
+        "detail": "The matrix used a placeholder of $60,000 to $125,000 for a transportation consultant, not actual route operating costs."
+      },
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop I — March 2, 2026",
+        "detail": "Board members pressed staff for actual transportation cost estimates at the March 2 workshop but did not receive final numbers."
+      }
+    ],
+    "context": "About 1,000 elementary students would need new bus routes if a school closes. The district has not released actual route cost estimates. The only figure in public documents is a placeholder for a consultant, not the cost of running buses.",
+    "slug": "how-much-will-it-cost-to-bus-students-to-new-schools-if-one"
+  },
+  {
+    "question": "When will families find out which school their child will attend next year?",
+    "category": "What Happens Next",
+    "personas": [
+      "PERSONA-003",
+      "PERSONA-008",
+      "PERSONA-015"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop — 2026-03-23",
+        "detail": "District staff could not commit to a redistricting timeline when pressed at the March 23 workshop."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "Budget Workshop Ii Agenda 3.23.26   Revised",
+        "detail": "The March 23 agenda addressed reorganization options but did not include a timeline for notifying families."
+      }
+    ],
+    "context": "Redistricting maps have not been drawn. As of March 23, staff could not say when families would learn which school their child would attend. The district wants changes ready by September 2026, but a family notification timeline has not been set.",
+    "slug": "when-will-families-find-out-which-school-their-child-will"
+  },
+  {
+    "question": "Can the district actually get all of this done before school starts in September?",
+    "category": "What Happens Next",
+    "personas": [
+      "PERSONA-001",
+      "PERSONA-008",
+      "PERSONA-010"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop — 2026-03-23",
+        "detail": "September 2026 was listed as the implementation target at the March 23 workshop, though redistricting and bus routes remained unplanned."
+      },
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Meeting — 2026-03-19",
+        "detail": "City councilors raised questions about whether the district could meet the September deadline given the pace of decisions."
+      }
+    ],
+    "context": "The district says it wants school changes in place by September 2026. As of late March, no redistricting maps existed and no bus routes had been planned. No one in the district has said publicly whether the September deadline is still realistic.",
+    "slug": "can-the-district-actually-get-all-of-this-done-before"
+  },
+  {
+    "question": "What is the district doing to avoid another budget crisis next year?",
+    "category": "What Happens Next",
+    "personas": [
+      "PERSONA-006",
+      "PERSONA-007"
+    ],
+    "evidence": [
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Meeting — 2026-03-19",
+        "detail": "The district's finance director warned at the March 19 meeting that FY28 is likely heading toward another structural budget gap."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "FY27 Superintendent Budget Presentation - March 9, 2026",
+        "detail": "The March 9 presentation acknowledged ongoing cost pressures but did not include a multi-year financial plan."
+      }
+    ],
+    "context": "The district's own finance director warned that FY28 could face another major budget gap. A plan to address that has not been shared publicly. The district also does not have a policy requiring it to keep a minimum savings cushion.",
+    "slug": "what-is-the-district-doing-to-avoid-another-budget-crisis"
+  },
+  {
+    "question": "Why are teachers being cut while central office staff seem mostly protected?",
+    "category": "Staffing Cuts",
+    "personas": [
+      "PERSONA-001",
+      "PERSONA-004",
+      "PERSONA-006"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop I — March 2, 2026",
+        "detail": "Union representatives and community members challenged the ratio of classroom cuts to administrative cuts at the March 2 workshop."
+      },
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Workshop — February 10, 2026",
+        "detail": "A councilor asked about the breakdown of 82 positions added to the district in recent years at the February 10 joint meeting."
+      }
+    ],
+    "context": "The budget cuts 42 teaching positions compared to about 2 administrative positions. Union representatives said lower-paid classroom workers absorbed a bigger share of the cuts. The district has not released a full staff chart showing how classroom and administrative positions compare.",
+    "slug": "why-are-teachers-being-cut-while-central-office-staff-seem"
+  },
+  {
+    "question": "Could more layoff notices go out after these 72?",
+    "category": "Staffing Cuts",
+    "personas": [
+      "PERSONA-004",
+      "PERSONA-008"
+    ],
+    "evidence": [
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Meeting — 2026-03-19",
+        "detail": "A councilor used the phrase 'first wave' after the 72 notices went out at the March 19 meeting, leaving open the possibility of more."
+      },
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop — 2026-03-23",
+        "detail": "The March 23 workshop showed that keeping all five elementary schools open would require 12 to 16 additional position cuts."
+      }
+    ],
+    "context": "A city councilor called the 72 notices the 'first wave,' which suggests more could follow. If the board keeps all five schools open, 12 to 16 more positions would need to be cut. When or whether additional notices will go out has not been confirmed.",
+    "slug": "could-more-layoff-notices-go-out-after-these-72"
+  },
+  {
+    "question": "Are positions that support students with disabilities and IEPs being cut?",
+    "category": "Programs & Classes",
+    "personas": [
+      "PERSONA-004",
+      "PERSONA-005",
+      "PERSONA-012",
+      "PERSONA-013",
+      "PERSONA-015"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop I — March 2, 2026",
+        "detail": "The March 2 workshop listed cuts to education technician positions, including staff who support students with IEPs and 504 plans."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "FY27 Budget Workshop I Slides - March 2, 2026",
+        "detail": "The slides showed proposed cuts to support staff positions across multiple school buildings."
+      }
+    ],
+    "context": "Some of the 16 education technician positions being cut include staff who work directly with students with IEPs and 504 plans. This includes a percussion education technician who supports students needing extra help in music — a position that community members fought to save last year, then saw added back to the cut list. The district has not released a full list of which specific support services will be affected.",
+    "slug": "are-positions-that-support-students-with-disabilities-and"
+  },
+  {
+    "question": "How does switching to semester-long classes affect a high school student's college application?",
+    "category": "Programs & Classes",
+    "personas": [
+      "PERSONA-012"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop — 2026-03-23",
+        "detail": "The March 23 workshop included a proposal to switch some high school courses to a semester format as a cost-saving measure."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "Fy27Budgetbook 3.23.26",
+        "detail": "The March 23 budget book includes the semester course change as a proposed cost reduction."
+      }
+    ],
+    "context": "The district has proposed switching some classes from year-long to semester format. A student applying to college in fall of senior year would only have half-credit in some courses at that point, since colleges review transcripts before the spring semester ends. The district has not said how it will handle this for students in AP or other full-year courses.",
+    "slug": "how-does-switching-to-semester-long-classes-affect-a-high"
+  },
+  {
+    "question": "Who will be the next superintendent?",
+    "category": "How Decisions Get Made",
+    "personas": [
+      "PERSONA-003"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Meeting — 2026-01-12",
+        "detail": "The January 12 meeting included a vote to hire a search firm to find a new superintendent."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "Regular Meeting Packet - Board of Education, January 12, 2026",
+        "detail": "The January board packet referenced a contract with search firm Zeal for the superintendent search at a cost of about $30,000."
+      }
+    ],
+    "context": "The board hired a search firm called Zeal to find a new superintendent. The search cost about $30,000. No hire date or candidate names have been made public.",
+    "slug": "who-will-be-the-next-superintendent"
+  },
+  {
+    "question": "Did the district study keeping all five elementary schools open instead of closing one?",
+    "category": "School Closures",
+    "personas": [
+      "PERSONA-002",
+      "PERSONA-008",
+      "PERSONA-010"
+    ],
+    "evidence": [
+      {
+        "trove": "fy27-budget-documents",
+        "title": "Elementary School Reconfiguration Models and Evaluation Matrix - March 2, 2026",
+        "detail": "The matrix evaluated nine options for reorganizing elementary schools, including several that keep all five buildings open."
+      },
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop I — March 2, 2026",
+        "detail": "The March 2 workshop included board discussion of the no-closure option, which would require cutting 12 to 16 more positions on top of those already planned."
+      }
+    ],
+    "context": "The district modeled nine options for reorganizing elementary schools, including keeping all five buildings open. Keeping all schools open would require cutting 12 to 16 more staff positions on top of those already planned. The board narrowed its choices to two options, both involving one closure.",
+    "slug": "did-the-district-study-keeping-all-five-elementary-schools"
+  },
+  {
+    "question": "Will immigrant students who missed school due to immigration enforcement be counted fairly in enrollment numbers?",
+    "category": "Equity & Fairness",
+    "personas": [
+      "PERSONA-001",
+      "PERSONA-005",
+      "PERSONA-015"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop I — March 2, 2026",
+        "detail": "Speakers at the March 2 workshop said over 80 families kept children home due to immigration enforcement and asked whether those absences were reflected in enrollment projections."
+      },
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Meeting — 2026-03-05",
+        "detail": "Councilors discussed declining enrollment trends at the March 5 meeting."
+      }
+    ],
+    "context": "More than 80 families kept children out of school in January 2026 due to fear of immigration enforcement. Those students may not show up in enrollment counts used to justify school closures. The district has not said whether it will adjust enrollment projections to account for those absences.",
+    "slug": "will-immigrant-students-who-missed-school-due-to"
+  },
+  {
+    "question": "Have residents been told the full picture of what the sewer rate increases will add to their bills?",
+    "category": "Tax Impact",
+    "personas": [
+      "PERSONA-006",
+      "PERSONA-007",
+      "PERSONA-009",
+      "PERSONA-010"
+    ],
+    "evidence": [
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Meeting — 2026-03-19",
+        "detail": "Sewer rate increases of 22 percent per year for three years were raised at the March 19 council meeting alongside the school budget."
+      },
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Meeting — 2026-02-17",
+        "detail": "The February 17 meeting addressed upcoming utility rate increases separate from the school budget."
+      }
+    ],
+    "context": "South Portland sewer rates are going up 22 percent per year for three straight years. These increases do not require a public vote. No official has combined the sewer hikes, school tax increase, and bond payments into one number to show residents what they will actually pay.",
+    "slug": "have-residents-been-told-the-full-picture-of-what-the-sewer"
+  },
+  {
+    "question": "What happens if voters reject the school budget in June?",
+    "category": "What Happens Next",
+    "personas": [
+      "PERSONA-010"
+    ],
+    "evidence": [
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Meeting — 2026-03-19",
+        "detail": "The March 19 meeting included references to the June validation referendum but no discussion of what the district would do if the vote failed."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "FY27 Superintendent Budget Presentation - March 9, 2026",
+        "detail": "The March 9 presentation mentioned the June validation vote without describing a contingency plan."
+      }
+    ],
+    "context": "South Portland voters can reject the school budget in a June referendum. No board member or administrator has said publicly what would happen if the budget failed. This question has not been addressed in any public document.",
+    "slug": "what-happens-if-voters-reject-the-school-budget-in-june"
+  },
+  {
+    "question": "Has enrollment actually been falling, or has it recently started to level off?",
+    "category": "School Closures",
+    "personas": [
+      "PERSONA-009"
+    ],
+    "evidence": [
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Meeting — 2026-03-05",
+        "detail": "A March 5 meeting document noted that enrollment had increased by six students as of early March 2026."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "FY27 Budget Forum Slides - February 4-5, 2026",
+        "detail": "The February budget forum used multi-year enrollment trend data to support the school reorganization plan."
+      }
+    ],
+    "context": "The district has said enrollment has been declining for years, which is a key reason for the closure plan. However, enrollment rose by six students as of early March 2026. The district has not said whether this change affects its recommendation.",
+    "slug": "has-enrollment-actually-been-falling-or-has-it-recently"
+  },
+  {
+    "question": "Why does South Portland spend more per student than similar school districts?",
+    "category": "How Decisions Get Made",
+    "personas": [
+      "PERSONA-001",
+      "PERSONA-002"
+    ],
+    "evidence": [
+      {
+        "trove": "fy27-budget-documents",
+        "title": "City Council and Board Budget Discussion - February 10, 2026",
+        "detail": "The February 10 joint meeting included discussion of South Portland's per-pupil cost of $26,651 compared to similar Maine districts."
+      },
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Workshop — February 10, 2026",
+        "detail": "A community member raised the gap between South Portland's per-pupil spending and the state's recommended level at the February 10 meeting."
+      }
+    ],
+    "context": "South Portland spends about $26,651 per student per year, which is higher than comparable Maine school districts. The state recommends a lower spending level. The district has not publicly explained what is driving the gap.",
+    "slug": "why-does-south-portland-spend-more-per-student-than-similar"
+  },
+  {
+    "question": "What classroom supply budgets and non-staff resources are being cut?",
+    "category": "Programs & Classes",
+    "personas": [
+      "PERSONA-004"
+    ],
+    "evidence": [
+      {
+        "trove": "fy27-budget-documents",
+        "title": "Fy27Budgetbook 3.23.26",
+        "detail": "The March 23 budget book includes non-personnel budget reductions across departments."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "FY27 Budget Workshop I Slides - March 2, 2026",
+        "detail": "The March 2 slides listed non-staff budget cuts alongside the proposed staffing reductions."
+      }
+    ],
+    "context": "Beyond cutting staff, the district is also reducing money for classroom supplies, department materials, and other non-payroll items. These cuts directly affect what teachers can provide in the classroom. The full list of non-staff cuts has not been widely shared with the public.",
+    "slug": "what-classroom-supply-budgets-and-non-staff-resources-are"
+  },
+  {
+    "question": "Are the teachers' unions negotiating over how the layoffs are handled?",
+    "category": "How Decisions Get Made",
+    "personas": [
+      "PERSONA-004",
+      "PERSONA-007"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Meeting — 2026-02-09",
+        "detail": "The February 9 board meeting covered union contract requirements for notifying and consulting with unions before finalizing staff cuts."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "Regular Meeting Packet - Board of Education, February 9, 2026",
+        "detail": "The February board packet included information on collective bargaining obligations tied to the proposed layoffs."
+      }
+    ],
+    "context": "Union contracts require the district to meet with teachers' unions before finalizing layoffs and transfers. The teachers' union raised the option of formal negotiations over how layoff effects are handled. The current status of those talks has not been made public.",
+    "slug": "are-the-teachers-unions-negotiating-over-how-the-layoffs"
+  },
+  {
+    "question": "Is this school year ending in a deficit, and what does that mean for next year?",
+    "category": "How Decisions Get Made",
+    "personas": [
+      "PERSONA-006",
+      "PERSONA-007",
+      "PERSONA-011"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Meeting — 2026-01-12",
+        "detail": "The January 12 board meeting confirmed that FY26 was projected to end with a deficit and no remaining fund balance."
+      },
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Workshop — February 10, 2026",
+        "detail": "The joint meeting disclosed that the district had deferred a $200,000 deficit payment owed to the city to FY28."
+      }
+    ],
+    "context": "The current school year is expected to end with a deficit, leaving no savings cushion going into FY27. The district also pushed a $200,000 payment owed to the city back to FY28. That means the new budget year starts with both no reserve and a carried-over debt.",
+    "slug": "is-this-school-year-ending-in-a-deficit-and-what-does-that"
+  },
+  {
+    "question": "Will there be a real chance for public input at the April 14 budget workshop?",
+    "category": "How Decisions Get Made",
+    "personas": [
+      "PERSONA-001"
+    ],
+    "evidence": [
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Agenda — March 10, 2026",
+        "detail": "The March 10 agenda listed the April 14 budget workshop as the next step before the May 5 City Council vote."
+      },
+      {
+        "trove": "city-council-meetings-2026",
+        "title": "City Council Meeting — 2026-03-10",
+        "detail": "The March 10 meeting discussed the upcoming budget schedule and timeline."
+      }
+    ],
+    "context": "The April 14 workshop is the next budget meeting before the City Council votes on May 5. It is not clear from public documents whether that workshop format allows public testimony. The format has not been confirmed.",
+    "slug": "will-there-be-a-real-chance-for-public-input-at-the-april"
+  },
+  {
+    "question": "Does Skillin Elementary have a large repair bill that could bring it back into the closure conversation?",
+    "category": "School Closures",
+    "personas": [
+      "PERSONA-008"
+    ],
+    "evidence": [
+      {
+        "trove": "fy27-budget-documents",
+        "title": "Elementary School Reconfiguration Models and Evaluation Matrix - March 2, 2026",
+        "detail": "The evaluation matrix includes building condition data and deferred maintenance costs for each elementary school."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "FY27 Budget Workshop I Slides - March 2, 2026",
+        "detail": "The March 2 slides discussed building conditions as part of the school reorganization analysis."
+      }
+    ],
+    "context": "Skillin Elementary has a large deferred heating and cooling repair cost that came up during early closure discussions. This cost was used as a reason to include Skillin in earlier closure options. The board has focused on other schools more recently, but Skillin's repair costs have not been removed from public discussion.",
+    "slug": "does-skillin-elementary-have-a-large-repair-bill-that-could"
+  },
+  {
+    "question": "Who will handle behavior crises at schools if all behavioral support staff are eliminated?",
+    "category": "Programs & Classes",
+    "personas": [
+      "PERSONA-015"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop I — March 2, 2026",
+        "detail": "Community members raised concerns at the March 2 workshop about proposed cuts to behavioral support staff in regular education."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "FY27 Budget Workshop I Slides - March 2, 2026",
+        "detail": "The March 2 slides showed behavioral strategist positions being eliminated from regular education across the district."
+      }
+    ],
+    "context": "The proposed budget eliminates all behavioral strategist positions in regular education district-wide. These staff currently help teachers manage crises and support students before situations escalate. The district has not said what will replace these services.",
+    "slug": "who-will-handle-behavior-crises-at-schools-if-all"
+  },
+  {
+    "question": "What happened to computer science classes at the middle and high school?",
+    "category": "Programs & Classes",
+    "personas": [
+      "PERSONA-012"
+    ],
+    "evidence": [
+      {
+        "trove": "school-board-budget-meetings",
+        "title": "School Board Budget Workshop — 2026-03-23",
+        "detail": "Secondary school program reductions were discussed at the March 23 workshop."
+      },
+      {
+        "trove": "fy27-budget-documents",
+        "title": "Fy27Budgetbook 3.23.26",
+        "detail": "The March 23 budget book includes proposed changes to middle and high school programs."
+      }
+    ],
+    "context": "Community members raised concerns that computer science was eliminated at the middle school level and reduced to a single non-required course at the high school. The district has not released a confirmed list of which specific courses are cut. This has not been officially confirmed in public documents.",
+    "slug": "what-happened-to-computer-science-classes-at-the-middle-and"
+  }
+]

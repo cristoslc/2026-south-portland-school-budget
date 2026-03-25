@@ -5,7 +5,7 @@ persona_id: "PERSONA-011"
 persona_name: "Meg"
 meeting_date: 2026-03-23
 meeting_title: "School Board Budget Workshop -- March 23, 2026"
-interpretation_date: 2026-03-24
+interpretation_date: 2026-03-25
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -14,61 +14,61 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. Tax increase is $257/year -- the number everyone will ask about
-- **Fact:** The proposed FY27 budget delivers the 6% tax increase the city council authorized, translating to approximately $257 in additional property taxes per year for the average household.
-- **Source:** Transcript [25:47] — Finance Director Abigail Ketchem: "it works out to about $257 additional per year."
-- **Emotional valence:** neutral
-- **Threat level:** 2
-- **Open question:** false
-
-#### 2. Kayler is the recommended school closure -- not Dyer
-- **Fact:** After analyzing all five elementary buildings and then narrowing to Kayler and Dyer, district leadership recommended Kayler for closure, citing factors including that Kayler sits at the end of a dead-end street with only one point of egress, lacks a reciprocal evacuation site, and involves fewer students in transition than a Dyer closure would.
-- **Source:** Transcript [34:23–35:12] — Assistant Superintendent Dr. Prince presenting the six-domain analysis; [110:50–111:35] — Dr. Prince responding to board questions.
+#### 1. No vote was taken — next meeting is Monday March 30
+- **Fact:** Despite three action items on the agenda (school closure authorization, Option A or B selection, and budget adoption), the board adjourned at approximately 11:15 PM without voting on any of them. The next scheduled meeting is March 30 at 6:00 PM.
+- **Source:** Agenda, Special Meeting items 2.1–2.3; transcript [299:00–307:30] — Chair DeAngelis states "I'm not going to have us go back to going through debate and going into regular session and voting at 11:15."
 - **Emotional valence:** negative
 - **Threat level:** 4
 - **Open question:** true
 
-#### 3. 32 teachers have no position in FY27 -- they're on a recall list, not officially fired
-- **Fact:** Of the teachers association reductions, 11 staff were offered a different position and 32 were placed on a recall list -- meaning they have no job in the FY27 budget but retain first-eligibility for any vacancy that opens in their certification area before an outside hire is made.
-- **Source:** Transcript [57:25–58:11] — Dr. Prince presenting teacher association impacts.
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true
-
-#### 4. Pre-K seats are actually increasing by 40 -- through outside funding
-- **Fact:** Although the district is not adding local pre-K dollars, it is expanding pre-K access by 40 seats through three partnerships: 8 CDS-funded seats for students with special education needs, a new United Way off-site classroom, and 16 Head Start seats in a donated in-kind classroom.
-- **Source:** Transcript [32:02–32:49] — Dr. Prince presenting pre-K update.
-- **Emotional valence:** positive
-- **Threat level:** 1
-- **Open question:** false
-
-#### 5. Option A vs. Option B is still unresolved -- and it determines how many times your kid changes schools
-- **Fact:** The board did not vote on which elementary configuration to adopt. Option A (pre-K/grade 1 at two "primary" schools, grades 2–4 at two "intermediate" schools) would create two transitions in the elementary years. Option B (all four schools K–4) would create one. The district's leadership team explicitly favors Option A as the path toward demographic equity and resource efficiency, but acknowledged Option B could be implemented for fall 2026 with Option A studied for fall 2027.
-- **Source:** Transcript [35:59–48:45] — Principal Connelly presenting both options; [48:45–50:18] — district leadership recommendation; [113:55–116:13] — board questions on phasing.
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true
-
-#### 6. FY26 may also end in deficit -- the crisis is not just FY27
-- **Fact:** Finance Director Ketchem stated the district is projecting a deficit for the current fiscal year (FY26), in addition to the structural problems driving FY27 cuts. With the fund balance already depleted, any FY26 shortfall would require drawing on the city's fund balance and repaying it in a subsequent year -- likely through another tax increase.
-- **Source:** Transcript [17:55–18:43] — Ketchem: "We are projecting a deficit for this fiscal year. FY27, we're at a limit, but this year is potentially a deficit."
+#### 2. Kayler School is the proposed closure — not Dyer
+- **Fact:** After a two-round analysis of all five elementary buildings, district leadership is recommending closure of Kayler School for the 2026–27 school year. The recommendation changed in recent weeks — slides were not posted until the Friday before the meeting. Kayler's entire FY27 budget line is zeroed out in the budget book.
+- **Source:** Transcript [33:37–35:12]; presentation slide 16; budget book rows 116–161 (Kaler Elementary, FY27 Budget = $0 across all line items)
 - **Emotional valence:** negative
 - **Threat level:** 5
 - **Open question:** true
 
-#### 7. A parent raised a Title VI civil rights question about closing Kayler -- it went unanswered
-- **Fact:** A Kayler parent identified the school's student population as approximately 45% BIPOC and 30–35% multilingual learners, then asked the board and administration to explain what specific steps were taken to ensure the Kayler closure recommendation does not violate Title VI of the 1964 Civil Rights Act. Neither the board nor the administration provided an answer at the meeting; Chair DeAngelis said she wanted a legal answer, not quick research.
-- **Source:** Transcript [163:01–163:47] — public comment; [299:39–300:26] — Chair's attempt to address questions at 11:15 pm.
+#### 3. The tax hit: $257 more per year for an average South Portland home
+- **Fact:** The proposed budget delivers a 6% increase in local tax revenue, which works out to approximately $257 in additional annual school taxes for a home assessed at the South Portland average of $514,000. The total budget is $75.85 million, a 3.3% overall increase — the smallest year-over-year operating increase in five years.
+- **Source:** Transcript [25:47]; presentation slide 8
+- **Emotional valence:** neutral
+- **Threat level:** 2
+- **Open question:** false
+
+#### 4. 78 positions cut — 42 of them are teachers
+- **Fact:** The superintendent's budget eliminates 78 positions, representing 12% of district staff. This includes 42 teachers (32 of whom are on a recall list with no guaranteed position), 18 support professionals (ed techs and clerks), and 13 service association positions. Staff were notified on March 18; association representatives were not initially cc'd on those emails, which the assistant superintendent acknowledged as a miscommunication.
+- **Source:** Transcript [11:43–13:17], [51:53–57:25]; presentation slides 29–36
 - **Emotional valence:** negative
+- **Threat level:** 5
+- **Open question:** false
+
+#### 5. Two options for what happens to elementary schools — and the district leadership prefers Option A
+- **Fact:** Option A creates two "primary" schools (pre-K–1 at Dyer and Small) and two "intermediate" schools (grades 2–4 at Brown and Skillen). Option B keeps all four remaining schools as K–4. The administration explicitly recommends reconfiguration (Option A) as the better long-term outcome for equity and resource efficiency, but said both can work — Option A is faster, Option B could be a bridge to Option A in fall 2027. Class sizes increase under both options.
+- **Source:** Transcript [35:59–49:33]; presentation slides 18–25
+- **Emotional valence:** neutral
 - **Threat level:** 3
 - **Open question:** true
 
-#### 8. No vote happened -- next meeting is Monday, March 30
-- **Fact:** The board did not take action on school closure, grade configuration, or budget adoption at this workshop. The next scheduled meeting is Monday, March 30 at 6:00 pm. At least one board member pushed for an additional meeting sooner, but Chair DeAngelis said March 30 is what's on the books, with any additional meeting to be published on the city website.
-- **Source:** Transcript [299:39] — Chair DeAngelis: "I'm not going to have us go back to going through debate and going into regular session and voting at 11:15"; [306:37–307:24] — adjournment discussion.
+#### 6. All lunch aide positions are eliminated — at every school
+- **Fact:** The budget eliminates all seven lunch aide positions district-wide. These are non-union, two-hour-per-day positions. Skillen and Small already had both positions vacant; Dyer had zero. The district cited a 50% vacancy rate over four years and the need to focus resources on instructional outcomes. The second lunch is also being cut; the district cited the Locker Project as an alternative food source.
+- **Source:** Transcript [29:39–30:27]; presentation slide 34
 - **Emotional valence:** negative
 - **Threat level:** 3
+- **Open question:** false
+
+#### 7. The finance director warned that FY27 does not fix the underlying problem
+- **Fact:** Finance Director Abigail Ketchem (the seventh finance director in six years) explicitly told the board that FY27 "resets our financial path but does not solve our core problems." She warned that labor costs alone increase faster than 6% annually if all staff remain in place, utilities are rising 13–14% per year, and FY28 will add at least $300,000 in new debt service from the athletic field bond. She used the analogy of wiping out credit card debt without changing the spending habits that created it.
+- **Source:** Transcript [19:29–23:23]; presentation slide 6
+- **Emotional valence:** negative
+- **Threat level:** 4
 - **Open question:** true
+
+#### 8. Pre-K is actually expanding — just not with local dollars
+- **Fact:** Despite the budget cuts, the district is adding approximately 40 pre-K seats for four-year-olds through partnerships — 8 seats funded by Child Development Services for students with special education needs, 16 through a United Way off-site classroom, and 16 through a Head Start on-site partnership. The locally funded 64 pre-K seats remain unchanged.
+- **Source:** Transcript [31:14–32:49]; presentation slide 14
+- **Emotional valence:** positive
+- **Threat level:** 1
+- **Open question:** false
 
 ---
 
@@ -76,25 +76,27 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Meg's journey: Five hours, no vote, too many unknowns
-    section Budget Presentation
-        Finance lays out the 7.2M gap causes: 2: Meg
-        $257/yr tax impact -- finally a number: 3: Meg
-    section Closures and Cuts
-        Kayler named for closure over Dyer: 2: Meg
-        32 teachers have no FY27 position: 1: Meg
-    section Board Questions and Public Comment
-        90+ minutes of testimony, no new facts: 3: Meg
-    section Adjournment
-        No vote -- back Monday March 30: 1: Meg
+    title Meg's journey: Kayler closure, no vote tonight
+    section Getting the numbers
+        Chair's personal remarks: 3: Meg
+        $257/year tax impact confirmed: 4: Meg
+    section The elementary bombshell
+        Kayler closure proposed: 2: Meg
+        Option A vs B — no winner yet: 2: Meg
+    section Staffing cuts land
+        42 teachers on recall list: 2: Meg
+        Lunch aides cut everywhere: 2: Meg
+    section Long public comment, then nothing
+        Two-plus hours of speakers: 3: Meg
+        Board adjourns without voting: 1: Meg
 ```
 
 ---
 
 ### Reactions
 
-Ok so quick recap: no vote tonight. They went until 11:15pm and then adjourned. Next meeting is Monday March 30, 6pm -- that's when they're actually expected to vote on the school closure and budget. So if you were waiting to hear what happened, the answer is: not yet.
+OK so I watched the whole thing, all five hours. Here's what you need to know right now: **they didn't vote on anything.** I know. I know. The meeting went until 11:15 at night and they adjourned without taking action on the school closure, without picking Option A or Option B, without formally adopting the budget. Next meeting is **Monday March 30 at 6pm**. That's when the actual decisions will happen. Mark it.
 
-Here's what IS locked in. The proposed tax increase is $257/year for the average household -- that's the 6% ceiling the city council set. Total budget increase is only 3.3%, which they said is the lowest in five years. On positions: 78 total being cut, 42 of those are teachers. But here's the thing about the teachers -- 32 of them are on something called a "recall list." They don't have a job in next year's budget, but they get first crack at any vacancy (retirement, resignation) before the district can hire outside. So not officially fired, but no position. 11 others were offered a different role. That came from Dr. Prince around the two-hour mark. On elementary schools: Kayler is the one they're recommending close. Not Dyer. They ran a two-part analysis with all the principals and Kayler came out as the recommendation both times -- the big reasons cited were the dead-end street (only one way in or out) and no nearby building to use as an evacuation site. But the board has NOT voted on this yet.
+Here's the actual news from tonight. Kayler is the school they're recommending to close — that's now confirmed in the proposal. (If you saw earlier reporting about Dyer, that changed. The slides weren't even posted until Friday.) There are two options for what happens to the four remaining schools: Option A splits them into primary schools (pre-K through 1st grade at Dyer and Small) and intermediate schools (grades 2–4 at Brown and Skillen). Option B keeps all four schools as K–4 the way they are now. The district leadership is pushing for Option A. They did NOT vote on which one. On taxes: the number is **$257 more per year** if your home is assessed at $514K, which is the South Portland average. That's the 6% increase the city council asked for — confirmed in the budget slides, slide 8. And the total cut is 78 positions, 42 of them teachers. Thirty-two teachers are on a recall list right now, meaning they don't have a job for next year but get first dibs if something opens up.
 
-The big unresolved thing that will directly affect families with elementary kids: they still haven't decided between Option A (split schools -- pre-K through 1st at two schools, 2nd through 4th at the other two) and Option B (all four schools stay K-4 like now). Option A means two transitions in elementary years. Option B means one. The district's administration is clearly pushing for Option A because of equity -- the idea is it lets them draw boundaries that mix the demographics across the whole city instead of keeping schools tied to neighborhoods. But no decision. Also worth flagging: a Kayler parent asked at public comment whether closing a school that's 45% BIPOC and 30-35% multilingual learners might violate Title VI of the Civil Rights Act. The chair said she wanted a legal answer, not quick research -- meaning that question is sitting open going into the vote. And one more thing I'm still thinking about: the finance director said FY26 -- THIS year -- might also end in deficit. No fund balance left to cover it. That part didn't get much attention in the room but it means this might not be the last round of cuts.
+Two things I want to flag that I don't think got enough attention tonight. First: the finance director — she's literally the seventh person in that job in six years — was very clear that this budget doesn't actually solve anything. She said FY27 "resets our financial path but does not solve our core problems" and walked through why FY28 is already going to be harder: labor costs go up faster than 6% automatically, utilities are up 13–14%, and there's a new debt payment on the athletic field that adds $300K+. So even if they make all these cuts, they're back at this table next year. Second: every single lunch aide position is gone. All seven of them, every school. That's a tangible daily change for every elementary family, and it didn't get nearly as much air time as the percussion ed tech position, which (yes) is being proposed for elimination again, for the second year in a row. I'll post the board questions list separately — there were a lot of things left unanswered tonight, including the Title VI question about whether closing Kayler (which is about 45% BIPOC and 30–35% multilingual learners) violates civil rights law. The board chair said she wants a legal answer, not a quick Google, and they're coming back to it March 30.

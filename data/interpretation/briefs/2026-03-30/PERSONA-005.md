@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-005"
 persona_name: "Priya"
 upcoming_meeting_date: "2026-03-30"
-generated_date: "2026-03-24"
+generated_date: "2026-03-25"
 has_agenda: false
 last_cumulative_meeting: "2026-03-23"
 inter_meeting_evidence_count: 0
@@ -12,87 +12,108 @@ inter_meeting_evidence_count: 0
 # Brief: Priya (PERSONA-005)
 ## Upcoming Meeting: 2026-03-30
 
+# Pre-Meeting Brief: Priya (Equity Advocate, PERSONA-005)
+**Meeting Date:** 2026-03-30
+**Prepared:** 2026-03-25
+
+---
+
 ## Since Last Meeting
 
-No new evidence has been reported in the period between the March 23 final budget workshop and the upcoming March 30 meeting.
+No new inter-meeting evidence has emerged in the seven days since the March 23 final budget workshop.
 
-The absence of new evidence is itself significant for Priya. The final workshop closed on March 23 with the board chair unable to answer a direct civil rights compliance question about the Kayler closure recommendation — and with no Title VI legal analysis in hand. A one-week gap between that unresolved legal exposure and whatever action is taken on March 30 is a very short window for the district to commission, receive, or present that analysis. If March 30 involves any vote or formal action on elementary reconfiguration, Priya should treat the absence of a published Title VI opinion as a live compliance concern, not a procedural detail that will sort itself out.
+The absence of news is itself meaningful. The most consequential finding from March 23 — the board chair's inability to answer a direct question about Title VI civil rights compliance for the Kayler closure recommendation — has not been publicly resolved. No legal opinion has been announced. No supplemental analysis has been released. Seven days have passed, and the district has not acknowledged the gap.
 
-The other thread that did not resolve between meetings: the DEI Director review. No public announcement has been made about whether the demotion proceeded or was paused. Non-biased hiring training has been delayed twice. These are not background items — they are the equity infrastructure questions whose status shapes whether any reconfiguration implemented under "equity language" will have any accountability mechanism behind it.
+That silence matters because the clock is running. Pink slips are already issued. If a budget vote or reconfiguration vote occurs at or near the March 30 meeting before a Title VI analysis is commissioned and published, the district will have proceeded to vote on closure of a school with approximately 45% BIPOC enrollment and 30–35% MLL enrollment without completing the civil rights compliance infrastructure it couldn't describe at the close of its final workshop.
 
-The $100,000 immigrant rental assistance passed 6-1 on March 19, and the ESOL staffing cut justified by ICE-era absence data was still standing at the close of the March 23 workshop. Neither of those threads has moved publicly in the intervening week.
+The other significant March 23 finding also sits unaddressed: the ESOL staffing reduction is at least partly justified using ICE-era absence data. No public challenge to that methodology has been documented. No alternative staffing model has been proposed. The feedback loop — documenting the harm of federal enforcement to rationalize reducing the services those students need — has not been named by any board member on the record.
+
+The period of no news, in other words, is a period in which both the Title VI gap and the harm-as-staffing-metric remain institutional practice rather than errors under correction.
 
 ---
 
 ## Open Questions
 
-These are the threads Priya is carrying into March 30:
+These are the unresolved threads Priya is carrying into March 30:
 
-- **Where is the Title VI analysis for Kayler?** The board chair could not answer a direct civil rights compliance question at the final budget workshop. Has the district commissioned a formal legal opinion? Will it be published before any vote? If not, what does the district actually rely on for civil rights compliance when closing a school that is 45% BIPOC with 30–35% multilingual learners?
+**Kayler closure and Title VI:**
+- Has any board member requested a formal Title VI legal opinion on Kayler closure before a vote is taken — and if not, what compliance infrastructure does the district actually rely on when closing majority-BIPOC, high-MLL schools?
+- Will the board repeat its Skillin moment and name the racial politics explicitly, or will the equity-washing language of "reconfiguration" hold because the demographics are slightly less stark?
+- Is there a documented decision about whether the Kayler lunch aide elimination also kills the fresh fruits and vegetables snack grant, and has anyone mapped whether the Locker Project actually reaches the specific kids the grant was serving?
 
-- **Is reducing ESOL staffing based on ICE-period absence data actually legal?** The district is using the documented, fear-driven drop in student attendance during January ICE enforcement to justify reducing the services those same students need. Does that create exposure under Title III, Title VI, or IDEA? Has anyone asked the district's legal counsel this question explicitly?
+**The ESOL staffing cut and the ICE feedback loop:**
+- Is anyone at the district level or on the board prepared to challenge the use of January ICE-era attendance data as the baseline for ESOL staffing decisions — or is that methodology now locked in?
+- Does reducing services to English learners based on their documented fear-driven absence create federal legal exposure under Title III or Title VI, and has anyone asked the district's legal counsel that question?
 
-- **What happened to the DEI Director review?** Has the demotion from director to specialist proceeded? If so, who is responsible for equity review of implementation decisions during reconfiguration — and what authority and budget do they have?
+**DEI Director and equity infrastructure:**
+- Has the DEI Director demotion been formalized, deferred, or quietly advanced? What's the current status?
+- If the position is downgraded from director to specialist, who inside the district now holds the authority and budget to implement reconfiguration in a way that protects high-BIPOC, high-MLL populations?
 
-- **Which of the 42 teacher positions being eliminated serve schools with the highest concentrations of ELL students, students with IEPs, or students in poverty?** The district has not published disaggregated position data. Without it, I can't assess who actually absorbs this budget.
+**Cut distribution and disaggregated impact:**
+- Which specific schools are absorbing the 42 teacher and 16 ed tech eliminations — and do any of those buildings serve the highest concentrations of English learners, students with IEPs, or students experiencing poverty?
+- Does the district possess ELL endorsement data for the positions being eliminated, and will it release that before any vote?
+- Have food service and transportation cuts been mapped to specific schools and routes? If Kayler closes, what happens to the families who currently depend on both?
 
-- **Do any of the 42 eliminated teacher positions hold ELL endorsements?** Because if the district is simultaneously cutting ESOL staffing and losing endorsed teachers from high-MLL schools, the legal exposure compounds.
+**Federal grant accountability:**
+- What accountability structure is being put in place to prevent the pattern of mismanaging Title I, IDEA, and ELL-designated funds from continuing after six finance directors in five years?
 
-- **What specifically happens to the Kayler fresh fruits and vegetables snack grant if the lunch aide position is eliminated?** The grant is tied to that staffing. Has the district assessed whether any other mechanism replaces it for those specific students?
-
-- **Will Option B reconfiguration proceed with any equity guardrails on which families bear the transition cost?** The administration acknowledged it perpetuates segregation. Saying it out loud in a workshop isn't the same as building in protections.
-
-- **How does the district plan to resource the 80–90 additional 4-year-olds in the special education mandate for fall 2026 — while simultaneously eliminating 16 ed tech positions?** These two facts cannot coexist without a detailed staffing plan, and I haven't seen one.
-
-- **What coordination exists to ensure the $100,000 rental assistance actually reaches the 50 households Project Home has identified — and not just the ones who can safely make contact?** The structural catch-22 didn't go away when the money was appropriated.
-
-- **Is the non-biased hiring training ever actually going to happen?** It's been delayed twice. If reconfiguration involves reassignments and transfers, the hiring infrastructure matters.
+**Special education mandate:**
+- 80–90 additional 4-year-olds entering special education in fall 2026 is not a projection — it's a state mandate. How is that being resourced during a crisis that just eliminated 16 ed tech positions?
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for the March 30 meeting. Based on the trajectory of the process, here is what Priya should be prepared for:
+The agenda for March 30 is not yet available. Based on the cumulative record and where the process stands as of March 23, here is what Priya should be prepared for:
 
-**Most likely: Budget vote or preliminary approval action.** The final budget workshop was March 23. March 30 is the natural window for a board vote on the budget or a formal motion on reconfiguration. If that's what's on the table, Priya should expect the Kayler closure to come up — and should be watching specifically for whether the board treats it as a settled recommendation or as a live question requiring civil rights review.
+**Most likely: Budget or reconfiguration vote, or formal action advancing toward one.**
+The pink slips are out. The final budget workshop has concluded. The next scheduled meeting is either a vote or a formal public hearing step immediately preceding one. This means March 30 may be the last point at which a Title VI analysis can be demanded before the district commits to Kayler's closure.
 
-**What this means for Priya specifically:** Unlike a parent asking "what school will my child attend," Priya's concern is structural and legal. A vote on Kayler's closure without a published Title VI analysis is the kind of procedural decision that creates downstream legal exposure for the district — and she is one of the few people in the room who knows to name that specifically. She should be prepared to raise the compliance question publicly if no board member does.
+*What this means for Priya:* This is the moment to press the civil rights compliance question in a way that creates a public record the board cannot later claim was not raised. The question is not rhetorical — it needs a specific, answerable form: "Will the board commission and publish a Title VI legal opinion before a closure vote is taken on Kayler?"
 
-**What she should listen for:**
+*What to listen for:* Whether any board member picks up the compliance thread from March 23. Whether the administration offers any framing of Kayler closure that differs from the Skillin equity-washing language. Whether public comment is structured in a way that allows this specific question to be asked and answered on the record.
 
-- Any language that frames Kayler's closure as an "equity decision" or that invokes equity to justify the closure. This is the same pattern used for Skillin, and it needs to be contested in real time with specific questions about which students are affected and what legal review was conducted.
-- Whether any board member asks, on the record, for a Title VI analysis before a vote is taken — or whether the board proceeds without one.
-- Whether the ESOL staffing reduction appears as a line item being finalized or voted on. If so, the ICE-era attendance justification should be challenged directly.
-- Any mention of the DEI Director position — whether the demotion has been formalized, paused, or quietly shelved.
-- Whether disaggregated position data — which schools lose which teachers, which positions hold ELL endorsements — appears as part of any budget presentation. If it doesn't, Priya should ask why not.
+*Questions to prepare:*
+- "At the March 23 workshop, the board chair was unable to answer whether a Title VI analysis had been or would be conducted on Kayler closure. Has that analysis been commissioned? Will it be published before any vote?"
+- "The ESOL staffing reduction is documented as partly justified by January attendance data. Given that the January suppression of attendance was caused by ICE enforcement, is the district's legal counsel aware that this methodology may constitute a Title III and Title VI compliance risk?"
 
-**Questions she should prepare:**
+**Possible: DEI Director status update.**
+If the demotion review is still pending, the board may act on it. Given the proximity to a reconfiguration vote, the timing would be significant: the district would be reducing its equity infrastructure at the same moment it votes on a closure affecting its most diverse elementary.
 
-1. "Has the district obtained a formal Title VI legal opinion on the Kayler closure, and if so, will it be made public before any vote tonight?"
-2. "The ESOL staffing reduction was partly justified by lower enrollment during January ICE enforcement. Has the district's legal counsel reviewed whether reducing services to a protected class based on their fear-driven absence creates federal compliance risk?"
-3. "Can the district publish, before any vote, which of the 42 teacher positions being eliminated serve Title I schools, schools with the highest MLL concentrations, or schools with the highest IEP rates?"
-4. "What is the current status of the DEI Director position, and who has equity review authority during the reconfiguration implementation period?"
+*What this means for Priya:* The institutional capacity to implement reconfiguration equitably — whoever walks displaced families through options, whoever monitors demographic outcomes — lives in that position. The demotion is not symbolic. It has operational consequences for exactly the populations Kayler serves.
+
+*What to listen for:* Any framing of the demotion as a cost-saving measure vs. any framing that addresses functional capacity. Whether any board member connects the DEI Director review to the reconfiguration timeline.
+
+**Possible: Budget presentation with position elimination detail.**
+The board may receive a final summary of the 78 positions with school-level or program-level breakdown.
+
+*What this means for Priya:* This is the data she has been waiting for since December. If the breakdown is finally presented, she needs to cross-reference it against school demographic profiles on the spot. The question is not "how many positions" but "which schools, serving which kids."
+
+*What to listen for:* Whether the breakdown is provided by school or only by category. Whether ELL-endorsed positions are identified. Whether ed tech eliminations are traced to specific IEP-serving roles or presented as undifferentiated FTEs.
 
 ---
 
 ## Watch For
 
-- **The board moving to vote on Kayler closure without announcing or presenting a Title VI analysis.** If this happens, it is the exact moment to raise the compliance question publicly. The board chair could not answer it on March 23. If no one has answered it by March 30, the question has become more urgent, not less.
+**Procedural:**
+- Whether public comment is scheduled before or after action items. If the board intends to vote on Kayler closure at this meeting, public comment afterward is functionally useless. Track the order of business the moment the agenda is posted.
+- Whether the chair acknowledges the open Title VI question from March 23 at the start of the meeting or allows it to lapse without response. The absence of acknowledgment is itself a finding.
+- Whether the DEI Director review appears as an action item, a discussion item, or not at all — and whether its absence from the agenda means the demotion has already been administratively processed.
 
-- **"Equity language" used to justify a closure or consolidation that disproportionately affects high-BIPOC, high-MLL, high-poverty schools.** This is the Skillin pattern. The difference is that on Skillin, four board members named it. Watch whether anyone on the board applies the same lens to Kayler — or whether the board treats Skillin as the exception and Kayler as settled.
+**Substantive:**
+- Any new framing of Kayler closure that substitutes "educational programming" or "facility condition" language for the demographic argument — this is the Skillin equity-washing pattern in a new form.
+- Whether any board member names the ICE-era attendance baseline methodology as legally or ethically problematic. Walker named racial stratification explicitly on Skillin; watch whether anyone does the same for the ESOL staffing justification.
+- Whether the administration presents cut distribution data disaggregated by school — and if so, whether the demographic correlation is visible in the numbers or has been obscured by categorical aggregation.
+- Whether the special education mandate (80–90 incoming 4-year-olds) is mentioned in proximity to the 16 ed tech eliminations, or whether those two facts are kept in separate presentations to prevent the collision from being visible.
+- Any reference to community engagement from the March 23 workshop — the first meeting at which transportation and translation were offered. If attendance from multilingual families was higher, that data should be on the record. If it was not higher, the late-cycle offer confirms what Priya has tracked all year.
 
-- **The ESOL staffing cut appearing as finalized or voted on.** The harm-as-staffing-metric feedback loop — using ICE-era absence to justify cutting services to the absent students — is the most structurally damaging single finding from the March 23 workshop. If it moves to a vote, it needs to be contested, including by naming the legal risk directly.
+**People to track:**
+- **Board chair (DeAngelos):** Will she answer the Title VI question she couldn't answer March 23, or defer again? The answer — or the avoidance of one — defines whether the board has equity guardrails or equity language.
+- **Walker:** Has been the most consistent structural equity voice on the board. Watch whether she presses the ESOL staffing methodology and whether she connects the Kayler demographics to the Skillin precedent.
+- **The four board members who named racial politics on Skillin:** Whether they apply the same analysis to Kayler, or whether the slightly less stark demographics allow the equity argument to dissolve.
+- **District legal counsel (if present):** Any hedge language about Title VI compliance is an admission that the exposure is real. "We believe we are in compliance" is not the same as "we have a formal analysis."
+- **Any administrator presenting ESOL data:** Whether the January attendance baseline is presented as methodologically settled or flagged as a limitation. If it is presented as settled without caveat, Priya should name the limitation in public comment.
 
-- **Any board member or administrator citing Option B as an equity improvement.** The administration already acknowledged it perpetuates segregation. If that acknowledgment has been quietly dropped from the public framing, it should be surfaced.
-
-- **The DEI Director position status.** If the demotion has been formalized without public announcement, it will likely appear only as a line item in the budget document. Watch for a change in title or salary in any personnel schedule presented.
-
-- **Whether any board member asks for disaggregated position data before voting.** The absence of that request is as meaningful as the absence of the data itself — it tells you something about which board members are thinking about who absorbs these cuts.
-
-- **Walker specifically.** She has been the board's most consistent structural equity voice. Watch whether she raises the Kayler Title VI question, names the ESOL staffing concern, or introduces any motion to delay action pending legal review. If she is silent on these items at this meeting, that is a signal worth tracking.
-
-- **Board chair DeAngelos's handling of public comment.** The March 23 workshop ended with an unanswered civil rights compliance question. Watch whether the chair controls or redirects community equity testimony in a way that forecloses follow-up, or whether the question gets a substantive answer.
-
-- **Any mention of the non-biased hiring training timeline.** If it is not raised, it has now been delayed three times without public accountability. Priya should be prepared to name that specifically if the opportunity arises.
-
-- **Any reference to the Kayler lunch aide and the fresh fruits and vegetables snack grant as separate line items.** These are linked, and the district has not publicly addressed whether eliminating the position also eliminates the grant and what students lose if it does.
+**Signals that a superseded position may be revisited:**
+- If the Kayler closure is challenged on racial politics the way Skillin was, watch whether the board's equity-as-reactive pattern (acting only when stakes are made sufficiently visible) can be activated a second time in the same budget cycle — and whether the same four board members hold.
+- If any board member publicly connects the DEI Director demotion to the reconfiguration timeline, the "equity infrastructure as cost" framing may be contested rather than assumed.

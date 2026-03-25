@@ -3,10 +3,10 @@ schema_version: "1.0"
 persona_id: "PERSONA-015"
 persona_name: "Kira"
 upcoming_meeting_date: "2026-03-30"
-generated_date: "2026-03-24"
+generated_date: "2026-03-25"
 has_agenda: false
-last_cumulative_meeting: null
-inter_meeting_evidence_count: 1
+last_cumulative_meeting: "2026-03-23"
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: Kira (PERSONA-015)
@@ -14,102 +14,88 @@ inter_meeting_evidence_count: 1
 
 ## Since Last Meeting
 
-The most significant development since Kira's last processed meeting is the March 23 board budget workshop — the FY27 presentation organized the decision space around personnel reductions, non-personnel reductions, **two elementary closure options**, and middle and high school reductions, with decisions explicitly expected at the session.
+No new evidence has entered the record in the seven days since the March 23 workshop. The board adjourned at 11:15 PM without voting, and nothing has surfaced publicly since — no board communication, no administration update, no organized opposition filing.
 
-From Kira's vantage point, this matters in three specific ways:
+For Kira, that silence cuts two ways. On the positive side, no news means no last-minute filing from single-school opposition that could shift the political calculus before tonight. On the negative side, seven days have passed with redistricting mechanics still unmodeled, no committed timeline from Dr. Prince, and no public signal from the board about what March 30 is actually for. The board is either about to vote or about to deliberate further — and Kira has no way to know which from outside.
 
-**The closure question has moved from analysis to option selection.** "Two elementary closure options" is not a study framing — it's a decision architecture. For Kira, this is the moment the equity-of-site question becomes a real vote. Whether those options carry equity analysis (multilingual learner distribution, MTSS access patterns, proximity to high-poverty census tracts) or are framed around cost and facility condition was not visible in the inter-meeting evidence, but that framing will determine whether the March 2 civil rights language actually constrained the option set or was purely rhetorical.
+What the silence cannot erase: Blair Bacon called herself "a Band-Aid on a wound too large" from inside the RIF class on March 23. That testimony — from a cross-building literacy interventionist, National Board Certified, multilingual endorsee — is the most precise naming of Kira's own professional argument the official record has ever carried. It was delivered by someone losing her job for embodying that argument. The board heard it and adjourned. Tonight, Kira is watching whether that testimony changes anything.
 
-**Personnel reductions are now enumerated in a slide deck, not a talking point.** The 78-position list — or a version of it — is now a formal presentation item. Kira does not yet know whether itinerant and specialist roles appear in the named reduction categories, or whether the 16 ed tech positions are itemized with any caseload context. This is the document she needs to see before walking into March 30.
-
-**Decisions were expected at March 23, which means March 30 may arrive with momentum already set.** The presentation framing implies directional outcomes were anticipated — not "receive and discuss." If the board moved toward one closure option or endorsed a personnel reduction framework on March 23, the March 30 meeting may be the implementation follow-up, not a fresh deliberation. The absence of any post-March 23 summary in the inter-meeting evidence compounds this uncertainty: Kira should find out what was actually decided before walking in.
+The absence of inter-meeting evidence is also worth noting as a professional signal: if the administration were revising Option A, consulting community stakeholders, or modeling redistricting mechanics in the past week, none of that work is visible to the public. Kira should assume tonight's meeting reflects the same institutional state as March 23 unless she hears otherwise from the floor.
 
 ---
 
 ## Open Questions
 
-*Carried into March 30 in Kira's voice:*
+- The board recommended Option A on equity grounds — from the district's own administration, not just advocates. Why did it still adjourn without voting? What does the board need to see or hear that it hasn't already heard from Dr. Prince, Principal Connolly, and its own equity data?
 
-- **Are itinerant and specialist positions on the reduction list?** The "not all from one unit" language from February 10 gave me some cover, but I still don't know whether cross-building roles like mine are among the named reductions. If they're itemized in the March 23 deck, I need to see that before this meeting.
+- Blair Bacon's position is in the RIF class. I travel between buildings doing the same kind of work she does. Are cross-building specialist positions being eliminated as a category, or is this one position? Is my role next?
 
-- **Which two closure options went to the board on March 23, and were they evaluated with equity data?** The multilingual learner distribution data — the 6–33% spread — was central to the March 2 workshop. Did that analysis carry through into the two formal options, or did the options revert to enrollment and building condition?
+- Zero behavioral strategists remain in regular education — district-wide. What happens to my students at three different buildings when behavior crises hit and there's no one to call? Has anyone modeled the cross-building cascade of that single cut?
 
-- **If Brown is one of the two options — does Cullen's city hall campus statement taint the board's analysis?** He named Brown for city real estate purposes at a council meeting before any school board closure vote. Is the board working around that framing, or did it constrain which options were even constructed?
+- The ESOL reductions are grounded in January ACCESS test scores that were suppressed by ICE-driven absences. Is the district going to formalize that the January testing was an externally imposed aberration? Or does that suppressed baseline become the permanent record that determines service eligibility going forward?
 
-- **Are we redistricting, or just closing?** Dr. Prince couldn't commit to a redistricting timeline when Richardson pressed directly on March 2. I've watched this district close a school without redistricting and make the inequities worse. Has anything changed on that timeline?
+- Redistricting mechanics still haven't been modeled. Dr. Prince couldn't commit to a timeline when Richardson pressed directly. If the board votes tonight on Option A without knowing how redistricting will actually work, what's the accountability mechanism that ensures demographic equity is the design goal — not just the stated goal?
 
-- **What happens to MTSS access and intervention wait lists under each closure option?** The space crisis is real — kids are already getting services in hallways and stairwells. Consolidating buildings helps only if redistricting is intentional. Does either option model what happens to service ratios when students move?
+- The prior Boundaries and Configurations Committee recommended equity-based redistricting and those recommendations were abandoned. Richardson named that explicitly on March 2. What is structurally different this time? What prevents the same fiscal timeline pressure from overrunning the implementation again?
 
-- **What does the Boundaries and Configurations Committee work actually do in this process?** Richardson confirmed the board approved those equity proposals and then abandoned them. If we're reopening reconfiguration, are those recommendations literally on the table, or are we starting from zero again?
+- The SPTA named students already receiving MTSS, multilingual support, and special education services in hallways and stairwells. Does reconfiguration planning include an operational answer about where these services will be housed in a consolidated building footprint — or is that question being deferred until after the vote?
 
-- **Is the Title I sweep a pattern or an error?** Some of the students on my caseload are exactly who Title I is meant to serve. If federal equity funding wasn't reaching them for multiple years, that matters to which programming lines we say are safe to cut.
+- My ICE response question is still unresolved: if an incident happens at a building I'm not currently at, the simplified two-administrator protocol doesn't account for where I am or which of my students needs me. Has anyone mapped the itinerant staff coverage problem?
 
-- **Are McKinney-Vento referrals going up?** Project HOME is depleted, the moratorium failed, General Assistance doesn't cover families who sheltered in place. I'm watching for housing instability to arrive as a caseload surge. Is anyone in that room watching the same thing?
+- The $2M+ savings figure still hasn't been revised for transportation costs. What does the net figure look like once busing is modeled? Does it still justify the political and operational cost of grade-band consolidation? And if it doesn't, what happens to the equity rationale that made this worth fighting for?
 
-- **What does grade-band consolidation actually mean for how I do my job?** I've heard "reconfiguration" for months and still haven't seen a model showing how itinerant specialist schedules work under a consolidated structure. Does my travel time go down or up? Do I get assigned to fewer buildings? Are the instructional minutes students lose while I'm in transit actually part of the reconfiguration analysis?
+- Kaler is the board's preferred closure option, and the Kaler counselor vacancy was flagged in January as not to be automatically backfilled. Is that vacancy being eliminated in the budget, or is it being held open pending reconfiguration? Jean Tam's family is in that building. The multilingual families most affected by closure mechanics have the least political access to shape those mechanics.
 
-- **Is DeAngelos's equity accountability language going to produce any structure, or is it still advisory?** At March 2 he said diversity and equity require structures, training, and policy to build belonging. What's the structure? Who owns it? Is there a specific proposal coming to this meeting?
-
-- **Will the Kaler school counselor vacancy be filled or eliminated?** A counselor vacancy in a building with a high concentration of multilingual and immigrant families during an active ICE enforcement period is not an administrative gap — it's a student safety issue. If it's on the reduction list, I have firsthand caseload knowledge that speaks directly to that decision.
+- The April 14 budget workshop lists the school as the first department. Will the presentation to the council include cross-building equity data on which of the 72 positions produce differential harm by building? Or will the council see aggregate figures at the exact moment it's deciding?
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for March 30. Based on the March 23 workshop framing and the cumulative decision-making arc, Kira should prepare for the following likely scenarios:
+No agenda is available for March 30. Based on the cumulative timeline — a formal reconfiguration proposal commissioned February 9, workshopped March 2 and March 23, with the board adjourning without a vote seven days before the April 7 public hearing — the near-certain primary business is the reconfiguration vote itself.
 
----
+**On a likely reconfiguration vote:**
 
-**Most likely: Follow-through on March 23 closure and reduction framework**
+For Kira, this is the moment she has been building toward since December 8, when Holman first named redistricting explicitly and DeAngelos assigned committee responsibility. The administration has already done the work of putting Option A's equity rationale on the record. Her job tonight is not to re-argue the case — Principal Connolly made it better than any external advocate could. Her job is accountability in implementation.
 
-The March 23 workshop was built around expected decisions. March 30 is most likely where those decisions are formalized, refined, or voted on — which could mean a board vote or directional preference on the two closure options, further review of the personnel reduction list, or structured public comment ahead of a formal vote.
+She should listen for: whether the vote, if it happens, is clean and specific (Option A with named equity criteria for redistricting design) or whether it defers the hard implementation decisions (a vote that passes Option A in concept while leaving demographic equity in redistricting as an aspirational goal with no structural teeth). A vote that names reconfiguration as a desegregation mechanism but doesn't commit to redistricting mechanics designed around demographic equity is worse than useful — it generates community disruption without the equity payoff.
 
-*What this means for Kira specifically*: If a closure option is moving toward a vote, this is her last or second-to-last window to enter cross-building equity data — wait list comparisons, multilingual learner concentration by building, specialist travel patterns and their cost in instructional minutes — into the public record before a decision hardens. Her dual role as staff and parent, and her multi-building vantage, are her sharpest tools. But they must land before the vote, not after it.
+She should prepare to ask, if there is public comment: What specific equity metrics will govern redistricting design? Who is accountable for ensuring those metrics are met, and by when? And if there is no vote — if the board deliberates further — she should be ready to ask from the floor what the board is waiting for, given that the April 7 public hearing is in seven days.
 
-*What to listen for*: Whether board members treat March 23 as having settled the option set, or whether the closure question is still genuinely open. Whether DeAngelos or Smith invoke equity framing in the closure discussion, or whether the conversation has shifted to logistics and implementation. Whether Richardson presses the redistricting timeline again — and whether this time she gets a date rather than a non-answer.
+**On budget line items and the RIF class:**
 
-*Questions to prepare*:
-- "Has the board received a comparison of MTSS access rates and intervention wait lists across the buildings in each closure scenario, or is the option analysis based on enrollment and facility condition alone?"
-- "What is the redistricting design timeline, and is there a commitment to complete it before or concurrent with a closure vote — not after?"
-- "Are itinerant and specialist staff deployment patterns modeled under each closure option, or will that analysis happen post-decision?"
+If any budget specifics are presented or discussed, Kira should listen for whether cross-building specialist positions are being treated as a category or whether each itinerant role is being evaluated individually. Blair Bacon's position being in the RIF class is a data point about how the district is treating cross-building roles. Kira needs to know whether that's a pattern or an exception.
 
----
+She should also listen for whether the behavioral strategist elimination comes up. Zero positions remaining in regular education district-wide is the kind of categorical cut that rarely gets named in aggregate — it gets distributed across multiple budget line items and no single report surfaces the cross-building failure it produces.
 
-**Also possible: Personnel reduction vote or public hearing**
+**On the April 7 public hearing:**
 
-If March 30 is a scheduled public hearing or vote on the personnel reduction framework, Kira should be prepared to testify. Her public comment is most effective if it:
-- Names specific reduction categories that touch her cross-building caseload and explains what disappears from students' schedules, not just from the org chart
-- Enters the 10-to-24 class size range asymmetry into the record as operational evidence that redistricting is necessary, not optional
-- Connects the Title I sweep question to the current reduction discussion — if federal equity funding wasn't reaching its intended students, that pattern is part of the context for which cuts are defensible
-
----
-
-**Also possible: Superintendent search transition**
-
-If a finalist is named or a hire is announced at or near March 30, the meeting may include a board discussion of superintendent transition and its relationship to reconfiguration implementation.
-
-*What this means for Kira*: A superintendent hired through a three-person community input process has a legitimacy deficit with the multilingual and immigrant families Kira serves. If a hire is announced, she should listen for any stated orientation toward MTSS, multilingual learner programming, or community schools — and whether the board signals that reconfiguration implementation will wait for the new leader or proceed under interim direction. A reconfiguration executed without a superintendent who has an equity mandate is the scenario Kira has been watching for since December.
+Whether it's announced explicitly or not, March 30 is the last board meeting before the public hearing. Kira should be listening for any board signals about what they want to hear from the public on April 7 — whether they're seeking affirmation for a decision already made, or whether they're genuinely weighing implementation architecture. That distinction shapes whether public comment is worth her professional credibility and time.
 
 ---
 
 ## Watch For
 
-- **How the two closure options are labeled and framed when they come back to the table**: If the presentation uses "Option A / Option B" or building names without equity analysis attached, that's a signal the March 2 civil rights framing did not survive into the decision document. If MTSS access rates, multilingual learner concentration, or demographic redistribution are part of the option comparison, the equity architecture held. Kira should be ready to name the gap if it's there.
+- **Whether the board opens with a vote or with more deliberation.** If DeAngelos moves immediately to a vote on Option A, that's the signal the deliberation closed March 23. If she opens the floor for more discussion, listen for which board member drives that — Feller is the most likely swing-vote actor here, and his framing of what he still needs will reveal whether organized single-school opposition has reached him since March 23.
 
-- **Whether Richardson presses the redistricting timeline again — and what she gets**: This is the most important procedural signal Kira can track. If Richardson asks and DeAngelos or Prince give a date, something has shifted. If she asks and gets another non-answer, the equity commitment is still advisory and Kira needs to put that on the record herself.
+- **How Option A's equity rationale is framed in the motion language, if a motion is made.** A motion that says "adopt Option A" is weaker than a motion that says "adopt Option A with redistricting designed to achieve equitable multilingual learner distribution across grade-band buildings." Kira should note exactly what the motion says — not just whether it passes.
 
-- **Whether itinerant or specialist roles appear in the personnel reduction discussion**: If the reduction framework is described as "classroom teachers and ed techs," Kira's cross-building role has a degree of protection. If "traveling specialists," "itinerant staff," or "cross-building coordinators" appear in any reduction category, that's her cue to respond with caseload impact data, not abstraction.
+- **Whether Richardson presses on redistricting mechanics before any vote.** She has pressed on this directly and on record. If she does it again tonight, watch whether Prince can now commit to a timeline or whether "we haven't modeled it" remains the answer seven days before the public hearing.
 
-- **Smith's reasoning on the closure option**: Smith named reconfiguration as desegregation with civil rights framing on March 2. If she's supporting one option over another on equity grounds, her reasoning is the most useful signal in the room for Kira about whether the board's stated equity commitment is actually constraining the choice — or whether cost and enrollment have quietly retaken the wheel.
+- **Whether Smith deploys the civil rights framing again.** At March 2 and March 23, Smith's explicit desegregation language set the terms. If Smith leads with that framing tonight, it signals the board majority is holding the equity rationale. If Smith is quiet and Feller leads, the political calculus may be shifting.
 
-- **DeAngelos's tone on organized opposition**: At March 2 he declared the board will act regardless of community pressure and cited teacher support for reconfiguration. If his posture at March 30 is more hedged — more process language, more deference to public comment — that's a signal the organized single-school opposition has gained ground since the March 23 workshop. Kira should note the shift, not just the words.
+- **Any mention of Blair Bacon's testimony or cross-building specialist positions.** Bacon called herself a Band-Aid in the official record. If no board member references that testimony in deliberation tonight, Kira should note the gap — that testimony was the most direct naming of what the RIF class is actually eliminating, and if it doesn't enter the deliberation, it will not appear in the policy response.
 
-- **Any mention of transportation restructuring**: If the Metro/school bus integration conversation resurfaces — even briefly, even as a line item — treat it as a sequencing warning. Transportation restructuring before reconfiguration is designed means operational assumptions are being locked in without the full picture. The students Kira serves across three buildings are directly exposed to that error.
+- **Whether the ESOL reduction is mentioned in connection with January testing data.** If it is, listen for whether any board member names the ICE suppression problem explicitly and asks whether the testing disruption will be formally documented as an externally imposed aberration before it becomes the permanent service-eligibility baseline.
 
-- **Whether "community school district" is invoked to justify current-year cuts**: If the designation is used to argue that future community school infrastructure excuses reducing current programming, Kira should be ready to name the gap directly: the students on her caseload cannot wait for a framework that doesn't have elementary-phase infrastructure in place yet.
+- **Feller's body language and questioning pattern.** He is the board member most likely to be tracking organized opposition volume between meetings. If he asks for more community input before voting, or asks whether April 7 should come before a closure decision, he may be signaling that the single-school opposition has reached him in the past week. That is Kira's warning signal.
 
-- **Whether any board member connects the housing crisis to MTSS and McKinney-Vento caseload projections**: Project HOME is depleted. The moratorium failed. GA doesn't cover the families who sheltered in place. If no one makes this connection in the budget discussion, Kira is one of the only people in that room who can make it credibly — with real-time caseload data behind it.
+- **Any mention of the $2M+ savings figure without transportation costs.** If reconfiguration economics come up and no one mentions busing, that's the moment to ask — either in public comment or to flag for a trusted board member before the meeting ends.
 
-- **Public comment composition**: Note which schools are represented, and whether any other cross-building staff or itinerant specialists speak. If Kira is the only voice in public comment with a multi-building vantage, she should make that explicit — not as credentialing, but as a factual gap in the record: the board is hearing from single-building parents and not from the staff who see all the buildings every day.
+- **Whether the Kaler counselor vacancy is named in any context.** Its status — backfill, hold, or elimination — has been open since January. If it comes up tonight, that's a signal about where Kaler is in the budget process, which is directly connected to redistricting timeline.
 
-- **Whether the Kaler school counselor vacancy is named as filled, eliminated, or still in limbo**: This is a specific, trackable data point with real students behind it. If it appears in the reduction list without acknowledgment of what it means for a building serving multilingual and immigrant families under current conditions, Kira has the standing and the knowledge to put that on the record.
+- **Any statement from Dr. Prince about April 14 workshop preparation.** If Prince previews what data the school department will present to the city council on April 14, Kira should listen specifically for whether that preview includes cross-building equity impact data or defaults to aggregate cost-per-position figures. That is the moment she can ask — if there is an opportunity — whether the April 14 presentation will disaggregate harm by building.
+
+- **The precise language used by anyone who references the Boundaries and Configurations Committee's prior work.** If that history comes up, listen for whether it's framed as a precedent to build on or an abandoned document from another era. Richardson has named it twice as "approved and abandoned." If it comes up tonight without that framing, that's a signal the accountability thread is being dropped.
+
+- **Whether the meeting ends with a decision or another adjournment.** If the board adjourns again without voting, Kira should note that the April 7 public hearing will now occur without a board position — meaning public comment will be shaping a decision that hasn't been made, rather than responding to one that has. That's a different kind of meeting to prepare for, and a different kind of public comment to write.

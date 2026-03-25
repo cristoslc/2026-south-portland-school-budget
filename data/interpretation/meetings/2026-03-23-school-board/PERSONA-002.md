@@ -5,7 +5,7 @@ persona_id: "PERSONA-002"
 persona_name: "David"
 meeting_date: 2026-03-23
 meeting_title: "School Board Budget Workshop -- March 23, 2026"
-interpretation_date: 2026-03-24
+interpretation_date: 2026-03-25
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -14,54 +14,54 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. Finance Director Names the Actual Causal Chain
-- **Fact:** Finance Director Abigail Ketchem offered an unusually candid structural diagnosis: enrollment declined while staffing didn't adjust, COVID funds elevated headcount and then expired, fund balance was used as operating revenue masking the gap, there was no minimum threshold policy on savings, and leadership turnover -- she is the seventh finance director in six years -- prevented course correction.
-- **Source:** Transcript [14:49--17:55]
+#### 1. Finance Director Delivers an Honest Root Cause Analysis
+- **Fact:** Finance Director Abigail Ketchem — the seventh to hold the role in six years — identified three systemic causes of the fiscal crisis without hedging: enrollment-staffing misalignment masked by COVID funds, the absence of a minimum fund balance threshold policy as a "guardrail," and leadership instability in both finance and administration. She framed these explicitly as cause and effect, not excuses.
+- **Source:** [14:49–17:55], Budget Presentation Slide 4
 - **Emotional valence:** positive
-- **Threat level:** 2
-- **Open question:** false
+- **Threat level:** 1
+- **Open question:** true (The diagnosis is sound — but will she stay long enough to implement the corrective policies she's describing? She is, by her own acknowledgment, the seventh finance director in six years.)
 
-#### 2. FY28 Is Structurally Unsolvable at 6% Without Further Cuts
-- **Fact:** Ketchem stated explicitly that labor costs alone, with no staffing changes, increase faster than 6% per year, making a balanced budget under the tax cap "mathematically impossible." She also flagged at least $300K in new debt service in FY28 (athletic field bond moving from one interest payment to two plus principal), a potential Skillen boiler bond, and utility increases running 13--14% annually.
-- **Source:** Transcript [21:01--22:36]
+#### 2. FY27 Resets the Path but Doesn't Solve the Structural Problem
+- **Fact:** Ketchem explicitly warned that FY27 is like "wiping out the credit card balance" without fixing the underlying behavior. She identified four compounding pressures for FY28 and beyond: labor costs that auto-escalate above 6% per year through contract step and lane adjustments, utility costs rising 13–14% annually, a minimum $300,000 increase in debt service for the athletic field bond, and a potential additional debt obligation for the Skillen boiler.
+- **Source:** [19:29–23:23], Budget Presentation Slide 6
 - **Emotional valence:** negative
 - **Threat level:** 4
-- **Open question:** true
+- **Open question:** true (No multi-year financial projection was presented to the board or the public. Has anyone modeled what a balanced FY28 budget actually requires, given labor and debt constraints?)
 
-#### 3. No Plan to Rebuild the Fund Balance in FY27
-- **Fact:** When Board Member Feller asked directly how the district would seed the fund balance, Ketchem confirmed there is no fund balance restoration built into the FY27 budget. Her answer: "This year is too dire." Member Richardson followed up to clarify that the only mechanism to rebuild reserves is to ask taxpayers for additional money in future years -- or hope for a windfall.
-- **Source:** Transcript [98:24--109:17]
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true
-
-#### 4. Total Budget Increase Is 3.3% -- Lowest in Years
-- **Fact:** The proposed FY27 budget represents a 3.3% overall increase, described as the lowest in many years. The 6% local tax increase is met. Per-taxpayer impact is approximately $257 additional per year. The non-tax revenue line is negative 5% because last year's fund balance contribution is gone.
-- **Source:** Transcript [24:11--25:47]
+#### 3. The 6% Tax Target Is Met — One Genuinely Reassuring Data Point
+- **Fact:** The proposed FY27 budget delivers exactly the 6% local tax increase the City Council set as a ceiling, translating to approximately $257 per year for the average South Portland homeowner (based on a $514,000 assessed value). The overall budget growth is 3.3%, described as the lowest year-over-year increase in recent memory.
+- **Source:** [24:58–25:47], Budget Presentation Slide 8
 - **Emotional valence:** positive
 - **Threat level:** 1
 - **Open question:** false
 
-#### 5. Full Debt Service Picture Was Not Surfaced Proactively
-- **Fact:** The cumulative debt service cost center (line 8,000,099) totaling FY27 payments was referenced only in response to a board question, not foregrounded in the finance presentation. Ketchem noted the district carries "several layers" of bonds with "a variety of principal and interest payments" -- the athletic field bond alone adds roughly $330K next year. The full multi-year amortization schedule was never shown.
-- **Source:** Transcript [101:29--102:15]
-- **Emotional valence:** neutral
-- **Threat level:** 3
-- **Open question:** true
-
-#### 6. State Funding Formula Change Is a Known Unknown
-- **Fact:** Board Member Holman asked about LD 2666, the pending legislation that would revise Maine's school funding formula. Ketchem noted the bill has nine provisions, but only two have been modeled. The outcome for South Portland is genuinely uncertain -- the district could receive more or less state aid under the revised formula, and the legislature has not completed its analysis.
-- **Source:** Transcript [122:24--123:09]
-- **Emotional valence:** neutral
-- **Threat level:** 3
-- **Open question:** true
-
-#### 7. Grant Tracking Is Ad Hoc With No Formal System
-- **Fact:** When Board Member Richardson asked whether the district maintained a list of pending grants, Ketchem acknowledged there is no formal process. Small grants surface "more ad hoc." The only material outstanding application is a Department of Maine community school expansion grant for up to $100K -- two $50K applications -- whose outcome is unknown.
-- **Source:** Transcript [104:36--105:22] and [118:34--119:20]
+#### 4. Transportation Budget Rises 17.5% While Services Are Being Cut
+- **Fact:** The FY27 transportation budget is $3,326,606, up from $2,830,679 in FY26 — a nearly $500,000 increase — even as the district plans to reduce evening shuttle routes and reassign bus drivers to midday custodial duties. The budget book shows driver and clerk benefits jumping from $610,175 to $904,217, a $294,000 increase that appears to reflect health insurance growth, but no line-item explanation was offered in the presentation.
+- **Source:** Budget Presentation Slide 7 (Cost Center 8); Budget Book Rows 2910–2970; [79:31–82:39]
 - **Emotional valence:** negative
-- **Threat level:** 2
-- **Open question:** true
+- **Threat level:** 3
+- **Open question:** true (The benefits surge is visible in the budget document but was never connected to the health insurance projection in any public-facing explanation. What is the district's plan to manage benefits cost growth if health insurance continues rising at 12% per year?)
+
+#### 5. No Plan to Replenish the Fund Balance
+- **Fact:** When Board Member Feller asked directly about the plan to rebuild the fund balance — reserves drawn down over four years to cover operating costs — Ketchem confirmed there is no seeding plan in FY27: "This year is too dire." Board Member Richardson followed up to confirm that with no fund balance, any unexpected expenditure (litigation, weather, emergency repair) would require drawing on the city's fund balance and repaying it through a future tax increase.
+- **Source:** [98:24–99:17]; [103:36–103:52]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true (Ketchem identified the missing fund balance threshold policy as a primary "guardrail" failure. When does the board commit to a minimum reserve target and a timeline to reach it?)
+
+#### 6. Nutrition Transfer Was Systematically Under-Budgeted Last Year
+- **Fact:** Ketchem disclosed that in FY26, the district budgeted $202,000 for the nutrition fund transfer but the actual deficit was "several hundred thousand dollars" — a significant unexplained variance. The FY27 budget corrects this to a more realistic figure, but Ketchem flagged it as a key area of concern representing prior under-reporting.
+- **Source:** [27:21–28:06], Budget Presentation Slide 12
+- **Emotional valence:** negative
+- **Threat level:** 3
+- **Open question:** true (If nutrition was under-budgeted by this magnitude in FY26, what other line items were similarly understated? No full FY26 variance analysis was presented to the board.)
+
+#### 7. No Votes Were Taken — the Timeline Is Now Critical
+- **Fact:** After more than five hours of presentation and public comment, the board adjourned at approximately 11:15 PM with zero votes cast. Three action items were on the formal agenda: authorization to file a school closing report, selection of a grade configuration model (Option A or B), and adoption of the FY27 budget proposal. The next scheduled meeting is March 30, with the City Council budget presentation on April 7.
+- **Source:** [299:39–307:24]; Budget Presentation Slide 9 (Timeline); Agenda Item 2.1, 2.2, 2.3
+- **Emotional valence:** negative
+- **Threat level:** 3
+- **Open question:** true (Can the board hold a decision-quality meeting on March 30 — one week after an emotionally exhausting five-hour session — and still produce a coherent, defensible budget package for the April 7 City Council presentation?)
 
 ---
 
@@ -69,26 +69,24 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title David's journey: Can this district fix its finances?
-    section Opening
-        Chair personal remarks before any data: 2: David
-    section Finance Presentation
-        Abigail names root causes clearly: 4: David
-        FY28 math is still broken after cuts: 2: David
-    section Board Q and A
-        Feller asks sharp fiscal questions: 3: David
-        No fund balance plan confirmed: 2: David
+    title David's journey: Five hours, no votes, hard math
+    section Budget Presentation
+        Chair opens with personal backstory: 2: David
+        CFO gives root-cause autopsy: 5: David
+        6% tax cap confirmed, $257/yr: 4: David
+        FY28 labor math will not pencil: 2: David
+    section Board Q&A
+        No plan to seed fund balance: 2: David
     section Public Comment and Close
-        Three hours of music and emotion: 2: David
-        Adjourned without vote at 11 PM: 1: David
+        Adjourned 11PM, no votes cast: 1: David
 ```
 
 ---
 
 ### Reactions
 
-The finance director -- Ketchem, who's only been there nine months -- was actually the most useful person in the room. She laid out exactly how the district got here: enrollment fell by 300 students over four years, staffing didn't adjust, COVID money propped up headcount, and then when the money ran out they just drew from reserves instead of cutting positions. And because they had no minimum fund balance policy, nobody triggered an alarm. She said she's the seventh finance director in six years, which tells you everything about why nobody caught it earlier. I genuinely appreciated that she didn't dress it up. She called it cause and effect, not excuses. That's the first time I've heard someone at that podium give a structural account instead of just a budget number.
+The most useful twenty minutes of a five-hour meeting came from the finance director. Abigail Ketchem — who is, by the way, the seventh person to hold that job in six years, which alone tells you something about this district — stood up and gave an actual autopsy. Enrollment fell, staffing didn't follow, COVID money papered over the gap, they spent down reserves with no policy requiring a minimum on hand, and the constant turnover in finance leadership meant nobody was watching the whole picture long enough to say stop. She called it cause and effect, not excuses. That's the clearest, most accountable explanation I've heard from anyone in this district. I genuinely appreciated it — and I immediately started wondering whether she'd still be here in eighteen months to implement any of this.
 
-What I'm actually worried about is FY28. She was very clear: labor costs, when you hold everyone's position constant, increase faster than 6% every single year. That's baked into the contracts. So even after they've cut 78 positions, closed a school, and reset the budget, they're already pointed back at the same wall. Add in at least $330K in new debt service on the athletic field bond, utilities running up 13--14% a year, and the Skillen boiler as an open question, and you've got a district that just did the hardest thing they've ever done and it still doesn't solve the core problem. She said it herself: "FY27 wipes out the balance, but that doesn't solve your core problems." And when Feller asked what the plan was to rebuild the reserve fund, the answer was essentially: not this year, maybe next, only by asking taxpayers for more. There's no safety net right now. None.
+Here's what doesn't get fixed by this budget though: the structural math. Labor costs auto-escalate more than 6% per year just through step and lane adjustments that are already written into the contracts. The City Council's tax cap is 6%. Those two facts in the same sentence should be keeping every board member up at night, because it means every single year you're starting from a structural deficit before you even open the utility bills. Utilities are up 13 to 14 percent annually. FY28 debt service is going up at least $300,000 for the athletic field bond. And when Feller asked about rebuilding the fund balance — the reserves they spent down to cover operations for four years — Ketchem just said there's no plan this year, it's too dire. So we have no cushion, no plan to build one back, and a compounding structural cost problem that a 6% tax cap cannot mathematically absorb. The budget book also shows transportation going up 17.5% from last year while they're cutting shuttle routes, and nobody explained that in the presentation — the benefits line for drivers jumped by $300,000, which I'm guessing is health insurance, but that connection was never made explicit for the board or the public.
 
-The five hours of public comment -- look, I get it, people are upset, and a few speakers made genuinely substantive points. The speech about the occupational therapists was actually a real fiscal argument: cut two OTs now, end up paying more for contracted out-of-district placements later. That's the kind of cost-shifting logic the board should be tracking. But the percussion ed tech got mentioned probably a dozen times, the same points on a loop. The meeting just... dissolved at 11:15 with no vote, a half-answered question log, and the board agreeing to meet again March 30th. Which is a week from now. And they still owe the City Council a presentation on April 7th. I don't think most people in that room realized that the FY28 math is the scarier number.
+And then they adjourned at 11:15 at night without voting on anything. Three action items on the agenda, zero decisions. The next meeting is Monday, City Council gets the budget April 7. I understand people were exhausted and the room was emotional — there was a lot of public comment, some of it genuinely substantive, some of it less so — but the board needed to call the vote. The timeline was already compressed and now it's worse. I'll be at March 30.

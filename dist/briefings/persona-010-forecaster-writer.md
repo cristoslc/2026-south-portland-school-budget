@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-010"
 persona_name: "Ben"
 upcoming_meeting_date: "2026-03-30"
-generated_date: "2026-03-24"
+generated_date: "2026-03-25"
 has_agenda: false
 last_cumulative_meeting: null
 inter_meeting_evidence_count: 1
@@ -12,72 +12,81 @@ inter_meeting_evidence_count: 1
 # Brief: Ben (PERSONA-010)
 ## Upcoming Meeting: 2026-03-30
 
-# Pre-Meeting Brief: Ben / The Forecaster
-**Upcoming Meeting:** 2026-03-30 | School Board (assumed continuation)
-**Prepared:** 2026-03-24
+# Pre-Meeting Brief: Ben (Forecaster Writer / PERSONA-010)
+**Upcoming Meeting: 2026-03-30 | Prepared: 2026-03-25**
 
 ---
 
 ## Since Last Meeting
 
-The only inter-meeting document is the FY27 budget Google Slides deck dated March 20 — the presentation that was already on the table at March 23. It isn't new post-meeting evidence; it's the material the board was working from during those five hours. Its significance for you is confirmatory: the administration walked in with a structured presentation covering personnel cuts, two closure options, and "decisions expected at the workshop" — and the board still couldn't vote. The gap between what the deck was designed to produce and what actually happened is your story.
+The only inter-meeting evidence is the FY27 Budget Google Slides deck dated March 20 — the document the administration put before the board at March 23's workshop. For Ben, this document is useful in two ways: it confirms in writing what the administration formally proposed (two elementary closure options, a structured list of personnel and non-personnel reductions, and a declared set of "decisions expected"), and it stands in stark contrast to what actually happened — the board adjourned after five hours without voting on any of it.
 
-What is conspicuously absent since March 23: any public signal from the district — no press release, no interim communication to families, no posted statement from the chair or superintendent about what happens next. After a five-hour session that ended without a single vote on closures, grade configuration, or budget adoption, the district has said nothing publicly to the community it serves. That silence is itself a data point. For a writer on a weekly cycle, the absence of official narrative is either a vacuum you fill or a story about institutional paralysis — possibly both.
+That gap is the story. A document framing specific decisions as the night's expected outputs, followed by a non-vote and adjournment, is not a routine delay. It's public evidence that the district's own process design has broken down.
 
-The clock hasn't paused. September implementation is five months out. Transportation routes for any reconfiguration remain unmodeled. The June 9 referendum date is fixed. The community is now a full week into limbo between a deadlock and whatever March 30 brings.
+The more significant development for Ben is what March 23 produced on the record. Finance Director Ketchem delivered what Ben had spent the season assembling from fragments — the origin story of the crisis, quotably narrated by an official for the first time: seventh director in six years, COVID money masking the enrollment-staffing mismatch, no fund balance policy to enforce discipline. Ben no longer has to write "according to budget documents and interviews" for that framing. He has a named official saying it in public.
+
+The Title VI question — whether closing or reconfiguring Kayler, with its approximately 45% BIPOC and 30–35% multilingual learner population, carries federal civil rights exposure — was raised at March 23 without a legal answer. That question didn't go away when the meeting adjourned. It is now an open legal thread embedded in any decision the board makes going forward.
+
+What's absent since March 23 also matters: no announcement of a revised timeline, no statement from the superintendent's office on next steps, no indication the board chair has scheduled additional workshops. Five months to a September implementation, no transportation routes modeled, no vote taken — and a week of public silence. For a weekly writer, that silence is itself reportable.
 
 ---
 
 ## Open Questions
 
-*In the order they're likely to matter for my next piece:*
+- **Who set the 6% ceiling?** I still have no meeting record where this was voted on or formally adopted. If the board makes decisions at March 30 that are explicitly constrained by a 6% ceiling, I need to ask directly in the room or by phone: when was that number set, and by whom?
 
-- **Has anyone figured out what they're actually voting on?** The board gaveled out March 23 without a path forward. What's on the table March 30 — another discussion, or a motion?
-- **Does Option 1.7 stay politically dead, or does someone float a resurrection?** Four board members called it dead on equity grounds. Has any one of them changed their position in the intervening week, or is there a new closure option I haven't seen?
-- **What's the legal answer on Kayler?** A Title VI civil rights question about a school that's approximately 45% BIPOC and 30–35% multilingual learners was raised at the last meeting and went unanswered before adjournment. Did the administration get a legal opinion in the past week? Has this been formally referred to counsel? If the board votes on Kayler's status without a legal answer, that's a significant story.
-- **Who finally states the combined household number?** I've assembled it: school tax, sewer rates at 22% annually for three years, the $87M public safety bond, the potential Mahoney bond. No elected official has said the full number out loud in a public meeting. Will someone do that this week, or does it remain the story the community paper has to tell because the district won't?
-- **Where did the 6% ceiling come from?** I still have no meeting record where this was adopted. If the board is now working under a constraint that no one voted on, that's a legitimacy question with real reader stakes.
-- **Is there any achievement data for the reconfiguration proposals?** The administration recommended closing Skillin on educational grounds and presented no educational evidence. Is that coming? Or is it simply not going to appear before a vote?
-- **How fast is the enrollment decline actually moving?** The ICE enforcement / fear-based absences thread is on the public record now — Councilor Scott's "eighty families equal eighty students" framing. Has the district updated its enrollment projections to account for any in-year attrition? If not, why not?
-- **Can they actually do this in five months?** I need to understand what a September reconfiguration implementation actually requires — staffing reassignments, transportation redesign, family notification, union processes — and whether any of that work has started.
+- **What's the answer on Kayler and Title VI?** The civil rights question was raised without a legal response. Has the district's attorney weighed in? Has the board been briefed in executive session? If the board votes on any Kayler-affecting option without answering that question publicly, I need to note the gap explicitly in the piece.
+
+- **Can they actually do this in five months?** If a reconfiguration is voted tonight or soon, September is the stated implementation date. No transportation routes have been modeled. Has anyone at the district — publicly — acknowledged the timeline is slipping?
+
+- **What's the actual alternative to Skillin?** Four board members called Option 1.7 politically dead. So what is the live option? I still don't have a clear answer, and neither does the community. Is there a second elementary closure option that has traction? A reconfiguration that doesn't require closure? What are the tradeoffs that no official has plainly stated?
+
+- **Has anyone stated the combined household cost out loud?** I've assembled the full picture — school tax increase, 22% annual sewer rate increases three years running, the $87M public safety bond, and the potential $70–76M Mahoney bond — but no elected official has put those numbers together in one sentence for the public. Is that about to change?
+
+- **What happens if the June 9 referendum fails?** I've never heard this addressed directly. A failed referendum with no contingency plan is a real scenario. Has any board member stated what happens next?
+
+- **Where is the educational case?** The administration's top recommendation was framed as educationally beneficial. No achievement data was presented at March 2. Has that data surfaced anywhere, or is the district still asking the community to trust a claim without evidence?
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for March 30. Based on the state of play, here's what to prepare for:
+No agenda is available for the March 30 meeting. Based on the cumulative state and the March 23 outcome, here is what Ben should be prepared for.
 
-**Most likely: a continuation session on the unfinished March 23 business.** The board left with three budget options still unresolved, no vote on any closure, and no grade configuration decision. March 30 is almost certainly designed to produce at least one of those votes — or to explain publicly why it still can't. Either outcome is a story.
+**The most likely scenario is that March 30 is another decision meeting — possibly the one where the board cannot avoid voting.** The budget calendar runs to a June 9 referendum. If the board hasn't voted on closures or reconfiguration by late March, the window for implementing anything by September begins to close in ways that even the most conflict-averse board member will have to acknowledge. Ben should treat this meeting as potentially the most consequential public moment of the season.
 
-**What this means for you:** This meeting is your referendum-eve piece in embryo. Whatever happens March 30 either moves the community toward a June 9 vote or signals that the board cannot govern its way there. You need to be prepared for both: a vote that happens (what does it mean, who was for and against, what does the losing side say?) and a continued deferral (what is the board waiting for, and who is blocking whom?).
+**What's likely on the table:**
+- A reconfiguration or closure vote, even if not on Option 1.7
+- Possible presentation of an alternative plan — something that emerged from the March 23 discussions after adjournment, from board member caucusing, or from the administration working the phones
+- A budget options update, likely revisiting which of the three cost scenarios (19%, 6% gap, 9.8% with cuts) the board is willing to bring to referendum
+- Possibly a legal update — oral or written — on the Title VI question raised at March 23
 
-**What to listen for:**
-- Any new closure or reconfiguration option introduced to replace the politically dead Option 1.7. If someone tables an alternative, you need to understand whether it's a genuine policy proposal or a procedural maneuver to force a vote.
-- Any legal or administrative answer to the Title VI question raised at March 23. If this meeting proceeds to a vote on Kayler's status without that answer, the school board's exposure — and the community's right to know — becomes a central element of your piece.
-- Whether the 6% ceiling is formally adopted, revised, or implicitly abandoned. If it changes, the entire budget math changes.
-- Whether any board member — or the superintendent — states the combined property tax impact on a South Portland household. If they don't, your piece should.
+**What this means for Ben's piece:**
+If a vote happens, his story is about who voted how and what the stated reasons were — this is the moment where the board members who blocked Option 1.7 on equity grounds have to put an alternative on the record. If no vote happens, his story is the clock: five months, no decision, no transportation routes, no contingency.
 
 **Questions to prepare:**
-- *To any board member after the meeting:* "What would it take for you to vote yes on a closure option?" (Gets the actual hold-out position on record.)
-- *To the administration or board chair:* "Did the district receive a legal opinion on the Title VI question raised last week before tonight's vote?"
-- *To Ketchem or the business office:* "What is the earliest date you could model transportation routes for a reconfiguration, and has that work started?"
+- If a new reconfiguration option is presented for the first time at this meeting, ask the board chair or superintendent: when was this developed, and why wasn't it part of the February 4 community forum?
+- If the board votes, note precisely which members voted yes, no, and abstained — and whether any stated reason explicitly invoked equity, cost, or the federal civil rights question.
+- If the Title VI question comes up again without a legal answer, ask afterward (by phone or email): has outside counsel been retained on this question, and when does the board expect a written opinion?
 
 ---
 
 ## Watch For
 
-- **Whether a motion is actually made.** After March 23, the procedural move to adjourn without a vote was a story in itself. If the same pattern repeats — a long discussion ending without a motion — that's a pattern, not an incident. Your piece can name it.
+- **Whether the board actually votes.** A second consecutive no-vote with the clock running is the lede. If they vote, the story pivots immediately to what was decided and who will be harmed or helped. Be ready for either outcome.
 
-- **Ketchem's tone.** At March 23 he delivered the most candid origin story the district has put on public record — seventh director in six years, COVID money masking the mismatch, no fund balance policy. Watch whether he sustains that candor under the pressure of an imminent vote, or whether the administration retreats to managed messaging now that the situation is at crisis pitch.
+- **Any board member presenting an alternative to Option 1.7 for the first time.** If a new reconfiguration plan surfaces at this meeting — one that wasn't in the March 20 slides — ask when it was developed and whether community input was sought. The process question matters as much as the plan.
 
-- **The four board members who declared Option 1.7 dead.** If any one of them softens, shifts their framing, or introduces a modified version of the Skillin closure under a different name, that's a reversal worth noting explicitly. Readers who followed the equity argument deserve to know if it's being walked back.
+- **Ketchem's language on timeline.** At March 23 she gave Ben his best origin-story quote of the season. Watch whether she says anything at March 30 about implementation feasibility given the delay — "we are still on track for September" versus any hedge or caveat is a quotable distinction.
 
-- **Who speaks first about Kayler's demographics.** The Title VI question is legally and politically live. If it comes up again, track who raises it, how the administration responds, and whether the board chair calls for a legal opinion before proceeding. The sequence of that exchange is the story.
+- **The chair's procedural moves.** The March 23 chair — who publicly advocated for reconfiguration — adjourned a five-hour meeting without a vote. Watch whether the chair sets a hard deadline for a vote at this meeting, tables discussion again, or calls for a special session. Each choice signals a different story about board governance capacity.
 
-- **Any new number on combined household impact.** You have the synthesis. If a board member or the superintendent finally states the full combined cost — school levy plus sewer plus bonds — note the exact phrasing and who said it. If they still don't, your piece is the first public accounting.
+- **Scott's statements.** He's the board member whose "eighty families equal eighty students" framing put the immigration-enrollment connection on the public record. If he speaks at March 30, his framing of which families bear the cost of any configuration option is worth tracking carefully.
 
-- **Union presence and body language.** SPEA went quiet after establishing their public record of good faith in January. If union representatives are in the room and visibly engaged — or absent — that signals where negotiations stand and whether the workforce feels a vote is imminent.
+- **Feller's position.** He publicly wavered on the 6% ceiling at February 9. If the board is being asked to adopt a budget option, his vote is the one most likely to surprise — watch whether he has re-anchored or is still in motion.
 
-- **Any mention of the September implementation timeline.** Every week that passes without transportation routes modeled or staffing reassigned makes implementation less plausible. If someone on the board or administration acknowledges the timeline crunch on the record, that's the "can they actually do this?" hook your readers need.
+- **Any mention of the combined household tax burden.** If any board member or administrator says something like "this is the third tax increase hitting residents at once," Ben has the official attribution he's been waiting for to anchor his synthesis piece. Don't miss it.
 
-- **What parents and teachers say during public comment.** If the meeting includes public comment, listen for anyone naming the combined household cost, the ICE-enrollment connection, or the Title VI concern — those voices become interview candidates for your next piece and give you a community source for claims the district won't make itself.
+- **Whether the Title VI question gets a legal answer or gets quietly avoided.** If no one raises it and no legal opinion is presented, that absence is itself worth a call to the district the next morning: "Was outside counsel consulted before tonight's vote?"
+
+- **The room.** March 23 was five hours with no vote. Measure the energy at March 30 against that. Is there visible exhaustion, frustration, or resignation among board members? Are the administrators presenting with the same confidence they had in February, or has something shifted? Those details don't make the paper by themselves, but they tell Ben which interview calls to make on Wednesday.

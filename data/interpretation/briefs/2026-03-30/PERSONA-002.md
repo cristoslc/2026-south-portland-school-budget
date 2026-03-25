@@ -3,10 +3,10 @@ schema_version: "1.0"
 persona_id: "PERSONA-002"
 persona_name: "David"
 upcoming_meeting_date: "2026-03-30"
-generated_date: "2026-03-24"
+generated_date: "2026-03-25"
 has_agenda: false
 last_cumulative_meeting: "2026-03-19"
-inter_meeting_evidence_count: 0
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: David (PERSONA-002)
@@ -14,86 +14,79 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new evidence has surfaced in the period since March 19. That absence is itself worth noting.
+The notable inter-meeting development is the March 23 school board budget workshop, for which a Google Slides presentation was prepared and distributed. The deck covers the current FY27 proposal structure, personnel and non-personnel reductions, two elementary closure options, middle and high school reductions, and the decisions the board was expected to make at that session.
 
-The most time-sensitive data point in David's tracking is the health insurance actuals, which were due March 25 — five days before this meeting. That number has been carrying a known instability (revised from 8% to 12% in February) and is one of the last major unknowns holding up any reliable FY27 budget projection. The fact that no emergency communications or board alerts have appeared publicly in the interim is a weak signal — either the actuals came in at or near the 12% estimate and the district absorbed the news quietly, or the number is being held until a formal presentation. David should not interpret the silence as stability.
+For David, the framing of "two elementary closure options" in the slide deck is the most significant signal. His concern since March 2 has been that the administration is presenting a reconfiguration-shaped menu — closure variants — rather than treating option 1.2 (no reconfiguration, distributed cuts) as a genuinely comparable alternative. If the March 23 workshop formalized decisions between two closure paths without modeling option 1.2 to the same level of detail, the analytical gap he flagged has now become a decision-shaping gap. He should review what, if anything, was decided on March 23 before attending March 30.
 
-The other open thread with time pressure is the March 30 meeting's position on the calendar: one week before the April 7 public hearing. Whatever the board presents on March 30 is effectively the final internal alignment before the first formal public event in the budget adoption sequence. If there are disagreements to resolve — about reconfiguration modeling, the $3M+ gap, or the administration's recommendation — they are more likely to surface here than at the public hearing itself.
+The second critical development is timing: March 25 was the date health insurance actuals were expected. That date has now passed. If those numbers are in hand, the budget model should be meaningfully more stable than at any prior meeting — either confirming the revised 12% estimate or introducing another revision. The March 30 meeting is the first opportunity to see actuals reflected in official projections.
+
+No other inter-meeting evidence has been provided. The absence of a March 30 agenda is itself a data point: David should note whether materials are published in advance, late, or not at all — this has been a consistent transparency indicator he tracks.
 
 ---
 
 ## Open Questions
 
-David carries the following into this meeting:
+These are the threads David is carrying into March 30:
 
-- **The health insurance actuals landed March 25. What's the number?** This is the last major budget assumption that has been moving. Has it stabilized at 12%, or did it come in higher? The difference between 12% and, say, 15% could add another $500K–$1M to the gap.
-
-- **The $3M+ that the three big ideas don't cover — where does it come from?** The administration has given us the reconfiguration (~$2M), MS/HS efficiencies (~$1M), and operational changes (~$1M). That's still $3M short of even the low end of the $8–9M target. That gap has never been seriously modeled in public. Has that changed?
-
-- **Why has option 1.2 (no reconfiguration) still not been modeled?** Nine scenarios on the matrix, and the one that four board members appear to favor has no comparable financial analysis. That's not neutral — that's the administration presenting one path and asking the board to vote on an unexamined alternative.
-
-- **Are the early retirement buyouts real or hypothetical?** Feller identified 41 eligible staff and floated a $1M+ figure if 20 take a $50K buyout. Has anyone actually surveyed intent? Has HR been engaged? A voluntary retirement mechanism that doesn't materialize is not a budget line.
-
-- **What are actual transportation costs for redistricting?** The $60K–$125K consultancy placeholder is not a route cost estimate. Reshuffling a thousand elementary students has transportation consequences that belong in the reconfiguration financial model before a board vote, not after.
-
-- **Where did Matthews' "$8.4 million" school deficit figure come from?** It doesn't match any number in my tracking — not the $7.2M from February 4, not the $8–9M range from joint guidance. That number needs a source.
-
-- **When does the Pre-K expansion mandate get modeled into the reconfiguration plan?** 80–90 additional four-year-olds by September 2026 plus three-year-olds the following year. This is a state mandate with enrollment and facility consequences that has not been integrated into any of the nine scenarios I've seen.
-
-- **Has the combined household burden analysis been built yet?** Mahoney ($70–76M), public safety bond ($80–87M), Pearl Street sewer ($51.7M), existing city bonds ($89.1M), school structural gap ($8–9M) — all hitting the same property tax base. Matthews named it on March 19 in ninety seconds and was outvoted. It still doesn't exist as an official document. The April 7 public hearing is in one week.
-
-- **Is the new finance director actually implementing structural controls, or is the board counting personnel optimism as remediation?** A second consecutive material weakness requires a documented remediation timeline, not a vote of confidence in a new hire.
+- **Health insurance actuals landed March 25 — what do they show?** The 12% estimate was itself a revision from 8%. If actuals came in higher, the gap just grew again. I need to see the number, not a range.
+- **Did the March 23 workshop produce comparable modeling for option 1.2, or did the board effectively choose between two closure variants without ever seeing a no-closure alternative with the same rigor?** The nine-scenario matrix in March had this gap. Did March 23 close it or formalize it?
+- **Where does the remaining $3M+ come from?** The three big ideas sum to roughly $4M in the optimistic scenario. The gap is $8–9M. Six weeks after the joint guidance, the bottom half of the math still has no answer.
+- **Matthews cited $8.4M at the March 19 meeting — where does that figure come from?** It matches neither the $7.2M structural gap nor the $8–9M range. Has staff acknowledged it? Corrected it? Does it reflect something in the budget I haven't modeled?
+- **What are the actual transportation cost estimates for redistricting a thousand elementary students?** The $60K–$125K consultancy placeholder is not a route cost estimate. This number is load-bearing for comparing reconfiguration savings against reconfiguration costs.
+- **What is the Pre-K expansion funding plan?** Eighty to ninety additional four-year-olds by September 2026, plus three-year-olds the following year, within a reconfiguration plan — how is this being accommodated and at what cost?
+- **Are early retirement buyouts materializing?** Feller put 41 eligible staff and a $1M+ estimate on the table. Has anyone followed up? What is the actual uptake number or commitment timeline?
+- **Is the second consecutive material weakness going to require a documented remediation timeline from the council before they approve FY27?** Or is "new finance director, trust the process" still the answer?
+- **Does the per-pupil cost comparison methodology hold up?** The $26,651 figure and the ~$20M gap versus the state EPS recommendation have been on the table since February 10 with no staff response.
+- **Has anyone built the integrated property tax burden model yet?** Mahoney ($70–76M bond), existing city bonds ($89.1M), Pearl Street sewer bonds ($51.7M), and the school structural gap — on a residential base already carrying 61% of school tax load. Matthews named this in ninety seconds on March 19 and was outvoted. That doesn't mean the number went away.
+- **What did the January 15 goal-setting workshop actually produce?** That attachment still hasn't surfaced in the public record. Does the council's stated governing framework for FY27 even acknowledge the school crisis and the combined tax burden?
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for the March 30 meeting. Based on the budget calendar and the live threads in David's tracking, the following topics are likely to surface:
+No agenda is available for the March 30 meeting. Based on the budget calendar and what was in motion through March 23, here is what David should be prepared for:
 
-**Health insurance actuals (March 25 deadline just passed)**
+**Most likely: a follow-up budget workshop or continuation of the March 23 session.** The calendar has three workshops running through April, with the first formal Budget Workshop #1 on April 14. March 30 falls between the March 23 workshop and the April 7 public hearing — it is almost certainly being used to finalize or pressure-test the numbers before the public hearing.
 
-This is the most immediate and concrete thing David should listen for. If the board receives the actual health insurance cost figures at this meeting, he needs to hear: the exact percentage increase, whether it's applied to the full benefits-eligible workforce, how it compares to the 12% estimate used in February projections, and what the net dollar impact is on the $8–9M gap. If the actuals are not presented, David should ask why — the deadline was five days ago.
+**What this means for David specifically:** This is probably the last internal working session before the budget goes to public testimony. If decisions are going to be locked in before the April 7 hearing, they are being locked in now. David should treat March 30 as the moment the administration's framing hardens, not a preliminary discussion.
 
-*Questions to prepare:* What is the confirmed health insurance cost increase for FY27? How does it affect the total budget gap? Was the 12% planning assumption conservative or optimistic?
+**Topics likely to surface:**
 
-**Budget preparation for the April 7 public hearing**
+- *Health insurance actuals.* March 25 was the date. If the board doesn't address actuals at a March 30 budget session, David should ask directly: are the actuals incorporated into the numbers being presented tonight, and if not, when?
 
-The board almost certainly needs to align on what it will present publicly in one week. That means the administration is likely to present a recommended package or a narrowed set of scenarios. David should watch for whether option 1.2 is included in that package with comparable financial modeling, or whether the board is being asked to walk into a public hearing with only the reconfiguration pathway quantified.
+- *Elementary reconfiguration decision status.* If the March 23 workshop advanced or foreclosed options, March 30 will either confirm or revisit that. David should listen for whether option 1.2 is treated as still open or as already off the table procedurally.
 
-*Questions to prepare:* Will option 1.2 (no elementary reconfiguration) have a full financial model before the April 7 hearing? If not, on what basis will the board discuss it with the public?
+- *The gap below the three big ideas.* $4M identified, $8–9M needed. Someone has to account for the remaining $3M+ before the April 7 public hearing. If it isn't addressed on March 30, it won't be ready for public scrutiny by April 7.
 
-**Reconfiguration timeline and implementation feasibility**
+- *FY26 year-end projections.* The $170K surplus–$1M deficit range from March 9 should have tightened by now. If spending controls are holding, what does the revised range look like?
 
-With a September 2027 implementation target, the board is roughly 18 months out from reshuffling a thousand students. If the organizational complexity hasn't been addressed — actual transportation cost modeling, Pre-K mandate integration, community communication plan — the "big idea" that anchors $2M in savings is not yet real.
+**Questions David should prepare:**
 
-*Questions to prepare:* What is the actual transportation cost estimate for elementary redistricting? Has the Pre-K expansion mandate been integrated into the reconfiguration model? What is the earliest the board needs to vote on reconfiguration to preserve the September 2027 timeline?
-
-**FY26 spending projections and fund balance**
-
-The March 9 projection was a $170K surplus to $1M deficit range. The health insurance actuals could affect this. David should listen for whether the FY26 picture has stabilized or shifted since then.
-
-*Questions to prepare:* Has the FY26 projection changed since March 9? Is the nutrition fund deficit still on track to be fully accounted for?
+- Are the March 25 health insurance actuals incorporated in tonight's numbers? What is the figure, and how does it compare to the 12% estimate?
+- Has option 1.2 been modeled to the same level of detail as the two closure options — personnel impact, savings, cost offsets, transportation, Pre-K accommodation?
+- What is the identified path to the remaining $3M+ beyond the three big ideas? Is there a line-item accounting for it, or is it still a residual?
+- What is the current best estimate of transportation costs for elementary redistricting under the reconfiguration scenario?
 
 ---
 
 ## Watch For
 
-- **The health insurance number, whenever it appears.** If it comes up, immediately note whether it's higher or lower than 12%, and what the dollar impact is on the FY27 gap. If it does not appear, note who on the board asks for it and who doesn't — that's a signal about fiscal engagement.
+- **Health insurance actuals being presented or conspicuously absent.** The March 25 deadline passed. If a budget workshop proceeds on March 30 without addressing actuals, that is a signal — either the numbers aren't ready, or they're unfavorable and being managed. David should note whether the board volunteers this information or requires prompting.
 
-- **Whether option 1.2 gets a financial model before April 7.** If the administration presents a "recommended budget" heading into the public hearing without a modeled alternative, the analysis is steered. Four board members have opposed Skillin closure publicly — if they accept an unmodeled alternative, something has shifted.
+- **Whether option 1.2 is treated as live or foreclosed.** Listen for procedural language: "the board has determined," "tonight we are deciding between," or "we are no longer considering." If the no-reconfiguration path was eliminated without equivalent modeling, the March 30 session will reveal it through what is not presented.
 
-- **The gap between the three big ideas (~$4M in savings) and the $8–9M target.** Listen for whether anyone explicitly names the remaining $3M+ and proposes a specific source, or whether the presentation papers over it with projections and assumptions.
+- **The $3M+ gap getting a named answer.** If the three big ideas sum to $4M and the gap is $8–9M, someone has to say where the rest comes from. Watch for whether this is addressed with line-item specificity or deferred again with language like "we'll continue working on it" or "additional opportunities exist." Vague language here means the budget going to the April 7 public hearing is not closed.
 
-- **Any revision to the FY27 gap figure.** Matthews used "$8.4M" on March 19 with no sourcing. If the administration presents a revised gap figure at this meeting, note whether it converges toward Matthews' number or diverges, and ask for the methodology.
+- **How the superintendent handles the four-member opposition to Skillin closure.** If those four members hold, the reconfiguration path cannot pass. Watch whether the administration adjusts its framing, whether it introduces new data, or whether it pushes forward on the same case. Tone shifts in how the superintendent addresses skeptical board members are meaningful.
 
-- **Early retirement buyout status.** Listen for whether this has moved from conceptual to operational — actual survey of eligible staff, HR involvement, a timeline, an updated savings estimate. Conceptual is not a budget line.
+- **FY26 actuals or revised projections being updated.** The March 9 projection was $170K surplus to $1M deficit. If spending controls have continued, there should be a tighter range by March 30. If the range has not moved, ask why.
 
-- **Whether the combined household burden analysis is mentioned by anyone on the board or administration.** If it isn't, it won't exist before the April 7 public hearing. That's the moment to note whether the community will walk into a referendum process without integrated fiscal context.
+- **Any mention of the combined property tax burden or the Matthews framing from March 19.** If no one raises integrated household impact analysis at a late-March budget session, David should register that the six weeks since the council's joint guidance have produced no official version of the model he's been building himself.
 
-- **Superintendent Prince and the finance director.** If Prince speaks to budget controls or financial projections, listen for specific process changes — new reconciliation procedures, reporting cadence, audit committee involvement — rather than confidence statements about personnel. The distinction between structural reform and personnel substitution matters for David's assessment of whether the material weakness is being remediated.
+- **Pre-K expansion costs appearing anywhere in the presented numbers.** This mandate (80–90 additional four-year-olds by September 2026) is real and dated. If it is absent from the cost side of reconfiguration modeling, the savings estimates are incomplete.
 
-- **Board member voting alignment on reconfiguration.** With four members publicly opposed to Skillin closure, any procedural vote heading into the April 7 hearing — even on what to present publicly — reveals whether the board majority has shifted, held, or fractured further.
+- **The finance director's presence and how staff handles data questions.** The second material weakness finding and six directors in five years make every data-under-pressure moment a credibility test. Watch how staff responds to questions that require real-time retrieval of figures — whether they have the numbers or redirect to documents.
 
-- **Any mention of Pre-K expansion costs or enrollment.** The mandate is live, the timeline is imminent (September 2026 for four-year-olds), and it has not appeared in any reconfiguration financial model David has seen. Its continued absence from the numbers is a data integrity issue.
+- **Whether the superintendent search costs appear anywhere.** The $30K+ Zeal contract was approved during a spending freeze with no budget allocation. If the FY27 number has been tightened to $8–9M in required cuts, an unbudgeted mid-year expenditure should appear somewhere in the reconciliation.
 
-- **Tone and specificity from the administration vs. the board.** David has already flagged that the administration appears to be steering toward reconfiguration. If the March 30 meeting is the last internal session before a public hearing, the administration's framing of "the recommended option" versus "the options" is the tell. Listen for who sets the frame and who pushes back with numbers.
+- **Language around the April 7 public hearing.** If administration frames the public hearing as "receiving input" on a package already decided, that is substantively different from a hearing where the budget is genuinely still open to revision. Listen for whether the hearing is characterized as consultative or confirmatory.

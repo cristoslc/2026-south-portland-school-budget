@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-012"
 persona_name: "Jaylen"
 upcoming_meeting_date: "2026-03-30"
-generated_date: "2026-03-24"
+generated_date: "2026-03-25"
 has_agenda: false
 last_cumulative_meeting: "2026-03-23"
 inter_meeting_evidence_count: 0
@@ -14,68 +14,60 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-**No new public evidence has surfaced since March 23.** That silence is itself meaningful: the week between the SPHS budget workshop and this meeting has passed without any disclosure — from the district, the school newspaper, or the coach rumor mill — about which three currently-held teaching positions are actually being cut. The names are known somewhere in the administration right now. The staff who received pink slips know. The silence in public channels is a choice.
+No new evidence has arrived since the March 23 school board workshop. That absence is worth noting on its own terms.
 
-What you do know from March 23 is worth holding tightly as you walk into this meeting: seven SPHS positions reduced, four of those from vacancies that won't be filled, three from people currently working at your school. All courses are staying within section size limits — which sounds like a reassurance but isn't one, because class sizes are rising anyway (science averaging 21.8 from 18.8). The evening shuttle is being collapsed into a single after-4 PM loop. And the percussion ed tech position — serving IEP and 504 students in theater and music programs — is on the chopping block for the *second year in a row*.
+The last meeting finally gave you something concrete: 7 SPHS positions being reduced, 4 from vacancies, 3 real cuts across "multiple content areas." Science class sizes are jumping from 18.8 to 21.8. The evening shuttle is being consolidated into a single after-4 PM loop. The percussion ed tech position serving IEP and 504 students in grades 5–12 is on the chopping block — for the second year in a row. Student reps Davidson and Cabessa actually spoke and were acknowledged, which is more than February 4 gave you.
 
-The other thing March 23 confirmed: you were in the room. Alex Davidson and another student rep spoke and were acknowledged. That's more than the ornamental silence of February 4. It's not a vote. But it's also not nothing.
+But the most important piece is still missing: which 3 content areas are losing a real, currently-filled teaching position? Theater? AP courses? The district said "multiple content areas" and stopped there. You've now been waiting since December 17 to find out whether your senior year classes will exist, and as of March 25, no one has told you.
+
+The quiet between March 23 and March 30 isn't reassuring. The April 7 public hearing is 8 days away. If the board hasn't itemized those cuts publicly yet, it either hasn't finalized them or is choosing not to disclose them before the hearing — and either way, March 30 is the last school board session before the public gets its formal comment window.
 
 ---
 
 ## Open Questions
 
-Going into March 30, these are the questions you haven't gotten answers to yet:
+These are the things you're still sitting with heading into this meeting:
 
-- **Which three departments are losing real teachers?** Theater, AP sections, or coaches — I still don't know. Nobody has said it out loud in a public meeting. Why?
-- **Is theater on the list?** The program is "active and expanding" right now, but so were a lot of things before March 18. Active today doesn't mean funded in September.
-- **Which of my AP courses are actually safe?** If one of the three cuts is in an AP content area, are those sections being reduced, combined with regular sections, or just gone?
-- **What does the evening shuttle change actually mean for rehearsals and practices?** A single after-4 PM loop sounds like it was designed by someone who has never stayed for cross-country or a tech rehearsal that runs to 6:30.
-- **Why is the percussion ed tech position getting cut again?** Last year, community advocacy reversed it. This year, with pink slips already out and $8.4M to close — is that fight winnable again, or is the scale too different?
-- **How does semesterizing credits work for college apps?** If I earn 0.5 credits in January and 0.5 in June, and I apply early decision somewhere in October, do colleges see half-credits and think something's wrong? Does anyone at SPHS actually have an answer for this, or are they figuring it out too?
-- **Is the $8.4M gap the final number, or does it keep growing?** It was $7.2M in December. It grew to $8.4M by March. What's different now and why hasn't anyone explained what changed?
-- **What happens after the three big proposals?** They only close about $4M of the $8.4M. Where does the other $4M+ come from — and are those cuts also hitting SPHS?
-- **When does the Metro schedule change actually take effect?** The direct meeting with Principal Glenn happened. That's good. But "on schedule" doesn't mean September. Am I supposed to figure out how to get home from practice before anyone confirms this?
-- **Will the community school model actually bring in money that protects programs?** The $100K state grant possibility keeps coming up. How real is it, and how long does it take to show up in a budget?
+- **Which 3 real teaching positions are being cut?** Theater director? AP teacher? A coach? The district said "multiple content areas" and won't go further. You need to know this before you can write anything credible for the school paper or say anything useful at the April 7 hearing.
+- **Does the evening shuttle consolidation kill after-school rehearsals and cross-country practice?** A single after-4 PM loop sounds like it works until you find out when it actually runs. When does it leave? Does it cover the high school? If theater rehearsal runs until 5:30 and the bus leaves at 4:15, that's not a transportation adjustment — that's an effective program cut.
+- **Is anyone fighting to save the percussion ed tech position this year?** This is the second time they've tried to eliminate it. It serves students with IEPs and 504s. Did community advocacy slow it down last year, and is anyone organizing a similar effort now — or does the $8.4M gap make restoration impossible this cycle?
+- **How does semesterizing credits affect my college applications?** If I'm taking AP classes senior year and the school is now issuing 0.5 credits in January and 0.5 in June, does that show up differently on a transcript than a full-year course? Do colleges read that as incomplete when they're reviewing applications in November and December?
+- **What happened to computer science?** I keep hearing it was eliminated at the middle school and reduced to one non-required teacher at the high school. If someone like me wants to go into anything tech-adjacent, what's the actual path now?
+- **What is the $8.4M gap actually made of?** I've been told the number three times, but nobody's broken it down in a way I can explain to someone else. How much of this is the state not paying what it's supposed to? How much is the athletic complex debt? How much is stuff the district did wrong?
+- **Will the community school model actually make a difference for students next year?** I keep hearing about $100K in state grants. Does that translate into programs or staff before September?
+- **Is anyone at the state level pushing back on Augusta for underfunding schools?** The state is supposed to cover 55% and covers 20%. That's the root of this, right? And nobody's fighting it?
 
 ---
 
 ## Agenda Implications
 
-**The agenda for March 30 is not yet available.** Based on where the budget process stands right now, here is what this meeting is most likely to involve and how it matters to you specifically:
+No agenda is available for the March 30 meeting. Based on where things stand, here's what's likely and what you should be prepared for:
 
-**This is the last regular board meeting before the April 7 public hearing.** That changes everything about what you should watch for. The board has to decide what it's presenting to the public on April 7 — which means any remaining decisions about the shape of the budget, including SPHS-specific cuts, have to land before or at this meeting. The three unidentified teaching positions may finally be named here, or the board may announce they'll be named *at* the April 7 hearing. Either way, pay close attention to any moment when the board discusses what goes into the April 7 presentation.
+**This is probably the last board session before the April 7 public hearing.** That makes it both a finalization meeting and potentially a preview of what the board will present to the public. The board may be voting on or discussing specific position cuts, responding to the 72 pink slips, or closing out the line-by-line review they said was underway. Watch whether the 3 unidentified SPHS teaching cuts finally get named.
 
-**What this means for you specifically:**
-- If the board names the three departments at March 30, you have until April 7 to prepare public comment. That's one week. If they don't name them until April 7, you're commenting in real time with no preparation. The timing of disclosure directly affects whether student voice — including yours — can be substantive rather than reactive.
-- Any procedural discussion about the April 7 format (how long comments are, whether students can sign up, whether the meeting is hybrid or in-person only) is something you should note and act on immediately.
+**The middle school and elementary reconfiguration may continue to dominate.** The March 2 meeting spent three and a half hours on elementary reconfiguration and deferred the high school to a later workshop. That workshop happened March 23, but the board may still be working through reconfiguration details that indirectly affect SPHS — especially if teacher reassignments or building consolidation moves are still unresolved.
 
-**What to listen for:**
-- Any mention of "content areas" being affected at SPHS — this is the coded language the district has used instead of naming subjects. If a board member asks for specifics and gets redirected, that's a signal.
-- Any reference to the percussion ed tech position — whether it's listed by name, grouped into "support staff," or silently absorbed into the cut list without acknowledgment that it serves IEP and 504 students.
-- Any update on the community school model grant timeline — specifically whether anyone says "before September" or only "in development."
-- Any acknowledgment that the credit semesterization change has been communicated to students and families — or any indication it hasn't been.
+**There may be a budget resolution or motion.** The board has to have something formal in front of the council before the April 7 public hearing. That means a proposed budget number may be on the table at March 30. If so, this is when you find out whether program-level cuts are finally specified in the official record.
 
-**Questions to prepare if there's a public comment period:**
-- "Seven positions are being reduced at SPHS. Which three are currently-held teaching positions, and in which subject areas? Students who are choosing senior year courses right now need this information."
-- "The evening shuttle is being consolidated to one after-4 PM loop. Has the district modeled how this affects theater rehearsals, cross-country, and other after-school programs — and when will students and coaches be notified?"
-- "The percussion ed tech position was saved last year after community advocacy. Is that advocacy still possible this year given the scale of the cuts, and what would the board need to hear to reconsider?"
+**What this means for you specifically**: If you're going to testify at the April 7 public hearing — or write something credible for the school newspaper — March 30 is your last chance to get the actual information you need before that deadline. You can't write "theater is safe" or "AP courses are being cut" without knowing which 3 positions are going. If the board doesn't name them tonight, you should ask directly, publicly, on the record.
+
+**Questions to prepare**:
+- "Can the board tell us specifically which teaching positions — by department — are being eliminated in the 3 real cuts at SPHS?"
+- "The evening shuttle consolidation — what time does it run, and has anyone mapped which programs it strands?"
+- "What's the status of the percussion ed tech position? Is it still proposed for elimination?"
+- "For seniors taking AP courses next year: are all current AP offerings confirmed to continue?"
 
 ---
 
 ## Watch For
 
-- **The moment when someone references "multiple content areas" at SPHS without naming them.** That phrase has been used as a shield across multiple meetings. If it appears again at March 30, it's worth raising in public comment — by name. "Multiple content areas" is not information. Theater is a content area. AP Chemistry is a content area.
-
-- **Any procedural announcement about April 7 public comment format.** If the hearing is structured to limit comment time, require advance sign-up, or restrict questions to district-level categories, that directly throttles the student voice that has been gradually building since February. Watch for details about how long each speaker gets and whether students have to register in advance versus showing up.
-
-- **Whether the board or superintendent voluntarily mentions the percussion ed tech position.** They've proposed cutting it two years in a row. If they don't mention it, it means they're hoping nobody notices it again. If they do mention it, listen for whether the framing is "we're considering" versus "this is decided."
-
-- **Superintendent Kahler's language about SPHS specifically.** At March 23, the high school was finally named after months of being deferred. Watch whether she continues treating SPHS as a concrete place or slides back into district-level abstraction. If she uses "section size limits" as evidence that students won't be harmed, that's worth pushing back on — bigger classes and lost teachers are real even when they technically stay within a legal limit.
-
-- **Whether any board member asks the question you're asking.** Has anyone on the board pressed for department-level disclosure at SPHS? If nobody asks, that's the civic absence you've been watching for five months. If someone does ask and gets a non-answer, pay attention to who presses further and who drops it.
-
-- **The board chair's framing of the April 7 hearing.** DeAngelis has controlled the calendar and the pacing of disclosure throughout this process. How she describes what April 7 is for — whether it's a real public input moment or a procedural formality before the May 5 vote — tells you how much your testimony at that hearing will actually matter.
-
-- **Any reference to enrollment decline and its connection to program cuts.** Councilor Scott ran the math publicly on March 10: families leaving equals students leaving equals a larger fiscal burden than the thing being cut. If the board's March 30 presentation uses enrollment-decline language without connecting it to the consequence of making SPHS worse for students, that's an argument you can make yourself at April 7.
-
-- **Whether anyone says anything directly to students.** You're 16. You showed up. If the board treats this meeting as a conversation among adults about a budget that affects you, and nobody acknowledges the students in the room or watching from home — that's the same civic ornamentality you've been documenting since December, and it belongs in your school newspaper piece.
+- **Whether the board finally names the 3 SPHS teaching cuts by department.** Any phrase like "we'll have more detail at the April 7 hearing" is a signal that disclosure is being deferred until the formal public comment period — which means you'll hear it at the same time as everyone else and won't have preparation time. That's worth naming aloud if it happens.
+- **Any motion or vote on the proposed budget.** If the board votes to adopt a budget proposal or advances a specific number, look for whether theater, AP, or athletics programs appear as line items or are folded into catch-all categories. "Instruction" is not theater. "Support services" is not your cross-country coach.
+- **How the board talks about the evening shuttle consolidation.** If someone describes it as a "transportation efficiency," that's administrative framing. Listen for whether anyone names the programs it actually affects — rehearsals, practices, tutoring — or whether the impact on students is abstracted away.
+- **Whether the percussion ed tech position comes up at all.** If it isn't mentioned, it may be treated as already decided. The second attempt to eliminate the same position serving IEP and 504 students is something the school newspaper could cover — and something you could testify about even if it isn't your program directly.
+- **Whether Davidson or Cabessa speak.** They got acknowledged at March 23. Whether they get acknowledged again — or are back to sitting silently — is a real-time read on whether the March 23 shift was an actual change or a one-meeting exception.
+- **Watch Superintendent DeAngelis when she's asked about SPHS-specific cuts.** If she gives category-level answers ("instruction" vs. "support services"), you're getting the same non-answer you've been getting since December. If she names departments, that's new. The difference matters for everything you want to write or say.
+- **Watch the board chair when public comment is opened.** Does two-minute public comment get the full two minutes? Are student speakers treated the same as adult speakers? You spoke at a board meeting once — notice whether the procedural environment has shifted at all.
+- **Any mention of the credit semesterization policy.** This one has gotten almost no public attention but directly affects your college applications. If anyone raises it — a parent, a teacher, another student — that's a signal that the concern is broader than just you, and worth tracking for the school paper.
+- **Listen for how the April 7 public hearing is described.** Is it framed as an opportunity for community input that shapes the final budget, or as a required procedural step before a decision that's already made? That framing tells you how much the April 7 testimony — yours included — is expected to actually matter.
+- **Watch Councilor Walker and Councilor Scott if either is present or referenced.** Walker has named the compound disinvestment (schools, library, immigrant families) every time he's spoken. Scott connected enrollment loss to enforcement risk in a way the formal process hasn't. If either of them is named or quoted in relation to the SPHS cuts, that's the thread most likely to connect your experience to the broader civic argument you'd want to make at April 7.

@@ -14,3 +14,24 @@ sources:
     evidence_pool: school-board-budget-meetings
     hash: "sha256:9c8dd846dca0fd8b6d634ae5e54e4e82ce5b19bdaed2101b34c6d585da04f4c3"
     duration: "05:07:48"
+
+  - source_id: "sb-presentation-2026-03-23-036"
+    source_type: presentation
+    title: "FY27 Budget Presentation — March 23, 2026 Board Meeting"
+    path: data/school-board/budget-fy27/documents/FY27-Budget-3.23.26-Board-Meeting.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/036-fy27-budget-3-23-26-board-meeting.md
+    evidence_pool: fy27-budget-documents
+
+  - source_id: "sb-budgetbook-2026-03-23-040"
+    source_type: document
+    title: "FY27 Budget Book — March 23, 2026"
+    path: data/school-board/budget-fy27/documents/FY27BudgetBook-3.23.26.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/040-fy27budgetbook-3-23-26.md
+    evidence_pool: fy27-budget-documents
+
+  - source_id: "sb-agenda-2026-03-23-045"
+    source_type: document
+    title: "Budget Workshop II Agenda — March 23, 2026 (Revised)"
+    path: data/school-board/budget-fy27/documents/Budget-Workshop-II-Agenda-3.23.26---Revised.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/045-budget-workshop-ii-agenda-3-23-26-revised.md
+    evidence_pool: fy27-budget-documents

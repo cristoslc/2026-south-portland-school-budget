@@ -5,7 +5,7 @@ persona_id: "PERSONA-010"
 persona_name: "Ben"
 meeting_date: 2026-03-23
 meeting_title: "School Board Budget Workshop -- March 23, 2026"
-interpretation_date: 2026-03-24
+interpretation_date: 2026-03-25
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -14,54 +14,61 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. The $257/Year Figure — The Lede He Needed
-- **Fact:** Finance Director Abigail Ketchem translated the 6% tax increase into a household number: "about $257 additional per year." This is the first time in the budget season a dollar figure has been attached to the increase in plain-English terms.
-- **Source:** [25:47] transcript
+#### 1. Finance Director Delivers the Historical Context Ben Has Been Hunting All Season
+- **Fact:** Finance Director Abigail Ketchem — identifying herself as the seventh finance director in six years — gave the clearest public explanation yet of how the district reached this crisis: COVID relief funds inflated staffing levels that were never reduced when the money ended, the absence of a minimum fund balance policy masked the problem year over year, and leadership turnover meant the books were never consistently maintained.
+- **Source:** Transcript [14:49–17:55]; FY27 Budget Presentation, Slide 4 ("FY21–FY25: Some Factors Leading to Today")
 - **Emotional valence:** positive
 - **Threat level:** 2
-- **Open question:** true — How does $257 vary across different property assessments in the city? Ketchem's figure appears to be an average. The number needs a qualifier before it goes to print.
+- **Open question:** false
 
-#### 2. The Origin Story — "Seventh Finance Director in Six Years"
-- **Fact:** Ketchem delivered the most coherent public accounting yet of how the district reached crisis: enrollment dropped while staffing grew (inflated by COVID money that then expired), no minimum fund balance policy acted as a circuit breaker, and leadership churn — she explicitly said "I am the seventh finance director in six years" — prevented any early intervention. She said directly: "There's no way our books could have been in order."
-- **Source:** [14:49]–[17:55] transcript
-- **Emotional valence:** positive — for Ben, this is the narrative thread he's been trying to piece together across the season
-- **Threat level:** 3
-- **Open question:** true — Board member Meredith Diamond's public comment referenced "unauthorized overspending and financial mismanagement reported in recent audits." What specifically did those audits flag? That documentation hasn't surfaced in any meeting Ben has followed.
+#### 2. The Tax Impact for the Average Homeowner Is Finally a Single, Usable Number
+- **Fact:** Ketchem stated that the proposed 6% local tax increase works out to approximately $257 per year for the owner of a median South Portland home valued at $514,000 — the first concrete plain-English figure offered to a general audience across this entire meeting.
+- **Source:** Transcript [25:47]; FY27 Budget Presentation, Slide 8 ("Tax Impact")
+- **Emotional valence:** neutral
+- **Threat level:** 1
+- **Open question:** false
 
-#### 3. FY27 Fixes the Symptom, Not the Disease
-- **Fact:** Ketchem warned explicitly that this year's budget "does not solve our core problems" — it functions like paying off a credit card, but if spending patterns don't change, "we could certainly find ourselves in this place again." She also noted that labor costs alone grow faster than 6% annually, meaning the structural math is broken going into FY28, which also carries new debt service and the Skillen boiler question.
-- **Source:** [19:29]–[21:49] transcript
+#### 3. FY27 Wipes the Balance But Ketchem Warns the Structural Problems Remain
+- **Fact:** Ketchem used a credit card debt analogy to explain that FY27 resets the district's finances but does not fix underlying problems: labor costs that increase by more than 6% per year under existing contracts, rising utility costs, at least $300,000 in additional debt service coming in FY28, and declining enrollment continuing to reduce state revenue.
+- **Source:** Transcript [19:29–23:23]; FY27 Budget Presentation, Slide 6 ("Preparing for FY28 and Beyond")
 - **Emotional valence:** negative
 - **Threat level:** 4
-- **Open question:** true — No FY28 gap number was given. Ketchem gestured at it but the board didn't press for a figure. That number is the story the district has not yet told publicly.
+- **Open question:** true
 
-#### 4. Kayler Is 45% BIPOC — and the Title VI Question Was Not Answered
-- **Fact:** Kayler parent Jess Elsner noted that Kayler is approximately 45% BIPOC and 30–35% multilingual learners, and asked the board to explain what specific steps were taken to ensure the closure did not violate Title VI of the Civil Rights Act. At 11:15 PM, the board chair acknowledged the question and said it required legal counsel — which was not present — and did not provide an answer.
-- **Source:** [163:01]–[163:47] public comment; [299:39]–[300:26] board response
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true — This is the question that the district left officially unanswered at the close of the meeting. No legal review of the closure criteria against Title VI has been made public.
-
-#### 5. Blair Bacon — The Human Cost of a Date
-- **Fact:** Blair Bacon, a RIF'd interventionist at Skillen, told the board she holds a master's in literacy, a multilingual endorsement, and two National Board Certifications — the highest mark in the profession — and that she loses her job because of a single date: "July 10th, 2023. That was the day the board approved my employment. That is my number, and because of it, my time is up." She said she expected her union to fight for credentials, not just dates.
-- **Source:** [156:05]–[159:55] public comment
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true — How many of the 32 teachers on the recall list have a similar credential profile? The seniority system is structurally eliminating some of the district's highest-credentialed staff, and no board member asked that question.
-
-#### 6. The Reconfiguration Trust Gap — Five Months, No Transportation Plan
-- **Fact:** The administration said it was "prepared to deliver on either option" for the fall, but board member Richardson noted the district is simultaneously absorbing 78 position cuts, closing a school, and potentially reconfiguring grade bands — all by September. The district explicitly said it was waiting for a board decision before modeling transportation routes, and acknowledged that a compressed timeline means other priorities (like a cell phone policy) would be set aside.
-- **Source:** [131:45]–[134:08]; [123:55]–[124:10] board Q&A
+#### 4. Board Adjourns at 11:15 PM Without Taking a Single Vote
+- **Fact:** Despite an agenda calling for three binding votes — authorizing a school closure report to the Commissioner, selecting Option A or B for elementary reconfiguration, and adopting the FY27 budget — Chair DeAngelis announced "I'm not going to have us go back to going through debate and going into regular session and voting at 11:15," and the meeting was adjourned on a motion by Member Smith, with no decisions made.
+- **Source:** Transcript [299:39–307:24]
 - **Emotional valence:** negative
 - **Threat level:** 3
-- **Open question:** true — Dr. Prince mentioned Saco and Scarborough as neighboring districts already running the primary/intermediate model. Has the district formally consulted them? That information was not provided in this meeting.
+- **Open question:** true
 
-#### 7. No Vote — Story Has No Ending (Yet)
-- **Fact:** After more than five hours, including approximately two hours of public comment, the board adjourned at 11:15 PM without taking any action on school closure, grade configuration, or budget adoption. A board member explicitly asked to explore holding an additional meeting earlier in the week; another member moved to adjourn immediately. The next scheduled meeting is March 30. The April 7 City Council presentation is a hard deadline.
-- **Source:** [299:00]–[307:24] transcript
+#### 5. Title VI Question About Kayler's Demographics Goes Unanswered at the End of the Night
+- **Fact:** Parent Jess Elsner noted in public comment that Kayler is approximately 45% BIPOC and 30–35% multilingual learners, then asked the board what specific steps were taken to ensure the closure recommendation doesn't violate Title VI of the Civil Rights Act of 1964. When questions were answered at 11:15 PM, Chair DeAngelis acknowledged it and said: "I don't have the answer."
+- **Source:** Transcript [163:01–164:00; 299:39–300:26]
 - **Emotional valence:** negative
-- **Threat level:** 3
-- **Open question:** true — Will the board convene before March 30? No commitment was made on the record.
+- **Threat level:** 5
+- **Open question:** true
+
+#### 6. A Laid-Off National Board-Certified Teacher Endorses Reconfiguration — From the RIF List
+- **Fact:** Blair Bacon, a literacy interventionist at Skillen who identified herself as a member of the "2026 RIF" class, gave public testimony endorsing consolidation and reconfiguration, arguing that "consolidation without reconfiguring will only perpetuate the deep inequities in our schools." She also criticized union seniority rules for protecting hire date over professional credentials.
+- **Source:** Transcript [156:05–159:55]
+- **Emotional valence:** positive
+- **Threat level:** 2
+- **Open question:** true
+
+#### 7. State Funding Is Covering About 20% of Costs When the Formula Was Supposed to Deliver 55%
+- **Fact:** The pre-meeting fiscal context establishes that state funding covers only roughly 20% of actual per-pupil costs against an intended formula share of approximately 55% — a gap never explained to the public during the meeting itself. The issue surfaced briefly only when Member Holman asked about LD 2666, the pending legislation that might adjust the formula, with no certainty about whether South Portland would gain or lose under it.
+- **Source:** Fiscal Context; Transcript [122:24–123:09]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true
+
+#### 8. The District Is Projecting a Deficit for the Current Year — Not Just FY27
+- **Fact:** Ketchem stated the district is "projecting a deficit for this fiscal year" — meaning FY26, the year currently in progress — and that because no fund balance exists, any FY26 overage would require drawing from city reserves and repaying in a future year, likely passed to taxpayers.
+- **Source:** Transcript [17:55–18:43]; board Q&A exchange with Member Richardson at [103:01–103:48]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true
 
 ---
 
@@ -69,29 +76,29 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Ben's journey: Five hours, no vote, big story
-    section Opening
-        Board chair personal statement: 3: Ben
-        Superintendent endorses budget vaguely: 3: Ben
-    section Finance Presentation
-        Ketchem names the origin story: 5: Ben
-        257 dollars per year figure lands: 4: Ben
-        FY28 warning buried in the slides: 2: Ben
-    section Cuts and Board Q and A
-        Kayler closure Option A vs B: 3: Ben
-        Title VI question raised at 11pm: 2: Ben
-        Implementation gaps exposed in Q and A: 2: Ben
-    section Public Comment and Adjourn
-        Blair Bacon and DeSanto testify: 4: Ben
-        No vote taken adjourned at 1115pm: 2: Ben
+    title Ben's journey: Five hours, zero votes
+    section Finance director's origin story
+        Chair's emotional personal statement: 3: Ben
+        Ketchem's 7-in-6-years crisis explanation: 5: Ben
+    section Budget math and forward risk
+        $257/year tax impact lands clean: 4: Ben
+        FY28 warning: labor math structurally broken: 2: Ben
+    section Elementary standoff
+        Option A vs B debate, no resolution: 2: Ben
+        Title VI question raised and unanswered: 1: Ben
+    section Public comment and non-decision
+        Blair Bacon RIF testimony, supports reconfig: 4: Ben
+        11:15 adjournment, board takes no votes: 2: Ben
 ```
 
 ---
 
 ### Reactions
 
-So I'm telling the editor we've got at least two pieces here, maybe three. The first one basically writes itself: South Portland is proposing a 6% tax increase — that's $257 more a year on an average property — and it still cuts 78 positions and closes an elementary school. That's the nut, and readers who haven't been following any of this need it before they can make sense of anything else. The finance director gave me a credit card analogy I can actually use: FY27 wipes out the balance, but if you don't change your spending habits, you end up right back in debt. She said flat out that this year's budget "does not solve our core problems." I want to quote that in contrast to how the district's public communications have framed hitting the 6% target as a kind of achievement. There's a story in that gap.
+Hey — here's what I've got from Monday. Five hours, zero votes. That's the kicker, but the real story is what Abigail Ketchem said before the room fell apart.
 
-The piece I actually want to write is the origin story. Abigail Ketchem — nine months on the job, seventh finance director in six years — got up and explained how the district got here. Enrollment dropped 23 percent in four years while staffing didn't come down, COVID money masked the shortfall, and there was no minimum fund balance policy to force anyone's hand until the savings were gone. She said "there's no way our books could have been in order" with that kind of leadership churn. That's a remarkable thing for a public official to say at a public meeting. I'm calling her this week to see how much more she'll put on record, because that backstory is the thing that makes $257 make sense to someone who's been scratching their head about how we got here.
+She's the seventh finance director in six years — said so herself — and she got up and gave the most honest public accounting of how this district got here that I've heard all season. COVID money inflated staffing that never came back down. They had no savings floor policy, so nobody ever pulled the emergency brake. And the revolving door of financial leadership meant the books were never consistently maintained and nobody could plan. She used a credit card analogy: FY27 wipes the balance, but if the underlying habits don't change, you're right back at the cliff. Every word of that goes in print. But the thing that's keeping me up is something she almost buried: labor costs under existing contracts increase faster than 6% per year just by staying in place. That means the math is structurally broken before they've even opened a school. I need to get her on the phone and ask whether 78 positions cuts actually changes that equation, or whether we're back at this table in FY28.
 
-The piece I can't write yet — because the board didn't vote and it's not over — is the Kayler piece. A parent named Jess Elsner stood up at 11 o'clock at night and asked whether closing a school that's 45 percent BIPOC and over 30 percent multilingual learners violates Title VI of the Civil Rights Act. The board said: good question, we need our lawyer. Nobody answered it. And separately, a woman named Blair Bacon, who has two National Board Certifications and 25 years in the profession, stood up and said she lost her job because of the date the board approved her employment — July 10th, 2023. Not her credentials, not her performance. A date. That's the human story that makes the structural one land. I just need the board to actually take a vote first. Next meeting is March 30. I'll watch it on SPC-TV.
+The tax number I needed is $257 a year on a median home. That's my nut graf. But the story I couldn't see coming was that the board couldn't agree on what *kind* of school closure this is — close Kayler and drop those kids into existing K-4 schools, or close Kayler and reorganize the whole district by grade band. They talked about it until 11:15 and went home without voting. The City Council presentation is April 7th. That timeline is already broken.
+
+The thing I cannot drop: a parent named Jess Elsner asked the board to explain how closing a school that's 45% BIPOC and 30–35% multilingual learners clears Title VI. At 11:15 PM, the chair said she didn't have a legal answer. That question is sitting in the air and nobody in this community's press corps seems to have picked it up. I'm going to make some calls. The other gap I need for the next piece is the state funding number — the formula is supposed to deliver roughly 55% of per-pupil costs and South Portland is getting around 20%. That figure never made it into any slide the public saw Monday night. If readers understood that, the whole conversation about property taxes would land differently. That's probably the piece after the vote.

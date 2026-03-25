@@ -5,7 +5,7 @@ persona_id: "PERSONA-004"
 persona_name: "Marcus"
 meeting_date: 2026-03-23
 meeting_title: "School Board Budget Workshop -- March 23, 2026"
-interpretation_date: 2026-03-24
+interpretation_date: 2026-03-25
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -14,61 +14,61 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. 42 teachers RIF'd: 32 on recall list, 11 involuntary transfers
-- **Fact:** The proposed FY27 budget eliminates positions held by 42 teachers. Of those, 32 current teachers have no position in the new staffing plan and land on a recall list — first in line only if a vacancy opens through resignation or retirement. Eleven others are being offered involuntary transfers to different roles.
-- **Source:** [57:25--58:11] (Assistant Superintendent Prince presenting slide 37)
+#### 1. Finance Director Confirms Structural Annual Cost Problem
+- **Fact:** Finance Director Ketchem stated that "labor costs, when you include everything, if all people stay in the exact same position, our labor increases at a rate that's higher than 6% per year" — meaning the district's primary cost driver structurally exceeds the tax cap ceiling every year. She also flagged $300,000+ in additional FY28 debt service, continued utility increases, and declining enrollment reducing state revenue.
+- **Source:** Transcript [21:01–22:36]; Slide 6 (FY27 Budget Presentation)
 - **Emotional valence:** negative
 - **Threat level:** 5
-- **Open question:** true — Slide 37 was referenced with a breakdown of reductions by type and remaining count, but the position types were not read aloud in full. Which content areas bear the most cuts? Who specifically is on the recall list by certification area?
+- **Open question:** true — If labor costs structurally outpace the 6% cap annually, what does this mean for FY28 contract negotiations and for the viability of positions restored to the recall list?
 
-#### 2. South Portland High School: seven positions down, class averages rising
-- **Fact:** SPHS is projected to reach its lowest enrollment in recent memory for 2026-27. The proposed budget eliminates seven teaching positions — four from retirements and vacancies not being backfilled, three additional — spread across multiple content areas. In science, average class size rises from 18.8 to 21.8 students. Administration stated all sections remain within existing section maxima.
-- **Source:** [74:40--77:52] (Principal Glenn)
+#### 2. 42 SPTA Positions Eliminated — 32 Colleagues on Recall
+- **Fact:** The superintendent's budget reduces the teachers association by 42 FTE positions. Nine are vacancies or known retirements, 11 employees are offered a different position, and 32 certified teachers have no job and are placed on a recall list — eligible only if a vacancy opens in their certification area before they find other work.
+- **Source:** Slides 35–36 (FY27 Budget Presentation); transcript [57:25–58:11]
 - **Emotional valence:** negative
-- **Threat level:** 3
-- **Open question:** true — Science averages are computed across 15 distinct courses. Which specific sections are already at or near the cap of 24? Which content areas lose the non-vacancy positions?
+- **Threat level:** 5
+- **Open question:** true — How long will colleagues realistically wait on a recall list before leaving the district entirely, taking institutional knowledge with them?
 
-#### 3. Semesterizing proposal introduced as administrative plan, not working conditions discussion
-- **Fact:** Principal Glenn proposed shifting SPHS to semester-based credit issuance rather than annual credit, and converting one math teaching position to a "learning lab" role. Both changes were presented as student-facing benefits with no mention of teacher consultation or meet-and-consult obligations.
-- **Source:** [77:52--79:31] (Principal Glenn)
+#### 3. SPHS Content Areas Taking Broad Hits — Courses Maintained (For Now)
+- **Fact:** Slide 37 lists the following high school reductions: 2 science positions (8 remain), 1 English position (9 remain), 1 World Language/ESOL position (8 remain), 2 special education case managers (11 remain), 1 social work position (5 remain), 1 CTE position (3+3 JMG remain), and 0.5 Art position. The budget book confirms SPHS teacher FTE drops from 58.80 to 52.80. Principal Glenn stated all courses remain within section maximums, with science average class sizes rising from 18.8 to 21.8.
+- **Source:** Slide 37 and Slide 64 (FY27 Budget Presentation); Budget Book Row 454; transcript [74:40–77:52]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true — Averages mask section-by-section reality. Which specific courses will run closest to the 24-student science maximum, and what happens to CTE program continuity with one fewer position?
+
+#### 4. Regular Education Behavior Strategist Cut — Zero Remaining District-Wide
+- **Fact:** The superintendent's budget eliminates the one remaining regular education behavior strategist position. Slide 37 explicitly notes "none full time" remaining after this cut — occurring simultaneously with increasing general education class sizes and reductions to ed tech staffing.
+- **Source:** Slide 37 (FY27 Budget Presentation)
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true — In a year with larger general-ed class sizes and thinner support staff, who manages behavioral crises in regular education classrooms?
+
+#### 5. Association Partnership Publicly Praised; Notification Email Commitment Was Missed
+- **Fact:** Assistant Superintendent Prince gave an extended public thank-you to union leaders for their "deep knowledge, care, and offered partnership." However, when Member Cabesa asked whether impacted staff were CC'd on notification emails per agreement, Prince acknowledged "I'll take responsibility for my misunderstanding an agreement that we had in a meeting about that, that we've since worked to clear up."
+- **Source:** Transcript [51:05–51:53]; [126:18–126:57]
 - **Emotional valence:** neutral
 - **Threat level:** 2
-- **Open question:** true — Shifting the credit-issuance structure changes how every teacher plans, grades, and sequences annual curriculum. Is this a working conditions change that triggers meet-and-consult with SPTA, or is the administration treating it as a unilateral scheduling decision?
+- **Open question:** true — Does this notification lapse reflect a broader pattern of process gaps precisely when contract communication requirements matter most?
 
-#### 4. Middle school related arts: five-class teaching day, 250 fewer prep minutes weekly
-- **Fact:** The budget cuts 4 of 20 related arts teachers at the middle school. The remaining 16 will each teach five classes per day instead of four. SPTA representative Jamie Watson stated in public comment that this means 250 more instructional minutes per day than core content teachers and 250 fewer planning minutes per week. Administration characterized remaining prep as "still above contractual" minimums.
-- **Source:** [68:29--70:48] (Principal Stern); [193:29--198:07] (public comment, Jamie Watson and Lori Milton as SPTA representatives)
+#### 6. Meet-and-Consult Obligations Acknowledged — Proactive Meetings Initiated
+- **Fact:** Board member Richardson pressed the superintendent on how many positions would require meet-and-consult negotiations under collective bargaining law. The superintendent confirmed proactive meetings were initiated with three of four associations starting March 1, with board member representatives attending, and acknowledged the obligation covers all four bargaining units before changes take effect.
+- **Source:** Transcript [134:54–137:14]
+- **Emotional valence:** positive
+- **Threat level:** 2
+- **Open question:** true — The superintendent noted associations bring their own list of impacted working conditions; which changes — increased SPMS teaching loads, bus driver cafeteria rotation, restructured prep time — will generate the most substantive negotiations?
+
+#### 7. Percussion Ed Tech Proposed for Elimination — Second Year Running
+- **Fact:** The budget proposes elimination of the percussion ed tech position shared between the middle and high school (0.5/0.5). Instrumental music teacher Jen Fletcher noted at public comment that she stood "at this same podium 378 days ago" opposing the identical cut. Six separate community members delivered testimony in defense of this one position.
+- **Source:** Slides 52, 54 (FY27 Budget Presentation); transcript [198:54–202:44]
 - **Emotional valence:** negative
 - **Threat level:** 3
-- **Open question:** true — Does the SPTA dispute the administration's framing that surviving prep time still satisfies contractual floors? Has meet-and-consult been scheduled specifically around the increased teaching load for this unit?
+- **Open question:** true — If this position was restored after community advocacy last year, what changed in the analysis? And what does it mean institutionally that the district reproposed a cut reversed by public pressure twelve months prior?
 
-#### 5. Percussion ed tech proposed for elimination again — 378 days after the identical fight
-- **Fact:** The shared middle school and high school percussion ed tech position is again proposed for elimination. Music educator Jen Fletcher noted she stood at the same podium "378 days ago" making the same argument against the same proposed cut. The position was restored after community pressure last budget cycle. It has existed continuously since the mid-1980s. The current position holder is also a certified special education teacher.
-- **Source:** [198:54--201:58] (public comment, Jen Fletcher); [218:19--220:39] (public comment, Amy Haskins)
+#### 8. No Vote at 11:15 PM — Budget Timeline Remains Dangerously Compressed
+- **Fact:** After five hours, the board adjourned without action on the school closure authorization, the elementary configuration choice, or the FY27 budget adoption. The next scheduled meeting is Monday, March 30. The City Council budget presentation is April 7 and a council workshop is April 14 — leaving under three weeks to resolve all outstanding questions.
+- **Source:** Transcript [299:39–307:24]; Slide 9 (FY27 Budget Presentation)
 - **Emotional valence:** negative
-- **Threat level:** 2
-- **Open question:** true — If the board restored this position last year after community showed up en masse, what changed in the district's calculus? Is this a genuine budget necessity or a line item that keeps reappearing because administration treats music support as discretionary?
-
-#### 6. Finance director: labor costs structurally exceed the 6% ceiling every year
-- **Fact:** Finance Director Ketchem stated explicitly that district labor costs — with all staff remaining in their current positions and receiving only contractual step increases — naturally grow at a rate higher than 6% annually. Because personnel is the overwhelming majority of the budget, she said: "It's mathematically impossible not to have a problem." This was framed not as a crisis-year anomaly but as a structural condition.
-- **Source:** [21:01--21:49]
-- **Emotional valence:** negative
-- **Threat level:** 5
-- **Open question:** true — If the 6% tax cap and contractual salary growth are permanently misaligned, does this mean annual reduction-in-force cycles are structurally inevitable regardless of enrollment trends or state funding changes?
-
-#### 7. Association leaders publicly praised — consultation process formally acknowledged
-- **Fact:** Assistant Superintendent Prince offered explicit public acknowledgment of union association leaders at the start of the staffing section: they "showed deep knowledge, care, and offered partnership to district leaders and administrators and have undoubtedly made this process better." Leaders reviewed impact lists, sought contract compliance, and participated in a joint communication to all members on March 15th, ahead of individual notifications on March 18th.
-- **Source:** [51:05--51:53]
-- **Emotional valence:** positive
-- **Threat level:** 1
-- **Open question:** false
-
-#### 8. A RIF'd teacher publicly challenges union seniority rules over professional credentials
-- **Fact:** Blair Bacon, an interventionist at Skillen with 25 years of experience, a master's degree in literacy, a multilingual endorsement, and two national board certifications, told the board she lost her job because "in this contract, education and professional credentials matter second. The only thing that matters is a date" — her hire date of July 10, 2023. She also called the slogan "Contracts not closures" something that is "out of touch with the power you wield."
-- **Source:** [156:05--159:08] (public comment, Blair Bacon)
-- **Emotional valence:** negative
-- **Threat level:** 2
-- **Open question:** true — If the perception solidifies publicly that union contracts protect longevity over demonstrated expertise, does that weaken the union's standing to advocate for teacher investment and program preservation in subsequent budget fights?
+- **Threat level:** 3
+- **Open question:** true — With this compressed timeline, is there realistic opportunity for the board to make meaningful modifications before the budget is sent to City Council, or is the superintendent's proposal effectively locked in?
 
 ---
 
@@ -76,24 +76,25 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Marcus's journey: Budget hits teachers hardest
-    section Opening and Fiscal Framing
-        Board chair personal intro heard: 3: Marcus
-    section Budget and Staffing Presentations
-        Finance dir: 42 teacher RIF notices: 1: Marcus
-        HS and MS cut specifics presented: 2: Marcus
-        Association partnership acknowledged: 4: Marcus
+    title Marcus's journey: 42 teachers cut, 32 recalled
+    section Financial Overview
+        Labor outpaces 6% cap every year: 2: Marcus
+    section Staffing Impact
+        Union praised before full numbers land: 3: Marcus
+        42 teachers cut; 32 on recall list: 1: Marcus
+    section High School Specifics
+        SPHS courses held; class sizes going up: 3: Marcus
     section Public Comment and Close
-        Educators testify on cuts and loads: 3: Marcus
-        RIF'd teacher challenges seniority: 2: Marcus
+        Colleagues: positions are people: 2: Marcus
+        No vote at 11:15 - back again Monday: 2: Marcus
 ```
 
 ---
 
 ### Reactions
 
-I was there for all five hours and I'll tell you what's going to keep me up — not the 42 number, I knew that going in — but the finance director saying out loud that this is a structural problem, not a one-year crisis. She said that even if nobody gets anything beyond their contractual step increase, labor costs grow faster than 6% every year, and since that's basically the whole budget, she literally said it's "mathematically impossible not to have a problem." The board set a 6% cap, the state funds us at 20% when it should be 55%, and our own labor structure outpaces the cap by design. She moved right past that like it was a footnote. Thirty-two people on a recall list. Eleven more getting involuntary transfers. And we're going to be back here next year having the same conversation unless something structural changes — the state formula, the tax ceiling, something.
+So I stayed the whole five hours. Here's what the community emails aren't capturing: 32 colleagues are on a recall list right now. Not technically fired, but they have no job next year unless someone retires or resigns and they happen to match the certification. Thirty-two. And Abigail — the finance director — she said something in the overview that I don't think most of the room caught. She laid out that labor costs structurally increase faster than 6% per year. That's the tax cap. Meaning after all this — 42 teachers gone, a school closed, the whole thing — we are mathematically pointed at the same cliff for FY28. She said it like it was just a feature of the landscape. That's what kept me up, more than anything else from that room.
 
-At the high school, Sarah Glenn presented seven positions down. Four from retirements they're not backfilling, three actual bodies. Science averages go from 18.8 to 21.8. She kept saying "within section max" but 21.8 is an average across fifteen different science courses — some of those are already at 24. And then buried in the same presentation is this semesterizing proposal, issuing credit at the semester instead of year-end, plus converting a math teacher to a learning lab role. That's a direct change to how every teacher at the school plans their year. That's a working conditions issue. Nobody said a word about whether that had gone through meet-and-consult with SPTA or whether it's just being announced. I need to find out where that stands.
+At SPHS specifically, Sarah Glenn said we're keeping all our courses and staying within section maximums. I appreciated her saying it clearly and publicly, because I needed to hear it. But science average class size is going from 18.8 to 21.8 — that's averages, which means some sections will be sitting right at 24. And the regular ed behavior strategist is gone. Zero full-time left anywhere in the district. That doesn't show up in the class-size slide, but every teacher in this building knows exactly what it means when you've got 22 kids in a room and one of them is in crisis and there's no one to call.
 
-Two moments from public comment I'm still chewing on. Jen Fletcher stood up and said she was at that same podium 378 days ago fighting to save the percussion ed tech position. The community showed up, the board restored it, and here we are. That's the same fight, same position, same arguments, one year later — and the district apparently learned nothing from it. And then Blair Bacon, who got RIF'd out of Skillen — 25 years of experience, nationally board certified twice, master's in literacy — she stood up and said the only thing that mattered was her hire date of July 2023, that credentials come second to a date. She called "Contracts not closures" out of touch. That's hard to hear. I get it — seniority protection is the floor that keeps administration from cutting whoever they want for whatever reason they want, and you take that away and you create a different set of problems. But when someone with her record is standing there telling a room full of people she lost her job to a calendar entry, that lands. People are going to throw that back at us, and we need to be ready to explain why the alternative is worse.
+On the union side — Dr. Prince said genuinely nice things about our leadership, and I think she meant them. Then it came out in questioning that impacted staff weren't CC'd on their notification emails the way that was apparently agreed to in a prior meeting. She took responsibility, said it's resolved. Fine. But that's a basic trust thing. Jen Fletcher was at that podium last night for the second time in 378 days defending the same percussion ed tech position. Same cut, second year in a row, after community pressure brought it back last time. And Connie DeSanto — support staff union president — said what a lot of us were thinking: it's hard to square cutting every lunch aide working ten hours a week at minimum wage while administrator headcounts barely moved. The board adjourned at 11:15 without voting on anything. Monday, apparently.

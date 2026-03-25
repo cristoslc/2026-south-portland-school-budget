@@ -5,7 +5,7 @@ persona_id: "PERSONA-006"
 persona_name: "Tom"
 meeting_date: 2026-03-23
 meeting_title: "School Board Budget Workshop -- March 23, 2026"
-interpretation_date: 2026-03-24
+interpretation_date: 2026-03-25
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -14,61 +14,61 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. The 6% Cap Was Held — $257/Year on Your Tax Bill
-- **Fact:** The finance director confirmed the proposed FY27 budget meets the city council's 6% local tax increase cap, which she translated to approximately $257 in additional annual cost for a typical homeowner.
-- **Source:** [25:47]
-- **Emotional valence:** positive
+#### 1. The tax hit: $257 a year on the average home
+- **Fact:** The finance director stated the 6% local tax levy increase translates to approximately $257 in additional annual property taxes on a home assessed at the South Portland average of $514,000 — a concrete per-household figure presented from the dais.
+- **Source:** Transcript [24:58–25:47]; Budget Presentation Slide 8 (Tax Impact table)
+- **Emotional valence:** neutral
 - **Threat level:** 2
 - **Open question:** true
 
-#### 2. Enrollment Fell 300 Kids, Staffing Rose 82 Positions
-- **Fact:** The finance director identified the root cause of the crisis as a structural mismatch: district enrollment dropped by roughly 300 students while staffing grew by 82 positions, with COVID relief funds masking the unsustainable gap until the savings ran dry.
-- **Source:** [15:36--16:25]
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** false
-
-#### 3. Seven Finance Directors in Six Years
-- **Fact:** The current finance director disclosed that she is the seventh person to hold the position in the past six years, and directly cited this revolving door as a cause of financial disarray, audit findings, and the district's inability to plan ahead.
-- **Source:** [16:25--17:10]
+#### 2. Staff grew 82 positions while 300 students left — for years, with no policy guardrail
+- **Fact:** The finance director explained that when COVID-era enrollment surged, the district hired significantly; when enrollment fell and federal relief funding ended, staffing was never reduced. She noted the district also lacked a minimum fund balance threshold policy, which would have forced an earlier reckoning: "If we had, staffing levels could have dropped more naturally, and that would've been far less painful than where we are today."
+- **Source:** Transcript [14:49–16:25]; Budget Presentation Slide 29 (Staffing Projections table)
 - **Emotional valence:** negative
 - **Threat level:** 4
 - **Open question:** true
 
-#### 4. The Baseline Without Cuts Was an 18--19% Tax Increase
-- **Fact:** A straight roll-forward budget -- no changes, just moving current costs forward one year -- would have required an 18--19% property tax increase. The $7.2M in cuts, including 78 positions and a school closure, were required to reach the 6% ceiling.
-- **Source:** Fiscal Context; [25:47--26:35]
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** false
-
-#### 5. The Fund Balance Is Gone — No Cushion, No Rebuild Plan
-- **Fact:** The district's reserve fund is essentially exhausted. When asked how unplanned costs (storms, litigation) would be covered next year, the finance director said the district would draw on the city's fund balance and repay it by raising taxes in the subsequent year. Asked about rebuilding the reserve, she confirmed there is no plan for FY27 — it is "too dire."
-- **Source:** [98:24--99:09], [103:01--103:48]
+#### 3. The savings account is empty — and there is no plan to refill it this year
+- **Fact:** The fund balance has been drawn to zero after being used as operating revenue for multiple years. When a board member asked directly whether seeding the fund balance was included in the FY27 budget, the finance director responded: "No. This year is too dire." A second board member asked what happens in the absence of reserves if there are "seven snowstorms" or litigation; the finance director replied that the district would draw on the city's fund balance and pay it back by raising taxes the following year.
+- **Source:** Transcript [98:24–99:09]; Transcript [103:48–104:36]; Budget Presentation Slide 5
 - **Emotional valence:** negative
 - **Threat level:** 5
 - **Open question:** true
 
-#### 6. FY27 Doesn't Fix the Structural Problem
-- **Fact:** The finance director explicitly warned that FY27 is like wiping out a credit card balance without changing spending habits. Labor costs automatically increase faster than 6% annually, utilities are rising 13--14% per year, and new debt service obligations are coming in FY28 -- including principal and interest on the athletic field bond. Without structural changes, the district could face another crisis.
-- **Source:** [19:29--22:36]
+#### 4. Seventh finance director in six years — and the books show it
+- **Fact:** The new finance director identified herself as the seventh person in the role over six years. She stated directly: "anywhere you find that kind of revolving door of financial leadership, there's a degree of disarray... there's no way our books could have been in order. There's no way we wouldn't have been able to better plan if there had been that stability."
+- **Source:** Transcript [16:25–17:10]
+- **Emotional valence:** negative
+- **Threat level:** 3
+- **Open question:** false
+
+#### 5. Labor costs structurally outpace the 6% ceiling — every year, by contract
+- **Fact:** The finance director warned that if all employees remain in their current positions, labor costs increase by more than 6% annually through contractual step and lane adjustments alone. Since personnel is the dominant share of the budget, she stated it is "mathematically impossible not to have a problem" year after year — and added plainly: "I can't calculate our way out of that."
+- **Source:** Transcript [21:01–21:49]; Budget Presentation Slide 6
+- **Emotional valence:** negative
+- **Threat level:** 5
+- **Open question:** true
+
+#### 6. FY27 pays down the debt — but the spending habits aren't fixed yet
+- **Fact:** The finance director explicitly compared FY27 to "wiping out the balance" on a credit card — it resets the path but does not solve the structural problem. She named specific FY28 pressures: at least $300,000 in additional debt service on the athletic field bond, a potential Skillen boiler debt, utilities increasing 13–14% annually, and declining enrollment continuing to erode state aid.
+- **Source:** Transcript [19:29–22:36]; Budget Presentation Slide 6
 - **Emotional valence:** negative
 - **Threat level:** 4
 - **Open question:** true
 
-#### 7. Per-Pupil Cost Is the Highest Among Comparable Districts
-- **Fact:** South Portland's per-pupil expenditure of $26,651 is the highest among comparable-size districts in Maine. State funding covers only roughly 20% of actual costs, far below the 55% it is supposed to cover. A community member at the public comment explicitly named this as the context for the severity of the cuts.
-- **Source:** Fiscal Context; [255:04]
+#### 7. The union president asked the question Tom came to ask
+- **Fact:** The support staff union president stated during public comment: "It's awfully hard for a parent like me to square how cutting all of the lunch aides who work 10 hours per week making the state minimum rate was a more prudent budgetary decision than further reductions in central office, administration, or director positions." She added, as union president: "I can say with confidence that our schools can function with fewer administrators."
+- **Source:** Transcript [247:15–248:01]
 - **Emotional valence:** negative
 - **Threat level:** 3
 - **Open question:** true
 
-#### 8. Admin Costs Largely Shielded While Classroom and Low-Wage Staff Absorb the Cuts
-- **Fact:** The union president for support staff stated publicly that the proposal eliminates lunch aide positions (part-time workers earning near minimum wage) and dozens of teachers while making minimal reductions to central office administrators and directors who earn significantly higher salaries and do not provide direct instruction to students.
-- **Source:** [246:26--247:15]
-- **Emotional valence:** negative
-- **Threat level:** 3
-- **Open question:** true
+#### 8. The one number that actually looks good: smallest budget increase in five years
+- **Fact:** Despite the scale of cuts and structural difficulty, the finance director confirmed that the 3.3% total budget increase is "the lowest that we've actually had in many years." The superintendent reiterated in the closing summary that this represents "the smallest year-to-year operating increase in the last five years."
+- **Source:** Transcript [24:11–24:58]; Budget Presentation Slide 69
+- **Emotional valence:** positive
+- **Threat level:** 1
+- **Open question:** false
 
 ---
 
@@ -76,24 +76,23 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Tom's journey: five hours, no vote, no fix
-    section Opening
-        Board chair personal backstory: 2: Tom
-    section Finance Presentation
-        CFO explains root causes of crisis: 3: Tom
-        6% cap confirmed, $257/yr impact: 4: Tom
-        Fund balance gone, no rebuild plan: 1: Tom
-    section Cuts and Public Comment
-        78 positions cut, school to close: 3: Tom
-        Three hours of arts and equity talk: 2: Tom
+    title Tom's journey: Six years of mismanagement revealed
+    section The Numbers
+        Board chair personal statement: 2: Tom
+        Finance director names root causes: 4: Tom
+        257 per year increase quantified: 3: Tom
+        Labor costs beat 6 pct each year: 1: Tom
+    section Public Comment and Close
+        Union pres names admin vs aides: 4: Tom
+        No vote adjourned at 11pm: 2: Tom
 ```
 
 ---
 
 ### Reactions
 
-Sat through five hours of that last night. Here's what actually matters. The finance director basically stood up and confirmed everything I've been saying for years. They grew staff by 82 people while losing 300 kids from the rolls. They burned through every dollar in savings to cover the gap -- used it as operating money, not emergency money -- and nobody caught it because they went through seven finance directors in six years. Seven. The woman who said that was the seventh one. In six years. You wonder why the books were a mess?
+So I sat through five hours of that thing Monday night. You want to know what actually stuck with me? The new finance director — seventh one in six years, she said that herself — got up and just laid out exactly how this happened. Enrollment dropped by 300 kids over the last few years while they were adding staff. COVID money came in and they hired more people. Money ran out, they didn't cut back. Then instead of saying "we have a problem," they started raiding the savings account to cover day-to-day operating costs. For years. Until there's nothing left. She compared it to paying off your credit card without fixing the habits that ran it up. And I'm sitting there thinking: that's exactly what happened, and this is the first time somebody up front has just said it.
 
-The number they want you to focus on is $257 a year -- that's the 6% increase on your tax bill. Fine. I can live with $257 if they've actually fixed something. But the same finance director who told you that also told you that FY27 doesn't solve the structural problem. Labor costs go up more than 6% automatically every year just from step increases and raises. Utilities are going up 13-14%. They've got new bond payments coming next year on that athletic field. She used an analogy herself -- wiping out your credit card balance doesn't help if you're still overspending every month. And their fund balance is completely empty, zero cushion. One board member asked what happens if we get seven snowstorms or a lawsuit next year and the answer was: we draw on the city and pay it back by raising your taxes the year after that. That's the whole plan.
+The number they gave us is $257 more a year on your property tax bill, based on the average South Portland home. I'll admit — I was braced for worse. But here's the part nobody's talking about loudly enough: she also told the board that by contract, labor costs go up more than 6% per year automatically, every year, for existing staff. The city council set a 6% ceiling on the tax increase. Labor is most of the budget. She actually said the words "mathematically impossible not to have a problem." So I'm asking: what exactly did we fix? Next year they've got at least $300,000 in new bond payments coming due on the athletic field. The Skillen boiler might need emergency debt. And there's no cushion. A board member asked what happens if there are seven snowstorms or a lawsuit next year. The answer was: we borrow from the city and pay it back by raising your taxes the year after.
 
-Oh, and we apparently have the highest per-pupil cost of any comparable district in Maine at $26,651. The state is supposed to cover 55% of school costs and is actually covering about 20%. I don't love that, but that doesn't explain how you hire 82 people during a temporary enrollment surge and never bring the numbers back down. And at the end, when somebody in the union got up and pointed out that they're cutting part-time lunch aides making minimum wage while barely touching the central office and director salaries -- that got my attention. I'm not saying teachers are the problem. But when you've got the highest per-pupil spend in comparable districts and zero savings and you're asking me for more money next year too, I want to see every line of the admin budget before we have this conversation again.
+The other thing that got me — this was nearly midnight — the support staff union president got up and said what I've been thinking at every one of these meetings for years. They cut all the lunch aides, minimum wage, ten hours a week, no hesitation. But they closed a whole school and somehow the administrator count barely moved. She said it flat out: our schools can function with fewer administrators. I thought, finally. Somebody from inside the district is saying it. The board nodded and moved on, no vote, "see you Monday." Five hours of that meeting and they couldn't make a single decision. I don't know what they're waiting for, but I can tell you the clock is running and the savings account is empty.

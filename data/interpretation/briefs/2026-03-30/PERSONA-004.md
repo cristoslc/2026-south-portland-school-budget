@@ -3,10 +3,10 @@ schema_version: "1.0"
 persona_id: "PERSONA-004"
 persona_name: "Marcus"
 upcoming_meeting_date: "2026-03-30"
-generated_date: "2026-03-24"
+generated_date: "2026-03-25"
 has_agenda: false
-last_cumulative_meeting: "2026-03-19"
-inter_meeting_evidence_count: 0
+last_cumulative_meeting: null
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Marcus (PERSONA-004)
@@ -14,81 +14,72 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-There is no new inter-meeting evidence for the period since March 19.
+The March 23 board budget workshop was the first major post-RIF meeting, and its contents are directly relevant to you. The Google Slides deck presented at that workshop laid out the current FY27 proposal in detail — including specific middle and high school reductions alongside the two elementary closure options. That means the cuts to SPHS programs and staffing are now in a formal presentation document, not just rumored in the hallways. If you haven't obtained that deck through your union or a public records request, get it before March 30.
 
-That silence is itself worth noting. Ten days have passed since 72 RIF notices went out — with a second wave explicitly signaled — and nothing has surfaced publicly about the union securing new commitments, the early retirement buyout being formalized, or any city councilor stepping forward to affirmatively advocate for restoring positions. The administration announced the gap had grown to $8.4 million and then went quiet. If anything material had shifted — a buyout offer extended, impact bargaining initiated, the central office breakdown finally released — it would likely have reached Marcus through union channels before now. The absence of news at this stage, eight days before the April 7 public hearing, means the RIF process is proceeding on its own momentum without any announced countervailing force.
+Two things from the March 23 meeting carry particular weight for you. First, Finance Director Ketchem stated explicitly on the record that labor costs grow faster than the 6% ceiling every contractual year — meaning even if the union wins this fight, the same machine produces the same result next year. This is not a crisis management statement; it's a structural admission. Second, the 42-teacher RIF number has now disaggregated: 32 teachers are on recall, and 11 are on involuntary transfer. That distinction matters enormously. Recall means eliminated. Transfer means bumped — your colleagues sent across buildings against their will, potentially displacing others at SPHS in the process. The number you and your colleagues felt directly — "42" — has now become two different categories of harm.
 
-The budget calendar is not waiting. April 7 is the last public hearing before the April 14 workshop where FTE decisions get shaped. March 30 falls directly in the gap between the first wave of notices and that hearing. If Marcus is going to show up on April 7 with organized testimony rather than improvised outrage, the preparation work has to happen now — and what he learns Monday will inform how he uses those eight days.
+Blair Bacon's public challenge to seniority rules is the other live development. If seniority can be reframed in the public narrative as bureaucratic rigidity rather than worker protection, administration and board members inclined to sympathize may use that framing to justify changes that accelerate the elimination of senior (and therefore higher-salaried) teachers. The percussion ed tech position — which the community fought and won, and which is back on the list — is the specific example that connects all of these threads.
 
 ---
 
 ## Open Questions
 
-These are the threads Marcus is carrying into March 30, phrased the way he'd actually think about them:
+- **Which SPHS course sections are actually on the cut list?** The March 23 deck covered "middle and high school reductions" — I need to know whether AP courses, CTE pathways, or specific electives are named. Aggregate FTE numbers don't tell me what my students will lose.
 
-- **Who got the notices?** The administration confirmed 72 RIFs went out March 18, but I still don't have a breakdown by department, building, or seniority band. I need to know whether it's the youngest teachers across the board, whether it's concentrated in specific programs, and whether seniority bumping has already started moving names around.
+- **Of the 11 involuntary transfers, how many are SPHS teachers, and where are they going?** And of the 32 on recall, how many are mine — at the high school, in my department, or adjacent to my schedule?
 
-- **When is the second wave?** Matthews said 72 is only the first wave. Is there a timeline? Does the board know what triggers it? Am I preparing for a March 30 announcement that the number is now 90?
+- **Has SPEA formally invoked impact bargaining rights on the RIFs?** That was raised as an option in February. What's the status?
 
-- **Has the buyout actually been offered?** Feller floated early retirement for 41 eligible employees weeks ago. Has the administration committed to making that offer before the RIF process goes further, or did it disappear into budget workshop proceedings? If it saves $1 million-plus, why isn't it resolved?
+- **What happened to Feller's early retirement buyout proposal?** Was it included in the March 23 presentation, or did it disappear from consideration after he floated it?
 
-- **Where is impact bargaining?** The union has rights here. Has the district formally initiated impact bargaining on the reconfiguration? Or is the administration treating this as post-hoc paperwork after the decisions are already made?
+- **The percussion ed tech is back on the list. Why?** Was it ever genuinely removed, or was the earlier reversal a temporary optics move? Who is making that call, and on what basis?
 
-- **When are they releasing the central office breakdown?** Six-plus weeks since the union formally requested it. What are they hiding that makes it worth absorbing this much political friction?
+- **What does "first wave" actually mean?** Matthews used that phrase after 72 RIF notices went out. Are we expecting a second round of notices before the April 7 hearing, or was that hedging language?
 
-- **What are the additional cuts they haven't announced yet?** The "big ideas" from February closed maybe $4 million of an $8.4 million gap. The other $4-plus million has to come from somewhere. My colleagues are getting RIF notices and no one will tell us what the next round looks like.
+- **How do the two elementary closure options affect bumping districtwide?** If an elementary teacher with more seniority bumps into a secondary position, which of my colleagues at SPHS gets displaced?
 
-- **What happens to the programs?** I can count teaching positions being cut, but I cannot find a document that shows which AP sections, which CTE pathways, which electives get eliminated when you lose 42 teachers. Are they modeling this anywhere, or are they letting seniority bumping sort it out after the fact?
+- **Has the administration produced the central office staffing breakdown yet?** It's been weeks since that transparency fight started. If cuts are 42 teachers to 2 administrators, what exactly does the administrative staffing chart look like?
 
-- **Does the PFML reduction actually apply to us?** The Symetra plan half-percent take-home cut — has the union been consulted on implementation mid-contract, or did administration unilaterally apply it?
-
-- **Is there a union plan for April 7 that goes beyond "show up"?** Individual teachers have been texting councilors. That's happening. But organized testimony at a formal public hearing is a different thing. Who is coordinating it, what's the ask, and is it going to be specific enough to move votes?
-
-- **Will the 82-positions/300-enrollment framing dominate the April hearings?** Because if that's the story the public hears — "the district hired too many people" — then we lose the argument before it starts, and the real story about why those positions existed gets buried.
+- **Non-personnel reductions at SPHS: what are they?** Supply budgets, classroom materials, field trips, department discretionary funds — these didn't make the headline number, but they land in my classroom.
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for the March 30 meeting.
+No agenda is available for the March 30 meeting. Based on the trajectory, here's what to be prepared for:
 
-Given the calendar — eight days before the April 7 public hearing, five days after 72 RIF notices landed — this meeting is likely to cover some combination of: budget status update, reconfiguration timeline, RIF process acknowledgment, and possibly superintendent search. Here is what each of those means for Marcus specifically.
+**This meeting is likely to function as either a follow-up action session from the March 23 workshop, a public-input opportunity ahead of the April 7 hearing, or both.** The March 23 presentation explicitly listed decisions expected at that workshop. If the board deferred any of those decisions, March 30 is the probable venue for them — which means votes on specific budget proposals could happen without a published agenda warning.
 
-**If there is a budget status update:**
-This is Marcus's primary target. The $8.4 million gap figure was stated but not disaggregated at the last meeting. He should listen for whether administration provides the itemized breakdown of what's already been decided versus what's still open — specifically whether any of the remaining gap is proposed to come from additional teacher or ed tech cuts beyond the 72 already notified. Watch for passive language like "positions will be evaluated" that obscures a second wave of RIFs that may already be in motion. The question he should prepare: *What is the current status of the early retirement buyout offer for the 41 eligible employees, and has that offer been extended before the RIF process proceeds to a second wave?*
+**For you specifically:**
 
-**If reconfiguration comes up:**
-Marcus needs to listen for whether impact bargaining has been initiated — not just referenced in passing, but formally scheduled. The administration has a track record of treating bargaining as procedural cover rather than genuine engagement. If the timeline for reconfiguration decisions has moved forward without a bargaining schedule confirmed, that is a union action item, not just a concern to carry home. The question he should prepare: *What is the specific impact bargaining schedule, and has the union been formally notified of it?*
+The high school reduction slide from the March 23 deck is now the working document. If the board is going to ratify or revise those cuts, March 30 may be the moment. You should go in ready to push for specifics: not FTE totals, but named positions and course sections. The administration's pattern has been to present aggregates; your job is to force disaggregation.
 
-**If the RIF process is discussed:**
-Administration may provide a status update framed as procedural and calm. Marcus should listen for: any reference to criteria used to determine who received the first 72 notices, any timeline on a second wave, and whether the district is modeling the downstream instructional impact — which sections disappear, which courses cannot run — not just the FTE count. The question he should prepare: *What is the course-section-level impact of the proposed 42 teacher eliminations — which programs and pathways cannot be staffed at the projected enrollment levels?*
+**Listen for** whether any board member references the March 23 deck by slide number or section — that signals they've reviewed the high school reduction specifics and may be ready to act on them. Listen also for whether impact bargaining comes up in any legal or procedural context; if SPEA has filed, it may surface here.
 
-**If the superintendent search comes up:**
-Marcus should listen for whether the candidate pool is being given honest disclosure of the fiscal context — $8.4 million gap, depleted fund balance, 72 RIF notices already issued. He should also watch for any signal on community and staff participation in the screening process, given the board's prior preference to exclude stakeholders. He does not need to lead on this topic at this meeting, but if community exclusion is confirmed, it's a union organizing point heading into April 7.
-
-**General April 7 preparation:**
-Regardless of what's on the agenda, Marcus should try to learn from this meeting what the administration expects to present at the April 7 public hearing — what the framing will be, what alternatives will be on the table, and whether board members are signaling openness to modifications. The hearing is eight days away. If the board is already treating April 7 as a formality and April 14 as the real decision point, Marcus needs to know that now so testimony can be targeted accordingly.
+**Questions to prepare:**
+- "The March 23 presentation listed high school reductions. Can the board confirm which specific course sections and positions are included in that number, before the April 7 hearing?"
+- "The 42 teacher RIFs have now been described as 32 recall and 11 involuntary transfer. Can administration explain how many of those transfers are to SPHS, and what happens to the teachers already in those positions?"
+- "Is the early retirement buyout proposal still under active consideration, and if so, when will the board receive analysis of how many layoffs it could offset?"
+- "The percussion ed tech position was previously removed from the cut list following community advocacy, and it has now reappeared. What changed?"
 
 ---
 
 ## Watch For
 
-- **Any mention of a second-wave RIF timeline.** Matthews said the 72 are only the first wave. Watch for any framing — by administrators or board members — that implies the number is larger, the timeline is accelerating, or the criteria for the next round have been set. If a number is named, that is news Marcus needs to take directly to the union.
+- **Whether the board takes votes on specific high school reductions** without calling for additional public input. If the March 23 "expected decisions" are on the table tonight, the window to testify is closing faster than the April 7 hearing date suggests.
 
-- **Whether the early retirement buyout is treated as a live option or a closed one.** If Feller asks about it and administration hedges or deflects, that is a signal the buyout has been quietly shelved. If it is still live, watch for a deadline — "we'll have a decision by X" — and hold them to it.
+- **Whether seniority language shifts.** If any board member echoes Blair Bacon's framing — that seniority rules are "the problem" rather than a contractual protection — that signals a prepared attack on a cornerstone of the union contract, not just a public opinion moment. Track who says it and how other board members respond.
 
-- **Whether any board member asks for the central office staffing breakdown.** If six weeks of union requests haven't produced it, a board member asking from the dais in a public meeting is the next lever. If no board member raises it, that silence is also a signal — about who on the board is actually pressing for accountability versus who has accepted the administration's framing.
+- **DeAngelis's response to high school reduction testimony.** Her pattern has been to dismiss parent and teacher concerns on reconfiguration as misunderstanding the data. If she deploys the same "student-centered" rhetoric to wave off SPHS program concerns, that's a signal the decisions are already made.
 
-- **Whether "82 positions / 300 enrollment decline" appears as a framing device.** If any board member or administrator uses this to justify the scope of cuts without acknowledging why those positions existed — ELL, special ed, behavioral health — Marcus should note it. This is the rhetorical setup for a false narrative that will dominate the April 7 hearing if it isn't countered.
+- **Matthews on "first wave."** He was the one who used that phrase. If he hedges it tonight or reframes it, that tells you whether more notices are coming before April 7 or whether 72 is the ceiling.
 
-- **The tone of board members who previously showed openness.** Feller proposed the buyout. Smith engaged on spending freeze impacts. Watch whether either of them is pushing back on the pace of the RIF process, asking pointed questions about instructional impact, or showing fatigue with the administration's approach. Any softening or disengagement from them matters.
+- **Whether Ketchem presents any updated gap number.** The stated gap was $8.4 million as of March 19. Any revision — up or down — before the April 7 public hearing changes the testimony calculus for the entire union.
 
-- **How the reconfiguration timeline is described relative to union bargaining.** If the word "bargaining" appears but with no dates attached, that is not a bargaining schedule — it's a talking point. Marcus should note whether any board member asks for a specific date.
+- **Whether SPEA representation is present and given floor time.** If union leadership is in the room, watch whether they're acknowledged, sidelined, or given time. The board's procedural treatment of the union at this meeting is a real-time signal of where impact bargaining stands.
 
-- **Whether the administration uses this meeting to preview the April 7 public hearing framing.** If they do, Marcus gets a preview of what organized testimony needs to counter. If they don't, that tells him the administration is not treating the hearing as a moment of genuine public input.
+- **Whether Feller's early retirement buyout is mentioned by anyone.** Its presence or absence tells you whether it's still a live option or has quietly died. If it's dead and no one says so, that itself is a meaningful signal about the board's appetite for alternatives to direct layoffs.
 
-- **Councilor Scott.** If there is any cross-body attendance or communication, watch for whether Scott's enrollment-stability argument — eighty families stabilized equals eighty students retained — has been picked up by any board member as a budget argument, or whether it remains an isolated comment from a March council meeting.
+- **Non-personnel reduction details for SPHS departments.** The headline RIF number gets the attention, but supply budget cuts, course section reductions, and extra-curricular staffing changes affect your daily work and your students. If the March 23 deck contained a non-personnel line for SPHS, ask whether it's been finalized.
 
-- **Any reference to the PFML Symetra implementation.** If this surfaces, it is not a benefits administration update — it is a mid-contract change that Marcus should confirm the union has been formally consulted on. If it is being described as a done deal without bargaining acknowledgment, that is a grievance, not a talking point.
-
-- **Procedural signals about April 7.** Watch for whether the board votes to limit public comment time, sets a sign-up deadline, or otherwise constrains the April 7 hearing in ways that would disadvantage organized teacher testimony. Any procedural restriction announced Monday needs to reach union leadership by Tuesday morning.
+- **Who is absent from the March 30 meeting.** If a board member who asked hard questions at prior workshops is absent, procedural actions become easier to pass without scrutiny. Note attendance before the meeting convenes.

@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-014"
 persona_name: "Lila"
 upcoming_meeting_date: "2026-03-30"
-generated_date: "2026-03-24"
+generated_date: "2026-03-25"
 has_agenda: false
 last_cumulative_meeting: "2026-03-23"
 inter_meeting_evidence_count: 0
@@ -14,69 +14,58 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new evidence was recorded between March 23 and March 30. For most personas, a quiet week means little changed. For Lila, it means seven days of waiting in the same state March 23 left her in: the threat to her building has shifted, but the threat to her place in it has not.
+There is no new inter-meeting evidence between March 23 and March 30.
 
-The structural facts from March 23 still stand. The administration is recommending closing Kayler, not Dyer. The "CLOSED" label Lila has been carrying since March 2 has been lifted from her building. But under Option A — the recommendation on the table — Dyer becomes a primary school for pre-K through 1st grade. Lila is in 4th grade. The building survives. Her Dyer does not.
+That silence is itself significant for Lila. The March 23 meeting ended without a vote — the second consecutive inconclusive board meeting on reconfiguration — and the seven days since have produced no public updates, no clarifying statements from the board, and no announcement about which intermediate school Dyer 4th graders would attend. For a child who asks her parents the same questions repeatedly because the answers never satisfy her, a quiet week is not reassurance. It is more waiting. Her looping teacher — who has known her for two years, who didn't know how to handle the drawing-and-crying moment — has been holding a possible pink slip since March 18, and nothing in the last week has resolved whether that teacher is still going to be there when 4th grade ends.
 
-The 72 pink slips that went out on March 18 have not resolved into names. Her looping teacher — who has known her for two years — is still either safe or not, and Lila still doesn't know which. No vote was taken on March 23. Her parents came home tense. The cycle continues.
-
-The silence this week is not reassuring. It means the adults nearest to this decision had nothing new to tell her. That is its own kind of answer.
-
----
+The one development Lila is still processing from March 23 isn't a policy outcome. It's that the board chair cried at the opening. Adults in charge are not supposed to cry before anything is decided. Board Chair DeAngelis said she hadn't realized how much she was holding. Lila's parents came home tense. The 8th graders said true things at the microphone. No one voted. And now they're meeting again.
 
 ## Open Questions
 
-*In Lila's voice:*
+*Framed in Lila's voice, as she would ask them:*
 
-- Why does Dyer get to stay but I still have to leave? What's the difference between the building staying and my school staying?
-- Is my teacher one of the 72? Did she get one of those letters? Is she leaving?
-- Which school am I going to next year — Brown or Skillen? Are my friends going there too?
-- My brother is in 1st grade. Under this plan, does he get to stay at Dyer while I have to go somewhere new?
-- Are they actually going to vote tonight, or are my parents going to come home looking the same way they did last Monday?
-- Will anyone at the meeting talk about what it's like for kids — not just the money or the buildings?
-- Board Chair DeAngelis was crying last time. Is she okay? Is she still in charge of this?
-- If this is "good for kids," why does it feel like something bad is happening to me?
-- What is the new school going to be like? Will there be a place for me there?
-
----
+- Did my teacher get one of those letters? Is she still going to be my teacher at the end of the year?
+- If I have to go to a different school next year, will my friends come with me — or will we get split up?
+- Is it going to be Brown or Skillen? Which one? Are they bigger? Will I know anyone there?
+- Why did Ms. DeAngelis cry before anything even happened? Does that mean she already knows something bad is going to happen?
+- Are they actually going to vote tonight? Or are they going to wait again and my parents are going to come home still not knowing?
+- If Dyer stays open but for babies and kindergartners — does that mean it's still Dyer? Or is it a different school now?
+- The 8th graders talked at the microphone and nobody stopped them. Could someone like me do that? Would anyone actually listen?
+- What happens to the classroom where I've been for two years — will some other kid sit there next year and not know about the things we did?
+- My brother is in 1st grade. Under the new plan, will he stay at Dyer while I have to leave? How does that work?
 
 ## Agenda Implications
 
-The agenda for March 30 is not yet available. Based on the cumulative state, here is what this meeting is likely to address and what it means for Lila specifically.
+No agenda is available for the March 30 meeting.
 
-**A vote may be taken — or deferred again.**
-March 30 is the first board meeting since March 23, when no vote was taken despite two options being on the table and an administrative recommendation in place. The board may vote to adopt Option A, to adopt Option B, to defer further, or to call for additional community input ahead of the April 7 public hearing. For Lila, a vote means the adults finally decided. No vote means another week of the same uncertainty. Either way, she needs someone to translate what happened in plain language — not "we adopted a reconfiguration framework" but "here is which school you are going to next year."
+Based on the board's trajectory and the open state of the reconfiguration vote, here is what Lila's interests require preparation for:
 
-**Option A vs. Option B will likely be discussed in detail.**
-The difference between the two options matters enormously to Lila, even though she will never read the proposal. Under Option A, Dyer is a primary school and she transfers to an intermediate school. Under Option B, the configuration may differ. Listen for: any board member who names which intermediate school — Brown or Skillen — would receive Dyer's 3rd and 4th graders. That is the piece of information Lila most needs, and it has not been stated publicly yet.
+**A vote on Options A or B may happen tonight.** March 30 was signaled as the next board meeting after the March 23 discussion of the two-option framework. If a vote occurs, Option A — the administration's recommendation — designates Dyer as a primary school for pre-K through 1st grade and makes Lila's transfer to an intermediate school official. This is the moment Lila's parents have been dreading since December: not the abstract threat, but the institutional decision that turns "might happen" into "will happen." If the vote occurs without any board discussion of how and when students and families will be told about placements, that is a meaningful failure on the part of the adults in the room.
 
-**Transition planning may or may not come up — but should.**
-Even if a vote is taken, it likely addresses the structural reconfiguration, not the student experience of it. Lila needs to know whether there will be any planning for how children move between schools — familiar faces, teacher continuity, school visit days, anything that makes the new building feel less unknown. If no one raises this, the gap will persist. Listen for: any mention of enrollment transition plans, communication timelines to affected families, or student support services. If this topic is absent, that absence is the story.
+**If no vote is taken again, the timeline compresses further.** The April 7 public hearing is eight days away. If the board doesn't vote March 30, the next decision point is a city council hearing — a different body, a different room, a further remove from the educators and administrators who have at least heard Dyer's name during the reconfiguration process. Lila's interests are better represented in this room, tonight, than at a city council hearing.
 
-**Public comment is where Lila's experience may or may not appear.**
-Two 8th graders stood at the microphone on March 23 and said true things. Whether any adult — or younger student, or teacher — says something tonight about what it is like to be a child at a school being reorganized is not predictable. Listen for: testimony that speaks to the child's daily experience, not just the budget math or the square footage. If the room is full of adults talking to other adults about policy, Lila is present only in abstraction.
-
-**The staffing question is still live.**
-The 72 pink slips are a fact, but the names behind them have not been confirmed publicly. Whether the board discusses staffing tonight — especially teacher retention at schools scheduled to change function — may determine whether Lila's looping teacher question gets any closer to an answer.
-
----
+**Questions to prepare — for parents or advocates attending on Lila's behalf:**
+- If Option A passes, when will families be notified of specific school assignments — and is there a commitment to keeping friendship groups together where possible?
+- Will the looping classroom model survive the transition, or is that program ending regardless of which option passes?
+- Is there any transition support planned — counselors, school visits, sibling accommodations — for elementary students who will change schools for the first time in their lives?
+- What is the status of the 72 layoff notices as they relate to Dyer's current staff — specifically, whether Dyer's teachers are disproportionately represented among those who received them?
 
 ## Watch For
 
-- **Whether the board votes tonight.** A vote ends one phase of uncertainty; deferral extends it. Watch for procedural motions early in the meeting — tabling, calling the question, requesting further community input — as signals of which direction the meeting is heading.
+- **Whether a vote actually happens.** If the board again postpones, note the specific reason given — "more community input needed" sounds responsible; "we're not ready" is a different signal and means the April 7 hearing becomes the de facto decision forum.
 
-- **Whether anyone names Brown or Skillen as the destination for Dyer's 3rd and 4th graders.** This has not been said out loud in any meeting yet. If it is said tonight, that is new and significant information for Lila's family.
+- **Whether anyone speaks to the child's experience of transition during deliberation.** Board Chair DeAngelis broke down before the March 23 meeting began and said she hadn't realized how much she was carrying. Watch whether that emotional break translates into specific advocacy for transition planning, or whether it dissipates into procedural language about fiscal necessity. The two are not the same thing.
 
-- **Whether Board Chair DeAngelis's language about children has shifted.** She was in tears on March 23. She has previously said "kids are far more flexible than parents." Watch for whether she returns to that framing tonight or whether her emotional breaking at the last meeting has changed how she talks about what reconfiguration costs children.
+- **Whether "Option A" is voted on as written or amended.** Any amendment to the primary/intermediate school designations — particularly to Dyer's grade-band assignment — directly changes which school Lila attends next year. Even small language changes (grades pre-K–2 instead of pre-K–1, for example) shift which cohort stays and which leaves.
 
-- **Whether any board member raises transition support for students at reconfiguring schools.** This is the gap between institutional decision-making and lived child experience. If it surfaces, note who raised it and how specific they were. If it doesn't surface, that silence is what Lila's family should bring to the April 7 public hearing.
+- **Whether anyone at the microphone names a specific child or classroom experience.** The two 8th graders at March 23 changed the texture of the meeting. If a younger student or a parent speaking for a younger student takes the microphone tonight, that is the room hearing Lila's experience acknowledged as real rather than processed as data.
 
-- **Whether the teachers' union speaks, and what they say.** The union's refusal to endorse plans that eliminate colleagues' positions has been consistent. If they speak tonight, listen for any language about looping classrooms or teacher-student continuity — the specific mechanism that makes Lila's relationship with her teacher structurally different from a typical classroom assignment.
+- **Whether the looping classroom program is named or omitted.** The looping model — the same teacher for two consecutive years — is precisely the continuity Lila is most afraid of losing. If Option A or B discussion proceeds without any mention of what happens to that program, no one in the room is thinking about the specific thing that makes Dyer feel safe to Lila.
 
-- **Whether any Dyer-specific voice is present in public comment.** After the Kayler closure recommendation, Dyer families may feel relieved and step back. Watch for whether that relief has silenced the people who would otherwise speak about what Dyer's community means — not just its continued existence as a building, but as the place Lila drew in tears for her class project.
+- **Whether sibling placement is addressed.** Under Option A, Lila's 1st-grade brother stays at Dyer (primary school) while she transfers to an intermediate school. The administrative recommendation separates them without saying so. Watch for whether the board registers this family disruption or treats grade-band separation as a clean organizational line.
 
-- **Whether anyone raises the question of sibling separation.** Under Option A, Lila would leave Dyer while her 1st-grade brother remains. This is an experience shared by other families at affected schools and has not yet appeared in any board discussion. If it surfaces, it signals that children's actual household experience is entering the room.
+- **Board member body language when the word "Dyer" is said.** Four members went on record protecting Skillin. No member has publicly claimed Dyer. If Dyer is named during deliberation, note who responds and whether anyone volunteers a protective or supportive statement about its community, not just its continued existence as a building.
 
-- **Whether Option B receives serious consideration, or whether Option A is the effective default.** If the discussion moves quickly to procedural votes without substantive debate between the two options, the outcome may already be settled informally.
+- **Whether DeAngelis votes, and how.** She drove the nine-scenario process, declared reconfiguration "good for kids," and then cried before the March 23 meeting began. Her vote — if one happens tonight — is the resolution of that contradiction. It tells Lila's parents whether the board chair's emotion was a private moment or a signal of changed position.
 
-- **Body language and tone from DeAngelis.** She opened March 23 already in tears before the meeting formally began. Whether she enters March 30 composed, still visibly carrying grief, or guarded and procedural will signal how much of herself she brought into the last week — and how much of the children's experience she is still holding.
+- **Any mention of transition timelines for Kayler families.** If the board is moving forward with Kayler's closure, how those families are notified and supported is a direct preview of how Dyer families would be treated if Lila's transfer process is mishandled. Watch whether the board sets a specific family-notification timeline or leaves it open-ended.

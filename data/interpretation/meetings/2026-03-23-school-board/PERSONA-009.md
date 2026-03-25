@@ -5,64 +5,62 @@ persona_id: "PERSONA-009"
 persona_name: "Dana"
 meeting_date: 2026-03-23
 meeting_title: "School Board Budget Workshop -- March 23, 2026"
-interpretation_date: 2026-03-24
+interpretation_date: 2026-03-25
 interpreter_model: "claude-sonnet-4-6"
 ---
 
 # Interpretation: Dana (PERSONA-009)
 ## Meeting: School Board Budget Workshop -- March 23, 2026 -- 2026-03-23
 
----
-
 ### Structured Points
 
-#### 1. Board Chair Opens With Personal Breakdown
-- **Fact:** Before discussing a single budget line, Board Chair DeAngelis delivered a lengthy personal statement describing bursting into tears at dinner with friends, disclosing her partner's death from mesothelioma in 2019, and publicly apologizing to a fellow board member. She framed her entire biography -- immigrant parents, union presidency, cancer diagnosis -- as context for why she belongs in the room.
-- **Source:** `[00:01--08:34]`
+#### 1. Board Chair Opens With Grief, Not Governance
+- **Fact:** Board Chair DeAngelis began the meeting with an 8-minute personal statement disclosing that she burst into tears at dinner the Friday before because of the stress she'd been carrying. She described her late partner dying of mesothelioma in 2019, her own breast cancer diagnosis in 1992, and defended herself against community accusations that she called parents "racist" — while also apologizing to Member Holman for unkind remarks.
+- **Source:** [00:01]–[08:34]
 - **Emotional valence:** positive
 - **Threat level:** 2
-- **Open question:** false
+- **Open question:** true
 
-#### 2. Finance Director Identifies Herself as the Seventh in Six Years
-- **Fact:** Finance Director Ketchem, walking through root causes of the $7.2M gap, disclosed mid-presentation that she is the seventh finance director in six years, and stated directly: "There's no way our books could have been in order." She also described a "revolving door" of financial leadership as a structural cause of the crisis, distinct from any single decision.
-- **Source:** `[14:49--17:55]`
+#### 2. Finance Director: "I'm the Seventh in Six Years"
+- **Fact:** Finance Director Abigail Ketchem, nine months into the job, attributed part of the fiscal collapse to leadership instability — explicitly stating, "I am the seventh finance director in six years, and anywhere you find that kind of revolving door of financial leadership, there's a degree of disarray." She said there was "no way our books could have been in order" and described the district as having driven off a cliff it didn't see coming.
+- **Source:** [14:49]–[17:55]
+- **Emotional valence:** negative
+- **Threat level:** 3
+- **Open question:** true
+
+#### 3. Laid-Off Teacher: "The Only Thing That Matters Is a Date"
+- **Fact:** Blair Bacon, identified as a member of the "2026 RIF," addressed the board as a teacher losing her job despite holding national board certification — the highest credential in the profession — earned twice, plus a master's in literacy and a multilingual endorsement. She stated the union contract protects employees by hire date alone: "I thought my union would fight for me, only to find that in this contract, education and professional credentials matter second. The only thing that matters is a date. In my case, this date was July 10th, 2023."
+- **Source:** [156:05]–[159:55]
 - **Emotional valence:** negative
 - **Threat level:** 4
 - **Open question:** true
 
-#### 3. School Proposed for Closure Is 45% BIPOC -- Title VI Question Raised From the Floor
-- **Fact:** A Kayler parent identifying herself as a former PTA president stated from the public microphone that Kayler is approximately 45% BIPOC and 30--35% multilingual learners, then asked directly whether the district had taken steps to ensure closing Kayler does not violate Title VI of the Civil Rights Act. The board chair acknowledged the question and said they would need a legal answer, which was not provided that night.
-- **Source:** `[163:01--164:32]` and `[299:39--300:26]`
+#### 4. Eighth Graders Take the Mic to Save a Staff Member
+- **Fact:** Two eighth-grade students, Lucy and Samantha, spoke during public comment in defense of the percussion ed tech position being cut. Lucy described him as a certified special education teacher who makes music accessible to students with IEPs. Samantha said: "Even when a small grain of sand is moved, the entire beach feels its impact, especially the surrounding sand near it."
+- **Source:** [151:22]–[154:33]
+- **Emotional valence:** positive
+- **Threat level:** 1
+- **Open question:** false
+
+#### 5. Kayler Parent Raises Civil Rights Violation — Board Has No Answer
+- **Fact:** Kayler parent Jess Elsner noted that Kayler is "approximately 45% BIPOC and 30 to 35% multilingual learners," then asked the board to "explain the exact steps that were taken to ensure that when we were deciding to close Kayler, that Title VI wasn't being violated." Board Chair DeAngelis responded at the end of the meeting: "I get the question. I don't have the answer."
+- **Source:** [163:01]–[163:47]; [299:39]–[300:26]
 - **Emotional valence:** negative
 - **Threat level:** 5
 - **Open question:** true
 
-#### 4. Laid-Off Interventionist: "My Number Is July 10th, 2023"
-- **Fact:** Blair Bacon, identified as a 2026 RIF member and a 25-year educator, told the board she holds a master's degree in literacy, a multilingual endorsement, and national board certification twice -- then stated that none of it matters, because under the contract the only thing that determines who is laid off is a hire date. Her hire date: July 10, 2023. She explicitly endorsed consolidation and reconfiguration and called on the board to vote to move forward.
-- **Source:** `[156:51--160:00]`
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** false
-
-#### 5. Eighth-Grade Students Testify About Music Program Cuts
-- **Fact:** Two eighth-grade students -- Lucy and Samantha -- came to the podium to speak in defense of the percussion ed tech position, describing the role in specific terms: the ability to run separate percussion sectionals while band directors work with wind players, the ed tech's special education certification enabling inclusion access, and the personal meaning of the music program. Both were composed and specific. The board chair had to ask the audience three times to stop applauding after each student spoke.
-- **Source:** `[151:22--155:19]`
-- **Emotional valence:** positive
-- **Threat level:** 2
-- **Open question:** false
-
-#### 6. Union President Reads Lunch Aide Wages Alongside Superintendent Salary on the Record
-- **Fact:** Connie DeSanto, identified as president of the support staff union, stated that an ed tech one at the lowest pay step earns approximately $20,800 for a school year. She then cited the 2024--25 salary of former Superintendent Timothy Metheny at approximately $158,000 -- a ratio she called 7.6 to one. She called the elimination of lunch aides while maintaining administrative positions "not the look we want for South Portland."
-- **Source:** `[206:35--208:10]` and `[242:29--248:01]`
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** false
-
-#### 7. Board Adjourns at 11:15 PM With No Vote Taken
-- **Fact:** After more than five hours and approximately 40 public comments, the board adjourned without voting on the school closure, the grade configuration option, or the FY27 budget. One board member moved for an earlier supplemental meeting, the chair said only that the next scheduled meeting is March 30, and the meeting ended on a motion to adjourn with no consensus on timeline. The April 7 City Council presentation date was not moved.
-- **Source:** `[299:39--307:24]`
+#### 6. Union President and Kayler Parent Breaks on Senior Walk-Through Question
+- **Fact:** Connie DeSanto, identified as union president for support staff and a Kayler community member since 2014, described telling her high school sophomore son that Kayler might close. He eventually asked: "Where would he be able to do his senior walk-through?" She said, "That question I didn't have an answer for, and that was hard, really, really hard." She also argued that cutting all-minimum-wage lunch aides while preserving administrative salaries was "not the look we want for South Portland."
+- **Source:** [242:29]–[247:15]
 - **Emotional valence:** negative
 - **Threat level:** 3
+- **Open question:** false
+
+#### 7. Board Adjourns at 11:15 PM Without Voting on Anything
+- **Fact:** After more than five hours of presentations and public comment, a board member moved to adjourn before any vote was taken on school closure, grade configuration, or budget adoption. Board Chair DeAngelis said no one could "think straight at this point." A board member was cut off mid-sentence asking to explore additional meetings this week. The next scheduled meeting is Monday, March 30th — the apparent date when votes may actually occur.
+- **Source:** [299:39]–[307:24]
+- **Emotional valence:** negative
+- **Threat level:** 4
 - **Open question:** true
 
 ---
@@ -71,24 +69,25 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Dana's journey: five hours, no vote
-    section Opening and Presentation
-        Chair cries in opening statement: 5: Dana
-        Finance director lays out the spiral: 3: Dana
-    section Public Comment Peaks
-        Students testify about music program: 4: Dana
-        Blair: only my hire date matters: 5: Dana
-        Connie: lunch aides vs. superintendent pay: 5: Dana
-    section Endgame
-        No vote, chaotic adjourn at 11:15: 3: Dana
+    title Dana's journey: Five hours, zero votes
+    section Opening and Budget
+        Chair opens in tears about dead partner: 4: Dana
+        Finance director: 7th in 6 years, cliff: 3: Dana
+    section School Debate Drags
+        Board loops on A vs B for an hour: 2: Dana
+    section Public Comment Delivers
+        Students defend cuts at the mic: 4: Dana
+        Blair Bacon: credentials vs. seniority: 5: Dana
+    section No Resolution
+        Board adjourns without any vote at 11pm: 2: Dana
 ```
 
 ---
 
 ### Reactions
 
-Okay, so I need you to know that I almost didn't send a crew to this one. The agenda said "budget workshop" and I assumed we'd get two hours of slides and one usable soundbyte about property taxes. Wrong. The board chair opened the meeting by describing how she burst into tears at dinner Friday night and then talked about her partner dying of cancer. Before a single number had been mentioned. That's your cold open right there -- *before* we even get to 78 people losing their jobs. If our shooter got clean audio on that, we have a piece.
+The board chair cried at dinner last Friday. That's your soft open if your news director wants the sympathetic angle — 70-something woman, lost her partner to mesothelioma, beat breast cancer, opened a five-hour budget meeting by telling a packed auditorium about the moment it all cracked. You've got maybe 20 seconds of setup there. Whether that earns sympathy or reads as deflection before she votes to close a school serving mostly BIPOC kids — that's the editorial call you need to make fast, because March 30th is six days away and that's when they actually vote.
 
-The real story -- the one I think nobody else is going to run -- is this: they want to close Kayler school, which is 45% BIPOC and 30-something percent multilingual learners, and a woman got up to the microphone and asked point-blank whether that violates the Civil Rights Act. The board chair said they'd need a legal answer. They don't have one. Meanwhile, a laid-off teacher -- national board certified, twice, 25 years in the classroom -- stood up and said the only thing that matters about whether she keeps her job is a date: July 10, 2023. That's when she was hired, and that's her number under the contract. She said it herself. That's your B-block right there -- credential versus seniority, and what it costs the kids.
+The real story is Blair Bacon. She's a Skillen interventionist who just got her pink slip. Twenty-five years in education, master's in literacy, national board certification — twice — and she's out because her hire date is July 10, 2023. That's it. That's the contract. Seniority wins, credentials lose. She said, "I thought my union would fight for me." That's your soundbyte. She's already written the segment for you. Call her before she leaves the area, get her on camera in front of whatever classroom she's about to stop teaching in, and you've got segment one.
 
-And here's the kicker: after five hours and forty-something public speakers, they adjourned without voting on anything. The next meeting is Monday. That's the one we actually need to be at, because that's when they vote on which school closes, which configuration they pick, and whether this budget goes to the City Council on April 7. I'd send a crew Monday. The vote, the Kayler civil rights angle, the board chair who's clearly running on no sleep -- that's a segment. Maybe two if the vote goes sideways.
+Segment two is the Title VI angle, and you cannot sleep on this. A Kayler parent stood at that mic and asked — on the record — whether closing a school that is 45% BIPOC and 35% multilingual learners violates the Civil Rights Act. The board chair said, at eleven o'clock at night, that she didn't have a legal answer. That's the follow-up story into the city council budget presentation April 7th. And for B-roll: there's a family in that neighborhood who bikes their kids to Kayler in a battery-powered pink toy Jeep. Sam Elsner described it. That's your establishing shot — two minutes of footage before you ever show a spreadsheet.

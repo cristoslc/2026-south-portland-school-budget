@@ -5,72 +5,70 @@ persona_id: "PERSONA-008"
 persona_name: "Rachel"
 meeting_date: 2026-03-23
 meeting_title: "School Board Budget Workshop -- March 23, 2026"
-interpretation_date: 2026-03-24
+interpretation_date: 2026-03-25
 interpreter_model: "claude-sonnet-4-6"
 ---
 
 # Interpretation: Rachel (PERSONA-008)
 ## Meeting: School Board Budget Workshop -- March 23, 2026 -- 2026-03-23
 
----
-
 ### Structured Points
 
-#### 1. Kayler named for closure — but zone boundaries put other families at risk too
-- **Fact:** After analysis of Kayler and Dyer across six domains, the district recommended Kayler for closure. However, when a board member pressed whether redistricting under Option B would affect only Kayler families, the assistant superintendent confirmed: "it would not just be Caylor families" — families near the margins of adjacent zones (Brown, Dyer) could also be reassigned to maximize building capacity.
-- **Source:** [34:23]–[35:12] (Kayler named); [112:22]–[113:10] (scope of redistricting confirmed in board Q&A)
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true
-
-#### 2. Option A would uproot at least 580 students across the entire district
-- **Fact:** A speaker during public comment calculated that closing Kayler alone would displace 160 students, but Option A reconfiguration — moving all second graders out of their current schools to new intermediate buildings — would require at least 424 additional students to change schools, for a total of 580-plus children district-wide. Another speaker confirmed that under Option A every incoming second grader at Dyer, Small, and Kayler would be moved.
-- **Source:** Public comment, ~[251:55] (Hailey Runback); ~[210:30] (Brian Green)
+#### 1. Kayler Officially Named for Closure
+- **Fact:** The administration formally recommended closing Kayler Elementary School for the 2026-27 school year. All five buildings were analyzed; Kayler was selected over Dyer following a six-domain evaluation conducted twice by building administrators and directors, with both rounds producing the same result.
+- **Source:** Transcript [34:23--35:12]; Presentation Slide 16
 - **Emotional valence:** negative
 - **Threat level:** 5
 - **Open question:** true
 
-#### 3. No transportation plan exists — district is waiting for the board to decide first
-- **Fact:** When asked whether the transportation reduction estimate accounted for Option A or B, the assistant superintendent confirmed the district had engaged a consultant but stated: "We are waiting for the board to make a decision on Option A or Option B before we complete that modeling."
-- **Source:** [123:55]–[124:00]
+#### 2. Option A Would Move Every Elementary Student -- Not Just Kayler Families
+- **Fact:** Under Option A (the administration's stated preference), all students currently in K--1 would be reassigned to one of two "primary schools" (Dyer or Small), and all students in grades 2--4 would move to one of two "intermediate schools" (Brown or Skillin) -- meaning every elementary family in the district faces reassignment, regardless of their current school.
+- **Source:** Transcript [36:45--37:33]; Presentation Slides 18, 21
 - **Emotional valence:** negative
 - **Threat level:** 4
 - **Open question:** true
 
-#### 4. Class sizes increase in both options — district policy caps will be stretched
-- **Fact:** The presentation showed that current average class sizes already run below district-set caps, and "in both options, class sizes increase." The presenter acknowledged that using averages conceals real variability and flagged this as something that would "need to dig a little further into."
-- **Source:** [38:20]–[39:55]
+#### 3. Choosing Option B Does Not Prevent Reconfiguration -- It Delays It By One Year
+- **Fact:** Dr. Prince explicitly told the board that Option B "could be the plan for the fall of '26, while the board and the community engages with implementation for fall of '27," and later confirmed that choosing Option B still puts the board "on a path to Option A in the following fall."
+- **Source:** Transcript [48:45--49:33]; [114:42--115:27]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true
+
+#### 4. Redistricting Under Option B Would Affect Families Beyond Kayler
+- **Fact:** When a board member asked whether only Kayler families would move under Option B, Dr. Prince confirmed that "on the margins of our school zones, there are other families" at Brown and other schools who might also need to redistrict in order to maximize use of remaining buildings -- meaning no family outside Kayler is guaranteed to stay put.
+- **Source:** Transcript [112:22--113:10]
 - **Emotional valence:** negative
 - **Threat level:** 3
 - **Open question:** true
 
-#### 5. Option B described as affecting fewer families and causing fewer transitions
-- **Fact:** The district's own presentation noted Option B (full K–4 grade bands) "presents less change for families, but not all families" and "minimizes" transitions compared to Option A, which would add a second school transition within elementary years. The district acknowledged this model "allows for a broader age range of students to stay together."
-- **Source:** [44:46]–[45:35]
+#### 5. No Transportation Plan Exists Yet
+- **Fact:** The Director of Operations stated that the district "is waiting for the board to make a decision on Option A or Option B before we complete" transportation modeling -- meaning no routing, bus timing, or logistics plan exists for families to evaluate, despite a five-month implementation window.
+- **Source:** Transcript [123:55--124:10]; Presentation Slide 67
+- **Emotional valence:** negative
+- **Threat level:** 3
+- **Open question:** true
+
+#### 6. Class Sizes Will Increase at All Remaining Schools Under Both Options
+- **Fact:** Presenting the reconfiguration slides, Principal Connolly stated plainly that "in both options, class sizes increase," moving current averages toward district policy caps of 20 for K--2 and 24 for grades 3--4. This affects all four remaining elementary schools regardless of which option is chosen.
+- **Source:** Transcript [38:20--39:55]; Presentation Slide 20
+- **Emotional valence:** negative
+- **Threat level:** 2
+- **Open question:** false
+
+#### 7. No Vote Taken -- Decision Deferred to March 30
+- **Fact:** After more than five hours, the board chair declined to hold votes on school closure, grade configuration, or budget adoption, stating "I'm not going to have us go back to going through debate and going into regular session and voting at 11:15." The next scheduled meeting is Monday, March 30.
+- **Source:** Transcript [299:39--300:26]; [306:37--307:24]
 - **Emotional valence:** neutral
 - **Threat level:** 2
 - **Open question:** true
 
-#### 6. School year starts in August — the district has five months, not six
-- **Fact:** A public commenter pointed out mid-meeting that children return to school in August, not September, meaning the actual implementation window is roughly five months — not the six months frequently cited in discussion. The board has not yet voted, and the next meeting is March 30.
-- **Source:** ~[189:00]–[189:29] (Debbie McNeany, public comment)
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true
-
-#### 7. Keeping all five schools open requires cutting 12–16 more positions
-- **Fact:** The assistant superintendent stated explicitly: "If we do not move forward with school closure, then we would estimate that an additional 12 to 16 positions from across the district would need to be eliminated to create a balanced budget." This framing directly linked the closure decision to job preservation.
-- **Source:** [33:37]–[34:00]
+#### 8. Keeping All Five Schools Open Would Require 12--16 Additional Staff Cuts
+- **Fact:** The assistant superintendent stated that if the board does not approve the school closure, "an additional 12 to 16 positions from across the district would need to be eliminated to create a balanced budget" -- framing closure as the only path that stops further layoffs.
+- **Source:** Transcript [33:37--34:23]; Presentation Slide 15
 - **Emotional valence:** negative
 - **Threat level:** 3
-- **Open question:** true
-
-#### 8. No vote tonight — board adjourned at 11:15 PM, next meeting March 30
-- **Fact:** After more than five hours, the board chair declined to hold a vote, stating "nobody can think straight at this point." A board member asked whether additional meetings could be scheduled before March 30 and received no commitment. Families will wait at least another week with no decision on which option — or whether Kayler closes at all.
-- **Source:** [299:39]–[307:24]
-- **Emotional valence:** negative
-- **Threat level:** 3
-- **Open question:** true
+- **Open question:** false
 
 ---
 
@@ -78,26 +76,25 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Rachel's journey: Kayler Closed -- What About My Kids?
-    section Budget Overview
-        Closure flagged before details given: 2: Rachel
-    section Elementary Proposal
-        Kayler named — not my school yet: 3: Rachel
-        Option A moves all 2nd graders too: 1: Rachel
-    section Board Q&A
-        Confirmed: other zones disrupted too: 2: Rachel
-        No bus plan until board decides: 1: Rachel
-    section Public Comment and Close
-        Parents name the 580-student math: 2: Rachel
-        No vote — back Monday in uncertainty: 1: Rachel
+    title Closure decided, no family is safe
+    section The Scale of Crisis
+        Finance reveals $7.2M gap, 12% cuts: 2: Rachel
+    section The Bomb Drops
+        Kayler named for closure: 1: Rachel
+        Option B is still a path to Option A: 1: Rachel
+    section Searching for Answers
+        Board confirms other families may move too: 2: Rachel
+        No bus plan exists yet: 2: Rachel
+    section No Resolution
+        Community voices fears, vote deferred: 3: Rachel
 ```
 
 ---
 
 ### Reactions
 
-So Kayler is closing. That was the headline. I genuinely felt for those parents in the room — some of them said they found out through the news, not from the district, and you could feel how raw that was. I sat there for like two minutes thinking, okay, it's not our school, we're okay. And then they started explaining the options and I realized I was nowhere near okay.
+So they officially put Kayler on the chopping block tonight. The administration gave their full recommendation -- they ran this analysis across six categories, did it twice, and came up with Kayler both times. Dead-end street, no secondary evacuation route, building layout. They'd been looking at all five schools since December but it kept coming back to Kayler versus Dyer, and Kayler lost. A lot of Kayler families were in that room, and some of them just found out their school was even being considered from the *news* -- not from the district. The former PTA president said that directly into the microphone. The family who lets their kids ride bikes to school, who volunteers at every fundraiser, who's been in the community fifteen years -- they were there. And their school is closing. That part feels basically decided. It's awful.
 
-Option A — which is what the administration has been pushing for — means every incoming second grader in the whole district switches schools. Every single one. Not just the Kayler kids. A woman in the audience did the math: 160 Kayler students forced to move regardless, but Option A adds 424 more on top of that. Over 580 kids total. When a board member asked the assistant superintendent point-blank, "Is this just Kayler families or more people?" the answer was basically: "Mostly Kayler, but also families near zone boundaries at Brown and other schools." Nobody can tell me yet whether we're one of those families. And there is no transportation plan. They said it directly — they can't model the bus routes until the board picks an option. The school year starts in August. A parent at the microphone literally had to tell the board it's August, not September — we have five months, not six. Five months with no routes, no before-care plan, no answers on which kids go where.
+But here's what I couldn't stop thinking about the whole drive home. Closing Kayler is just the first piece. Then there are two options for what happens to *all* the elementary schools after that, and one of them -- Option A, which is the one the administration keeps pushing -- would move every single elementary kid at some point. They would split all the schools into "primary schools" for pre-K through first grade, and "intermediate schools" for grades 2 through 4. So your kid finishes first grade and then switches to a completely different building for second grade. Every family in every school gets disrupted, not just Kayler. The administration made it clear they want this -- they said it probably five different times in different ways. And here's the part that really got me: a board member asked what happens if we just go with Option B this year, which is the less disruptive version where you close Kayler and keep the other four schools as K--4. Dr. Prince basically said you can do that, but she also said right out loud that Option B is still "a path to Option A in the following fall." So there is no version of this where reconfiguration doesn't eventually happen. The only question is whether it's your kid this year or next year.
 
-I left that meeting needing to know two things: where exactly our zone boundary is, and whether Option B — which they admitted "presents less change for families" — is actually still on the table or whether the board is being herded toward Option A. Because if Option A is where this is going, my kids are changing schools. I'm texting the other parents in our school tonight because I don't think half of them know that reconfiguration isn't just a Kayler problem. No vote happened, by the way. Five hours, midnight almost, and we come back Monday. I cannot keep doing this.
+And nobody could give any actual specifics about what this looks like on the ground. Where would the kids go? What do the bus routes look like? How long is the ride for a five-year-old? The transportation director literally said they're not going to start modeling routes until after the board picks an option. So we're being asked to decide if this is acceptable without knowing what it actually means for our morning. There was no vote tonight -- the meeting ran until 11:15 and the chair just adjourned. Next meeting is March 30th. I'll be there. But I left feeling like the decision is already basically made in that room, and the public comment is the part where we watch it happen. I don't know what it takes to actually change the outcome at this point.

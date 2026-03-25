@@ -3,107 +3,105 @@ schema_version: "1.0"
 persona_id: "PERSONA-007"
 persona_name: "Linda"
 upcoming_meeting_date: "2026-03-30"
-generated_date: "2026-03-24"
+generated_date: "2026-03-25"
 has_agenda: false
-last_cumulative_meeting: "2026-03-19"
-inter_meeting_evidence_count: 0
+last_cumulative_meeting: null
+inter_meeting_evidence_count: 1
 ---
 
 # Brief: Linda (PERSONA-007)
 ## Upcoming Meeting: 2026-03-30
 
+# Pre-Meeting Brief: Linda (School Board Insider)
+**Prepared for:** 2026-03-30 Meeting
+**Persona:** PERSONA-007 — Governance Participant
+
+---
+
 ## Since Last Meeting
 
-No new evidence exists in the record between the March 19 meeting and this March 30 meeting. That silence is not neutral for Linda — it is the silence immediately before a cliff edge.
+The March 23 workshop was the pivotal governance moment of this budget cycle, and the inter-meeting evidence — the slide deck prepared for that session — confirms how much ground was covered. What matters to you going into March 30 is what was resolved, what was newly exposed, and what that requires of the board between now and April 7.
 
-The March 19 meeting locked the June 9 referendum date, put Mahoney to rest until 2027, and delivered the sewer-rate doubling as the final missing variable in the cumulative homeowner impact calculation. It also dropped Matthews' "72 pink slips" framing into City Council minutes — the exact weapon validation opponents will use in June. All of that landed eleven days ago. The April 7 public hearing is eight days from now.
+**Root causes are now on the record.** Finance Director Ketchem publicly named three structural drivers of the budget failure: enrollment-staffing misalignment accelerated by COVID relief funding, the absence of a minimum fund balance threshold policy, and seven finance directors in six years. This is significant governance progress — you can now anchor public communication and board narrative in named causes rather than defending against "how did this happen?" in the abstract. But naming the causes also creates accountability: the board now owns the follow-through. The fund balance policy in particular was identified as a root cause, and it doesn't yet exist. That gap belongs to you.
 
-The absence of inter-meeting news means Linda has had no new information to work with — and that the administration has had eleven days to either resolve the health insurance confirmation or not. The "late March" deadline for confirmed health insurance figures is *now*. If those numbers are still not in hand, the board is walking into its final pre-hearing workshop without a confirmed budget. If they are in hand, this meeting is where Linda finds out whether the 8%→12% revision held or shifted — and how it interacts with every scenario the board has been working from since February.
+**FY28 is now a publicly confirmed structural crisis.** Ketchem's "mathematically impossible" framing puts the board in an uncomfortable position. You're asking the community to validate a difficult FY27 budget while the finance director has disclosed — on the record — that FY28 is already structurally broken. Labor costs exceeding 6% growth, electricity at 13–14% annually, and athletic field bond debt service are not hypothetical. This is a governance communication challenge, not just a fiscal one: how do you build validation support for FY27 without that FY28 disclosure becoming the dominant community narrative before the June vote?
 
-The practical significance: the window between now and April 7 is the last credible opportunity for the board to sharpen its public-facing answers, close the $3M+ gap narrative, and build the communication posture that determines whether the validation campaign starts from a defensible position or a reactive one.
+**City fund balance draw is confirmed operational default.** What was a politically toxic hypothetical is now the documented backstop for any FY27 unanticipated costs. The board needs to be clear-eyed that this is now a matter of public record, not a contingency plan. Any FY27 cost surprise gets drawn from city reserves and repaid via future tax increase. You will be asked about this, publicly.
+
+**The Title VI brief window closes at this meeting.** The request raised at March 23 — can the district legally close Kaler given its demographic composition (~45% BIPOC, 30–35% multilingual learners) — was flagged as needing a legal brief before March 30 to allow an informed vote before the April 7 City Council presentation. If that brief hasn't arrived, the board is voting without the legal foundation in place. That's your procedural problem to surface, not administration's.
 
 ---
 
 ## Open Questions
 
-The threads Linda is carrying into this meeting, in her own terms:
+Going into March 30, you're carrying these as unresolved:
 
-- **Did the health insurance numbers actually come in, and what are they?** The 8%→12% revision was floated in February without confirmation. We've been making decisions against an unconfirmed figure. If the number changed again — up or down — every scenario the board presented publicly is now off.
+- **Have we received the Title VI legal analysis on Kaler closure, and if not, can we responsibly vote before April 7?** I'm not willing to take a facilities vote that creates legal exposure in a validation year.
 
-- **Do we have a factual, public-ready answer to the "72 pink slips / $8.4M deficit" framing before April 7?** That line is already in Council minutes. It's going to be on a yard sign. The board needs a specific, clear rebuttal — not a communications strategy, an *answer* — and I don't think we have one yet.
+- **What is the actual health insurance number?** That figure was supposed to arrive late March. If it's not in the room, every budget table we're presenting at City Council is provisional — and I need to know whether we present it as provisional or hold April 7 until it's confirmed.
 
-- **Has the finance committee assembled the cumulative homeowner impact table yet?** School increase plus sewer doubling plus the November public safety bond in one place. If we don't publish that table ourselves before April 7, someone else will — and it will be designed to harm us.
+- **Is the FY28 structural problem being modeled in a form I can present at the April 7 hearing?** Ketchem named it publicly. If the council asks me what year two looks like and I don't have a table, that's a credibility problem.
 
-- **Are we any closer to closing the $3M+ gap beyond the three big ideas?** The February forum surfaced it. The March 2 workshop didn't resolve it. What are those remaining cuts, and are they in the budget document we're presenting April 7?
+- **What is the full cumulative homeowner tax impact?** School increase plus sewer rate increases (22% annually for three years) plus the November public safety bond debt service — I need that assembled as a single figure before April 7, not after. If I don't produce it, someone else will, and their version will be less accurate than ours.
 
-- **Is there any chance the elementary reconfiguration is actually implementable by September 2026?** No redistricting plan exists. The March 2 timeline question was never answered. If it's not feasible, that savings assumption is a hole in the budget we're presenting under oath.
+- **When are we adopting a minimum fund balance threshold policy?** It was named as a root cause of the crisis. If I leave FY27 without a policy in place, I'm passing the same structural vulnerability to whoever comes next.
 
-- **How are we planning to maintain SPED services — including the 80–90 new Pre-K kids arriving in the fall — while cutting 78 positions and absorbing more experienced SPED staff resignations?** The state doesn't care about our budget gap when it comes to FAPE obligations. We need a specific answer, not "we're committed to meeting all mandates."
+- **Where exactly is the $3M+ beyond the "big ideas"?** The three major savings levers get us to roughly $4M against a $7.2M deficit. That gap has not been closed publicly. I need to know what closes it before I vote on anything.
 
-- **Is board cohesion on the tax ceiling going to hold through April 7?** Feller broke publicly. If another member follows before the hearing, the board is presenting a fractured position to a public that already only has 12% awareness of what we're proposing.
+- **Are all four bargaining unit meet-and-consult obligations — including CDL bus driver reassignment — on a timeline that concludes before fall 2026 operational changes?** If not, we're creating labor grievance exposure in the middle of a validation campaign.
 
-- **Has anyone in either governance room put the ICE/enrollment/subsidy pipeline risk on paper?** If we're projecting enrollment next year without accounting for displacement-driven losses, our per-pupil subsidy estimate is wrong. That's a budget integrity question, not a political one.
+- **Does the board have a unified, factual response to Matthews' "72 pink slips / $8.4M deficit" framing?** That language is now in City Council minutes. It will be the exact script validation opponents use in June. If we don't have a public response ready before April 7, we've already ceded the narrative.
 
-- **What is our communication plan before June 9?** The February 4 forum showed that substantive engagement works, but the audience was educators and parents — not the broader taxpayer base whose votes determine validation. How are we reaching them?
+- **Do we need to proactively coordinate with the mayor's office on sequencing between the June validation vote and the November public safety bond?** Voter fatigue is real. I don't want the school budget validation to become the casualty of a poorly sequenced bond calendar.
 
-- **Does the repeat budget compliance violation create any legal exposure we haven't addressed?** This isn't going away, and validation opponents will find it if we don't address it first.
+- **Will the Zeal superintendent search expenditure come up publicly before or during the validation campaign?** That $30K number in the context of 78 position cuts and an 18–19% status-quo tax increase is a real political liability. I want to know what we're saying before someone else frames it for us.
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for this meeting. Based on the cumulative state and the calendar — this is the final scheduled workshop before the April 7 public hearing — Linda should prepare for the following likely areas of business:
+No agenda has been posted for the March 30 meeting. Given the proximity to the April 7 City Council presentation and the unresolved items from March 23, here is what you should be prepared for:
 
-**1. Budget finalization and health insurance confirmation**
+**April 7 presentation preparation is the dominant likely purpose of this meeting.** The board has eight days to finalize what it presents to the council. That means March 30 is almost certainly a working session on that presentation — what data it includes, what narrative frame it carries, and what decisions the board has made or is making. For you, this is a critical governance moment: the board should be controlling the narrative that goes to council, not reacting to it.
 
-This is the meeting where "late March" health insurance figures should be presented. Linda needs to know: did the 8%→12% estimate hold? If it came in higher, the board's working scenarios are off and the numbers being brought to April 7 will be wrong. If it came in lower, there may be marginal relief. Either way, this is the figure that closes or reopens several decisions. *She should not let this meeting end without a confirmed number on the record.*
+- *Listen for:* Whether administration is framing the April 7 presentation as a status update or a decision-support package. You want the latter — council members need enough context to understand the trade-offs, not just the numbers.
+- *Prepare to ask:* Does the April 7 presentation include the cumulative homeowner impact table? Does it include the FY28 outlook? Does it include the root cause analysis that Ketchem named March 23? All three should be in the room before council.
 
-What to listen for: Whether administration presents a new cost estimate, whether the change affects the 6% ceiling calculus, and whether anyone asks how the revised figure interacts with the remaining $3M+ gap.
+**Facilities closure vote may come to a head.** The board converged on Options 1.3 or 1.6 (Kaler/Dyer or Small) at March 23, but no vote was taken. The Title VI brief on Kaler was requested between March 23 and March 30. March 30 may be the moment the board is asked to formalize that direction — or to decide it can't without the legal brief.
 
-What to prepare: A direct question — "What is the confirmed health insurance cost increase for FY27, and how does it change the scenarios we've been presenting publicly?"
+- *Listen for:* Whether legal counsel has produced the Title VI analysis. If it hasn't arrived, you need to be the person who raises whether proceeding is prudent.
+- *Prepare to ask:* What specific equity and legal documentation will accompany the board's facilities vote, and at what meeting does that vote actually occur?
 
-**2. April 7 public hearing preparation**
+**Health insurance confirmation may arrive at or before this meeting.** Late March was the window. If the figure has arrived, it could shift the budget tables; if it hasn't, you need to know how the board is handling budget presentations that are still provisional on a major cost driver.
 
-This is the last workshop before the hearing. It would be procedurally unusual to arrive at April 7 without having reviewed the board's public communication posture. Linda should expect — or demand — that the board discuss how it is handling the Matthews framing, what its answer to the cumulative homeowner impact question is, and whether anyone has a draft of the communications the district plans to put out before June 9.
+- *Listen for:* Any mention of the health insurance number. If it's not on the table, ask directly when it will be and how we're disclosing its absence to council on April 7.
 
-What to listen for: Whether any board member raises the "72 pink slips" problem proactively, and whether there is agreement or continued avoidance.
+**Fund balance policy adoption timeline.** Ketchem named the absence of a minimum fund balance threshold policy as a structural root cause. There is no formal resolution of that gap yet. March 30 may not be the adoption meeting — but you should push for a stated timeline.
 
-What to prepare: A motion or at minimum a direct request that finance committee be tasked with assembling the cumulative homeowner impact table before April 7, not after.
-
-**3. Elementary reconfiguration status**
-
-The formal proposal was supposed to follow the March 2 workshop, and the feasibility of September 2026 implementation was already being questioned. If this meeting doesn't produce a clear answer on whether the board is moving forward with a specific reconfiguration option and on what timeline, that's a governance failure — the board is about to present a budget to the public that includes savings assumptions it cannot guarantee.
-
-What to listen for: Whether administration brings a formal proposal, whether redistricting feasibility is addressed, and whether any member raises the September timeline question directly.
-
-What to prepare: "If we cannot implement reconfiguration by September 2026, what does the budget look like without those savings, and does the board intend to present that scenario to the public at April 7?"
-
-**4. The $3M+ unidentified cuts gap**
-
-This has been unresolved since February 4. A public hearing in eight days is not the right venue to surface this for the first time. If the gap hasn't been identified and budgeted, Linda needs to know that before April 7 — not from the public.
-
-What to listen for: Whether administration presents specific line items that close the gap, or whether the gap is still characterized vaguely as "additional efficiencies."
-
-What to prepare: A request for a specific schedule of the remaining cuts, with dollar amounts, before the hearing packet is finalized.
+- *Prepare to ask:* What is the board's timeline for adopting a minimum fund balance threshold policy, and will it be in place before the FY28 budget cycle opens?
 
 ---
 
 ## Watch For
 
-- **Whether confirmed health insurance figures are on tonight's agenda at all.** If they are not presented — or if administration says the confirmation is still pending — Linda should ask on the record what the contingency is for a budget hearing built on an unconfirmed cost assumption.
+- **Whether the Title VI legal brief on Kaler has been produced.** If administration doesn't raise it, you should. A facilities vote without that analysis in hand is a procedural vulnerability in a validation year.
 
-- **Whether any board member volunteers to coordinate with Matthews or the City Council ahead of April 7.** The "72 pink slips" framing is in the minutes. Silence equals acceptance of that frame. Watch for whether anyone other than Linda names it.
+- **Whether anyone presents a complete $7.2M gap closure.** The board has roughly $4M in named savings. If the gap isn't closed on paper at this meeting, you're presenting a provisional budget to council on April 7. Note who, if anyone, owns that remaining $3M+ explicitly.
 
-- **Signs of further fracture on the 6% ceiling.** Watch body language and hedging language when the tax figure is referenced. If members who were previously aligned start saying "around 6%" or "we'll see where we land," that's a signal.
+- **Informal signals from board members about their position on 1.3 vs. 1.6.** You've been building consensus; March 30 is when informal alignment needs to harden. Watch for hedging language from members who haven't committed — any wavering this close to April 7 is a board cohesion problem you need to address before the public vote.
 
-- **Whether administration brings a formal reconfiguration proposal or continues in preliminary mode.** A formal proposal has legal and procedural weight. A continued "we're still evaluating" posture means the board is voting on a budget with a savings assumption it has not formally adopted. Linda should push for clarity on exactly what is being presented April 7 and in what form.
+- **Whether Member Feller's 6% ceiling break from the prior session is treated as a closed question or reopened.** If it surfaces again, watch how other members respond. Silent alignment with Feller is as meaningful as a public statement.
 
-- **Whether anyone raises the redistricting/implementation feasibility question without Linda having to ask it.** If no one else raises it, that is itself a signal about whether her colleagues understand the legal risk they're absorbing.
+- **The health insurance line.** If the confirmed number is in the room, watch whether it improves or worsens the overall picture, and whether it changes any of the stated reduction options. If it isn't confirmed, flag it explicitly as a gap in the April 7 presentation package.
 
-- **Whether the cumulative homeowner impact table is produced or assigned.** If it's not mentioned, Linda should raise it. The board cannot control the April 7 narrative if it has not assembled this number itself.
+- **Any discussion of the Matthews/West council framing.** "72 pink slips / $8.4M deficit" is now in council minutes. If no one names it and proposes a factual response, you may need to be the one who does — because the April 7 hearing is where that framing will be deployed against you.
 
-- **Whether the ICE/enrollment displacement risk is named publicly by administration for the first time.** Linda has been tracking this as an unnamed budget pipeline risk since February 17. If administration still hasn't flagged it, she needs to decide whether to name it herself — because the FY28 budget will carry the enrollment and subsidy consequences of FY27 displacement, and the board owns that projection.
+- **Whether FY28 is being modeled.** Ketchem named it publicly. If the board goes to April 7 without a FY28 table, council members will ask about it and you'll be improvising. Watch whether administration proactively brings FY28 projections or whether that work still needs to be requested.
 
-- **Prince's tone and framing.** Prince has been the administration's most concrete and credible voice on fiscal severity — the 3%-equals-50-more-cuts warning in February was the most useful thing said at the joint workshop. If Prince is hedging or if the presentation is softer than the numbers warrant, something has changed in the political calculation.
+- **The cumulative homeowner impact table.** Watch whether anyone has assembled school + sewer + public safety bond debt service into a single figure. If not, that gap belongs on the April 7 preparation checklist — not as a surprise item at the hearing itself.
 
-- **Whether there is a June 9 validation campaign plan on the table at all.** Twelve percent parent awareness as of March 2. Eight days to the public hearing. Ten weeks to the referendum. If the district is not actively planning for validation outreach — not just the hearing, but sustained engagement through May — Linda should flag it as the most consequential governance gap remaining.
+- **Superintendent search timeline and cost justification.** If Zeal or the search process comes up, note the tone of the room. Any defensive or dismissive handling of the $30K question signals a communication vulnerability that will be exploited during the validation campaign. A calm, factual public answer needs to exist before June.
+
+- **Procedural signals about the validation campaign timeline.** The board should be discussing June validation strategy by now. If it isn't on anyone's lips at March 30, that's a warning sign — the campaign window is shorter than the community's current understanding of the issues would suggest.
+
+- **Whether any board member raises Scott conflict-of-interest procedural questions.** This was flagged as a potential challenge to validation results if the budget passes narrowly. A preemptive procedural review is far better than a post-validation legal challenge. If no one else raises it, it may fall to you.

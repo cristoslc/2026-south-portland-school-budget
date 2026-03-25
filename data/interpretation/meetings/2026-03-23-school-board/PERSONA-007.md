@@ -5,7 +5,7 @@ persona_id: "PERSONA-007"
 persona_name: "Linda"
 meeting_date: 2026-03-23
 meeting_title: "School Board Budget Workshop -- March 23, 2026"
-interpretation_date: 2026-03-24
+interpretation_date: 2026-03-25
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -14,53 +14,60 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. Finance director finally names the structural causes — on the record
-- **Fact:** Finance Director Ketchem identified three root causes of the fiscal crisis on the record: enrollment-staffing misalignment worsened by COVID funding that propped up positions, the absence of a minimum fund balance threshold policy as a fiscal guardrail, and chronic leadership instability — she is the seventh finance director in six years. She framed these explicitly as cause and effect, not blame, and connected them directly to audit findings and operational disarray.
-- **Source:** Transcript [14:49–17:55]
+#### 1. Finance Director Puts Root Causes on the Public Record
+- **Fact:** Finance Director Ketchem identified three structural causes of the fiscal crisis in public testimony: enrollment-staffing-funding misalignment (staffing levels did not decrease after COVID relief funds ended); the absence of a formal fund balance threshold policy that masked the operating deficit; and leadership instability characterized as the "seventh finance director in six years." She stated these causes compounded into audit findings, planning failures, and gradual depletion of reserves.
+- **Source:** [14:49–17:55]; Slide 4, "FY21–FY25: Some Factors Leading to Today"
+- **Emotional valence:** positive
+- **Threat level:** 2
+- **Open question:** true
+
+#### 2. FY27 Budget Delivers on the 6% Tax Cap
+- **Fact:** The proposed FY27 budget totals $75.85M, with a 3.3% overall spending increase and a 6.0% increase in local tax revenue -- meeting the City Council's ceiling. Finance Director Ketchem confirmed it represents "the smallest year-to-year operating increase in the last five years." The per-household impact calculates to approximately $257 annually for an average South Portland home assessed at $514,000.
+- **Source:** [24:58–26:35]; Slide 8, "Tax Impact"; Slide 69, "The Superintendent's Budget"
 - **Emotional valence:** positive
 - **Threat level:** 1
 - **Open question:** false
 
-#### 2. FY28 math is structurally broken before the ink dries on FY27
-- **Fact:** Ketchem warned that even after FY27 resets the path, the district faces compounding structural problems the following year: labor costs grow faster than 6% annually if all staff stay in place, electricity is increasing 13–14% per year, debt service will increase by at least $300,000 with the athletic field bond principal payment, and the Skillen boiler represents additional potential debt. She stated flatly: "It's mathematically impossible not to have a problem."
-- **Source:** Transcript [19:29–22:36]
+#### 3. FY28 Structural Problems Remain Unsolved After This Budget
+- **Fact:** Finance Director Ketchem stated explicitly that FY27 "resets our financial path but does not solve our core problems," citing: labor costs that increase more than 6% per year by contract even with no new hires; utility inflation at 13–14% actual rates; at least $300K in additional FY28 debt service from the athletic field bond; Skillen boiler uncertainty that may require new borrowing; and enrollment decline reducing non-local state tax revenue. On LD 2666, the proposed state funding formula revision, Dr. Prince noted only two of nine provisions have been modeled and the outcome for South Portland could go either direction.
+- **Source:** [19:29–23:23]; Slide 6, "Preparing for FY28 and Beyond"; [122:24–123:09]
 - **Emotional valence:** negative
 - **Threat level:** 4
 - **Open question:** true
 
-#### 3. No plan exists to seed the fund balance
-- **Fact:** When Member Feller asked about the plan to rebuild the fund balance, Ketchem confirmed there is no seeding plan in the FY27 budget — the year is "too dire." Member Richardson followed by asking how unanticipated costs (snowstorms, litigation, emergency labor) would be covered in the absence of reserves; Ketchem confirmed the district would draw on the city's fund balance by default and repay through a future tax increase.
-- **Source:** Transcript [98:24–103:48]
+#### 4. Fund Balance Rebuild: No Plan Exists for FY27
+- **Fact:** Member Feller asked directly: "What is the plan for seeding the fund balance?" Finance Director Ketchem answered: "We need to develop a plan to seed the fund balance... This year is too dire." The FY27 budget contains no allocation toward rebuilding reserves. Member Richardson noted that in the absence of a fund balance, unexpected costs -- severe weather, litigation, emergency bargaining -- would require drawing on the city's fund balance with repayment through a future tax increase.
+- **Source:** [98:24–99:09]; [103:24–104:15]
 - **Emotional valence:** negative
-- **Threat level:** 4
+- **Threat level:** 3
 - **Open question:** true
 
-#### 4. Title VI legal exposure on Kayler closure — no prepared answer
-- **Fact:** A Kayler parent raised specifically whether the proposed closure of Kayler — a school that is approximately 45% BIPOC and 30–35% multilingual learners — violates Title VI of the Civil Rights Act. During the post-comment Q&A, Chair DeAngelis acknowledged no prepared legal answer was available and stated she wanted a formal legal opinion, not a quick search. No attorney brief had been prepared despite Kayler having been the administration's recommendation for weeks.
-- **Source:** Transcript [163:01–163:47]; [299:39–300:26]
+#### 5. Title VI Legal Exposure Unresolved Before the March 30 Vote
+- **Fact:** Community member Jess Elsner raised a Title VI (Civil Rights Act of 1964) challenge at public comment, noting Kayler's student body is approximately 45% BIPOC and 30–35% multilingual learners, and asking what steps verified the closure decision does not constitute a civil rights violation. At the end-of-meeting Q&A, Board Chair DeAngelis acknowledged the question and stated on the record: "I don't have the answer" -- and that she wanted "some legal answer," not quick research. No legal opinion was provided before adjournment.
+- **Source:** [163:01–163:47]; [299:39–300:26]
 - **Emotional valence:** negative
 - **Threat level:** 5
 - **Open question:** true
 
-#### 5. Meet-and-consult obligations span all four bargaining units and are already overdue on some fronts
-- **Fact:** Member Richardson pressed on how many working condition changes would trigger meet-and-consult obligations under state law and existing contracts. Dr. Prince confirmed all four bargaining units have been or will be invited to meet and consult, and those conversations must conclude before changes take effect in the fall. Director Nally's section on reassigning CDL bus drivers to cafeteria duty during lunch hours made clear at least one additional meet-and-consult is not yet formally initiated.
-- **Source:** Transcript [134:54–137:14]; [80:18–81:51]
-- **Emotional valence:** neutral
+#### 6. Special Education Mandates Are Expanding While Provider Positions Are Eliminated
+- **Fact:** Speech-language pathologist Rachel Gibbs testified that the two OT positions proposed for elimination are filling a staffing gap that has existed for at least five years -- the district has been unable to hire sufficient special ed ed-techs despite positions posted and unfilled throughout that period. She further noted the state mandate is expanding: by FY27 the district serves IEP students from age 4, by FY28 from age 3, and through age 22 continuously. Cutting in-house providers forces contracted services at significantly higher cost. Budget documents show Cost Center 2 (Special Education) already increased from $15.05M to $16.31M despite system-wide cuts.
+- **Source:** [233:06–238:01]; FY27 Budget Book, Cost Center 2 row totals; Slides 42–44, regional comparison
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true
+
+#### 7. Meet-and-Consult Obligations Span All Four Bargaining Units With No Mapped Timeline
+- **Fact:** Member Richardson asked how many positions would require meet-and-consult under collective bargaining agreements. Dr. Prince confirmed all four units (SEA, SPESPA, SPTA, principals) have obligations triggered by working condition changes. Meetings have been set with three associations; the principals' association has not yet been scheduled. Director of Operations Nally separately acknowledged SEA meet-and-consult is required before the proposed mid-day custodial scheduling change takes effect.
+- **Source:** [134:54–137:14]; [80:18–81:51]
+- **Emotional valence:** negative
 - **Threat level:** 3
 - **Open question:** true
 
-#### 6. Administration is ready to deliver either option — the choice of pace belongs to the board
-- **Fact:** Dr. Prince and Principal Connolly clarified that both Option A (primary/intermediate grade band reconfiguration) and Option B (full K–4 grade bands) are achievable for fall 2026. Option A is the faster path to equity and resource efficiency; Option B can serve as a bridge year while the board conducts a structured community engagement study aimed at full reconfiguration in 2027–28. The board cannot bind a future board's fiscal commitments, but can recommend a study timeline.
-- **Source:** Transcript [48:45–50:18]; [114:42–116:13]
-- **Emotional valence:** positive
+#### 8. Board Adjourns at 11:15 PM Without Taking Any of the Three Agenda Votes
+- **Fact:** The Special Meeting agenda listed three binding action items: authorize the superintendent to file a school closing report with the Commissioner of Education (2.1); select Option A or B for elementary grade configuration (2.2); and adopt the FY27 budget as the board's City Council proposal (2.3). None of the three votes was called. Member Smith moved to adjourn, seconded by Member Feller. The April 7 City Council presentation date remains on the calendar.
+- **Source:** [307:04–307:24]; Special Meeting Agenda, items 2.1–2.3; Slide 9, "Timeline"
+- **Emotional valence:** neutral
 - **Threat level:** 2
-- **Open question:** false
-
-#### 7. Board adjourned at 11:15 PM with no vote taken; April 7 City Council presentation is unchanged
-- **Fact:** After more than three hours of public comment and with Title VI and other questions still unresolved, Member Smith moved to adjourn and Member Feller seconded. No action was taken on school closure authorization, grade configuration, or budget adoption. Chair DeAngelis confirmed the next scheduled meeting is March 30 and the City Council budget presentation remains April 7 — with a projected council vote on April 14.
-- **Source:** Transcript [299:39–307:24]; [25:47]
-- **Emotional valence:** negative
-- **Threat level:** 4
 - **Open question:** true
 
 ---
@@ -69,25 +76,24 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Linda's journey: No vote, April 7 looming
-    section Finance Presentation
-        Abigail names root causes clearly: 4: Linda
-        FY28 math still exceeds 6% ceiling: 2: Linda
+    title Linda's journey: FY27 budget workshop
+    section Budget Presentation
+        Root cause finally said publicly: 4: Linda
+        FY28 structural gaps outlined: 2: Linda
     section Board Q&A
-        Fund balance seeding: no plan yet: 2: Linda
-        Title VI unanswered, legal exposure: 1: Linda
-    section Public Comment
-        3hrs of testimony: useful but exhausting: 3: Linda
-    section Close
-        Adjourned 11:15 PM, no vote cast: 2: Linda
+        No fund balance plan this year: 2: Linda
+        Title VI unresolved before vote: 1: Linda
+    section Public Comment and Close
+        Teachers and families testify: 3: Linda
+        Adjourned without key votes: 2: Linda
 ```
 
 ---
 
 ### Reactions
 
-The best thing that happened tonight was Abigail. She stood up at that lectern and said, in a public meeting, that we got here because we had no minimum fund balance threshold and seven finance directors in six years. That is the clearest accounting of root causes I have heard in a public forum. She framed it as cause and effect, not blame, and she's right — and it gives those of us at the table something to actually point to. What I can't stop thinking about, though, is what she said next: FY27 resets the path but it doesn't fix the core problem. And then she laid out the FY28 math. Labor costs alone, if nobody moves, grow faster than 6%. That sentence landed differently for me sitting on the dais than it did in the finance committee briefings. We are not done. We are just done with this year.
+The thing that actually gave me some relief tonight -- and I know that sounds strange given what we sat through -- was Abigail saying out loud, in a public meeting, that we didn't have a fund balance threshold policy and that's part of why we're here. Seven finance directors in six years. She said it. That's the honest version of the story, and I've been waiting for someone to own it in this room without hedging. But then she said something I need the whole community to actually hear: FY27 resets the path and does not solve the core problems. Labor costs go up more than six percent by contract even if we don't hire a single new person. Utilities are up thirteen, fourteen percent actual. We have three hundred thousand more in debt service coming in FY28 just from the athletic field bond, and nobody knows yet what the Skillen boiler is going to cost. I need board members -- and taxpayers -- to understand that voting yes on this budget next week doesn't mean we're done. It means we've stopped the bleeding for one year.
 
-What I keep coming back to is that we have no fund balance seeding plan, and Daniel had to ask about it directly to get that on the record. Abigail's answer — this year is too dire — is accurate, but it means we are one hard winter or one expensive out-of-district placement away from drawing on the city and paying it back through the following year's tax increase. Eleni asked exactly the right follow-up: what happens when the unexpected happens? The answer is: we hope it doesn't. I have been pushing for a minimum fund balance threshold policy for two budget cycles. We still don't have one. That has to be the first thing we codify after this budget is adopted, not a goal we put in a report and revisit in eighteen months.
+The question I can't let go of is Jess Elsner's Title VI challenge. Kayler is forty-five percent BIPOC, thirty to thirty-five percent multilingual learners. She asked, on the record, how closing that school doesn't run afoul of the 1964 Civil Rights Act. Rosemarie's answer -- honestly -- was "I don't have the answer" and we need legal counsel. That is the correct answer. But we need that legal opinion in writing before any vote on March thirtieth, not after we've acted. The other thing I'm watching closely is the special education picture. Rachel Gibbs laid out exactly what happens when you eliminate those two OT positions: you don't close the gap, you widen it, because those roles have been posted and unfilled for five years. And by FY28 we're mandated to serve students with IEPs from age three through twenty-two. You cannot cut in-house providers now and then contract out at premium rates when you've already demonstrated you can't fill those roles competitively. The math doesn't work in our favor, and that exposure compounds every year we wait.
 
-The Title VI question is what has me reaching for the phone first thing tomorrow. Jess Elsner asked exactly the right question — Kayler is 45% BIPOC and 30-35% multilingual learners, and we are proposing to close it. What's our standing under the Civil Rights Act? Rosemarie said she had done some quick research, and I said out loud that I want a legal brief, not a search. We have known Kayler was the administration's recommendation for weeks. That answer should have been sitting at the table tonight. And then we adjourned at 11:15 without voting on anything — not the closure, not Option A or B, not budget adoption. I understand everyone was exhausted. I was exhausted. But we have March 30th and April 7th is the City Council presentation. I do not know how we build a board position in one week with a legal question still open, but that is what the calendar requires, and the calendar does not care how tired we are.
+At eleven-fifteen we adjourned without taking any of the three Special Meeting votes. I think that was the right call -- not because the room was incapable, but because we are still missing what we need. The legal answer on Title VI. A real decision framework for Option A versus B -- when Jo was asked directly what framework would guide that choice, the answer was "it's essentially a board decision," which is accurate but not sufficient going into Monday. And Daniel's fund balance question hung in the air: there's no rebuild plan, and that conversation can't stay deferred indefinitely. April seventh does not move. I'd rather we come to March thirtieth with the legal memo in hand, at least the beginning of a framework for the Option A-B decision, and a commitment to put FY28 multi-year planning on a calendar -- even if the public comment goes until midnight again.

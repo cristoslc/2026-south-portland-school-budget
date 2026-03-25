@@ -5,62 +5,64 @@ persona_id: "PERSONA-003"
 persona_name: "Jess"
 meeting_date: 2026-03-23
 meeting_title: "School Board Budget Workshop -- March 23, 2026"
-interpretation_date: 2026-03-24
+interpretation_date: 2026-03-25
 interpreter_model: "claude-sonnet-4-6"
 ---
 
 # Interpretation: Jess (PERSONA-003)
 ## Meeting: School Board Budget Workshop -- March 23, 2026 -- 2026-03-23
 
+---
+
 ### Structured Points
 
-#### 1. Pre-K expansion was planned, then pulled back — replaced by unconfirmed partnerships
-- **Fact:** The district originally planned to expand locally-funded pre-K seats, but reversed course before this meeting. Instead, 40 additional four-year-old seats are projected through Child Development Services (8 seats, for IEP-eligible children only), an off-site United Way classroom, and a Head Start partnership (+16 seats) that is still described as "in conversations."
-- **Source:** [31:14–32:49]
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true
-
-#### 2. The elementary school structure her child will enter may not exist yet — or may already have changed twice
-- **Fact:** The board is deciding between two restructuring options. Option A would split elementary schooling into "primary" buildings (pre-K through grade 1) and "intermediate" buildings (grades 2–4), meaning a child entering pre-K would attend one school and then transfer mid-elementary. Option B maintains K–4 grade bands at four schools but still closes Kayler. Neither preserves the current neighborhood K–4 model advertised to incoming families.
-- **Source:** [36:45–50:18], Bethany Connolly's reconfiguration presentation and Dr. Prince's leadership recommendation
-- **Emotional valence:** negative
-- **Threat level:** 5
-- **Open question:** true
-
-#### 3. Finance director: this budget resets the path but does not fix the core problems
-- **Fact:** Finance Director Abigail Ketchem explicitly said FY27 "does not solve our core problems" and compared it to paying off credit card debt without changing the underlying habits. She identified compounding pressures for FY28 and beyond: labor costs growing faster than the 6% tax cap, rising utility costs (electricity up 13–14% annually), new debt service from the athletic field bond, and continued enrollment decline reducing state revenue.
-- **Source:** [19:29–23:23]
-- **Emotional valence:** negative
-- **Threat level:** 5
-- **Open question:** true
-
-#### 4. Class sizes will increase in every scenario
-- **Fact:** Closing Kayler and redistributing its approximately 142 students means average class sizes will rise across all four remaining elementary schools under both Option A and Option B. Current district policy caps K–2 at 20 students and grades 3–4 at 24. The presenting administrator noted this is based on averages and that actual distribution across grade levels will be uneven.
-- **Source:** [38:20–39:55]
+#### 1. Pre-K Expansion Was Planned -- Then Pulled Back
+- **Fact:** The district originally intended to expand locally-funded pre-K seats in FY27 but reversed course. The budget maintains 64 locally-funded seats (no growth), while adding 40 additional seats through outside partnerships: 8 via state CDS funding for special education-eligible children, 16 through a United Way classroom (off-site), and 16 through Head Start (on-site, pending). Total pre-K capacity grows from 80 to 120, but the district's own funded expansion was withdrawn.
+- **Source:** [31:14--32:49]; Presentation Slide 14 (Elementary Proposal 3.23.26, Pre-K Changes table)
 - **Emotional valence:** negative
 - **Threat level:** 3
+- **Open question:** true
+
+#### 2. Enrollment Has Fallen 23% in Four Years -- and Is Still Declining
+- **Fact:** Elementary enrollment dropped from 1,401 to 1,080 students over four years -- a 23% decline -- and the district projects continued decline. This contraction is identified as a root cause of the current financial crisis, and the finance director explicitly stated it reduces state funding going forward.
+- **Source:** Fiscal Context document; [14:49--15:36]; Presentation Slide 4
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true
+
+#### 3. The District Has Had Seven Finance Directors in Six Years
+- **Fact:** Finance Director Abigail Ketchem disclosed that she is "the seventh finance director in six years," and explicitly connected that leadership revolving door to financial disarray, poor planning, and audit findings -- calling it a cause, not an excuse, for the current crisis.
+- **Source:** [16:25--17:10]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true
+
+#### 4. FY27 Cuts Do Not Fix the Underlying Problem
+- **Fact:** Ketchem warned that FY27 "resets our financial path but does not solve our core problems," listing specific FY28 structural pressures: labor costs automatically increasing faster than 6% per year, utility rates rising 13-14% annually, at least $300,000 in new debt service from the athletic field, a possible Skillen boiler replacement requiring new debt, and continued enrollment-driven state revenue decline.
+- **Source:** [19:29--22:36]; Presentation Slide 6
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true
+
+#### 5. A New Early Childhood Strategist Role Is Being Created
+- **Fact:** The budget includes a new Early Childhood Strategist position -- a special education-certified role embedded in the SPTA that will specifically support pre-K and kindergarten transitions, manage CDS partnerships, and provide continuity for off-campus pre-K locations.
+- **Source:** [64:34--65:20]; Presentation Slide 48
+- **Emotional valence:** positive
+- **Threat level:** 1
 - **Open question:** false
 
-#### 5. Leadership instability named as a root cause — and it hasn't stabilized
-- **Fact:** The finance director disclosed she is the seventh person to hold that role in six years and cited superintendent turnover as a structural cause of the district's financial disarray, stating "there's no way our books could have been in order" under those conditions. The current superintendent is interim, and a superintendent search is underway.
-- **Source:** [16:25–17:10]
+#### 6. Class Sizes Will Increase Under Both Elementary Options
+- **Fact:** Regardless of whether the board chooses Option A (primary/intermediate grade-band split) or Option B (K-4 model), average class sizes will rise above current levels. The presentation showed K-2 classes approaching the district cap of 20 students under both configurations, with 3-4 grades reaching up to 24 -- the district policy ceiling, and still below state maximums.
+- **Source:** [38:20--39:55]; Presentation Slide 20
 - **Emotional valence:** negative
-- **Threat level:** 4
+- **Threat level:** 3
 - **Open question:** true
 
-#### 6. Elementary enrollment fell 23% in four years — and is projected to keep declining
-- **Fact:** Elementary enrollment dropped from 1,401 to 1,080 students over four years. The finance director projected continued decline through FY27 and beyond, noting that falling enrollment reduces state funding, which tightens the structural gap further each year.
-- **Source:** Fiscal Context; [17:55–18:43]
+#### 7. The Board Adjourned at 11:15 PM Without Taking Any Vote
+- **Fact:** Despite being scheduled as a Special Meeting with three action items on the agenda -- school closure authorization, choice of Option A or B configuration, and budget adoption -- the board took no votes. A motion to adjourn was made around 11:15 PM. The next scheduled meeting is March 30.
+- **Source:** [~305:00--307:48]; Budget Workshop II Agenda items 2.1, 2.2, 2.3
 - **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true
-
-#### 7. Five hours of meeting, zero votes taken — uncertainty extends at least another week
-- **Fact:** After more than five hours of presentations and public comment, the board adjourned at approximately 11:15 PM without voting on the school closure, the reconfiguration option, or the FY27 budget. The next scheduled meeting is Monday, March 30th.
-- **Source:** [299:39–307:24]
-- **Emotional valence:** negative
-- **Threat level:** 2
+- **Threat level:** 3
 - **Open question:** true
 
 ---
@@ -69,25 +71,25 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Jess's journey: Five hours, zero decisions
-    section The Financial Picture
-        Board chair cries in opening remarks: 3: Jess
-        Finance dir: district at a cliff: 2: Jess
-    section What Happens to Young Kids
-        Pre-K: local cut, 40 partner seats: 3: Jess
-        Entire elementary structure may change: 1: Jess
-    section Five Hours of Community Voices
-        5 hrs of grief, anger, no answers: 2: Jess
-    section No Vote, Adjourned at 11pm
-        Nothing decided; back next Monday: 2: Jess
+    title Jess's journey: Cuts, Closure, No Vote
+    section Budget Overview
+        78 positions cut, $7.2M gap: 2: Jess
+    section Elementary Changes
+        Pre-K expansion pulled back: 2: Jess
+        Kayler closes, two school options: 2: Jess
+        New early childhood strategist: 4: Jess
+    section Looking to FY28
+        FY27 won't fix core problems: 1: Jess
+    section No Resolution
+        No vote, adjourned at 11 PM: 1: Jess
 ```
 
 ---
 
 ### Reactions
 
-Oh my god, okay, I stayed up until midnight watching this thing after Mia went down and I have so many feelings. So the first thing that actually mattered to me — they were going to expand pre-K. Like with real local money, actual guaranteed seats. And then they pulled it back. But they're like, "Don't worry, we're adding 40 seats through Head Start and United Way!" — except two of those three things aren't confirmed yet? The Head Start one is literally still "in conversations." So I'm trying to figure out whether pre-K will even be accessible when Mia is ready, and the answer is... maybe? Depending on whether grant partnerships come through? That's not a plan, that's just anxiety with a slide deck attached.
+Okay so I stayed up until midnight watching that school board meeting everyone's been posting about and I honestly feel worse than before I started. My kid isn't even in kindergarten yet and I'm completely spiraling. They're closing one of the elementary schools -- Kayler -- and I don't even know which school is supposed to be ours yet because I've been trying to figure that out. And enrollment has dropped 23% in FOUR YEARS. Twenty-three percent. Kids are leaving this district. So I'm sitting here like, is this place even going to be okay by the time we get there?
 
-And then the reconfiguration thing sent me into a full spiral. Because I've been assuming my kid will go to the neighborhood K–4 school, right, that's the whole thing. But if Option A passes, that's completely gone. There would be a "primary school" for pre-K through first grade and then she'd have to switch to a totally different "intermediate school" for second through fourth grade. So her elementary school years would include at least two buildings, two sets of teachers she has to re-bond with, two different communities. And multiple people brought up that COVID babies — Mia's cohort — came in with higher needs already. The board didn't address that at all. And none of it even matters right now because they went for FIVE HOURS and voted on literally nothing. They adjourned at 11pm. So I still don't know what system I'm even planning for because they don't know either.
+The pre-K stuff really got me. Early in the meeting the assistant superintendent said they were originally going to expand the district's own pre-K program with local money, but then they just... didn't. They kept the same 64 seats they already had and are growing the total through Head Start and a United Way partnership. Which fine, more seats overall, but Head Start has income eligibility requirements and the United Way thing is at an off-site location. So I'm genuinely sitting here wondering: is there even going to be a regular district pre-K spot for us, or is it lottery-based, or what? Nobody addressed that.
 
-The part I can't shake is what the finance director said. She basically said this whole painful budget is like paying off a credit card but not fixing why you went into debt in the first place. And then she listed everything that's going to cost more next year — the debt payments are going up, labor costs keep rising faster than the tax ceiling, enrollment keeps dropping which means less state money. She said this budget "does not solve our core problems." So whatever they decide this week, I'm sitting here thinking: what does this district look like in 2028, 2029, when Mia actually starts kindergarten? Are they going to be cutting more teachers? Closing another school? The finance director is literally the seventh person to have that job in six years. I don't know if I should feel better that she seems smart, or terrified that the whole thing is still structurally broken and she just got here.
+And then the finance director -- who is the SEVENTH finance director in SIX YEARS, she said it herself -- she literally said that closing the school and cutting all these people doesn't even fix the problem. Her exact words were that FY27 "resets our financial path but does not solve our core problems." She listed all these things that are still going to be wrong in FY28: labor costs going up more than 6% automatically, utilities rising 13-14%, new debt payments. My kid starts in 2028. Are we doing this all over again? And then the whole meeting just ended at 11 PM without a single vote on anything. Not on the school closure, not on which configuration option, not on the budget. The next meeting is March 30th. So everyone just goes home not knowing what their kid's school situation even is next year, let alone in two years.

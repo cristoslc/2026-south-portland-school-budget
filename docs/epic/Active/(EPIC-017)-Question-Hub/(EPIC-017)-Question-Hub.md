@@ -41,9 +41,9 @@ Residents who arrive at the site with a specific concern ("Will my kid's school 
 
 | Artifact | Title | Status |
 |----------|-------|--------|
-| SPEC-025 | Question extraction from briefings | _to be created_ |
-| SPEC-026 | Questions index page | _to be created_ |
-| SPEC-027 | Answer page template | _to be created_ |
+| SPEC-025 | Question Extraction | Active |
+| SPEC-026 | Questions Index Page | Active |
+| SPEC-027 | Answer Detail Pages | Active |
 
 ## Key Dependencies
 

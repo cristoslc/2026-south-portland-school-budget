@@ -1,0 +1,156 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { getCollection } from 'astro:content';
+
+const base = import.meta.env.BASE_URL;
+
+interface Evidence {
+  trove: string;
+  title: string;
+  detail: string;
+}
+
+interface Question {
+  slug: string;
+  question: string;
+  category: string;
+  personas: string[];
+  evidence: Evidence[];
+  context: string;
+}
+
+let questions: Question[] = [];
+try {
+  const raw = readFileSync(resolve('..', 'dist', 'questions.json'), 'utf-8');
+  questions = JSON.parse(raw);
+} catch {
+  // questions.json not yet generated
+}
+
+// Load persona names for display
+const personaCollection = await getCollection('personas');
+const personaNames: Record<string, string> = {};
+for (const p of personaCollection) {
+  personaNames[p.data.artifact] = p.data.title;
+}
+
+// Group by category
+const categories = new Map<string, Question[]>();
+for (const q of questions) {
+  const list = categories.get(q.category) || [];
+  list.push(q);
+  categories.set(q.category, list);
+}
+
+// Sort categories by count (descending)
+const sortedCategories = [...categories.entries()].sort((a, b) => b[1].length - a[1].length);
+
+const categoryBadgeClass: Record<string, string> = {
+  'School Closures': 'badge-community',
+  'Staffing Cuts': 'badge-teacher',
+  'Tax Impact': 'badge-general',
+  'Programs & Classes': 'badge-student',
+  'How Decisions Get Made': 'badge-media',
+  'Equity & Fairness': 'badge-parent',
+  'What Happens Next': 'badge-general',
+};
+---
+
+<BaseLayout title="Questions" activePage="questions" description="Budget questions South Portland residents are asking, with sourced answers.">
+  <main class="container">
+    <h1>Questions People Are Asking</h1>
+    <p>
+      These questions are drawn from what <strong>{questions.length > 0 ? questions.length : '—'} community stakeholders</strong> are actually asking
+      about the FY27 school budget. Every question here has at least one answer grounded in public meeting records and budget documents.
+    </p>
+
+    {questions.length === 0 && (
+      <p class="empty-state">Questions are being generated. Check back soon.</p>
+    )}
+
+    {sortedCategories.map(([category, catQuestions]) => (
+      <section class="question-category reveal">
+        <h2>
+          {category}
+          <span class={`badge ${categoryBadgeClass[category] || 'badge-general'}`}>{catQuestions.length}</span>
+        </h2>
+        <div class="question-list">
+          {catQuestions.map(q => (
+            <a href={`${base}questions/${q.slug}/`} class="question-card">
+              <span class="question-text">{q.question}</span>
+              <span class="question-meta">
+                {q.evidence.length} source{q.evidence.length !== 1 ? 's' : ''}
+                &middot;
+                {q.personas.length} perspective{q.personas.length !== 1 ? 's' : ''}
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </main>
+</BaseLayout>
+
+<style>
+  .question-category {
+    margin-bottom: 2.5rem;
+  }
+
+  .question-category h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .question-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .question-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem 1.25rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+  }
+
+  .question-card:hover {
+    border-color: var(--color-sky);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transform: translateY(-1px);
+  }
+
+  .question-text {
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--color-navy);
+  }
+
+  [data-theme="dark"] .question-text {
+    color: var(--color-heading);
+  }
+
+  .question-meta {
+    font-size: 0.8rem;
+    color: var(--color-slate);
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 3rem;
+    color: var(--color-slate);
+    font-style: italic;
+  }
+</style>

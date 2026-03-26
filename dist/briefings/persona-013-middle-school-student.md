@@ -5,7 +5,7 @@ persona_name: "Amira"
 upcoming_meeting_date: "2026-03-30"
 generated_date: "2026-03-25"
 has_agenda: false
-last_cumulative_meeting: "2026-03-23"
+last_cumulative_meeting: null
 inter_meeting_evidence_count: 0
 ---
 
@@ -13,83 +13,73 @@ inter_meeting_evidence_count: 0
 ## Upcoming Meeting: 2026-03-30
 
 # Pre-Meeting Brief: Amira (PERSONA-013)
-**Meeting Date:** March 30, 2026
-**Prepared:** March 25, 2026
+**Upcoming Meeting: 2026-03-30 | Memorial Middle School Student, Band, Gifted Program**
 
 ---
 
 ## Since Last Meeting
 
-There are no new events to report since the March 23 meeting. No new evidence has surfaced in the days between.
+No new inter-meeting evidence has emerged since the last meeting this persona processed.
 
-That silence is worth paying attention to. The last meeting ended with 72 layoff notices already in hand, four related arts teachers on the cut list, the percussion ed tech position reintroduced as a cut for the second time in two years, and the news that Amira's own schedule — band plus gifted pull-out — places her in the group of students who may lose PE entirely in September. None of that has been walked back. None of it has been explained to students or families.
+What that silence means for Amira specifically: the absence of news is not the same as stability. The last confirmed update from the cumulative record — the superintendent's shift from recommending Skillin's closure to recommending Kayler's instead — happened on March 23. That shift resolved one question (which school is on the chopping block) while opening another: the decision is moving fast, and a vote may happen March 30 with no additional public information circulated in the days before it.
 
-For Amira, the absence of news doesn't mean things have gotten better. It means the adults who received layoff notices are waiting, the teachers at Memorial are waiting, and the decisions made at the last meeting are still in place — she just hasn't been told about them yet. She may already be feeling the mood shift in the hallways without having a name for what's causing it.
+For Amira, who learns about school changes through friends and hallway conversation rather than official channels, the quiet before this meeting is the kind of quiet that has historically preceded surprises. She found out her ELA teacher was being cut from a classmate. She should walk into March 30 knowing that the absence of a warning is not a guarantee nothing changes.
 
 ---
 
 ## Open Questions
 
-*Questions Amira is carrying into this meeting, in her own terms:*
-
-- Will I still have band next year? If I stay in band and stay in the gifted program, does that actually mean I lose PE? Has anyone checked what that means for a real student's real schedule, or did they just write it on a spreadsheet?
-- The percussion ed tech — the one who helps kids who need extra support in band, the one the community fought to keep — why is that position getting cut again? Did what we did last time not actually work?
-- Principal Stern literally said related arts are "often the highlight" of the school day and then proposed cutting four of those teachers. Why does understanding what matters not lead to protecting it?
-- Is anyone going to tell me and my family what's actually changing at Memorial before September? Or am I going to find out from a friend in the hallway, like I found out about Mrs. Chen?
-- My family is Somali. If Skillin closes, what happens to the families there who depend on that school? Did anyone ask them? Does anyone in that meeting room know what their school day actually looks like?
-- The immigration enforcement near my neighborhood — the Red Bank laundromat, the school that went on lockdown — that's not over. Those families are still scared. If they can't even come to these meetings, who is making sure the adults deciding things actually know what's happening to their kids?
-- Why does it feel like every win the community gets eventually gets taken back? If we fight for something and save it, does that just mean it gets cut again next year?
-- When is someone going to tell me — not my parents, not through a letter that sounds like nothing — that my school is going to look completely different in September?
+- *Will band actually get cut? Four teachers and the percussion ed tech — that's the whole program. How is that not the same as cutting band?*
+- *They saved the percussion ed tech once because people showed up and testified. Is that going to work again, or has the district just run out of patience for it?*
+- *My gifted program is supposed to be "safe" — but safe means 3.0 teachers. What does that actually look like for my class? Same teacher? Same pull-out schedule?*
+- *Kayler is where a lot of kids who look like me go to school. If they close it, where do those kids go? Did anyone ask them?*
+- *Will the Somali families from Kayler even be at the meeting? How would they even know about it in time?*
+- *Why does the board get to decide this without asking the students who go to Kayler — the same way no one asked me before they threatened to cut band?*
+- *The board chair stopped people from clapping for kids who were speaking. If they can control that — what's even the point of students going up to speak?*
+- *The school can spend $30,000 on a search firm to find a new superintendent, but they can't keep the band teacher? How does that make sense?*
+- *Is anyone going to say out loud what September is going to look like at Memorial — or do I just have to wait and find out the way I always find out?*
+- *My parents are from Somalia. If Kayler closes and those families have to move their kids around, and ICE is still around — is anyone thinking about what that actually does to those kids?*
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for the March 30 meeting.
+No agenda has been published for the March 30 meeting.
 
-Based on where the process stands, the following topics are likely to come up — and here is what they mean specifically for Amira:
+Based on what the cumulative record has established, here is what is likely to come up and what Amira (or an adult helping her prepare) should be ready for:
 
-**Schedule restructuring and program cuts at the middle school level**
-The March 23 meeting established that Amira's specific combination of band and gifted pull-out may eliminate PE under the proposed schedule. This is not an abstract cut — it's her schedule. At this meeting, watch for any further specificity about how Memorial's schedule will actually be restructured, and whether any board member or administrator addresses what happens to students enrolled in multiple pull-out programs simultaneously. If no one raises this, it likely means no decision-maker has modeled it from a student's perspective.
+**Kayler closure vote.** This is the most concrete, time-sensitive item in the record. The superintendent shifted from recommending Skillin's closure to recommending Kayler's on March 23 — just one week before this meeting. A vote may be taken. For Amira, this matters on two levels: first, Kayler serves a significant BIPOC and multilingual learner population, including Somali families like her own extended community; second, the speed and opacity of how this decision moved — from one school to another, with almost no public runway — is exactly the pattern that has left students feeling blindsided all year.
 
-*Listen for:* Any discussion of related arts staffing ratios, specials scheduling at the middle school level, or what "half-time" means in practice for band.
-*Question to prepare:* "When will students and families at Memorial be told what their actual schedule will look like next year?"
+*What to listen for:* Whether anyone at the meeting formally names the civil rights question — specifically whether closing the district's most diverse elementary school triggers obligations the board has to meet before voting. Whether Somali and immigrant families are present and heard, not just referenced by other people speaking on their behalf.
 
-**The percussion ed tech position — again**
-This position was restored through community advocacy 378 days ago. It is back on the cut list. The March 30 meeting is likely to include some discussion of final staffing decisions. For Amira, this is not just about music — this position also provides structured support for students who need it to participate in band at all. If the position is cut, students who depend on that structure lose access, not just a schedule slot.
+*Questions to prepare:* "Did anyone from Kayler — students, families — get told about this switch in time to actually be here tonight?" "What is the plan for the multilingual learner students who rely on Kayler's programs if it closes?"
 
-*Listen for:* Whether anyone acknowledges that this position was already restored once, and what changed. Whether the special education function of the role is mentioned or ignored.
-*Question to prepare:* "Is anyone tracking which students specifically lose access to band if the percussion ed tech is eliminated — not just the position, but the students?"
+**Band and the arts cuts.** The cumulative record confirms four related arts teachers and the percussion ed tech are in the proposed cuts. The percussion ed tech position has been threatened and walked back at least once under community pressure. March 30 is a likely flashpoint for this issue again. For Amira, this is not an abstract budget line — it's whether she has a band to play in next year.
 
-**Reconfiguration updates (Skillin / elementary grade-band schools)**
-Option 1.7 — closing Skillin — remains the district's top-ranked recommendation, not for educational merit but to avoid a $3M HVAC replacement. At least four board members have stated opposition. The June 9 deadline is getting closer. If this comes up, Amira's lens is the Somali families who depend on Skillin, who have been publicly welcomed in civic spaces and simultaneously never consulted about a decision that would eliminate their school.
+*What to listen for:* Whether the percussion ed tech and arts teachers are being discussed as part of an overall list of cuts, or whether anyone is treating them as negotiable given community opposition. Whether any board member distinguishes between the arts program as extracurricular versus as core educational programming.
 
-*Listen for:* Whether the board's stated opposition has held, or whether budget pressure is softening it. Whether any community members from Skillin's affected population are present or cited.
-*Question to prepare:* "Has anyone from the Somali families and immigrant families at Skillin been asked how this would affect them — and if not, when will that happen?"
+*Questions to prepare:* "If the percussion ed tech is cut, what exactly happens to the band program — is it gone, or just different? Who is responsible for telling students directly?"
 
-**Any reference to the school/ICE crisis intersection**
-The $100K appropriation for Project Home passed 6–1 on March 19, with Councilor Matthews casting the lone no vote while explicitly naming the school budget deficit as justification. That vote was a week ago. At this meeting, watch for whether anyone in the room connects what is happening to immigrant families — including Amira's — to what is happening to the school budget. These two crises are being governed as competitors. No one in the record has treated them as a single problem requiring a single response.
+**The pattern of how students learn about decisions.** No agenda item will be labeled this. But every vote taken at March 30 will either reinforce or challenge the dynamic Amira has lived all year: students finding out from friends, not from the institution. If the board votes on Kayler without visibly demonstrating that those students' families were reached and present, that pattern continues.
 
-*Listen for:* Any reference to enrollment loss projections that factor in families leaving due to immigration enforcement. Whether the 80 families seeking help are named as also being the 80 students in the enrollment count.
+*What to listen for:* Any board member who explicitly asks, before a vote, whether the affected students and families have been notified and whether translation or accessibility accommodations were made for tonight's meeting specifically.
 
 ---
 
 ## Watch For
 
-- **Any specificity about Memorial Middle School's schedule.** The proposed restructuring was described at the district level. Watch for whether anyone breaks it down by building — and whether Memorial's situation (multiple pull-out programs competing for the same schedule slots) is addressed or skipped.
+- **Whether Somali or immigrant families are visibly present in the room.** Given ICE fears, the documented school lockdown, and the speed of the Kayler recommendation switch, their presence or absence is itself meaningful. If they are absent, notice whether any board member names that absence as a problem before voting.
 
-- **Whether the percussion ed tech cut is treated as a repeat decision or a new one.** If board members discuss this position without acknowledging that community advocacy already reversed it once, that is a signal that institutional memory of community wins does not carry forward. If someone does acknowledge the history, watch whether that changes the vote.
+- **Whether any board member raises the civil rights question about Kayler before the vote.** The cumulative record flags this as an open question — whether closing the district's most diverse elementary triggers legal obligations. If no one raises it, that is a significant signal about how this decision is being made.
 
-- **Principal Stern, if present.** He established on March 23 that he understands related arts are "often the highlight" — and proposed cutting four related arts teachers anyway. If he speaks at this meeting, listen for whether he maintains that framing, retreats from it, or offers something else. His words matter because they confirm that institutional knowledge of what students value does not protect what students value.
+- **How the board handles public comment from students or young people.** The board chair previously stopped audience applause for student speakers three times. Watch whether that happens again — and whether the tone of the room toward young speakers is different when the topic is a school closure that directly affects children of color.
 
-- **Whether any board member asks what students think.** DeAngelis declared in December that ignoring students causes harm. Watch for whether that standard shows up in practice — not as a rhetorical flourish, but as an actual request for student input before decisions are finalized.
+- **Whether the percussion ed tech and arts cuts are presented as final or as still subject to revision.** If board members treat them as already decided, community testimony is likely to be received as it has been before: acknowledged and not acted upon. If any board member signals openness to revisiting, that's the moment for prepared testimony.
 
-- **The gap between what is said about communication and what actually happens.** Dozens of parents at the March 2 meeting found out about the reconfiguration proposals from neighbors, not from the district. Watch for whether any communication plan for students and families is discussed — and whether it includes Memorial and is scheduled before September.
+- **Any mention of what September 2026 actually looks like at Memorial.** Not in aggregate district terms — in terms of what classes, programs, and teachers will still be there. If no one names this concretely, it is worth asking directly.
 
-- **Whether the cycle is named.** The percussion ed tech position is being recut less than a year after it was saved. Watch for whether anyone in the room names this as a pattern — community advocacy buying time, not permanence — or whether it is treated as an ordinary budget line.
+- **Whether Councilor Scott — who named the 80 ICE-affected families as potential school departures on March 10 — is present or has any statement connecting the Kayler decision to the immigrant community crisis.** That connection, once made publicly by an elected official, has not been followed with a structural response. Watch whether it surfaces again or disappears.
 
-- **Body language and tone among board members who stated opposition to Skillin's closure.** At least four members opposed it publicly. As the June 9 deadline approaches, watch for whether their opposition has remained firm or whether the language has shifted toward reluctant acceptance. Softening language signals that the financial pressure is winning.
+- **Procedural speed.** A vote on Kayler's closure, taken at the first meeting after the recommendation switch, with no agenda published in advance and unknown community turnout from affected families, would be procedurally fast by any standard. If the vote is called before affected families have had real opportunity to speak, notice who objects to the timeline and who does not.
 
-- **Whether Amira's family — or any Somali family — has a visible presence in the room.** The civic participation barriers documented across this process (complexity, hostility, financial cost, immigration enforcement fear) compound for families like Amira's. If the room is smaller or less diverse than at the March meetings, that is itself a data point about who gets to shape what happens to their children's schools.
-
-- **Any announcement about when families will be formally notified of schedule changes.** Amira found out about a teacher leaving from a classmate. If the district has not yet committed to a concrete communication timeline for families at Memorial, that silence is the answer — and the question of when someone tells her family what September will look like remains unanswered.
+- **Whether anyone in authority speaks directly to what students should expect — not to parents, not in policy language, but to kids.** This has not happened once across the entire record. If it happens at March 30, even briefly, it marks a departure worth noting.

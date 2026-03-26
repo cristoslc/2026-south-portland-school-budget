@@ -5,103 +5,105 @@ persona_name: "Linda"
 upcoming_meeting_date: "2026-03-30"
 generated_date: "2026-03-25"
 has_agenda: false
-last_cumulative_meeting: null
-inter_meeting_evidence_count: 1
+last_cumulative_meeting: "2026-03-23"
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: Linda (PERSONA-007)
 ## Upcoming Meeting: 2026-03-30
 
-# Pre-Meeting Brief: Linda (School Board Insider)
-**Prepared for:** 2026-03-30 Meeting
-**Persona:** PERSONA-007 — Governance Participant
+# Pre-Meeting Brief: Linda (PERSONA-007 — School Board Insider)
+**Upcoming Meeting: 2026-03-30**
 
 ---
 
 ## Since Last Meeting
 
-The March 23 workshop was the pivotal governance moment of this budget cycle, and the inter-meeting evidence — the slide deck prepared for that session — confirms how much ground was covered. What matters to you going into March 30 is what was resolved, what was newly exposed, and what that requires of the board between now and April 7.
+No inter-meeting evidence has arrived since the March 23 session adjourned. There have been no new filings, legal opinions, press accounts, or public statements captured in the record.
 
-**Root causes are now on the record.** Finance Director Ketchem publicly named three structural drivers of the budget failure: enrollment-staffing misalignment accelerated by COVID relief funding, the absence of a minimum fund balance threshold policy, and seven finance directors in six years. This is significant governance progress — you can now anchor public communication and board narrative in named causes rather than defending against "how did this happen?" in the abstract. But naming the causes also creates accountability: the board now owns the follow-through. The fund balance policy in particular was identified as a root cause, and it doesn't yet exist. That gap belongs to you.
+The absence of news is itself significant for Linda. **Five days have passed since the Title VI question was raised in open session, and the record shows no legal opinion was obtained before adjournment.** That gap is closing fast. If district counsel has not produced written guidance on the Kayler closure's Title VI exposure in this window, Linda is walking into a vote with that liability still unresolved — and she cannot pretend otherwise once it's on the record.
 
-**FY28 is now a publicly confirmed structural crisis.** Ketchem's "mathematically impossible" framing puts the board in an uncomfortable position. You're asking the community to validate a difficult FY27 budget while the finance director has disclosed — on the record — that FY28 is already structurally broken. Labor costs exceeding 6% growth, electricity at 13–14% annually, and athletic field bond debt service are not hypothetical. This is a governance communication challenge, not just a fiscal one: how do you build validation support for FY27 without that FY28 disclosure becoming the dominant community narrative before the June vote?
+The silence also means:
+- No redistricting plan has surfaced publicly in the interval, leaving the September 2026 implementation timeline structurally unsupported
+- No analytical framework for the Option A versus Option B grade configuration decision has been circulated to board members ahead of the vote
+- The administration's internal work between March 23 and March 30 — redistricting analysis, legal review, scenario modeling — is opaque from the outside, which creates a real risk that Linda arrives at a consequential vote with incomplete information
 
-**City fund balance draw is confirmed operational default.** What was a politically toxic hypothetical is now the documented backstop for any FY27 unanticipated costs. The board needs to be clear-eyed that this is now a matter of public record, not a contingency plan. Any FY27 cost surprise gets drawn from city reserves and repaid via future tax increase. You will be asked about this, publicly.
-
-**The Title VI brief window closes at this meeting.** The request raised at March 23 — can the district legally close Kaler given its demographic composition (~45% BIPOC, 30–35% multilingual learners) — was flagged as needing a legal brief before March 30 to allow an informed vote before the April 7 City Council presentation. If that brief hasn't arrived, the board is voting without the legal foundation in place. That's your procedural problem to surface, not administration's.
+The FY27 budget number ($75.85M, 6.0% local tax increase) is locked from March 23. The budget adoption vote on March 30 is confirmatory unless something breaks open — but "nothing has changed" is only reassuring if the underlying foundation was solid going in.
 
 ---
 
 ## Open Questions
 
-Going into March 30, you're carrying these as unresolved:
+These are the threads Linda carries into March 30 that she has not resolved and that this meeting may directly force:
 
-- **Have we received the Title VI legal analysis on Kaler closure, and if not, can we responsibly vote before April 7?** I'm not willing to take a facilities vote that creates legal exposure in a validation year.
+- **Do we have a written legal opinion on Title VI before we vote on March 30?** I raised this publicly on March 23 and it went unanswered. If we proceed without one, I need to know whether that creates grounds for a legal challenge that could unwind the closure after the fact — which is far worse than a delay now.
 
-- **What is the actual health insurance number?** That figure was supposed to arrive late March. If it's not in the room, every budget table we're presenting at City Council is provisional — and I need to know whether we present it as provisional or hold April 7 until it's confirmed.
+- **Which school are we actually closing — Kaler or Small — and what is the analytical basis for that choice?** The board converged on rejecting Skillin, but the Kaler/Small decision hasn't been made with a clear framework. What data is driving Option A versus Option B beyond geography?
 
-- **Is the FY28 structural problem being modeled in a form I can present at the April 7 hearing?** Ketchem named it publicly. If the council asks me what year two looks like and I don't have a table, that's a credibility problem.
+- **Is there any realistic path to September 2026 implementation when no redistricting plan exists?** I've heard the word "September" repeatedly but I have not seen a milestone chart with responsible completion dates for redistricting, family notification, transportation rerouting, and staff reassignment. Where is that document?
 
-- **What is the full cumulative homeowner tax impact?** School increase plus sewer rate increases (22% annually for three years) plus the November public safety bond debt service — I need that assembled as a single figure before April 7, not after. If I don't produce it, someone else will, and their version will be less accurate than ours.
+- **What is the actual health insurance cost coming in this month?** We've been working from a 12% projection that jumped from 8% without board discussion. If the real number is higher, does it affect the budget we're about to adopt?
 
-- **When are we adopting a minimum fund balance threshold policy?** It was named as a root cause of the crisis. If I leave FY27 without a policy in place, I'm passing the same structural vulnerability to whoever comes next.
+- **Does the budget we're adopting tonight hold the 6.0% ceiling clean, or are there any late-breaking changes from March 23?** I'm not expecting movement, but I need to hear the administration confirm the number hasn't shifted.
 
-- **Where exactly is the $3M+ beyond the "big ideas"?** The three major savings levers get us to roughly $4M against a $7.2M deficit. That gap has not been closed publicly. I need to know what closes it before I vote on anything.
+- **What's the board's answer to the Matthews "72 pink slips / $8.4M deficit" framing before April 7?** We have nine days between this vote and the public hearing. If we adopt tonight without a prepared counter-narrative, we arrive at April 7 reactive.
 
-- **Are all four bargaining unit meet-and-consult obligations — including CDL bus driver reassignment — on a timeline that concludes before fall 2026 operational changes?** If not, we're creating labor grievance exposure in the middle of a validation campaign.
+- **Have we done anything to assemble the cumulative homeowner impact figure — school increase plus sewer doubling plus November public safety bond debt service — that the finance committee can present at April 7 rather than letting opponents produce it first?**
 
-- **Does the board have a unified, factual response to Matthews' "72 pink slips / $8.4M deficit" framing?** That language is now in City Council minutes. It will be the exact script validation opponents use in June. If we don't have a public response ready before April 7, we've already ceded the narrative.
-
-- **Do we need to proactively coordinate with the mayor's office on sequencing between the June validation vote and the November public safety bond?** Voter fatigue is real. I don't want the school budget validation to become the casualty of a poorly sequenced bond calendar.
-
-- **Will the Zeal superintendent search expenditure come up publicly before or during the validation campaign?** That $30K number in the context of 78 position cuts and an 18–19% status-quo tax increase is a real political liability. I want to know what we're saying before someone else frames it for us.
+- **Is the fund balance threshold policy going on the calendar before the June validation vote, or are we walking into that vote with the same structural absence Ketchem named as a root cause?**
 
 ---
 
 ## Agenda Implications
 
-No agenda has been posted for the March 30 meeting. Given the proximity to the April 7 City Council presentation and the unresolved items from March 23, here is what you should be prepared for:
+**The agenda is not yet publicly available for the March 30 Special Meeting.**
 
-**April 7 presentation preparation is the dominant likely purpose of this meeting.** The board has eight days to finalize what it presents to the council. That means March 30 is almost certainly a working session on that presentation — what data it includes, what narrative frame it carries, and what decisions the board has made or is making. For you, this is a critical governance moment: the board should be controlling the narrative that goes to council, not reacting to it.
+Based on the cumulative record, three items were deferred at March 23 adjournment for this Special Meeting:
 
-- *Listen for:* Whether administration is framing the April 7 presentation as a status update or a decision-support package. You want the latter — council members need enough context to understand the trade-offs, not just the numbers.
-- *Prepare to ask:* Does the April 7 presentation include the cumulative homeowner impact table? Does it include the FY28 outlook? Does it include the root cause analysis that Ketchem named March 23? All three should be in the room before council.
+1. **School closing report vote** — which school is closing (Kaler or Small)
+2. **Option A / Option B selection** — elementary grade configuration
+3. **Budget adoption vote** — FY27 at $75.85M, 6.0% local tax increase
 
-**Facilities closure vote may come to a head.** The board converged on Options 1.3 or 1.6 (Kaler/Dyer or Small) at March 23, but no vote was taken. The Title VI brief on Kaler was requested between March 23 and March 30. March 30 may be the moment the board is asked to formalize that direction — or to decide it can't without the legal brief.
+Linda should prepare for all three, with the following framing:
 
-- *Listen for:* Whether legal counsel has produced the Title VI analysis. If it hasn't arrived, you need to be the person who raises whether proceeding is prudent.
-- *Prepare to ask:* What specific equity and legal documentation will accompany the board's facilities vote, and at what meeting does that vote actually occur?
+### School Closing Report Vote
+This is the highest legal-exposure item on the agenda. The Title VI question — Kayler at 45% BIPOC, 30–35% multilingual learners — was raised in open session on March 23 and left unresolved. For Linda, this is not a political preference question; it is a governance obligation. She should expect the administration to either (a) present a legal opinion clearing the path, (b) confirm one is still being obtained, or (c) proceed without one. Options (b) and (c) require Linda to make a judgment call about proceeding under legal uncertainty, and she needs to have decided in advance what her threshold is. If the board votes to close a school without a legal opinion and a challenge is filed later, it is Linda's name on that vote.
 
-**Health insurance confirmation may arrive at or before this meeting.** Late March was the window. If the figure has arrived, it could shift the budget tables; if it hasn't, you need to know how the board is handling budget presentations that are still provisional on a major cost driver.
+*Listen for:* Whether district counsel is present and prepared to speak. Whether the administration presents the legal question as resolved or defers it again.
+*Questions to prepare:* "Before we vote, can we confirm district counsel has reviewed the Title VI implications and provided written guidance?" / "What is the legal review timeline if we defer this vote one additional week?"
 
-- *Listen for:* Any mention of the health insurance number. If it's not on the table, ask directly when it will be and how we're disclosing its absence to council on April 7.
+### Option A / Option B Grade Configuration
+The board has not established a clear analytical framework for this decision. Linda should expect a staff presentation, but she should press on the criteria: What enrollment projections support each option? What are the long-term implications for specialized programming, transportation, and facility utilization? How does LD 1829's density pipeline interact with each scenario?
 
-**Fund balance policy adoption timeline.** Ketchem named the absence of a minimum fund balance threshold policy as a structural root cause. There is no formal resolution of that gap yet. March 30 may not be the adoption meeting — but you should push for a stated timeline.
+*Listen for:* Whether the presentation accounts for the LD 1829 enrollment uncertainty or treats the contraction narrative as settled. Whether implementation milestones are attached to the recommendation.
+*Questions to prepare:* "What does the redistricting timeline look like for each option, and when does the board see a complete implementation plan?" / "Has the administration modeled what happens to this configuration if residential density development adds 50–100 elementary students within three years?"
 
-- *Prepare to ask:* What is the board's timeline for adopting a minimum fund balance threshold policy, and will it be in place before the FY28 budget cycle opens?
+### Budget Adoption Vote
+This is the board's most consequential public act of the season. The number is $75.85M, 6.0% local tax increase, and Linda's goal is to adopt it cleanly with all members on record for the same publicly defensible rationale. The March 23 session already put the root cause accounting on record via Ketchem's testimony — that is an asset Linda can reference in the adoption statement.
+
+*Listen for:* Any last-minute amendments or objections that could crack board cohesion. Whether Feller (who broke publicly from the 6% ceiling before the joint workshop) is fully aligned. Whether any board member attempts to reopen the question of a higher or lower number.
+*Questions to prepare:* "Does the administration confirm this budget holds the 6.0% local tax increase with no changes since March 23?" / "Does the board want to adopt a formal statement alongside the vote for use in the April 7 hearing?"
 
 ---
 
 ## Watch For
 
-- **Whether the Title VI legal brief on Kaler has been produced.** If administration doesn't raise it, you should. A facilities vote without that analysis in hand is a procedural vulnerability in a validation year.
+- **Legal opinion status on Title VI — watch for whether district counsel is present, speaks first, or is conspicuously absent.** If counsel is not present and no written opinion is distributed before the vote, that is Linda's signal to call a point of order or formally request a brief continuance. Proceeding without it is a board governance failure she cannot attribute to the administration afterward.
 
-- **Whether anyone presents a complete $7.2M gap closure.** The board has roughly $4M in named savings. If the gap isn't closed on paper at this meeting, you're presenting a provisional budget to council on April 7. Note who, if anyone, owns that remaining $3M+ explicitly.
+- **Feller's body language and vote posture.** He broke from the 6% ceiling before the February 10 workshop. He has been publicly aligned since, but this is the final vote. Watch whether he introduces any late amendment or signals discomfort before the vote is called.
 
-- **Informal signals from board members about their position on 1.3 vs. 1.6.** You've been building consensus; March 30 is when informal alignment needs to harden. Watch for hedging language from members who haven't committed — any wavering this close to April 7 is a board cohesion problem you need to address before the public vote.
+- **Whether the reconfiguration vote is structured as a single motion or multiple.** A bundled vote (school + option + budget) reduces flexibility; separate motions give the board the ability to defer the legal-exposure item while adopting the budget on schedule. Linda should know in advance how the chair intends to sequence the three actions.
 
-- **Whether Member Feller's 6% ceiling break from the prior session is treated as a closed question or reopened.** If it surfaces again, watch how other members respond. Silent alignment with Feller is as meaningful as a public statement.
+- **Any mention of the September 2026 implementation date paired with the word "if."** That hedge, if it appears in administration language, is Linda's signal that staff is already privately doubtful about the timeline — and that she may need to put a formal contingency motion on the table.
 
-- **The health insurance line.** If the confirmed number is in the room, watch whether it improves or worsens the overall picture, and whether it changes any of the stated reduction options. If it isn't confirmed, flag it explicitly as a gap in the April 7 presentation package.
+- **Whether the health insurance final number has arrived.** If the actual insurance cost exceeds the 12% projection, it should surface in the budget adoption discussion. Silence on this point should prompt a direct question from Linda.
 
-- **Any discussion of the Matthews/West council framing.** "72 pink slips / $8.4M deficit" is now in council minutes. If no one names it and proposes a factual response, you may need to be the one who does — because the April 7 hearing is where that framing will be deployed against you.
+- **Whether any board member requests a delay on the school closing vote specifically due to the Title VI question.** If that request comes from another member, Linda should be prepared to support it with procedural language rather than letting it die as an informal objection.
 
-- **Whether FY28 is being modeled.** Ketchem named it publicly. If the board goes to April 7 without a FY28 table, council members will ask about it and you'll be improvising. Watch whether administration proactively brings FY28 projections or whether that work still needs to be requested.
+- **How the board chair frames the vote for public observers.** The March 30 record becomes the April 7 public hearing's foundational document. If the chair's framing is passive or defensive, Linda has a governance interest in correcting it from the floor — not to grandstand, but because the validation campaign narrative starts tonight.
 
-- **The cumulative homeowner impact table.** Watch whether anyone has assembled school + sewer + public safety bond debt service into a single figure. If not, that gap belongs on the April 7 preparation checklist — not as a surprise item at the hearing itself.
+- **Whether anyone mentions the cumulative homeowner impact table.** If no one does, Linda is the person who should ask whether the finance committee is preparing one before April 7. This is a case where silence from the board means the opponent fills the vacuum.
 
-- **Superintendent search timeline and cost justification.** If Zeal or the search process comes up, note the tone of the room. Any defensive or dismissive handling of the $30K question signals a communication vulnerability that will be exploited during the validation campaign. A calm, factual public answer needs to exist before June.
+- **The public comment queue and tone.** If organized opposition is building toward April 7, March 30 is where their advance elements show up. Track whether any speakers are using Matthews' "72 pink slips" framing verbatim — that indicates coordination, not spontaneous reaction.
 
-- **Procedural signals about the validation campaign timeline.** The board should be discussing June validation strategy by now. If it isn't on anyone's lips at March 30, that's a warning sign — the campaign window is shorter than the community's current understanding of the issues would suggest.
-
-- **Whether any board member raises Scott conflict-of-interest procedural questions.** This was flagged as a potential challenge to validation results if the budget passes narrowly. A preemptive procedural review is far better than a post-validation legal challenge. If no one else raises it, it may fall to you.
+- **Superintendent search conversation, if it arises.** The $30K Zeal contract remains an open political liability. If any board member surfaces it in the context of budget adoption, Linda needs to have a prepared answer, not a caught-off-guard one.

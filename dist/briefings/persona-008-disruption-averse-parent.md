@@ -14,74 +14,58 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new public evidence has emerged since the March 23 workshop. That silence is worth naming: with March 30 one week away, no documentation, no redistricting maps, no transportation analysis, and no revised displacement counts have been made public. The board adjourned March 23 at 11:15 PM without a vote, and — as of now — families like Rachel's have no clearer picture of where their children will be in August than they did walking out of that room.
+No new evidence has surfaced in the days since the March 23rd workshop. The silence itself is worth noting: Rachel went home from a five-hour meeting that ended past 11 PM with no vote, no clear resolution, and no public communication from the district in the days that followed. That absence of follow-up — no summary, no FAQ, no direct communication to Kayler families about what the administration's formal recommendation means for them — is consistent with the pattern she has been tracking since December. Decisions take shape institutionally before parents are told what happened.
 
-The absence of new information is itself a signal. In this district's pattern, real deliberation happens before meetings, not during them. If the administration intended to present Option B as a serious alternative or release a transportation study before the vote, that material would typically surface in advance. It has not. Rachel should treat the silence not as reassurance but as a strong indicator that the March 30 meeting may move faster than March 23 did — possibly toward a vote on a scenario whose details families have not yet seen.
-
-What did firm up at March 23 that Rachel is now carrying in: Kayler is the administration's recommended closure. Option A displaces at least 580 students — 160 Kayler families plus every incoming second grader at Dyer, Small, and Kayler. Option B remains on the table and is described in the district's own materials as presenting "less change for families," but no one has explained why the administration ranked it lower or what the tradeoff is. Transportation has not been modeled. The implementation target is August — not September. And Rachel still does not know whether her own children's current school assignment survives either option.
-
----
+What carried forward from March 23rd is stark: the administration has a formal recommendation (Kayler closure + Option A full grade-band reconfiguration), a six-domain evaluation that produced the same result twice, and a superintendent who has publicly foreclosed Option B as a real alternative. The board adjourned without voting. March 30th was always going to be the night — and now it is. Rachel arrives carrying something she hadn't fully felt before: genuine uncertainty about whether anything she says or does tonight will change the outcome.
 
 ## Open Questions
 
-Rachel is carrying all of the following into March 30:
-
-- **Will the board actually vote tonight, or will they adjourn again?** And if they adjourn, does that blow up the August implementation timeline — or does the administration just start moving anyway?
-- **Why is Option A the recommendation over Option B?** The district's own materials say Option B means less disruption for families. Who decided Option A was better, and what's their actual reasoning — because "administrative efficiency" is not good enough when 580 kids are the cost.
-- **Where are the redistricting maps?** I cannot evaluate this vote without knowing which zone lines move, which streets flip, and whether my kids' address ends up in a different school under Option A versus Option B.
-- **Where is the transportation analysis?** How long will Kayler kids be on a bus? Who picks up my second-grader's before-care slot when the building changes? These are not secondary concerns — they determine whether this is workable for working families.
-- **Will the remaining gap require more cuts on top of whatever reconfiguration is decided?** Keeping all five buildings open means 12–16 more positions cut beyond what's already planned. Does closing Kayler actually close the $8.4 million gap, or is there still a shortfall that produces a second wave of disruption?
-- **Are the pink slips concentrated in specific buildings?** If the first wave of 72 was clustered at Kayler or at the buildings receiving displaced students, that tells me the decision has already been made at the staffing level — regardless of what the board votes tonight.
-- **Will Skillin's $3 million HVAC need get raised to put Skillin back in the closure conversation?** I thought Kayler was settled as the recommendation, but the HVAC argument hasn't gone away.
-- **What exactly happens to my children?** I live near a zone boundary. I still don't know which building they walk into in August under Option A. Under Option B. Under any option. I need a map and I need it tonight.
-- **Is there any meaningful window between April 14 and May 5 for organized community response if the board votes tonight?** Because if March 30 produces a closure vote, the council workshop is three weeks away and the council vote is three weeks after that. That's not a community engagement timeline — that's a ratification timeline.
-- **Will board members Feller and Richardson hold the line, or has something shifted since March 23?** I need to watch whether the tone in the room has changed since the 11:15 PM adjournment.
-
----
+- **Why wasn't I told directly?** If Kayler was under formal six-domain evaluation, why are families learning about it through news coverage and school board agendas rather than a letter home?
+- **What does Option A actually look like for my kids, specifically?** Which building do they go to? What's the route? How long is the bus ride? How do the grade bands map onto existing class groupings? Nobody has modeled any of this and the board may vote tonight anyway.
+- **Is Option B actually dead or is it still on the table?** Dr. Prince said it's "a path to Option A in the following fall" — but does the board accept that framing? Will any board member push back tonight?
+- **What happens to the four board members who said they oppose Skillin closure?** Under Option A, Skillin stays open — but every Skillin K-4 family still gets restructured into grade bands. Did those members understand what they were actually protecting?
+- **Is this the last night to stop this, or is April 7th still meaningful?** The public hearing is April 7th, but if the board votes tonight, what exactly are we responding to at that hearing?
+- **Who are the 72 pink slips concentrated in?** Are they distributed evenly, or are they clustered in specific buildings in a way that signals which schools are being quietly prepared for closure or consolidation?
+- **Has anyone on the board or administration explained, plainly, why four K-4 buildings after Kayler closes isn't sufficient?** Why does the administration prefer disrupting every single elementary family in the district rather than just the ones at Kayler? That rationale has never been stated in plain language.
+- **Will union bargaining slow this down at all?** Can anything procedurally create space between a board vote and actual implementation?
+- **What does "no vote tonight" mean if it happens again?** The board adjourned March 23rd without deciding. If it adjourns again tonight, does the timeline to April 7th still hold?
+- **Is a 5–6% tax increase still being treated as a real alternative, or has the board already decided reconfiguration is the path regardless of what the council would support?**
 
 ## Agenda Implications
 
-No agenda has been published for the March 30 meeting. Based on Rachel's cumulative understanding of this process, here is what she should be prepared for:
+No agenda has been published for March 30th. Based on everything Rachel has been tracking, here is what she should be prepared for.
 
-**Most likely: A continuation of the March 23 reconfiguration workshop, potentially moving toward a vote.**
+**The vote is the meeting.** March 30th was set as the continuation of the March 23rd workshop precisely because the board ran out of time without deciding. The operative question is whether the board votes tonight on Option A, Option B, or something else — and whether any board member moves to delay further. Rachel should walk in prepared for a vote to happen, not another extended deliberation. If it doesn't happen, that is itself a significant procedural event.
 
-The March 30 meeting was publicly described as the next decision point in the reconfiguration arc. Given the compressed timeline — April 7 public hearing, April 14 council workshop, May 5 council vote, June 9 referendum — the board cannot defer indefinitely without losing the August implementation window. Rachel should assume the meeting is structured to produce a decision, even if it is not labeled a "vote" on the agenda.
+**The administration will likely present Option A as the recommendation.** The six-domain evaluation, the two runs, and Dr. Prince's explicit framing of Option B as a delay — not an alternative — all point toward Option A being presented as the rational conclusion of a process that is already complete. Rachel should listen for whether any board member challenges the framing of the process, not just the conclusion.
 
-*What this means for Rachel specifically:* If the board votes tonight on Option A, families in Kayler's zone and the second-grade cohort at Dyer, Small, and Kayler will have had no transportation analysis, no redistricting maps, and no transition plan before the vote is taken. Rachel's personal stake — zone-boundary uncertainty about her own children — is not resolved by a yes vote on a scenario whose details have not been published. She needs to force specificity before the vote, not after.
+**Transportation will not be answered tonight.** The Director of Operations confirmed that no modeling exists and none will be done before the board votes. If a board member cites transportation concerns as a reason to delay, watch whether the chair allows that as a legitimate basis or moves to close debate. If a board member votes yes on Option A without transportation modeling, Rachel should note that for the April 7th public hearing and the April 14th council workshop.
 
-*What she should listen for:*
-- Whether the board chair opens with a motion immediately, or allows substantive discussion first — a rushed opening motion signals the outcome is pre-negotiated
-- Whether Option B receives genuine floor time or is dismissed without comparative analysis of family impact
-- Whether any board member asks explicitly: "How many families will receive reassignment notices, and by what date?"
-- Whether the word "timeline" appears in connection with transportation — because any vote tonight without a transportation study means families will not receive route information until after the vote is final
+**Public comment will happen, but the outcome may be predetermined.** Rachel knows the pattern. She should still speak — the record matters for April 14th — but her public comment tonight is also preparation for April 14th, not just an attempt to move the board. Frame remarks accordingly: specific, named, on-record questions the council will eventually have to address.
 
-*Questions Rachel should prepare:*
-- "What is the specific redistricting map under Option A, and when will families in boundary zones receive their reassignment notifications?"
-- "Why does the administration recommend Option A over Option B, given that the district's own materials describe Option B as presenting less change for families?"
-- "What is the transportation plan for displaced Kayler students — ride times, pickup points, before-care availability — and when will that information be available to families?"
-- "Does closing Kayler close the full $8.4 million gap, or does the board anticipate additional structural changes after tonight?"
-- "If the board votes tonight, what is the deadline for families to submit school transfer requests, and what is the process for families with children who have IEPs or other placement requirements?"
-
----
+**Questions Rachel should prepare:**
+- "Before this board votes, can you tell me specifically what bus route my child at [school] will take under Option A, and how long that ride will be?" — Forces the transportation gap into the record.
+- "Dr. Prince said Option B is a path to Option A in the following fall. If the board votes for Option B tonight, what is the community engagement process before Option A is implemented in September 2027 — and will it be more than what we've had in this cycle?" — Puts the administration on record about future process.
+- "Why does the administration prefer disrupting every elementary family in the district under Option A, rather than maintaining four K-4 buildings after Kayler closes? What is the specific rationale that has never been stated plainly?" — Demands accountability for the default preference.
 
 ## Watch For
 
-- **Whether Option B gets a real motion or just a courtesy mention.** If the chair opens with a motion on Option A before Option B has been substantively discussed, the outcome was decided before the public walked in. Watch whether any board member seconds a motion to table Option A and substitute Option B — and whether Feller or Richardson makes that move.
+- **Whether the board actually votes tonight.** If the chair moves to close deliberation and call a vote, that is the moment. If the board adjourns again without voting, Rachel needs to understand what the procedural mechanism is — does the April 7th hearing still happen as scheduled? Does the timeline compress?
 
-- **Whether redistricting maps appear on screen tonight for the first time.** If the administration presents maps that families are seeing for the first time at a meeting that ends in a vote, treat that as a procedural violation of good faith — and say so at the microphone.
+- **Any board member who breaks from Option A.** Watch Feller and Richardson specifically — they were identified earlier as procedural checks. If either of them moves to amend, delay, or substitute Option B, that is Rachel's opening to support it from the public comment period on the record.
 
-- **The word "implementation" in any administrative presentation.** Listen for whether staff use "if" or "when" language about August rollout. "When we implement" in a staff presentation means the decision has already been operationalized at the administrative level regardless of the board's formal posture.
+- **Whether "Option B" gets further defined or quietly buried.** If no board member mentions Option B tonight, it is functionally dead. If someone raises it, watch how the chair handles the motion — whether it gets a real seconded discussion or gets procedurally set aside.
 
-- **DeAngelos's management of public comment time.** At March 23, the meeting ran until 11:15 PM. Watch whether she limits comment to two minutes, cuts off speakers, or moves the vote before public comment is complete. Document it.
+- **Transportation comes up as a reason to vote yes anyway.** If a board member acknowledges there is no transportation modeling and votes for Option A regardless, that is a clean, specific, on-record failure Rachel can bring to the April 14th council workshop: "The board voted for a restructuring that disrupts every elementary family's morning without modeling what that morning looks like."
 
-- **How the board handles the transportation-modeling gap.** If a board member asks about transportation and the response is "we'll work that out after the decision," that is a direct failure of due diligence Rachel can name explicitly: you are asking families to accept an irreversible August reassignment without knowing the bus route their child will be riding.
+- **Who speaks in public comment and what they say.** A packed room versus a thin room changes the political context for April 14th even if it doesn't change the vote tonight. Rachel should note the attendance for her own organizing purposes.
 
-- **Any mention of Skillin's HVAC costs.** If the $3 million HVAC need for Skillin surfaces tonight — from the administration, a board member, or a councilor — it signals an effort to reopen the closure conversation beyond Kayler. Rachel should push back immediately and ask whether a new scenario is being introduced at the final decision meeting.
+- **Any mention of the $8.4M figure versus the $7.2M figure.** If the higher number is incorporated into the formal board record tonight for the first time in a school board setting, watch whether it reopens any scenarios that were previously narrowed — including Skillin, Brown, or more aggressive consolidations.
 
-- **Board member body language and pre-meeting clustering.** Arrive early. Watch whether Feller and Richardson are talking with DeAngelos before the meeting opens or are seated separately. Pre-meeting alignment signals tell you whether the 4-3 or 5-2 split Rachel observed at March 2 has shifted.
+- **Dr. Prince's language about Option B.** If he repeats the "path to Option A" framing in an open session with a vote pending, that is a quotable, citable moment for the public hearing and for council. Get the exact words.
 
-- **Whether anyone asks about the pink slip distribution by building.** If no board member asks tonight whether the 72 layoff notices were concentrated in specific schools, Rachel should ask it herself. The answer will confirm or undercut the administration's claim that the decision is still open.
+- **DeAngelos's tone and framing.** She has previously characterized neighborhood schools as an obsolete concept. If she uses language tonight that dismisses the human cost of reconfiguration — "we're not moving children, we're serving students better" or similar — that framing belongs in Rachel's public comments at April 7th and April 14th as a named example of how the board has approached this decision.
 
-- **The April 7 public hearing as a potential last intervention point.** If the board votes tonight, the April 7 public hearing becomes the last formal window before the council absorbs the closure decision as a budget line. Rachel needs to be organizing for April 7 starting tomorrow morning, not after a second deferral.
+- **Whether any board member asks about Kayler family notification.** The fact that families are learning about a formal six-domain recommendation through news coverage rather than direct district communication is a process failure. If no board member raises it, Rachel should.
 
-- **Whether any board member explicitly states the displacement count on the record.** "At least 580 students" is Rachel's number, sourced from district materials. If the board votes without a member stating the displacement count on the record, call it out in public comment: the board is voting to move hundreds of children without acknowledging how many children it is moving.
+- **The clock.** The March 23rd meeting ran past 11 PM and adjourned without a vote. If tonight's meeting approaches 10:30–11 PM and there is still no vote, watch whether the chair extends the meeting, adjourns again, or forces a vote under time pressure. A rushed vote under exhaustion is a different thing than a considered one.

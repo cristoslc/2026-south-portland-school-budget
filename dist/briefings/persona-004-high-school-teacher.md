@@ -5,8 +5,8 @@ persona_name: "Marcus"
 upcoming_meeting_date: "2026-03-30"
 generated_date: "2026-03-25"
 has_agenda: false
-last_cumulative_meeting: null
-inter_meeting_evidence_count: 1
+last_cumulative_meeting: "2026-03-23"
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: Marcus (PERSONA-004)
@@ -14,72 +14,65 @@ inter_meeting_evidence_count: 1
 
 ## Since Last Meeting
 
-The March 23 board budget workshop was the first major post-RIF meeting, and its contents are directly relevant to you. The Google Slides deck presented at that workshop laid out the current FY27 proposal in detail — including specific middle and high school reductions alongside the two elementary closure options. That means the cuts to SPHS programs and staffing are now in a formal presentation document, not just rumored in the hallways. If you haven't obtained that deck through your union or a public records request, get it before March 30.
+No new inter-meeting evidence has emerged since the March 23 board meeting.
 
-Two things from the March 23 meeting carry particular weight for you. First, Finance Director Ketchem stated explicitly on the record that labor costs grow faster than the 6% ceiling every contractual year — meaning even if the union wins this fight, the same machine produces the same result next year. This is not a crisis management statement; it's a structural admission. Second, the 42-teacher RIF number has now disaggregated: 32 teachers are on recall, and 11 are on involuntary transfer. That distinction matters enormously. Recall means eliminated. Transfer means bumped — your colleagues sent across buildings against their will, potentially displacing others at SPHS in the process. The number you and your colleagues felt directly — "42" — has now become two different categories of harm.
+That silence is itself meaningful. The board adjourned at 11:15 PM on March 23 without casting a single vote — no school closure authorization, no elementary configuration choice, no budget adoption. A week has now passed with 32 colleagues sitting on a recall list, a superintendent's proposal that was never formally voted on, and an April 7 public hearing eight days away. The absence of news doesn't mean the situation has stabilized; it means the administration's proposal is functionally in place without board endorsement, and no one has publicly moved to change that.
 
-Blair Bacon's public challenge to seniority rules is the other live development. If seniority can be reframed in the public narrative as bureaucratic rigidity rather than worker protection, administration and board members inclined to sympathize may use that framing to justify changes that accelerate the elimination of senior (and therefore higher-salaried) teachers. The percussion ed tech position — which the community fought and won, and which is back on the list — is the specific example that connects all of these threads.
+For Marcus specifically: the percussion ed tech position — restored by community advocacy a year ago, then reproposed identically — and the assistant superintendent's failure to CC impacted staff on RIF notifications are both unaddressed. There has been no union announcement of a formal impact bargaining response, no public statement from SPEA about the April 7 hearing strategy, and no word on whether early retirement buyouts have advanced beyond Board Member Feller's initial proposal. The quiet week is a week of lost organizing time before the most consequential public hearing remaining on the calendar.
 
 ---
 
 ## Open Questions
 
-- **Which SPHS course sections are actually on the cut list?** The March 23 deck covered "middle and high school reductions" — I need to know whether AP courses, CTE pathways, or specific electives are named. Aggregate FTE numbers don't tell me what my students will lose.
-
-- **Of the 11 involuntary transfers, how many are SPHS teachers, and where are they going?** And of the 32 on recall, how many are mine — at the high school, in my department, or adjacent to my schedule?
-
-- **Has SPEA formally invoked impact bargaining rights on the RIFs?** That was raised as an option in February. What's the status?
-
-- **What happened to Feller's early retirement buyout proposal?** Was it included in the March 23 presentation, or did it disappear from consideration after he floated it?
-
-- **The percussion ed tech is back on the list. Why?** Was it ever genuinely removed, or was the earlier reversal a temporary optics move? Who is making that call, and on what basis?
-
-- **What does "first wave" actually mean?** Matthews used that phrase after 72 RIF notices went out. Are we expecting a second round of notices before the April 7 hearing, or was that hedging language?
-
-- **How do the two elementary closure options affect bumping districtwide?** If an elementary teacher with more seniority bumps into a secondary position, which of my colleagues at SPHS gets displaced?
-
-- **Has the administration produced the central office staffing breakdown yet?** It's been weeks since that transparency fight started. If cuts are 42 teachers to 2 administrators, what exactly does the administrative staffing chart look like?
-
-- **Non-personnel reductions at SPHS: what are they?** Supply budgets, classroom materials, field trips, department discretionary funds — these didn't make the headline number, but they land in my classroom.
+- The board voted on nothing March 23. Does that mean the superintendent's budget proposal is still technically a proposal — or has the administration already operationalized it as if it were adopted? If it was never voted on, is there still a formal mechanism to reshape it before it reaches the council April 14?
+- When does SPEA's organized response to the April 7 public hearing actually get communicated to members? My colleagues are texting councilors individually — which is good — but individual texts aren't testimony, and April 7 is our last real shot before the council sees the budget.
+- The RIF notices went out March 18, but the assistant superintendent didn't CC impacted staff on the notification emails. That's a process failure at exactly the moment collective bargaining requirements matter most. Is the union filing anything on that, or did it just get absorbed?
+- Six FTE gone at SPHS — 2 science, 1 English, 1 World Language/ESOL, 2 special ed case managers, 1 social work, 1 CTE, 0.5 Art — but that's what the district announced. What's the actual section count impact? When the bumping process plays out, which specific courses at SPHS disappear or get overloaded?
+- The regular education behavior strategist position is eliminated district-wide. Zero. That's not a cut to a program — that's the removal of an entire safety infrastructure. When a student at SPHS is in crisis next fall and there's no specialist to call, who is the building supposed to contact, and has anyone in administration given teachers any answer to that question?
+- Feller's early retirement buyout idea got mentioned once and then the meeting ended. Is that a real proposal with numbers behind it, or was it a thought floated at 10 PM that will never be heard from again? Because 32 colleagues on recall are waiting for something besides "we're sorry."
+- Finance Director Ketchem confirmed that labor costs structurally outpace the 6% ceiling every year. So what exactly are we bargaining in the next contract cycle? If the structural trap doesn't close, what is SPEA's leverage in FY28 negotiations, and do our members understand that the current crisis isn't a one-time event?
+- The percussion ed tech was restored through organized advocacy and then reproposed identically 378 days later. What changed in the underlying analysis — or did nothing change, and the administration is simply retesting whether we'll fight again? Because if wins aren't durable, what is the point of the advocacy model we've been running?
+- Science class sizes approaching the 24-student ceiling while 2 science FTE are eliminated. Which sections specifically are going to breach contract limits, and is the union prepared to file on class size the moment enrollment assignments go out in September?
+- The new superintendent will be hired into this mess. Are they being told the full picture — $8.4M gap, depleted fund balance, 32 teachers on recall, permanent structural trap — or are they being recruited into a crisis they won't fully understand until it's too late to walk away?
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for the March 30 meeting. Based on the trajectory, here's what to be prepared for:
+No agenda is available for the March 30 meeting.
 
-**This meeting is likely to function as either a follow-up action session from the March 23 workshop, a public-input opportunity ahead of the April 7 hearing, or both.** The March 23 presentation explicitly listed decisions expected at that workshop. If the board deferred any of those decisions, March 30 is the probable venue for them — which means votes on specific budget proposals could happen without a published agenda warning.
+Given the board's March 23 adjournment without votes and the April 7 public hearing looming, this meeting is likely to address one or more of the following. Marcus should be prepared for each.
 
-**For you specifically:**
+**Elementary reconfiguration and school closure authorization.** The board deferred this vote on March 23 after adjourning late. If it comes back March 30, this matters to Marcus even though his position is at SPHS: the seniority-bumping mechanism means any building closure or reconfiguration cascades district-wide. A teacher bumped from an elementary position into a secondary slot can displace a SPHS colleague regardless of individual performance or program value. Marcus should listen for whether the board frames reconfiguration as a standalone facilities decision or explicitly connects it to the FTE reduction math — because the connection is what makes it dangerous for his colleagues.
 
-The high school reduction slide from the March 23 deck is now the working document. If the board is going to ratify or revise those cuts, March 30 may be the moment. You should go in ready to push for specifics: not FTE totals, but named positions and course sections. The administration's pattern has been to present aggregates; your job is to force disaggregation.
+**Superintendent search update.** The board is paying a premium consultant to run this process during a spending freeze. If there's a search update, Marcus should listen for any indication of what the finalists are being told about the district's fiscal condition. If the search is presented as progressing smoothly, that's a signal that the administration is not briefing candidates on the full scope of the crisis — which matters for contract negotiations, for the next budget cycle, and for whether the new superintendent arrives as a genuine partner or a future scapegoat.
 
-**Listen for** whether any board member references the March 23 deck by slide number or section — that signals they've reviewed the high school reduction specifics and may be ready to act on them. Listen also for whether impact bargaining comes up in any legal or procedural context; if SPEA has filed, it may surface here.
+**April 7 public hearing preparation.** The administration or board chair may frame the upcoming hearing. Watch for any signals about how much time will be allocated to public comment, whether the format will favor brief individual statements over organized testimony, and whether there's any indication the board intends to be receptive or merely procedurally compliant. Marcus should note whether the chair characterizes April 7 as an opportunity for public input or as a required step in an already-decided process.
 
-**Questions to prepare:**
-- "The March 23 presentation listed high school reductions. Can the board confirm which specific course sections and positions are included in that number, before the April 7 hearing?"
-- "The 42 teacher RIFs have now been described as 32 recall and 11 involuntary transfer. Can administration explain how many of those transfers are to SPHS, and what happens to the teachers already in those positions?"
-- "Is the early retirement buyout proposal still under active consideration, and if so, when will the board receive analysis of how many layoffs it could offset?"
-- "The percussion ed tech position was previously removed from the cut list following community advocacy, and it has now reappeared. What changed?"
+**Budget details or updated projections.** If any new financial information is presented — revised gap estimates, updated attrition numbers, early retirement buyout specifics — Marcus needs to hear it before April 7, not after. Any "good news" framing (fewer position losses than projected, buyout interest higher than expected) should be pressed for specificity: how many, which positions, which certification areas, and what is the union's independent verification of those numbers.
+
+**No agenda means no guaranteed access.** If March 30 has public comment, Marcus or a SPEA colleague should use it. The window between now and April 7 is not a waiting period — it's the last chance to shape the hearing's political environment before the council sees the budget.
 
 ---
 
 ## Watch For
 
-- **Whether the board takes votes on specific high school reductions** without calling for additional public input. If the March 23 "expected decisions" are on the table tonight, the window to testify is closing faster than the April 7 hearing date suggests.
+- **Whether the board finally votes on anything.** After adjourning March 23 without a vote, the first vote of the March 30 meeting is a signal. If reconfiguration or closure authorization comes to a vote, watch the 4-3 pattern: who holds, who breaks, and whether the Skillin coalition from March 2 survives contact with a different building on the table.
 
-- **Whether seniority language shifts.** If any board member echoes Blair Bacon's framing — that seniority rules are "the problem" rather than a contractual protection — that signals a prepared attack on a cornerstone of the union contract, not just a public opinion moment. Track who says it and how other board members respond.
+- **Feller's early retirement buyout proposal — any follow-through.** If he mentions it again with actual numbers (how many positions, what the buyout structure looks like, timeline for offers), that's actionable. If it's not mentioned at all, it's dead, and Marcus should flag that publicly at April 7.
 
-- **DeAngelis's response to high school reduction testimony.** Her pattern has been to dismiss parent and teacher concerns on reconfiguration as misunderstanding the data. If she deploys the same "student-centered" rhetoric to wave off SPHS program concerns, that's a signal the decisions are already made.
+- **Any mention of the central office staffing breakdown.** The union formally requested this more than six weeks ago and has been stonewalled. If a board member or community member raises it and the superintendent responds, listen for whether the answer is "here's the breakdown" or another deflection. The continued withholding — not the numbers themselves — is the story.
 
-- **Matthews on "first wave."** He was the one who used that phrase. If he hedges it tonight or reframes it, that tells you whether more notices are coming before April 7 or whether 72 is the ceiling.
+- **How the behavior strategist elimination is characterized.** If anyone on the board or in administration describes the regular ed behavior strategist elimination as a "restructured service model" or claims equivalent support will be available through other means, Marcus should demand specifics: which position title, which building, how many students, what the response protocol is when a student is in crisis. Vague reassurances from administration on this point are not acceptable.
 
-- **Whether Ketchem presents any updated gap number.** The stated gap was $8.4 million as of March 19. Any revision — up or down — before the April 7 public hearing changes the testimony calculus for the entire union.
+- **April 7 public hearing framing.** Watch for how the chair or superintendent describes the hearing's purpose. "We want to hear from the community" is different from "this is a required procedural step." The framing reveals whether organized teacher testimony is being anticipated or managed.
 
-- **Whether SPEA representation is present and given floor time.** If union leadership is in the room, watch whether they're acknowledged, sidelined, or given time. The board's procedural treatment of the union at this meeting is a real-time signal of where impact bargaining stands.
+- **Board Member Richardson's posture.** Richardson has been associated with the "PTAs can fill the gaps" framing — the most dismissive position toward teacher resource needs on the board. If she speaks on any agenda item, note whether she's engaging with the operational consequences of cuts or retreating to fiscal-caution talking points. She's a data point on where the persuadable votes are not.
 
-- **Whether Feller's early retirement buyout is mentioned by anyone.** Its presence or absence tells you whether it's still a live option or has quietly died. If it's dead and no one says so, that itself is a meaningful signal about the board's appetite for alternatives to direct layoffs.
+- **Board Member Smith's engagement.** Smith has been responsive on spending freeze classroom impacts. If there's any discussion of ongoing FY26 operational strain — supply gaps, substitute coverage, prep period losses — watch for whether Smith pushes administration for answers or defers. Smith is the best proxy for whether any board member will carry teacher concerns into the April 14 council workshop.
 
-- **Non-personnel reduction details for SPHS departments.** The headline RIF number gets the attention, but supply budget cuts, course section reductions, and extra-curricular staffing changes affect your daily work and your students. If the March 23 deck contained a non-personnel line for SPHS, ask whether it's been finalized.
+- **Whether the superintendent or board chair mentions June 9 referendum strategy.** The administration has an interest in framing the referendum as a simple yes/no on the proposed budget rather than a vote on whether to restore recalled positions. If that framing appears, Marcus should note it — because SPEA's referendum strategy depends entirely on whether the public understands that a yes vote on the current proposal still leaves 32 colleagues on recall.
 
-- **Who is absent from the March 30 meeting.** If a board member who asked hard questions at prior workshops is absent, procedural actions become easier to pass without scrutiny. Note attendance before the meeting convenes.
+- **Any language suggesting the $8.4M gap might shrink before April 14.** Attrition, retirement interest, grant announcements, or state aid revisions could all be cited. Do not accept optimistic projections at face value from an administration whose financial projections were built on repeat material weakness infrastructure. Ask for the source, the timeline, and whether the union has been independently briefed.
+
+- **Whether anyone — board member, administrator, or public commenter — raises the full combined household tax ask.** The 22% annual sewer increases, the November public safety bond, and the school referendum are all drawing from the same homeowners. If no one raises the cumulative burden question by the end of March 30, Marcus should prepare to raise it explicitly at April 7 — because the referendum math depends on voters not feeling already tapped out before they see the school ballot.

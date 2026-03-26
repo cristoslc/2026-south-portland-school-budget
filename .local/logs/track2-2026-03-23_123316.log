@@ -1,0 +1,16 @@
+=== Track 2 Cron — Mon Mar 23 12:33:16 EDT 2026 ===
+Project: /Users/cristos/Documents/projects/south-portland-school-budget-FY27
+Args: --pull --workers 4 --brief 2026-03-23 --publish --dry-run
+
+12:33:17 [INFO] poll_interpret — === Track 2 Polling Orchestrator (ADR-002) ===
+12:33:17 [INFO] poll_interpret — Date: 2026-03-23
+12:33:17 [INFO] poll_interpret — Workers: 4
+12:33:17 [INFO] poll_interpret — Mode: DRY RUN
+12:33:17 [INFO] poll_interpret — 
+12:33:17 [INFO] poll_interpret — --- Pulling latest ---
+12:33:17 [ERROR] poll_interpret — git pull failed: error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+Status: failure
+
+=== Done — Mon Mar 23 12:33:17 EDT 2026 ===

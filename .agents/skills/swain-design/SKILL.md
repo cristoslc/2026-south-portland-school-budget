@@ -31,7 +31,8 @@ Each artifact type has a definition file (lifecycle phases, conventions, folder 
 | Persona (PERSONA-NNN) | Archetypal user profile that informs journeys and specs. | [definition](references/persona-definition.md) | [template](references/persona-template.md.template) |
 | ADR (ADR-NNN) | Single architectural decision — context, choice, alternatives, and consequences (Nygard format). | [definition](references/adr-definition.md) | [template](references/adr-template.md.template) |
 | Runbook (RUNBOOK-NNN) | Step-by-step operational procedure (agentic or manual) with a defined trigger. | [definition](references/runbook-definition.md) | [template](references/runbook-template.md.template) |
-| Design (DESIGN-NNN) | UI/UX interaction design — wireframes, flows, and state diagrams for user-facing surfaces. | [definition](references/design-definition.md) | [template](references/design-template.md.template) |
+| Design (DESIGN-NNN) | Standing design document covering interaction (UI/UX), data architecture, or system contracts. Domain selected via `domain: interaction \| data \| system` frontmatter field. | [definition](references/design-definition.md) | [template](references/design-template.md.template) |
+| Training Document (TRAIN-NNN) | Structured learning material (how-to, reference, quickstart) that teaches humans how to use a feature or workflow. Tracks alongside source artifacts via commit-pinned `linked-artifacts` for staleness detection. | [definition](references/train-definition.md) | [template](references/train-template.md.template) |
 
 ## Choosing the right artifact type
 
@@ -45,6 +46,7 @@ When the user's request doesn't name a specific type, infer it from their intent
 | One implementation unit | **Spec** | "fix this", "add a flag", "refactor", "small change", "bug" |
 | Research question | **Spike** | "should we", "investigate", "compare options", "what's the best way" |
 | Record a decision | **ADR** | "decided to", "choosing between", "why did we" |
+| Create training or documentation | **Train** | "how-to guide", "tutorial", "reference doc", "onboarding", "walkthrough", "training material", "teach someone" |
 
 **Initiative vs Epic** — the key distinction:
 - **Initiative**: a *direction* with multiple deliverables. "Harden security" is an initiative — it spans scanning, gates, policies. The operator steers it.
@@ -64,7 +66,7 @@ When the operator asks to update a field on an existing artifact (e.g., "set VIS
 5. Commit the change
 
 **Common updates:**
-- `priority-weight` on Visions, Initiatives, and Epics — accepts `high`, `medium`, or `low`. Cascades: Vision → Initiative (can override) → Epic (can override) → Spec (inherits nearest). Affects downstream recommendation scoring and sibling sort order in `swain chart`.
+- `priority-weight` on Visions, Initiatives, Epics, and Specs — accepts `high`, `medium`, or `low`. Cascades: Vision → Initiative (can override) → Epic (can override) → Spec (can override). Affects downstream recommendation scoring and sibling sort order in `swain chart`.
 - `parent-initiative` on Epics and Specs — re-parents them under an Initiative. A Spec can have `parent-epic` OR `parent-initiative`, never both.
 - `parent-vision` on Initiatives — attaches to a Vision.
 
@@ -97,6 +99,7 @@ When fast-path applies, output: `[fast-path] Skipped: specwatch scan, scope chec
 
 1. Scan `docs/<type>/` (recursively, across all phase subdirectories) to determine the next available number for the prefix.
 2. **For VISION artifacts:** Before drafting, ask the user whether this is a **competitive product** or a **personal product**. The answer determines which template sections to include and shapes the entire downstream decomposition. See the vision definition for details on each product type.
+2a. **For DESIGN artifacts:** First, ask which domain this design covers: `interaction` (UI/UX — screens, flows, states), `data` (data architecture — entities, schemas, flows, invariants), or `system` (system contracts — API boundaries, behavioral guarantees, integration interfaces). Default to `interaction` if unclear. Then prompt for Design Intent content — Context (one sentence anchoring the design to its purpose), Goals (what experience or guarantee we're trying to create), Constraints (reviewable boundaries), and Non-goals (what we explicitly decided not to do). This section is write-once: it is set at creation and not updated as the mutable sections evolve. Use the domain-specific template sections from the DESIGN template.
 3. Read the artifact's definition file and template from the lookup table above.
 4. Create the artifact in the correct phase subdirectory. Create the phase directory with `mkdir -p` if it doesn't exist yet. See the definition file for the exact directory structure.
 5. Populate frontmatter with the required fields for the type (see the template).
@@ -104,11 +107,24 @@ When fast-path applies, output: `[fast-path] Skipped: specwatch scan, scope chec
    - **User-requested → `Active`**: if the user explicitly asked for this artifact (e.g., "new SPIKE about X", "write a spec for Y"), create it directly in `Active`. The user has already decided they want this work — `Proposed` adds no value.
    - **Agent-suggested → `Proposed`**: if the agent creates the artifact on its own initiative (e.g., suggesting a SPIKE while the user asked for an EPIC, decomposing a Vision into child Epics), create it in `Proposed`. The user hasn't explicitly committed — `Proposed` signals "here's what I recommend, please confirm."
    - **Fully developed in-session → later phase**: an artifact may be created directly in a later phase if it was fully developed during the conversation (see [Phase skipping](#phase-skipping)).
+6.5. **Hyperlink bare artifact ID references in body text** — after writing the artifact body, scan all text below the closing `---` frontmatter fence for bare artifact ID references matching the pattern `(SPEC|EPIC|INITIATIVE|VISION|SPIKE|ADR|PERSONA|RUNBOOK|DESIGN|JOURNEY|TRAIN)-[0-9]+`. For each bare ID that is:
+   - **not** already inside a markdown link (`[...](...)`), and
+   - **not** inside a code fence (`` ``` `` block) or inline code (`` ` ``backtick`` ` ``),
+
+   resolve it with:
+   ```bash
+   bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/resolve-artifact-link.sh' -print -quit 2>/dev/null)" <ARTIFACT-ID> <SOURCE-FILE>
+   ```
+   Replace the bare ID with `[ARTIFACT-ID](relative-path)`. If the script returns a non-zero exit code or empty output (artifact not found), leave the bare ID as-is — do not fail the operation. Frontmatter values must remain as plain IDs (YAML compatibility); only body text gets hyperlinks.
 7. Validate parent references exist (e.g., the Epic referenced by a new Agent Spec must already exist).
+7.5. **Same-type overlap check** — *(standing-track types only: DESIGN, Persona, Runbook)* scan `docs/<type>/Active/` for existing Active artifacts of the same type. Flag overlap if:
+   - The new artifact's `linked-artifacts` references another artifact of the **same type** — this is a direct supersession signal.
+   - The new artifact's scoping section (`Interaction Surface` for DESIGNs, `Trigger` for Runbooks, `Role` for Personas) describes a surface that overlaps with or subsumes an existing Active artifact's scope.
+   If overlap is detected, ask the operator: "This overlaps with `<EXISTING-ID>` (`<title>`). Does the new artifact supersede it?" If yes, transition the existing artifact to Superseded (set `superseded-by`, update status, move to `Superseded/` directory, add lifecycle entry) as part of the same operation.
 8. **ADR compliance check** — run `bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/adr-check.sh' -print -quit 2>/dev/null)" <artifact-path>`. Review any findings with the user before proceeding.
 8a. **Alignment check** — *(skip for fast-path tier)* run `bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/chart.sh' -print -quit 2>/dev/null)" scope <artifact-id>` and assess per [skills/swain-design/references/alignment-checking.md](skills/swain-design/references/alignment-checking.md). Report blocking findings (MISALIGNED); note advisory ones (SCOPE_LEAK, GOAL_DRIFT) without gating the operation.
 8b. **Unanchored check** — after validating parent references, check if the new artifact has a path to a Vision via parent edges. If not, warn: `⚠ No Vision ancestry — this artifact will appear as Unanchored in swain chart`. Offer to attach to an existing Initiative or Epic. Do not block creation.
-9. **Post-operation scan** — *(skip for fast-path tier)* run `bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/specwatch.sh' -print -quit 2>/dev/null)" scan`. Fix any stale references before committing.
+9. **Post-operation scan** — *(skip for fast-path tier)* run `bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/specwatch.sh' -print -quit 2>/dev/null)" scan`. This now also runs `design-check.sh` as part of the scan pipeline. Fix any stale references or design drift findings before committing.
 10. **Index refresh step** — *(skip for fast-path tier; batch refresh at session end via `rebuild-index.sh`)* update `list-<type>.md` (see [Index maintenance](#index-maintenance)).
 
 ## Superpowers integration
@@ -117,7 +133,9 @@ When superpowers is installed, the following chains are **mandatory** — invoke
 
 1. **Before creating Vision, Initiative, or Persona artifacts:** Invoke the `brainstorming` skill for Socratic exploration. Pass the artifact context (goals, audience, constraints). Capture brainstorming output into swain's artifact format with proper frontmatter and lifecycle table.
 
-2. **When a SPEC comes up for implementation:** Invoke `brainstorming` with the SPEC's acceptance criteria and scope. Brainstorming chains into `writing-plans` automatically. After `writing-plans` saves a plan file, invoke swain-do for plan ingestion.
+2. **When new feature work begins (brainstorming → artifacts → implementation):** Brainstorming explores the idea and produces a design doc. Brainstorming's terminal state is invoking **swain-design** to create formal artifacts (epic + specs). Then, for each SPEC coming up for implementation, invoke `writing-plans` per-spec. After `writing-plans` saves a plan file, invoke swain-do for plan ingestion. The chain is: brainstorming → **swain-design** → per-spec **writing-plans** → swain-do.
+
+2b. **When an existing SPEC comes up for implementation (no brainstorming needed):** Invoke `writing-plans` with the SPEC's acceptance criteria and scope. After `writing-plans` saves a plan file, invoke swain-do for plan ingestion.
 
 3. **For Testing → Implemented transitions:** Invoke `requesting-code-review` for spec compliance and code quality review (if the review skills are available).
 
@@ -129,6 +147,69 @@ Read [references/superpowers-integration.md](references/superpowers-integration.
 ## Phase transitions
 
 Phases are waypoints, not mandatory gates — artifacts may skip forward. Read [references/phase-transitions.md](references/phase-transitions.md) for phase skipping rules, the transition workflow (validate → move → commit → hash stamp), verification/review gates, and completion rules.
+
+### Supersession specwatch-ignore maintenance
+
+Whenever ANY artifact transitions to Superseded — whether via the phase transition workflow (step 5a in phase-transitions.md) or during artifact creation (same-type overlap detection) — append glob patterns to `.agents/specwatch-ignore` for the intentional backward references that the supersession creates. This prevents specwatch from flagging provenance links as warnings.
+
+1. Create `.agents/specwatch-ignore` if it doesn't exist.
+2. Append patterns for: (a) the superseded artifact path, (b) the superseding artifact path, (c) any ADR created as part of the same operation that references the superseded artifact.
+3. Each entry gets a comment: `# <OLD-ID> superseded by <NEW-ID> (<YYYY-MM-DD>)`.
+4. Deduplicate: skip patterns that already exist in the file.
+
+```
+# INITIATIVE-001 superseded by INITIATIVE-013 (2026-03-19)
+docs/initiative/Superseded/(INITIATIVE-001)*
+docs/initiative/Active/(INITIATIVE-013)*
+```
+
+This step runs **before** the back-reference update (step 5b) and specwatch scan (step 9 in the creation workflow, step 8 in phase-transitions.md) so the scan output is clean.
+
+### Back-reference update on supersession
+
+After specwatch-ignore maintenance (step 5a), update all non-terminal artifacts that reference the superseded artifact in frontmatter (`linked-artifacts`, `depends-on-artifacts`, `addresses`). See step 5b in [phase-transitions.md](references/phase-transitions.md) for the full procedure. Key points:
+
+- **Check alignment before updating** — supersession often changes scope. Read the referencing artifact's context and compare against the successor. If the relationship doesn't hold for the successor, flag it for the operator instead of silently repointing.
+- **Dedup** — if the successor is already in the list, remove the old entry instead of adding a duplicate.
+- **Commit message provenance** — record what changed (e.g., "update EPIC-031 linked-artifacts: INITIATIVE-001 → INITIATIVE-013") so git history preserves the original reference.
+- **Provenance links** from the superseding artifact itself go to specwatch-ignore, not rewritten.
+
+### DESIGN lifecycle hooks
+
+These hooks apply to DESIGN artifacts during phase transitions:
+
+**On DESIGN creation:**
+- Validate all `sourcecode-refs` paths exist at HEAD (if any are populated). Warn on broken paths before completing creation.
+
+**On Proposed → Active transition:**
+- Run `design-check.sh` on the DESIGN — all refs must be CURRENT.
+- If any are STALE or BROKEN, warn the operator before completing the transition. Do not silently proceed with stale refs.
+
+**On Active → Superseded transition:**
+- The new (superseding) DESIGN should inherit `sourcecode-refs` from the old DESIGN with fresh pins via `--repin`.
+
+### Decision protection hooks
+
+These hooks are agent-level behavioral guidance — they are not enforced by scripts but by the agent following this skill file.
+
+**SPEC Implementation transition:**
+When a SPEC transitions to Implementation and has a linked DESIGN (via either side's `linked-artifacts` or `artifact-refs`):
+- Surface the DESIGN's Design Intent section (Goals, Constraints, Non-goals) for alignment awareness. Present this to the operator so implementation stays within design boundaries.
+
+**SPEC completion:**
+When a SPEC completes and its implementation changed files tracked by a DESIGN's `sourcecode-refs`:
+- Cross-reference changed files (from the SPEC's commits) against active DESIGNs' `sourcecode-refs`.
+- If overlap is found: nudge the operator to update the DESIGN and re-pin via `design-check.sh --repin`.
+
+**Alignment cascading:**
+When an Epic has `artifact-refs` with `rel: [aligned]` pointing to a DESIGN:
+- When child SPECs are created or modified, check scope against the DESIGN's Constraints and Non-goals.
+- Traversal path: SPEC → parent EPIC → `artifact-refs` with `rel: [aligned]` → DESIGN → Design Intent.
+- Only surface violations — silent pass for aligned SPECs.
+
+**Design-to-code drift:**
+When a DESIGN's mutable sections are modified but `sourcecode-refs` blobs haven't changed:
+- Surface: "DESIGN-NNN evolved but tracked code hasn't caught up." Nudge the operator to reconcile.
 
 ## Trove integration
 

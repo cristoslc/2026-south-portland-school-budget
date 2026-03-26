@@ -1,11 +1,11 @@
 ---
 name: swain-release
-description: Cut a release — detect versioning context, generate a changelog from conventional commits, bump versions, and create a git tag. Use when the user says "release", "cut a release", "tag a release", "bump the version", "create a changelog", "ship a version", "publish", or any variation of shipping/publishing a version. This skill is intentionally generic and works across any repo — it infers context from git history and project structure rather than assuming a specific setup.
+description: Cut a release — detect versioning context, generate a changelog from conventional commits, bump versions, create a git tag, and optionally squash-merge to a release branch. Use when the user says "release", "cut a release", "tag a release", "bump the version", "create a changelog", "ship a version", "publish", or any variation of shipping/publishing a version. This skill is intentionally generic and works across any repo — it infers context from git history and project structure rather than assuming a specific setup. Supports the trunk+release branch model (ADR-013) when a `release` branch exists.
 license: UNLICENSED
 allowed-tools: Bash, Read, Write, Edit, Grep, Glob, AskUserQuestion
 metadata:
   short-description: Version bump, changelog, and git tag
-  version: 1.1.0
+  version: 1.5.0
   author: cristos
   source: swain
 ---
@@ -72,7 +72,7 @@ Present the user with a release plan before executing anything. Include:
 
 - **Current version** (from latest tag, or "first release")
 - **Proposed version** (with the detected bump applied)
-- **Changelog preview** (grouped by type — see below)
+- **Changelog preview** (thematic narrative — see step 4)
 - **Files to update** (version files found in step 1, if any)
 - **Tag to create** (using the detected format)
 
@@ -80,31 +80,65 @@ Wait for the user to confirm, adjust the version, or abort. If the user wants a 
 
 ### 4. Generate the changelog
 
-Group commits by conventional-commit type. Use clear, human-readable headings:
+**Synthesize, don't transcribe.** The changelog is for humans reading release notes, not for `git log --oneline` with extra steps. Dozens of commits should collapse into a few coherent narratives.
 
-```markdown
-## [1.5.0] - 2026-03-06
+Before writing, read the existing CHANGELOG.md (if any) to match the voice, density, and structure the project already uses. The changelog should read like the same person wrote every entry.
 
-### New Features
-- Add superpowers plan ingestion script (#SPEC-003)
-- Add superpowers detection and routing to swain-design (#SPEC-004)
+#### Template-driven changelog
 
-### Bug Fixes
-- Fix specwatch false positives on cross-directory refs
+The changelog is rendered from a Jinja2 template (`templates/changelog.md.j2`) fed by a JSON data file. This separates the bucketing decision (which section does a change belong in?) from the rendering (how does the markdown look?).
 
-### Documentation
-- Complete SPIKE-008 superpowers evaluation
-- Transition EPIC-009 to Complete
+**Step 4a — Classify commits into four buckets.** Each commit goes into exactly one:
 
-### Other Changes
-- Update list-epics.md and list-specs.md indexes
+| Bucket | What belongs here | What does NOT belong here |
+|--------|-------------------|--------------------------|
+| `features` | Shipped capability: new skills, CLI flags, scripts, bug fixes that change behavior, refactors that change UX | Planning artifacts that describe future work |
+| `roadmap` | Forward-looking previews of planned work — what's coming and why it matters to the user. Write as "X is being planned/designed because Y" not "SPEC-NNN created". Omit artifact IDs unless the reader would search for them. Skip items that are pure internal housekeeping. | Artifact state transitions ("EPIC activated", "SPEC created"), anything that shipped (that's features) |
+| `research` | Trove collections, spike completions, research artifacts, evidence gathered | Specs that resulted from research (those are roadmap) |
+| `supporting` | Chores, dependency bumps, cross-ref enrichment, minor refactors, CI changes | Anything that changes user-visible behavior (that's features) |
+
+The key distinction agents get wrong: **creating a SPEC or EPIC is a roadmap change, not a feature.** A feature is something the operator can use *today* because it shipped in this release. A SPEC is a plan for something that will ship *later*.
+
+**Roadmap anti-pattern:** "EPIC-029 activated with 3 child SPECs (SPEC-118, SPEC-119, SPEC-120)" is noise — it describes artifact state transitions that only matter to the project maintainer. Instead write: "Trunk detection is being generalized so swain works on any branch name without configuration." The reader should understand *what's coming and why they'd care*, not which internal tracking artifacts changed state.
+
+Omit mechanical commits entirely: merge commits, lifecycle hash stamps, index refreshes, bookmark advances.
+
+**Step 4b — Build the JSON data file.** Write a temporary JSON file with this structure:
+
+```json
+{
+  "version": "0.10.0-alpha",
+  "date": "2026-03-21",
+  "features": [
+    {"heading": "CLI Roadmap Renderer", "body": "chart.sh roadmap --cli produces deterministic, terminal-friendly\noutput grouped by Eisenhower quadrant with all first-degree children\nnested under their parent initiative. New swain-roadmap skill wraps\nit as the user-facing entry point: regenerate, open, display."},
+    {"text": "Dependency graph rendering switched to flowchart TD for clearer layout"}
+  ],
+  "roadmap": ["Session facilitation rebuild — rethinking how swain helps the operator maintain focus, make decisions, and recover context across sessions"],
+  "research": ["Google Stitch SDK trove — 7 sources collected"],
+  "supporting": ["Cross-reference enrichment across ~100 doc files"]
+}
 ```
 
-Conventions:
-- Strip the conventional-commit prefix from the summary line (readers don't need `feat:` when it's already under "New Features")
-- Keep entries concise — one line per commit, imperative mood
-- If a commit references an artifact ID (SPEC-003, EPIC-009, etc.), keep it
-- Commits that are purely mechanical (merge commits, hash stamps, index refreshes) can be grouped under "Other Changes" or omitted if the changelog would be cleaner without them — use judgment
+Feature and roadmap items use `{"heading": "Title", "body": "Narrative..."}` for major work (renders as `#### Title` with a narrative paragraph) or `{"text": "..."}` for smaller bullets. Roadmap items can also be plain strings for one-liners. Use headings when a topic has enough substance for a paragraph; use bullets for one-liners. Research and supporting sections are flat string arrays. Empty arrays are fine — the template omits empty sections.
+
+**Step 4c — Render.** Run the render script:
+
+```bash
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+uv run --with jinja2 python "$REPO_ROOT/skills/swain-release/scripts/render_changelog.py" /tmp/changelog_data.json
+```
+
+This prints the rendered markdown to stdout. Review it, then prepend to CHANGELOG.md.
+
+If jinja2 is unavailable, fall back to writing the markdown directly using the same four-section structure — the template encodes the format, not the only way to produce it.
+
+#### What to omit
+
+Merge commits, lifecycle hash stamps, index refreshes, bookmark advances, and other mechanical commits should be omitted entirely — they add noise without information. Commit-type prefixes (`feat:`, `fix:`) should be stripped from any text that makes it into the changelog.
+
+#### Use commit prefixes for bump detection, not changelog structure
+
+Conventional-commit types determine whether it's a major/minor/patch bump (step 2). After that, forget them — the changelog reader doesn't care that something was a `feat` vs `docs`.
 
 **Where to put the changelog:**
 - If a `CHANGELOG.md` exists, prepend the new section at the top (below any header)
@@ -121,6 +155,26 @@ Update version strings in the files identified in step 1. Be surgical — only c
 - **VERSION file**: replace contents
 
 If a file has multiple version-like strings and it's ambiguous which one to update, ask the user rather than guessing.
+
+### 5.5. Security gate
+
+Before tagging, run the security scanner to catch secrets, dependency vulnerabilities, and static analysis issues. Invoke the **swain-security-check** skill (or run the scanner script directly if the skill isn't available):
+
+```bash
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+SCANNER="$(find "$REPO_ROOT" -path '*/swain-security-check/scripts/security-scan.sh' -type f -print -quit 2>/dev/null)"
+if [[ -n "$SCANNER" ]]; then
+  bash "$SCANNER"
+fi
+```
+
+If any **critical** or **high** severity findings are reported, stop the release and present them to the user. The user can choose to:
+- Fix the issues and resume
+- Acknowledge the findings and proceed anyway (their call, not yours)
+
+Medium and lower findings should be reported but do not block the release.
+
+If the security scanner is not installed, note the gap and proceed — don't block on a missing tool.
 
 ### 6. Commit and tag
 
@@ -139,13 +193,50 @@ git tag -a <tag> -m "Release <tag>"
 
 Use the tag format detected in step 1 (or what the user specified).
 
-### 7. Offer to push
+### 6.5. Squash-merge to release branch
 
-Ask the user if they want to push the commit and tag:
+If a `release` branch exists (check with `git rev-parse --verify release 2>/dev/null`), squash-merge the current branch (trunk) into it:
 
 ```bash
-git push && git push --tags
+# Detect trunk branch dynamically (EPIC-029)
+REPO_ROOT=$(git rev-parse --show-toplevel)
+TRUNK=$(bash "$REPO_ROOT/scripts/swain-trunk.sh")
+CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+# Ensure we're on the trunk (development) branch
+if [ "$CURRENT_BRANCH" != "$TRUNK" ]; then
+  echo "Warning: not on $TRUNK ($CURRENT_BRANCH). Skipping release branch update."
+else
+  # Tag trunk first (lifecycle hashes must be reachable from trunk per ADR-012)
+  # Tag was already created in step 6
+
+  # Squash-merge trunk into release
+  git checkout release
+  git merge --squash "$TRUNK"
+  git commit -m "release: <tag>"
+
+  # Return to trunk
+  git checkout "$TRUNK"
+fi
 ```
+
+If no `release` branch exists, skip this step silently — the project hasn't adopted the trunk+release model yet.
+
+### 7. Offer to push
+
+Ask the user if they want to push. If a release branch was updated in step 6.5:
+
+```bash
+git push origin "$TRUNK" && git push origin release && git push origin <tag>
+```
+
+If no release branch exists, push as before:
+
+```bash
+git push && git push origin <tag>
+```
+
+Push only the specific tag — `git push --tags` tries to push every local tag and produces noisy rejections for tags that already exist on the remote.
 
 Don't push without asking — the user may want to review first, or they may have a CI pipeline that triggers on tags.
 

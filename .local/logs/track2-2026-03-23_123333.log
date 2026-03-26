@@ -1,0 +1,295 @@
+=== Track 2 Cron — Mon Mar 23 12:33:33 EDT 2026 ===
+Project: /Users/cristos/Documents/projects/south-portland-school-budget-FY27
+Stashing local changes...
+Saved working directory and index state On main: track2-cron auto-stash 2026-03-23_123333
+Args: --pull --workers 4 --brief 2026-03-23 --publish --dry-run
+
+12:33:34 [INFO] poll_interpret — === Track 2 Polling Orchestrator (ADR-002) ===
+12:33:34 [INFO] poll_interpret — Date: 2026-03-23
+12:33:34 [INFO] poll_interpret — Workers: 4
+12:33:34 [INFO] poll_interpret — Mode: DRY RUN
+12:33:34 [INFO] poll_interpret — 
+12:33:34 [INFO] poll_interpret — --- Pulling latest ---
+12:33:35 [INFO] poll_interpret —   Already up to date.
+12:33:35 [INFO] poll_interpret — 
+12:33:35 [INFO] poll_interpret — --- Detecting gaps ---
+12:33:35 [INFO] poll_interpret — Validated personas: 15
+12:33:35 [INFO] poll_interpret — Bundles: 21 total
+12:33:35 [INFO] poll_interpret — Needs interpretation: 0 meeting(s)
+12:33:35 [INFO] poll_interpret — Needs fold: 2 meeting(s)
+12:33:35 [INFO] poll_interpret —   2026-03-05-city-council
+12:33:35 [INFO] poll_interpret —   2026-03-10-city-council
+12:33:35 [INFO] poll_interpret — 
+12:33:35 [INFO] poll_interpret — --- Step 1: Interpretation — nothing to do ---
+12:33:35 [INFO] poll_interpret — 
+12:33:35 [INFO] poll_interpret — --- Step 2: Cumulative Fold ---
+12:33:35 [INFO] poll_interpret — Processing 2 meeting(s) in chronological order
+12:33:35 [INFO] poll_interpret — [2026-03-05-city-council] Folding...
+12:33:35 [INFO] poll_interpret —   Dispatching 15 persona(s) with 4 workers
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-001 --dry-run
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-002 --dry-run
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-003 --dry-run
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-004 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~26641
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~55639
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.17
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-005 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~25953
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~54120
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.16
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-006 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~25892
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~54095
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.16
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-007 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~26770
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~55992
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.17
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-008 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~26097
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~24952
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~25451
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~54538
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~52366
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~53424
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.16
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.16
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.16
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-009 --dry-run
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-010 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~32256
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-011 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~67058
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.20
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-012 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~27253
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~27820
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~29278
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~28897
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~56979
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~58091
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~61055
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~60377
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.17
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.17
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.18
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.18
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-013 --dry-run
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-014 --dry-run
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-015 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~48524
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~99965
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.30
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~28140
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~58784
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.18
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~25855
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~54046
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.16
+12:33:35 [INFO] poll_interpret — [2026-03-10-city-council] Folding...
+12:33:35 [INFO] poll_interpret —   Dispatching 15 persona(s) with 4 workers
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-001 --dry-run
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-002 --dry-run
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-003 --dry-run
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-004 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~26641
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~56303
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.17
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-005 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~26770
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~56481
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.17
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-006 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~25892
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~54466
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.16
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-007 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~25953
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~55050
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.17
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-008 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~24952
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~52804
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.16
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-009 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~25451
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~53762
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.16
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-010 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~26097
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~55015
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.17
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-011 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~32256
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~67963
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.20
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-012 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~27820
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~58475
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.18
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-013 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~28897
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~61083
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.18
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-014 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~27253
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~58183
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.17
+12:33:35 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-10-city-council --persona PERSONA-015 --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~29278
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~61717
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.19
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~48524
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~100116
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.30
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~25855
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~54402
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.16
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated summary input tokens: ~28140
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated total input tokens:   ~59120
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] fold_meeting — Estimated cost at $3/MTok input: ~$0.18
+12:33:35 [INFO] poll_interpret — 
+12:33:35 [INFO] poll_interpret — --- Step 3: Brief Generation ---
+12:33:35 [INFO] poll_interpret —   [exec] generate_briefs.py 2026-03-23 --force --dry-run
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] generate_briefs — Estimated cost at $3/MTok input: ~$0.33
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] generate_briefs —
+12:33:35 [INFO] poll_interpret —     12:33:35 [INFO] generate_briefs — Output directory: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/data/interpretation/briefs/2026-03-23
+12:33:35 [INFO] poll_interpret — 
+12:33:35 [INFO] poll_interpret — === Done ===
+12:33:35 [INFO] poll_interpret — All steps completed successfully
+
+Status: success
+
+--- Restoring stashed changes ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .agents/skills/swain-design/SKILL.md
+	modified:   .agents/skills/swain-design/references/alignment-checking.md
+	modified:   .agents/skills/swain-design/references/auditing.md
+	modified:   .agents/skills/swain-design/references/design-definition.md
+	modified:   .agents/skills/swain-design/references/design-template.md.template
+	modified:   .agents/skills/swain-design/references/epic-template.md.template
+	modified:   .agents/skills/swain-design/references/initiative-definition.md
+	modified:   .agents/skills/swain-design/references/initiative-template.md.template
+	modified:   .agents/skills/swain-design/references/phase-transitions.md
+	modified:   .agents/skills/swain-design/references/relationship-model.md
+	modified:   .agents/skills/swain-design/references/spec-definition.md
+	modified:   .agents/skills/swain-design/references/spec-template.md.template
+	modified:   .agents/skills/swain-design/references/specgraph-guide.md
+	modified:   .agents/skills/swain-design/references/vision-definition.md
+	modified:   .agents/skills/swain-design/scripts/chart_cli.py
+	modified:   .agents/skills/swain-design/scripts/rebuild-index.sh
+	modified:   .agents/skills/swain-design/scripts/specgraph.sh
+	modified:   .agents/skills/swain-design/scripts/specgraph/graph.py
+	modified:   .agents/skills/swain-design/scripts/specgraph/parser.py
+	modified:   .agents/skills/swain-design/scripts/specgraph/priority.py
+	modified:   .agents/skills/swain-design/scripts/specgraph/xref.py
+	modified:   .agents/skills/swain-design/scripts/specwatch.sh
+	modified:   .agents/skills/swain-design/scripts/tests/test_graph.py
+	modified:   .agents/skills/swain-design/scripts/tests/test_priority.py
+	modified:   .agents/skills/swain-dispatch/SKILL.md
+	modified:   .agents/skills/swain-do/SKILL.md
+	modified:   .agents/skills/swain-doctor/SKILL.md
+	modified:   .agents/skills/swain-doctor/references/runtime-checks.md
+	modified:   .agents/skills/swain-doctor/references/tool-availability.md
+	modified:   .agents/skills/swain-doctor/scripts/swain-preflight.sh
+	modified:   .agents/skills/swain-init/SKILL.md
+	modified:   .agents/skills/swain-keys/SKILL.md
+	modified:   .agents/skills/swain-keys/scripts/swain-keys.sh
+	modified:   .agents/skills/swain-release/SKILL.md
+	modified:   .agents/skills/swain-retro/SKILL.md
+	modified:   .agents/skills/swain-search/SKILL.md
+	modified:   .agents/skills/swain-security-check/SKILL.md
+	modified:   .agents/skills/swain-session/SKILL.md
+	modified:   .agents/skills/swain-session/scripts/swain-tab-name.sh
+	modified:   .agents/skills/swain-session/tests/test-tab-name.sh
+	modified:   .agents/skills/swain-stage/SKILL.md
+	modified:   .agents/skills/swain-stage/scripts/stage-status-hook.sh
+	modified:   .agents/skills/swain-status/SKILL.md
+	modified:   .agents/skills/swain-status/references/status-format.md
+	modified:   .agents/skills/swain-status/scripts/swain-status.sh
+	modified:   .agents/skills/swain-sync/SKILL.md
+	modified:   .agents/skills/swain/SKILL.md
+	modified:   .agents/skills/swain/scripts/swain-box
+	modified:   .agents/status-cache.json
+	modified:   .gitignore
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-001.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-002.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-003.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-004.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-005.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-006.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-007.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-008.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-009.md
+	modified:   data/interpretation/cumulative/PERSONA-001/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-003/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-004/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-005/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-006/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-009/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-010/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-011/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-012/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-013/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-014/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-015/summary.md
+	modified:   skills-lock.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.agents/skills/swain-design/frontmatter-contract.yaml
+	.agents/skills/swain-design/references/train-definition.md
+	.agents/skills/swain-design/references/train-template.md.template
+	.agents/skills/swain-design/scripts/design-check.sh
+	.agents/skills/swain-design/scripts/relink.sh
+	.agents/skills/swain-design/scripts/resolve-artifact-link.sh
+	.agents/skills/swain-design/scripts/specgraph/roadmap.py
+	.agents/skills/swain-design/scripts/specgraph/session_decisions.py
+	.agents/skills/swain-design/scripts/specgraph/session_roadmap.py
+	.agents/skills/swain-design/scripts/specgraph/tests/
+	.agents/skills/swain-design/scripts/test-relink.sh
+	.agents/skills/swain-design/scripts/test-resolve-artifact-link.sh
+	.agents/skills/swain-design/scripts/train-check.sh
+	.agents/skills/swain-design/templates/
+	.agents/skills/swain-doctor/references/initiative-migration.md
+	.agents/skills/swain-doctor/references/lifecycle-migration.md
+	.agents/skills/swain-doctor/references/worktree-detection.md
+	.agents/skills/swain-doctor/scripts/ssh-readiness.sh
+	.agents/skills/swain-doctor/tests/
+	.agents/skills/swain-keys/tests/
+	.agents/skills/swain-release/changelog-contract.yaml
+	.agents/skills/swain-release/scripts/
+	.agents/skills/swain-release/templates/
+	.agents/skills/swain-roadmap/
+	.agents/update-backup/2026-03-21/
+	.agents/update-backup/2026-03-22/
+	.claude/skills/swain-roadmap
+	.goose/skills/swain-roadmap
+	ROADMAP.md
+	assets/
+	data/interpretation/cumulative/PERSONA-001/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-002/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-003/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-004/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-005/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-006/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-007/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-008/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-009/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-010/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-011/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-012/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-013/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-014/2026-03-05.md
+	scripts/com.spbudget.track2.plist
+	scripts/track2-cron.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (225a0e915b533ea8b83e2909e9a25f0bb42b874b)
+
+=== Done — Mon Mar 23 12:33:36 EDT 2026 ===

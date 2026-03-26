@@ -7,7 +7,10 @@ status: {{ status | default("Proposed") }}
 author: {{ author }}
 created: {{ created_date }}
 last-updated: {{ last_updated_date }}
-parent-vision: VISION-{{ parent_vision_number }}
+parent-vision:
+{%- for vision in parent_visions %}
+  - VISION-{{ vision }}
+{%- endfor %}
 priority-weight: {{ priority_weight | default("") }}
 success-criteria:
 {%- for criterion in success_criteria %}
@@ -30,9 +33,17 @@ evidence-pool: {{ evidence_pool | default("") }}
 
 {{ strategic_focus | default("What direction is this initiative pursuing? What problem does it address and why now?") }}
 
+## Desired Outcomes
+
+{{ desired_outcomes | default("How does completing this initiative advance our personas toward their aspirations? What does the world look like for our stakeholders when this direction is fully realized?") }}
+
 ## Scope Boundaries
 
 {{ scope | default("What is in scope and what is explicitly out of scope.") }}
+
+## Tracks
+
+{{ tracks | default("Optional thematic groupings of child Epics. Use when the initiative has multiple parallel efforts worth distinguishing.") }}
 
 ## Child Epics
 

@@ -171,7 +171,7 @@ do_build() {
     track=$(get_field "$file" "track")
     if [ -z "$track" ]; then
       case "$atype" in
-        VISION|JOURNEY|PERSONA|ADR|RUNBOOK|DESIGN) track="standing" ;;
+        VISION|JOURNEY|PERSONA|ADR|RUNBOOK|DESIGN|TRAIN|RETRO) track="standing" ;;
         EPIC|SPIKE) track="container" ;;
         *) track="implementable" ;;
       esac
@@ -224,7 +224,7 @@ do_build() {
 
     # List-type relationship edges
     local list_field
-    for list_field in linked-artifacts validates; do
+    for list_field in linked-artifacts artifact-refs validates; do
       while IFS= read -r ref; do
         [ -z "$ref" ] && continue
         add_edge "$artifact" "$ref" "$list_field"

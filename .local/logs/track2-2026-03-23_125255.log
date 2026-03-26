@@ -1,0 +1,214 @@
+=== Track 2 Cron — Mon Mar 23 12:52:55 EDT 2026 ===
+Project: /Users/cristos/Documents/projects/south-portland-school-budget-FY27
+Stashing local changes...
+Saved working directory and index state On main: track2-cron auto-stash 2026-03-23_125255
+Args: --pull --workers 4 --brief 2026-03-23 --publish
+
+12:52:55 [INFO] poll_interpret — === Track 2 Polling Orchestrator (ADR-002) ===
+12:52:55 [INFO] poll_interpret — Date: 2026-03-23
+12:52:55 [INFO] poll_interpret — Workers: 4
+12:52:55 [INFO] poll_interpret — 
+12:52:55 [INFO] poll_interpret — --- Pulling latest ---
+12:52:56 [INFO] poll_interpret —   Already up to date.
+12:52:56 [INFO] poll_interpret — 
+12:52:56 [INFO] poll_interpret — --- Detecting gaps ---
+12:52:56 [INFO] poll_interpret — Validated personas: 15
+12:52:56 [INFO] poll_interpret — Bundles: 21 total
+12:52:56 [INFO] poll_interpret — Needs interpretation: 0 meeting(s)
+12:52:56 [INFO] poll_interpret — Needs fold: 2 meeting(s)
+12:52:56 [INFO] poll_interpret —   2026-03-05-city-council
+12:52:56 [INFO] poll_interpret —   2026-03-10-city-council
+12:52:56 [INFO] poll_interpret — 
+12:52:56 [INFO] poll_interpret — --- Step 1: Interpretation — nothing to do ---
+12:52:56 [INFO] poll_interpret — 
+12:52:56 [INFO] poll_interpret — --- Step 2: Cumulative Fold ---
+12:52:56 [INFO] poll_interpret — Processing 2 meeting(s) in chronological order
+12:52:56 [INFO] poll_interpret — [2026-03-05-city-council] Folding...
+12:52:56 [INFO] poll_interpret —   Dispatching 15 persona(s) with 4 workers
+12:52:56 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-001
+12:52:56 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-002
+12:52:56 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-003
+12:52:56 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-004
+12:57:42 [INFO] poll_interpret —     12:57:42 [INFO] fold_meeting — Skipped (no interp):0
+12:57:42 [INFO] poll_interpret —     12:57:42 [INFO] fold_meeting — Failed:             0
+12:57:42 [INFO] poll_interpret —     12:57:42 [INFO] fold_meeting — Total:              1 persona(s)
+12:57:42 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-005
+12:59:20 [INFO] poll_interpret —     12:59:20 [INFO] fold_meeting — Skipped (no interp):0
+12:59:20 [INFO] poll_interpret —     12:59:20 [INFO] fold_meeting — Failed:             0
+12:59:20 [INFO] poll_interpret —     12:59:20 [INFO] fold_meeting — Total:              1 persona(s)
+12:59:20 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-006
+13:00:02 [INFO] poll_interpret —     13:00:02 [INFO] fold_meeting — Skipped (no interp):0
+13:00:02 [INFO] poll_interpret —     13:00:02 [INFO] fold_meeting — Failed:             0
+13:00:02 [INFO] poll_interpret —     13:00:02 [INFO] fold_meeting — Total:              1 persona(s)
+13:00:02 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-007
+13:00:21 [INFO] poll_interpret —     13:00:21 [INFO] fold_meeting — Skipped (no interp):0
+13:00:21 [INFO] poll_interpret —     13:00:21 [INFO] fold_meeting — Failed:             0
+13:00:21 [INFO] poll_interpret —     13:00:21 [INFO] fold_meeting — Total:              1 persona(s)
+13:00:21 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-008
+13:04:18 [INFO] poll_interpret —     13:04:18 [INFO] fold_meeting — Skipped (no interp):0
+13:04:18 [INFO] poll_interpret —     13:04:18 [INFO] fold_meeting — Failed:             0
+13:04:18 [INFO] poll_interpret —     13:04:18 [INFO] fold_meeting — Total:              1 persona(s)
+13:04:18 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-009
+13:06:57 [INFO] poll_interpret —     13:06:57 [INFO] fold_meeting — Skipped (no interp):0
+13:06:57 [INFO] poll_interpret —     13:06:57 [INFO] fold_meeting — Failed:             0
+13:06:57 [INFO] poll_interpret —     13:06:57 [INFO] fold_meeting — Total:              1 persona(s)
+13:06:57 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-010
+13:07:11 [INFO] poll_interpret —     13:07:11 [INFO] fold_meeting — Skipped (no interp):0
+13:07:11 [INFO] poll_interpret —     13:07:11 [INFO] fold_meeting — Failed:             0
+13:07:11 [INFO] poll_interpret —     13:07:11 [INFO] fold_meeting — Total:              1 persona(s)
+13:07:11 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-011
+13:07:53 [INFO] poll_interpret —     13:07:53 [INFO] fold_meeting — Skipped (no interp):0
+13:07:53 [INFO] poll_interpret —     13:07:53 [INFO] fold_meeting — Failed:             0
+13:07:53 [INFO] poll_interpret —     13:07:53 [INFO] fold_meeting — Total:              1 persona(s)
+13:07:53 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-012
+13:11:54 [INFO] poll_interpret —     13:11:54 [INFO] fold_meeting — Skipped (no interp):0
+13:11:54 [INFO] poll_interpret —     13:11:54 [INFO] fold_meeting — Failed:             0
+13:11:54 [INFO] poll_interpret —     13:11:54 [INFO] fold_meeting — Total:              1 persona(s)
+13:11:54 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-013
+13:16:57 [ERROR] poll_interpret —   [timeout] fold_meeting.py exceeded 10-minute limit
+13:16:57 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-014
+13:16:57 [ERROR] poll_interpret —   [fail] Folding 2026-03-05-city-council PERSONA-010
+13:17:05 [INFO] poll_interpret —     13:17:05 [INFO] fold_meeting — Skipped (no interp):0
+13:17:05 [INFO] poll_interpret —     13:17:05 [INFO] fold_meeting — Failed:             0
+13:17:05 [INFO] poll_interpret —     13:17:05 [INFO] fold_meeting — Total:              1 persona(s)
+13:17:05 [INFO] poll_interpret —   [exec] fold_meeting.py 2026-03-05-city-council --persona PERSONA-015
+13:17:05 [INFO] poll_interpret —     13:17:05 [INFO] fold_meeting — Skipped (no interp):0
+13:17:05 [INFO] poll_interpret —     13:17:05 [INFO] fold_meeting — Failed:             0
+13:17:05 [INFO] poll_interpret —     13:17:05 [INFO] fold_meeting — Total:              1 persona(s)
+13:17:11 [ERROR] poll_interpret —   [timeout] fold_meeting.py exceeded 10-minute limit
+13:17:11 [ERROR] poll_interpret —   [fail] Folding 2026-03-05-city-council PERSONA-011
+13:18:15 [INFO] poll_interpret —     13:18:15 [INFO] fold_meeting — Skipped (no interp):0
+13:18:15 [INFO] poll_interpret —     13:18:15 [INFO] fold_meeting — Failed:             0
+13:18:15 [INFO] poll_interpret —     13:18:15 [INFO] fold_meeting — Total:              1 persona(s)
+13:23:57 [INFO] poll_interpret —     13:23:57 [INFO] fold_meeting — Skipped (no interp):0
+13:23:57 [INFO] poll_interpret —     13:23:57 [INFO] fold_meeting — Failed:             0
+13:23:57 [INFO] poll_interpret —     13:23:57 [INFO] fold_meeting — Total:              1 persona(s)
+13:23:57 [ERROR] poll_interpret — [2026-03-05-city-council] Fold failed — stopping fold chain (subsequent folds depend on this)
+13:23:57 [INFO] poll_interpret — 
+13:23:57 [INFO] poll_interpret — --- Step 3: Brief Generation ---
+13:23:57 [INFO] poll_interpret —   [exec] generate_briefs.py 2026-03-23 --force
+13:33:57 [ERROR] poll_interpret —   [timeout] generate_briefs.py exceeded 10-minute limit
+13:33:57 [INFO] poll_interpret — 
+13:33:57 [INFO] poll_interpret — === Done ===
+13:33:57 [WARNING] poll_interpret — Some steps failed — check output above
+
+Status: failure
+
+--- Restoring stashed changes ---
+error: Your local changes to the following files would be overwritten by merge:
+	data/interpretation/briefs/2026-03-23/PERSONA-001.md
+	data/interpretation/briefs/2026-03-23/PERSONA-002.md
+	data/interpretation/briefs/2026-03-23/PERSONA-003.md
+	data/interpretation/briefs/2026-03-23/PERSONA-004.md
+	data/interpretation/briefs/2026-03-23/PERSONA-005.md
+	data/interpretation/briefs/2026-03-23/PERSONA-006.md
+	data/interpretation/briefs/2026-03-23/PERSONA-007.md
+	data/interpretation/briefs/2026-03-23/PERSONA-008.md
+	data/interpretation/cumulative/PERSONA-001/summary.md
+	data/interpretation/cumulative/PERSONA-003/summary.md
+	data/interpretation/cumulative/PERSONA-004/summary.md
+	data/interpretation/cumulative/PERSONA-005/summary.md
+	data/interpretation/cumulative/PERSONA-006/summary.md
+	data/interpretation/cumulative/PERSONA-009/summary.md
+	data/interpretation/cumulative/PERSONA-012/summary.md
+	data/interpretation/cumulative/PERSONA-013/summary.md
+	data/interpretation/cumulative/PERSONA-014/summary.md
+Please commit your changes or stash them before you merge.
+Aborting
+data/interpretation/cumulative/PERSONA-001/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-002/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-003/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-004/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-005/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-006/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-007/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-008/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-009/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-010/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-011/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-012/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-013/2026-03-05.md already exists, no checkout
+data/interpretation/cumulative/PERSONA-014/2026-03-05.md already exists, no checkout
+error: could not restore untracked files from stash
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-001.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-002.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-003.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-004.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-005.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-006.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-007.md
+	modified:   data/interpretation/briefs/2026-03-23/PERSONA-008.md
+	modified:   data/interpretation/cumulative/PERSONA-001/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-002/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-003/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-004/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-005/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-006/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-007/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-008/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-009/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-012/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-013/summary.md
+	modified:   data/interpretation/cumulative/PERSONA-014/summary.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.agents/skills/swain-design/frontmatter-contract.yaml
+	.agents/skills/swain-design/references/train-definition.md
+	.agents/skills/swain-design/references/train-template.md.template
+	.agents/skills/swain-design/scripts/design-check.sh
+	.agents/skills/swain-design/scripts/relink.sh
+	.agents/skills/swain-design/scripts/resolve-artifact-link.sh
+	.agents/skills/swain-design/scripts/specgraph/roadmap.py
+	.agents/skills/swain-design/scripts/specgraph/session_decisions.py
+	.agents/skills/swain-design/scripts/specgraph/session_roadmap.py
+	.agents/skills/swain-design/scripts/specgraph/tests/
+	.agents/skills/swain-design/scripts/test-relink.sh
+	.agents/skills/swain-design/scripts/test-resolve-artifact-link.sh
+	.agents/skills/swain-design/scripts/train-check.sh
+	.agents/skills/swain-design/templates/
+	.agents/skills/swain-doctor/references/initiative-migration.md
+	.agents/skills/swain-doctor/references/lifecycle-migration.md
+	.agents/skills/swain-doctor/references/worktree-detection.md
+	.agents/skills/swain-doctor/scripts/ssh-readiness.sh
+	.agents/skills/swain-doctor/tests/
+	.agents/skills/swain-keys/tests/
+	.agents/skills/swain-release/changelog-contract.yaml
+	.agents/skills/swain-release/scripts/
+	.agents/skills/swain-release/templates/
+	.agents/skills/swain-roadmap/
+	.agents/update-backup/2026-03-21/
+	.agents/update-backup/2026-03-22/
+	.claude/skills/swain-roadmap
+	.goose/skills/swain-roadmap
+	.local/
+	ROADMAP.md
+	assets/
+	data/interpretation/cumulative/PERSONA-001/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-002/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-003/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-004/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-005/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-006/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-007/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-008/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-009/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-010/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-011/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-012/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-013/2026-03-05.md
+	data/interpretation/cumulative/PERSONA-014/2026-03-05.md
+	scripts/com.spbudget.track2.plist
+	scripts/track2-cron.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+The stash entry is kept in case you need it again.
+WARNING: stash pop failed — manual recovery needed (git stash list)
+
+=== Done — Mon Mar 23 13:33:58 EDT 2026 ===

@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.1.0] - 2026-03-25
+
+### Features
+
+#### Full-transcript briefings
+
+The brief generator now ingests complete meeting transcripts — including VTT timestamps — instead of silently truncating at 5K characters. The previous limit caused the LLM to hallucinate that votes and decisions were missing from the record when they were actually present in the source. The 2026-03-23 budget workshop (442K chars, 5+ hours) now loads in full, and all 17 briefs for 2026-03-30 have been regenerated with accurate information about what happened at the end of the meeting.
+
+#### Parallel brief generation
+
+The brief pipeline now runs LLM calls in batches of 3 instead of sequentially. A full 17-brief run completes in ~8.5 minutes (down from ~18). Progress logging shows batch start, per-brief completion with status, and running counts.
+- Cumulative persona summaries updated from the 2026-03-23 full reinterpretation (13 personas)
+
+### Supporting Changes
+- Swain skills updated to latest upstream (54 files across design, dispatch, do, doctor, init, keys, release, retro, search, security-check, session, stage, status, sync)
+- AGENTS.md and skills-lock.json refreshed
+
 ## 1.0.0 — 2026-03-25
 
 ### Features

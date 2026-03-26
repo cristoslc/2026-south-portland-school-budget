@@ -5,106 +5,99 @@ persona_name: "Maria"
 upcoming_meeting_date: "2026-03-30"
 generated_date: "2026-03-25"
 has_agenda: false
-last_cumulative_meeting: "2026-03-19"
-inter_meeting_evidence_count: 1
+last_cumulative_meeting: "2026-03-23"
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: Maria (PERSONA-001)
 ## Upcoming Meeting: 2026-03-30
 
-# Meeting Brief: Maria (PERSONA-001)
-**Upcoming Meeting: 2026-03-30**
-**Prepared: 2026-03-25**
-
----
-
 ## Since Last Meeting
 
-The most significant development since March 19 is the March 23 school board budget workshop, for which the administration prepared a formal presentation. Based on what is known about that deck, nine reconfiguration options have been narrowed to **two elementary closure options**. This is the single most consequential development for Maria since February 4.
+There are no new evidence events between the March 23 workshop and tonight's meeting. That silence is itself worth noting.
 
-**Why this matters to Maria specifically:** For weeks, she has been carrying the anxiety of not knowing which schools were actually on the chopping block. Nine options was paralyzing — it spread dread without giving her anything to organize around. Two options means specific buildings are now named, specific neighborhoods are now targeted, and the window for meaningful parent influence has narrowed dramatically. If the March 23 workshop produced a board-level signal or near-decision about which two options remain viable, Maria may walk into March 30 a full meeting behind on the most consequential piece of information affecting her child's school year.
+The absence of news means the administration has not released additional detail on Option A vs. Option B in the intervening week — no updated staffing models, no class-size projections by school, no transportation analysis, no before-care impact study. The board is being asked to vote on a reconfiguration that will displace hundreds of Kayler students into four remaining elementary schools, while the specific implications for those receiving schools remain unpublished.
 
-The deck reportedly also addressed personnel and non-personnel reductions at middle and high schools, and the session was framed as a decision-making workshop — not just informational. That framing matters: if the board treated March 23 as a decision point, March 30 may be the first public session after those decisions were effectively made. Maria has seen this pattern before and named it explicitly in her understanding — announcements that follow faits accomplis.
-
-**What the evidence does not tell her:** The actual content of the two options, which schools are named, which buildings would close or be repurposed, and what the class-size and staffing implications are for each. If that information was in the deck and she has not obtained it, she is going into March 30 with a material information gap.
+For Maria, this matters concretely: the pink slips went out March 18, before the board decided which option to pursue. Seventy-two employees now know they may lose their jobs, but the district has not told parents which classrooms those positions funded, which schools will absorb the most displaced children, or how either Option A or Option B changes class sizes at her child's specific school. A vote tonight without that information published in advance means the board is deciding before parents have had a meaningful chance to weigh in on the specifics.
 
 ---
 
 ## Open Questions
 
-Carrying into March 30, in Maria's voice:
+These are the threads Maria is carrying into tonight's vote:
 
-- **Which two options survived March 23, and which schools are actually named in them?** I've been waiting for this to get specific. If they narrowed it to two at a decision-making workshop and I still don't know which two, something is wrong with how information is getting out.
+- **Which option — A or B — is the administration actually recommending, and what does each one mean for MY child's school specifically?** The March 23 workshop narrowed it to two choices but didn't publish building-level projections for each.
 
-- **What did the board actually decide on March 23 — did they endorse one of the two options, or just narrow the field?** Was it a vote? A direction? A "staff recommendation"? There's a difference between "we're considering two options" and "we're recommending Option X."
+- **What are the class sizes going to be at each of the four remaining schools under each option?** Not averages — actual projected headcounts per classroom, per grade level.
 
-- **Do the two remaining options include or exclude my child's school?** This is the question I can't stop asking. I need a direct answer, not a slide with enrollment projections.
+- **Where are the Kayler kids going?** Which school absorbs how many displaced students, and at which grade levels? Has anyone modeled whether any classroom hits 25+ students as a result?
 
-- **What does the class size increase actually look like in the two surviving options — at every grade level, not just in aggregate?** They confirmed class sizes would go up. I want to know: how many more kids per classroom, in which grades, in which buildings?
+- **Who's going to handle behavioral needs when the reconfiguration creates its biggest disruption — the week school starts in September — and there is literally no full-time behavioral strategist left?** The person whose job was to absorb transition chaos is the person who was cut.
 
-- **Will there be genuine public comment at the April 14 workshop, or is that another presentation where parents sit and watch?** The May 5 council vote is five weeks away. If April 14 is the last real input point, it has to actually be an input point.
+- **What happens to kids on IEPs when the ed techs supporting them are gone?** Sixteen educational technicians are on the elimination list. These are not interchangeable positions. Some of those techs are supporting specific kids with legal service obligations. Where is the plan?
 
-- **How many of the 42 teacher eliminations fall specifically at elementary schools, and does the answer change depending on which of the two options the board chooses?** Pink slips went out March 18. I want to know which ones are in my child's building.
+- **What are the transportation logistics for families with kids at different grade-band levels?** If I have a kindergartner at one primary school and a third-grader at a different intermediate school with a different arrival time, how does that work? Who pays for extended care if the times don't align?
 
-- **Are the 72 layoff notices tied to a specific reconfiguration scenario, or do they represent the maximum possible cut — and if the board chooses a different option, does anyone get their notice rescinded?** Because those are real people. Those are the people who know my kid's name.
+- **The pink slips went out before tonight's vote. Does that mean the decision is already made regardless of what happens in the public comment session?**
 
-- **Is September 2026 implementation actually achievable?** We are seven weeks from a council vote, reconfiguration hasn't been finalized, and transportation routes haven't been planned. Who is accountable for the implementation calendar?
+- **What is the $8.4M figure actually based on?** The deficit grew from $7.2M to $8.4M between February and March 19. Where did the extra $1.2M come from — was it the current-year overage absorbed into next year's gap, or something else entirely?
 
-- **What happened to the question about central office overhead?** The per-pupil spending is $26,651 — the highest among comparable districts — and I keep hearing about teacher cuts. Nobody has explained in plain language why classroom positions are being eliminated before central office positions.
-
-- **Will the immigrant families whose children are absent right now be counted in any enrollment model the board uses to justify reconfiguration?** If those 80-plus families are scared out of classrooms and then enrollment comes in low in September because they left the district, was reconfiguration actually necessary or did we create the problem we claimed to be solving?
+- **Will any of the 42 teacher eliminations fall at my child's school, and when is the principal going to communicate that to us directly?**
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for the March 30 meeting. Based on Maria's cumulative state and the March 23 workshop, here is what she should be prepared for:
+No agenda has been published for the March 30 meeting. Based on the locked timeline, tonight is the scheduled board vote on reconfiguration — the single most consequential formal action in this entire budget season for elementary families.
 
-**Most likely topics:**
+**What is likely to come before the board:**
 
-**1. Reconfiguration follow-through from March 23.** The March 23 workshop was framed as a decision-making session with two specific elementary closure options on the table. March 30 may function as a ratification, a clarification, or a next-step vote. Maria should treat this as possibly the last session before the board's April 14 workshop finalizes the recommendation heading to a May 5 council vote.
+The board will almost certainly take up the Option A vs. Option B vote tonight. The administration's recommendation — Kayler closure as the common element, with the binary choice between options determining which building serves which grade band — was formally presented March 23. Tonight is when the board either ratifies that recommendation, modifies it, or defers it. Given the timeline (April 7 public hearing, April 14 workshop, May 5 council vote), deferral beyond tonight would compress everything downstream.
 
-- *What this means for Maria:* If a preference or recommendation emerged from March 23, it may be formalized March 30. She needs to know before she walks in which two options are live, or she will be responding to information in real time at the meeting rather than coming prepared.
-- *What to listen for:* Any language around "the administration recommends," "the board has directed," or "we are moving forward with" — phrases that signal a decision has already been made and is being confirmed rather than deliberated.
-- *Questions to prepare:* "Can the administration confirm which two options are being evaluated going into April 14?" / "Will there be a formal public comment period on the specific options before the board votes?" / "When will transportation and staffing plans for each option be presented to parents?"
+**What Maria should listen for:**
 
-**2. Staffing and layoff specifics.** With 72 notices already issued, March 30 may include an update on which positions are confirmed eliminated versus which remain contingent on the reconfiguration option chosen.
+- Whether the board votes on the full reconfiguration recommendation or separates the Kayler closure vote from the Option A/B choice. A split vote would signal internal disagreement and open a window.
+- Whether any board member asks for the transportation and before-care impact study before voting. If no one asks, that tells Maria the board is prepared to decide without it.
+- Whether Feller raises the tax ceiling question again. At the February 9 meeting Feller opened the possibility of exceeding the 6% ceiling. If that thread resurfaces tonight, it changes the math on how deep the staffing cuts need to run.
+- Whether public comment is allowed before the vote or only after. Placement matters — comment after the vote is theater.
 
-- *What this means for Maria:* She needs building-level and grade-level specifics — not a total headcount. "42 teachers" is not actionable. "Two K–2 teachers and the music specialist at X school" is.
-- *What to listen for:* Any breakdown of the 72 notices by school, grade, or role type — especially whether elementary specialist positions (art, music, PE) are included or protected.
-- *Questions to prepare:* "How many of the 72 notices went to elementary classroom teachers versus support staff versus administrators?" / "Are specialist teacher positions (art, music, PE) included in the proposed eliminations?"
+**What questions Maria should prepare:**
 
-**3. Financial framing ahead of April 14.** The $8.4M deficit figure needs to be reconciled against the reconfiguration savings ($2M estimated) and any other savings categories, since the math doesn't close with reconfiguration alone.
+1. *"Before the board votes, can you show us the projected class sizes at each of the four receiving schools under Option A and under Option B, at each grade level, after Kayler students are redistributed?"*
 
-- *What this means for Maria:* She has been carrying the concern that the district could both reconfigure and still need a tax increase above 6% — disruption without savings. March 30 may be a moment to pressure-test whether the two surviving options actually close the gap.
-- *What to listen for:* Any updated gap figure, any mention of the tax increase floor being revised upward, or any acknowledgment that cuts beyond reconfiguration are still on the table.
-- *Questions to prepare:* "Does either of the two reconfiguration options close the full $8.4M gap, or are additional cuts still required?" / "If the council holds guidance at 4–5%, what is the residual gap after reconfiguration?"
+2. *"The behavioral strategist position has been eliminated, leaving no full-time position. Can you explain what the transition plan is for September, specifically for Kayler students who have existing behavioral support plans?"*
 
-**4. Implementation and transition planning.** September 2026 is five months away. If no reconfiguration option has been formalized and transportation routes have not been planned, parents are entitled to know the implementation calendar.
+3. *"Seventy-two pink slips were issued before this vote. Do those notifications assume a specific option, or the maximum possible elimination? If the board votes Option B tonight, will some of those employees get their jobs back?"*
 
-- *What to listen for:* Any admission that September 2026 may not be achievable, or conversely, any specific implementation milestones being committed to.
-- *Questions to prepare:* "What is the latest date by which the board must select a reconfiguration option in order to implement it by September 2026?" / "When will families receive specific information about which school their child will attend in the fall?"
+4. *"When will principals communicate to their school communities which specific positions are being eliminated and what that means for class sizes and specialist hours at their building?"*
 
 ---
 
 ## Watch For
 
-- **The phrase "the two options under consideration"** — if board members or administrators refer to specific buildings by name without formally introducing them as new information, that's a signal the March 23 workshop produced a recommendation that has not been publicly surfaced. Ask directly which options are being referenced.
+**Procedural and structural signals:**
 
-- **Whether the board takes a formal vote on reconfiguration direction.** Maria has learned that unanimous board votes on consequential matters can happen fast and without warning. If an action item appears on the agenda that wasn't announced in advance, it may be a reconfiguration vote dressed as a procedural item.
+- **Public comment timing.** If the board places public comment after rather than before the vote, that is a deliberate procedural choice. Maria should note it explicitly in whatever she shares with her parent network afterward — it is evidence for the pattern she has been tracking since December that input is absorbed without effect.
 
-- **Superintendent vacancy and interim leadership.** Decisions of this magnitude — reconfiguration, mass layoffs, September implementation — are being made without a permanent superintendent. If there's any update on the search or on interim authority, Maria should note who is actually accountable for execution.
+- **Whether the vote is a clean up-or-down or whether any board member moves to table pending the transportation and before-care study.** A motion to table would be the first procedurally meaningful response to an open question the board has been carrying since February 4. Watch who makes it, who seconds it, and who votes against it.
 
-- **DeAngelis's framing of public input.** At prior meetings, the chair has used language like "the community has been heard" as a transition away from further discussion. If Maria hears that framing on March 30, it is a signal that the input window is being formally closed before April 14.
+- **Whether the administration presents any new building-level detail tonight that was not in the March 23 workshop materials.** If projections appear for the first time at the vote meeting, families had no advance opportunity to review them. That matters.
 
-- **Board member Feller.** He has been the sole voice raising the possibility of a tax increase above 6% as an alternative to "draconian" cuts. If he speaks on March 30, listen for whether he continues that argument or has aligned with the reconfiguration majority. A Feller reversal would signal the board has closed ranks.
+**Board member positions to track:**
 
-- **Any mention of the $8.4M figure versus the $7.2M figure.** The discrepancy between these two numbers — $1.2M unexplained — has never been resolved in a public session. If a presentation uses one figure without reconciling the other, ask which is the operative budget gap heading into April 14.
+- **Feller** — The one board member who raised the possibility of exceeding the council's tax ceiling. Watch whether Feller presses for more information before voting or whether that thread has gone quiet. If Feller votes yes on reconfiguration without reviving the tax question, it means the tax ceiling is effectively locked and the staffing cuts are the only lever left.
+- **Richardson, Rich, and Smith** — All three voted in lockstep advancing reconfiguration in March despite near-unanimous parent opposition. Watch their body language during public comment: whether they are engaged or waiting it out.
 
-- **Specialist teacher language.** If the board or administration discusses elementary staffing without specifically naming art, music, and PE positions, Maria should name them explicitly in public comment. These positions are typically eliminated quietly and treated as non-core in budget presentations.
+**Specific content to track:**
 
-- **Any mention of the Mahoney building in the reconfiguration context.** This thread was briefly opened in February and never developed. If Mahoney re-enters the discussion as a potential reconfiguration site, that would materially change the calculus for which elementary buildings are at risk.
+- Any mention of September 2026 transition planning for Kayler's displaced students — especially whether any behavioral or MTSS bridge plan has been developed. If this is not mentioned at all tonight, that is an important signal. The absence of a plan at the vote meeting means it will not exist until after the decision is locked.
 
-- **Whether immigrant enrollment data appears in any reconfiguration or financial presentation.** Councilor Scott explicitly connected immigrant family retention to enrollment math in a public vote on March 10. If the board's reconfiguration modeling still treats that enrollment as lost rather than recoverable, the numbers are baked on a premise Maria and others have publicly challenged.
+- Any specific language about which ed tech and MTSS positions are tied to which buildings and which students. The pink slips are issued but the positions are not yet publicly mapped. If tonight's materials assign eliminations to specific schools, Maria needs to record those numbers.
 
-- **Tone from Richardson, Rich, and Smith.** These three have voted in lockstep throughout. Any divergence — a question, a hesitation, a request for more data before voting — would be the first signal of board fracture since February. Silence means lock-step continues.
+- Any mention of the $8.4M vs. $7.2M discrepancy. If the board votes on a budget built around $8.4M without explaining the $1.2M growth, the source of that gap matters for every future conversation about whether there are alternatives.
+
+- **Watch for any motion to condition the vote** — for example, a board member proposing to vote yes on Kayler closure but only on condition that transportation and before-care impacts are published before the April 7 public hearing. That kind of conditional language, even if it fails, tells Maria which board members are tracking the same concerns she is.
+
+**What silence means:**
+
+If the board votes tonight with no published class-size projections, no behavioral transition plan, and no transportation impact study — and public comment produces no modification — Maria should treat that as the moment the September school configuration became functionally decided without the information families needed to meaningfully weigh in. That is the evidence she will want documented for the April 7 public hearing.

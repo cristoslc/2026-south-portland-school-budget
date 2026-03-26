@@ -44,10 +44,9 @@ Collect evidence of what happened during the work period.
 # Get the EPIC and its children
 bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/chart.sh' -print -quit 2>/dev/null)" deps <EPIC-ID>
 
-# Get closed tasks linked to child specs
-TK_BIN="$(cd skills/swain-do/bin && pwd)"
-export PATH="$TK_BIN:$PATH"
-ticket-query '.status == "closed"' 2>/dev/null | grep -l "<EPIC-ID>\|<SPEC-IDs>"
+# Session log — the primary evidence source for retros (ADR-015)
+# Contains decisions, pivots, rationale, and operator feedback
+cat .agents/session.json 2>/dev/null | grep -i "<EPIC-ID>\|<SPEC-IDs>"
 ```
 
 Also read:
@@ -56,16 +55,16 @@ Also read:
 - Any ADRs created during the work
 - Git log for commits between EPIC activation and completion dates
 
+**Note (ADR-015):** Do not use tickets (`tk` / `.tickets/`) as retro evidence. Tickets are ephemeral execution scaffolding — they record task status, not decisions or rationale. The session log (`.agents/session.json` JSONL) captures the actual conversation: what was tried, what pivoted, why, and what the operator said. Build the retro narrative from session logs and git history.
+
 ### For manual (unscoped) retros
 
 ```bash
 # Recent git activity
 git log --oneline --since="1 week ago" --no-merges
 
-# Recently closed tasks
-TK_BIN="$(cd skills/swain-do/bin && pwd)"
-export PATH="$TK_BIN:$PATH"
-ticket-query '.status == "closed"' 2>/dev/null | head -20
+# Session log — primary evidence source (ADR-015)
+cat .agents/session.json 2>/dev/null | tail -100
 
 # Recently transitioned artifacts
 bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/chart.sh' -print -quit 2>/dev/null)" status 2>/dev/null
@@ -175,6 +174,7 @@ Append a `## Retrospective` section to the EPIC markdown file, **before** the `#
 
 **Terminal state:** {Complete | Abandoned | Superseded}
 **Period:** {activation date} — {terminal date}
+**Related artifacts:** {SPEC-NNN}, {SPEC-NNN}, ...
 
 ### Summary
 
@@ -192,6 +192,8 @@ Append a `## Retrospective` section to the EPIC markdown file, **before** the `#
 | project_retro_y.md | project | ... |
 ```
 
+Hyperlink the artifact IDs in `Related artifacts` using Step 4.5.
+
 ### Cross-epic / time-based: standalone retro doc (required)
 
 For manual retros not scoped to a single EPIC, a standalone doc is **required** — no single artifact owns the scope.
@@ -203,11 +205,21 @@ mkdir -p docs/swain-retro
 File: `docs/swain-retro/YYYY-MM-DD-{topic-slug}.md`
 
 ```markdown
-# Retro: {title}
+---
+title: "Retro: {title}"
+artifact: RETRO-{YYYY-MM-DD}-{topic-slug}
+track: standing
+status: Active
+created: {YYYY-MM-DD}
+last-updated: {YYYY-MM-DD}
+scope: "{description of what's covered}"
+period: "{start} — {end}"
+linked-artifacts:
+  - {ARTIFACT-ID-1}
+  - {ARTIFACT-ID-2}
+---
 
-**Date:** {YYYY-MM-DD}
-**Scope:** {description of what's covered}
-**Period:** {start} — {end}
+# Retro: {title}
 
 ## Summary
 
@@ -240,6 +252,17 @@ File: `docs/swain-retro/YYYY-MM-DD-{topic-slug}.md`
 | feedback_retro_x.md | feedback | ... |
 | project_retro_y.md | project | ... |
 ```
+
+## Step 4.5 — Hyperlink artifact references
+
+After writing the retro output (standalone doc or embedded EPIC section), scan all body text for bare artifact ID references matching `(SPEC|EPIC|INITIATIVE|VISION|SPIKE|ADR|PERSONA|RUNBOOK|DESIGN|JOURNEY|TRAIN)-[0-9]+`. For each bare ID not already inside a markdown link or code fence, resolve and replace:
+
+```bash
+RESOLVE="$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/resolve-artifact-link.sh' -print -quit 2>/dev/null)"
+bash "$RESOLVE" <ARTIFACT-ID> <RETRO-FILE>
+```
+
+Replace bare IDs with `[ARTIFACT-ID](relative-path)`. If the script returns non-zero or empty output (artifact not found), leave the bare ID as-is. Frontmatter `related-artifacts` values stay as plain IDs (YAML compatibility).
 
 ## Step 5 — Update session bookmark
 

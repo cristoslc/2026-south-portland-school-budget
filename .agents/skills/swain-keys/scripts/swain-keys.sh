@@ -18,6 +18,11 @@ warn()  { echo "WARN: $*" >&2; }
 ok()    { echo "OK: $*"; }
 skip()  { echo "SKIP: $*"; }
 
+# Check whether gh CLI is available AND authenticated
+gh_is_authed() {
+  command -v gh &>/dev/null && gh auth status &>/dev/null
+}
+
 # --- Derive project name ---
 
 derive_project_name() {
@@ -39,6 +44,12 @@ get_git_email() {
   git config user.email 2>/dev/null || git config --global user.email 2>/dev/null || die "No git user.email configured (local or global)"
 }
 
+get_git_email_or_placeholder() {
+  local email
+  email="$(git config user.email 2>/dev/null || git config --global user.email 2>/dev/null || true)"
+  echo "${email:-"(not set)"}"
+}
+
 # --- Step implementations ---
 
 step_generate_key() {
@@ -47,6 +58,7 @@ step_generate_key() {
     skip "Key already exists: $key_path"
     return 0
   fi
+  mkdir -p "$(dirname "$key_path")"
   info "Generating ed25519 key: $key_path"
   ssh-keygen -t ed25519 -f "$key_path" -N "" -C "swain-keys:${PROJECT_NAME}" -q
   ok "Key generated: $key_path"
@@ -73,8 +85,8 @@ step_create_allowed_signers() {
 step_add_key_to_github() {
   local pub_key_path="$1" key_title="$2" key_type="$3"
 
-  if ! command -v gh &>/dev/null; then
-    warn "gh CLI not found — skipping GitHub key registration for type '$key_type'"
+  if ! gh_is_authed; then
+    warn "gh CLI not authenticated — skipping GitHub key registration for type '$key_type'"
     return 1
   fi
 
@@ -115,9 +127,13 @@ step_create_ssh_config() {
   mkdir -p "$config_dir"
 
   if [[ -f "$config_path" ]]; then
-    if grep -qF "$host_alias" "$config_path" 2>/dev/null; then
+    if grep -qF "$host_alias" "$config_path" 2>/dev/null \
+      && grep -qF "HostName ssh.github.com" "$config_path" 2>/dev/null \
+      && grep -qF "Port 443" "$config_path" 2>/dev/null; then
       skip "SSH config already exists: $config_path"
       return 0
+    elif grep -qF "$host_alias" "$config_path" 2>/dev/null; then
+      info "Migrating SSH config to ssh.github.com:443: $config_path"
     fi
   fi
 
@@ -125,7 +141,8 @@ step_create_ssh_config() {
   cat > "$config_path" <<SSHEOF
 # swain-keys: per-project SSH config for ${project}
 Host ${host_alias}
-  HostName github.com
+  HostName ssh.github.com
+  Port 443
   User git
   IdentityFile ${key_path}
   IdentitiesOnly yes
@@ -170,15 +187,6 @@ step_update_remote_url() {
   if echo "$current_url" | grep -qF "$host_alias"; then
     skip "Remote URL already uses host alias: $current_url"
     return 0
-  fi
-
-  # If remote is HTTPS and gh CLI handles auth, keep HTTPS.
-  # Commit signing works independently of the transport protocol.
-  if echo "$current_url" | grep -q "^https://"; then
-    if command -v gh &>/dev/null && gh auth status &>/dev/null; then
-      skip "Remote uses HTTPS with gh credential helper — keeping HTTPS (signing works independently)"
-      return 0
-    fi
   fi
 
   # Extract owner/repo from HTTPS or SSH URL
@@ -291,7 +299,7 @@ cmd_status() {
   local project email key_path pub_key_path signers_path config_path host_alias
 
   project="$(derive_project_name)"
-  email="$(get_git_email 2>/dev/null || echo "(not set)")"
+  email="$(get_git_email_or_placeholder)"
   key_path="$HOME/.ssh/${project}_signing"
   pub_key_path="${key_path}.pub"
   signers_path="$HOME/.ssh/allowed_signers_${project}"
@@ -333,7 +341,7 @@ cmd_status() {
   echo ""
 
   # Check GitHub key registration
-  if command -v gh &>/dev/null; then
+  if gh_is_authed; then
     echo "GitHub keys:"
     local gh_keys
     gh_keys="$(gh ssh-key list 2>/dev/null || echo "(could not list)")"
@@ -349,7 +357,11 @@ cmd_status() {
       echo "  (no local key to check)"
     fi
   else
-    echo "GitHub keys:      (gh CLI not available)"
+    echo "GitHub keys:      (gh CLI not authenticated)"
+    if [[ -f "$pub_key_path" ]]; then
+      echo "  To register manually: https://github.com/settings/ssh/new"
+      echo "  Public key: $(cat "$pub_key_path")"
+    fi
   fi
 }
 
@@ -402,17 +414,33 @@ cmd_provision() {
 
   # Step 7: Verify
   echo "--- Verification ---"
-  step_verify_connectivity "$host_alias" || had_errors=true
   step_verify_signing || had_errors=true
+
+  # Only test SSH connectivity if keys were registered on GitHub
+  if [[ "$gh_auth_ok" == true ]]; then
+    step_verify_connectivity "$host_alias" || had_errors=true
+  else
+    info "Skipping SSH connectivity check — key not yet registered on GitHub"
+  fi
   echo ""
+
   echo "NOTE: GitHub signing verification requires a signed commit to be pushed."
   echo "Run 'swain-keys.sh --verify' after your next push to confirm Verified status."
   echo ""
 
   if [[ "$gh_auth_ok" == false ]]; then
-    echo "ACTION NEEDED: Some GitHub key registrations failed."
-    echo "Run:  gh auth refresh -s admin:public_key,admin:ssh_signing_key"
-    echo "Then: bash $0 --provision   (re-run is safe — idempotent)"
+    echo "ACTION NEEDED: Key not registered on GitHub (gh CLI not authenticated)."
+    echo ""
+    echo "Add this public key to GitHub for both authentication and signing:"
+    echo "  https://github.com/settings/ssh/new"
+    echo ""
+    echo "Public key:"
+    cat "$pub_key_path"
+    echo ""
+    echo "Or, if gh becomes available later:"
+    echo "  gh auth login && bash $0 --provision"
+    echo ""
+    echo "SSH push/pull will not work until the key is registered."
   fi
 
   if [[ "$had_errors" == true ]]; then

@@ -4,71 +4,79 @@ brief_type: "general"
 brief_mode: "upcoming"
 generated_date: "2026-03-25"
 has_agenda: false
-inter_meeting_evidence_count: 1
+inter_meeting_evidence_count: 0
 upcoming_meeting_date: "2026-03-30"
 ---
 
 # General Upcoming Briefing
 ## Upcoming Meeting: 2026-03-30
 
+# South Portland School Board — Public Briefing
+**Meeting:** Budget Workshop II — March 30, 2026
+**Prepared for:** General Community Members
+*No agenda has been posted as of this briefing. Likely items are inferred from unfinished business at the March 23 workshop and the statutory deadline the board is working against.*
+
+---
+
 ## Since Last Meeting
 
-On March 23, 2026, the South Portland School Board held a more than five-hour budget workshop and special meeting — the most detailed public presentation of the FY27 budget to date. Here is what the evidence shows happened:
+The March 23, 2026 Budget Workshop ran for more than five hours and covered the full proposed FY27 school budget from end to end. Three formal votes were scheduled on the meeting's Special Meeting agenda — on school closure, on elementary grade reorganization, and on adopting the budget to send to City Council — but none were taken before the meeting adjourned around 11:15 PM. All three items carry forward unresolved to March 30.
 
-**The full budget proposal was laid out publicly.** Finance Director Abigail Ketchem (the seventh finance director in six years) presented a proposed total budget of approximately $75.85 million — a 3.3% overall increase, but one that holds the local property tax increase to exactly 6%, which works out to roughly $257 more per year for the owner of an average South Portland home. Non-tax revenue fell sharply because the district no longer has savings to draw on, as it did in prior years.
-
-**The root causes were named plainly.** The finance director described a years-long misalignment between declining enrollment, staffing levels that didn't come down, COVID relief funding that masked the problem, and the absence of a minimum fund-balance policy. Leadership instability — including superintendent turnover and six finance directors in six years — made sustained financial planning impossible. She was explicit: FY27 resets the path but does not solve the underlying problems.
-
-**Kayler Elementary was recommended for closure.** After analyzing all five elementary schools across six categories (including safety, building capacity, facility costs, and student demographics), the leadership team recommended closing Kayler. The school is at the end of a dead-end street with limited evacuation options, and closing it frees up approximately $378,000 in building costs. If no school is closed, the district estimates 12 to 16 additional positions would need to be cut to balance the budget.
-
-**Two options for the remaining four elementary schools were presented.** Option A is a grade-span reconfiguration: two "primary" schools serving pre-K through first grade (Dyer and Small) and two "intermediate" schools serving grades 2 through 4 (Brown and Skillen). Option B keeps each of the four remaining schools as full K–4 (or pre-K through 4) buildings, with students from Kayler redistricted. The district's leadership team has consistently favored Option A as better for equity and resource efficiency but said both are achievable for fall 2026. The staff equivalent count is the same under either option — the difference is educational structure and demographics, not cost.
-
-**Staffing reductions have already been communicated to employees.** Thirty-two teachers are on a recall list, meaning they have no position in the proposed budget but retain first eligibility for any vacancies. Eleven teachers have been offered different positions. Across all employee groups, 13 service positions, 18 support professional positions, and 7 high school teaching positions are among the reductions. Lunch aide positions (seven, two hours per day) are eliminated entirely. Ed Tech I positions are being phased out in favor of Ed Tech II and III roles.
-
-**Over two hours of public comment followed.** Dozens of residents, students, teachers, and parents spoke. Many favored Option A and grade-span reconfiguration — including several teachers who argued that simply closing Kayler and redistricting without reconfiguring would deepen existing inequities, particularly for Skillen. Others asked for more time, raised concerns about logistics (multiple children at different schools, long bus rides), or questioned the speed of the decision. Several speakers specifically urged the board not to cut the percussion ed tech position, which was also proposed for elimination last year. Special education staff raised concerns about the proposed elimination of occupational therapist positions and what that could cost the district in the long run.
-
-**The board's formal votes were on the special meeting agenda but the transcript ends before recording outcomes.** The available record does not confirm whether the board voted on the three action items — closing Kayler, choosing Option A or B, and adopting the budget — or whether deliberation continues at the March 30 meeting.
+No public events, announcements, or filings appear to have occurred between March 23 and March 30 that would change the picture presented at the workshop.
 
 ---
 
 ## What This Meeting Is For
 
-March 30 is the last scheduled school board workshop and special meeting before the district must present its budget to the City Council on April 7. Based on the evidence, this meeting serves one or both of the following purposes:
+The March 30 session is the second of two scheduled budget workshops before the school board must present its budget proposal to the City Council on April 7. That April 7 date is a hard deadline in the timeline the Finance Director presented on March 23.
 
-1. **Completing unresolved decisions from March 23** — if the board did not vote on the school closure, grade configuration, or budget adoption at the last meeting, those votes are likely on the agenda tonight.
-2. **Finalizing the budget proposal** to hand to the City Council on April 7, which is a firm deadline in the district's legal timeline. The City Council is scheduled to vote on the budget on May 5, and a public vote on the school budget is scheduled for June 9.
-
-In short: the clock is running. Whether tonight's meeting is a continuation of deliberation or a series of formal votes, it is one of the last opportunities for the board to shape the proposal before it leaves their hands.
+In plain terms: the board ran out of time on March 23 before it could take any of the three votes it needed. March 30 is the make-up session where those votes are expected to happen. If the board does not act tonight, it will have fewer than seven days to finalize and deliver its proposal to the City Council.
 
 ---
 
 ## Decisions Likely Tonight
 
-- **Authorize closing Kayler Elementary and direct the Superintendent to file a school closing report with the Maine Commissioner of Education.** This is a legal step required under state law (Title 20-A) and cannot be skipped.
-- **Choose between Option A (grade-span reconfiguration) and Option B (full K–4 at each remaining school)** — or provide binding direction to staff on which model to implement for fall 2026.
-- **Adopt the FY27 Superintendent's Budget as the Board's official budget proposal to bring to City Council.** This is the formal step that initiates the city-side budget process.
+Based on the three action items that appeared on the March 23 Special Meeting agenda and were not completed, residents should expect the board to vote on:
+
+1. **Whether to authorize the Superintendent to file a School Closing Report with the Maine Commissioner of Education for Kayler Elementary School.** Under Maine law (Title 20-A, Sections 4102 and 4103), this filing is a required step before a school can be officially closed. Authorizing it does not by itself close the school, but it starts the formal state process. The district's analysis across six evaluation domains, conducted twice, pointed to Kayler as the recommended closure.
+
+2. **Which elementary grade reorganization plan to adopt — Option A or Option B.**
+   - *Option A (Primary/Intermediate model):* Pre-K through Grade 1 would move to Dyer and Small schools; Grades 2–4 would be housed at Brown and Skillin. Students would change schools after first grade.
+   - *Option B (Full K–4 model):* All four remaining elementary schools keep a Kindergarten-through-Grade-4 structure; Kayler students are redistricted to their nearest school.
+   - Both options result in the same number of staff positions. The cost difference between them is $86,200 — a relatively small figure in the context of a $75.8 million budget, but the choice carries significant implications for families, transportation, and school identity.
+
+3. **Whether to formally adopt the Superintendent's proposed FY27 budget as the Board's Budget Proposal to bring to City Council.** The proposed budget totals $75,850,000 — a 3.3% increase over the current year. Because the district is no longer drawing on fund balance as a revenue source (the reserve is nearly depleted), the local tax share rises by approximately 6%, which the Finance Director estimated would mean roughly $257 more per year for the owner of an average South Portland home. The City Council had previously signaled a 6% local tax increase as its guidance ceiling; this proposal lands at that limit.
 
 ---
 
 ## Key Public Questions
 
-- **Did the board take any formal votes on March 23?** The transcript does not show outcomes for the three action items on the special meeting agenda. If votes occurred, what were they? If not, why not?
-- **Will the board choose Option A or Option B tonight, and why?** The administration supports both as achievable, but they have very different implications for where children attend school, how demographics are balanced, and how long families face transitions.
-- **What is the transportation plan under Option A?** The district said it had hired a consultant to model bus routes but was waiting for the board's decision before completing that work. Has modeling been done? What would bus ride times look like for the youngest students?
-- **Is there any possibility of outside funding changing the picture before the April 7 City Council presentation?** The board asked about LD 2666 (a Maine bill that could change the school funding formula) and about two outstanding $50,000 community school grants. Do any of these change the numbers?
-- **What is the plan to protect students with IEPs under increased class sizes?** Board members raised this directly on March 23. The district set aside approximately $250,000 for IEP-related meetings, but concerns about class size and support staffing remain open.
-- **Has anything changed in the budget since March 23?** The finance director noted she was still finalizing the tax impact calculation with City Finance on the Monday before that meeting.
-- **What will happen to the Kayler building?** The district recommended keeping it under district control and exploring a lease for up to four years. Who would lease it, and what revenue might the district expect?
+- **Kayler closure — what happens to those students and staff?** The board's analysis recommended closure, but redistricting boundaries for Option A and Option B would send Kayler students to different schools under each scenario. Those boundary decisions have not been finalized or made public.
+
+- **What does the 12% staff reduction mean in practice?** The budget eliminates a significant number of positions across all levels. As of March 23, 32 teachers are on a recall list, and 11 have been offered different positions within the district. Whether additional placements are made — and which programs are reduced — depends in part on which options the board selects tonight.
+
+- **Will the $257/year tax estimate hold?** That figure is the district's projection based on the current proposal. It could change if the board modifies the budget, if City Council makes changes during its review process, or if state funding through Maine's school funding formula shifts (state legislation, LD 2666, that would revise that formula is pending).
+
+- **What is the timeline for the public to weigh in?** The budget goes to City Council on April 7, with a Council workshop scheduled for April 14 and a Council vote on May 5. The final step is a public referendum set for June 9. Tonight's votes shape what the public will be voting on in June.
+
+- **Pre-K: are seats actually protected?** The proposed budget eliminates a locally funded pre-K expansion, but district officials stated on March 23 that 40 additional seats through outside providers (CDS, United Way, Head Start) offset that cut, for no net loss of pre-K access. That offset depends on those outside partnerships holding.
 
 ---
 
 ## What To Watch For
 
-- **Whether formal votes are taken tonight on all three items.** If the board still has not voted on the closure, configuration, and budget, every statement a board member makes tonight is essentially a final public declaration before that vote. Watch for shifting positions.
-- **How each board member comes down on Option A vs. Option B.** At the March 23 meeting, two student board members (Davidson and Kabisa) expressed support for reconfiguration. Other members asked pointed questions about logistics and pace. The deciding votes are not obvious from the available record.
-- **Any last-minute budget revisions.** If the finance director brings updated numbers — particularly the finalized tax impact figure she was still calculating — that could reopen discussion.
-- **Whether the board adds any conditions or studies to its adoption of Option B** (if it goes that direction). The administration suggested that a vote for Option B this fall could include a commitment to study reconfiguration for fall 2027. Watch for whether the board formalizes that path.
-- **Statements about what happens if no school closes.** The district was explicit: without a closure, 12–16 more positions must go. If any board member proposes keeping all five schools open, listen for what they say about where those additional cuts would come from.
-- **Any discussion of the music program cuts**, particularly the percussion ed tech position. This was raised by multiple community members and the board is aware it was proposed — and then restored — in last year's budget cycle.
-- **Signs that the board needs yet another meeting.** The April 7 City Council deadline is firm, but the board could in theory delay a final adoption vote if they feel they need more information. Listen for any member asking for additional time and what the chair says in response.
-- **The tone of public comment, if it is permitted again.** The March 23 session drew a large crowd and hours of testimony. Whether public comment continues or is curtailed tonight will signal how the board is managing its timeline.
+- **Listen for which elementary option the board chooses, and why.** Board members asked pointed questions on March 23 about the community experience under Option A — specifically whether splitting children across two schools at age six is developmentally appropriate. If that concern resurfaces, it may push the board toward Option B, or toward requesting further study before voting.
+
+- **Watch whether any board member moves to amend the budget before adopting it.** The March 23 workshop involved hours of detailed questions but no proposed changes from the dais. If a member seeks to restore a position or program, it would require finding an equivalent cut elsewhere or increasing the tax ask.
+
+- **Note whether the school closure vote is taken separately from the grade reorganization vote, or whether they are treated as a package.** Logically they are linked — you cannot redistrict Kayler students without also deciding where they go — but they were listed as separate action items.
+
+- **Pay attention to the language of the Commissioner filing motion.** Authorizing the Superintendent to *file* a closing report is a procedural step, not a final closure order. If any board member frames it as the final decision, that framing is inaccurate; there are additional steps ahead.
+
+- **Watch the clock and the vote count.** All three action items require board majority votes. If any item fails or is tabled, the April 7 City Council presentation timeline is in jeopardy.
+
+- **The agenda for tonight has not been posted publicly as of this writing.** It is possible the board has revised the scope of what it intends to act on. Arrive prepared for the items listed above, but confirm the actual agenda when you arrive or when it is posted.
+
+---
+
+*This briefing is based on the March 23, 2026 Budget Workshop transcript and presentation materials, the FY27 Budget Book, and City Council meeting records from March 10 and March 19, 2026. No inter-meeting communications or filings were available to update this picture beyond the March 23 session.*

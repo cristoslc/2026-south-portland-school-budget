@@ -3,7 +3,7 @@
 Implements the recommendation algorithm from the prioritization layer design spec:
   score = unblock_count × vision_weight
 
-Vision weight cascades: Vision → Initiative (can override) → Epic → Spec.
+Vision weight cascades: Vision → Initiative (can override) → Epic (can override) → Spec (can override).
 """
 
 from __future__ import annotations
@@ -29,12 +29,10 @@ def resolve_vision_weight(
     if node is None:
         return DEFAULT_WEIGHT
 
-    # Check self first (Vision, Initiative, or Epic with explicit weight)
+    # Check self first — honor own weight for any artifact type
     own_weight = node.get("priority_weight", "")
     if own_weight and own_weight in WEIGHT_MAP:
-        node_type = node.get("type", "").upper()
-        if node_type in ("VISION", "INITIATIVE", "EPIC"):
-            return WEIGHT_MAP[own_weight]
+        return WEIGHT_MAP[own_weight]
 
     # Walk parent chain and find the nearest weight
     # Cascade: Epic override > Initiative override > Vision default
@@ -118,10 +116,11 @@ def rank_recommendations(
             "vision_debt": vision_debt,
             "is_decision": _is_decision_type(node),
             "type": node.get("type", ""),
+            "sort_order": node.get("sort_order", 0),
         })
 
-    # Sort: score desc, then vision_debt desc, then is_decision desc, then id asc
-    scored.sort(key=lambda x: (-x["score"], -x["vision_debt"], -int(x["is_decision"]), x["id"]))
+    # Sort: score desc, then sort_order desc, then vision_debt desc, then is_decision desc, then id asc
+    scored.sort(key=lambda x: (-x["score"], -x["sort_order"], -x["vision_debt"], -int(x["is_decision"]), x["id"]))
     return scored
 
 

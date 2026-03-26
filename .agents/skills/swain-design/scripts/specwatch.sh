@@ -124,6 +124,7 @@ scan_stale_refs() {
   local mode="${1:-full}"   # "full" or "event" with artifact ID
   local event_id="${2:-}"   # artifact ID for event-driven mode (e.g., ADR-001)
   local found_stale=0
+  local found_broken_link=0
 
   load_ignore_patterns
 
@@ -230,6 +231,9 @@ PYEOF
         echo ""
       } >> "$LOG_FILE"
       found_stale=1
+      # Also emit a BROKEN_LINK entry — specifically for body-text markdown hyperlinks
+      echo "BROKEN_LINK ${rel_source}:${line_num} -> ${link_target} (file not found)" >> "$LOG_FILE"
+      found_broken_link=1
     fi
   done < "$links_tmp"
 
@@ -249,8 +253,8 @@ docs_dir = sys.argv[1]
 # Fields that contain artifact ID references (single-value or list)
 SINGLE_REF_FIELDS = ['parent-vision', 'parent-epic', 'superseded-by', 'fix-ref']
 LIST_REF_FIELDS = [
-    'depends-on-artifacts', 'linked-artifacts', 'addresses', 'validates',
-    'affected-artifacts'
+    'depends-on-artifacts', 'linked-artifacts', 'artifact-refs', 'addresses',
+    'validates', 'affected-artifacts'
 ]
 ALL_REF_FIELDS = SINGLE_REF_FIELDS + LIST_REF_FIELDS
 
@@ -342,6 +346,17 @@ def extract_frontmatter(filepath):
                 val = m.group(1).strip().strip('"').strip("'")
                 if val and re.match(r'^[A-Z]+-\d+', val):
                     refs.setdefault(current_list_field, []).append(val)
+                # Handle dict-style entries like "artifact: SPEC-067" in artifact-refs
+                elif val:
+                    kv = re.match(r'^artifact:\s*(.+)', val)
+                    if kv:
+                        art_val = kv.group(1).strip().strip('"').strip("'")
+                        if art_val and re.match(r'^[A-Z]+-\d+', art_val):
+                            refs.setdefault(current_list_field, []).append(art_val)
+                matched = True
+            elif re.match(r'^\s+[a-z]', line):
+                # Indented continuation of a dict entry (e.g., "    rel: [documents]")
+                # Stay in the current list field but don't extract
                 matched = True
             elif not re.match(r'^\s', line):
                 current_list_field = None
@@ -464,17 +479,19 @@ PYEOF
 
   rm -f "$fm_tmp"
 
-  if [ "$found_stale" -eq 0 ]; then
+  if [ "$found_stale" -eq 0 ] && [ "$found_broken_link" -eq 0 ]; then
     echo "specwatch: no stale references found."
   else
-    local stale_count warn_count
+    local stale_count warn_count broken_link_count
     stale_count=$(grep -c '^STALE' "$LOG_FILE" 2>/dev/null)
     stale_count=${stale_count:-0}
     warn_count=$(grep -c '^WARN' "$LOG_FILE" 2>/dev/null)
     warn_count=${warn_count:-0}
-    echo "specwatch: found ${stale_count} stale reference(s), ${warn_count} warning(s). See ${LOG_FILE}"
+    broken_link_count=$(grep -c '^BROKEN_LINK' "$LOG_FILE" 2>/dev/null)
+    broken_link_count=${broken_link_count:-0}
+    echo "specwatch: found ${stale_count} stale reference(s), ${warn_count} warning(s), ${broken_link_count} broken link(s). See ${LOG_FILE}"
   fi
-  return $found_stale
+  return $(( found_stale > 0 || found_broken_link > 0 ? 1 : 0 ))
 }
 
 # --- TK sync checker ---
@@ -907,7 +924,7 @@ docs_dir = sys.argv[1]
 # (folder-based have a primary .md inside; file-based are the .md directly)
 TYPE_DIRS = {
     'vision', 'journey', 'epic', 'story', 'spec',
-    'research', 'adr', 'persona', 'runbook', 'design'
+    'research', 'adr', 'persona', 'runbook', 'design', 'train'
 }
 
 def extract_frontmatter(filepath):
@@ -1077,8 +1094,35 @@ case "$cmd" in
     tk_result="${tk_result:-0}"
     scan_arch_diagrams || arch_result=$?
     arch_result="${arch_result:-0}"
-    # Exit non-zero if any check found issues
-    exit $(( scan_result > 0 || tk_result > 0 || arch_result > 0 ? 1 : 0 ))
+    # TRAIN staleness check
+    train_result=0
+    train_check_script="$(dirname "${BASH_SOURCE[0]}")/train-check.sh"
+    if [[ -x "$train_check_script" ]]; then
+        bash "$train_check_script" || train_result=$?
+        if [[ $train_result -eq 2 ]]; then
+            train_result=0  # git unavailable is not a scan failure
+        fi
+    fi
+    # DESIGN drift check
+    design_result=0
+    design_check_script="$(dirname "${BASH_SOURCE[0]}")/design-check.sh"
+    if [[ -x "$design_check_script" ]]; then
+        bash "$design_check_script" || design_result=$?
+        if [[ $design_result -eq 2 ]]; then
+            design_result=0  # git unavailable is not a scan failure
+        fi
+    fi
+    # Duplicate artifact number check (SPEC-158)
+    dup_result=0
+    dup_check_script="$(dirname "${BASH_SOURCE[0]}")/detect-duplicate-numbers.sh"
+    if [[ -x "$dup_check_script" ]]; then
+        dup_output=$(bash "$dup_check_script" 2>/dev/null) || dup_result=$?
+        if [[ $dup_result -ne 0 ]] && [[ -n "$dup_output" ]]; then
+            echo "specwatch duplicate-numbers: found collision(s):"
+            echo "$dup_output"
+        fi
+    fi
+    exit $(( scan_result > 0 || tk_result > 0 || arch_result > 0 || train_result > 0 || design_result > 0 || dup_result > 0 ? 1 : 0 ))
     ;;
   tk-sync)
     log_header

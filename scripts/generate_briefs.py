@@ -20,6 +20,7 @@ Exit codes:
 """
 
 import argparse
+import concurrent.futures
 import datetime
 import logging
 import re
@@ -53,13 +54,14 @@ GENERAL_PERSONA_NAME = "General Community Member"
 GENERAL_UPCOMING_FILE = "PERSONA-000-upcoming.md"
 GENERAL_EVERGREEN_FILE = "PERSONA-000-evergreen.md"
 GENERAL_SOURCE_BUNDLE_LIMIT = 3
+PARALLEL_BATCH_SIZE = 3
 
 # Per-source-type character limits for _truncate_text.
 # Transcripts are much larger than other source types and need a higher ceiling
 # to avoid silently clipping content (which causes the LLM to hallucinate that
 # the source was incomplete).  Other types keep the conservative default.
 SOURCE_CHAR_LIMITS = {
-    "transcript": 200_000,   # ~50K tokens — covers a 5-hour meeting
+    "transcript": 500_000,   # ~125K tokens — full VTT with timestamps for a 5-hour meeting
 }
 DEFAULT_SOURCE_CHAR_LIMIT = 5_000
 
@@ -1104,27 +1106,22 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
         inter_meeting_events
     )
 
-    for persona in personas:
+    def _generate_persona_brief(persona):
+        """Generate a single persona brief. Returns (status, persona.id)."""
         output_path = output_dir / f"{persona.id}.md"
         cumulative_state = cumulative_states[persona.id]
 
-        if cumulative_state["has_cumulative"]:
-            stats["with_cumulative"] += 1
-        else:
-            stats["without_cumulative"] += 1
+        has_cum = cumulative_state["has_cumulative"]
 
-        # Skip if output exists (unless --force)
         if output_path.exists() and not force:
             log.info("  [skip] %s — brief already exists: %s",
                      persona.id, output_path.name)
-            stats["skipped"] += 1
-            continue
+            return ("skipped", persona.id, has_cum)
 
         if output_path.exists() and force:
             log.info("  [force] %s — regenerating (existing brief will be "
                      "overwritten)", persona.id)
 
-        # Build prompt
         prompt = build_brief_prompt(
             persona,
             cumulative_state,
@@ -1136,8 +1133,7 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
 
         cumulative_label = (
             f"cumulative through {cumulative_state['last_meeting_date']}"
-            if cumulative_state["has_cumulative"]
-            else "no cumulative (baseline)"
+            if has_cum else "no cumulative (baseline)"
         )
         log.info("  [prompt] %s (%s) — ~%d tokens, %s",
                  persona.id, persona.name, prompt_tokens, cumulative_label)
@@ -1145,10 +1141,8 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
         if dry_run:
             log.info("  [dry-run] %s — would call LLM (%s), write to %s",
                      persona.id, MODEL_ID, output_path.name)
-            stats["processed"] += 1
-            continue
+            return ("processed", persona.id, has_cum)
 
-        # Actual LLM call
         try:
             log.info("  [call] %s — calling %s ...", persona.id, MODEL_ID)
             output_text = call_llm(
@@ -1157,10 +1151,8 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
 
             if not output_text.strip():
                 log.error("  [fail] %s — empty response from LLM", persona.id)
-                stats["failed"] += 1
-                continue
+                return ("failed", persona.id, has_cum)
 
-            # Validate structure
             validation_errors = _validate_brief(output_text)
             if validation_errors:
                 log.warning("  [warn] %s — %d validation issue(s):",
@@ -1168,7 +1160,6 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
                 for err in validation_errors:
                     log.warning("    %s", err)
 
-            # Format with frontmatter and write
             has_agenda = agenda_items is not None
             formatted = format_brief_output(
                 persona, upcoming_date, has_agenda, output_text,
@@ -1178,12 +1169,30 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
             output_path.write_text(formatted, encoding="utf-8")
             log.info("  [done] %s — wrote %s (%d chars)",
                      persona.id, output_path.name, len(formatted))
-            stats["processed"] += 1
+            return ("processed", persona.id, has_cum)
 
         except Exception as e:
             log.error("  [fail] %s — LLM call failed: %s", persona.id, e)
-            stats["failed"] += 1
-            continue
+            return ("failed", persona.id, has_cum)
+
+    # Run persona briefs in parallel batches
+    total_persona = len(personas)
+    completed_persona = 0
+    if total_persona:
+        log.info("  [batch] starting %d persona briefs (%d parallel)",
+                 total_persona, PARALLEL_BATCH_SIZE)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=PARALLEL_BATCH_SIZE) as pool:
+        futures = {pool.submit(_generate_persona_brief, p): p for p in personas}
+        for future in concurrent.futures.as_completed(futures):
+            status, pid, has_cum = future.result()
+            if has_cum:
+                stats["with_cumulative"] += 1
+            else:
+                stats["without_cumulative"] += 1
+            stats[status] += 1
+            completed_persona += 1
+            log.info("  [progress] persona %d/%d complete (%s — %s)",
+                     completed_persona, total_persona, pid, status)
 
     if include_general:
         general_specs = [
@@ -1220,15 +1229,15 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
             },
         ]
 
-        for spec in general_specs:
+        def _generate_general_brief(spec):
+            """Generate a single general brief. Returns status string."""
             output_path = output_dir / spec["filename"]
             prompt_tokens = estimate_tokens(spec["system_prompt"] + spec["prompt"])
 
             if output_path.exists() and not force:
                 log.info("  [skip] %s — brief already exists: %s",
                          spec["title"], output_path.name)
-                stats["skipped"] += 1
-                continue
+                return "skipped"
 
             if output_path.exists() and force:
                 log.info("  [force] %s — regenerating (existing brief will be "
@@ -1239,9 +1248,7 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
             if dry_run:
                 log.info("  [dry-run] %s — would call LLM (%s), write to %s",
                          spec["title"], MODEL_ID, output_path.name)
-                stats["processed"] += 1
-                stats["general_processed"] += 1
-                continue
+                return "processed"
 
             try:
                 log.info("  [call] %s — calling %s ...", spec["title"], MODEL_ID)
@@ -1253,8 +1260,7 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
 
                 if not output_text.strip():
                     log.error("  [fail] %s — empty response from LLM", spec["title"])
-                    stats["failed"] += 1
-                    continue
+                    return "failed"
 
                 validation_errors = spec["validator"](output_text)
                 if validation_errors:
@@ -1274,13 +1280,28 @@ def run_briefs(upcoming_date, personas, *, agenda_items=None, force=False,
                 output_path.write_text(formatted, encoding="utf-8")
                 log.info("  [done] %s — wrote %s (%d chars)",
                          spec["title"], output_path.name, len(formatted))
-                stats["processed"] += 1
-                stats["general_processed"] += 1
+                return "processed"
 
             except Exception as e:
                 log.error("  [fail] %s — LLM call failed: %s", spec["title"], e)
-                stats["failed"] += 1
-                continue
+                return "failed"
+
+        # General briefs run in parallel too (only 2, but uses same pool pattern)
+        total_general = len(general_specs)
+        completed_general = 0
+        log.info("  [batch] starting %d general briefs (%d parallel)",
+                 total_general, PARALLEL_BATCH_SIZE)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=PARALLEL_BATCH_SIZE) as pool:
+            futures = {pool.submit(_generate_general_brief, s): s for s in general_specs}
+            for future in concurrent.futures.as_completed(futures):
+                status = future.result()
+                stats[status] += 1
+                if status == "processed":
+                    stats["general_processed"] += 1
+                completed_general += 1
+                spec = futures[future]
+                log.info("  [progress] general %d/%d complete (%s — %s)",
+                         completed_general, total_general, spec["title"], status)
 
     return stats
 

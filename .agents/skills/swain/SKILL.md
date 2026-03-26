@@ -8,6 +8,8 @@ allowed-tools: Skill
 <!-- swain-model-hint: haiku, effort: low -->
 Invoke the Skill tool for exactly one match. Pass the user's full prompt as args.
 
+**Disambiguation:** When the user's intent includes an artifact type name (spec, epic, ADR, spike, vision, initiative, journey, persona, runbook, design) alongside a question word (how, what, why), prefer **swain-design** over **swain-help**. swain-help is for meta-questions about swain itself, not for artifact operations.
+
 | swain-design | vision, initiative, epic, story, spec, ADR, spike, bug, persona, runbook, journey, design |
 | swain-search | research, evidence, gather sources, search for, evidence pool, what do we know about |
 | swain-do | tasks, implementation, tracking, tk, ticket |
@@ -15,6 +17,7 @@ Invoke the Skill tool for exactly one match. Pass the user's full prompt as args
 | swain-release | release, version, changelog, tag |
 | swain-update | update/upgrade swain |
 | swain-doctor | session init, governance, doctor, health check, gitignore |
+| swain-roadmap | roadmap, priority matrix, show roadmap, refresh roadmap |
 | swain-status | status, progress, what's next, dashboard, overview, where are we, what should I work on |
 | swain-help | help, how do I, what is, reference, cheat sheet, commands |
 | swain-init | init, onboard, setup, bootstrap (one-time project setup) |

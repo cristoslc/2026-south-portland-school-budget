@@ -25,6 +25,28 @@ Collect, normalize, and cache source materials into reusable troves that swain-d
 | Trove exists and user says "refresh" or sources are past TTL | **Refresh** — re-fetch stale sources |
 | User asks "what troves do we have" or "find sources about X" | **Discover** — search existing troves by tag |
 
+## Prior art check
+
+Before creating a new trove or running web searches, scan existing troves for relevant content. This avoids duplicating research and surfaces connections to prior work.
+
+```bash
+# Search trove manifests by tag
+grep -rl "<keyword>" docs/troves/*/manifest.yaml 2>/dev/null
+
+# Search trove source content
+grep -rl "<keyword>" docs/troves/*/sources/**/*.md 2>/dev/null
+
+# Search trove syntheses
+grep -rl "<keyword>" docs/troves/*/synthesis.md 2>/dev/null
+```
+
+If existing troves contain relevant sources:
+1. **Report what was found** — show the trove ID, matching source titles, and relevant excerpts
+2. **Suggest extend over create** — if an existing trove covers the same topic, extend it rather than creating a parallel trove
+3. **Cross-link** — if the topic is adjacent but distinct, create a new trove but note the related trove in synthesis.md
+
+This step runs in all modes (Create, Extend, Discover) and before any web searches. Existing trove content is always checked first.
+
 ## Create mode
 
 Build a new trove from scratch.
@@ -59,6 +81,24 @@ For each source, use the appropriate capability. Read `skills/swain-search/refer
 2. Strip boilerplate (nav, ads, sidebars, cookie banners)
 3. Normalize to markdown per the web page format
 4. If fetch fails, record the URL in manifest with a `failed: true` flag and move on
+
+**Paywall proxy fallback:**
+
+After fetching a web page, check if a paywall proxy is available for the URL's domain:
+
+1. Run `skills/swain-search/scripts/resolve-proxy.sh <url>`
+   - **Exit 1**: no proxy configured — use the direct fetch content as-is
+   - **Exit 0**: outputs `PROXY:<name>:<proxy-url>` and `SIGNAL:<text>` lines
+2. If exit 0, check the fetched content for each `SIGNAL` text (case-sensitive literal match)
+3. If any signal matches (or the article body is under ~200 words):
+   - Log: "Paywall detected for `<url>` — trying proxy fallback"
+   - Try each `PROXY` URL in order, fetching via the same page-fetching capability used for web pages
+   - First proxy that returns substantive content (more than the truncated original) wins
+   - Set `proxy-used: <name>` and `notes: "Full article retrieved via <name> proxy"` in the manifest entry
+4. If no signals match: use the direct fetch content as-is (no proxy needed)
+5. If all proxies fail: keep the original truncated content, set `notes: "Paywalled; proxies exhausted — content from direct fetch only"`
+
+The registry lives at `skills/swain-search/references/paywall-proxies.yaml`. Add new domains or proxies there — no skill file changes needed.
 
 **Video/audio URLs:**
 1. Use a media transcription capability to get the transcript
@@ -155,6 +195,12 @@ git commit -m "docs(<trove-id>): stamp history hash ${TROVE_HASH:0:7}"
 
 If no referencing artifact exists yet (standalone research), Commit B still stamps the history entry — report the hash so it can be referenced later.
 
+**Push** — after Commit B, push to `origin/trunk` so the trove is immediately available to other agents and sessions:
+
+```bash
+git push origin trunk
+```
+
 ### Step 6 — Report
 
 Tell the user what was created:
@@ -182,6 +228,7 @@ Add new sources to an existing trove.
    - **Commit A**: `git commit -m "research(<trove-id>): extend with N new sources"`
    - Capture `TROVE_HASH=$(git rev-parse HEAD)`
    - **Commit B**: back-fill hash in history entry, update referencing artifact frontmatter (if artifact exists)
+   - **Push**: `git push origin trunk`
 9. Report what was added, including the new commit hash
 
 ## Refresh mode
@@ -203,6 +250,7 @@ Re-fetch stale sources and update changed content.
    - **Commit A**: `git commit -m "research(<trove-id>): refresh N sources (M changed)"`
    - Capture `TROVE_HASH=$(git rev-parse HEAD)`
    - **Commit B**: back-fill hash in history entry, update referencing artifact(s) frontmatter — check `referenced-by` in manifest for all dependents
+   - **Push**: `git push origin trunk`
 8. Report: "Refreshed N sources. M had changed content, K were unchanged. New hash: `<TROVE_HASH:0:7>`."
 
 For sources with `freshness-ttl: never`, skip them during refresh.
@@ -228,6 +276,7 @@ The skill references capabilities generically. When a capability isn't available
 | Browser / page fetcher | Try basic URL fetch. If that fails: "Can't fetch this URL — paste the content or provide a local file." |
 | Media transcription | "No transcription capability available — provide a pre-made transcript file, or add a media conversion tool." |
 | Document conversion | "Can't convert this file type — provide a markdown version, or add a document conversion tool." |
+| Paywall proxy | Keep truncated content. Note in manifest: "Paywalled; proxies exhausted." Suggest user provide content manually. |
 
 Never fail the entire run because one capability is missing. Collect what you can, skip what you can't, and report clearly.
 

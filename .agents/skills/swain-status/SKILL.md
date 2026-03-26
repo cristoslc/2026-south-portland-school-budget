@@ -16,6 +16,12 @@ metadata:
 
 Cross-cutting project status dashboard. Aggregates data from artifact lifecycle (`swain chart`), task tracking (tk), git, GitHub issues, and session state into an activity-oriented view.
 
+## Roadmap freshness
+
+The status script includes a staleness check that regenerates ROADMAP.md if it is missing or older than any doc artifact. This runs automatically — no separate invocation needed.
+
+For a full roadmap refresh (unconditional regeneration), use `swain-roadmap` instead.
+
 ## When invoked
 
 Locate and run the status script from `skills/swain-status/scripts/swain-status.sh`:
@@ -46,7 +52,8 @@ The script supports `--compact` for consumption by swain-stage's MOTD panel:
 
 ```bash
 REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
-bash "$REPO_ROOT/skills/swain-status/scripts/swain-status.sh" --compact
+STATUS_SCRIPT="$(find "$REPO_ROOT" -path '*/swain-status/scripts/swain-status.sh' -print -quit 2>/dev/null)"
+[ -n "$STATUS_SCRIPT" ] && bash "$STATUS_SCRIPT" --compact || echo "swain-status.sh not found"
 ```
 
 This outputs 4-5 lines suitable for the MOTD box: branch, active epic progress, current task, ready count, assigned issue count.
@@ -121,6 +128,40 @@ When an Active epic has `progress.done == progress.total`:
 - Show "→ ready to close" in the Readiness column of the Epic Progress table
 - Do NOT show it in the Work Ready to Start bucket (it's not implementation work)
 - Do NOT show it as "work on child specs"
+
+## Decisions Needed (roadmap integration)
+
+After the existing status output sections, surface top decision items from the roadmap. This section uses the Eisenhower classification from `chart.sh roadmap --json`.
+
+### Data collection
+
+```bash
+bash "$(find . -path '*/swain-design/scripts/chart.sh' -print -quit)" roadmap --json
+```
+
+### Filtering
+
+1. **Focus lane scoping:** If a focus lane is set, filter items to that Vision only.
+2. **Eisenhower quadrant filter:** Show items from "Do First" and "Schedule" quadrants. Classification criteria:
+   - **Important:** weight >= 3
+   - **Urgent:** active status or score > 0
+3. **Operator decision filter:** Show items that need operator decisions:
+   - Status "Proposed" — needs activate or drop decision
+   - `children_total == 0` — needs decomposition into child specs
+   - `children_complete == children_total` and `children_total > 0` — ready to complete/close
+
+### Display
+
+- Limit to top 5 items, ordered by weight descending then score descending.
+- Format each as an actionable prompt, not a passive list entry. Examples:
+  - `EPIC-038 PR-Only Agent Guardrails — **needs decomposition** (0 specs, high priority)`
+  - `EPIC-024 GitHub Issue Polling — **activate or drop?** (Proposed, high priority)`
+  - `EPIC-012 Session Atomization — **ready to complete** (4/4 specs done)`
+- If no items match, omit the section entirely — do not show an empty heading.
+
+### Degradation
+
+If `chart.sh roadmap --json` fails or returns empty data, skip the Decisions Needed section silently and continue with the rest of the status output.
 
 ## Settings
 

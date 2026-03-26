@@ -45,7 +45,8 @@ When superpowers skills are installed (`.agents/skills/` or `.claude/skills/`), 
 | Trigger | Chain |
 |---------|-------|
 | Creating a Vision, Initiative, or Persona | swain-design → **brainstorming** → draft artifact |
-| SPEC comes up for implementation | swain-design → **brainstorming** → **writing-plans** → swain-do |
+| New feature or multi-spec work | **brainstorming** → swain-design (create artifacts) → per-spec **writing-plans** → swain-do |
+| Existing SPEC comes up for implementation | swain-design → **writing-plans** → swain-do |
 | Executing implementation tasks | swain-do → **test-driven-development** per task |
 | Dispatching parallel work | swain-do → **subagent-driven-development** or **executing-plans** |
 | Claiming work is complete | **verification-before-completion** before any success claim |
@@ -54,6 +55,10 @@ When superpowers skills are installed (`.agents/skills/` or `.claude/skills/`), 
 | EPIC reaches terminal state | swain-design → **swain-retro** (embed retrospective) |
 
 If superpowers is not installed, superpowers chains are skipped, not blocked. Swain-to-swain chains (last three rows) always apply.
+
+## Skill change discipline
+
+**Skill changes are code changes.** Skill files (`skills/`, `.claude/skills/`, `.agents/skills/`) are code written in markdown syntax. Non-trivial skill edits require worktree isolation — the same discipline applied to `.sh`, `.py`, and other code files. Trivial fixes (typo corrections, single-line doc fixes, ≤5-line diffs touching one file with no structural changes) may land directly on trunk.
 
 ## Session startup (AUTO-INVOKE)
 

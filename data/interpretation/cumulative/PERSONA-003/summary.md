@@ -2,108 +2,131 @@
 schema_version: "1.0"
 persona_id: "PERSONA-003"
 persona_name: "Jess"
-last_meeting_date: "2026-03-19"
-record_count: 21
-generated_date: "2026-03-23"
+last_meeting_date: "2026-03-23"
+record_count: 22
+generated_date: "2026-03-25"
 ---
 
 # Cumulative Summary: Jess (PERSONA-003)
 
 ### Current Understanding
 
-The South Portland school budget crisis is no longer a deliberation — it is an execution. The deficit has grown to $8.4M (revised from $7.2M), and 72 layoff notices were delivered on March 18, 2026, before any public hearing, before the May 5 budget vote, before the June 9 referendum. The process Jess tracked for fifteen weeks has a faster, quieter parallel that she could not see.
+Jess entered this budget crisis in December as a young parent planning for her daughter Mia, who starts kindergarten in 2028. Over sixteen weeks her understanding has moved from acute alarm through weary watchfulness to a compound, exhausted state where administrative execution has outpaced the civic process she was tracking.
 
-Elementary reconfiguration is in formal development across nine specific options. The most likely architecture creates grade-band schools — two primary buildings for pre-K through grade 1, three intermediate buildings for grades 2-4 — saving approximately $2M of the $8.4M gap. No buildings are expected to close because pre-K expansion and special education space mandates require the physical footprint. Redistricting details showing which school Mia would actually attend will not be available before the May 5 vote.
+The district faces an $8.4 million deficit — grown from the $7.2 million anchor figure since December — and 72 layoff notices were delivered on March 18 before any public vote. Elementary enrollment has collapsed 23% over four years to a ten-year low. The fund balance is depleted. State funding covers roughly 20% of costs against a 55% mandate. Seven finance directors in six years have layered institutional mismanagement onto structural underfunding. The 82 positions added since 2017 while enrollment fell were largely mandate-driven, not discretionary.
 
-Pre-K expansion is Jess's anchor for staying: 128 seats, a state mandate for 80-90 four-year-olds by September 2026, Head Start partnerships, and physical space requirements that budget cuts alone cannot override. What comes after pre-K — whether elementary education will be stable through 4th grade — remains the central unresolved question for her family.
+Elementary reconfiguration is moving toward Kayler Elementary's closure and a grade-band model — two primary schools (pre-K through first grade) and three intermediate schools (grades 2-4) — but the board adjourned March 23 without voting on any of three action items. Neighborhood schools are already largely a fiction given existing busing patterns. Pre-K expansion remains real but narrower than Jess understood: district-operated seats are flat at 64, and total growth to 120 depends on external partnerships with eligibility or off-site constraints. FY28 — the year Mia enters kindergarten — has been specifically named as the next structural crisis year.
 
-The household financial picture is a confirmed triple tax stack with a fourth deferred layer: school tax increase, Mahoney bond (library and early childhood programming removed; scope narrowed to police and fire), sewer rates confirmed at 22%/year for three consecutive years, and deferred library infrastructure costs that no one is currently accounting for. No city body has presented these as a combined number.
+The household financial stack now includes school budget tax increases, a potential Mahoney bond (still unresolved), confirmed sewer rate increases of 22% per year for three years, and deferred library infrastructure with no alternative funding timeline. City and school planning operate in entirely separate silos. ICE enforcement has disrupted community cohesion, driven school absences, and contributed to enrollment pressure, with the council only recently naming the connection explicitly. Jess has decided to stay in South Portland but holds that decision with weakened conviction.
 
-ICE enforcement has permanently altered Jess's community stability calculus. School absences persist, $100K in rental assistance passed 6-1, and a councilor named on the record that 80 displaced families equals 80 potential students lost. The city council and school district operate in structurally separate universes, confirmed at every level of governance across fifteen weeks of meetings.
-
-Jess has decided to stay in South Portland. Pre-K expansion is the reason.
+---
 
 ### Timeline of Understanding Shifts
 
-1. **2025-12-01** – Watching Mayor Tipton's optimistic housing inauguration and DeAngelis's election as board chair retroactively, Jess understands both as origin points of dynamics — growth ambitions running against school contraction, equity-driven leadership shaping the budget fight ahead — that were entirely invisible the day they occurred.
-2. **2025-12-04** – The council's rejection of Zoom public comment and a new affordable housing zoning change together crystallize that civic life is not designed for parents with toddlers, and that housing growth and school contraction are moving in completely uncoordinated directions.
-3. **2025-12-08** – First direct exposure to the school budget crisis — $1.9M potential deficit, 23% elementary enrollment collapse, spending freeze on classroom supplies — leaves Jess caught between cautious hope from engaged new leadership and acute anxiety about whether the district is in temporary difficulty or permanent decline.
-4. **2025-12-09** – Budget season announced in two sentences at city council with zero follow-up; seeing parents pay $40 for babysitters to claim two minutes of airtime moves Jess from frustration about Zoom policy to recognizing civic exclusion as a structural economic reality, not just a technology rule.
-5. **2025-12-10** – The board's decision to spend an unbudgeted $30,000 on the most expensive search firm while freezing classroom supply purchases crystallizes a pattern: the district manages crises reactively rather than strategically, which is exactly what frightens Jess about planning ahead for her family.
-6. **2025-12-17** – Abstract financial fears become concrete: 42 teachers, 78 total positions, 12% of staff; fund balance depleted; even after cuts, a 6% tax increase; Jess shifts from anxious ambivalence to near-certainty about structural decline and begins actively researching Scarborough and Cape Elizabeth.
-7. **2026-01-06** – Retroactively understanding "cost saving measures" and "citizen forum" as the underframed public opening of a three-month emergency, Jess also grows skeptical that the statewide property tax task force will produce anything actionable before the spring budget vote.
-8. **2026-01-12** – The pre-K expansion announcement — 64 seats starting July 2026 — is the first concrete district investment targeting Jess's family's timeline and pulls her back from the edge of deciding to leave; simultaneously, reconfiguration is formally authorized and deficit tracking accelerates past the halfway fiscal mark.
-9. **2026-01-13** – A four-hour Mahoney workshop confirms the city's capital planning universe and the school district's crisis universe do not communicate; Jess identifies the triple tax stack (school increase + Mahoney bond + sewer rates), the architect admits he is not confident in the $194M figure, and Jess recognizes herself in first-time buyer Henry Silve, whom no one answered.
-10. **2026-01-15** – The city's annual goal-setting session, held between the Mahoney workshop and the January 22 forum, is a closed-room process with no visible outcomes; Jess recognizes that city-school disconnection operates not just in crisis moments but at the most foundational level of governance.
-11. **2026-01-20** – The January 22 forum cancellation due to ICE enforcement fear introduces a qualitatively new dimension — some families are excluded from civic participation not by schedule or cost but by fear of federal enforcement — and community cohesion enters Jess's stay-or-leave calculus as a newly destabilized variable.
-12. **2026-02-03** – An external audit reveals six finance directors in five years, 34 journal entries where best practice is under 10, $400K in misallocated grants, and a second consecutive year of exceeding the legally adopted budget; the crisis is now understood as both structural and the product of years of institutional financial mismanagement — compounding truths, not competing ones.
-13. **2026-02-04** – Reconfiguration is finally decoded: grade-band schools, pre-K through grade 1 in one set of buildings then grades 2-4 in another; no buildings will close because pre-K and special ed mandates require the space; but a $3M+ gap remains after all three "big ideas," meaning more unspecified cuts are still coming.
-14. **2026-02-09** – The finance director's statement that all scenarios now lead to deficit removes any remaining optimism about fiscal paths; reconfiguration moves from concept to formally approved proposal; the pre-K lottery disclosure surfaces a new fear — expansion may not guarantee Mia a spot.
-15. **2026-02-10** – Council guidance of 3-6% confirms political walls closing in on school board options; DeAngelis's statement that "we don't have neighborhood schools anymore" reframes reconfiguration from destruction to formalization of a reality already in place; the 82 added positions since 2017 are reunderstood as mandate-driven, not reckless hiring.
-16. **2026-02-17** – ICE fear is confirmed as ongoing three weeks after the raids: school absences continuing, Project Home days from collapse, eviction moratorium fails 4-2 with named councilors; the Mahoney building's educational potential is definitively foreclosed; reconfiguration architecture confirmed in four sentences after 10 PM with no council follow-up.
-17. **2026-03-02** – Reconfiguration becomes nine specific options on a spreadsheet with portable classrooms potentially required; four board members oppose closing Skillin on equity grounds; pre-K expands to 128 seats with a state-mandated September 2026 deadline; redistricting details that would tell Jess which school Mia attends will not be available before the budget vote.
-18. **2026-03-05** – The library is removed from the Mahoney project with no alternative plan, taking early childhood programming spaces specifically designed for Mia's age cohort; Jess adds a fourth layer to the tax stack — deferred library infrastructure costs that didn't go away by being removed from scope; the Mahoney thread resolves as producing nothing for her family.
-19. **2026-03-09** – Jess decides to stay in South Portland, anchored by pre-K expansion's structural durability; the district is reframed not as uniformly declining but as two simultaneous trends — K-12 contraction and mandated early childhood growth — intersecting exactly when her daughter will enter.
-20. **2026-03-10** – A parent letter describes keeping children home over fear of ICE agents in an elementary school driveway; DeAngelis's clarification that no ICE activity occurred at schools confirms a gap between official knowledge and family-level fear that official reassurance cannot close in real time; Councilor Scott names 80 displaced families as 80 potential lost students on the record.
-21. **2026-03-19** – 72 layoff notices delivered March 18 — the day before this meeting — reveal that administrative execution has outpaced the civic engagement process Jess has been tracking; the deficit is revised to $8.4M; sewer rates are confirmed at 22%/year for three years; rental assistance passes 6-1; the process she trusted had a faster, quieter parallel she couldn't see.
+1. **2025-12-01** — Reviewing the mayor's inauguration meeting in hindsight, Jess recognizes the structural disconnect between the city's housing-growth optimism and the school crisis already forming in parallel, and understands DeAngelis's election as board chair as the origin point of the equity-driven leadership that would shape every subsequent budget decision.
+
+2. **2025-12-04** — The council's rejection of Zoom public comments registers as a structural exclusion of parents with young children, and the affordable housing ordinance reads as potentially in tension with school contraction rather than straightforwardly good news for young families.
+
+3. **2025-12-08** — First exposure to the district's financial reality: a potential $1.9 million deficit, 23% elementary enrollment decline in four years, and a classroom supply freeze — offset unsteadily by community donations, Extended Learning Opportunities, and new board member Tyler Smith, who has a toddler and education experience.
+
+4. **2025-12-09** — Budget season announced in two sentences with no council follow-up; watching Zenya and Carly pay $40 for a babysitter to claim two minutes of public comment transforms civic exclusion from a policy problem into a structural economic reality — the barrier is the design of civic life itself, not the technology rule.
+
+5. **2025-12-10** — The board's unbudgeted $30,000 superintendent search confirms a pattern of reactive crisis management over strategic planning; cautious optimism about the board's diversity commitment is tempered by growing alarm about their fiscal judgment.
+
+6. **2025-12-17** — Abstract fears become concrete: 42 teachers and 78 total positions cut, fund balance depleted, highest per-student spending in the region, 6% tax increase even after $7.2 million in reductions — Jess shifts from anxiety to near-certainty the district is in structural decline and begins researching Scarborough and Cape Elizabeth.
+
+7. **2026-01-06** — Looking back from the other side of the crisis, the "cost saving measures" framing of the January 22 forum announcement was the underframed opening line of a three-month emergency; the statewide property tax task force timeline offers no hope of influencing a spring budget vote.
+
+8. **2026-01-12** — Pre-K expansion announcement produces the first concrete reason to reconsider leaving; a formal reconfiguration proposal is authorized; the district is tracking toward deficit at the 50% spending mark — hope and crisis arrive simultaneously for the first time.
+
+9. **2026-01-13** — Four hours of Mahoney capital planning ($194 million, architect "not confident") pass without a single mention of the school crisis; city-school disconnection is confirmed as structural rather than incidental, and the triple tax stack — school budget, Mahoney bond, sewer rates — is identified for the first time as an unaccounted combined household cost.
+
+10. **2026-01-15** — The city's annual goal-setting process is inaccessible and produces no visible outcomes during the height of the crisis; city-school disconnection operates at the most foundational level of governance, not just in routine meetings.
+
+11. **2026-01-20** — The January 22 forum is postponed because immigrant families are afraid to leave their homes after ICE enforcement; state-mandated upzoning (up to four units per lot) introduces a large-scale enrollment variable no one is coordinating with the district; community stability enters the "should I stay" calculus as a newly destabilized variable.
+
+12. **2026-02-03** — Audit revelations — six finance directors in five years, 34 reconciliation journal entries, budget exceeding legal limits for the second year — add institutional financial mismanagement as a compounding layer on structural underfunding; DeAngelis publicly tells the city council "you are not off the hook," the first time anyone has forced the connection from the school side in that chamber.
+
+13. **2026-02-04** — Reconfiguration decoded as grade-band reorganization, not school closure; buildings are staying open because pre-K and special education space mandates require them — the pre-K expansion gains structural durability; but a $3 million gap remains even after all three "big ideas."
+
+14. **2026-02-09** — Reconfiguration moves from concept to unanimously approved formal development; the finance director reports all budget scenarios now lead to deficit, removing any remaining hope for fiscal paths that avoid deep cuts; a small enrollment uptick of 12 students registers as meaningful relief against months of decline data.
+
+15. **2026-02-10** — Council tax guidance of 3–6% confirms cuts are politically inevitable regardless of board preferences; Chair DeAngelis states "we don't have neighborhood schools anymore," reframing reconfiguration from destruction to formalization of existing reality; the 82 added positions are recontextualized as mandate-driven, not evidence of reckless hiring.
+
+16. **2026-02-17** — ICE crisis confirmed ongoing three weeks after the raids: school absences persist, Project Home is ten days from depletion, the eviction moratorium fails 4–2 with named councilors; the reconfiguration architecture Jess has been waiting months to understand is announced in four sentences past ten at night during a Mahoney building workshop.
+
+17. **2026-03-02** — Nine specific reconfiguration scenarios replace abstract descriptions; four board members explicitly oppose Skillin closure on equity grounds; pre-K expands to 128 seats by state mandate on a timeline overlapping with Mia's eligibility; redistricting details will not be available before the budget vote.
+
+18. **2026-03-05** — The library is removed from the Mahoney project with no alternative plan; early childhood programming spaces designed for Mia's age cohort are out of scope; the Mahoney project is definitively not for Jess's family; a fourth layer — deferred library infrastructure costs — is added to the tax stack.
+
+19. **2026-03-09** — The decision to leave South Portland is resolved: staying to evaluate, anchored by pre-K; the district is reframed as two simultaneous trends — K-12 contraction and mandated early childhood growth — rather than a single narrative of decline; weary watchfulness replaces acute panic.
+
+20. **2026-03-10** — ICE fear reaches the school building itself in a parent letter; Councilor Scott explicitly connects 80 displaced families to 80 potential lost students, making enrollment impact a named justification for rental assistance; the official reassurance and community-level fear diverge publicly, exposing a real-time communication gap between district leadership and families.
+
+21. **2026-03-19** — 72 layoff notices delivered March 18, before any public vote; the deficit grows to $8.4 million; sewer rate increases confirmed at 22% annually for three years; the civic engagement calendar now appears to be running behind the administrative one; rental assistance passes 6–1, a qualified shift after the 4–2 eviction moratorium failure in February.
+
+22. **2026-03-23** — The pre-K anchor weakens: district-operated seats are flat, total expansion relies on eligibility-limited external partnerships; Kayler Elementary named specifically in the administration's closure recommendation; FY28 enumerated as the next structural crisis year; the board adjourns at 11:15 PM without voting on closure, configuration, or budget — the process is technically still open, and it is a very thin sliver.
+
+---
 
 ### Active Supersessions
 
 | What Changed | From | To | When |
 |---|---|---|---|
-| School budget deficit figure | $7.2M gap | $8.4M deficit (per Councilor Matthews) | 2026-03-19 |
-| Staff cut status | 78 positions under proposal consideration | 72 layoff notices delivered March 18 — administrative execution underway before public hearing or vote | 2026-03-19 |
-| District trajectory | In permanent structural decline | Two simultaneous trends: K-12 contraction alongside mandated early childhood growth | 2026-03-09 |
-| Decision to stay or leave South Portland | Actively researching Scarborough and Cape Elizabeth | Decided to stay and evaluate, anchored by pre-K expansion | 2026-03-09 |
-| School closure status | No closures — buildings protected by pre-K and special ed space needs | Ambiguous — nine options include closure scenarios; board has not committed to a path | 2026-03-09 |
-| Neighborhood school model | Being destroyed by reconfiguration | Already largely fictional — most students are already bused (per Chair DeAngelis) | 2026-02-10 |
-| Staffing increase cause | Implied reckless hiring as enrollment fell | 82 added positions largely mandate-driven (special education and multilingual learner services) | 2026-02-10 |
-| Budget scenario outlook | $1.9M deficit as one possible outcome among others | All budget scenarios lead to deficit regardless of path (per finance director) | 2026-02-09 |
-| Reconfiguration specificity | General five-school to three-plus-two split | Nine formal options; administration's preferred Option 1.7 creates grade-band pre-K–1 and 2–4 schools | 2026-03-02 |
-| Pre-K capacity | 64 district seats plus 15–16 at Chickadee | Expanding to 128 seats; state mandates 80–90 four-year-olds served by September 2026 | 2026-03-02 |
-| Mahoney building educational potential | Ambiguous; possibly available for district use | Definitively foreclosed — school board relinquished it 2022-23; no active reconsideration | 2026-02-17 |
-| Reconfiguration meaning | Unknown — opaque insider language | Grade-band reorganization: pre-K through grade 1 in primary buildings, grades 2–4 in intermediate buildings | 2026-02-04 |
-| Superintendent search funding | Unbudgeted; no plan for the $30,000 cost | Zeal Education Group hired; search underway | 2026-01-12 |
+| School deficit figure | $7.2M gap (established 2025-12-17) | $8.4M (Councilor Matthews, 2026-03-19) | 2026-03-19 |
+| Staff cuts status | 78 positions as proposal or scenario under consideration | 72 layoff notices delivered March 18 — administrative execution preceding any public vote | 2026-03-19 |
+| Finance director count | Six finance directors in five years | Seven finance directors in six years | 2026-03-23 |
+| School closure status | No buildings closing due to pre-K and special ed space requirements (2026-02-04) | Kayler Elementary named in administration's recommendation under both Option A and Option B; board vote pending | 2026-03-23 |
+| Pre-K expansion durability | Unambiguously durable, structurally protected by state mandates and space requirements | District-operated seats flat at 64; total growth to 120 depends on eligibility-limited or off-site external partnerships that may not serve Jess's family | 2026-03-23 |
+| District trajectory framing | Near-certainty of permanent structural decline (2025-12-17) | Two simultaneous trends: K-12 contraction and mandated early childhood growth | 2026-03-09 |
+| Neighborhood schools | Being destroyed by reconfiguration | Already largely a fiction given current enrollment and busing patterns, per Chair DeAngelis | 2026-02-10 |
+| Staffing increase explanation | Implied poor or reckless management (82 positions added while enrollment dropped 300) | Largely mandate-driven: special education and multilingual learner requirements | 2026-02-10 |
+| Budget fiscal paths | Some scenarios might avoid deficit | All scenarios lead to deficit; no non-deficit path exists | 2026-02-09 |
+| Financial crisis cause | Primarily structural — enrollment decline and state underfunding shortfall | Also rooted in years of institutional financial mismanagement compounding structural pressures | 2026-02-03 |
+| Mahoney building educational potential | Possible conflict with or complement to district facilities needs | Definitively not educational; school board proactively relinquished the building in 2022–23 with no current request to revisit | 2026-02-17 |
+| Household financial exposure | School budget tax increase as primary variable | Triple/quadruple stack: school increase + potential Mahoney bond + confirmed sewer rate increases (22%/yr, 3 years) + deferred library infrastructure with no alternative funding timeline | Developed 2026-01-13 through 2026-03-05 |
+| City-school coordination | Unknown — possibly occurring somewhere in city governance | Confirmed absent at every level: routine meetings, capital planning workshops, and annual goal-setting alike | 2026-01-13 |
+| Civic exclusion mechanism | Primarily a policy problem (Zoom rejection) and a scheduling problem (late meetings) | Also a structural economic barrier (childcare costs) and, for some families, a fear-of-enforcement barrier that civic process reforms cannot reach | 2026-01-20 |
+
+---
 
 ### Open Threads
 
-- Will city growth ambitions — new housing developments and state-mandated upzoning of up to four units per 5,000 sq ft lot across most of the city — increase enrollment demand in a school system simultaneously cutting capacity, and is anyone coordinating these two tracks?
-- Will the district's financial crisis and teacher cuts affect program availability and class sizes when Mia enters kindergarten in 2029?
-- How will the spending freeze on classroom supplies impact educational quality in the coming years?
-- Who will be running the district when Mia starts kindergarten, and will the new permanent superintendent have enough stability in place for Jess's family to evaluate the system before they are committed to it?
-- Will the new superintendent be able to implement strategic long-term planning, or will the reactive crisis management pattern continue?
-- How will the incoming superintendent handle inheriting a system mid-restructuring?
-- Will the massive teacher cuts result in unacceptable class sizes by the time Mia enters kindergarten?
-- Will the statewide property tax relief task force produce anything actionable before South Portland's budget vote, or will it arrive too late to affect cuts already in motion?
-- Will the pre-K expansion survive ongoing budget crises — and will the lottery system mean Mia might not get a spot despite the seat expansion?
-- What do the new state housing laws actually mean for South Portland neighborhood development, and will families ever get a substantive answer?
-- What goals did the city council actually set on January 15, and do any of them address the school budget crisis, the housing-enrollment coordination gap, or the compounding tax burden?
-- Does state-mandated upzoning get factored into any enrollment projection or school capacity analysis, or is it another growth variable running on a completely separate lane from the district's contraction planning?
-- Will ICE-displaced families remain in South Portland, or will their departures compound the enrollment decline already driving the school budget crisis?
-- Will the new finance director have enough stability and tenure to reverse years of accumulated reconciliation failures, given the six-director-in-five-years pattern?
-- Does the city's approximately $2M available fund balance provide any meaningful protection against school budget overages, or has that buffer already been functionally committed by planning assumptions?
-- What additional cuts beyond the three "big ideas" will be needed to close the remaining gap, given that all budget scenarios lead to deficit?
-- Can alternative funding streams — community school grants, the Education Foundation — meaningfully offset the structural budget gap?
-- Will council tax guidance of 3-6% be sufficient to avoid the most damaging cuts, or will political constraints force deeper reductions than the school board's fiscal picture requires?
-- Will the board's equity-driven resistance to closing Skillin school survive the financial pressure to adopt the administration's preferred reconfiguration options?
-- How can families make informed decisions about school choice when redistricting details will not be available before the May 5 budget vote?
-- Will library infrastructure — asbestos flooring, failing electrical systems, deferred since 2008 — receive any alternative funding path now that it has been removed from the Mahoney project, and on what timeline relative to when Mia would use library programming?
-- Are there any city capital investments currently in planning that are explicitly designed for families entering the system in the next two to five years?
-- What happens after pre-K — will elementary education be stable enough to serve Mia through 4th grade under reconfiguration?
-- Is there a communication breakdown between what district leadership knows in real time about enforcement activities and what reaches families during an enforcement event — and will that gap erode trust in official reassurances going forward?
-- Can anything families say at the April 7 public hearing or April 14 workshop actually reverse cuts that are already in administrative motion, or is meaningful participation now foreclosed?
-- Will the Mahoney project be scaled back enough before a bond vote to make a material difference for first-time buyers and young families in South Portland?
+- Will state-mandated upzoning — up to four units per lot across most of the city — be factored into any enrollment projection or school capacity analysis, or will it remain a growth variable running in a completely separate lane from the district's contraction planning?
+- Will the district's financial crisis affect program availability when Mia enters kindergarten in 2028, given that FY28 has been specifically named as the next structural crisis year with locked-in pressures already enumerated?
+- Is there a regular, proximity-based district pre-K seat available for Mia — or does the total expansion to 120 seats rely entirely on Head Start (income-eligible), United Way (off-site), and CDS (special education eligibility) partnerships that may not serve her family?
+- Will demand for pre-K continue to exceed available seats such that the lottery system prevents Mia from enrolling despite the expansion?
+- Will the new permanent superintendent have enough institutional stability to implement strategic planning when they inherit a system mid-restructuring, with a seventh finance director, active layoff notices, and an unresolved reconfiguration vote?
+- Will the statewide property tax relief task force produce anything actionable before the May 5 budget vote, or will its report arrive after decisions are already made?
+- What do the new state housing laws actually mean for South Portland development — and will families ever receive a substantive answer, given the housing ordinance has been functionally deferred in every city meeting where it appeared?
+- What goals did the city council set on January 15, and do any of them address the school budget crisis, the housing-enrollment coordination gap, or the confirmed triple tax stack?
+- Will the new finance director have enough tenure and stability to reverse years of accumulated reconciliation failures given the seven-director-in-six-years revolving-door pattern?
+- Does the city's approximately $2 million available fund balance provide meaningful protection against school budget overages, or has that buffer already been functionally committed by the planning assumptions that produced it?
+- What additional cuts beyond the three "big ideas" will be required to close the remaining gap — now grown to $8.4 million — and which programs and services not yet named will be affected?
+- Will the board's equity-driven resistance to closing Skillin survive the financial pressure of a gap that has grown since December, and will the Kayler closure authorization actually pass when the board votes?
+- Will redistricting details — specifically which school Mia would attend under either configuration option — be available before the May 5 budget vote, given that layoff notices are already delivered?
+- Can anything families say at the April 7 public hearing or April 14 workshop actually reverse cuts that are already in administrative motion, or has meaningful participation on the core decisions been foreclosed?
+- Will library infrastructure — asbestos flooring, failing electrical, deferred since 2008 — receive any alternative funding path now that it has been removed from Mahoney scope, and on what timeline relative to when Mia would actually use library programming?
+- Are there any city capital investments currently in planning that are explicitly designed for families entering the system in the next two to five years, or is every family-facing infrastructure item being deferred in favor of public safety facilities?
+- What happens after pre-K — will elementary education be stable enough under the grade-band model for Mia to progress through fourth grade without another round of reconfiguration or cuts?
+- Will families economically displaced by the ICE enforcement surge — whose eviction protection the council declined in February — remain in South Portland, or will departures compound the enrollment decline already driving the school budget crisis?
+- Is there a communication breakdown between what district leadership knows in real time during enforcement events and what reaches families — and will that gap erode trust in official reassurances going forward?
+- Will FY28 require a third consecutive year of significant cuts and restructuring, and is there any plan in place for reaching financial sustainability before Mia enters the system?
+- Can alternative funding mechanisms — the Education Foundation, community school grants — meaningfully offset any portion of the structural budget gap, or are they marginal relative to the scale of cuts required?
+
+---
 
 ### Resolved Threads
 
-- **How will the district fund the $30,000 superintendent search cost given the current financial crisis?**: Zeal Education Group hired; search underway with community forums in late January (resolved 2026-01-12)
-- **What does the Mahoney city center project mean for the historic school building, and does it conflict with or complement district facilities needs?**: Building becomes government campus — city offices, library, and police station; transition treated as a settled question with no coordination with district planning visible (resolved 2026-01-13)
-- **Is there any civic venue in South Portland where the school budget process receives sustained, substantive attention?**: No — a four-hour city capital planning workshop on a $194M project passed without any mention of the simultaneous school budget crisis (resolved 2026-01-13)
-- **Will the January 22 citizen budget forum happen as scheduled?**: No — postponed to February 4 due to community fear around ICE enforcement activities in the city (resolved 2026-01-20)
-- **What does "elementary school reconfiguration" actually mean — school closures, grade-band reorganization, or something else?**: Grade-band reorganization — pre-K through grade 1 in primary buildings, grades 2-4 in intermediate buildings; no buildings closing due to pre-K and special education space mandates (resolved 2026-02-04)
-- **Could the Mahoney building be repurposed for school or educational use as district reconfiguration unfolds?**: Definitively foreclosed — the school board proactively relinquished the Mahoney building in 2022-23 with no current request to revisit; the question of educational reuse now has a named institutional answer (resolved 2026-02-17)
-- **Will ICE enforcement activity persist in South Portland?**: Partially resolved — agents departed before the snowstorm and had not returned as of February 17; downstream consequences including ongoing school absences, economic displacement, and community fragmentation remain active (resolved 2026-02-17)
-- **What does the Mahoney city center project actually produce for Jess's family?**: Nothing — the library and early childhood programming spaces designed for Mia's age cohort were removed from scope; the project narrows to police and fire facilities; family-serving elements deferred with no timeline (resolved 2026-03-05)
-- **Should Jess actively plan to leave South Portland for a more stable district?**: Staying to evaluate, anchored by pre-K expansion's structural durability — state mandates, physical space requirements, and partnership funding make it resistant to cuts (resolved 2026-03-09)
-- **Will ICE enforcement activity drive further school absences and community fragmentation that compounds the district's enrollment decline?**: Partially resolved — Councilor Scott explicitly connected 80 displaced families to 80 potential lost students on the public record, and the council used enrollment impact as justification for rental assistance; causal link is politically acknowledged but downstream enrollment effect remains unquantified (resolved 2026-03-10)
-- **What is the combined household tax and rate impact of the Mahoney bond, the sewer project, and the school budget increase?**: Partially resolved — sewer component confirmed at approximately 22%/year for three consecutive fiscal years; school increase and Mahoney bond components remain unquantified as a single combined figure presented to residents (resolved 2026-03-19)
+- **How will the district fund the $30,000 superintendent search cost given the current financial crisis?** Zeal Education Group hired; community forums scheduled January 26–30 (resolved 2026-01-12)
+- **Is there any civic venue in South Portland where the school budget process receives sustained, substantive attention?** No — a four-hour city capital planning workshop passed without any mention of the simultaneous school budget crisis; the pattern holds at every level of city governance (resolved 2026-01-13)
+- **Is anyone in South Portland city government coordinating housing density growth with school enrollment capacity planning?** No — confirmed as operating on entirely separate tracks with no visible coordination mechanism (resolved 2026-01-13)
+- **What does the Mahoney city center project mean for the historic school building — does it conflict with or complement district facilities needs?** The building becomes a government campus (city offices, library, police station); its transition from educational use was treated as a settled question with no coordination with district facilities planning (resolved 2026-01-13)
+- **Will the January 22 citizen forum happen as scheduled?** No — postponed to February 4 due to community fear around ICE enforcement activity (resolved 2026-01-20)
+- **What does "elementary school reconfiguration" actually mean — school closures, grade-band reorganization, or something else?** Grade-band reorganization: primary schools for pre-K through first grade, intermediate schools for grades 2–4; not simple building closure (resolved 2026-02-04)
+- **What does the Mahoney city center project actually produce for Jess's family?** Nothing — the library and early childhood programming components were removed from scope; the project narrowed to police and fire facilities; family-serving elements deferred with no timeline (resolved 2026-03-05)
+- **Should I actively plan to leave South Portland for a more stable district?** Staying to evaluate, anchored by pre-K expansion as the district's most durable positive signal (resolved 2026-03-09)
+- **Will ICE enforcement activity drive further school absences and community fragmentation that compounds the district's enrollment decline?** Partially resolved: a city councilor explicitly quantified the connection on the record — 80 displaced families as 80 potential lost students — and the council used enrollment impact as justification for rental assistance; downstream enrollment effect remains unquantified (partially resolved 2026-03-10)
+- **Is South Portland experiencing temporary budget challenges or permanent structural decline?** Partially resolved: the district is understood as two simultaneous trends — K-12 contraction and mandated early childhood growth — rather than a single narrative of decline or recovery; FY28 pressures make full resolution impossible (partially resolved 2026-03-09)
+- **What is the combined household tax and rate impact of the Mahoney bond, the sewer project, and the school budget increase?** Partially resolved: sewer component confirmed at approximately 22% annually for three consecutive fiscal years; school and Mahoney bond components remain unquantified as a single combined figure, and no city body has presented the full stack as one number to residents (partially resolved 2026-03-19)
+- **Which specific school is named for closure in the administration's reconfiguration recommendation?** Kayler Elementary, under both Option A and Option B; the equity-driven board resistance to closing Skillin appears to have shaped the administration's framing; board authorization vote remains pending as of March 23 (partially resolved 2026-03-23)

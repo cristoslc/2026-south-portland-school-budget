@@ -5,8 +5,8 @@ persona_name: "Dana"
 upcoming_meeting_date: "2026-03-30"
 generated_date: "2026-03-25"
 has_agenda: false
-last_cumulative_meeting: null
-inter_meeting_evidence_count: 1
+last_cumulative_meeting: "2026-03-23"
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: Dana (PERSONA-009)
@@ -14,78 +14,87 @@ inter_meeting_evidence_count: 1
 
 ## Since Last Meeting
 
-The March 23 Redbank workshop was supposed to be the decisive meeting. It wasn't. The board ran until 11:15 PM and adjourned without a single vote — no school closure decision, no grade configuration, no FY27 budget. That's two consecutive workshops consuming hours of community testimony and producing no action. For you, that's either a story in itself ("board can't decide") or a setup for March 30 being genuinely explosive.
+No new evidence has emerged between March 23 and March 30. That silence is itself worth noting: if a deal had been struck informally — a reconfiguration compromise, a new tax ceiling agreement with the city, a board member publicly announcing a position shift — you'd expect it to leak. Nothing has. That means either the board is holding discipline heading into a consequential vote, or nothing has actually been resolved behind the scenes and Monday night is genuinely live.
 
-What you do have coming out of March 23:
+What carries forward from March 23 is unusually strong for a TV standpoint:
 
-**Blair Bacon is on camera.** Twenty-five years, national board certified twice, master's in literacy, multilingual endorsement — and the district's only criterion is a hire date of July 10, 2023. Her testimony was voluntary and on record. She's your teacher-facing-cuts segment, and she's already done the hard part. The clock is ticking on her staying in the news cycle.
+**You have your teacher.** Blair Bacon walked to the microphone herself. Double national board certification, in the RIF cohort, willing to speak publicly. You now have 72 hours before the vote that ends the urgency window. If you haven't already called her for a sit-down, this weekend is the last moment the "teacher who might lose her job" story has maximum stakes. After March 30, depending on how the vote goes, the story either becomes "she was saved" or "it happened" — both produce segments, but neither has the same pre-vote tension.
 
-**Finance Director Ketchem put herself on camera.** "There's no way our books could have been in order" — from the seventh finance director in six years. That's a quote that writes itself into a lede. It's also a quote that older coverage (including the external auditor's "six directors in five years" finding) now undercuts partially — the correction is the story, and Ketchem is the face of it.
+**Finance Director Ketchum is now your institutional-failure voice.** The external auditor's material-weakness finding was always a document. Ketchum saying on the record — at 11 PM, clearly exhausted — "I'm the seventh finance director in six years and we drove off a cliff we didn't see coming" is a person. That quote transforms abstract audit language into a character. Whether she'll say it again on camera, in daylight, before a vote is the question you should be asking right now.
 
-**The Google Slides deck for March 23** tells you exactly what was supposed to be decided: personnel reductions, non-personnel reductions, two elementary closure options, and middle and high school cuts. All of it is still undecided. March 30 is carrying the entire weight of that deferred agenda, with the April 7 city council presentation as the hard deadline.
+**The Kayler Title VI question is unresolved and the board chair said she didn't have the answer.** That's not a procedural footnote. That's a school board voting on a school closure while the chair is on record saying she cannot answer whether the closure complies with federal civil rights law. If the board votes to close or reconfigure Kayler on March 30 with that question still open, you have a legal-jeopardy angle that survives the vote and extends the story into spring.
 
-**Urgent: the 72 pink slips from March 18.** These went out before the board voted on anything. The notice period is burning. You have noted this as a story you may be underweighting. If you don't have a pink-slipped teacher on camera before the March 30 meeting, you're behind. Blair Bacon is your literacy specialist; you need an ed tech or a specialist from the March 18 cohort to complete the picture.
+**Board Chair DeAngelis's eight-minute disclosure of grief, illness, and community accusations is the most underreported moment of the season.** You didn't get it on camera March 23. If she opens March 30 the same way — or if her visible distress shapes how she runs the vote — that's the story inside the story.
 
 ---
 
 ## Open Questions
 
-Carrying into March 30, in your own terms:
+Carrying into March 30, here's what's still unresolved in ways that matter to your segment:
 
-- **Is March 30 the vote, or is this board going to find a way to not decide again?** Two workshops, zero votes. The April 7 council presentation is a hard stop — but so was March 23, apparently.
-- **Which closure option lands — and does anyone say the word "Kayler" and "civil rights" in the same breath on camera?** The board chair acknowledged the Title VI question at March 23 and gave no legal answer. If that question dies in adjournment, it dies with no answer on record.
-- **Is enrollment stabilization (up 6 students as of March 5) going to be used by anyone to challenge the closure rationale on camera?** The district's justification is declining enrollment. If the numbers are moving the other way, someone in that room knows it.
-- **Do any of the 72 pink-slipped teachers show up to testify at March 30?** Pink slips went out March 18. These are real people with names and classroom assignments. I need one of them on camera before this story is decided.
-- **Will any board member say out loud what several observers are saying privately — that this district is in a structural death spiral?** I've been waiting for someone with a nameplate to use that framing.
-- **Is Councilor West actually a viable dissent voice, or does she vote consensus every time?** She speaks skepticism; I need her to act on it if she's going to be useful.
-- **Can I find the homeowner who is doing the math all at once?** School budget tax increase + $87M public safety bond + 22% annual sewer rate increases. That's the combinatorial burden story. I've been holding it since January. March 30 may be the last natural moment to put numbers on screen before the referendum.
-- **Did Blair Bacon get any institutional response after going on record?** Has anyone from administration or the board acknowledged her testimony?
-- **What are the busing costs for whatever reconfiguration option survives tonight?** The administration had no answer when pressed in February. If they still don't have one, that's a data point.
+- **Is Blair Bacon available this weekend?** Every hour between now and the vote is an opportunity for a pre-vote sit-down. Once the vote happens, the "what she stands to lose" framing expires.
+
+- **Will the board actually vote on anything tonight, or is this another 11 PM adjournment?** March 23 was supposed to be the decision meeting and produced nothing. If tonight runs the same way, that's its own story — "third time at the table, still no answer" — but it's a different segment than "board makes historic reconfiguration vote."
+
+- **Which schools are actually on the table for closure or reconfiguration?** Skillin is definitively off. Is Kayler the new primary target? Is it one school or multiple? I still don't have a clean "here's what the vote is actually on" answer, which means I can't tell my anchor what to say in the 30-second intro.
+
+- **Has the board chair gotten a legal answer on the Kayler Title VI question since March 23?** She said she didn't have it at 11 PM. Has anyone told her in the six days since? If the board votes on Kayler tonight without that answer, that's a federal civil rights exposure story I need to flag clearly.
+
+- **Will any board member go on record with the "death spiral" framing?** The structural case is overwhelming — seven finance directors, drove off a cliff, 23% enrollment decline, 82 positions added — but I don't have an elected official saying the words yet.
+
+- **Is Finance Director Ketchum willing to repeat what she said at 11 PM in front of a camera?** Or was that exhaustion talking? She's my best institutional-failure voice, but I need her during business hours, not midnight.
+
+- **Will the city council's 3% guidance be revised upward before this vote, or are they letting the board go to referendum without cover?** If the council still hasn't moved off 3% heading into tonight, that's the setup for a referendum fight I need to start building.
+
+- **What does the vote actually mean for the 72 people who got pink slips on March 18?** Is there a scenario where the board votes for reconfiguration and Blair Bacon keeps her job? Or is reconfiguration a separate track from the staffing reductions? I need this clarified before I write a lede.
+
+- **Can I get Board Chair DeAngelis on camera — specifically about the grief disclosure and the Title VI question?** Her body language and composure at March 23 was the most telegenic thing that happened all night and I wasn't there.
+
+- **Where do I put a camera for b-roll?** Kayler Elementary exterior? Skillin? The neighborhood around Redbank? I need a building. I still don't have a confirmed "this is the school that's closing" anchor image.
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for March 30. Based on everything in play, here is what you should be prepared for:
+No agenda has been released for the March 30 meeting. Based on everything the board was unable to resolve on March 23, here's how to read what's likely coming and what it means for your decisions tonight:
 
-**This meeting is structurally different from the last two.** March 23 could defer. March 30 cannot — the April 7 city council presentation is the external deadline that the school board does not control. Either the board votes on March 30, or it shows up to the council on April 7 with nothing. Watch whether the superintendent or board chair frames the meeting as a decision meeting in opening remarks. If they do, send the crew. If opening remarks are soft on urgency, you have your first signal.
+**The big vote: reconfiguration.** March 30 was explicitly established on March 23 as the next decision point after the board adjourned without voting. The most likely agenda anchor is a vote — or an attempt at a vote — on school reconfiguration. This is the moment you've been building toward since January. **Send the crew.** This meeting has roughly a 70% chance of producing the most consequential school board action of the season and a 30% chance of producing "the board still can't decide," which is also a segment.
 
-**The two elementary closure options from the March 23 deck are almost certainly still live.** You don't know which two, but the board's March 23 slides showed exactly this choice. Watch for: which option gets moved first, who seconds it, and who hesitates. The hesitation is your camera moment.
+- **What this means for you:** Whether the board votes yes, no, or punts again, you have a segment. The question is which segment. Your lede is either "South Portland school board votes tonight to [close/reconfigure] [school name]" or "For the third time, no vote."
+- **What to listen for:** The motion language. If a motion is made, the exact wording matters — "close Kayler" versus "reconfigure grades" versus "further study" are three completely different stories.
+- **Questions to prepare:** *"When you voted tonight, what were you thinking about the 72 teachers who already received pink slips?"* Directed at any board member leaving the building.
 
-**The Kayler Title VI question is unresolved and legally significant.** The board chair acknowledged the civil rights concern on March 23 and provided no answer. If the board moves to vote on Kayler closure without a legal opinion on record, watch for any board member to call that out — or for any community member at the microphone to force the question. That is a story that goes beyond South Portland.
+**The Title VI legal question.** This is the thread most likely to explode tonight without warning. If the Kayler parent or an attorney shows up at the microphone and the board chair still can't answer the federal compliance question, and the board votes anyway — that's a story that outlasts the meeting by weeks.
 
-**What to listen for:**
-- Any administrator or board member who quantifies the tax impact of *whichever* reconfiguration option survives — you need an 18.95% number or something close to it tied to a specific decision, not just a projected range
-- Whether the enrollment uptick (6 students, first sustained gain) is mentioned at all — and by whom
-- Whether anyone connects Councilor Scott's enrollment-retention argument (immigrant families = enrolled students = per-pupil revenue) to the closure decision. No board member has made this connection publicly.
-- Whether Blair Bacon or anyone from the March 18 pink-slip cohort is in the room and at the microphone
+- **What this means for you:** Legal jeopardy angles have longer legs than vote coverage. A school board that votes on a closure it can't legally certify is a story that runs through June.
+- **What to listen for:** Any public comment from the Kayler parent who raised the Title VI question on March 23, or any new legal voice at the microphone. Also listen for whether the board chair opens with any acknowledgment that legal review has been completed — or conspicuously says nothing.
+- **Questions to prepare:** *"The board chair said March 23 she didn't have an answer on Title VI compliance. Before tonight's vote, did you get one?"*
 
-**Questions to prepare:**
-- "Has the district conducted any Title VI compliance review of the Kayler closure option?" (Still unanswered as of March 23)
-- "Can you give us the busing cost impact of tonight's reconfiguration decision?" (Unanswered since February)
-- "With 72 layoff notices already issued, what happens to those notices if tonight's vote changes the staffing plan?"
+**The tax number.** Whatever the board votes on tonight, it will carry a dollar figure — or an honest admission that there isn't one yet. The 18.95% status-quo figure and the still-unrevised 3% city council guidance are in direct conflict, and that conflict has not been resolved.
+
+- **What this means for you:** Your anchor needs one number. If the board adopts a budget with a specific tax impact tonight, that number is your lede. If they don't, "homeowners still don't know what they'll pay" is your lede.
+- **What to listen for:** Any board member or finance director citing a specific revised tax figure that differs from 18.95%. Also listen for any indication the city council has quietly communicated new guidance before the vote.
+
+**Board Chair DeAngelis's performance.** Her March 23 disclosure changed the story from "a board under stress" to "a leader in visible personal crisis running a contested equity vote." Whether she projects stability or distress tonight will shape the tone of every clip you pull.
+
+- **What to listen for:** How she opens the meeting, whether her voice is controlled, whether she procedurally manages the evening competently or lets it run past midnight again.
 
 ---
 
 ## Watch For
 
-**At the dais:**
-- **The board chair's opening frame.** Does she signal this is a decision meeting or another workshop? That's your crew-dispatch moment. Listen for the words "vote tonight" or "action item."
-- **Board member Feller specifically.** She has already broken from the 6% tax ceiling. Watch whether she pushes the equity argument on Kayler or whether she's moved to a different position since March 23.
-- **Whether any board member asks for a legal opinion on Kayler before a vote is called.** If someone does, the vote may be delayed again — but that board member becomes your on-camera voice for the civil rights angle.
-- **Body language at the moment the closure motion is made.** Who looks at whom. Who looks at the ceiling. Who leans toward a colleague. You won't get this from the transcript; you have to be in the room or watching the SPC-TV feed with the sound down.
+**Before the meeting:**
+- Call Blair Bacon or her representative this weekend. Pre-vote interview in front of Skillin (or her classroom, if you can get access) is the segment. After the vote, the stakes change.
+- Confirm with your shooter: Kayler Elementary exterior is your most likely b-roll location. Have the address ready.
 
-**From the audience/public comment:**
-- **Pink-slipped teachers.** March 18 notices, March 30 meeting — if any of the 72 are in the room, they will speak during public comment. That's your teacher-in-jeopardy segment that complements Blair Bacon's story.
-- **Any parent or community member who puts the combinatorial tax burden into a single dollar figure.** "Between the school budget, the police bond, and the sewer rates, my property tax bill is going up by $X." That homeowner is your lede.
-- **Whether any parent raises the class-size jump from 16 to 23** on camera. That's a number a general-audience viewer can feel.
-
-**Procedural signals worth tracking:**
-- If the board calls an executive session before or during the meeting, the Kayler civil rights issue may be the reason. That's a story — they're consulting counsel before voting.
-- If the vote is tabled again, watch whether the board sets a specific date for a make-up decision or leaves it vague. Vague means the April 7 council presentation happens without a plan, which is itself the story.
-- Whether the superintendent provides any update on the spending freeze's classroom impact — this thread has been flagged as open and unanswered since February.
-
-**For your coverage calendar:**
-- If the board votes tonight, your next natural hit is April 7 at the city council presentation. Build your segment tonight with April 7 in mind.
-- The June sewer rate vote and the November public safety bond referendum are both downstream. Tonight's school budget vote is the first domino. Your combinatorial burden story needs tonight's number to be complete.
-- If Blair Bacon hasn't heard back from the district since March 23, a follow-up call to her before airtime tells you whether the administration is managing the story or ignoring it.
+**At the meeting:**
+- **Watch Board Chair DeAngelis's opening.** Does she mention the eight-minute disclosure from March 23? Does she signal stability or fragility? Her composure — or lack of it — sets the emotional register of the entire meeting and will be visible in your footage.
+- **Track Finance Director Ketchum's body language during the vote.** She is the only person in that room who said, on the record, "we drove off a cliff." If she looks defeated, relieved, or expressionless when the vote happens, that's a cutaway shot that tells the story.
+- **Listen for the exact motion language.** "Close Kayler" versus "reconfigure" versus "phase out" are legally and editorially different. Your anchor's 30-second intro depends on getting this right.
+- **Watch who seconds and who votes no.** A 4-3 or 5-2 vote is a story. A unanimous vote is a story. A failed motion is a story. Know who the swing votes are: the board member who went last at March 23 without committing is your most important person to track.
+- **Flag any public comment that names a specific family at Kayler.** The Kayler parent who raised Title VI on March 23 is potentially your most compelling non-Blair Bacon interview subject — a parent at the microphone asking a federal civil rights question the board can't answer.
+- **Listen for any mention of busing costs.** The administration couldn't answer the busing question at the February 4 forum. If they still don't have a number at a meeting where they're voting on reconfiguration, that's a direct contradiction you can use.
+- **Watch the city council side of the room.** If any councilors attend as observers, which ones? Councilor Matthews — the one who named all three tax burdens simultaneously on March 19 — is your combinatorial-burden narrator and worth a post-meeting ambush interview regardless of whether she speaks.
+- **Listen for any indication the board has received legal advice on Title VI since March 23.** If they vote without it, note that explicitly for your script.
+- **Time any delay or adjournment.** If this runs past 10 PM again without a vote, "third meeting, still no answer" is your B-segment — shorter, sharper, and possibly leads the story if the vote fails.
+- **Get any board member to say, on camera, what the tax impact will be for a median South Portland homeowner.** You still don't have a clean version of this from an elected official. Tonight is the last reasonable opportunity before referendum campaign framing takes over the narrative.

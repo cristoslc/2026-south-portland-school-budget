@@ -1,11 +1,11 @@
 ---
 name: swain-sync
-description: "Fetch upstream, rebase, stage all changes, enforce gitignore hygiene, run ADR compliance checking on modified artifacts, rebuild stale artifact indexes, generate a descriptive commit message from the diff, commit, and push to the current branch's upstream. Handles merge conflicts by preferring local changes for config/project files and upstream for scaffolding."
+description: "Fetch upstream, merge (worktree) or rebase (tracked branch), stage all changes, enforce gitignore hygiene, run ADR compliance checking on modified artifacts, rebuild stale artifact indexes, generate a descriptive commit message from the diff, commit, and push to the current branch's upstream. Handles merge conflicts by preferring local changes for config/project files and upstream for scaffolding."
 user-invocable: true
 allowed-tools: Bash, Read, Edit, Write, Glob
 metadata:
   short-description: Fetch, stage, commit, and push
-  version: 1.4.0
+  version: 1.5.0
   author: cristos
   license: MIT
   source: swain
@@ -25,6 +25,7 @@ GIT_COMMON=$(git rev-parse --git-common-dir)
 GIT_DIR=$(git rev-parse --git-dir)
 IN_WORKTREE=$( [ "$GIT_COMMON" != "$GIT_DIR" ] && echo "yes" || echo "no" )
 REPO_ROOT=$(git rev-parse --show-toplevel)
+TRUNK=$(bash "$REPO_ROOT/scripts/swain-trunk.sh")
 ```
 
 `IN_WORKTREE=yes` means the current directory is inside a linked worktree (e.g., `.claude/worktrees/agent-abc123`). Use this flag in Steps 3, 6, and the session bookmark step.
@@ -59,12 +60,14 @@ git stash pop       # recover stashed changes
 
 Show the user the conflicting files and stop. Do not force-push or drop changes.
 
-If there is no upstream (`@{u}` returns an error) **and** `IN_WORKTREE=yes`, the worktree branch has no remote tracking counterpart. Rebase onto `origin/main` so the commits apply cleanly as a fast-forward:
+If there is no upstream (`@{u}` returns an error) **and** `IN_WORKTREE=yes`, the worktree branch has no remote tracking counterpart. Merge the trunk branch to combine the agent's changes with whatever landed since the branch was created:
 
 ```bash
 git fetch origin
-git rebase origin/main
+git merge "origin/$TRUNK" --no-edit
 ```
+
+If the merge has conflicts, report them and stop. Do not attempt to auto-resolve.
 
 If `origin` cannot be fetched, skip fetch/rebase and proceed to Step 2.
 
@@ -148,20 +151,57 @@ If `.gitignore` contains `# swain-sync: allow <pattern>` for a given pattern, tr
 
 ## Step 3.7 — ADR compliance check
 
-If modified files include any swain artifacts (`docs/spec/`, `docs/epic/`, `docs/vision/`, `docs/research/`, `docs/journey/`, `docs/persona/`, `docs/runbook/`, `docs/design/`), run an ADR compliance check against each modified artifact:
+If modified files include any swain artifacts (`docs/spec/`, `docs/epic/`, `docs/vision/`, `docs/research/`, `docs/journey/`, `docs/persona/`, `docs/runbook/`, `docs/design/`, `docs/train/`), run an ADR compliance check against each modified artifact:
 
 ```bash
 bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/adr-check.sh' -print -quit 2>/dev/null)" <artifact-path>
 ```
 
-For each artifact with findings (exit code 1 — DEAD_REF or STALE), collect the output and present a single consolidated warning after all checks complete:
+For each artifact with findings (exit code 1 = advisory RELEVANT findings, exit code 2 = actionable DEAD_REF or STALE findings), collect the output and present a single consolidated warning after all checks complete:
 
 > ADR compliance: N artifact(s) have findings that may need attention.
 > <condensed findings summary>
 
 This step is **advisory** — it warns but never blocks the commit. Continue to Step 4 regardless.
 
-If the `adr-check.sh` script is not found or fails with exit code 2, skip silently — the check is only available in repos with swain-design installed.
+If the `adr-check.sh` script is not found or fails with exit code 3, skip silently — the check is only available in repos with swain-design installed.
+
+## Step 3.8 — Design drift check
+
+Run `design-check.sh` with no arguments (scan all active DESIGNs) to detect design-to-code drift:
+
+```bash
+bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/design-check.sh' -print -quit 2>/dev/null)" 2>/dev/null
+```
+
+For each DESIGN with findings (STALE or BROKEN `sourcecode-refs`), collect the output and present a single consolidated warning after the check completes:
+
+> Design drift: N DESIGN(s) have stale or broken sourcecode-refs.
+> <condensed findings summary>
+
+This step is **advisory** — it warns but never blocks the commit. Continue to Step 4 regardless.
+
+If the `design-check.sh` script is not found or fails with exit code 2, skip silently — the check is only available in repos with swain-design installed.
+
+## Step 3.9 — Artifact number collision check
+
+Run `detect-duplicate-numbers.sh` to find duplicate artifact numbers introduced by merges or concurrent worktree work:
+
+```bash
+bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-design/scripts/detect-duplicate-numbers.sh' -print -quit 2>/dev/null)" 2>/dev/null
+```
+
+If collisions are found (exit code 1), this step is **blocking** — do not commit until resolved:
+
+> Artifact number collision detected:
+> <collision output>
+>
+> Auto-fix available: run `fix-collisions.sh` to renumber the newer artifact(s).
+> Or run `fix-collisions.sh --dry-run` to preview changes first.
+
+Offer to run `fix-collisions.sh` automatically. If the operator accepts, run it, stage the changes, and continue to Step 4. If the operator declines, **stop execution** — do not commit with duplicate numbers.
+
+If the script is not found, skip silently — the check is only available in repos with swain-design installed.
 
 ## Step 4 — Generate a commit message
 
@@ -228,30 +268,63 @@ If the commit fails because a pre-commit hook rejected it:
 
 ## Step 6 — Push
 
-**If `IN_WORKTREE=yes`:** push the worktree's commits directly to `main` rather than creating a remote worktree branch:
+**If `IN_WORKTREE=yes`:** push the worktree's commits directly to `trunk` (the development branch):
 
 ```bash
-git push origin HEAD:main
+MAX_RETRIES=3
+ATTEMPT=0
+while [ $ATTEMPT -lt $MAX_RETRIES ]; do
+  git push origin "HEAD:$TRUNK" && break
+  ATTEMPT=$((ATTEMPT + 1))
+  if [ $ATTEMPT -lt $MAX_RETRIES ]; then
+    echo "Push rejected (attempt $ATTEMPT/$MAX_RETRIES). Fetching and re-merging..."
+    git fetch origin
+    git merge "origin/$TRUNK" --no-edit || {
+      echo "Merge conflict during retry. Reporting to operator."
+      git merge --abort
+      break
+    }
+    # Run tests on the merged result before retrying push
+    # (project-specific test command — detect from project structure)
+  fi
+done
+
+if [ $ATTEMPT -ge $MAX_RETRIES ]; then
+  echo "Push failed after $MAX_RETRIES attempts. Reporting to operator."
+fi
 ```
 
-If this push is rejected with a non-fast-forward error:
-- Check whether the rejection message mentions branch protection rules or required reviews.
-  - If **branch protection is the cause**, open a PR instead:
-    ```bash
-    BRANCH=$(git rev-parse --abbrev-ref HEAD)
-    SUBJECT=$(git log -1 --pretty=format:'%s')
-    BODY=$(git log -1 --pretty=format:'%b')
-    gh pr create --base main --head "$BRANCH" --title "$SUBJECT" --body "$BODY"
-    ```
-    Report the PR URL. Do not retry the push. Proceed to worktree pruning below.
-  - If **diverged history is the cause** (not branch protection), report the conflict and stop. Do not force-push.
+If the push is rejected due to branch protection rules or required reviews (check the rejection message), fall back to opening a PR instead:
 
-After a successful push or PR creation, remove the worktree:
+```bash
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+SUBJECT=$(git log -1 --pretty=format:'%s')
+BODY=$(git log -1 --pretty=format:'%b')
+gh pr create --base "$TRUNK" --head "$BRANCH" --title "$SUBJECT" --body "$BODY"
+```
+
+Report the PR URL. Do not retry the push. Proceed to worktree pruning below.
+
+After a successful push or PR creation, clean up the worktree — but only if swain-sync created it. Worktrees entered via `EnterWorktree` (branch name matches `worktree-*`) must be left for `ExitWorktree` to clean up, since `ExitWorktree` properly restores the session's CWD before removal. Removing them here would leave the parent session's CWD pointing at a deleted directory, causing ENOENT on all subsequent hook spawns (SPEC-127).
+
 ```bash
 WORKTREE_PATH=$(pwd)
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
 MAIN_REPO=$(git rev-parse --git-common-dir | sed 's|/.git$||')
-git -C "$MAIN_REPO" worktree remove --force "$WORKTREE_PATH" 2>/dev/null || true
-git -C "$MAIN_REPO" worktree prune 2>/dev/null || true
+
+case "$BRANCH" in worktree-*)
+  # SPEC-127: Worktree entered via EnterWorktree — do NOT remove.
+  # ExitWorktree handles cleanup and CWD restoration.
+  echo "Worktree branch '$BRANCH' entered via EnterWorktree — skipping removal (ExitWorktree will clean up)."
+  ;;
+*)
+  # SPEC-100: Restore CWD *before* removal — otherwise the session is stuck
+  # in a deleted directory and all subsequent commands (hooks, git, etc.) fail.
+  cd "$MAIN_REPO" || cd "$HOME"
+  git -C "$MAIN_REPO" worktree remove --force "$WORKTREE_PATH" 2>/dev/null || true
+  git -C "$MAIN_REPO" worktree prune 2>/dev/null || true
+  ;;
+esac
 ```
 
 **If `IN_WORKTREE=no`** (main worktree, normal case):
@@ -273,13 +346,13 @@ Run `git --no-pager status` and `git --no-pager log --oneline -3` to verify the 
 
 ## Index rebuild (SPEC-047)
 
-Before committing (after staging, before Step 5), check whether any artifact index files (`list-*.md`) are stale. If `skills/swain-design/scripts/rebuild-index.sh` exists, run it for each artifact type that had changes staged:
+Before committing (after staging, before Step 5), check whether any artifact index files (`list-*.md`) are stale. If the rebuild script exists, run it for each artifact type that had changes staged:
 
 ```bash
-REBUILD_SCRIPT="$REPO_ROOT/skills/swain-design/scripts/rebuild-index.sh"
+REBUILD_SCRIPT="$(find "$REPO_ROOT" -path '*/swain-design/scripts/rebuild-index.sh' -print -quit 2>/dev/null)"
 if [[ -x "$REBUILD_SCRIPT" ]]; then
     # Detect which types had staged changes
-    for type in spec epic spike adr persona runbook design vision journey; do
+    for type in spec epic spike adr persona runbook design vision journey train; do
         if git diff --cached --name-only | grep -q "^docs/$type/"; then
             bash "$REBUILD_SCRIPT" "$type"
             git add "docs/$type/list-${type}.md" 2>/dev/null || true

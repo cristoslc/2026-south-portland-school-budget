@@ -100,6 +100,18 @@ if find .claude/skills/*/scripts/ -type f \( -name '*.sh' -o -name '*.py' \) ! -
   issues+=("scripts missing executable permission")
 fi
 
+# 9b. SSH alias readiness for repos using swain-keys host aliases
+SSH_HELPER="skills/swain-doctor/scripts/ssh-readiness.sh"
+if [[ -x "$SSH_HELPER" ]]; then
+  ssh_output="$(bash "$SSH_HELPER" --check 2>/dev/null || true)"
+  if [[ -n "$ssh_output" ]]; then
+    while IFS= read -r line; do
+      [[ -z "$line" ]] && continue
+      issues+=("${line#ISSUE: }")
+    done <<< "$ssh_output"
+  fi
+fi
+
 # 10. Superpowers detection (advisory — warn but don't fail)
 SUPERPOWERS_SKILLS="brainstorming writing-plans test-driven-development verification-before-completion subagent-driven-development executing-plans"
 sp_missing=0
@@ -127,12 +139,47 @@ if [[ -x "$SCANNER_SCRIPT" ]]; then
   fi
 fi
 
+# Check mmdc availability (SPEC-110)
+if ! command -v mmdc >/dev/null 2>&1; then
+    echo "swain-preflight: mmdc (mermaid-cli) not found — quadrant chart will use inline Mermaid instead of PNG"
+fi
+
 # 12. Lightweight security diagnostic (advisory, non-blocking) (SPEC-061)
 DOCTOR_SECURITY_SCRIPT="skills/swain-security-check/scripts/doctor_security_check.py"
 if [[ -x "$DOCTOR_SECURITY_SCRIPT" ]]; then
   security_output=$(python3 "$DOCTOR_SECURITY_SCRIPT" 2>/dev/null || true)
   if [[ -n "$security_output" ]]; then
     echo "$security_output"
+  fi
+fi
+
+# 13. Skill change discipline (SPEC-148) — advisory, triggers doctor
+SKILL_CHECK_SCRIPT="skills/swain-doctor/scripts/check-skill-changes.sh"
+if [[ -x "$SKILL_CHECK_SCRIPT" ]]; then
+  skill_output=$(bash "$SKILL_CHECK_SCRIPT" 2>/dev/null || true)
+  skill_status=$?
+  if [[ $skill_status -ne 0 && -n "$skill_output" ]]; then
+    echo "$skill_output"
+    issues+=("non-trivial skill changes detected on trunk (use worktree branches)")
+  fi
+fi
+
+# Trunk/release branch model detection (EPIC-029, ADR-013)
+# Check that scripts/swain-trunk.sh exists and the detected trunk branch has a remote
+TRUNK_SCRIPT="$REPO_ROOT/scripts/swain-trunk.sh"
+if [[ ! -x "$TRUNK_SCRIPT" ]]; then
+  issues+=("scripts/swain-trunk.sh missing or not executable — EPIC-029 trunk detection not installed")
+else
+  DETECTED_TRUNK=$(bash "$TRUNK_SCRIPT" 2>/dev/null || echo "")
+  if [[ -z "$DETECTED_TRUNK" ]]; then
+    issues+=("swain-trunk.sh returned empty — cannot detect trunk branch")
+  elif ! git ls-remote --heads origin "$DETECTED_TRUNK" 2>/dev/null | grep -q "$DETECTED_TRUNK"; then
+    echo "advisory: trunk branch '$DETECTED_TRUNK' has no remote counterpart on origin"
+  fi
+  # Check if release branch exists (ADR-013 trunk+release model)
+  if ! git rev-parse --verify release 2>/dev/null >/dev/null; then
+    echo "advisory: no 'release' branch found — trunk+release model (ADR-013) not configured"
+    echo "  run: bash scripts/migrate-to-trunk-release.sh --dry-run"
   fi
 fi
 

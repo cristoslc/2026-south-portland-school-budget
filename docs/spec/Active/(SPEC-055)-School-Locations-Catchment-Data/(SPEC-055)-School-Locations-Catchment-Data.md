@@ -2,10 +2,10 @@
 title: "School Locations & Catchment Data"
 artifact: SPEC-055
 track: implementable
-status: Active
+status: Complete
 author: cristos
 created: 2026-03-30
-last-updated: 2026-03-30
+last-updated: 2026-03-31
 type: feature
 parent-epic: EPIC-030
 linked-artifacts:
@@ -66,3 +66,4 @@ The project has geocoded school locations and documented catchment zone boundari
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Active | 2026-03-30 | — | Created as child of EPIC-030 |
+| Complete | 2026-03-31 | — | School locations and synthesis populated |

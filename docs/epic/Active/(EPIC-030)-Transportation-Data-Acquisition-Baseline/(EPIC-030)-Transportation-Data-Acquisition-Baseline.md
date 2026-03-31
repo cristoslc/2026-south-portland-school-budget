@@ -49,9 +49,9 @@ The project has a structured transportation baseline: what the district currentl
 
 | Artifact | Title | Status |
 |----------|-------|--------|
-| SPEC-053 | Maine DOE Transport Expenditure Trove | Active |
-| SPEC-054 | Transportation Claims Catalog | Active |
-| SPEC-055 | School Locations & Catchment Data | Active |
+| SPEC-053 | Maine DOE Transport Expenditure Trove | Complete |
+| SPEC-054 | Transportation Claims Catalog | Complete |
+| SPEC-055 | School Locations & Catchment Data | Complete |
 
 ## Key Dependencies
 

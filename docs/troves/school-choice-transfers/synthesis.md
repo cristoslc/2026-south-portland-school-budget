@@ -47,30 +47,38 @@ South Portland home instruction students, from Maine DOE:
 | Public school enrollment (K-12) | 2,816 | NCES CCD 2024-25 |
 | Home instruction | 54 | Maine DOE 2025-26 |
 
-**Estimated non-public enrollment:**
-- Total school-age (5-17, estimated): ~3,600-3,800 (adjusting the under-18 figure for ages 0-4)
-- Public enrollment: 2,816
-- Home instruction: 54
-- **Gap (private + charter + inter-district transfers out):** ~730-930 students
+**Estimated school-age population vs. enrollment (sensitivity analysis):**
 
-**Caveat:** This is a rough estimate. The census age brackets don't align perfectly with school grades. The 5-year ACS data averages 2019-2024. Some of the "gap" may also be explained by pre-K age children in the under-18 count who aren't yet enrolled.
+The under-18 census count (3,951) includes ages 0-4, who are not school-age. The gap estimate is highly sensitive to the assumed under-5 share of population:
 
-**Applying statewide rates as a cross-check:**
-- Private school (8.9% statewide): ~320-340 students
-- Charter school (1.2% statewide): ~43-46 students
-- Homeschool (actual): 54 students
-- **Total estimated non-public:** ~420-440 students
-- **Residual (inter-district transfers or estimation error):** ~290-490 students
+| Under-5 assumption | Est. school-age (5-17) | Public enrollment | Gap | Interpretation |
+|:-------------------:|:---------------------:|:-----------------:|:---:|:---------------|
+| 4.0% of pop | 2,873 | 2,816 | +3 | Breakeven — roughly 1:1 |
+| 5.0% of pop | 2,604 | 2,816 | -266 | **Net importer** of students |
+| 6.0% of pop | 2,335 | 2,816 | -535 | **Strong net importer** |
+
+**Key finding: South Portland is likely a net importer of students, not a net exporter.** At reasonable under-5 assumptions (5-6% of population for a community with 20.7% seniors), public school enrollment *exceeds* the resident school-age population. This means more students are transferring IN to South Portland schools than transferring out — consistent with being a larger district with comprehensive programming adjacent to smaller towns.
+
+**This changes the enrollment narrative.** The district's declining enrollment is not driven by families choosing to leave the district. It appears to be driven by demographic decline (fewer school-age children in the community) — which makes it more structural and harder to reverse through programmatic improvements.
+
+**Applying statewide rates as a secondary estimate:**
+- Private school (8.9% statewide): ~250-280 students out
+- Charter school (1.2% statewide): ~34-38 students out
+- Homeschool (actual): 54 students out
+- **Total estimated outflow:** ~340-370 students
+- **Implied inflow (to explain enrollment exceeding resident population):** ~480-750+ students from neighboring districts
+
+**Caution:** This analysis uses ACS 5-year estimates (averaging 2019-2024), which may not reflect the most recent population changes. The age bracket misalignment between census (5-9, 10-19) and school grades (K-12) introduces uncertainty. These are order-of-magnitude estimates, not precise counts.
 
 ## Implications for Enrollment Modeling
 
-1. **School choice is a meaningful enrollment driver.** An estimated 730-930 South Portland school-age children are not enrolled in South Portland public schools. This is 20-25% of the school-age population.
+1. **School choice outflow is NOT the primary enrollment driver.** South Portland appears to be a net receiver of students. The enrollment decline is demographic (fewer children), not behavioral (families leaving).
 
-2. **The closure decision could increase outflow.** If families lose confidence in the district due to closure and reconfiguration, even a small increase in private school or inter-district transfer rates (e.g., 2% shift = ~70 students) would deepen the enrollment decline and reduce per-pupil state revenue.
+2. **But closure could change the equation.** Even if South Portland is currently a net importer, losing 2-3% of enrollment to outflow triggered by reduced confidence (~70-85 students) would be significant — especially if the students who leave are from families with the most options (higher income, car access).
 
-3. **The cohort survival model should include a school choice sensitivity scenario.** SPEC-059 (scenario brackets) should model what happens if closure triggers 2-5% additional outflow to non-public options.
+3. **The cohort survival model should model this as a risk scenario.** SPEC-059 should include a "confidence shock" scenario: what happens if net inflow decreases or reverses after closure.
 
-4. **Direct transfer data would strengthen this analysis.** A FOAA request to the district for superintendent agreement transfer counts (in and out) by year would provide the actual net transfer flow rather than this indirect estimation.
+4. **Direct transfer data remains the gold standard.** A FOAA request to the district for superintendent agreement transfer counts (in and out) by year would replace this indirect estimation with actual numbers. The request should be straightforward — this is public data.
 
 ## Data Files
 

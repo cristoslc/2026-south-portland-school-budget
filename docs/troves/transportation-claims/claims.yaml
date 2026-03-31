@@ -1,0 +1,233 @@
+---
+# Transportation Claims Catalog
+# Extracted from FY27 budget evidence pools: 2026-03-30
+# Categories: cost | routing | logistics | staffing | policy | consultant
+# Response status: answered | unanswered | deferred | contradicted
+
+claims:
+
+  # === CHRONOLOGICAL RECORD ===
+
+  # --- February 4, 2026: Budget Forum ---
+
+  - id: TC-001
+    category: routing
+    type: question
+    text: "How does the busing, the money saved from increased class size, how does that, what are some general numbers of like, what the busing cost would be in response to that?"
+    source: docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md
+    source_line: 80
+    original_source: "February 4 Budget Forum (referenced in March 2 discussion)"
+    speaker: parent/community_member
+    date: 2026-02-04
+    response_status: unanswered
+    note: "First public question about busing costs. No answer provided."
+
+  - id: TC-002
+    category: policy
+    type: claim
+    text: "Consolidating middle school bell times was removed from proposals because it requires permitting and DOT traffic studies that cannot be completed by September 2026; may be viable for fall 2027"
+    source: docs/troves/school-board-budget-meetings/sources/002-budget-forum-2026-02-04/002-budget-forum-2026-02-04.md
+    source_line: 131
+    original_source: "February 4 Budget Forum"
+    speaker: administration
+    date: 2026-02-04
+    response_status: answered
+    note: "Establishes that DOT traffic studies take 6-12 months. This standard was applied to middle school bell times but NOT to elementary reconfiguration."
+
+  # --- March 2, 2026: Budget Workshop ---
+
+  - id: TC-003
+    category: cost
+    type: non_answer
+    text: "Um, the reality is, is we currently run five school schedules every single day, and we bus kids back and forth across the town in so many complex ways. Um, you know, that we would need to kind of look at the whole picture, not just that single change, um, but realize that it would be part of the, the math we would need to do."
+    source: docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md
+    source_line: 82
+    original_source: "March 2 Budget Workshop"
+    speaker: administration
+    date: 2026-03-02
+    response_status: deferred
+    note: "Acknowledges complexity but provides no estimate. 'The math we would need to do' — but hasn't done."
+
+  - id: TC-004
+    category: consultant
+    type: commitment
+    text: "We definitely know with some of these plans, they take more comprehensive reexamination of our transportation routes. Um, and so have budgeted for transportation consultancy, um, to make sure that we are making those changes."
+    source: docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md
+    source_line: 232
+    original_source: "March 2 Budget Workshop"
+    speaker: administration
+    date: 2026-03-02
+    response_status: answered
+    note: "Confirms consultant is budgeted. But consultant hasn't been hired, no scope defined, no timeline given."
+
+  - id: TC-005
+    category: cost
+    type: claim
+    text: "But the actual cost, um, of change in transportation routes or driver hours, we don't anticipate being, uh, a significant, um, cost."
+    source: docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md
+    source_line: 236
+    original_source: "March 2 Budget Workshop"
+    speaker: administration
+    date: 2026-03-02
+    response_status: answered
+    note: "CRITICAL: Claims route cost changes will be insignificant — without having modeled them. This is an assumption presented as a conclusion."
+
+  - id: TC-006
+    category: logistics
+    type: question
+    text: "So these changes that you guys gonna bus everybody. So it really concerns my family reconfiguration. What significant impact our family children's, my children's go to Boys and Girls Club also, um, when my husband work and when I work, um, this mean the change in school placements affects our ability to get our children safe where they need to be."
+    source: docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md
+    source_line: 388
+    original_source: "March 2 Budget Workshop — public comment"
+    speaker: parent
+    date: 2026-03-02
+    response_status: unanswered
+    note: "Working family with one car, multiple children, aftercare dependency. No response to logistics concern."
+
+  - id: TC-007
+    category: logistics
+    type: question
+    text: "These proposals will crush us. The logistical challenges could force us to choose between equally bad options. One, put your children on unsupervised buses for potentially hours a day... Having unsupervised busing across town for any student is not in their best interest. It will further disrupt our jobs with possible crosstown drop-offs and drop-offs at two different schools potentially on opposite ends of town."
+    source: docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md
+    source_line: 404
+    original_source: "March 2 Budget Workshop — public comment"
+    speaker: parent
+    date: 2026-03-02
+    response_status: unanswered
+
+  - id: TC-008
+    category: routing
+    type: question
+    text: "How long will the bus rides be? Um, it seems like it's inevitable that, um, I've hear parents locally to skill and that have 45 minute bus rides already. Um, so I don't know how long those bus rides will be if they have to go all the way across the city."
+    source: docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md
+    source_line: 442
+    original_source: "March 2 Budget Workshop — public comment"
+    speaker: parent
+    date: 2026-03-02
+    response_status: unanswered
+    note: "Documents existing 45-minute rides from a single school. No response on projected ride times."
+
+  - id: TC-009
+    category: cost
+    type: question
+    text: "The lack of transportation cost estimates, um, as it seems inevitable that those costs would have to rise significantly."
+    source: docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md
+    source_line: 442
+    original_source: "March 2 Budget Workshop — public comment"
+    speaker: parent
+    date: 2026-03-02
+    response_status: unanswered
+
+  - id: TC-010
+    category: cost
+    type: question
+    text: "The environmental impact. Uh, I didn't hear that discussed tonight."
+    source: docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md
+    source_line: 442
+    original_source: "March 2 Budget Workshop — public comment"
+    speaker: parent
+    date: 2026-03-02
+    response_status: unanswered
+
+  - id: TC-011
+    category: logistics
+    type: claim
+    text: "90% worried this would result in loss of school communities and busing complications. And 57%, 57% said it'd be disruptive to before and aftercare."
+    source: docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md
+    source_line: 484
+    original_source: "March 2 Budget Workshop — survey results"
+    speaker: administration
+    date: 2026-03-02
+    response_status: answered
+    note: "Administration's own survey data showing overwhelming parent concern about busing and aftercare. No follow-up analysis commissioned."
+
+  # --- March 9, 2026 ---
+
+  - id: TC-012
+    category: consultant
+    type: claim
+    text: "A transportation consultant is referenced as a cost but no routing analysis has been shared"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 181
+    original_source: "Evidence pool synthesis"
+    speaker: gap_analysis
+    date: 2026-03-09
+    response_status: unanswered
+    note: "$60-125K budgeted for consulting — but no scope, no timeline, no deliverable described"
+
+  # --- March 23, 2026 ---
+
+  - id: TC-013
+    category: policy
+    type: claim
+    text: "Middle school schedule consolidation: Merge staggered start times (currently 7:55 and 8:45). Potential savings from reduced duplicated staff/admin, but requires a $25K DOT traffic study and 6–12 month permitting. Unlikely to impact FY27."
+    source: docs/troves/city-council-meetings-2026/synthesis.md
+    source_line: 64
+    original_source: "City Council synthesis"
+    speaker: synthesis_author
+    date: 2026-03-10
+    response_status: answered
+    note: "The $25K traffic study requirement for middle school bell changes is cited as the reason for deferral. No equivalent traffic study mentioned for elementary reconfiguration, which affects more students."
+
+  # --- March 30, 2026 (from persona briefs) ---
+
+  - id: TC-014
+    category: routing
+    type: claim
+    text: "Transportation will not be answered tonight. The Director of Operations confirmed that no modeling exists and none will be done before the board votes."
+    source: dist/briefings/persona-008-disruption-averse-parent.md
+    source_line: 42
+    original_source: "Persona-008 briefing (sourced from board communication)"
+    speaker: "Director of Operations"
+    date: 2026-03-30
+    response_status: answered
+    note: "THE DEFINITIVE STATEMENT: No transport modeling exists. None will be done before the vote. On the record."
+
+  - id: TC-015
+    category: logistics
+    type: question
+    text: "What are the transportation logistics for families with kids at different grade-band levels? If I have a kindergartner at one primary school and a third-grader at a different intermediate school with a different arrival time, how does that work? Who pays for extended care if the times don't align?"
+    source: dist/briefings/persona-001-concerned-elementary-parent.md
+    source_line: 39
+    original_source: "Persona-001 briefing"
+    speaker: persona_analysis
+    date: 2026-03-30
+    response_status: unanswered
+
+  # === STAFFING ===
+
+  - id: TC-016
+    category: staffing
+    type: claim
+    text: "Facilities/Food/Transport (SEA): 100 FTE → 86 FTE, 14 cut, 14% reduction"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 34
+    original_source: "[011] Superintendent's budget presentation"
+    speaker: administration
+    date: 2026-03-09
+    response_status: answered
+    note: "Highest percentage cut of any bargaining unit. Cut decided BEFORE transport modeling — no assessment of whether 86 FTE can cover expanded routes."
+
+  - id: TC-017
+    category: cost
+    type: claim
+    text: "We have revenue that comes in from a transportation agreement that we have with Portland, where we do some of the service on their buses for some billing."
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 72
+    original_source: "Budget Forum"
+    speaker: administration
+    date: 2026-02-04
+    response_status: answered
+    note: "Reveals South Portland has a cross-billing bus agreement with Portland. Complicates cost structure — marginal route additions may require renegotiation."
+
+  - id: TC-018
+    category: logistics
+    type: question
+    text: "Is there any realistic path to September 2026 implementation when no redistricting plan exists? I've heard the word 'September' repeatedly but I have not seen a milestone chart with responsible completion dates for redistricting, family notification, transportation rerouting, and staff reassignment."
+    source: dist/briefings/persona-007-school-board-insider.md
+    source_line: 43
+    original_source: "Persona-007 briefing"
+    speaker: persona_analysis
+    date: 2026-03-30
+    response_status: unanswered
+    note: "Implementation timeline doesn't exist. Transport rerouting is listed as one of the missing milestones."

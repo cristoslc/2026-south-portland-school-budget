@@ -1,0 +1,319 @@
+---
+# Enrollment Claims Catalog
+# Extracted from FY27 budget evidence pools: 2026-03-30
+# Each claim is sourced to a specific document and line/section
+# Categories: enrollment_total | grade_level | demographic | projection | staffing_ratio | capacity
+# Evidence status: pending (awaiting independent data for assessment)
+
+claims:
+
+  # === ENROLLMENT TOTALS ===
+
+  - id: EC-001
+    category: enrollment_total
+    type: claim
+    text: "Enrollment has declined from 3,085 in 2015-16 to 2,744 in 2025-26"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 91
+    original_source: "[005] December 2025 Budget Workshop"
+    speaker: administration
+    date: 2025-12-17
+    evidence_status: pending
+
+  - id: EC-002
+    category: enrollment_total
+    text: "As of February 2026, enrollment was 2,748 (+12 students since January)"
+    type: claim
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 91
+    original_source: "[008] Board Slides 2-9-26"
+    speaker: administration
+    date: 2026-02-09
+    evidence_status: pending
+
+  - id: EC-003
+    category: enrollment_total
+    type: claim
+    text: "South Portland is at its lowest K-12 enrollment in a decade (~2,736 students as of January 2026)"
+    source: docs/troves/school-board-budget-meetings/synthesis.md
+    source_line: 18
+    original_source: School Board Budget Meetings synthesis
+    speaker: synthesis_author
+    date: 2026-03-09
+    evidence_status: pending
+
+  - id: EC-004
+    category: enrollment_total
+    type: claim
+    text: "Enrollment peaked around 2022-2023 with the influx of asylum-seeking families, many of whom have since moved"
+    source: docs/troves/school-board-budget-meetings/synthesis.md
+    source_line: 18
+    original_source: School Board Budget Meetings synthesis
+    speaker: synthesis_author
+    date: 2026-03-09
+    evidence_status: pending
+    note: "Key assumption about migration — is the departure of asylum-seeking families structural or temporary?"
+
+  - id: EC-005
+    category: grade_level
+    type: claim
+    text: "Total elementary enrollment declined from 1,401 in 2021-22 to 1,080 in 2025-26 — a 23% drop"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 70
+    original_source: "[010] March 2 Budget Workshop"
+    speaker: administration
+    date: 2026-03-02
+    evidence_status: pending
+
+  - id: EC-006
+    category: grade_level
+    type: claim
+    text: "Skillin is the largest school (310 students) while Small is the smallest (190)"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 70
+    original_source: "[010] March 2 Budget Workshop"
+    speaker: administration
+    date: 2026-03-02
+    evidence_status: pending
+
+  - id: EC-007
+    category: projection
+    type: claim
+    text: "Staffing models were run with enrollment numbers from 10/1/25 in IC. We are projected to have 40 less students next year"
+    source: docs/troves/fy27-budget-documents/sources/036-fy27-budget-3-23-26-board-meeting.md
+    source_line: 731
+    original_source: March 23 Board Meeting presentation
+    speaker: administration
+    date: 2026-03-23
+    evidence_status: pending
+    note: "Only forward projection shared publicly — one year, no methodology, no grade-level breakdown"
+
+  # === DEMOGRAPHIC SHIFTS ===
+
+  - id: EC-008
+    category: demographic
+    type: claim
+    text: "Multilingual learners: 1% (2015-16) to 17% (2025-26); 26% of students have a non-English primary/home language; 40+ languages spoken"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 94
+    original_source: "[005, 010]"
+    speaker: administration
+    date: 2025-12-17
+    evidence_status: pending
+
+  - id: EC-009
+    category: demographic
+    type: claim
+    text: "Students of color: 18% to 38%"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 95
+    original_source: "[005]"
+    speaker: administration
+    date: 2025-12-17
+    evidence_status: pending
+
+  - id: EC-010
+    category: demographic
+    type: claim
+    text: "Students in special education: 18% to 23%"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 96
+    original_source: "[005]"
+    speaker: administration
+    date: 2025-12-17
+    evidence_status: pending
+
+  - id: EC-011
+    category: demographic
+    type: claim
+    text: "McKinney-Vento eligible: 1% to 10%"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 97
+    original_source: "[005]"
+    speaker: administration
+    date: 2025-12-17
+    evidence_status: pending
+
+  - id: EC-012
+    category: demographic
+    type: claim
+    text: "Economically disadvantaged students have fluctuated between 33% and 43%"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 99
+    original_source: "[005]"
+    speaker: administration
+    date: 2025-12-17
+    evidence_status: pending
+
+  - id: EC-013
+    category: demographic
+    type: claim
+    text: "Reduction in number of ESOL students... Language ability level of students is higher in 26-27"
+    source: docs/troves/fy27-budget-documents/sources/036-fy27-budget-3-23-26-board-meeting.md
+    source_line: 671
+    original_source: March 23 Board Meeting presentation
+    speaker: administration
+    date: 2026-03-23
+    evidence_status: pending
+    note: "Used to justify ESOL staff reductions — but contradicts the 1%→17% growth narrative. Is the population plateauing or declining?"
+
+  # === STAFFING-ENROLLMENT RELATIONSHIP ===
+
+  - id: EC-014
+    category: staffing_ratio
+    type: claim
+    text: "Staff-to-student ratio has tightened from 5.26:1 in 2017 to 4.14:1 in December 2025"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 39
+    original_source: "[005]"
+    speaker: administration
+    date: 2025-12-17
+    evidence_status: pending
+
+  - id: EC-015
+    category: staffing_ratio
+    type: claim
+    text: "While enrollment declined, staffing levels continued to rise due to increasingly complex student needs and program expansion"
+    source: docs/troves/school-board-budget-meetings/synthesis.md
+    source_line: 19
+    original_source: School Board Budget Meetings
+    speaker: administration
+    date: 2026-02-04
+    evidence_status: pending
+    note: "Core narrative used to justify cuts — but 'complexity' is real (SPED 18→23%, ELL 1→17%). The question is whether staffing grew faster than complexity required."
+
+  - id: EC-016
+    category: staffing_ratio
+    type: claim
+    text: "Enrollment has broadly declined, interrupted by a brief increase that resulted in additional hires"
+    source: docs/troves/fy27-budget-documents/sources/036-fy27-budget-3-23-26-board-meeting.md
+    source_line: 43
+    original_source: March 23 Board Meeting presentation
+    speaker: administration
+    date: 2026-03-23
+    evidence_status: pending
+    note: "Frames asylum-seeker enrollment spike as a hiring mistake rather than a response to real need"
+
+  # === CDS / PRE-K MANDATE ===
+
+  - id: EC-017
+    category: projection
+    type: claim
+    text: "CDS transition mandated by state law will add responsibility for 80-90 four-year-olds in FY27 (September 2026), with three-year-olds following in FY28"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 101
+    original_source: "[010]"
+    speaker: administration
+    date: 2026-03-02
+    evidence_status: pending
+    note: "This is an enrollment INCREASE driven by mandate — counters the decline narrative but isn't integrated into enrollment projections"
+
+  # === CAPACITY ===
+
+  - id: EC-018
+    category: capacity
+    type: claim
+    text: "Allows for all schools to more closely mirror the demographics of the district"
+    source: docs/troves/fy27-budget-documents/sources/036-fy27-budget-3-23-26-board-meeting.md
+    source_line: 287
+    original_source: March 23 Board Meeting presentation
+    speaker: administration
+    date: 2026-03-23
+    evidence_status: pending
+    note: "Claimed benefit of reconfiguration — but no enrollment distribution analysis supports this claim"
+
+  - id: EC-019
+    category: capacity
+    type: claim
+    text: "Reconfiguration will allow for the best outcomes for students"
+    source: docs/troves/fy27-budget-documents/sources/036-fy27-budget-3-23-26-board-meeting.md
+    source_line: 327
+    original_source: March 23 Board Meeting presentation
+    speaker: administration
+    date: 2026-03-23
+    evidence_status: pending
+    note: "Broad qualitative claim with no enrollment-based evidence cited"
+
+  # === UNANSWERED QUESTIONS ===
+
+  - id: EC-020
+    category: projection
+    type: question
+    text: "What enrollment projections support each option?"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 187
+    original_source: "Synthesis gap #6"
+    speaker: gap_analysis
+    date: 2026-03-09
+    response_status: unanswered
+    note: "Formally identified as a gap in the evidence pool synthesis"
+
+  - id: EC-021
+    category: projection
+    type: question
+    text: "Has the administration modeled what happens to this configuration if residential density development adds 50-100 elementary students within three years?"
+    source: dist/briefings/persona-007-school-board-insider.md
+    source_line: 76
+    original_source: "Persona-007 briefing (analyst-generated question)"
+    speaker: persona_analysis
+    date: 2026-03-30
+    response_status: unanswered
+    note: "LD 1829 housing density pipeline — upside enrollment uncertainty never modeled"
+
+  - id: EC-022
+    category: projection
+    type: question
+    text: "Historical trends are documented but no forward projection beyond the current year has been shared. The viability of any reconfiguration model depends on where enrollment stabilizes."
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 187
+    original_source: "Synthesis gap #6"
+    speaker: gap_analysis
+    date: 2026-03-09
+    response_status: unanswered
+
+  - id: EC-023
+    category: enrollment_total
+    type: question
+    text: "What happens to enrollment if ICE enforcement continues to drive immigrant families out of South Portland?"
+    source: docs/troves/city-council-meetings-2026/synthesis.md
+    source_line: 134
+    original_source: City Council Meetings synthesis
+    speaker: community_concern
+    date: 2026-03-10
+    response_status: unanswered
+    note: "Downside enrollment risk from federal enforcement policy — not modeled"
+
+  - id: EC-024
+    category: projection
+    type: non_answer
+    text: "The superintendent explicitly stated alternatives would kick the problem down the road"
+    source: docs/troves/school-board-budget-meetings/synthesis.md
+    source_line: 69
+    original_source: School Board Budget Meetings
+    speaker: "Superintendent Entwistle (interim)"
+    date: 2026-03-02
+    response_status: deferred
+    note: "Framing that assumes structural decline — but without published projections, 'kicking it down the road' vs. 'waiting for better data' is a judgment call, not an evidence-based conclusion"
+
+  - id: EC-025
+    category: demographic
+    type: question
+    text: "With 78 staff reductions and growing special education obligations (23% of students, CDS transition for 80-90 new preschoolers), the adequacy of remaining SPED staffing is not explicitly addressed"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 185
+    original_source: "Synthesis gap #5"
+    speaker: gap_analysis
+    date: 2026-03-09
+    response_status: unanswered
+
+  - id: EC-026
+    category: enrollment_total
+    type: question
+    text: "The counterfactual of deeper across-the-board cuts without school closure is undefined"
+    source: docs/troves/fy27-budget-documents/synthesis.md
+    source_line: 191
+    original_source: "Synthesis gap #8"
+    speaker: gap_analysis
+    date: 2026-03-09
+    response_status: unanswered
+    note: "Option 1.2 (no closure) scored lowest but was never fully costed"

@@ -1,0 +1,11 @@
+name: transportation-claims
+description: Chronological catalog of every transportation question, claim, and non-answer from the FY27 budget process
+created: 2026-03-30
+sources:
+  - ../fy27-budget-documents/
+  - ../school-board-budget-meetings/
+  - ../city-council-meetings-2026/
+linked-artifacts:
+  - SPEC-054
+  - EPIC-030
+  - INITIATIVE-006

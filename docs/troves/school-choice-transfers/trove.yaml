@@ -1,0 +1,12 @@
+name: school-choice-transfers
+description: School choice transfer flow analysis for South Portland — indirect estimation from available public data
+created: 2026-03-31
+sources:
+  - Maine DOE Home Instruction Counts by District (2020-2026)
+  - Census Reporter ACS 2024 5-year age data
+  - NCES CCD enrollment data
+  - Maine statewide private/charter school participation rates
+linked-artifacts:
+  - SPEC-052
+  - EPIC-026
+  - INITIATIVE-005

@@ -25,6 +25,27 @@
 | SPEC-036 | Question Scoring | 2026-03-30 | — |
 | SPEC-037 | Resolution Stress-Test Gate | 2026-03-30 | — |
 | SPEC-038 | Evergreen Key Questions Section | 2026-03-30 | — |
+| SPEC-048 | Maine DOE Enrollment Data Trove | 2026-03-30 | — |
+| SPEC-049 | DHHS Birth Records Trove | 2026-03-30 | — |
+| SPEC-050 | Housing Permit Data Trove | 2026-03-30 | — |
+| SPEC-051 | Enrollment Claims Catalog | 2026-03-30 | — |
+| SPEC-052 | School Choice Transfer Data | 2026-03-30 | — |
+| SPEC-053 | Maine DOE Transport Expenditure Trove | 2026-03-30 | — |
+| SPEC-054 | Transportation Claims Catalog | 2026-03-30 | — |
+| SPEC-055 | School Locations & Catchment Data | 2026-03-30 | — |
+| SPEC-056 | Enrollment Gap Analysis Document | 2026-03-30 | — |
+| SPEC-057 | Enrollment Phase 1 Persona Briefs | 2026-03-30 | — |
+| SPEC-058 | Cohort Survival Model | 2026-03-30 | — |
+| SPEC-059 | Scenario Bracket Projections | 2026-03-30 | — |
+| SPEC-060 | Split-Family Count Model | 2026-03-30 | — |
+| SPEC-061 | McKinney-Vento Exposure Analysis | 2026-03-30 | — |
+| SPEC-062 | SEA Staffing Adequacy Assessment | 2026-03-30 | — |
+| SPEC-063 | Bell Schedule Tier Analysis | 2026-03-30 | — |
+| SPEC-064 | Before/After Care Gap Analysis | 2026-03-30 | — |
+| SPEC-065 | Transport Configuration Comparison | 2026-03-30 | — |
+| SPEC-066 | Transport Persona Briefs | 2026-03-30 | — |
+| SPEC-067 | Enrollment Phase 2 Persona Briefs | 2026-03-30 | — |
+| SPEC-068 | Enrollment Baseline Site Page | 2026-03-30 | — |
 
 ## Complete
 

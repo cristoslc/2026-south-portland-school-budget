@@ -47,7 +47,10 @@ Each persona receives an updated brief that says not just "this data was missing
 
 ## Child Specs
 
-_To be decomposed during implementation planning._
+| Artifact | Title | Status |
+|----------|-------|--------|
+| SPEC-067 | Enrollment Phase 2 Persona Briefs | Active |
+| SPEC-068 | Enrollment Baseline Site Page | Active |
 
 ## Key Dependencies
 

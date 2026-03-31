@@ -45,7 +45,13 @@ The project has a complete, structured enrollment dataset drawn from authoritati
 
 ## Child Specs
 
-_To be decomposed during implementation planning._
+| Artifact | Title | Status |
+|----------|-------|--------|
+| SPEC-048 | Maine DOE Enrollment Data Trove | Active |
+| SPEC-049 | DHHS Birth Records Trove | Active |
+| SPEC-050 | Housing Permit Data Trove | Active |
+| SPEC-051 | Enrollment Claims Catalog | Active |
+| SPEC-052 | School Choice Transfer Data | Active |
 
 ## Key Dependencies
 

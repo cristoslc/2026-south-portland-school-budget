@@ -61,7 +61,14 @@ The board, council, and community can compare reconfiguration options on transpo
 
 ## Child Specs
 
-_To be decomposed during implementation planning._
+| Artifact | Title | Status |
+|----------|-------|--------|
+| SPEC-060 | Split-Family Count Model | Active |
+| SPEC-061 | McKinney-Vento Exposure Analysis | Active |
+| SPEC-062 | SEA Staffing Adequacy Assessment | Active |
+| SPEC-063 | Bell Schedule Tier Analysis | Active |
+| SPEC-064 | Before/After Care Gap Analysis | Active |
+| SPEC-065 | Transport Configuration Comparison | Active |
 
 ## Key Dependencies
 

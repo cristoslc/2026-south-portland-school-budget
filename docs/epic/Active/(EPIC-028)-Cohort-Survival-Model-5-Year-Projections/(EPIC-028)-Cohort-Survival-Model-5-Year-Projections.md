@@ -51,7 +51,10 @@ An independent, transparent enrollment projection exists as a public resource. A
 
 ## Child Specs
 
-_To be decomposed during implementation planning._
+| Artifact | Title | Status |
+|----------|-------|--------|
+| SPEC-058 | Cohort Survival Model | Active |
+| SPEC-059 | Scenario Bracket Projections | Active |
 
 ## Key Dependencies
 

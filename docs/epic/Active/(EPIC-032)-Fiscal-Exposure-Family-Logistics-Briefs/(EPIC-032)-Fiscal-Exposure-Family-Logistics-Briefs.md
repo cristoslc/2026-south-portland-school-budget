@@ -48,7 +48,9 @@ Maria understands how many mornings she'd spend doing split-building drop-offs u
 
 ## Child Specs
 
-_To be decomposed during implementation planning._
+| Artifact | Title | Status |
+|----------|-------|--------|
+| SPEC-066 | Transport Persona Briefs | Active |
 
 ## Key Dependencies
 

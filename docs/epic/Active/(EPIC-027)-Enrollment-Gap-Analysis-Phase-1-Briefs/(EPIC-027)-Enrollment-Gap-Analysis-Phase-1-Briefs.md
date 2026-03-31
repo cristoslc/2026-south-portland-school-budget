@@ -44,7 +44,10 @@ Residents understand the enrollment assumptions underlying the closure decision 
 
 ## Child Specs
 
-_To be decomposed during implementation planning._
+| Artifact | Title | Status |
+|----------|-------|--------|
+| SPEC-056 | Enrollment Gap Analysis Document | Active |
+| SPEC-057 | Enrollment Phase 1 Persona Briefs | Active |
 
 ## Key Dependencies
 

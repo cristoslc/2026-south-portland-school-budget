@@ -26,7 +26,7 @@ from pipeline.llm_client import call_llm
 DATA_DIR = PROJECT_ROOT / "data"
 DOCS_DIR = PROJECT_ROOT / "docs"
 PERSONA_DIR = DOCS_DIR / "persona" / "Active"
-OUTPUT_DIR = PROJECT_ROOT / "dist" / "briefings" / "transportation"
+OUTPUT_DIR = PROJECT_ROOT / "dist" / "transportation-analysis" / "briefings"
 ANALYSIS_DIR = DOCS_DIR / "analysis"
 
 # Transport comparison data

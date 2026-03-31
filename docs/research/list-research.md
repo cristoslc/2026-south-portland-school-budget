@@ -1,16 +1,11 @@
 # uresearch
 
-## Proposed
-
-| Artifact | Title | Last Updated | Commit |
-|----------|-------|-------------|--------|
-| SPIKE-009 | Building-Level Data Feasibility | 2026-03-30 | — |
-
 ## Active
 
 | Artifact | Title | Last Updated | Commit |
 |----------|-------|-------------|--------|
 | SPIKE-008 | Question Scoring Prototype | 2026-03-30 | — |
+| SPIKE-009 | Building-Level Data Feasibility | 2026-03-30 | — |
 
 ## Complete
 

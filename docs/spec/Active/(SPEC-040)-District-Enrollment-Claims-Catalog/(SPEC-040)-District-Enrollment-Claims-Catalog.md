@@ -2,7 +2,7 @@
 title: "District Enrollment Claims Catalog"
 artifact: SPEC-040
 track: implementable
-status: Proposed
+status: Active
 author: cristos
 created: 2026-03-30
 last-updated: 2026-03-30
@@ -71,3 +71,4 @@ Every enrollment-related claim and assumption in the district's published materi
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-30 | — | Decomposed from EPIC-022 |
+| Active | 2026-03-30 | -- | Operator approved; ready for implementation |

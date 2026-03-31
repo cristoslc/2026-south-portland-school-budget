@@ -8,9 +8,13 @@
 | SPEC-030 | Briefing Summary Block | 2026-03-22 | — |
 | SPEC-031 | Student-Friendly Language | 2026-03-22 | — |
 | SPEC-032 | Last Updated Indicator | 2026-03-22 | — |
-| SPEC-039 | Maine DOE Enrollment Data Collection | 2026-03-30 | — |
-| SPEC-040 | District Enrollment Claims Catalog | 2026-03-30 | — |
 | SPEC-041 | Supplementary Demographic Data Collection | 2026-03-30 | — |
+| SPEC-042 | Enrollment Assumption Gap Audit | 2026-03-30 | — |
+| SPEC-043 | Phase 1 Persona Briefs | 2026-03-30 | — |
+| SPEC-044 | Cohort Survival Projection Model | 2026-03-30 | — |
+| SPEC-045 | Scenario Brackets & Structured Data Output | 2026-03-30 | — |
+| SPEC-046 | Phase 2 Persona Briefs | 2026-03-30 | — |
+| SPEC-047 | Enrollment Baseline Site Publication | 2026-03-30 | — |
 
 ## Active
 
@@ -28,6 +32,8 @@
 | SPEC-036 | Question Scoring | 2026-03-30 | — |
 | SPEC-037 | Resolution Stress-Test Gate | 2026-03-30 | — |
 | SPEC-038 | Evergreen Key Questions Section | 2026-03-30 | — |
+| SPEC-039 | Maine DOE Enrollment Data Collection | 2026-03-30 | — |
+| SPEC-040 | District Enrollment Claims Catalog | 2026-03-30 | — |
 
 ## Complete
 

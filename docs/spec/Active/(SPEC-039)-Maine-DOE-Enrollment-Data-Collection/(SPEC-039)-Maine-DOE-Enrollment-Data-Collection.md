@@ -2,7 +2,7 @@
 title: "Maine DOE Enrollment Data Collection"
 artifact: SPEC-039
 track: implementable
-status: Proposed
+status: Active
 author: cristos
 created: 2026-03-30
 last-updated: 2026-03-30
@@ -71,3 +71,4 @@ The project has a complete, structured, citable dataset of South Portland K-12 e
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-30 | — | Decomposed from EPIC-022 |
+| Active | 2026-03-30 | -- | Operator approved; ready for implementation |

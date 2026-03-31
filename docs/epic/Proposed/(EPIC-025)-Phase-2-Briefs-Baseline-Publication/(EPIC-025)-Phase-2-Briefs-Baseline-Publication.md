@@ -53,8 +53,8 @@ Each persona receives a brief that synthesizes what the district didn't analyze 
 
 | Artifact | Title | Status |
 |----------|-------|--------|
-| _TBD_ | Phase 2 Persona Briefs | — |
-| _TBD_ | Enrollment Baseline Site Publication | — |
+| SPEC-046 | Phase 2 Persona Briefs | Proposed |
+| SPEC-047 | Enrollment Baseline Site Publication | Proposed |
 
 ## Key Dependencies
 

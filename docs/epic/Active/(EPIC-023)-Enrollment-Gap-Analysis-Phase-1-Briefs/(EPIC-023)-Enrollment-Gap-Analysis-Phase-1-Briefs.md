@@ -2,7 +2,7 @@
 title: "Enrollment Gap Analysis & Phase 1 Briefs"
 artifact: EPIC-023
 track: container
-status: Proposed
+status: Active
 author: cristos
 created: 2026-03-30
 last-updated: 2026-03-30
@@ -51,8 +51,8 @@ Maria understands what enrollment trends mean for her kids' school — not just 
 
 | Artifact | Title | Status |
 |----------|-------|--------|
-| _TBD_ | Enrollment Assumption Gap Audit | — |
-| _TBD_ | Phase 1 Persona Briefs | — |
+| SPEC-042 | Enrollment Assumption Gap Audit | Proposed |
+| SPEC-043 | Phase 1 Persona Briefs | Proposed |
 
 ## Key Dependencies
 
@@ -65,3 +65,4 @@ Maria understands what enrollment trends mean for her kids' school — not just 
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-30 | — | Decomposed from INITIATIVE-005; Track 1 (time-sensitive) |
+| Active | 2026-03-30 | -- | Operator approved; child SPECs created |

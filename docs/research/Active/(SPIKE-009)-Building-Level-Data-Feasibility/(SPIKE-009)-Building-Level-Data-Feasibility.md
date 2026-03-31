@@ -2,7 +2,7 @@
 title: "Building-Level Data Feasibility"
 artifact: SPIKE-009
 track: container
-status: Proposed
+status: Active
 author: cristos
 created: 2026-03-30
 last-updated: 2026-03-30
@@ -59,3 +59,4 @@ _To be populated during investigation._
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-30 | — | Gates EPIC-024 stretch goals; decomposed from EPIC-022 |
+| Active | 2026-03-30 | -- | Operator approved |

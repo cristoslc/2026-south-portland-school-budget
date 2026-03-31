@@ -2,7 +2,7 @@
 title: "Cohort Survival Model & 5-Year Projections"
 artifact: EPIC-024
 track: container
-status: Proposed
+status: Active
 author: cristos
 created: 2026-03-30
 last-updated: 2026-03-30
@@ -60,8 +60,8 @@ The public has access to the enrollment projections the district never published
 
 | Artifact | Title | Status |
 |----------|-------|--------|
-| _TBD_ | Cohort Survival Projection Model | — |
-| _TBD_ | Scenario Brackets & Structured Data Output | — |
+| SPEC-044 | Cohort Survival Projection Model | Proposed |
+| SPEC-045 | Scenario Brackets & Structured Data Output | Proposed |
 
 ## Key Dependencies
 
@@ -74,3 +74,4 @@ The public has access to the enrollment projections the district never published
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-03-30 | — | Decomposed from INITIATIVE-005; Track 2 |
+| Active | 2026-03-30 | -- | Operator approved; child SPECs created |

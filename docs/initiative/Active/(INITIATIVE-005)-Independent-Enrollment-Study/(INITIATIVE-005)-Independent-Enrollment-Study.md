@@ -78,8 +78,8 @@ For each persona: Maria knows whether her kids' school is at risk based on demog
 | Artifact | Title | Status | Track |
 |----------|-------|--------|-------|
 | EPIC-022 | Enrollment Data Acquisition | Active | Both |
-| EPIC-023 | Enrollment Gap Analysis & Phase 1 Briefs | Proposed | Track 1 |
-| EPIC-024 | Cohort Survival Model & 5-Year Projections | Proposed | Track 2 |
+| EPIC-023 | Enrollment Gap Analysis & Phase 1 Briefs | Active | Track 1 |
+| EPIC-024 | Cohort Survival Model & 5-Year Projections | Active | Track 2 |
 | EPIC-025 | Phase 2 Briefs & Baseline Publication | Proposed | Track 2 |
 
 ## Small Work (Epic-less Specs)

@@ -5,12 +5,18 @@
 | Artifact | Title | Last Updated | Commit |
 |----------|-------|-------------|--------|
 | EPIC-007 | Budget Lever Analysis | 2026-03-16 | 0664840 |
+| EPIC-018 | Community Feedback | 2026-03-22 | — |
+| EPIC-019 | Site Data Assembly | 2026-03-22 | — |
+| EPIC-020 | Feedback Pipeline Integration | 2026-03-23 | — |
 
 ## Active
 
 | Artifact | Title | Last Updated | Commit |
 |----------|-------|-------------|--------|
 | EPIC-013 | Polling Interpretation Pipeline | 2026-03-16 | — |
+| EPIC-016 | Site Visual Design | 2026-03-22 | 248620e |
+| EPIC-017 | Question Hub | 2026-03-22 | — |
+| EPIC-021 | Key Questions Tracking | 2026-03-30 | — |
 
 ## Complete
 
@@ -26,6 +32,8 @@
 | EPIC-009 | Per-Meeting Interpretation Engine | 2026-03-13 | — |
 | EPIC-010 | Cumulative Narrative Fold | 2026-03-13 | — |
 | EPIC-011 | Upcoming-Event Brief Generation | 2026-03-13 | — |
+| EPIC-014 | Site Scaffolding and Deploy | 2026-03-22 | cd1f1a4 |
+| EPIC-015 | Core Pages | 2026-03-22 | 5da585e |
 
 ## Abandoned
 

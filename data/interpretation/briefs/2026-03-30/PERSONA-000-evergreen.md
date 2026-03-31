@@ -54,6 +54,22 @@ Once the board acts on these items, the budget moves to the City Council. Schedu
 
 ---
 
+## Key Questions
+
+The following questions have been raised across multiple community perspectives and remain unanswered by the administration. Priority reflects how long the question has been outstanding and how many perspectives are asking it.
+
+| Priority | Question | Open Since | Perspectives | Status |
+|----------|----------|-----------|-------------|--------|
+| 592 | Do the $2M+ reconfiguration savings hold after accounting for transportation, Pre-K, and transition costs? | Jan 15 | 8 | Open |
+| 540 | What are the transportation costs, routes, and family logistics under each reconfiguration option? | Feb 4 | 10 | Open |
+| 378 | Is there a realistic implementation timeline for reconfiguration by September 2026? | Feb 4 | 7 | Open |
+| 66 | What will class sizes be at each receiving school under Option A vs Option B? | Mar 19 | 6 | Open |
+| 0 | How does reconfiguration affect before-care and after-care availability at each building? | Mar 30 | 1 | New |
+
+These questions are tracked in the [Key Questions artifact](../../questions/questions.yaml) with per-persona variant framings. A question is only resolved when the administration's answer satisfies every persona's specific version of the question.
+
+---
+
 ## Open Questions
 
 Several significant issues were raised publicly at the March 23 meeting that do not yet have confirmed answers:

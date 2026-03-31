@@ -1,0 +1,29 @@
+trove: budget-opinion-coverage
+created: 2026-03-31
+refreshed: '2026-03-31'
+tags:
+  - budget
+  - fy27
+  - opinion
+  - letters-to-editor
+  - community-voice
+  - persona-validation
+  - school-board
+  - south-portland
+  - secondary-evidence
+freshness-ttl:
+  web: never
+sources:
+  - source-id: pph-lte-ray-teachers-deserve-better
+    title: "South Portland's teachers and school staff deserve better | Letter"
+    type: web
+    url: https://www.pressherald.com/2026/03/28/south-portlands-teachers-and-school-staff-deserve-better-letter/
+    fetched: 2026-03-31
+    hash: b5305aae5bedf2e5914454027e961139f279f4e5b65168a38ecb3b4295cd5061
+    file: sources/pph-lte-ray-teachers-deserve-better/pph-lte-ray-teachers-deserve-better.md
+    notes: "Letter to the editor by Margaret Ray, parent of three. Relevant for persona validation — maps to parent/taxpayer archetype concerned with accountability and staff impact."
+history:
+  - event: created
+    date: 2026-03-31
+    commit: "--"
+    sources: 1

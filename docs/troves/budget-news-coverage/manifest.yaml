@@ -1,0 +1,33 @@
+trove: budget-news-coverage
+created: 2026-03-31
+refreshed: '2026-03-31'
+tags:
+  - budget
+  - fy27
+  - news-coverage
+  - kaler-closure
+  - school-board
+  - south-portland
+  - secondary-evidence
+freshness-ttl:
+  web: 30d
+sources:
+  - source-id: pph-kaler-closure-proposal
+    title: South Portland School Department proposes closing Kaler Elementary
+    type: web
+    url: https://www.pressherald.com/2026/03/24/south-portland-school-department-proposes-closing-kaler/
+    fetched: 2026-03-31
+    hash: d0bdae0d92f8a837d5df5b7a5f1f4c78d9979627a2883af3cb61058c0fd54dba
+    file: sources/pph-kaler-closure-proposal/pph-kaler-closure-proposal.md
+  - source-id: wmtw-kaler-closure
+    title: South Portland School Department proposes closure of Kaler Elementary School
+    type: web
+    url: https://www.wmtw.com/article/south-portland-school-department-proposes-closure-of-kaler-elementary-school/70824826
+    fetched: 2026-03-31
+    hash: b01412ad8143def6fe6afe1ae807169ad405d0e971c91a0d9ec203f7b204a149
+    file: sources/wmtw-kaler-closure/wmtw-kaler-closure.md
+history:
+  - event: created
+    date: 2026-03-31
+    commit: "--"
+    sources: 2

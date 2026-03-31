@@ -1,6 +1,6 @@
 trove: fy27-budget-documents
 created: 2026-03-09
-refreshed: '2026-03-25'
+refreshed: '2026-03-31'
 tags:
 - budget
 - fy27
@@ -336,3 +336,28 @@ sources:
   path: data/school-board/budget-fy27/documents/Budget-Workshop-II-Agenda-3.23.26---Revised.pdf
   hash: sha256:9b8f2318771ddf8059f46165f7da2dbd9660b8a3dfefde6dae2798b49d618efb
   file: sources/045-budget-workshop-ii-agenda-3-23-26-revised.md
+- source-id: 046-board-slides-2026-03-30
+  title: FY27 Superintendent Budget Presentation - Special Board Workshop, March 30, 2026
+  type: document
+  origin-url: https://docs.google.com/presentation/d/1pZrJzGCND_ZM0ZcAJy3XsH4rEaCa2AIP6ZmLM4gfRs4/edit
+  fetched: '2026-03-31'
+  hash: sha256:0a2650f2f595b9b967c9c520fb6a4ab77b65987fa2921961e085b79d09f2d7c0
+  file: sources/046-board-slides-2026-03-30/046-board-slides-2026-03-30.md
+  highlights: []
+  selective: false
+- source-id: 047-special-budget-meeting-agenda-2026-03-30
+  title: Special Budget Meeting Agenda - Board of Education, March 30, 2026
+  type: document
+  origin-url: https://drive.google.com/file/d/1PPf9kbRMjDFMh-gkfAJK1aDCmUYouYJy/view
+  fetched: '2026-03-31'
+  hash: sha256:6d3b272aa663189200bd6542be0504aa50e594601bbc49dd216ccdaa920c73fb
+  file: sources/047-special-budget-meeting-agenda-2026-03-30/047-special-budget-meeting-agenda-2026-03-30.md
+  highlights: []
+  selective: false
+history:
+- event: extended
+  date: '2026-03-31'
+  sources-added:
+  - 046-board-slides-2026-03-30
+  - 047-special-budget-meeting-agenda-2026-03-30
+  commit: '--'

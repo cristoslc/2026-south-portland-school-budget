@@ -1,151 +1,90 @@
----
-schema_version: "1.0"
-persona_id: "PERSONA-002"
-persona_name: "David"
-last_meeting_date: "2026-03-23"
-record_count: 22
-generated_date: "2026-03-25"
----
+deepens concern about institutional capacity to execute cuts of that scale responsibly.
 
-# Cumulative Summary: David (PERSONA-002)
+16. **2026-02-17** — The Mahoney no-ceiling pattern is confirmed as a governance feature rather than a recoverable single-meeting failure; the cost framework shifts to $57–104M across six scenarios; combined capital obligations are processed as disconnected line items with no integrated taxpayer impact analysis, and David begins building that model himself.
 
-### Current Understanding
+17. **2026-03-02** — A nine-scenario reconfiguration analysis delivers the granular modeling David requested, but the no-reconfiguration alternative is left unmodeled while the superintendent advocates for a predetermined outcome; four board members publicly oppose Skillin closure, and gaps in transportation costing and Pre-K planning surface.
 
-As of March 23, 2026, the South Portland school district has achieved what seemed impossible in December: a proposed FY27 budget that meets the 6% property tax increase ceiling. The 78-position cuts — spread across teachers, ed techs, facilities, and administration — close a gap that stood at $1.9M at year-opening and ballooned to $8–9M after the city council's February joint guidance tightened the constraint below 6%. Finance Director Ketchem — the seventh director in six years — delivered the first honest institutional autopsy David has been reconstructing from scattered records since December: enrollment fell 23% while staffing grew by 82, COVID funds masked the structural gap, no minimum fund balance threshold existed as a guardrail, and chronic leadership churn made sustained oversight structurally impossible. David accepts this as accurate and notes immediately that she is the seventh director.
+18. **2026-03-05** — The facilities director reveals no capital planning existed until five years ago, with weekly sewage backups at the police station; David revises his February 3 framing — both institutions share the same capital deferral failure mode, and West's 5-1 loss confirms the pattern of data-grounded analysis being marginalized by the vote across both governing bodies.
 
-The one-year success is structurally fragile. Labor contracts auto-escalate above 6% annually through existing step and lane provisions. Utilities are rising 13–14% per year. Debt service increases at least $300K in FY28 for the athletic field bond alone. The fund balance stands at $739K with no rebuild plan — any unexpected expenditure requires drawing on city reserves with repayment. Three budget action items remain unvoted as of March 23: school closing report authorization, grade configuration model selection, and FY27 adoption. All fall to a single March 30 meeting, six days after a five-hour workshop, before the April 7 city council presentation.
+19. **2026-03-09** — FY26 projections narrow to a $170K surplus to $1M deficit range with spending controls, enrollment stabilizes at 2,754, and three budget workshops are scheduled; David feels cautiously steady as structured process machinery appears to be functioning.
 
-Against this, the city is advancing a November 2026 public safety bond ($80–87M with no architect-provided budget ceiling ever given), a deferred November 2027 Mahoney referendum ($70–76M stripped-down, architect's confidence still disclaimed), and $51.7M in sewer revenue bonds that will double residential bills over three years — all hitting the same property tax base that already allocates 61 cents of every dollar to schools. No governing body has produced an integrated household taxpayer impact analysis. Councilor Matthews named the combined math in 90 seconds and was voted down 6-1. David has been building the spreadsheet himself since February.
+20. **2026-03-10** — The Metro quarterly accountability presentation delivers exactly the data structure David has been requesting from every governing body since December, confirming West's December proposal is functional; $100K rental assistance approved through Project HOME partially resolves the ICE displacement alternative thread.
 
-### Timeline of Understanding Shifts
+21. **2026-03-19** — Pearl Street rate impact is confirmed ($51.7M bonds, 22% annual increases for three years, residential bills roughly doubling); Mahoney narrows to $70–76M stripped-down with referendum deferred to November 2027; Councilor Matthews' 6-1 defeat on the cross-budget math crystallizes David's frustration at $100M+ in capital obligations being processed in isolation.
 
-1. **2025-12-01** — Inaugural ceremonies reveal that leadership was publicly framing investment and belonging right up to the edge of the fiscal crisis disclosure, raising the unresolved question of whether this was strategic silence or genuine ignorance of what the data already showed.
+22. **2026-03-23** — Finance Director Ketchem delivers the first honest root-cause analysis David has seen across 22 meetings, naming enrollment-staffing inversion, absent fund balance guardrail, and leadership instability as systemic causes; the 6% ceiling is achievable for FY27 but Ketchem's own FY28 math is worse than David's model projected; five hours produce zero votes on three scheduled action items.
 
-2. **2025-12-04** — December 4 routine council proceedings extend the pre-crisis silence pattern from one week to four days, first suggesting the coordination failure between city and district is structural rather than situational.
-
-3. **2025-12-08** — The crisis is confirmed: a $1.3–1.9M in-year deficit, completely depleted fund balance, and 78 positions at risk, producing David's first moment of deep alarm about the district's financial management capacity.
-
-4. **2025-12-09** — Even after public disclosure, the city council gives the crisis 90 seconds in two hours of agenda; the silence converts from possible pre-disclosure caution into confirmed structural isolation between the two governing bodies.
-
-5. **2025-12-10** — The board's selection of the most expensive superintendent search firm ($30K+) during an active spending freeze shifts David from cautious optimism about new board leadership to deep concern about whether emotion continues to override data even in crisis.
-
-6. **2025-12-17** — The enrollment-staffing arithmetic is laid bare (23% enrollment decline, 82 positions added), and the board sets a 6% ceiling requiring $7.2M in cuts, shifting David from frustration back toward cautious analytical engagement.
-
-7. **2026-01-06** — The February 10 joint guidance session is formally scheduled, converting David's December conclusion of permanent structural isolation into recognition that a formal coordination mechanism exists — but one that is calendar-bound and non-responsive to emergencies.
-
-8. **2026-01-12** — Honest mid-year deficit tracking, the union's pragmatic engagement request, and Smith's data-driven questions produce the first moment of genuine cautious optimism that the process may be maturing toward analytical rigor.
-
-9. **2026-01-13** — The Mahoney number arrives at $193M with the architect disclaiming confidence, and the Pearl Street obligation (~$50M) surfaces separately — definitively resolving the December thread about Tipton's growth agenda creating compounding fiscal pressure, and landing worse than David's model had projected.
-
-10. **2026-01-15** — The missing goal-setting attachment reframes city council opacity from passive omission to an active form: a key document explicitly acknowledged and withheld at exactly the moment in the budget cycle when its contents matter most.
-
-11. **2026-01-20** — State housing density mandates introduce a potential future enrollment variable (younger households in densified neighborhoods) that should be stress-tested against the district's declining trajectory and reconfiguration planning assumptions.
-
-12. **2026-02-03** — The auditor's findings — second consecutive material weakness, 34 correcting entries, six finance directors in five years — provide official confirmation of what David has been reconstructing from scattered documents, while the city's $7M undesignated reserve against the district's depleted balance makes the institutional asymmetry undeniable.
-
-13. **2026-02-04** — The public budget forum delivers the transparency David demanded: real numbers, a three-big-ideas framework still leaving a $3M+ gap, and a structured Q&A system — confirming the process has the capacity for data-driven communication when it chooses to use it.
-
-14. **2026-02-09** — Feller breaks from the 6% ceiling, the nutrition fund's hidden $1.1M deficit surfaces, and the audit confirms seven business managers in six years, shifting David from seeing the ceiling as appropriate to questioning whether it is achievable at all.
-
-15. **2026-02-10** — The joint guidance workshop tightens the real constraint to 3–6% (most councilors gravitating 4–6%), expanding the required cuts to $8–9M and surfacing a six-week data-delivery failure that signals institutional capacity problems beyond the finance office.
-
-16. **2026-02-17** — The Mahoney no-ceiling pattern is confirmed as a permanent governance feature rather than a recoverable single-meeting failure, and the combined fiscal math begins crystallizing across multiple capital obligations that no presentation has ever integrated.
-
-17. **2026-03-02** — A detailed nine-scenario analysis is delivered, but Option 1.2 (no reconfiguration) is left unmodeled — shifting David from appreciating administrative transparency to suspecting the analysis is steering toward a predetermined reconfiguration outcome.
-
-18. **2026-03-05** — The facilities director's admission that no capital planning existed until five years ago removes the last firewall between David's view of city competence and district dysfunction; both institutions share the same deferred-capital failure mode, playing out on different timescales.
-
-19. **2026-03-09** — FY26 projections narrow to a possible $170K surplus with spending controls in place, suggesting the freeze is having some effect — a modest stabilizing signal against persistent risks.
-
-20. **2026-03-10** — The Metro presentation provides the data-structured accountability David has been asking for from every governing body since December; a partial ICE displacement stopgap passes; but both occur against a backdrop of 3.5 hours of agenda with no engagement on the school fiscal crisis approaching its decision point.
-
-21. **2026-03-19** — The Pearl Street rate impact is finally resolved (22% annual increases, bills doubling over three years); Mahoney is deferred to November 2027; and Matthews' 6-1 dissent naming the cross-budget math confirms that the integrated fiscal picture David has been building privately remains institutionally invisible.
-
-22. **2026-03-23** — Ketchem delivers the institutional autopsy David has been reconstructing from scattered records since December — and the FY28 structural math she names is worse than his own model projected; a one-year budget success masks a structural cost trajectory that has not been corrected.
+23. **2026-03-30** — Kaler closure (6-1) and Option A reconfiguration (4-2) pass but the FY27 budget fails 5-2; a DEI reclassification claimed as a reduction produces zero confirmed budget impact, converting David's general skepticism about headline savings into a working analytical assumption; the fund balance is confirmed at zero.
 
 ### Active Supersessions
 
 | What Changed | From | To | When |
 |---|---|---|---|
-| City-school coordination silence framing | Dec 1: potentially strategic ("wrong venue for inauguration") | Structural coordination failure — silence persists even after public crisis disclosure | 2025-12-09 |
-| FY26 deficit projection range | Dec 8: $500K surplus to $1.9M deficit across three scenarios | Updated to $534K surplus to $1.4M deficit with mid-year tracking | 2026-01-12 |
-| FY26 deficit projection | Jan 12: $534K surplus to $1.4M deficit | All scenarios project deficit; surplus scenario eliminated | 2026-02-09 |
-| FY26 deficit projection | Feb 9: all-deficit | $170K surplus to $1M deficit range re-emerges with spending controls | 2026-03-09 |
-| School budget gap magnitude | Feb 4: $7.2M gap (18.95% roll-forward to 6% ceiling) | $8–9M gap under council guidance tighter than 6% | 2026-02-10 |
-| 6% tax ceiling assessment | Dec 17: "the right call"; Feb 9: potentially too low | Political reality is 3–6%, most councilors gravitating 4–6% | 2026-02-10 |
-| Mahoney cost framework | Jan 13: $193M full-build (architect not confident); $153M renovation alternative | $57M–$104M renovation scenario range | 2026-02-17 |
-| Mahoney cost framework | Feb 17: $57M–$104M renovation scenario range | $70–76M stripped-down renovation; referendum deferred to November 2027 | 2026-03-19 |
-| Nutrition fund failure characterization | Feb 9: "$1.1M deficit that nobody was properly tracking" | Failure embedded in approved FY26 budget documents — budgeted $202K while actual deficit was several hundred thousand dollars | 2026-03-23 |
-| FY27 budget gap closure | Feb 4: $3M+ still unfunded beyond three big ideas | 6% ceiling met; $8–9M gap closed through full-budget cuts | 2026-03-23 |
+| City-school coordination failure characterization | Leadership silence as potentially strategic — "wrong venue for inauguration" (Dec 1) | Structural and permanent coordination failure; two governing bodies in separate fiscal universes regardless of disclosure status | 2025-12-09 |
+| FY26 deficit projection range | $534K surplus to $1.4M deficit (Jan 12); subsequently all scenarios deficit (Feb 9) | $170K surplus to $1M deficit range with spending controls | 2026-03-09 |
+| Required school cuts magnitude | $7.2M structural gap (Dec 17, Feb 4) | $8–9M given council guidance tightening to 3–6% | 2026-02-10 |
+| Acceptable tax increase ceiling | Board's own 6% ceiling as "the right call" (Dec 17) | Council guidance: 3–6%, most gravitating to 4–6%; board ceiling insufficient given deficit magnitude | 2026-02-10 |
+| Mahoney cost framework | $193M full-build (Jan 13, architect not confident) → $57M–$104M renovation range (Feb 17) | $70–76M stripped-down renovation; referendum deferred to November 2027 | 2026-03-19 |
+| Nutrition fund deficit characterization | $1.1M deficit "nobody was properly tracking" (Feb 9) | Under-reporting embedded in approved FY26 budget documents — a budgeting failure predating the tracking gap | 2026-03-23 |
+| School fund balance | $739K (Feb 10 joint session) | Fully exhausted; "none available" for FY27 | 2026-03-30 |
+| City vs. school district institutional competence | City categorically more disciplined: clean audit, $7M reserves, $5.8M fund balance growth (Feb 3) | Both institutions share the same capital deferral failure mode; city's financial controls are stronger but maintenance culture is identical | 2026-03-05 |
 
 ### Open Threads
 
-**School district — fiscal structure and controls**
-- Did incoming leadership know about the structural deficit on December 1, and does the answer affect credibility assessment for all subsequent crisis management decisions? *(opened 2025-12-01)*
-- Is the $26,651 per-pupil cost figure accurate, and what methodology was used for the peer comparison? *(opened 2025-12-17)*
-- Does the second consecutive material weakness finding constitute a pattern severe enough that the city council — not just the school board — should require a remediation timeline with measurable milestones before approving the FY27 budget? *(opened 2026-02-03)*
-- Will Ketchem remain in the role long enough to implement the corrective policies she diagnosed — minimum fund balance threshold, systemic controls reform? *(opened 2026-03-23)*
-- What does a balanced FY28 budget actually require, given labor auto-escalation above 6% annually through existing contracts, 13–14% annual utility inflation, and at least $300K in new debt service — and has anyone in the district modeled it? *(opened 2026-03-23)*
-- When does the board commit to a specific minimum fund balance target and a multi-year timeline to reach it, and what mechanism prevents the same four-year drawdown cycle from recurring? *(opened 2026-03-23)*
-- What other FY26 line items in the approved budget documents were similarly understated as the nutrition fund transfer ($202K budgeted vs. actual deficit of several hundred thousand dollars)? *(opened 2026-03-23)*
-- What is the district's plan to contain benefits cost growth if health insurance continues rising at 12% or more annually? *(opened 2026-03-23)*
-
-**School district — budget decisions and implementation**
-- What specific spending will be cut under the implemented spending freeze and how is it affecting day-to-day school operations? *(opened 2025-12-08)*
-- Can the district realistically achieve the 90% spending reduction required in Scenario A? *(opened 2025-12-08)*
-- How will the district fund the $30K+ superintendent search when no budget allocation exists? *(opened 2025-12-10)*
-- Will the required reference checks reveal issues that justify the premium cost or change the Zeal selection? *(opened 2025-12-10)*
-- What will the spending freeze impact assessment reveal about day-to-day school operations? *(opened 2026-01-12)*
-- Will the health insurance estimate continue shifting, and what other major budget assumptions remain unstable ahead of April finalization? *(opened 2026-02-04)*
-- Will early retirement buyouts materialize as a meaningful savings mechanism (41 eligible, potential ~$1M if 20 take $50K buyouts)? *(opened 2026-02-09)*
-- Can the elementary reconfiguration be implemented by September 2027 given the complexity of redistricting a thousand students? *(opened 2026-02-09)*
-- Why can the district not produce basic administrative staffing data more than six weeks after the union president's formal request? *(opened 2026-02-10)*
-- Will Option 1.2 (no reconfiguration, cuts spread across all schools) receive equal analytical treatment in future workshops, or will it remain unmodeled? *(opened 2026-03-02)*
-- What are the actual transportation costs for elementary redistricting — the analysis included only $60K–$125K for consultancy with no route cost estimates, no driver-hour modeling? *(opened 2026-03-02)*
-- How will the Pre-K expansion mandate (80–90 additional four-year-olds by September 2026, another cohort of three-year-olds the following year) be funded and accommodated in the reconfiguration plan? *(opened 2026-03-02)*
-- Can the March 30 meeting produce three defensible, data-grounded decisions — school closing report authorization, grade configuration model selection, and FY27 budget adoption — six days after the emotionally exhausting five-hour March 23 workshop? *(opened 2026-03-23)*
-
-**City capital obligations and fiscal integration**
-- What does the combined property tax burden look like when the Mahoney renovation bond ($70–76M), existing city bonds ($89.1M), Pearl Street sewer bonds ($51.7M), and the school district's structural gap are modeled together against a residential base already carrying 61% school tax load? *(opened 2026-02-17; reiterated 2026-03-19)*
-- Will the November 2026 public safety bond be structured as a single combined question or separate police and fire questions — and does the structure affect passage probability given the documented eastern coverage gap concerns about the fire station location? *(opened 2026-03-05)*
-- Does committing to the current fire station site for a 50+ year building effectively lock in inadequate eastern coverage for the city, as the facilities director confirmed? *(opened 2026-03-05)*
-- Will the council produce an integrated household burden analysis before the November 2026 public safety bond referendum, or will voters continue deciding each obligation in isolation? *(opened 2026-03-05; reiterated 2026-03-19)*
-- Does the sequencing of three votes in 17 months (June 9 school budget, November 2026 public safety, November 2027 Mahoney) create referendum fatigue that changes the political calculus for any individual vote? *(opened 2026-03-19)*
-- Where does Councilor Matthews' "$8.4 million" school deficit figure come from, and does it represent a calculation being used internally that differs from the $7.2M and $8–9M figures in David's tracking? *(opened 2026-03-19)*
-- Can the Mahoney referendum succeed at any revised cost figure given the absence of a council-provided budget ceiling, design at roughly 5%, and the competing fiscal obligations already landing on the same property tax base? *(evolved from Jan 13 thread on $193M referendum viability; cost and timing subsequently superseded)*
-- What is the sunk cost exposure from advancing the Mahoney design from ~5% to schematic (~20%) if the referendum ultimately fails? *(opened 2026-01-13)*
-- Does the 29-month Symetra PFML rate guarantee — expiring three months before the city can legally re-enter the state plan — create a structural coverage gap that should be formalized in a written broker commitment rather than a verbal assurance? *(opened 2026-02-17)*
-
-**City governance process**
-- What goals were actually set at the January 15 goal-setting workshop, and do any of them name fiscal constraints, tax ceiling targets, or school budget realities — and if not, what frame are they bringing to the April budget workshops? *(opened 2026-01-15)*
-- Will the missing January 15 goal-setting attachment surface through a public records request? *(opened 2026-01-15)*
-- Will the council formally adopt West's quarterly reporting proposal for regional board representatives (Metro, EcoMaine), or does the March 10 Metro presentation represent the full extent of follow-through? *(opened 2025-12-04)*
-- Does the regional board accountability gap (Metro, EcoMaine) contribute structurally to the coordination failure between city and school district on budget planning? *(opened 2025-12-04)*
-- Does the council's April budget agenda reflect a materially different level of fiscal engagement than the pattern David has documented since December? *(opened 2026-03-10)*
-
-**Property taxes and development**
-- Does the "cost-neutral TIF" rule of thumb hold under scrutiny — what is the actual 30-year net revenue impact of the One 70 Ocean TIFF given the project grew from 124 to 208 units with a zoning amendment after the TIFF was signed? *(opened 2025-12-09)*
-- Will the ongoing residential-to-commercial tax burden shift compound household pressure as higher school mill rates hit homeowners already absorbing more of the valuation base? *(opened 2025-12-09)*
-- Do the changed One 70 Ocean terms (67% more units, surface parking, zoning amendment required) constitute a material breach of the TIFF agreement's conditions, and if so, what accountability mechanism exists? *(opened 2025-12-09)*
-- Does the actual current Project HOME rental assistance need materially differ from the $168K headline figure acknowledged as unverified mid-discussion, and will the reimbursement structure surface that discrepancy? *(opened 2026-03-10)*
-
-**Housing and enrollment**
-- Do state housing density mandates (LD 1829) — potentially adding younger households through densification — need to be stress-tested against the district's declining elementary enrollment projections and reconfiguration planning assumptions? *(opened 2026-01-20)*
-- Will the working waterfront petition (2,163 validated signatures) be formalized as a citizen initiative, and does organized community opposition complicate the city's housing compliance timeline? *(opened 2026-01-20)*
-- Does the city staff's infrastructure capacity analysis for housing densification include school capacity modeling that accounts for the district's reconfiguration plans? *(opened 2026-01-20)*
-
-**State context**
+- Did incoming leadership know about the structural deficit on December 1 and choose not to disclose it, or was the crisis a genuine surprise to the new board? The answer affects how David evaluates credibility in all subsequent crisis management decisions. *(opened 2025-12-01)*
+- Will the council formalize West's quarterly reporting proposal for regional board representatives beyond the informal Metro arrangement that emerged? *(opened 2025-12-04)*
+- Does the city's own regional board accountability gap contribute structurally to the coordination failure between city and school district on budget planning — and would earlier reporting loops have surfaced the school fiscal crisis sooner? *(opened 2025-12-04)*
+- What specific operational impact did the spending freeze have on day-to-day school operations, and was the impact assessment Tyler Smith requested ever completed? *(opened 2025-12-08)*
+- Can the district realistically achieve the 90% non-personnel spending reduction that scenario A required? *(opened 2025-12-08)*
+- Does the "cost-neutral TIF" rule of thumb hold under scrutiny for One 70 Ocean — what is the actual 30-year net revenue impact given the project grew 67% in scope after the TIFF was signed? *(opened 2025-12-09)*
+- Will the ongoing residential-to-commercial property tax burden shift compound taxpayer pressure as higher school mill rates hit homeowners already absorbing more of the valuation base? *(opened 2025-12-09)*
+- Do the changed One 70 Ocean terms — 67% more units, no structured parking, zoning amendment required — constitute a material breach of the TIFF agreement, and what accountability mechanism exists? *(opened 2025-12-09)*
 - What does the state property tax task force's January 2026 report actually contain, and does it offer anything actionable for South Portland's near-term budget situation? *(opened 2026-01-06)*
+- What goals were actually set at the January 15 city council goal-setting workshop? Do any name fiscal constraints, tax ceiling targets, or school budget realities — and if not, what frame is the council bringing to the April budget discussions? *(opened 2026-01-15)*
+- Will the missing January 15 goal-setting attachment surface through a public records request, and does it reveal whether state funding underfunding or enrollment-staffing inversion were treated as governing priorities? *(opened 2026-01-15)*
+- What will the spending freeze impact assessment reveal about day-to-day school operations — the assessment Tyler Smith formally requested at the January 12 meeting? *(opened 2026-01-12)*
+- Do the state housing density mandates — if 10%+ of single-family properties eventually add units — introduce a new population of younger households that should be stress-tested against the district's declining enrollment projections and reconfiguration planning assumptions? *(opened 2026-01-20)*
+- Will the working waterfront petition (2,163 validated signatures) be formalized as a citizen initiative, and does organized community opposition complicate the city's comprehensive plan implementation timeline? *(opened 2026-01-20)*
+- Does the staff infrastructure capacity analysis for housing densification include school capacity modeling, accounting for the district's reconfiguration plans rather than a static school footprint? *(opened 2026-01-20)*
+- Does the second consecutive material weakness finding constitute a pattern severe enough that the city council should require a formal remediation timeline with measurable milestones before approving the FY27 budget? *(opened 2026-02-03)*
+- Can a Mahoney referendum succeed given the project is at 5% design, the architect publicly disclaimed his estimate, and the competing property tax pressure from school budget cuts — even at the reduced $70–76M stripped-down scope and deferred November 2027 timeline? *(opened 2026-01-13)*
+- If the Mahoney referendum advances and fails, what is the sunk cost exposure from design fees between the current 5% stage and the schematic level? *(opened 2026-01-13)*
+- Will early retirement buyouts (41 eligible staff, potential $1M savings if 20 take $50K buyouts as proposed by Feller) materialize as a meaningful savings mechanism? *(opened 2026-02-09)*
+- Can the elementary reconfiguration be implemented by September 2027 given the complexity of relocating roughly 1,000 elementary students? *(opened 2026-02-09)*
+- Why can the district not produce basic administrative staffing data for peer comparison after a six-week request from the teachers union? *(opened 2026-02-10)*
+- What does the combined property tax burden look like when Mahoney renovation bond ($70–76M), existing city bonds ($89.1M), public safety bonds ($80–87M), Pearl Street sewer obligation ($51.7M), and the school structural gap ($8–9M) are modeled together against a residential base already carrying 61% school tax load? No council or school board presentation has produced this analysis. *(opened 2026-02-17; continued 2026-03-05, 2026-03-19)*
+- Does the 29-month Symetra PFML rate guarantee — which expires three months before the city can legally re-enter the state plan — create a structural coverage gap that should be formalized in a written broker commitment rather than a verbal assurance? *(opened 2026-02-17)*
+- What are the actual transportation costs for elementary redistricting? The administration included only $60K–$125K consultancy with no route, driver-hour, or benefit cost estimates despite proposing to reshuffle roughly 1,000 students. *(opened 2026-03-02)*
+- How will the Pre-K expansion mandate (80–90 additional four-year-olds by September 2026, plus 80–90 three-year-olds the following year) be funded and accommodated within the reconfiguration plan? *(opened 2026-03-02)*
+- Will the November 2026 public safety bond be structured as a single combined $80–87M question or split into separate police and fire questions — and does the structure affect passage probability given the documented eastern coverage gap? *(opened 2026-03-05)*
+- Does committing to the current fire station site for a 50+ year building effectively lock in an inadequate coverage model for the eastern part of the city, given the 5-1 vote rejecting West's documented location concerns? *(opened 2026-03-05)*
+- Does the actual current rental assistance need materially differ from the unverified $168K Project HOME figure that the city manager himself could not confirm mid-discussion — and will the reimbursement structure surface that discrepancy before or after the funds are committed? *(opened 2026-03-10)*
+- Does the council's April budget workshop agenda reflect a different level of fiscal engagement than the pattern documented since December, or does the same diffusion apply? *(opened 2026-03-10)*
+- Where does Councilor Matthews' "$8.4 million" school deficit figure come from? It does not match the $7.2M structural gap from the February 4 forum, the $8–9M range implied by the February 10 guidance, or any figure in David's tracking. *(opened 2026-03-19)*
+- Does the referendum sequencing (school budget June 9, public safety November 2026, Mahoney November 2027) create referendum fatigue that changes the political calculus for any individual vote? *(opened 2026-03-19)*
+- Will Finance Director Ketchem remain in the role long enough to implement the corrective policies she diagnosed — fund balance threshold, systemic controls reform? Seven finance directors in six years is the only institutional precedent. *(opened 2026-03-23)*
+- What does a balanced FY28 budget actually require, given labor auto-escalation already above 6% annually through written contract adjustments, 13–14% annual utility inflation, and at least $300K in new debt service from the athletic field bond? *(opened 2026-03-23)*
+- What is the district's plan to contain benefits cost growth if health insurance continues rising at approximately 12% annually — specifically the $294K driver/clerk benefit surge that was never publicly explained in the transportation line? *(opened 2026-03-23)*
+- When does the board commit to a specific minimum fund balance reserve target with a multi-year rebuild timeline — a recommendation that has appeared in at least two successive workshops without producing a motion? *(opened 2026-03-23; continued 2026-03-30)*
+- If the nutrition fund was understated by a factor of several-fold in FY26 official budget documents, what other line items in the approved FY26 budget were similarly understated? No full FY26 variance analysis has been presented to the board. *(opened 2026-03-23)*
+- What specific changes would flip the votes needed to pass the FY27 budget by April 2? The five no-votes cited at least four distinct concerns with no shared landing zone identified before adjournment. *(opened 2026-03-30)*
+- Does the April 7 city council presentation proceed with an unratified school budget, and what are the governance and procedural consequences of that scenario? *(opened 2026-03-30)*
+- How many other FY27 line-item changes are similarly nominal — title changes or reclassifications that do not reduce actual payroll costs — given the DEI reclassification produced zero confirmed budget impact? *(opened 2026-03-30)*
+- Does a SPTA/SPESPA equivalent to the director FTE multi-year table (FY21–FY27) exist, and if so, does it verify or complicate the claim that staffing grew by 82 positions while enrollment fell? *(opened 2026-03-30)*
 
 ### Resolved Threads
 
-- **How did the finance team fail to properly budget teacher contract costs in their projections?** Six finance directors in five years, repeat material weakness, accrual timing failures on teacher contracts spanning fiscal years, and 34 correcting entries document a systemic financial controls breakdown, not a one-time projection error. (resolved 2026-02-03)
-- **What is the Mahoney Center dollar amount, and how does a major capital commitment fit alongside the school district's fiscal needs within any plausible tax ceiling?** $193M (architect explicitly not confident), funded essentially only by bonds; does not coexist comfortably with school budget cuts under any plausible tax ceiling. (resolved 2026-01-13; cost figure subsequently superseded through multiple revisions to $70–76M)
-- **Does Mayor Tipton's growth-investment agenda create compounding fiscal pressure on top of the school budget crisis already in motion?** Yes, definitively — $193M Mahoney bond plus ~$50M Pearl Street revenue bond lands on the same property tax base as $7–9M in required school cuts. (resolved 2026-01-13)
-- **Will the public budget forum produce meaningful community input or be performative?** Meaningful — real numbers presented, three-big-ideas framework laid out with honest acknowledgment of a $3M+ remaining gap, and structured Q&A with public data-driven responses established. (resolved 2026-02-04)
-- **Will the January 27 Mahoney committee meeting produce the budget ceiling the architect explicitly requested?** No — five weeks after the explicit request, the February 17 workshop ended with informal directional guidance and no formal ceiling; the council has never given the design team a number. (resolved 2026-02-17)
-- **What is the actual rate impact of the Pearl Street revenue bond on South Portland ratepayers?** 22% annual sewer rate increases for FY27, FY28, and FY29 plus a 4% operating baseline — roughly doubling monthly residential bills from ~$7.38 to ~$14.76; regionally competitive after the increase cycle but materially compounds combined household fiscal pressure. (resolved 2026-03-19)
-- **What is the council's alternative policy response to ICE-related housing displacement after the moratorium failed without a data infrastructure or replacement framework?** Partially resolved — $100K reimbursement-basis rental assistance through Project HOME approved March 10; GA eligibility gap documented on record; not a permanent structural framework, and the $168K need figure underlying the appropriation remains unverified. (resolved 2026-03-10)
-- **How will the district implement $7.2M in cuts within the 6% tax ceiling?** FY27 proposed budget meets the 6% ceiling with approximately $257/year average homeowner impact and 3.3% overall budget growth — the lowest growth in recent memory. (resolved 2026-03-23)
-- **Where will the remaining $3M+ in cuts come from beyond the three big ideas?** Aggregate target met — FY27 budget meets the 6% ceiling, confirming the full gap was closed; specific cut distribution was not fully enumerated at the March 23 workshop. (resolved 2026-03-23)
-- **Is Prince's confidence in the new finance director warranted?** Partially resolved — Ketchem delivers the analytical, root-cause-focused work that validates the stability argument; her continuity in the role is a separate open question given that she is the seventh director in six years. (resolved 2026-03-23)
+- **Does Mayor Tipton's growth-investment agenda create compounding fiscal pressure on top of the school budget crisis?**: Yes, definitively — $193M Mahoney bond plus ~$50M Pearl Street revenue bond lands on the same property tax base as $7–9M in required school cuts (resolved 2026-01-13)
+- **What is the Mahoney Center dollar amount, and does it coexist with school budget cuts under any plausible tax ceiling?**: $193M bond (architect not confident in his own estimate), funded essentially only by bonds; does not coexist comfortably with school budget cuts under any plausible ceiling (resolved 2026-01-13)
+- **How did the finance team fail to properly budget teacher contract costs in their projections?**: Systemic breakdown — six finance directors in five years, second consecutive material weakness, 34 correcting entries, accrual timing failures across fiscal years — not a one-time projection error (resolved 2026-02-03)
+- **Will the public budget forum produce meaningful community input or be performative?**: Meaningful — real numbers presented without sugar-coating, structured Q&A system established for data-driven public responses (resolved 2026-02-04)
+- **Will the January 27 Mahoney committee meeting produce the budget ceiling the architect explicitly requested?**: No — five weeks after the explicit request, the February 17 workshop ends with informal directional guidance and no formal ceiling; the council never gave the design team a number (resolved 2026-02-17)
+- **What is the council's alternative policy response to ICE-related housing displacement after the moratorium failed?**: Partially resolved — $100K reimbursement-basis rental assistance through Project HOME approved March 10, providing a functional stopgap; structural GA eligibility gaps for immigration-fear cases remain documented on record; no permanent policy framework established (partially resolved 2026-03-10)
+- **What is the actual rate impact of the Pearl Street revenue bond on South Portland ratepayers?**: 22% annual sewer rate increases for FY27, FY28, and FY29 on top of a 4% operating baseline, roughly doubling monthly residential bills; regionally competitive after the increase cycle given comparable infrastructure cycles in peer communities (resolved 2026-03-19)
+- **How will the district implement $7.2M in cuts within the 6% tax ceiling?**: FY27 proposed budget meets the 6% ceiling at approximately $257/year for the average homeowner and 3.3% overall budget growth — the lowest in recent memory (resolved 2026-03-23)
+- **Where will the remaining $3M+ in cuts come from beyond the three big ideas?**: Resolved in outcome — FY27 budget meets the 6% ceiling, confirming the aggregate gap was closed; specific cut distribution not fully enumerated but the aggregate target is met (resolved 2026-03-23)
+- **Is Prince's confidence in the new finance director warranted?**: Partially — Finance Director Ketchem delivers analytical, root-cause-focused work validating the stability argument; her continuity in the role given the seven-directors-in-six-years precedent is logged as a separate open thread (partially resolved 2026-03-23)
+- **Will option 1.2 (no reconfiguration) receive equal analytical treatment?**: Effectively moot — 4-2 vote for Option A reconfiguration at March 30 renders the no-reconfiguration alternative irrelevant for FY27 planning (resolved 2026-03-30)
+- **Is the $26,651 per-pupil cost figure accurate and what methodology was used for peer comparison?**: Directional finding confirmed with specific peer figures on record (Gorham $20K, Windham $21.6K, Brunswick $24K, Portland spending less per pupil despite twice the enrollment); cost-driver decomposition explaining South Portland's premium over peers remains absent (partially resolved 2026-03-30)
+- **Will the health insurance estimate continue shifting and what other budget assumptions are unstable?**: Health insurance ceiling confirmed at 11.5% maximum with final figure expected April 10; bounded range with modest downside scenario possible; the open-ended upward uncertainty from February has stabilized (partially resolved 2026-03-30)
+- **Can the March 30 meeting produce three defensible, data-grounded decisions in a single session?**: Partially — Kaler closure (6-1) and Option A reconfiguration (4-2) passed on defensible grounds; FY27 budget failed 5-2 and was deferred to April 2 (partially resolved 2026-03-30)

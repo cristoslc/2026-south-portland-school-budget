@@ -1,0 +1,36 @@
+schema_version: "1.0"
+
+meeting_date: "2026-03-30"
+meeting_type: budget-workshop
+body: school-board
+title: "School Board Special Budget Meeting — March 30, 2026"
+
+notes: >
+  Special budget meeting at SPHS Lecture Hall. Three action items: school
+  closure authorization (Commissioner letter for Kaler), selection of
+  elementary reconfiguration model (Option A: grade-level Pre-K-1/2-4 vs
+  Option B: redistrict to 4 K-4 schools), and adoption of the FY27 budget
+  ($75.85M total, 3.3% increase, 6.0% local tax increase). 5-hour session.
+
+sources:
+  - source_id: "sb-transcript-2026-03-30-015"
+    source_type: transcript
+    title: "School Board Special Budget Meeting — March 30, 2026 (Transcript)"
+    path: data/school-board/meetings/2026-03-30/transcript.en-x-autogen.vtt
+    normalized_path: docs/troves/school-board-budget-meetings/sources/015-school-board-meeting-2026-03-30-2026-03-30.md
+    evidence_pool: school-board-budget-meetings
+    description: "TelVue closed captions for the full 5-hour special budget meeting."
+
+  - source_id: "sb-presentation-2026-03-30-046"
+    source_type: presentation
+    title: "FY27 Board Slides — March 30, 2026"
+    normalized_path: docs/troves/fy27-budget-documents/sources/046-board-slides-2026-03-30/046-board-slides-2026-03-30.md
+    evidence_pool: fy27-budget-documents
+    description: "Superintendent budget presentation slides covering closure authorization, reconfiguration options, and budget adoption."
+
+  - source_id: "sb-agenda-2026-03-30-047"
+    source_type: agenda
+    title: "Special Budget Meeting Agenda — March 30, 2026"
+    normalized_path: docs/troves/fy27-budget-documents/sources/047-special-budget-meeting-agenda-2026-03-30/047-special-budget-meeting-agenda-2026-03-30.md
+    evidence_pool: fy27-budget-documents
+    description: "Meeting agenda including school closing report template."

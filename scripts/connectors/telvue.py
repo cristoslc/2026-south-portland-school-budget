@@ -15,10 +15,8 @@ import argparse
 import logging
 import os
 import re
-import shutil
 import subprocess
 import sys
-import tempfile
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
@@ -256,56 +254,86 @@ def fetch_telvue_page():
     return ""
 
 
+def extract_caption_url(media_id):
+    """Extract the closed caption VTT URL from a TelVue media page.
+
+    The TelVue player uses JW Player which loads captions from a separate
+    endpoint. The URL is embedded in the page HTML as a relative path in
+    the Player.setupData tracks array.
+
+    Returns the full caption URL, or None if no captions found.
+    """
+    media_url = (
+        f"{TELVUE_MEDIA_BASE}/{media_id}"
+        "?autostart=false&showtabssearch=true&fullscreen=false"
+    )
+    cmd = ["curl", "-sL", "--max-time", "30", media_url]
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=45)
+    except subprocess.TimeoutExpired:
+        log.error("Timeout fetching media page for %s", media_id)
+        return None
+
+    if result.returncode != 0 or not result.stdout:
+        log.error("Failed to fetch media page for %s", media_id)
+        return None
+
+    # Extract caption path from page HTML
+    # Pattern: "/closed_captions/..." in the tracks array
+    match = re.search(r'(/closed_captions/[^"\']+)', result.stdout)
+    if not match:
+        return None
+
+    caption_path = match.group(1)
+    return f"https://videoplayer.telvue.com{caption_path}"
+
+
 def download_vtt(media_id, output_path):
     """Download VTT captions for a TelVue video.
 
-    Uses yt-dlp to extract captions from the TelVue stream.
+    Extracts the caption URL from the media page, then downloads the VTT
+    file directly via curl. No yt-dlp needed — TelVue serves captions as
+    separate VTT files at a dedicated endpoint.
+
     Returns (success: bool, error_msg: str).
     """
     output_dir = os.path.dirname(output_path)
     os.makedirs(output_dir, exist_ok=True)
 
-    telvue_url = f"{TELVUE_MEDIA_BASE}/{media_id}"
+    caption_url = extract_caption_url(media_id)
+    if not caption_url:
+        msg = f"No caption URL found for TelVue media {media_id}"
+        log.warning(msg)
+        return False, msg
 
-    with tempfile.TemporaryDirectory() as tmpdir:
-        cmd = [
-            "yt-dlp",
-            "--write-sub",
-            "--write-auto-sub",
-            "--sub-lang", "en",
-            "--sub-format", "vtt",
-            "--skip-download",
-            "--no-warnings",
-            "-o", os.path.join(tmpdir, "video.%(ext)s"),
-            telvue_url,
-        ]
+    cmd = ["curl", "-sL", "--max-time", "60", "-o", output_path, caption_url]
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=90)
+    except subprocess.TimeoutExpired:
+        msg = f"Timeout downloading VTT for TelVue media {media_id}"
+        log.error(msg)
+        return False, msg
 
-        try:
-            result = subprocess.run(
-                cmd, capture_output=True, text=True, timeout=120
-            )
-        except subprocess.TimeoutExpired:
-            msg = f"Timeout downloading VTT for TelVue media {media_id}"
-            log.error(msg)
-            return False, msg
+    if result.returncode != 0:
+        msg = f"curl failed for TelVue media {media_id}: {result.stderr[:200]}"
+        log.error(msg)
+        return False, msg
 
-        if result.returncode != 0:
-            stderr = result.stderr.strip()
-            msg = (
-                f"yt-dlp failed for TelVue media {media_id} "
-                f"(exit {result.returncode}): {stderr[:200]}"
-            )
-            log.error(msg)
-            return False, msg
+    # Verify the file looks like a VTT
+    if not os.path.exists(output_path) or os.path.getsize(output_path) < 10:
+        msg = f"Downloaded file is empty or missing for TelVue media {media_id}"
+        if os.path.exists(output_path):
+            os.remove(output_path)
+        return False, msg
 
-        vtt_files = [f for f in os.listdir(tmpdir) if f.endswith(".vtt")]
-        if not vtt_files:
-            msg = f"No VTT file produced for TelVue media {media_id}"
-            log.warning(msg)
-            return False, msg
+    with open(output_path, "r", encoding="utf-8", errors="replace") as f:
+        header = f.read(20)
+    if not header.startswith("WEBVTT"):
+        msg = f"Downloaded file is not VTT format for TelVue media {media_id}"
+        os.remove(output_path)
+        return False, msg
 
-        shutil.move(os.path.join(tmpdir, vtt_files[0]), output_path)
-        return True, ""
+    return True, ""
 
 
 # ---------------------------------------------------------------------------
@@ -317,11 +345,6 @@ def run(check_only=False, project_root=None):
     """Enumerate SPC-TV, filter, diff against disk, download missing."""
     if project_root is None:
         project_root = PROJECT_ROOT
-
-    if not check_only:
-        if not shutil.which("yt-dlp"):
-            log.error("yt-dlp not found on PATH. Install with: brew install yt-dlp")
-            return 1
 
     html = fetch_telvue_page()
     if not html:

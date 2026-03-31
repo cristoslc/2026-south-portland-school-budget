@@ -64,6 +64,14 @@ CONNECTORS = {
         ],
         "watch_pattern": "**/*",
     },
+    "telvue": {
+        "script": os.path.join(SCRIPT_DIR, "connectors", "telvue.py"),
+        "watch_dirs": [
+            os.path.join(PROJECT_ROOT, "data", "school-board", "meetings"),
+            os.path.join(PROJECT_ROOT, "data", "city-council", "meetings"),
+        ],
+        "watch_pattern": "**/*.vtt",
+    },
 }
 
 

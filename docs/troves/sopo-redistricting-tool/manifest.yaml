@@ -13,12 +13,19 @@ tags:
 
 freshness-ttl:
   web: 7d
+  repository: 30d
 
 history:
   - event: created
     date: 2026-03-31
     commit: "5a479d4"
     sources: 1
+  - event: extended
+    date: 2026-03-31
+    commit: "--"
+    sources: 2
+    sources-added: 1
+    notes: "Added source repository (adamtishok-git/sopo-data4good)"
 
 referenced-by: []
 
@@ -30,3 +37,18 @@ sources:
     title: "South Portland Elementary School Redistricting Tool"
     hash: "0d43e017dbe7ec5901eed42f972cb5c448e4aa2b0bfdc31f9fdc48d463609e3a"
     notes: "Interactive client-side app — content extracted via browser rendering"
+
+  - source-id: sopo-data4good-repo
+    type: repository
+    url: "https://github.com/adamtishok-git/sopo-data4good"
+    fetched: 2026-03-31T02:22:00Z
+    title: "sopo-data4good — South Portland Elementary School Redistricting Model"
+    hash: "63e360542b933593ab9af74c4aefe07883cb8f321defa64f8a7b0db00d5b6cbb"
+    selective: true
+    highlights:
+      - "src/assignment.py"
+      - "src/config.py"
+      - "src/pipeline.py"
+      - "outputs/scenario_summary.csv"
+      - "webapp/src/App.jsx"
+    notes: "Selective ingest — Python source, React source, metrics. Large generated files excluded."

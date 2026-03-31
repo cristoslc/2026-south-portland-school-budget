@@ -1,0 +1,5 @@
+,scenario,capacity_feasible,pct_walkable,total_walkable_students,total_non_walkable_students,avg_drive_distance_mi,avg_drive_non_walkable_mi,max_drive_distance_mi,capacity_overflow,all_zones_contiguous,rank_drive,rank_walkable,rank_overflow,composite_rank
+1,dyer_closed,True,44.2,447.0,565.0,1.076,1.673,4.962,0.0,False,1.0,2.0,2.5,1.8333333333333333
+2,kaler_closed,True,44.4,449.6,562.3,1.082,1.625,4.962,0.0,False,2.0,1.0,2.5,1.8333333333333333
+3,brown_closed,True,40.9,414.3,597.8,1.129,1.593,2.984,0.0,False,3.0,3.0,2.5,2.8333333333333335
+4,small_closed,True,39.5,400.2,611.8,1.175,1.541,3.148,0.0,False,4.0,4.0,2.5,3.5

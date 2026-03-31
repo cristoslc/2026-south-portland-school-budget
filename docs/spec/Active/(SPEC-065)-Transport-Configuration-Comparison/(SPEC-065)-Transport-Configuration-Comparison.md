@@ -2,10 +2,10 @@
 title: "Transport Configuration Comparison"
 artifact: SPEC-065
 track: implementable
-status: Active
+status: Complete
 author: cristos
 created: 2026-03-30
-last-updated: 2026-03-30
+last-updated: 2026-03-31
 type: feature
 parent-epic: EPIC-031
 linked-artifacts:
@@ -74,3 +74,4 @@ A single, structured comparison document and dataset that makes the transport tr
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Active | 2026-03-30 | — | Created as child of EPIC-031 |
+| Complete | 2026-03-31 | — | Analysis implemented; see docs/analysis/ |

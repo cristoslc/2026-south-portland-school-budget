@@ -2,10 +2,10 @@
 title: "Before/After Care Gap Analysis"
 artifact: SPEC-064
 track: implementable
-status: Active
+status: Complete
 author: cristos
 created: 2026-03-30
-last-updated: 2026-03-30
+last-updated: 2026-03-31
 type: feature
 parent-epic: EPIC-031
 linked-artifacts:
@@ -64,3 +64,4 @@ For each configuration, an estimate of how many families face a before/after car
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Active | 2026-03-30 | — | Created as child of EPIC-031 |
+| Complete | 2026-03-31 | — | Analysis implemented; see docs/analysis/ |

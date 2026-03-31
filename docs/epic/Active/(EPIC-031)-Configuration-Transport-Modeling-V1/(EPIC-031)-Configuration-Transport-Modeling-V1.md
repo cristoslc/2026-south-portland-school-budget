@@ -5,7 +5,7 @@ track: container
 status: Active
 author: cristos
 created: 2026-03-30
-last-updated: 2026-03-30
+last-updated: 2026-03-31
 parent-vision: VISION-001
 parent-initiative: INITIATIVE-006
 priority-weight: high
@@ -63,12 +63,12 @@ The board, council, and community can compare reconfiguration options on transpo
 
 | Artifact | Title | Status |
 |----------|-------|--------|
-| SPEC-060 | Split-Family Count Model | Active |
-| SPEC-061 | McKinney-Vento Exposure Analysis | Active |
-| SPEC-062 | SEA Staffing Adequacy Assessment | Active |
-| SPEC-063 | Bell Schedule Tier Analysis | Active |
-| SPEC-064 | Before/After Care Gap Analysis | Active |
-| SPEC-065 | Transport Configuration Comparison | Active |
+| SPEC-060 | Split-Family Count Model | Complete |
+| SPEC-061 | McKinney-Vento Exposure Analysis | Complete |
+| SPEC-062 | SEA Staffing Adequacy Assessment | Complete |
+| SPEC-063 | Bell Schedule Tier Analysis | Complete |
+| SPEC-064 | Before/After Care Gap Analysis | Complete |
+| SPEC-065 | Transport Configuration Comparison | Complete |
 
 ## Key Dependencies
 

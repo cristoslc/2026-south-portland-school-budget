@@ -1,0 +1,97 @@
+{
+  "city": "South Portland",
+  "state": "Maine",
+  "source": "US Census Bureau Building Permits Survey",
+  "source_url": "https://www.census.gov/construction/bps/",
+  "access_date": "2026-03-31",
+  "data": [
+    {
+      "year": 2014,
+      "units_1family": 31,
+      "units_2family": 0,
+      "units_3to4": 0,
+      "units_5plus": 19,
+      "total_units": 50
+    },
+    {
+      "year": 2015,
+      "units_1family": 27,
+      "units_2family": 0,
+      "units_3to4": 8,
+      "units_5plus": 0,
+      "total_units": 35
+    },
+    {
+      "year": 2016,
+      "units_1family": 13,
+      "units_2family": 2,
+      "units_3to4": 0,
+      "units_5plus": 24,
+      "total_units": 39
+    },
+    {
+      "year": 2017,
+      "units_1family": 40,
+      "units_2family": 2,
+      "units_3to4": 0,
+      "units_5plus": 94,
+      "total_units": 136
+    },
+    {
+      "year": 2018,
+      "units_1family": 22,
+      "units_2family": 0,
+      "units_3to4": 0,
+      "units_5plus": 0,
+      "total_units": 22
+    },
+    {
+      "year": 2019,
+      "units_1family": 18,
+      "units_2family": 2,
+      "units_3to4": 0,
+      "units_5plus": 202,
+      "total_units": 222
+    },
+    {
+      "year": 2020,
+      "units_1family": 15,
+      "units_2family": 4,
+      "units_3to4": 3,
+      "units_5plus": 253,
+      "total_units": 275
+    },
+    {
+      "year": 2021,
+      "units_1family": 22,
+      "units_2family": 4,
+      "units_3to4": 7,
+      "units_5plus": 52,
+      "total_units": 85
+    },
+    {
+      "year": 2022,
+      "units_1family": 17,
+      "units_2family": 0,
+      "units_3to4": 3,
+      "units_5plus": 0,
+      "total_units": 20
+    },
+    {
+      "year": 2023,
+      "units_1family": 31,
+      "units_2family": 6,
+      "units_3to4": 3,
+      "units_5plus": 0,
+      "total_units": 40
+    },
+    {
+      "year": 2024,
+      "units_1family": 22,
+      "units_2family": 8,
+      "units_3to4": 3,
+      "units_5plus": 0,
+      "total_units": 33
+    }
+  ]
+}

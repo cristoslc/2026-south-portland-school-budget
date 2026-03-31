@@ -1,0 +1,30 @@
+{
+  "source": "CDC WONDER Natality, 2016-2024 expanded",
+  "source_url": "https://wonder.cdc.gov/natality-expanded-current.html",
+  "access_date": "2026-03-31",
+  "county": "Cumberland County, ME (FIPS 23005)",
+  "methodology": "County-level birth counts from CDC WONDER. South Portland estimates derived using population share (8.25%, based on ~25,000 / ~303,000 county population). These are estimates \u2014 actual municipal birth counts require town clerk records or Maine CDC data request.",
+  "county_births": {
+    "2016": 2830,
+    "2017": 2733,
+    "2018": 2717,
+    "2019": 2680,
+    "2020": 2753,
+    "2021": 2871,
+    "2022": 2916,
+    "2023": 2784,
+    "2024": 2672
+  },
+  "south_portland_estimated_births": {
+    "2016": 233,
+    "2017": 225,
+    "2018": 224,
+    "2019": 221,
+    "2020": 227,
+    "2021": 237,
+    "2022": 241,
+    "2023": 230,
+    "2024": 220
+  },
+  "kindergarten_pipeline_note": "Births in year Y enter kindergarten approximately in school year Y+5 to Y+6. E.g., 2019 births \u2192 Fall 2024 or Fall 2025 kindergarten cohort."
+}

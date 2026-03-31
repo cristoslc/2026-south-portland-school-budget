@@ -36,7 +36,7 @@ The project has a complete, structured enrollment dataset drawn from authoritati
 - Trove collection via swain-search: Maine DOE grade-level enrollment by district (10+ year history), DHHS vital statistics (births by municipality), city of South Portland housing permits, school choice transfer data (Maine DOE or district-published)
 - Extraction and cataloging of enrollment claims from existing evidence pools (fy27-budget-documents, school-board-budget-meetings, city-council-meetings-2026)
 - Normalization to structured data formats consumable by downstream epics
-- [SPIKE-009](../../research/Active/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md): feasibility assessment for building-level data
+- [SPIKE-009](../../research/Complete/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md): feasibility assessment for building-level data (Conditional Go)
 
 **Out of scope:**
 - Modeling or analysis (EPIC-028)

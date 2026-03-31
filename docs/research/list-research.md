@@ -5,13 +5,13 @@
 | Artifact | Title | Last Updated | Commit |
 |----------|-------|-------------|--------|
 | SPIKE-008 | Question Scoring Prototype | 2026-03-30 | — |
-| SPIKE-009 | Building-Level Data Feasibility | 2026-03-30 | — |
 | SPIKE-010 | Walk Zone & Pedestrian Infrastructure Audit | 2026-03-30 | — |
 
 ## Complete
 
 | Artifact | Title | Last Updated | Commit |
 |----------|-------|-------------|--------|
+| SPIKE-009 | Building-Level Data Feasibility | 2026-03-30 | — |
 | SPIKE-001 | Vimeo VTT Download via Playwright | 2026-03-10 | _pending_ |
 | SPIKE-002 | Diligent Community Agenda Scraping | 2026-03-10 | _pending_ |
 | SPIKE-003 | Normalization Script Reuse Assessment | 2026-03-10 | _pending_ |

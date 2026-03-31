@@ -59,7 +59,7 @@ An independent, transparent enrollment projection exists as a public resource. A
 ## Key Dependencies
 
 - EPIC-026 (data acquisition — Maine DOE grade-level data, birth records, housing permits)
-- [SPIKE-009](../../research/Active/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md) gates stretch goals
+- [SPIKE-009](../../research/Complete/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md) gates stretch goals (Conditional Go)
 
 ## Lifecycle
 

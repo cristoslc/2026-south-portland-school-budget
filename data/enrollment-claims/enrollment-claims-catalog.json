@@ -1,0 +1,272 @@
+{
+  "catalog": "South Portland School District Enrollment Claims",
+  "created": "2026-03-31",
+  "source_pools": [
+    "fy27-budget-documents",
+    "school-board-budget-meetings",
+    "city-council-meetings-2026"
+  ],
+  "methodology": "Systematic extraction of enrollment-related claims from all normalized trove sources. Claims are verbatim or close paraphrase with source citations.",
+  "claims": [
+    {
+      "id": "EC-001",
+      "text": "District-wide enrollment is 2,748 as of February 3, 2026 (+12 students since January 2026).",
+      "category": "enrollment-level",
+      "numbers": {"enrollment": 2748, "change": 12, "date": "2026-02-03"},
+      "source": "docs/troves/fy27-budget-documents/sources/008-regular-meeting-slides-2026-02-09/008-regular-meeting-slides-2026-02-09.md",
+      "source_location": "line 41",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-002",
+      "text": "Rolling enrollment series: 2,771 / 2,747 / 2,748 / 2,736 / 2,731 / 2,729.",
+      "category": "enrollment-level",
+      "numbers": {"series": [2771, 2747, 2748, 2736, 2731, 2729]},
+      "source": "docs/troves/fy27-budget-documents/sources/008-regular-meeting-slides-2026-02-09/008-regular-meeting-slides-2026-02-09.md",
+      "source_location": "line 177",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-003",
+      "text": "Enrollment Report: 2,736 as of January 8, 2026.",
+      "category": "enrollment-level",
+      "numbers": {"enrollment": 2736, "date": "2026-01-08"},
+      "source": "docs/troves/fy27-budget-documents/sources/006-regular-meeting-slides-2026-01-12/006-regular-meeting-slides-2026-01-12.md",
+      "source_location": "line 35",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-004",
+      "text": "District-wide enrollment for 2025-26 is 2,744 (October 1 count).",
+      "category": "enrollment-level",
+      "numbers": {"enrollment": 2744, "year": "2025-26", "count_type": "October 1"},
+      "source": "docs/troves/fy27-budget-documents/sources/005-workshop-slides-2025-12-17/005-workshop-slides-2025-12-17.md",
+      "source_location": "line 91, line 173",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-005",
+      "text": "Historical district-wide enrollment: 3,085 (2015-16), 2,983 (2017-18), 2,959 (2019-20), 2,887 (2021-22), 2,933 (2023-24), 2,744 (2025-26).",
+      "category": "enrollment-level",
+      "numbers": {"series": {"2015-16": 3085, "2017-18": 2983, "2019-20": 2959, "2021-22": 2887, "2023-24": 2933, "2025-26": 2744}},
+      "source": "docs/troves/fy27-budget-documents/sources/005-workshop-slides-2025-12-17/005-workshop-slides-2025-12-17.md",
+      "source_location": "lines 84-91",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-006",
+      "text": "Special education child count: 618 students (October 1 count), spanning 13 eligibility categories.",
+      "category": "enrollment-level",
+      "numbers": {"sped_count": 618, "categories": 13},
+      "source": "docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md",
+      "source_location": "timestamp 24:21",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-007",
+      "text": "Elementary enrollment by school for 2025-26: Brown 201, Dyer 197, Kaler 182, Skillin 310, Small 190; total 1,080.",
+      "category": "enrollment-level",
+      "numbers": {"Brown": 201, "Dyer": 197, "Kaler": 182, "Skillin": 310, "Small": 190, "elem_total": 1080, "year": "2025-26"},
+      "source": "docs/troves/fy27-budget-documents/sources/010-workshop-slides-2026-03-02/010-workshop-slides-2026-03-02.md",
+      "source_location": "lines 97-104",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-008",
+      "text": "Elementary enrollment peaked at 1,401 in 2021-22 and fell to 1,080 in 2025-26 — a 23% decline in four years.",
+      "category": "enrollment-trend",
+      "numbers": {"peak": 1401, "peak_year": "2021-22", "current": 1080, "current_year": "2025-26", "decline_pct": 23, "years": 4},
+      "source": "docs/troves/fy27-budget-documents/sources/010-workshop-slides-2026-03-02/010-workshop-slides-2026-03-02.md",
+      "source_location": "lines 97-104",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-009",
+      "text": "Board chair: 'We have had declining enrollment of 300 students with an increase in staffing of 82 staff members.'",
+      "category": "enrollment-trend",
+      "numbers": {"enrollment_decline": 300, "staff_increase": 82},
+      "source": "docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md",
+      "source_location": "timestamp 05:47",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-010",
+      "text": "Interim Superintendent: 'Since 2017, we've added about 82 positions while at the same time the student population has decreased by more than 300 students.'",
+      "category": "enrollment-trend",
+      "numbers": {"positions_added": 82, "enrollment_decline": 300, "baseline_year": 2017},
+      "source": "docs/troves/city-council-meetings-2026/sources/005-council-workshop-2026-02-10/005-council-workshop-2026-02-10.md",
+      "source_location": "timestamps 27:42, 37:58",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-011",
+      "text": "Enrollment peaked around 2022-2023 with influx of asylum-seeking families, then declined. 'Some of them have stayed.'",
+      "category": "enrollment-trend",
+      "numbers": {"implied_peak_year": "2022-23"},
+      "source": "docs/troves/school-board-budget-meetings/sources/010-school-board-budget-forum-2026-02-04-2026-02-04.md",
+      "source_location": "timestamp 08:47",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-012",
+      "text": "Staffing-to-enrollment ratios: 5.26 (2017), 5.01 (2019), 4.83 (2023), 4.22 (March 2025), 4.14 (December 2025).",
+      "category": "enrollment-trend",
+      "numbers": {"ratios": {"2017": 5.26, "2019": 5.01, "2023": 4.83, "2025-03": 4.22, "2025-12": 4.14}},
+      "source": "docs/troves/fy27-budget-documents/sources/005-workshop-slides-2025-12-17/005-workshop-slides-2025-12-17.md",
+      "source_location": "lines 108-114",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-013",
+      "text": "Multilingual learners rose from 1% (2015-16) to 17% (2025-26); 26% of students have non-English primary/home language; 40+ languages spoken.",
+      "category": "demographic-shift",
+      "numbers": {"ml_pct_2015": 1, "ml_pct_2025": 17, "non_english_home_pct": 26, "languages": 40},
+      "source": "docs/troves/fy27-budget-documents/sources/005-workshop-slides-2025-12-17/005-workshop-slides-2025-12-17.md",
+      "source_location": "lines 84-91",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-014",
+      "text": "Students of color rose from 18% (2015-16) to 38% (2025-26).",
+      "category": "demographic-shift",
+      "numbers": {"soc_pct_2015": 18, "soc_pct_2025": 38},
+      "source": "docs/troves/fy27-budget-documents/sources/005-workshop-slides-2025-12-17/005-workshop-slides-2025-12-17.md",
+      "source_location": "lines 84-91",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-015",
+      "text": "Students in special education rose from 18% (2015-16) to 23% (2025-26).",
+      "category": "demographic-shift",
+      "numbers": {"sped_pct_2015": 18, "sped_pct_2025": 23},
+      "source": "docs/troves/fy27-budget-documents/sources/005-workshop-slides-2025-12-17/005-workshop-slides-2025-12-17.md",
+      "source_location": "lines 84-91",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-016",
+      "text": "McKinney-Vento eligible students: 1% (2015-16) to 18% (2023-24), dropping to 10% (2025-26). Spike corresponds to asylum-seeking family influx.",
+      "category": "demographic-shift",
+      "numbers": {"mv_pct_2015": 1, "mv_pct_2023": 18, "mv_pct_2025": 10},
+      "source": "docs/troves/fy27-budget-documents/sources/005-workshop-slides-2025-12-17/005-workshop-slides-2025-12-17.md",
+      "source_location": "lines 84-91",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-017",
+      "text": "No forward enrollment projection beyond the current year has been shared publicly.",
+      "category": "enrollment-projection",
+      "numbers": {},
+      "source": "docs/troves/fy27-budget-documents/synthesis.md",
+      "source_location": "line 187",
+      "evidence_status": "unpublished"
+    },
+    {
+      "id": "EC-018",
+      "text": "Grade bands projected at 200-220 students per grade level, with some already below 200.",
+      "category": "enrollment-projection",
+      "numbers": {"per_grade_range": [200, 220]},
+      "source": "docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md",
+      "source_location": "timestamp 66:03",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-019",
+      "text": "CDS pre-K expansion: 80-90 four-year-olds entering district responsibility in FY27; 3-year-olds follow in FY28.",
+      "category": "enrollment-projection",
+      "numbers": {"new_prek_students": [80, 90], "start_year": "FY27"},
+      "source": "docs/troves/fy27-budget-documents/sources/010-workshop-slides-2026-03-02/010-workshop-slides-2026-03-02.md",
+      "source_location": "lines 144-148",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-020",
+      "text": "Pre-K seat expansion goal: from 64 locally-funded seats to 128 available seats (six classrooms); 200 seats at full capacity.",
+      "category": "capacity",
+      "numbers": {"current_prek_seats": 64, "goal_seats": 128, "full_capacity": 200},
+      "source": "docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md",
+      "source_location": "timestamps 66:50-68:25",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-021",
+      "text": "Class size policy (IHB): PreK max 16, K-2 max 20, Gr 3-4 max 24.",
+      "category": "capacity",
+      "numbers": {"prek_max": 16, "k2_max": 20, "gr34_max": 24},
+      "source": "docs/troves/fy27-budget-documents/sources/010-workshop-slides-2026-03-02/010-workshop-slides-2026-03-02.md",
+      "source_location": "lines 167-173",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-022",
+      "text": "Elementary school ML percentage ranges from 6% (Small) to 33% (Skillin); students of color from <20% (Small) to ~60% (Skillin).",
+      "category": "demographic-shift",
+      "numbers": {"ml_range": [6, 33], "soc_range": [20, 60]},
+      "source": "docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md",
+      "source_location": "timestamps 21:19, 22:04",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-023",
+      "text": "Free/reduced lunch: Skillin and Kaler 50-60%; Brown, Dyer, Small 20-30%.",
+      "category": "demographic-shift",
+      "numbers": {"frl_high": [50, 60], "frl_low": [20, 30]},
+      "source": "docs/troves/school-board-budget-meetings/sources/012-school-board-budget-workshop-2026-03-02-2026-03-02.md",
+      "source_location": "timestamp 21:19",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-024",
+      "text": "Community member connected ICE enforcement fear to enrollment decline, arguing 80 families could be 80 students lost.",
+      "category": "enrollment-projection",
+      "numbers": {"at_risk_families": 80},
+      "source": "data/interpretation/cumulative/PERSONA-012/2026-03-10.md",
+      "source_location": "lines 36-44",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-025",
+      "text": "Declining enrollment reduces state revenue via the EPS funding formula, compounding the fiscal problem.",
+      "category": "enrollment-trend",
+      "numbers": {},
+      "source": "docs/troves/school-board-budget-meetings/sources/013-school-board-budget-workshop-2026-03-23-2026-03-23.md",
+      "source_location": "timestamp 22:36",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-026",
+      "text": "Administration warned against building closure if CDS pre-K expansion requires more space.",
+      "category": "capacity",
+      "numbers": {},
+      "source": "docs/troves/city-council-meetings-2026/sources/005-council-workshop-2026-02-10/005-council-workshop-2026-02-10.md",
+      "source_location": "timestamp 43:23",
+      "evidence_status": "unexamined"
+    },
+    {
+      "id": "EC-027",
+      "text": "Five-year elementary maintenance projections: Dyer $596,500 ($535,000 roof); Kaler $365,000 ($302,000 roof).",
+      "category": "capacity",
+      "numbers": {"dyer_5yr": 596500, "dyer_roof": 535000, "kaler_5yr": 365000, "kaler_roof": 302000},
+      "source": "docs/troves/fy27-budget-documents/sources/011-budget-presentation-2026-03-09/011-budget-presentation-2026-03-09.md",
+      "source_location": "lines 170-173",
+      "evidence_status": "unexamined"
+    }
+  ],
+  "summary": {
+    "total_claims": 27,
+    "by_category": {
+      "enrollment-level": 7,
+      "enrollment-trend": 5,
+      "enrollment-projection": 4,
+      "capacity": 4,
+      "demographic-shift": 7
+    },
+    "notable_gaps": [
+      "No formal enrollment projections published by the district",
+      "No cohort survival or demographic modeling shared publicly",
+      "No analysis of LD 1829 housing density impact on enrollment",
+      "No analysis of multilingual learner pipeline sensitivity to federal policy",
+      "School choice transfer flow data not presented"
+    ]
+  }
+}

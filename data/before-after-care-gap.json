@@ -1,0 +1,169 @@
+{
+  "spec": "SPEC-064",
+  "title": "Before/After Care Gap Analysis",
+  "care_rates": {
+    "provider": "SoPo Kids Club (South Portland Recreation Department)",
+    "source": "https://southportlandme.myrec.com/info/activities/program_details.aspx?ProgramID=31539",
+    "rates_weekly": {
+      "before_only_5day": 75,
+      "after_only_5day": 95,
+      "before_and_after_5day": 155,
+      "before_only_3day": 54,
+      "after_only_3day": 66,
+      "before_and_after_3day": 105
+    },
+    "school_weeks": 36
+  },
+  "capacity_finding": {
+    "full_schools": [
+      "Brown",
+      "Dyer",
+      "Skillin",
+      "Small"
+    ],
+    "available_schools": [
+      "Kaler"
+    ],
+    "note": "The only school with care openings is the one proposed for closure"
+  },
+  "configurations": [
+    {
+      "configuration": "Option A",
+      "scenarios": [
+        {
+          "scenario": "3 tiers (same elementary start)",
+          "tiers": 3,
+          "split_families": {
+            "low": 139,
+            "mid": 155,
+            "high": 169
+          },
+          "care_gap_rate": 0.3,
+          "new_care_families": {
+            "low": 42,
+            "mid": 46,
+            "high": 51
+          },
+          "per_family_annual_cost": {
+            "after_only": 3420,
+            "before_and_after": 5580
+          },
+          "total_annual_cost_burden": {
+            "low": 143640,
+            "high": 284580
+          }
+        },
+        {
+          "scenario": "4 tiers (split elementary start)",
+          "tiers": 4,
+          "split_families": {
+            "low": 139,
+            "mid": 155,
+            "high": 169
+          },
+          "care_gap_rate": 0.85,
+          "new_care_families": {
+            "low": 118,
+            "mid": 132,
+            "high": 144
+          },
+          "per_family_annual_cost": {
+            "after_only": 3420,
+            "before_and_after": 5580
+          },
+          "total_annual_cost_burden": {
+            "low": 403560,
+            "high": 803520
+          }
+        }
+      ]
+    },
+    {
+      "configuration": "Option B",
+      "scenarios": [
+        {
+          "scenario": "3 tiers (same as current)",
+          "tiers": 3,
+          "split_families": {
+            "low": 0,
+            "mid": 0,
+            "high": 0
+          },
+          "care_gap_rate": 0.3,
+          "new_care_families": {
+            "low": 0,
+            "mid": 0,
+            "high": 0
+          },
+          "per_family_annual_cost": {
+            "after_only": 3420,
+            "before_and_after": 5580
+          },
+          "total_annual_cost_burden": {
+            "low": 0,
+            "high": 0
+          }
+        }
+      ]
+    },
+    {
+      "configuration": "Variant C",
+      "scenarios": [
+        {
+          "scenario": "3 tiers (same elementary start)",
+          "tiers": 3,
+          "split_families": {
+            "low": 123,
+            "mid": 137,
+            "high": 150
+          },
+          "care_gap_rate": 0.3,
+          "new_care_families": {
+            "low": 37,
+            "mid": 41,
+            "high": 45
+          },
+          "per_family_annual_cost": {
+            "after_only": 3420,
+            "before_and_after": 5580
+          },
+          "total_annual_cost_burden": {
+            "low": 126540,
+            "high": 251100
+          }
+        },
+        {
+          "scenario": "4 tiers (split elementary start)",
+          "tiers": 4,
+          "split_families": {
+            "low": 123,
+            "mid": 137,
+            "high": 150
+          },
+          "care_gap_rate": 0.85,
+          "new_care_families": {
+            "low": 105,
+            "mid": 116,
+            "high": 128
+          },
+          "per_family_annual_cost": {
+            "after_only": 3420,
+            "before_and_after": 5580
+          },
+          "total_annual_cost_burden": {
+            "low": 359100,
+            "high": 714240
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Care gap rate (30% for 3-tier, 85% for 4-tier) is estimated",
+    "Not all affected families would choose to use paid care",
+    "Some families have informal care networks (family, neighbors)",
+    "Cost estimate uses city program rates; private care may cost more",
+    "Waitlist depth at full schools is unknown \u2014 actual unmet demand may be higher",
+    "Does not include summer care transition costs"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "spec": "SPEC-060",
+  "title": "Split-Family Count Model",
+  "methodology": {
+    "approach": "Grade boundary probability model with sibling co-enrollment rates",
+    "sibling_rate_range": "0.3-0.4",
+    "sibling_rate_source": "Census Bureau SIPP; NCES household composition",
+    "avg_children_multi_child": 2.3,
+    "enrollment_source": "school-geography trove (2025-26 data)",
+    "total_k4_students": 1013
+  },
+  "configurations": [
+    {
+      "configuration": "Option A",
+      "description": "2 primary (PreK-1) + 2 intermediate (2-4), Kaler closed",
+      "grade_bands": {
+        "Primary (PreK-1)": [
+          "PreK",
+          "K",
+          "1"
+        ],
+        "Intermediate (2-4)": [
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "num_buildings_per_band": {},
+      "students_per_band": {
+        "Primary (PreK-1)": 449,
+        "Intermediate (2-4)": 622
+      },
+      "boundary_split_probability": 0.6,
+      "total_families_est": {
+        "low": 771,
+        "mid": 736,
+        "high": 705
+      },
+      "multi_child_families_est": {
+        "low": 231,
+        "mid": 258,
+        "high": 282
+      },
+      "split_families": {
+        "low": 139,
+        "mid": 155,
+        "high": 169
+      },
+      "split_families_pct": {
+        "low": 18.0,
+        "mid": 21.0,
+        "high": 24.0
+      }
+    },
+    {
+      "configuration": "Option B",
+      "description": "4 buildings K-4, Kaler closed, redistrict by proximity",
+      "grade_bands": {
+        "K-4 (all buildings)": [
+          "PreK",
+          "K",
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "num_buildings_per_band": {},
+      "split_families": {
+        "low": 0,
+        "mid": 0,
+        "high": 0
+      },
+      "split_families_pct": {
+        "low": 0.0,
+        "mid": 0.0,
+        "high": 0.0
+      },
+      "explanation": "No grade-band split. All grades in every building. Siblings always attend the same school (assuming proximity-based assignment)."
+    },
+    {
+      "configuration": "Variant C",
+      "description": "3 buildings PreK-2 + 1 building Grades 3-4, Kaler closed",
+      "grade_bands": {
+        "PreK-2": [
+          "PreK",
+          "K",
+          "1",
+          "2"
+        ],
+        "Grades 3-4": [
+          "3",
+          "4"
+        ]
+      },
+      "num_buildings_per_band": {},
+      "students_per_band": {
+        "PreK-2": 667,
+        "Grades 3-4": 404
+      },
+      "boundary_split_probability": 0.533,
+      "total_families_est": {
+        "low": 771,
+        "mid": 736,
+        "high": 705
+      },
+      "multi_child_families_est": {
+        "low": 231,
+        "mid": 258,
+        "high": 282
+      },
+      "split_families": {
+        "low": 123,
+        "mid": 137,
+        "high": 150
+      },
+      "split_families_pct": {
+        "low": 16.0,
+        "mid": 18.7,
+        "high": 21.3
+      }
+    }
+  ],
+  "limitations": [
+    "Estimate, not precise count \u2014 no family-level enrollment data available",
+    "Sibling rate assumptions from national data; South Portland may differ",
+    "Uniform grade-gap distribution assumed; actual may skew toward 1-2 year gaps",
+    "Does not account for families who might choose to opt out of the system",
+    "PreK families included where applicable but PreK is not mandatory"
+  ]
+}

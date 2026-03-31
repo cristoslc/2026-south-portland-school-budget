@@ -1,0 +1,156 @@
+{
+  "spec": "SPEC-065",
+  "title": "Transport Configuration Comparison",
+  "initiative": "INITIATIVE-006",
+  "date": "2026-03-31",
+  "reference": {
+    "claimed_savings": "$1,500,000-$2,200,000",
+    "current_transport_budget": 2993886,
+    "transport_per_pupil": 1065.44
+  },
+  "configurations": [
+    {
+      "configuration": "Option A",
+      "split_families": "139-169",
+      "split_families_raw": {
+        "low": 139,
+        "high": 169
+      },
+      "mv_exposure_annual": "$54,337-$127,853",
+      "mv_exposure_annual_raw": {
+        "low": 54337,
+        "high": 127853
+      },
+      "mv_exposure_total": "$81,506-$383,558",
+      "sea_staffing_gap": "+8 to +16 FTE",
+      "sea_routes": 27,
+      "bus_tiers": "3-4",
+      "bus_tiers_raw": {
+        "min": 3,
+        "max": 4
+      },
+      "care_gap_families": "42-144",
+      "care_gap_families_raw": {
+        "low": 42,
+        "high": 144
+      },
+      "care_gap_annual_cost": "$143,640-$803,520",
+      "care_gap_annual_cost_raw": {
+        "low": 143640,
+        "high": 803520
+      },
+      "route_expansion_cost": "$855,396",
+      "route_expansion_cost_raw": 855396,
+      "total_annual_fiscal_exposure": "$1,053,373-$1,786,769",
+      "total_annual_fiscal_exposure_raw": {
+        "low": 1053373,
+        "high": 1786769
+      },
+      "as_pct_of_claimed_savings": {
+        "low": 47.9,
+        "high": 119.1
+      }
+    },
+    {
+      "configuration": "Option B",
+      "split_families": "0-0",
+      "split_families_raw": {
+        "low": 0,
+        "high": 0
+      },
+      "mv_exposure_annual": "$30,365-$79,908",
+      "mv_exposure_annual_raw": {
+        "low": 30365,
+        "high": 79908
+      },
+      "mv_exposure_total": "$45,548-$239,724",
+      "sea_staffing_gap": "+12 to +20 FTE",
+      "sea_routes": 21,
+      "bus_tiers": "3",
+      "bus_tiers_raw": {
+        "min": 3,
+        "max": 3
+      },
+      "care_gap_families": "0-0",
+      "care_gap_families_raw": {
+        "low": 0,
+        "high": 0
+      },
+      "care_gap_annual_cost": "$0-$0",
+      "care_gap_annual_cost_raw": {
+        "low": 0,
+        "high": 0
+      },
+      "route_expansion_cost": "$0",
+      "route_expansion_cost_raw": 0,
+      "total_annual_fiscal_exposure": "$30,365-$79,908",
+      "total_annual_fiscal_exposure_raw": {
+        "low": 30365,
+        "high": 79908
+      },
+      "as_pct_of_claimed_savings": {
+        "low": 1.4,
+        "high": 5.3
+      }
+    },
+    {
+      "configuration": "Variant C",
+      "split_families": "123-150",
+      "split_families_raw": {
+        "low": 123,
+        "high": 150
+      },
+      "mv_exposure_annual": "$46,347-$111,871",
+      "mv_exposure_annual_raw": {
+        "low": 46347,
+        "high": 111871
+      },
+      "mv_exposure_total": "$69,520-$335,614",
+      "sea_staffing_gap": "+9 to +18 FTE",
+      "sea_routes": 25,
+      "bus_tiers": "3-4",
+      "bus_tiers_raw": {
+        "min": 3,
+        "max": 4
+      },
+      "care_gap_families": "37-128",
+      "care_gap_families_raw": {
+        "low": 37,
+        "high": 128
+      },
+      "care_gap_annual_cost": "$126,540-$714,240",
+      "care_gap_annual_cost_raw": {
+        "low": 126540,
+        "high": 714240
+      },
+      "route_expansion_cost": "$570,264",
+      "route_expansion_cost_raw": 570264,
+      "total_annual_fiscal_exposure": "$743,151-$1,396,375",
+      "total_annual_fiscal_exposure_raw": {
+        "low": 743151,
+        "high": 1396375
+      },
+      "as_pct_of_claimed_savings": {
+        "low": 33.8,
+        "high": 93.1
+      }
+    }
+  ],
+  "source_specs": {
+    "SPEC-060": "Split-Family Count Model",
+    "SPEC-061": "McKinney-Vento Exposure Analysis",
+    "SPEC-062": "SEA Staffing Adequacy Assessment",
+    "SPEC-063": "Bell Schedule Tier Analysis",
+    "SPEC-064": "Before/After Care Gap Analysis"
+  },
+  "key_finding": "Option B (4 buildings K-4) has the lowest transportation impact across every metric. Option A (administration recommendation) has the highest impact on split families, McKinney-Vento obligations, route expansion, and before/after care gaps. The total unaccounted fiscal exposure under Option A ranges from $1,053,373 to $1,786,769 annually \u2014 representing 47.9-119.1% of the claimed savings.",
+  "limitations": [
+    "All figures are order-of-magnitude estimates, not precise calculations",
+    "Ranges reflect uncertainty in assumptions, not confidence intervals",
+    "Route expansion cost uses aggregate model, not route-level analysis",
+    "Care gap costs are borne by families, not the district budget",
+    "MV and SPED obligations are federal mandates regardless of district budgeting",
+    "This analysis does not recommend a configuration \u2014 it surfaces missing data"
+  ],
+  "invitation": "The district has family-level enrollment data, route cost data, fleet size, SEA staffing breakdown, and care waitlist numbers that would replace every estimate in this comparison with facts. All methodology is documented and transparent. Corrections and data contributions are welcome."
+}

@@ -1,0 +1,136 @@
+{
+  "spec": "SPEC-062",
+  "title": "SEA Staffing Adequacy Assessment",
+  "staffing": {
+    "sea_fte_current": 100,
+    "sea_fte_post_cut": 86,
+    "cut_percent": 14,
+    "transport_share_range": "0.3-0.35",
+    "transport_fte_pre_cut": "30-35",
+    "transport_fte_post_cut": "26-30"
+  },
+  "route_estimates": [
+    {
+      "configuration": "Option A",
+      "num_schools": 4,
+      "grade_bands": [
+        "PreK-1",
+        "2-4"
+      ],
+      "total_students": 1071,
+      "walkable_pct": 0.35,
+      "bused_students": 696,
+      "students_per_route": 33,
+      "base_routes": 21,
+      "building_reduction_factor": 1.1,
+      "grade_band_factor": 1.15,
+      "estimated_routes": 27,
+      "driver_fte_needed": {
+        "low": 14,
+        "high": 18
+      },
+      "notes": "Grade-band split means children from same neighborhood go to different buildings. Walkability decreases because assignment is by grade, not proximity."
+    },
+    {
+      "configuration": "Option B",
+      "num_schools": 4,
+      "grade_bands": [
+        "K-4"
+      ],
+      "total_students": 1071,
+      "walkable_pct": 0.4,
+      "bused_students": 643,
+      "students_per_route": 33,
+      "base_routes": 19,
+      "building_reduction_factor": 1.1,
+      "grade_band_factor": 1.0,
+      "estimated_routes": 21,
+      "driver_fte_needed": {
+        "low": 10,
+        "high": 14
+      },
+      "notes": "Proximity-based assignment preserves neighborhood routing. Walkability only slightly reduced from losing one building."
+    },
+    {
+      "configuration": "Variant C",
+      "num_schools": 4,
+      "grade_bands": [
+        "PreK-2",
+        "3-4"
+      ],
+      "total_students": 1071,
+      "walkable_pct": 0.37,
+      "bused_students": 675,
+      "students_per_route": 33,
+      "base_routes": 20,
+      "building_reduction_factor": 1.1,
+      "grade_band_factor": 1.15,
+      "estimated_routes": 25,
+      "driver_fte_needed": {
+        "low": 12,
+        "high": 17
+      },
+      "notes": "Grade 3-4 consolidated to one building means all grade 3-4 students bused there. PreK-2 still somewhat proximity-based across 3 buildings."
+    }
+  ],
+  "gap_analysis": [
+    {
+      "configuration": "Option A",
+      "estimated_routes": 27,
+      "driver_fte_needed": {
+        "low": 14,
+        "high": 18
+      },
+      "transport_fte_available": {
+        "low": 26,
+        "high": 30
+      },
+      "gap": {
+        "best_case": 16,
+        "worst_case": 8
+      },
+      "adequate": true
+    },
+    {
+      "configuration": "Option B",
+      "estimated_routes": 21,
+      "driver_fte_needed": {
+        "low": 10,
+        "high": 14
+      },
+      "transport_fte_available": {
+        "low": 26,
+        "high": 30
+      },
+      "gap": {
+        "best_case": 20,
+        "worst_case": 12
+      },
+      "adequate": true
+    },
+    {
+      "configuration": "Variant C",
+      "estimated_routes": 25,
+      "driver_fte_needed": {
+        "low": 12,
+        "high": 17
+      },
+      "transport_fte_available": {
+        "low": 26,
+        "high": 30
+      },
+      "gap": {
+        "best_case": 18,
+        "worst_case": 9
+      },
+      "adequate": true
+    }
+  ],
+  "limitations": [
+    "SEA transport share estimated \u2014 actual breakdown not in budget documents",
+    "Route estimation uses aggregate model, not route-level analysis",
+    "Driver FTE assumes typical tier utilization (1.5-2 tiers per driver)",
+    "Does not account for specialized routes (SPED, MV, field trips)",
+    "Walkability reduction from reconfiguration is estimated, not modeled"
+  ]
+}

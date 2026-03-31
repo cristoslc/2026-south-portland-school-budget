@@ -1,0 +1,107 @@
+{
+  "spec": "SPEC-061",
+  "title": "McKinney-Vento Exposure Analysis",
+  "methodology": {
+    "mv_rate": 0.1,
+    "transport_per_pupil": 1065.44,
+    "incremental_multiplier_range": "1.5-3.0x",
+    "obligation_years_range": "1.5-3.0",
+    "legal_basis": "42 U.S.C. \u00a7 11432 (McKinney-Vento Homeless Assistance Act)"
+  },
+  "configurations": [
+    {
+      "configuration": "Option A",
+      "description": "2 primary (PreK-1) + 2 intermediate (2-4), Kaler closed",
+      "displaced_students": 335,
+      "kaler_displaced": 135,
+      "redistricting_displaced": 200,
+      "mv_eligible_displaced": {
+        "low": 34,
+        "high": 40
+      },
+      "incremental_annual_cost_per_student": {
+        "low": 1598,
+        "high": 3196
+      },
+      "annual_cost_range": {
+        "low": 54337,
+        "high": 127853
+      },
+      "total_obligation_range": {
+        "low": 81506,
+        "high": 383558
+      },
+      "as_pct_of_claimed_savings": {
+        "savings_range": "$1.5M-$2.2M",
+        "annual_pct_low": 2.5,
+        "annual_pct_high": 8.5
+      },
+      "notes": "Every elementary student changes school assignment. All MV-eligible students district-wide are potentially affected."
+    },
+    {
+      "configuration": "Option B",
+      "description": "4 buildings K-4, Kaler closed, redistrict by proximity",
+      "displaced_students": 185,
+      "kaler_displaced": 135,
+      "redistricting_displaced": 50,
+      "mv_eligible_displaced": {
+        "low": 19,
+        "high": 25
+      },
+      "incremental_annual_cost_per_student": {
+        "low": 1598,
+        "high": 3196
+      },
+      "annual_cost_range": {
+        "low": 30365,
+        "high": 79908
+      },
+      "total_obligation_range": {
+        "low": 45548,
+        "high": 239724
+      },
+      "as_pct_of_claimed_savings": {
+        "savings_range": "$1.5M-$2.2M",
+        "annual_pct_low": 1.4,
+        "annual_pct_high": 5.3
+      },
+      "notes": "Only Kaler students displaced. Proximity-based reassignment minimizes disruption."
+    },
+    {
+      "configuration": "Variant C",
+      "description": "3 buildings PreK-2 + 1 building Grades 3-4, Kaler closed",
+      "displaced_students": 285,
+      "kaler_displaced": 135,
+      "redistricting_displaced": 150,
+      "mv_eligible_displaced": {
+        "low": 29,
+        "high": 35
+      },
+      "incremental_annual_cost_per_student": {
+        "low": 1598,
+        "high": 3196
+      },
+      "annual_cost_range": {
+        "low": 46347,
+        "high": 111871
+      },
+      "total_obligation_range": {
+        "low": 69520,
+        "high": 335614
+      },
+      "as_pct_of_claimed_savings": {
+        "savings_range": "$1.5M-$2.2M",
+        "annual_pct_low": 2.1,
+        "annual_pct_high": 7.5
+      },
+      "notes": "Kaler students displaced plus grade 3-4 students consolidated into one building."
+    }
+  ],
+  "limitations": [
+    "10% MV rate is district-wide; Kaler may be higher or lower",
+    "Incremental transport costs estimated via multiplier, not route-level modeling",
+    "Obligation duration estimated from average grade distribution",
+    "Does not include SPED transport obligations (separate analysis needed)",
+    "Self-reported MV eligibility likely undercounts actual eligible population"
+  ]
+}

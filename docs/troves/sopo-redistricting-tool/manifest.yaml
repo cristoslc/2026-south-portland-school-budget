@@ -22,7 +22,7 @@ history:
     sources: 1
   - event: extended
     date: 2026-03-31
-    commit: "--"
+    commit: "ad8298f"
     sources: 2
     sources-added: 1
     notes: "Added source repository (adamtishok-git/sopo-data4good)"

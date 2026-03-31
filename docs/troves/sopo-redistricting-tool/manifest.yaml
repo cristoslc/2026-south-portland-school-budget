@@ -1,0 +1,32 @@
+trove: sopo-redistricting-tool
+created: 2026-03-31
+refreshed: 2026-03-31
+tags:
+  - redistricting
+  - elementary-school
+  - school-closure
+  - enrollment
+  - walkability
+  - zone-boundaries
+  - south-portland
+  - data4good
+
+freshness-ttl:
+  web: 7d
+
+history:
+  - event: created
+    date: 2026-03-31
+    commit: "--"
+    sources: 1
+
+referenced-by: []
+
+sources:
+  - source-id: sopo-data4good-redistricting-app
+    type: web
+    url: "https://sopo-data4good.vercel.app/"
+    fetched: 2026-03-31T02:14:00Z
+    title: "South Portland Elementary School Redistricting Tool"
+    hash: "0d43e017dbe7ec5901eed42f972cb5c448e4aa2b0bfdc31f9fdc48d463609e3a"
+    notes: "Interactive client-side app — content extracted via browser rendering"

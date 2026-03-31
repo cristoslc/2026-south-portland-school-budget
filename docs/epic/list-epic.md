@@ -8,6 +8,7 @@
 | EPIC-018 | Community Feedback | 2026-03-22 | — |
 | EPIC-019 | Site Data Assembly | 2026-03-22 | — |
 | EPIC-020 | Feedback Pipeline Integration | 2026-03-23 | — |
+| EPIC-033 | Configuration Space Optimization (V2) | 2026-03-30 | — |
 
 ## Active
 
@@ -17,6 +18,13 @@
 | EPIC-016 | Site Visual Design | 2026-03-22 | 248620e |
 | EPIC-017 | Question Hub | 2026-03-22 | — |
 | EPIC-021 | Key Questions Tracking | 2026-03-30 | — |
+| EPIC-026 | Enrollment Data Acquisition | 2026-03-30 | — |
+| EPIC-027 | Enrollment Gap Analysis & Phase 1 Briefs | 2026-03-30 | — |
+| EPIC-028 | Cohort Survival Model & 5-Year Projections | 2026-03-30 | — |
+| EPIC-029 | Phase 2 Briefs & Baseline Publication | 2026-03-30 | — |
+| EPIC-030 | Transportation Data Acquisition & Baseline | 2026-03-30 | — |
+| EPIC-031 | Configuration Transport Modeling (V1) | 2026-03-30 | — |
+| EPIC-032 | Fiscal Exposure & Family Logistics Briefs | 2026-03-30 | — |
 
 ## Complete
 

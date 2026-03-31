@@ -21,10 +21,16 @@ addresses:
   - JOURNEY-002.PP-03
   - JOURNEY-001.PP-03
 evidence-pool: ""
+linked-epics:
+  - EPIC-026
+  - EPIC-027
+  - EPIC-028
+  - EPIC-029
 linked-artifacts:
   - INITIATIVE-001
   - INITIATIVE-003
   - INITIATIVE-004
+  - SPIKE-009
 ---
 
 # Independent Enrollment Study
@@ -77,10 +83,10 @@ For each persona: Maria knows whether her kids' school is at risk based on demog
 
 | Artifact | Title | Status | Track |
 |----------|-------|--------|-------|
-| _TBD_ | Enrollment Data Acquisition | — | Both |
-| _TBD_ | Enrollment Gap Analysis & Phase 1 Briefs | — | Track 1 |
-| _TBD_ | Cohort Survival Model & 5-Year Projections | — | Track 2 |
-| _TBD_ | Phase 2 Briefs & Baseline Publication | — | Track 2 |
+| [EPIC-026](../../epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md) | Enrollment Data Acquisition | Active | Both |
+| [EPIC-027](../../epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md) | Enrollment Gap Analysis & Phase 1 Briefs | Active | Track 1 |
+| [EPIC-028](../../epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md) | Cohort Survival Model & 5-Year Projections | Active | Track 2 |
+| [EPIC-029](../../epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md) | Phase 2 Briefs & Baseline Publication | Active | Track 2 |
 
 ## Small Work (Epic-less Specs)
 

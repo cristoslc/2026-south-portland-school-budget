@@ -23,11 +23,17 @@ addresses:
   - JOURNEY-001.PP-03
   - JOURNEY-002.PP-03
 evidence-pool: ""
+linked-epics:
+  - EPIC-030
+  - EPIC-031
+  - EPIC-032
+  - EPIC-033
 linked-artifacts:
   - INITIATIVE-001
   - INITIATIVE-003
   - INITIATIVE-004
   - INITIATIVE-005
+  - SPIKE-010
 ---
 
 # Independent Transportation Analysis
@@ -79,10 +85,10 @@ For each persona: Maria knows how many mornings she'd spend doing split-building
 
 | Artifact | Title | Status | Track |
 |----------|-------|--------|-------|
-| _TBD_ | Transportation Data Acquisition & Baseline | — | Both |
-| _TBD_ | Configuration Transport Modeling (V1) | — | Track 1 |
-| _TBD_ | Fiscal Exposure & Family Logistics Briefs | — | Track 1 |
-| _TBD_ | Configuration Space Optimization (V2) | — | Track 2 |
+| [EPIC-030](../../epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md) | Transportation Data Acquisition & Baseline | Active | Both |
+| [EPIC-031](../../epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md) | Configuration Transport Modeling (V1) | Active | Track 1 |
+| [EPIC-032](../../epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md) | Fiscal Exposure & Family Logistics Briefs | Active | Track 1 |
+| [EPIC-033](../../epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md) | Configuration Space Optimization (V2) | Proposed | Track 2 |
 
 ## Small Work (Epic-less Specs)
 
@@ -92,7 +98,7 @@ _None currently._
 
 | Artifact | Title | Status | Parent |
 |----------|-------|--------|--------|
-| _TBD_ | Walk Zone & Pedestrian Infrastructure Audit | — | EPIC A |
+| [SPIKE-010](../../research/Active/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit.md) | Walk Zone & Pedestrian Infrastructure Audit | Active | EPIC-030 |
 
 ## Key Dependencies
 

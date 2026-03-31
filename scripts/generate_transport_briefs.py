@@ -79,7 +79,7 @@ PERSONA_FRAMES = {
     "PERSONA-004": "James is a high school teacher watching from across the district. Frame transportation costs as competing for the same budget that funds his programs. Every dollar spent on expanded bus routes is a dollar not available for academic programs.",
     "PERSONA-005": "Priya is focused on equity. Lead with McKinney-Vento impact — 10% of students are eligible, and displacement triggers federal transport obligations for the most vulnerable families. Who rides longest? Who bears the care gap costs?",
     "PERSONA-006": "Tom is a tax-conscious resident. Lead with fiscal exposure as unfunded mandates eating into claimed savings. He needs to know what the reconfiguration actually costs taxpayers vs. what was promised. The net savings table is his key data point.",
-    "PERSONA-007": "Linda is a school board insider. Lead with the governance timeline — questions asked and not answered, the DOT traffic study double standard, the Director of Operations confirming no modeling exists. She needs the accountability record.",
+    "PERSONA-007": "Linda is a school board insider. Lead with the governance timeline — questions asked and not answered, the DOT traffic study double standard, and the 3/30 meeting where the Director of Operations confirmed 20 drivers and transport logistics 'underway with partner' but only operationalized AFTER the board votes. She needs the accountability record.",
     "PERSONA-008": "Rachel is a disruption-averse parent. Frame everything through the lens of change minimization. Option B preserves neighborhood schools and zero split families. Option A creates the maximum disruption she fears.",
     "PERSONA-009": "Dana is a local TV news producer. Lead with the headline contradiction: administration recommended a configuration without modeling its transportation impact, then confirmed no modeling will happen before the vote. The numbers make the story concrete.",
     "PERSONA-010": "Alex is a forecaster/writer. Give the analytical deep dive — methodology, assumptions, sensitivity ranges. This persona appreciates the estimation approach and wants to assess the rigor.",
@@ -87,7 +87,7 @@ PERSONA_FRAMES = {
     "PERSONA-012": "Jordan is a high school student. Frame transport costs as money that could go to their programs. Keep it accessible — avoid jargon. The split-family stat is relatable (their younger siblings could be affected).",
     "PERSONA-013": "Casey is a middle school student. Frame simply — 'your younger siblings might have to go to two different schools.' The before/after care gap matters because it affects when parents can pick them up.",
     "PERSONA-014": "Riley is an elementary student. Frame at their level — some kids might have longer bus rides, and some families might have to drop off at two schools instead of one. Keep it simple and concrete.",
-    "PERSONA-015": "Chris is a cross-building staff advocate. Lead with SEA staffing cuts — 14% reduction decided before route modeling. Staff will be asked to do more with less, covering wider routes with fewer drivers.",
+    "PERSONA-015": "Chris is a cross-building staff advocate. Lead with the universal driver shortfall — 20 drivers confirmed (3/30 meeting), but every configuration needs 24-30. The 14% SEA cut was decided before anyone counted the drivers. Staff will be asked to do more with less, and the math doesn't work for any option.",
 }
 
 SYSTEM_PROMPT = """You are a rigorous, factual analyst producing a transportation impact brief for a specific persona in the South Portland school budget analysis.
@@ -129,7 +129,7 @@ def generate_brief(persona_id, persona_name, persona_content, frame):
 ## Transport Configuration Comparison Data
 {comparison_text}
 
-## Key Analysis Findings
+## Key Analysis Findings (V2 — updated with 3/30/2026 meeting data)
 
 ### Split Families (SPEC-060)
 - Option A: 139-169 families split across buildings (18-24% of elementary families)
@@ -141,25 +141,37 @@ def generate_brief(persona_id, persona_name, persona_content, frame):
 - Option A displaces most students (full system reorganization)
 - Annual cost: $30K-$128K depending on configuration
 
-### SEA Staffing (SPEC-062)
-- 100 FTE → 86 FTE (14% cut, steepest of any unit)
-- Cut was decided BEFORE route modeling existed
-- Aggregate numbers suggest adequacy for regular routes, but specialized routes (SPED, MV) unmodeled
+### SEA Staffing (SPEC-062) — MAJOR UPDATE
+- 20 bus drivers confirmed (Director of Operations Mike Natalie, 3/30/2026 meeting)
+- Drivers work 7 AM-4 PM, idle 9:30-1:30 (confirms 3-tier schedule)
+- Post-cut: 17-20 drivers available (depending on which SEA positions are cut)
+- UNIVERSAL DRIVER SHORTFALL: Option A needs 30, Option B needs 24, Variant C needs 29
+- Even the LOWEST-impact option (B) shows a shortfall of 4-7 drivers
+- The 14% SEA cut was decided BEFORE anyone counted the drivers or modeled the routes
 
 ### Bell Schedules (SPEC-063)
-- Current: 3-tier system (HS 8:10, MS 8:30, Elementary 9:05)
+- Current: 3-tier system (HS 8:10, MS 8:30, Elementary 9:05) — confirmed by driver schedule
 - Option A/C may need 4th tier (grade-band routing)
 - 4th tier creates 30-minute scheduling gap for split families
+- Driver idle window (9:30-1:30) leaves no room for a 4th tier without overtime
 
 ### Before/After Care (SPEC-064)
 - After care FULL at 4/5 schools. Only Kaler (closing) has openings.
 - Option A (4-tier): 118-144 new families needing care, $404K-$804K annual cost burden on families
 - Option B: $0 care gap
 
-### Net Savings (SPEC-065)
-- Option A: $1.05M-$1.79M fiscal exposure → net savings $210K-$1.15M (vs. claimed $1.5-2.2M)
-- Option B: $30K-$80K fiscal exposure → net savings $1.42M-$2.17M
-- Variant C: $743K-$1.40M fiscal exposure → net savings $100K-$1.46M
+### Net Savings (SPEC-065) — UPDATED
+- District costs separated from family-borne costs
+- Option A: $946K-$1.68M total fiscal exposure (43-112% of claimed savings)
+  - District cost: $803K-$876K | Family cost: $144K-$804K
+- Option B: $30K-$80K fiscal exposure (1.4-5.3% of claimed savings)
+- Variant C: $797K-$1.45M fiscal exposure (36-97% of claimed savings)
+- Sensitivity (FY23 baseline): Option A drops to $743K-$1.48M (34-98%)
+
+### Transport Cost Anomaly
+- South Portland per-pupil transport costs rose 50.2% FY23-FY25 ($709→$1,065) vs state average +10.5%
+- Diesel cost increases flagged as "considerable" at 3/30 meeting but unquantified
+- Transport logistics "underway with partner" but operationalized AFTER board vote, not before
 
 ## Governance Timeline (from Transportation Claims Catalog)
 {CLAIMS_SYNTHESIS[:2000]}
@@ -192,18 +204,21 @@ This brief is for community members who don't fit a specific persona — general
 ## Key Analysis Findings
 
 ### The Missing Analysis
-The South Portland School Board has been asked to choose between elementary reconfiguration options without transportation analysis. The Director of Operations confirmed no modeling exists and none will be done before the vote.
+The South Portland School Board has been asked to choose between elementary reconfiguration options without transportation analysis. The Director of Operations confirmed transport logistics are "underway with a partner" but will be operationalized AFTER the board votes. At the 3/30/2026 meeting, he also confirmed 20 bus drivers working 7 AM-4 PM.
 
-### Configuration Comparison Summary
-- Option A (admin recommendation): $1.05M-$1.79M in transport-related fiscal exposure, 139-169 split families
-- Option B (K-4 proximity): $30K-$80K exposure, zero split families
-- Variant C (citizen alternative): $743K-$1.40M exposure, 123-150 split families
+### Configuration Comparison Summary (V2)
+- Option A (admin recommendation): $946K-$1.68M total fiscal exposure (43-112% of claimed savings), 139-169 split families, needs 30 drivers (has 17-20)
+- Option B (K-4 proximity): $30K-$80K exposure (1.4-5.3%), zero split families, needs 24 drivers (has 17-20)
+- Variant C (citizen alternative): $797K-$1.45M exposure (36-97%), 123-150 split families, needs 29 drivers (has 17-20)
+- District costs separated from family-borne costs in all figures
 
-### Key Contradictions
-- "Not significant" claim made without modeling (TC-005)
-- DOT traffic study required for middle school bell changes but not elementary reconfiguration
-- SEA staffing cut (14%) decided before route analysis
+### Key Findings
+- UNIVERSAL DRIVER SHORTFALL: All configurations need more drivers than the district has, even after zero cuts to the driver pool
+- "Not significant" claim made without modeling (TC-005) — route expansion costs are $624K-$748K/year for grade-band options
+- SEA staffing cut (14%) decided before anyone counted drivers or modeled routes
 - After care FULL at 4/5 schools; only Kaler (closing) has openings
+- South Portland transport costs rose 50.2% FY23-FY25 vs state average 10.5% — cause unknown
+- Diesel cost increases flagged as "considerable" at 3/30 meeting
 
 ## Governance Timeline
 {CLAIMS_SYNTHESIS[:2000]}

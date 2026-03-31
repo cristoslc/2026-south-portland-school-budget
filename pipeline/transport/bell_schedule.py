@@ -25,6 +25,15 @@ CURRENT_TIERS = {
 # Bus turnaround time between tiers
 TURNAROUND_MINUTES = 25  # Time for bus to complete a route and start the next tier
 
+# === DRIVER SCHEDULE (confirmed by Dir. of Operations Mike Natalie, 3/30/2026) ===
+# Drivers on clock 7:00 AM – 4:00 PM
+# AM runs complete by 9:30; idle until ~1:00–1:30; PM runs through 4:00
+# This confirms the 3-tier sequential model with generous turnaround margins.
+# Fleet size: 20 drivers (same source)
+DRIVER_COUNT = 20
+AM_COMPLETE = "9:30"
+PM_START = "13:00"
+
 # Current: 3 tiers, buses run HS → MS → Elementary
 # Gap: HS ends 2:25, MS ends 2:45 (20 min gap), Elementary ends 3:05 (20 min gap)
 # Morning: HS starts 8:10, MS starts 8:30 (20 min gap), Elementary starts 9:05 (35 min gap)
@@ -222,12 +231,20 @@ def export_json(configs, path):
         "source": "https://www.spsd.org/families/school-start-dismissal-times",
         "turnaround_assumption_minutes": TURNAROUND_MINUTES,
         "configurations": configs,
+        "driver_schedule": {
+            "source": "Director of Operations Mike Natalie, 3/30/2026 BoE meeting",
+            "shift": "7:00 AM – 4:00 PM",
+            "am_complete": AM_COMPLETE,
+            "pm_start": PM_START,
+            "idle_window": "~3.5 hours",
+            "driver_count": DRIVER_COUNT,
+        },
         "limitations": [
             "Tier feasibility assessment is qualitative, not route-modeled",
             "Turnaround time assumption (25 min) is an estimate for South Portland geography",
             "Does not model specific route times — would require routing software",
             "Middle school bell time consolidation (deferred to fall 2027) could free a tier",
-            "Fleet size unknown — tier analysis assumes current fleet is adequate for 3 tiers",
+            "Driver idle window (9:30–1:30) confirmed by Dir. of Operations validates 3-tier turnaround margins",
         ],
     }
     Path(path).parent.mkdir(parents=True, exist_ok=True)

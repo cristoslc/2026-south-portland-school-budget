@@ -8,79 +8,82 @@ generated_date: "2026-03-31"
 source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC-065"]
 ---
 
-# Transportation Impact Brief: Lila (PERSONA-014)
-## The One Whose School Is Closing
+# Transportation Impact Brief — Lila (PERSONA-014)
+**The One Whose School Is Closing | Elementary Student, Dyer Elementary (Proposed Closure)**
 
 ---
 
-## 1. Executive Summary
+## Executive Summary
 
-Lila is a 9-year-old 4th grader at Dyer Elementary — one of the schools proposed for closure in the FY27 reconfiguration. She will not read this brief. She is who this brief is about. Every transportation decision embedded in the FY27 budget resolves, at ground level, to concrete questions she is already asking: Will the bus ride be longer? Will she end up at the same school as her little sister? Will there be somewhere safe to be after school in a building she doesn't yet know? The district has asserted that transportation cost changes won't be significant — but has not produced the route modeling, care capacity analysis, or sibling logistics data to substantiate that claim.
-
----
-
-## 2. Key Finding
-
-Under Option A, **up to 169 elementary families — 18–24% of all elementary families — will be split across two buildings** with different start and dismissal times. The 4-tier bell schedule that Option A may require creates a 30-minute scheduling gap between dismissal tiers. After-care is already full at 4 of the 5 elementary schools remaining in the system; the only school with open slots is Kaler — also proposed for closure. For a family with a 4th grader and a 1st grader at Dyer today, the reconfiguration may produce two separate drop-offs, two separate pickups, and no guaranteed after-school care at either destination.
+Dyer Elementary's closure displaces Lila and her 1st-grade sibling without a completed transportation plan. Under the configurations that generate meaningful savings — Option A and Variant C — 18–24% and 16–21% of elementary families respectively face split-building assignments, a near-certain before/after care gap, and bus rides that may grow longer. The district voted on the closure before it modeled the routes. Family-borne transportation and care costs reach $143,640–$803,520 annually under Option A. That math has not been presented to Dyer's families.
 
 ---
 
-## 3. Configuration Comparison
+## Key Finding
 
-What changes in Lila's daily life across the three configurations:
+**Under Option A, 139–169 families (18–24% of elementary families) would be split across buildings.**
+
+For Lila's household, this means a concrete and calculable possibility: she goes to one school, her sibling goes to another. Two drop-offs. Two pick-ups. Two separate before/after care arrangements — in a district where after-care is already confirmed full at 4 of the 5 elementary schools. No school-specific assignment map has been published. Dyer families cannot yet determine their individual probability of split placement.
+
+---
+
+## Configuration Comparison
 
 | Metric | Option A | Option B | Variant C |
 |---|---|---|---|
-| Families split across buildings | 139–169 | **0** | 123–150 |
+| Split families | 139–169 (18–24%) | **0** | 123–150 (16–21%) |
+| Drivers needed | 30 | 24 | 29 |
+| Drivers available (post-SEA cut) | 17–20 | 17–20 | 17–20 |
+| Driver shortfall | **10–13** | 4–7 | 9–12 |
 | Bus tiers required | 3–4 | 3 | 3–4 |
-| New families needing before/after care | 42–144 | **0** | 37–128 |
-| Annual care cost burden (families) | $144K–$804K | **$0** | $127K–$714K |
-| McKinney-Vento annual exposure | $54K–$128K | $30K–$80K | $46K–$112K |
-| Total annual fiscal exposure | $1.05M–$1.79M | $30K–$80K | $743K–$1.40M |
-| As % of claimed budget savings | 47.9%–**119.1%** | 1.4%–5.3% | 33.8%–93.1% |
+| 4th-tier scheduling gap | 30 min (split families) | None | 30 min (split families) |
+| New families needing care | 42–144 | **0** | 37–128 |
+| Family care cost (annual) | $143,640–$803,520 | **$0** | $126,540–$714,240 |
+| Total fiscal exposure | $946,449–$1,679,845 | $30,365–$79,908 | $796,613–$1,449,837 |
+| As % of claimed savings | 43–112% | 1.4–5.3% | 36–97% |
 
-Under Option A, the district's own claimed savings of $1.5M–$2.2M could be partially or fully consumed by unbudgeted transportation costs. Under Option B, the fiscal exposure is $30K–$80K — 1.4%–5.3% of claimed savings — and no families are split. Variant C falls between the two on every metric.
-
-For Lila and her sibling specifically: Options A and C both carry a material probability that siblings attend different buildings. Option B does not.
+**What this means for Lila:** Option B eliminates split families and carries zero care-gap cost — but it does not close Dyer. Option A and Variant C both carry a structural probability of splitting Lila from her sibling, and direct those families toward receiving schools where after-care slots are, by confirmed enrollment, already gone.
 
 ---
 
-## 4. What's Missing
+## What's Missing
 
-The district has not produced the following analyses that bear directly on what Lila's school day looks like next year:
+The district has not published:
 
-- **Route-level modeling for any configuration.** No published analysis of specific bus routes, estimated ride times, or stop locations. Parents testified at the March 2 board meeting to existing 45-minute rides under the current system. No analysis shows whether reconfiguration shortens or lengthens them.
-- **Before/after care capacity by receiving school.** After-care is full at 4 of 5 remaining elementary schools. No analysis identifies where displaced Dyer families — including families with two children going to two different buildings — will find licensed care.
-- **Sibling co-enrollment analysis under split-family scenarios.** No analysis quantifies how many current Dyer families have children at multiple grade levels and would face separate drop-offs and pickups under Options A or C.
-- **McKinney-Vento specialized route modeling.** Approximately 108 elementary-age students are MV-eligible (~10% of the district's ~274 MV students). Specialized routes for these students are unmodeled under any configuration.
-- **SEA staffing adequacy for reconfigured routes.** The SEA unit was cut from 100 to 86 FTE (a 14% reduction) before route modeling existed. Whether 86 FTE is sufficient to cover SPED and MV routes under any configuration has not been analyzed.
+1. **School-specific assignment mapping.** Which Dyer students go to which receiving school? Without this, Lila's family cannot calculate split probability, bus route, or care-gap exposure. The range 139–169 split families is a district-wide estimate with no building-level breakdown.
 
-The administration stated on March 2 that it "would need to kind of look at the whole picture" on transportation and had "budgeted for transportation consultancy." As of March 31, that analysis has not been released publicly.
+2. **Receiving-school before/after care capacity.** After-care is confirmed full at 4 of 5 elementary schools. The district has not disclosed whether receiving schools have capacity for displaced Dyer students — or whether families are expected to source private alternatives independently.
 
----
+3. **Projected bus ride durations for displaced students.** Parents testified to 45-minute rides under the current system at the March 2 forum. Cross-town reconfiguration routing will alter those durations. No estimates for Dyer-displaced students have been provided under any configuration.
 
-## 5. Limitations
+4. **A driver remediation plan.** Every configuration — including Option B, the lowest-impact option — produces a driver shortfall (4–7 at minimum). The 14% SEA staffing cut was approved before route counts were modeled. No remediation plan or associated cost has been disclosed.
 
-This analysis identifies fiscal exposure ranges and structural modeling gaps. It cannot:
-
-- Determine actual bus ride times for Dyer students under any configuration (no route data published)
-- Confirm whether specific receiving schools have before/after care capacity for displaced Dyer families
-- Identify which building Lila or her sibling would be assigned to under any option
-- Quantify the number of Dyer families with children at multiple grade levels
-
-All ranges in this brief are modeled estimates. The district holds the enrollment records, route maps, and care capacity data that would narrow every range here — in some cases to a single number.
+5. **A 4th-tier feasibility and cost analysis.** The confirmed driver idle window (9:30 AM–1:30 PM) leaves no margin for a 4th routing tier without overtime. Option A and Variant C may require this tier. The cost has not been quantified, and the 30-minute scheduling gap it creates falls directly on split-building families.
 
 ---
 
-## 6. Invitation to Improve
+## Limitations
 
-The district can sharpen every estimate in this brief by releasing:
+This analysis cannot tell you:
+- Which receiving school Lila would be assigned to
+- Whether her sibling would be co-assigned to the same building
+- Whether her teachers or friends would be at the same school
+- What her actual bus ride duration would be under any configuration
 
-1. **Draft route maps** for each configuration, with estimated ride times from current Dyer attendance area addresses
-2. **Before/after care enrollment and licensed capacity** by school, under each configuration
-3. **Sibling co-enrollment data** — how many families have children across multiple grade bands affected by the reconfiguration
-4. **SEA staffing analysis** showing FTE requirements by route type (regular, SPED, MV) under each configuration
-5. **MV student routing continuity plan** for displaced students under each option
+The fiscal ranges are district-wide estimates. Lila's individual household exposure depends on neighborhood geography, receiving-school assignment logic, and care-slot availability — none of which the district has made public.
 
-Lila does not know what a budget document is. She knows whether the bus ride is longer. She knows whether she ends up at the same school as her sibling. She knows whether there is somewhere safe to be when school lets out in an unfamiliar building. These are answerable, specific, operational questions. The district should answer them before a configuration is adopted.
+One additional flag: South Portland's per-pupil transportation cost rose 50.2% from FY23 to FY25 ($709 → $1,065), against a state average increase of 10.5%. The baseline is already under structural cost pressure before any reconfiguration is added.
+
+---
+
+## Invitation to Improve
+
+The district holds the data that would answer these questions with precision:
+
+- **School-specific assignment maps** by receiving school, including sibling co-placement rates for multi-child households
+- **Before/after care enrollment capacity** at each receiving school, as of the date of the board vote
+- **Projected bus route durations** for Dyer-displaced students under each configuration
+- **Driver gap remediation plan**: how the shortfall of 4–13 drivers will be resolved and at what annual cost to the district
+
+This analysis will be updated to reflect any district data provided. The ranges above are wide because the district has not narrowed them. Lila's family is living inside those ranges right now.
 ```

@@ -7,8 +7,10 @@ can cover expanded transportation routes under each configuration.
 
 Data sources:
 - SEA staffing: TC-016 (100 FTE → 86 FTE, 14% reduction)
-- Transport per-pupil: maine-doe-transport-expenditure trove
-- Peer district ratios: derived from DOE data
+- Driver count: Director of Operations Mike Natalie, 3/30/2026 BoE meeting
+- Driver schedule: 7 AM–4 PM, idle 9:30–1:00/1:30 (same meeting)
+- Transport per-pupil: Maine DOE FY23–FY25 resident expenditure reports
+- Multi-year DOE trend: data/transport-per-pupil-multiyear.csv
 """
 
 import json
@@ -21,40 +23,68 @@ SEA_FTE_CURRENT = 100
 SEA_FTE_POST_CUT = 86
 SEA_CUT_PERCENT = 14
 
-# SEA covers three functions: facilities, food, transport
-# Budget documents don't break out transport-specific FTE
-# Estimate: based on typical district allocation patterns
+# === ACTUAL DRIVER COUNT ===
+# Source: Director of Operations Mike Natalie, 3/30/2026 BoE meeting
+# Quote: "Thereabouts there's 20 drivers."
+# Context: Natalie described drivers on the clock 7 AM–4 PM, idle 9:30 to
+# ~1:00/1:30. He proposed 4 drivers rotating into lunchtime support at
+# elementary schools, capped at 2 hours/day.
 #
-# National benchmarks (NCES School District Finance Survey):
-# - Transport staff typically 30-40% of operations support staff
-# - For a district of ~2,800 students with 5 elementary + 1 middle + 1 high:
-#   ~25-35 bus drivers/aides is typical
-#
-# We estimate transport share at 30-35% of SEA
+# Important: "20 drivers" refers to bus DRIVERS specifically, not the full
+# transport operation. The SEA unit also includes aides, mechanics, and
+# dispatchers who support transportation. We estimate total transport FTE
+# (including non-driver roles) at 25–28, based on 20 drivers + 5–8 support.
 
-TRANSPORT_SHARE_LOW = 0.30
-TRANSPORT_SHARE_HIGH = 0.35
+ACTUAL_DRIVERS = 20
+TRANSPORT_SUPPORT_FTE_LOW = 5   # Aides, mechanics, dispatch (conservative)
+TRANSPORT_SUPPORT_FTE_HIGH = 8  # Upper estimate
+TRANSPORT_FTE_CURRENT_LOW = ACTUAL_DRIVERS + TRANSPORT_SUPPORT_FTE_LOW   # 25
+TRANSPORT_FTE_CURRENT_HIGH = ACTUAL_DRIVERS + TRANSPORT_SUPPORT_FTE_HIGH  # 28
 
-# Current transport FTE estimate
-TRANSPORT_FTE_CURRENT_LOW = round(SEA_FTE_CURRENT * TRANSPORT_SHARE_LOW)
-TRANSPORT_FTE_CURRENT_HIGH = round(SEA_FTE_CURRENT * TRANSPORT_SHARE_HIGH)
+# Transport share of SEA: 25–28 out of 100 = 25–28%
+# (Previously estimated at 30–35% from national benchmarks;
+#  actual is lower, consistent with South Portland's mixed-function SEA unit)
+TRANSPORT_SHARE_LOW = TRANSPORT_FTE_CURRENT_LOW / SEA_FTE_CURRENT  # 0.25
+TRANSPORT_SHARE_HIGH = TRANSPORT_FTE_CURRENT_HIGH / SEA_FTE_CURRENT  # 0.28
 
-# Post-cut transport FTE (assuming proportional cut across functions)
-TRANSPORT_FTE_POST_CUT_LOW = round(SEA_FTE_POST_CUT * TRANSPORT_SHARE_LOW)
-TRANSPORT_FTE_POST_CUT_HIGH = round(SEA_FTE_POST_CUT * TRANSPORT_SHARE_HIGH)
+# Post-cut transport FTE assuming proportional cut across all SEA functions
+TRANSPORT_FTE_POST_CUT_LOW = round(SEA_FTE_POST_CUT * TRANSPORT_SHARE_LOW)  # 22
+TRANSPORT_FTE_POST_CUT_HIGH = round(SEA_FTE_POST_CUT * TRANSPORT_SHARE_HIGH)  # 24
+
+# Post-cut driver count specifically (proportional to 14% cut)
+DRIVERS_POST_CUT_LOW = round(ACTUAL_DRIVERS * (1 - SEA_CUT_PERCENT / 100))  # 17
+DRIVERS_POST_CUT_HIGH = ACTUAL_DRIVERS  # 20 (if cuts fall entirely on non-driver roles)
+
+# === DRIVER SCHEDULE (confirmed 3/30/2026 meeting) ===
+# Drivers on clock: 7:00 AM – 4:00 PM (9-hour shift)
+# AM runs: ~7:00 – 9:30
+# Idle window: 9:30 – 1:00/1:30 (~3.5 hours)
+# PM runs: ~1:00/1:30 – 4:00
+# This confirms a 3-tier bell schedule:
+#   Tier 1 (HS): 8:10 start → AM run complete ~8:00
+#   Tier 2 (MS): 8:30 start → AM run complete ~8:20
+#   Tier 3 (Elem): 9:05 start → AM run complete ~9:30
+# Each driver runs all 3 tiers sequentially in the AM, then reverse in PM.
+
+DRIVER_SHIFT_START = "7:00"
+DRIVER_SHIFT_END = "16:00"
+AM_RUNS_COMPLETE = "9:30"
+PM_RUNS_START = "13:00"  # ~1:00 PM (conservative; Natalie said 1:00-1:30)
+IDLE_WINDOW_HOURS = 3.5
 
 # === ROUTE ESTIMATION ===
-# Current: 5 elementary schools, tiered bus service
-# South Portland transport spend: $1,065/pupil × 2,810 = ~$2.99M
-# Average driver cost (salary + benefits): ~$45-55K (Maine bus driver wages)
-# This implies roughly 54-66 total route-equivalents (all levels)
-# Elementary share: ~50-60% of routes (5 of 7 schools)
+# With 20 drivers confirmed, we can now ground route estimates:
+# 20 drivers × 3 tiers (AM) = 60 route-runs per morning
+# But drivers serve all tiers sequentially, so:
+#   20 drivers × 1 route per tier × 3 tiers = 60 route-runs
+#   = ~20 routes per tier level
+# Elementary is 1 tier (5 schools) → 20 routes for elementary currently
+# This aligns with: 1,013 students / 20 routes = ~51 students/route at capacity
+# Accounting for walkers (~44% walkable with 5 schools):
+#   ~570 bused students / 20 routes = ~29 students/route ← realistic bus load
 
-CURRENT_ELEMENTARY_ROUTES_LOW = 27
-CURRENT_ELEMENTARY_ROUTES_HIGH = 40
-
-# Students per route: 1,013 students / 27-40 routes = 25-38 students/route
-# This aligns with typical Maine school bus capacity utilization
+CURRENT_ELEMENTARY_ROUTES = 20  # Grounded in 20 drivers, 1 elementary tier
+STUDENTS_PER_ROUTE = 29  # Derived: ~570 bused / 20 routes
 
 
 def estimate_routes(config_name, num_schools, grade_bands,
@@ -62,30 +92,23 @@ def estimate_routes(config_name, num_schools, grade_bands,
     """Estimate route requirements for a configuration."""
     bused_students = round(total_students * (1 - walkable_pct))
 
-    # More buildings with wider geographic catchments need more routes
-    # Fewer buildings = wider catchments = longer routes = need more routes
-    # Grade-band splits add routes because students in same area go to different schools
-
-    # Base: students per route efficiency
-    students_per_route = 33  # midpoint estimate for South Portland
-
-    base_routes = round(bused_students / students_per_route)
+    # Base: students per route from current operations
+    base_routes = round(bused_students / STUDENTS_PER_ROUTE)
 
     # Adjustment factors
-    # Fewer buildings = wider catchments = ~10% more routes per building lost
+    # Fewer buildings = wider catchments → ~10% more routes per building lost
     building_reduction_factor = 1.0 + (5 - num_schools) * 0.10
 
     # Grade-band split = same-area students going to different buildings
-    # adds deadhead routes
+    # Adds deadhead routes (bus passes through same neighborhood twice)
     grade_band_factor = 1.0 + (len(grade_bands) - 1) * 0.15
 
     adjusted_routes = round(base_routes * building_reduction_factor * grade_band_factor)
 
-    # Driver FTE needed (1 route ≈ 1 driver, but some drivers do 2 tiers)
-    # With tiered service, driver FTE = routes / tiers_per_driver
-    # Typically 1.5-2 tiers per driver
-    driver_fte_low = round(adjusted_routes / 2.0)
-    driver_fte_high = round(adjusted_routes / 1.5)
+    # Driver count needed
+    # With confirmed 3-tier sequential service, each driver covers 1 route per tier
+    # Elementary routes need 1 driver each (driver also covers HS + MS tiers)
+    drivers_needed = adjusted_routes  # 1:1 driver-to-elementary-route
 
     return {
         "configuration": config_name,
@@ -94,18 +117,17 @@ def estimate_routes(config_name, num_schools, grade_bands,
         "total_students": total_students,
         "walkable_pct": walkable_pct,
         "bused_students": bused_students,
-        "students_per_route": students_per_route,
+        "students_per_route": STUDENTS_PER_ROUTE,
         "base_routes": base_routes,
         "building_reduction_factor": building_reduction_factor,
         "grade_band_factor": grade_band_factor,
         "estimated_routes": adjusted_routes,
-        "driver_fte_needed": {"low": driver_fte_low, "high": driver_fte_high},
+        "drivers_needed": drivers_needed,
         "notes": notes,
     }
 
 
 # Walkability drops from ~44% (5 schools) as catchments widen
-# Redistricting tool data: ~44% walkable under 5-school config
 OPTION_A_ROUTES = estimate_routes(
     "Option A", 4, ["PreK-1", "2-4"],
     walkable_pct=0.35,  # Wider catchments + grade-band routing reduces walkability
@@ -131,31 +153,34 @@ VARIANT_C_ROUTES = estimate_routes(
 )
 
 
-def staffing_gap_analysis(route_estimate, transport_fte_low, transport_fte_high):
-    """Assess staffing gap."""
-    driver_low = route_estimate["driver_fte_needed"]["low"]
-    driver_high = route_estimate["driver_fte_needed"]["high"]
+def staffing_gap_analysis(route_estimate):
+    """Assess staffing gap using actual driver count."""
+    drivers_needed = route_estimate["drivers_needed"]
 
     return {
         "configuration": route_estimate["configuration"],
         "estimated_routes": route_estimate["estimated_routes"],
-        "driver_fte_needed": route_estimate["driver_fte_needed"],
-        "transport_fte_available": {"low": transport_fte_low, "high": transport_fte_high},
-        "gap": {
-            "best_case": transport_fte_high - driver_low,  # Most FTE, fewest drivers needed
-            "worst_case": transport_fte_low - driver_high,  # Fewest FTE, most drivers needed
+        "drivers_needed": drivers_needed,
+        "current_drivers": ACTUAL_DRIVERS,
+        "drivers_post_cut": {
+            "low": DRIVERS_POST_CUT_LOW,
+            "high": DRIVERS_POST_CUT_HIGH,
         },
-        "adequate": transport_fte_high >= driver_low,  # Is there ANY scenario where it works?
+        "transport_fte_post_cut": {
+            "low": TRANSPORT_FTE_POST_CUT_LOW,
+            "high": TRANSPORT_FTE_POST_CUT_HIGH,
+        },
+        "gap": {
+            "best_case": DRIVERS_POST_CUT_HIGH - drivers_needed,  # No driver cuts
+            "worst_case": DRIVERS_POST_CUT_LOW - drivers_needed,  # Proportional cuts
+        },
+        "adequate": DRIVERS_POST_CUT_HIGH >= drivers_needed,
     }
 
 
 GAPS = []
 for route_est in [OPTION_A_ROUTES, OPTION_B_ROUTES, VARIANT_C_ROUTES]:
-    gap = staffing_gap_analysis(
-        route_est,
-        TRANSPORT_FTE_POST_CUT_LOW,
-        TRANSPORT_FTE_POST_CUT_HIGH,
-    )
+    gap = staffing_gap_analysis(route_est)
     GAPS.append(gap)
 
 
@@ -165,9 +190,11 @@ def print_results():
     print("=" * 70)
     print()
     print(f"SEA FTE: {SEA_FTE_CURRENT} → {SEA_FTE_POST_CUT} ({SEA_CUT_PERCENT}% cut)")
-    print(f"Estimated transport share: {TRANSPORT_SHARE_LOW*100:.0f}-{TRANSPORT_SHARE_HIGH*100:.0f}%")
-    print(f"Transport FTE pre-cut: {TRANSPORT_FTE_CURRENT_LOW}-{TRANSPORT_FTE_CURRENT_HIGH}")
-    print(f"Transport FTE post-cut: {TRANSPORT_FTE_POST_CUT_LOW}-{TRANSPORT_FTE_POST_CUT_HIGH}")
+    print(f"Actual drivers (confirmed 3/30 meeting): {ACTUAL_DRIVERS}")
+    print(f"Driver schedule: {DRIVER_SHIFT_START}–{DRIVER_SHIFT_END}, idle {AM_RUNS_COMPLETE}–{PM_RUNS_START}")
+    print(f"Transport FTE (drivers + support): {TRANSPORT_FTE_CURRENT_LOW}–{TRANSPORT_FTE_CURRENT_HIGH}")
+    print(f"Transport FTE post-cut: {TRANSPORT_FTE_POST_CUT_LOW}–{TRANSPORT_FTE_POST_CUT_HIGH}")
+    print(f"Drivers post-cut: {DRIVERS_POST_CUT_LOW}–{DRIVERS_POST_CUT_HIGH}")
     print()
 
     print("### Route Estimates")
@@ -176,16 +203,16 @@ def print_results():
         print(f"  Schools: {r['num_schools']}, Bands: {r['grade_bands']}")
         print(f"  Bused students: {r['bused_students']}")
         print(f"  Estimated routes: {r['estimated_routes']}")
-        print(f"  Driver FTE needed: {r['driver_fte_needed']['low']}-{r['driver_fte_needed']['high']}")
+        print(f"  Drivers needed: {r['drivers_needed']}")
 
     print("\n### Staffing Gap Analysis (Post-Cut)")
-    print(f"{'Config':<12} {'Routes':<8} {'Drivers Needed':<16} {'FTE Available':<16} {'Gap':<20} {'Adequate?'}")
+    print(f"{'Config':<12} {'Routes':<8} {'Drivers Needed':<16} {'Drivers Avail':<16} {'Gap':<20} {'Adequate?'}")
     print("-" * 80)
     for g in GAPS:
         gap_str = f"{g['gap']['worst_case']:+d} to {g['gap']['best_case']:+d}"
         print(f"{g['configuration']:<12} {g['estimated_routes']:<8} "
-              f"{g['driver_fte_needed']['low']}-{g['driver_fte_needed']['high']:<12} "
-              f"{g['transport_fte_available']['low']}-{g['transport_fte_available']['high']:<12} "
+              f"{g['drivers_needed']:<16} "
+              f"{g['drivers_post_cut']['low']}-{g['drivers_post_cut']['high']:<12} "
               f"{gap_str:<20} {'Possibly' if g['adequate'] else 'NO'}")
 
     return GAPS
@@ -199,18 +226,35 @@ def export_json(gaps, routes, path):
             "sea_fte_current": SEA_FTE_CURRENT,
             "sea_fte_post_cut": SEA_FTE_POST_CUT,
             "cut_percent": SEA_CUT_PERCENT,
-            "transport_share_range": f"{TRANSPORT_SHARE_LOW}-{TRANSPORT_SHARE_HIGH}",
-            "transport_fte_pre_cut": f"{TRANSPORT_FTE_CURRENT_LOW}-{TRANSPORT_FTE_CURRENT_HIGH}",
-            "transport_fte_post_cut": f"{TRANSPORT_FTE_POST_CUT_LOW}-{TRANSPORT_FTE_POST_CUT_HIGH}",
+            "actual_drivers": ACTUAL_DRIVERS,
+            "driver_source": "Director of Operations Mike Natalie, 3/30/2026 BoE meeting",
+            "driver_schedule": {
+                "shift": f"{DRIVER_SHIFT_START}–{DRIVER_SHIFT_END}",
+                "idle_window": f"{AM_RUNS_COMPLETE}–{PM_RUNS_START}",
+                "idle_hours": IDLE_WINDOW_HOURS,
+            },
+            "transport_support_fte_range": f"{TRANSPORT_SUPPORT_FTE_LOW}–{TRANSPORT_SUPPORT_FTE_HIGH}",
+            "transport_fte_current": f"{TRANSPORT_FTE_CURRENT_LOW}–{TRANSPORT_FTE_CURRENT_HIGH}",
+            "transport_fte_post_cut": f"{TRANSPORT_FTE_POST_CUT_LOW}–{TRANSPORT_FTE_POST_CUT_HIGH}",
+            "drivers_post_cut": f"{DRIVERS_POST_CUT_LOW}–{DRIVERS_POST_CUT_HIGH}",
         },
         "route_estimates": routes,
         "gap_analysis": gaps,
-        "limitations": [
-            "SEA transport share estimated — actual breakdown not in budget documents",
-            "Route estimation uses aggregate model, not route-level analysis",
-            "Driver FTE assumes typical tier utilization (1.5-2 tiers per driver)",
-            "Does not account for specialized routes (SPED, MV, field trips)",
-            "Walkability reduction from reconfiguration is estimated, not modeled",
+        "sources_of_error": [
+            "20 drivers is bus drivers only — total transport FTE includes aides, mechanics, dispatch (estimated 5–8 additional)",
+            "Post-cut driver count assumes proportional reduction across SEA functions; actual cuts could spare or target drivers specifically",
+            "Route estimation uses aggregate model with adjustment factors (+10%/building, +15%/grade-band), not route-level analysis",
+            "Students-per-route (29) derived from current fleet utilization; actual capacity may vary by route",
+            "Walkability reduction from reconfiguration is estimated (35–40%), not modeled from walk-zone policy or GIS",
+            "Does not account for specialized routes (SPED, MV, field trips) which require dedicated driver time",
+            "SEA union meet-and-consult process (started 3/30) could change driver role assignments",
+        ],
+        "what_would_improve": [
+            "District confirmation of which SEA positions are cut (driver vs. non-driver)",
+            "Actual route manifests with student counts per route",
+            "Walk-zone policy and GIS-derived walkability by configuration",
+            "SPED and MV route requirements (separate from regular routes)",
+            "Fleet vehicle count and capacity (distinct from driver count)",
         ],
     }
     Path(path).parent.mkdir(parents=True, exist_ok=True)

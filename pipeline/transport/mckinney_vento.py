@@ -24,7 +24,15 @@ KALER_K4 = 135
 KALER_WITH_PREK = 164
 
 # Transport cost data (from maine-doe-transport-expenditure trove)
+# Multi-year trend (data/transport-per-pupil-multiyear.csv):
+#   FY23: $709.49  |  FY24: $940.16  |  FY25: $1,065.44
+#   South Portland: +50.2% over 2 years vs. state average +10.5%
+#   This anomalous increase is unexplained (possible contract renegotiation,
+#   SPED transport growth, or reporting reclassification). We use FY25 as the
+#   baseline because it is the most current data; sensitivity analysis in the
+#   configuration comparison tests the FY23 baseline as an alternative.
 SOPO_TRANSPORT_PER_PUPIL = 1065.44  # FY25
+SOPO_TRANSPORT_PER_PUPIL_FY23 = 709.49  # For sensitivity analysis
 STATE_AVG_TRANSPORT_PER_PUPIL = 1092.53
 
 # Cost assumptions for incremental MV transport

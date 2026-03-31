@@ -1,4 +1,4 @@
-```markdown
+```yaml
 ---
 schema_version: "1.0"
 persona_id: "PERSONA-005"
@@ -11,20 +11,22 @@ source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC
 
 ---
 
-# Transportation Impact Brief: Priya (PERSONA-005)
-**Equity-Focused Community Member | South Portland FY27 Budget**
+# Transportation Impact Brief: Equity-Focused Community Member
+**Priya | PERSONA-005 | South Portland FY27 Budget Analysis**
 
 ---
 
 ## Executive Summary
 
-The district's school consolidation proposal redistributes transportation burden unevenly — and the families least able to absorb that burden are the ones most exposed. Approximately 10% of district students (~274 total, ~108 at the elementary level) are McKinney-Vento eligible, meaning displacement triggers federal transport obligations the district has not fully costed in any published analysis. Meanwhile, before/after care is already full at 4 of 5 affected schools — and under Option A, between 42 and 144 families face a care gap with no disclosed plan to address it.
+Every proposed school configuration in the FY27 budget creates a universal driver shortfall — but the costs are not distributed equally. Under Option A, up to $803,520 in annual childcare costs shift from the district to families, while after-care is already full at 4 of 5 receiving schools. The 10% of students who are McKinney-Vento eligible — the district's most housing-unstable children — face legally mandated transport continuity obligations that no configuration has yet costed or operationalized. This analysis documents what is known; the district has not yet produced the disaggregated analysis required to evaluate equity impact.
 
 ---
 
 ## Key Finding
 
-**Before/after care is at or near capacity at 4 of 5 schools — yet Option A creates a care gap for 42–144 families, representing $143,640–$803,520 in annual cost burden shifted to households.** Only Kaler Elementary — the school being closed — has available slots. The district has published no analysis of which families are affected by income, language status, disability, or housing stability.
+**$803,520 per year.**
+
+That is the upper-bound annual cost burden placed on *families* — not the district — under Option A for before/after care alone (SPEC-064). After-care is already at capacity at 4 of 5 receiving schools. There is no identified supply to absorb displaced families. For households at or below the poverty line, this is not a scheduling inconvenience — it is a material barrier to school attendance.
 
 ---
 
@@ -32,47 +34,52 @@ The district's school consolidation proposal redistributes transportation burden
 
 | Metric | Option A | Option B | Variant C |
 |---|---|---|---|
-| Families split across buildings | 139–169 (18–24% of elementary) | 0 | 123–150 (16–21%) |
+| Families split across buildings | 139–169 | **0** | 123–150 |
 | McKinney-Vento annual exposure | $54,337–$127,853 | $30,365–$79,908 | $46,347–$111,871 |
-| Families facing care gap | 42–144 | 0 | 37–128 |
-| Annual care gap cost burden | $143,640–$803,520 | $0 | $126,540–$714,240 |
-| Bus tiers (scheduling complexity) | 3–4 tiers | 3 tiers | 3–4 tiers |
-| Total annual fiscal exposure | $1.05M–$1.79M | $30K–$80K | $743K–$1.40M |
-| Fiscal exposure as % of claimed savings | 47.9%–119.1% | 1.4%–5.3% | 33.8%–93.1% |
+| Families facing new care gap | 42–144 | **0** | 37–128 |
+| Family-borne care cost (annual) | $143,640–**$803,520** | **$0** | $126,540–$714,240 |
+| District cost (annual) | $802,809–$876,325 | $30,365–$79,908 | $670,073–$735,597 |
+| Total fiscal exposure | $946,449–$1,679,845 | $30,365–$79,908 | $796,613–$1,449,837 |
+| Exposure as % of claimed savings | 43%–**112%** | 1.4%–5.3% | 36%–97% |
+| Bus tiers required | 3–4 | 3 | 3–4 |
+| Driver shortfall (post-SEA cut) | **−10 to −13** | −4 to −7 | −9 to −12 |
 
-Under Option B, both the care gap and the split-family burden are zero. Under Options A and C, the largest costs — the care gap — are not borne by the district budget. They are borne by families.
+*Sources: SPEC-060 through SPEC-065. All figures use FY25 baseline. Option B is the only configuration with zero split-family and zero care-gap exposure.*
 
 ---
 
 ## What's Missing
 
-The district has not published the following analyses, each of which is directly relevant to an equity assessment:
+The district has not produced the following analyses, despite direct parent questioning at the February 4 and March 2 budget forums:
 
-1. **No demographic overlay on split families.** SPEC-060 establishes that 139–169 families are split under Option A — but no analysis identifies how many are Title I households, English learner families, families experiencing housing instability, or families without access to a second vehicle or flexible employment.
+1. **MV student mapping by configuration.** Approximately 274 students district-wide (108 at the elementary level) are McKinney-Vento eligible. No analysis identifies which schools they currently attend, which configurations would trigger displacement, or what transport continuity costs would be incurred under federal obligation. The district is legally required to transport MV students to their school of origin — this is not discretionary (SPEC-061).
 
-2. **No per-student McKinney-Vento transport cost by configuration.** SPEC-061 establishes federal MV obligations and district-wide eligibility (~10%, ~108 elementary students), but specialized routing for MV students is explicitly unmodeled. The SEA staffing analysis (SPEC-062) notes that "specialized routes (SPED, MV) [are] unmodeled" — meaning the most vulnerable students' transport needs are the ones least quantified.
+2. **Care gap by income band.** The $143K–$804K family care cost estimate is undifferentiated. No analysis stratifies which families bear this burden by income, ELL status, single-parent household status, or Title I eligibility. Who, specifically, cannot absorb a $3,400–$5,580 per-child annual care cost increase?
 
-3. **No assessment of care gap impact by family income or language access.** SPEC-064 documents that after care is full at 4 of 5 schools and that Option A creates a $143,640–$803,520 annual burden — but the district has not identified which families are priced out or which communities lack alternatives.
+3. **Demographic profile of split families.** Options A and C split 123–169 families across buildings. No analysis identifies whether split-sibling families are disproportionately drawn from the district's highest-need populations (SPEC-060).
 
-4. **SEA staffing cut preceded route modeling.** The decision to reduce SEA staff from 100 to 86 FTE (a 14% cut) was finalized before route modeling existed (SPEC-062). The impact of that cut on specialized routes — which disproportionately serve students with disabilities and housing-unstable students — remains unquantified.
-
-5. **No multilingual or accessibility audit of family notification.** The district's own survey data (TC-011) shows 90% of parents worried about busing complications and 57% concerned about before/after care disruption. Whether that survey reached non-English-speaking families is not documented.
+4. **Sequence of decisions.** The 14% SEA staffing cut — which eliminated bus drivers — was decided before anyone modeled route requirements. The transport logistics plan was described as "underway with partner" at the March 30 meeting, *after* the board vote (SPEC-062). No equity review preceded either decision.
 
 ---
 
 ## Limitations
 
-This analysis can identify **where** demographic data is absent and **how large** the uncosted exposures are by configuration. It cannot determine the actual demographic composition of affected families — that requires district enrollment and demographic data cross-referenced with address-level consolidation modeling. The care gap cost estimates assume market-rate before/after care; actual costs vary by provider, subsidy eligibility, and family capacity. McKinney-Vento exposure figures are modeled estimates based on district-wide eligibility rates, not a per-student routing analysis.
+This analysis models *aggregate* fiscal exposure and family burden; it does not identify specific families, schools, or demographic groups. McKinney-Vento enrollment counts are estimates derived from the 10% district-wide figure; the district holds precise enrollment data that has not been made public. Care gap cost estimates assume private childcare market rates and do not account for subsidy availability, waitlists, or geographic access barriers. Driver shortfall figures are based on the 20-driver confirmation from the March 30, 2026 Operations Director statement — prior assumptions used 17 drivers; the updated figure worsens the shortfall across all configurations.
 
 ---
 
 ## Invitation to Improve
 
-The district can substantially improve this analysis by releasing:
+The following district-held data would materially sharpen this analysis:
 
-- **Address-level enrollment data** cross-referenced with Title I, EL, IDEA, and McKinney-Vento eligibility flags, sufficient to model which populations are most affected by split-family routing under each configuration
-- **Specialized route modeling** (SPED and McKinney-Vento) for all three configurations, separate from aggregate route counts
-- **Before/after care capacity data** by school, including subsidy program availability and waitlist status
-- **Survey methodology documentation**, including whether outreach reached families with limited English proficiency and how non-response was handled
+- **McKinney-Vento enrollment by school** and current transport arrangements
+- **Before/after care enrollment and waitlist data** by school, with income-band breakdowns where available
+- **Demographic profile of currently split families** (if any exist under the current configuration)
+- **Draft transport logistics plan** referenced at the March 30 meeting
+- **Per-pupil spending by school**, disaggregated by student population category
 
-The analysis presented here was constructed from publicly available budget documents and meeting testimony. District data would narrow the exposure ranges and enable a genuine equity impact assessment — not just a fiscal one.
+The district is invited to provide any of this data for incorporation into a revised analysis. Requests for this data have been pending since the February 4 forum.
+
+---
+
+*This brief presents analysis of publicly available budget documents and recorded meeting testimony. It does not advocate for or against any configuration. All claims are sourced to the South Portland FY27 budget evidence pool.*

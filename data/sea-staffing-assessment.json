@@ -5,9 +5,17 @@
     "sea_fte_current": 100,
     "sea_fte_post_cut": 86,
     "cut_percent": 14,
-    "transport_share_range": "0.3-0.35",
-    "transport_fte_pre_cut": "30-35",
-    "transport_fte_post_cut": "26-30"
+    "actual_drivers": 20,
+    "driver_source": "Director of Operations Mike Natalie, 3/30/2026 BoE meeting",
+    "driver_schedule": {
+      "shift": "7:00\u201316:00",
+      "idle_window": "9:30\u201313:00",
+      "idle_hours": 3.5
+    },
+    "transport_support_fte_range": "5\u20138",
+    "transport_fte_current": "25\u201328",
+    "transport_fte_post_cut": "22\u201324",
+    "drivers_post_cut": "17\u201320"
   },
   "route_estimates": [
     {
@@ -20,15 +28,12 @@
       "total_students": 1071,
       "walkable_pct": 0.35,
       "bused_students": 696,
-      "students_per_route": 33,
-      "base_routes": 21,
+      "students_per_route": 29,
+      "base_routes": 24,
       "building_reduction_factor": 1.1,
       "grade_band_factor": 1.15,
-      "estimated_routes": 27,
-      "driver_fte_needed": {
-        "low": 14,
-        "high": 18
-      },
+      "estimated_routes": 30,
+      "drivers_needed": 30,
       "notes": "Grade-band split means children from same neighborhood go to different buildings. Walkability decreases because assignment is by grade, not proximity."
     },
     {
@@ -40,15 +45,12 @@
       "total_students": 1071,
       "walkable_pct": 0.4,
       "bused_students": 643,
-      "students_per_route": 33,
-      "base_routes": 19,
+      "students_per_route": 29,
+      "base_routes": 22,
       "building_reduction_factor": 1.1,
       "grade_band_factor": 1.0,
-      "estimated_routes": 21,
-      "driver_fte_needed": {
-        "low": 10,
-        "high": 14
-      },
+      "estimated_routes": 24,
+      "drivers_needed": 24,
       "notes": "Proximity-based assignment preserves neighborhood routing. Walkability only slightly reduced from losing one building."
     },
     {
@@ -61,76 +63,88 @@
       "total_students": 1071,
       "walkable_pct": 0.37,
       "bused_students": 675,
-      "students_per_route": 33,
-      "base_routes": 20,
+      "students_per_route": 29,
+      "base_routes": 23,
       "building_reduction_factor": 1.1,
       "grade_band_factor": 1.15,
-      "estimated_routes": 25,
-      "driver_fte_needed": {
-        "low": 12,
-        "high": 17
-      },
+      "estimated_routes": 29,
+      "drivers_needed": 29,
       "notes": "Grade 3-4 consolidated to one building means all grade 3-4 students bused there. PreK-2 still somewhat proximity-based across 3 buildings."
     }
   ],
   "gap_analysis": [
     {
       "configuration": "Option A",
-      "estimated_routes": 27,
-      "driver_fte_needed": {
-        "low": 14,
-        "high": 18
+      "estimated_routes": 30,
+      "drivers_needed": 30,
+      "current_drivers": 20,
+      "drivers_post_cut": {
+        "low": 17,
+        "high": 20
       },
-      "transport_fte_available": {
-        "low": 26,
-        "high": 30
+      "transport_fte_post_cut": {
+        "low": 22,
+        "high": 24
       },
       "gap": {
-        "best_case": 16,
-        "worst_case": 8
+        "best_case": -10,
+        "worst_case": -13
       },
-      "adequate": true
+      "adequate": false
     },
     {
       "configuration": "Option B",
-      "estimated_routes": 21,
-      "driver_fte_needed": {
-        "low": 10,
-        "high": 14
+      "estimated_routes": 24,
+      "drivers_needed": 24,
+      "current_drivers": 20,
+      "drivers_post_cut": {
+        "low": 17,
+        "high": 20
       },
-      "transport_fte_available": {
-        "low": 26,
-        "high": 30
+      "transport_fte_post_cut": {
+        "low": 22,
+        "high": 24
       },
       "gap": {
-        "best_case": 20,
-        "worst_case": 12
+        "best_case": -4,
+        "worst_case": -7
       },
-      "adequate": true
+      "adequate": false
     },
     {
       "configuration": "Variant C",
-      "estimated_routes": 25,
-      "driver_fte_needed": {
-        "low": 12,
-        "high": 17
+      "estimated_routes": 29,
+      "drivers_needed": 29,
+      "current_drivers": 20,
+      "drivers_post_cut": {
+        "low": 17,
+        "high": 20
       },
-      "transport_fte_available": {
-        "low": 26,
-        "high": 30
+      "transport_fte_post_cut": {
+        "low": 22,
+        "high": 24
       },
       "gap": {
-        "best_case": 18,
-        "worst_case": 9
+        "best_case": -9,
+        "worst_case": -12
       },
-      "adequate": true
+      "adequate": false
     }
   ],
-  "limitations": [
-    "SEA transport share estimated \u2014 actual breakdown not in budget documents",
-    "Route estimation uses aggregate model, not route-level analysis",
-    "Driver FTE assumes typical tier utilization (1.5-2 tiers per driver)",
-    "Does not account for specialized routes (SPED, MV, field trips)",
-    "Walkability reduction from reconfiguration is estimated, not modeled"
+  "sources_of_error": [
+    "20 drivers is bus drivers only \u2014 total transport FTE includes aides, mechanics, dispatch (estimated 5\u20138 additional)",
+    "Post-cut driver count assumes proportional reduction across SEA functions; actual cuts could spare or target drivers specifically",
+    "Route estimation uses aggregate model with adjustment factors (+10%/building, +15%/grade-band), not route-level analysis",
+    "Students-per-route (29) derived from current fleet utilization; actual capacity may vary by route",
+    "Walkability reduction from reconfiguration is estimated (35\u201340%), not modeled from walk-zone policy or GIS",
+    "Does not account for specialized routes (SPED, MV, field trips) which require dedicated driver time",
+    "SEA union meet-and-consult process (started 3/30) could change driver role assignments"
+  ],
+  "what_would_improve": [
+    "District confirmation of which SEA positions are cut (driver vs. non-driver)",
+    "Actual route manifests with student counts per route",
+    "Walk-zone policy and GIS-derived walkability by configuration",
+    "SPED and MV route requirements (separate from regular routes)",
+    "Fleet vehicle count and capacity (distinct from driver count)"
   ]
 }

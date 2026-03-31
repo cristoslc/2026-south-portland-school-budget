@@ -1,4 +1,4 @@
-```markdown
+```
 ---
 schema_version: "1.0"
 persona_id: "PERSONA-004"
@@ -11,76 +11,83 @@ source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC
 
 ---
 
-# Transportation Impact Brief — Marcus (PERSONA-004)
-**High School Teacher | South Portland Education Association**
+# Transportation Impact Brief
+**Persona:** Marcus — High School Teacher (PERSONA-004)
+**Topic:** School Consolidation Transportation Costs
+**Date:** 2026-03-31
 
 ---
 
 ## Executive Summary
 
-The district has presented transportation reconfiguration as a source of net savings — savings that compete directly with every other budget line, including the teaching positions and programs Marcus represents. The fiscal exposure analysis across the three configurations shows that Option A's unmodeled costs ($1.05M–$1.79M annually) could consume **47.9% to 119.1%** of the claimed $2.2M in savings. More critically for Marcus: the district cut the School Enrichment Activity (SEA) staffing unit by 14% — from 100 FTE to 86 FTE — **before any route modeling existed to justify that number.** The claimed savings are uncertain. The staffing cuts are already on the table.
+The district is presenting school consolidation as a budget savings measure — the implicit argument being that freed resources protect academic programs. That argument depends on transportation costs remaining manageable. The analysis shows that under Option A (the primary consolidation proposal), total fiscal exposure ranges from **$946,449 to $1,679,845 annually** — consuming between **43% and 112% of the claimed savings** before a single teaching position is preserved. The transportation analysis was not completed before the board voted on the 14% SEA staffing cut that is the mechanism for those savings.
 
 ---
 
 ## Key Finding
 
-**Under Option A, fiscal exposure erodes claimed savings by up to $1.79M annually — potentially leaving net savings as low as $210K while the district has already proposed cutting 14 SEA FTE to reach them.**
+**Under Option A, district transportation costs alone — before any family-borne costs — are projected at $802,809–$876,325 per year.**
 
-That ratio — 119.1% exposure-to-savings at the high end — means the transportation restructuring could cost *more* than it saves, while the staffing reductions used to generate those savings have already been factored into the proposed budget.
+If this analysis is correct, the consolidation does not generate a budget surplus that protects academic programs. It generates a transportation cost problem that competes directly with those programs. The district has not produced an independent transportation cost estimate that refutes or confirms this figure.
 
 ---
 
 ## Configuration Comparison
 
-| Metric | Option A | Option B | Variant C |
+| | **Option A** | **Option B** | **Variant C** |
 |---|---|---|---|
-| Route expansion cost | $855,396 | $0 | $570,264 |
-| McKinney-Vento exposure (annual) | $54,337–$127,853 | $30,365–$79,908 | $46,347–$111,871 |
-| Before/after care gap cost (annual) | $143,640–$803,520 | $0 | $126,540–$714,240 |
-| **Total annual fiscal exposure** | **$1,053,373–$1,786,769** | **$30,365–$79,908** | **$743,151–$1,396,375** |
-| Exposure as % of claimed savings | 47.9%–119.1% | 1.4%–5.3% | 33.8%–93.1% |
-| **Net savings (vs. $2.2M claim)** | **$210K–$1.15M** | **$1.42M–$2.17M** | **$100K–$1.46M** |
-| SEA staffing gap | +8 to +16 FTE needed | +12 to +20 FTE needed | +9 to +18 FTE needed |
-| Bus tiers (schedule complexity) | 3–4 tiers | 3 tiers | 3–4 tiers |
+| **Routes required** | 30 | 24 | 29 |
+| **Drivers available (post-cut)** | 17–20 | 17–20 | 17–20 |
+| **Driver shortfall** | −13 to −10 | −7 to −4 | −12 to −9 |
+| **Route expansion cost** | $748,472 | $0 | $623,726 |
+| **District annual cost** | $802,809–$876,325 | $30,365–$79,908 | $670,073–$735,597 |
+| **Total fiscal exposure** | $946,449–$1,679,845 | $30,365–$79,908 | $796,613–$1,449,837 |
+| **As % of claimed savings** | **43%–112%** | 1.4%–5.3% | 36%–97% |
+| **4th bus tier required** | Yes (some scenarios) | No | Yes (some scenarios) |
 
-*Source: SPEC-060 through SPEC-065. Claimed savings range: $1.5M–$2.2M (district stated).*
-
-Option B produces the most stable net savings and eliminates the care-gap exposure entirely. Options A and C carry fiscal exposure ranges wide enough that budget planning cannot responsibly treat their claimed savings as reliable.
+*Family-borne costs (childcare gap) are included in total fiscal exposure but are not district line items. District costs are the relevant figure for academic program competition.*
 
 ---
 
 ## What's Missing
 
-The district has not provided the analysis Marcus needs to evaluate whether the staffing cut is justified by the route model — or whether it preceded and drove the route model:
+The district has not produced the analysis that would confirm or contradict the numbers above. Specific gaps from the Transportation Claims Catalog:
 
-1. **Staffing decision sequencing is undocumented.** The 86 FTE SEA figure was established before route modeling existed (SPEC-062). No document explains what analysis supported a 14% cut as the correct number. The cut was decided first; the routes were modeled after.
+1. **No independent route cost estimate.** The administration stated on March 2 that they "don't anticipate [route cost changes] being a significant cost" (TC-005) — without any supporting route model or contractor quote. The $748,472 route expansion figure in this analysis is independently derived; the district has produced no figure to compare against it.
 
-2. **Specialized route staffing is unmodeled.** Aggregate SEA FTE numbers suggest adequacy for regular routes. SPED and McKinney-Vento routes require different staffing profiles. Neither has been modeled (SPEC-062).
+2. **No driver count was done before the SEA cut was proposed.** The 14% SEA staffing reduction — the mechanism generating the claimed savings — was decided before anyone confirmed how many drivers the proposed configurations actually require. This was confirmed at the March 30 board meeting: the district has 20 drivers; every configuration, including the lowest-impact Option B, shows a shortfall of 4–7 drivers.
 
-3. **No per-FTE cost-savings attribution.** The district has not published a line-item showing which FTE reductions produce which dollar savings. Without this, it is not possible to verify whether the SEA cuts are the source of the claimed transportation savings — or whether they are being counted twice.
+3. **No net savings calculation has been published.** The claimed savings figure exists. The transportation cost offset has not been formally modeled or disclosed. The budget documents do not present a side-by-side of gross savings minus transportation costs.
 
-4. **Administration has not answered the route cost question on the record.** As of March 2, 2026, the administration stated "we don't anticipate [route cost changes] being a significant cost" without supporting analysis (TC-005). This analysis quantifies what "not significant" may actually mean: up to $1.79M annually under Option A.
+4. **Per-pupil transport cost escalation is unexplained.** South Portland's per-pupil transportation costs rose 50.2% from FY23 to FY25 ($709 → $1,065), compared to a statewide average increase of 10.5%. The district cited diesel costs as "considerable" at the March 30 meeting but provided no quantification. This baseline matters: if underlying costs are already escalating at five times the state rate, route expansion compounds an existing structural problem.
+
+5. **Transportation logistics are being operationalized after the board vote, not before.** The administration confirmed at the March 30 meeting that planning is "underway with partner" — post-authorization, not pre-decision.
 
 ---
 
 ## Limitations
 
-This analysis cannot determine which configuration the district intends to adopt — no formal decision has been published. The fiscal exposure ranges are wide because underlying data (exact MV enrollment by building, current care program capacity by site, contractor rate cards) was not available; the ranges represent the modeling bounds given known constraints. This brief **does not evaluate teacher staffing levels directly** — SPEC-062 covers SEA (non-certified) staffing, not certified teaching positions. The SEA FTE findings are directionally relevant to Marcus because they affect the total budget pressure driving all cuts, but the connection to classroom teaching positions requires additional analysis not performed here.
+This analysis is independently derived and has not been reviewed or validated by the district. Specific constraints:
+
+- **Route expansion cost ($748,472 for Option A) is the weakest link in the model.** It is based on available cost data but has not been confirmed by an actual contractor bid or route design. This number could be lower or higher.
+- **Driver shortfall figures assume the SEA cut as proposed.** If the board modifies the cut, available driver count changes.
+- **McKinney-Vento exposure ($54,337–$127,853 annually for Option A) is a range.** Actual eligible student counts and transportation obligations depend on case-by-case determinations.
+- **This analysis does not model what academic programs the claimed savings would fund.** It shows only that the transportation offset may consume those savings — not what programs are at stake on either side of that tradeoff.
 
 ---
 
 ## Invitation to Improve
 
-The district can materially narrow these ranges by providing:
+The district is in a position to resolve the central uncertainty. The following data would materially improve this analysis:
 
-- **The staffing model that produced the 86 FTE SEA target** — specifically, what route scenarios were modeled and when
-- **Route-level staffing requirements** for SPED and McKinney-Vento routes under each configuration
-- **The transportation consultant's deliverable** — the district committed to a transportation consultancy budget (TC-004); that analysis, if completed, should be released publicly
-- **Before/after care capacity data by site** — current enrollment, waitlist length, and licensed capacity at each school under each configuration
-- **A line-item savings attribution** — which specific FTE reductions are assigned to which budget savings claim
+- **An official route design and contractor cost estimate** for each configuration, including driver hours required
+- **A published net savings table**: gross savings minus projected transportation costs, by configuration
+- **The SEA position list being cut**, with driver FTE counts separated from other transportation staff
+- **A diesel and fleet maintenance cost projection** for FY27, given the 50.2% per-pupil cost increase in FY23–FY25
+- **The transportation consultant's scope and timeline**, including whether the consultant's deliverable will be available before final budget adoption
 
-This brief will be updated when that data is available. The district is invited to provide it.
+The district was asked about transportation costs at the February 4 budget forum (TC-001), again at the March 2 community meeting (TC-009), and again at the March 30 board meeting. A formal cost analysis — released before the final budget vote — would allow this brief to be replaced with the district's own numbers.
 
 ---
 
-*Analysis period: FY2027 proposed budget. Evidence basis: fy27-budget-documents, school-board-budget-meetings, city-council-meetings-2026. Linked specs: SPEC-060, SPEC-061, SPEC-062, SPEC-063, SPEC-064, SPEC-065.*
+*Sources: SPEC-060 (split families), SPEC-061 (McKinney-Vento), SPEC-062 (SEA staffing), SPEC-063 (bell schedules), SPEC-064 (before/after care), SPEC-065 (net savings). Transportation Claims Catalog (TC-001 through TC-011). March 30, 2026 board meeting testimony (Director of Operations Mike Natalie).*

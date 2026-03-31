@@ -1,7 +1,7 @@
 # Split-Family Count Model
 
 **Spec:** SPEC-060 | **Epic:** EPIC-031 | **Initiative:** INITIATIVE-006
-**Date:** 2026-03-31
+**Date:** 2026-03-31 | **Version:** V2 — updated with 3/30/2026 meeting data
 
 ---
 
@@ -30,15 +30,15 @@ For configurations that split grade bands across buildings (Option A, Variant C)
 | Sibling grade-gap distribution | Approximately uniform across 1-5 years | Simplifying assumption |
 | Total K-4 enrollment | 1,013 students | school-geography trove |
 | Total with PreK | 1,071 students | school-geography trove |
-| Estimated total families | ~696-773 | Derived from enrollment and sibling rates |
+| Estimated total families | ~705-771 (mid ~736) | Derived from enrollment and sibling rates |
 
 ### Grade Boundary Split Probability
 
 For a family with two children in elementary school, the probability that one child is on each side of a grade boundary depends on where the boundary falls within the grade span:
 
-- **Option A boundary (between grades 1 and 2):** 3 grades below (PreK, K, 1), 3 grades above (2, 3, 4) → probability = 0.60
-- **Variant C boundary (between grades 2 and 3):** 4 grades below (PreK, K, 1, 2), 2 grades above (3, 4) → probability = 0.53
-- **Option B:** No boundary → probability = 0.00
+- **Option A boundary (between grades 1 and 2):** 3 grades below (PreK, K, 1), 3 grades above (2, 3, 4) — probability = 0.60
+- **Variant C boundary (between grades 2 and 3):** 4 grades below (PreK, K, 1, 2), 2 grades above (3, 4) — probability = 0.533
+- **Option B:** No boundary — probability = 0.00
 
 Option A's boundary falls closer to the middle of the grade span, maximizing the number of families affected.
 
@@ -49,7 +49,7 @@ Option A's boundary falls closer to the middle of the grade span, maximizing the
 | Metric | Option A | Option B | Variant C |
 |--------|:--------:|:--------:|:---------:|
 | Grade bands | PreK-1 / 2-4 | K-4 (unified) | PreK-2 / 3-4 |
-| Boundary split probability | 0.60 | 0.00 | 0.53 |
+| Boundary split probability | 0.60 | 0.00 | 0.533 |
 | **Split families (range)** | **139-169** | **0** | **123-150** |
 | **As % of all families** | **18-24%** | **0%** | **16-21%** |
 | Students on "lower" side | 449 | — | 667 |
@@ -77,13 +77,21 @@ The estimates are most sensitive to the multi-child family rate. If South Portla
 
 Even at the low end of the range (25% multi-child rate), Option A still creates over 100 split families.
 
-## Limitations
+## Sources of Error
 
-1. **No family-level data:** We cannot identify specific families — only estimate aggregate counts using demographic rates.
-2. **National sibling rates:** South Portland's multi-child family rate may differ from national averages. Maine's household composition trends slightly toward smaller families, which would push estimates lower.
-3. **Uniform grade-gap assumption:** If sibling grade gaps cluster at 1-2 years (common for closely spaced children), the split probability could be higher for Option A (where the boundary is at grade 1-2) and lower for Variant C.
-4. **PreK is optional:** Some PreK families may not continue in the system; including them slightly inflates the Option A and Variant C numbers.
-5. **Opt-out behavior:** Some families facing split logistics may choose private school, homeschooling, or voluntary transfers — reducing the count but representing a different kind of harm.
+This model could be wrong in the following ways:
+
+1. **Multi-child family rate is a national estimate.** Maine trends slightly toward smaller families. If South Portland's actual multi-child rate is 25% instead of 30-40%, the split count drops by roughly 15%. If it is higher (as it could be in a relatively affordable coastal city), the count rises.
+
+2. **Uniform sibling grade-gap assumption.** If sibling grade gaps cluster at 1-2 years (common for closely spaced children), Option A's split probability could be *higher* than 0.60 (since the boundary is at grade 1-2), while Variant C's could be *lower*. Non-uniform distributions could move estimates in either direction by 10-15%.
+
+3. **PreK inclusion inflates the lower-side count.** PreK is optional and not all PreK families will continue. Excluding PreK families would reduce Option A's lower-side count from 449 to approximately 390, modestly reducing the split estimate.
+
+4. **No family-level data exists in this model.** We estimate aggregate counts using demographic rates, not individual family records. Any individual family's situation may differ from the statistical expectation.
+
+5. **Opt-out behavior is unmodeled.** Some families facing split logistics may choose private school, homeschooling, or voluntary transfers. This would reduce the count but represents a different kind of harm — families leaving the system.
+
+**What would fix it:** The district has family-level enrollment data. A query counting families with children spanning the relevant grade boundary would replace this entire model with an exact number.
 
 ## Data Sources
 
@@ -95,3 +103,5 @@ Even at the low end of the range (25% multi-child rate), Option A still creates 
 ## Invitation to Improve
 
 The district has family-level enrollment data that would replace these estimates with exact counts. If the district provides the number of families with children spanning relevant grade boundaries, these estimates can be refined or replaced. The methodology and assumptions are fully transparent so that any correction can be applied directly.
+
+Community members with access to local demographic data (e.g., South Portland school registration records, PTA membership rolls) could also validate whether the 30-40% multi-child rate is reasonable for this community.

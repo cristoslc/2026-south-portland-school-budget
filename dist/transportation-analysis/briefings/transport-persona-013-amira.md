@@ -12,84 +12,68 @@ source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC
 ---
 
 # Transportation Impact Brief: Amira (PERSONA-013)
-**Middle School Student — Memorial Middle School, Grade 7**
+*Middle School Student — Memorial Middle School, Grade 7*
 
 ---
 
 ## Executive Summary
 
-The FY27 reconfiguration proposals would change when Amira gets on the bus — and for families like hers with younger children still in elementary school, could split those children across two different buildings with incompatible pickup times. Before/after care programs meant to bridge that gap are already full at 4 of the district's 5 elementary schools. The district has not published completed transportation modeling for any configuration.
+Amira doesn't read the budget — she reads what changes around her: whether her bus shows up, whether a younger sibling goes to a different school, whether band still happens at the same time. Every configuration under review has the potential to reshape those daily realities, and the district has not completed the route modeling, driver accounting, or program schedule analysis that would tell her — or her parents — what to actually expect. As of the March 30, 2026 board meeting, that analysis does not exist.
 
 ---
 
 ## Key Finding
 
-**Under Option A, 139–169 elementary families would have children assigned to two different school buildings.** The 4-tier bell schedule that Option A may require creates a 30-minute dismissal gap between grade bands that families must bridge — and the care programs designed to fill that gap have no available seats at 4 of 5 schools.
+**Even the least-disruptive option (Option B) carries a confirmed driver shortfall of 4–7 positions.**
+
+The district confirmed 20 bus drivers currently on staff (Director of Operations Mike Natalie, March 30, 2026 meeting). Option B — the configuration that keeps siblings in the same building and creates zero new care gaps — still requires 24 drivers. The 14% SEA staffing cut was decided *before* anyone counted the drivers or modeled the routes. Bus service degradation is a live risk in every configuration, including the one that appears cleanest on paper.
 
 ---
 
 ## Configuration Comparison
 
-| | Option A | Option B | Variant C |
+*What each option means for Amira's school day and family logistics:*
+
+| | **Option A** | **Option B** | **Variant C** |
 |---|---|---|---|
-| **Bell tiers** | 3–4 | 3 | 3–4 |
-| **Families split across buildings** | 139–169 | 0 | 123–150 |
-| **New families needing care** | 42–144 | 0 | 37–128 |
-| **Annual cost burden on those families** | $143,640–$803,520 | $0 | $126,540–$714,240 |
-| **Care seats currently available** | Full at 4/5 schools | Full at 4/5 schools | Full at 4/5 schools |
-| **Total district fiscal exposure** | $1.05M–$1.79M | $30K–$80K | $743K–$1.40M |
+| Younger siblings split across buildings | 139–169 families (18–24% of elementary) | **0 families** | 123–150 families (16–21%) |
+| Bus driver shortfall | 10–13 drivers | 4–7 drivers | 9–12 drivers |
+| Bell schedule tiers | 3–4 (4th tier possible) | 3 (current) | 3–4 (4th tier possible) |
+| 4th-tier scheduling gap | Yes — 30 minutes | No | Yes — 30 minutes |
+| New families needing after-care | 42–144 | **0** | 37–128 |
+| Family care cost burden (annual) | $143,640–$803,520 | **$0** | $126,540–$714,240 |
+| Total fiscal exposure as % of claimed savings | 43–112% | 1.4–5.3% | 36–97% |
 
-**What this means at Memorial Middle School:** Amira's current bell time is 8:30 AM. A 4th scheduling tier in Option A or Variant C could shift the middle school start or end time. The district has not published building-level bell time proposals for any option.
-
-**What this means for a family like Amira's:** If a younger sibling attends elementary school under Option A, that sibling could be assigned to two different buildings — one per grade band — with different dismissal times their parents must separately coordinate. Working parents need before/after care to bridge that gap. That care largely doesn't exist in the district right now.
+**On bell schedules:** The current driver idle window runs 9:30 AM–1:30 PM. There is no scheduling room to run a 4th bus tier without overtime. Options A and C may require that 4th tier, introducing a 30-minute gap that lands inside the school day — directly affecting gifted-and-talented pull-out windows, specialist rotations, and band scheduling. No analysis of this impact on Memorial's program structure has been produced.
 
 ---
 
 ## What's Missing
 
-The district has not completed — or has not released — the following analyses, documented in the Transportation Claims Catalog (TC-001 through TC-011):
+The district has not analyzed the following areas that directly shape Amira's experience:
 
-1. **Building-level bell time proposals.** No schedule has been published showing what time Memorial Middle School would start or end under any option. Families cannot assess pickup logistics without this.
-
-2. **Specialized route modeling.** The 14% SEA staffing cut (100 → 86 FTE) was decided *before* route modeling existed (SPEC-062). Routes for gifted-and-talented pull-out programs — which Amira participates in — special education, and McKinney-Vento students have not been costed or modeled under any configuration.
-
-3. **Before/after care expansion plan.** Administration survey data shows 57% of parents are concerned about before/after care disruption (TC-011). Option A creates a new care gap for up to 144 families at up to $803,520 annually. No expansion plan for existing programs has been published.
-
-4. **Per-building family impact counts.** Aggregate split-family numbers (139–169 for Option A) have not been broken down by school, making it impossible to identify which specific communities absorb the most disruption.
-
-As of March 9, 2026, the administration acknowledged the analysis gap (TC-003, TC-009) but had not produced modeling. The district budgeted for a transportation consultant (TC-004); no completed findings have been made public.
+- **Route modeling by building.** No routes have been drawn for any configuration. It is unknown whether Memorial Middle School's current 8:30 AM bell time shifts under Options A or C.
+- **Program schedule impact.** No analysis exists of how a potential 4th bus tier or bell time change affects GT pull-out scheduling, band, or specialist rotations at Memorial.
+- **Driver vacancy timeline.** The SEA cuts are proceeding. No hiring timeline has been published for filling the 4–13 driver gap before September.
+- **After-care capacity by building.** After-care is confirmed full at 4 of 5 elementary schools. No analysis identifies which displaced families have viable alternatives, or at what cost.
+- **McKinney-Vento continuity for siblings.** 10% of district students (~274 district-wide, ~108 elementary) are MV-eligible. Options A and C displace most of these students through full system reorganization. No school-level MV impact analysis has been produced.
 
 ---
 
 ## Limitations
 
-This brief draws on SPEC-060 through SPEC-065. It can tell you:
-- How many families district-wide face split-building assignments under each option
-- What the fiscal exposure range is for each configuration
-- That before/after care capacity is insufficient to absorb new demand
-
-It cannot tell you:
-- Amira's actual family composition (younger siblings assumed, not confirmed)
-- Whether Memorial Middle School's bell time would change under any option
-- Whether Amira's gifted-and-talented pull-out involves inter-building transportation
-- What household-level logistics would look like for any individual family
-
-The split-family and care-gap figures are modeled ranges, not confirmed district counts. True numbers depend on enrollment data the district has not released publicly.
+This analysis is built from district budget documents, school board meeting records, and city council sessions through March 30, 2026. All figures are district-level aggregates — not Memorial-specific data. Split-family and care-gap ranges are modeled estimates with wide bands, not enrollment-based counts. This brief cannot tell Amira whether *her* bus route changes, whether *her* siblings attend the same building next year, or whether *her* band period moves — because the district has not produced that analysis.
 
 ---
 
 ## Invitation to Improve
 
-The district can substantially narrow this analysis's uncertainty by publishing:
+The district can narrow every range in this brief by releasing:
 
-- **Building-level bell time tables** for Option A, B, and Variant C
-- **Enrollment counts by grade band and current building** to validate split-family estimates
-- **Before/after care capacity by building** — current enrollment vs. maximum capacity
-- **Specialized route roster counts** — students in pull-out, SPED, and McKinney-Vento programs requiring dedicated routing under each configuration
-- **Transportation consultant findings**, if the contracted work (TC-004) has been completed
+1. **Proposed bus routes by configuration** — stops, buildings, tier assignments
+2. **Memorial Middle School bell time impact** — does 8:30 AM shift under any option?
+3. **GT and specialist scheduling analysis** — how does a potential 4th tier affect pull-out program windows at Memorial?
+4. **After-care waitlist data by building** — current waitlists, available slots, displacement projections
+5. **Driver hiring timeline and cost** — when will the 4–13 driver gap be filled, and what does it cost?
 
-The School Board has received questions about transportation costs at every public meeting since February 4. Families are making decisions about next year now. Publishing this data closes the analysis gap at no additional cost.
-
----
-
-*Sources: SPEC-060 (split families), SPEC-061 (McKinney-Vento exposure), SPEC-062 (SEA staffing), SPEC-063 (bell schedules), SPEC-064 (before/after care), SPEC-065 (net savings). Transportation Claims Catalog TC-001–TC-011.*
+*This brief does not advocate for or against any configuration. It identifies where the analysis is incomplete and what data would close the gap.*

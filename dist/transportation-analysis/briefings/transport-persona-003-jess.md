@@ -1,4 +1,4 @@
-```yaml
+```markdown
 ---
 schema_version: "1.0"
 persona_id: "PERSONA-003"
@@ -7,76 +7,76 @@ topic: "transportation"
 generated_date: "2026-03-31"
 source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC-065"]
 ---
-```
 
----
-
-# Transportation Impact Brief — Jess (PERSONA-003)
-**Anxious Pre-K Parent · South Portland FY27 Budget Analysis**
+# Transportation Impact Brief: Jess (Anxious Pre-K Parent)
+**PERSONA-003 | FY27 Budget Cycle | Generated 2026-03-31**
 
 ---
 
 ## Executive Summary
 
-The configuration decisions being made now will define the logistics of your child's entire K–5 career — not just next year's. Under Option A, 139–169 elementary families would be split across two buildings, triggering a 4-tier bell schedule with a 30-minute gap that current before/after care programs cannot absorb. Pre-K enrollment is optional; the district has not analyzed whether split-building logistics will suppress enrollment before your child even begins.
+Your child will enter kindergarten into whichever school configuration the board selects this spring — you have no vote on the logistics, only on where you live. The district is simultaneously proposing structural changes that would split 139–169 elementary families across buildings (Option A) and cutting the driver workforce — before modeling whether the resulting route network is operationally executable. Decisions being made now are not reversible on your child's timeline.
 
 ---
 
 ## Key Finding
 
-**Under Option A, the before/after care burden on families is estimated at $143,640–$803,520 per year** — entirely unbudgeted, falling directly on parents. Across the elementary years your child would attend, that's a multi-year private cost exposure the district's fiscal model does not account for. Option B produces a $0 care gap. The district has not modeled which configuration new and prospective families would encounter.
+**The district confirmed 20 bus drivers on March 30, 2026. Every proposed configuration requires more drivers than currently exist.**
+
+Even Option B — the lowest-impact configuration — requires 24 drivers, a shortfall of 4–7. Option A requires 30, a shortfall of 10–13. The 14% SEA staffing cut that created this gap was adopted before anyone counted the drivers or modeled the routes (SPEC-062). There is no publicly disclosed hiring plan to close this shortfall under any option.
 
 ---
 
 ## Configuration Comparison
 
 | Metric | Option A | Option B | Variant C |
-|--------|----------|----------|-----------|
+|---|---|---|---|
 | Families split across buildings | 139–169 | **0** | 123–150 |
-| Bus tiers (schedule complexity) | 3–4 | 3 | 3–4 |
-| New families needing care | 42–144 | **0** | 37–128 |
-| Annual family care cost burden | $143,640–$803,520 | **$0** | $126,540–$714,240 |
-| Route expansion cost (district) | $855,396 | $0 | $570,264 |
-| Total fiscal exposure (annual) | $1.05M–$1.79M | $30K–$80K | $743K–$1.40M |
-| Net savings vs. claimed $1.5–2.2M | $210K–$1.15M | $1.42M–$2.17M | $100K–$1.46M |
+| Share of elementary families affected | 18–24% | **0%** | 16–21% |
+| Drivers required | 30 | 24 | 29 |
+| Available drivers (post-cut) | 17–20 | 17–20 | 17–20 |
+| Driver shortfall | **10–13** | 4–7 | 9–12 |
+| Bus schedule tiers needed | 3–4 | 3 | 3–4 |
+| Families needing new care arrangements | 42–144 | **0** | 37–128 |
+| Family-borne care cost (annual) | $143,640–$803,520 | **$0** | $126,540–$714,240 |
+| Total fiscal exposure (district + families) | $946K–$1.68M | $30K–$80K | $797K–$1.45M |
+| Exposure as % of claimed savings | 43–112% | 1.4–5.3% | 36–97% |
 
-*Source: SPEC-060, SPEC-063, SPEC-064, SPEC-065. Split family range reflects 18–24% of elementary families under Option A.*
-
-The 4th bus tier created by Options A and C is not cosmetic — it generates a 30-minute scheduling gap that falls precisely in the before/after care window. After-care programs are already at capacity at 4 of 5 existing schools (SPEC-064). Only Kaler — the school slated for closure — has openings.
+A 4th bus tier — required under Options A and C — creates a 30-minute scheduling gap for split families. The confirmed driver idle window (9:30 AM–1:30 PM) leaves no room for a 4th tier without overtime (SPEC-063). After-care is currently full at four of the five remaining schools; only Kaler — the school slated to close — has openings (SPEC-064).
 
 ---
 
 ## What's Missing
 
-The district has not produced analysis on four questions directly relevant to families entering the system in the next 1–3 years:
+The district has not published the analysis most relevant to incoming families:
 
-1. **Pre-K enrollment suppression.** Pre-K is voluntary. Split-building logistics and care gaps could deter families from enrolling before kindergarten. No modeling exists for how Option A affects pre-K participation rates or the early childhood pipeline. *(TC-003, TC-005: administration acknowledged needing to "look at the whole picture" but has not done so.)*
-
-2. **Duration-weighted impact for youngest children.** A child entering kindergarten in Fall 2027 would experience 6 years of the chosen configuration. The district's analysis treats all elementary families identically — it does not surface that the youngest cohort faces the longest cumulative exposure to split logistics.
-
-3. **SEA staffing adequacy for specialized routes.** The SEA unit was cut 14% (100 → 86 FTE) before route modeling existed (SPEC-062). Specialized routes — including those serving students with IEPs and McKinney-Vento-eligible students — have not been modeled. Families with children who may need specialized transportation have no basis for planning.
-
-4. **Before/after care market capacity.** The analysis flags that care gaps exist but does not assess whether the private market in South Portland can absorb 42–144 new families seeking care. If it cannot, some families will face an enrollment decision, not a logistics one.
+- **No route network model.** The transportation logistics study was described as "underway with a partner" at the March 30, 2026 board meeting — commissioned after the board vote, not before (TC-003, TC-004). No model showing how any configuration is operationally executable at current driver levels has been presented publicly.
+- **No hiring plan.** The shortfall of 4–13 drivers (depending on configuration) has no disclosed resolution timeline.
+- **No multi-year care capacity projection.** There is no analysis showing whether before/after care can absorb the 42–144 new families who would need it under Option A — or whether that capacity will exist for families entering the system in 2027 and 2028.
+- **No early childhood enrollment modeling.** Pre-K is optional. The district has not analyzed whether split-building logistics under Options A or C would suppress pre-K uptake or accelerate kindergarten disenrollment to private or neighboring districts.
+- **No McKinney-Vento multi-year cost curve.** The $54K–$128K annual MV exposure estimate (SPEC-061) reflects year-one displacement only; no projection covers the duration of a configuration's implementation.
 
 ---
 
 ## Limitations
 
-This analysis estimates ranges, not precise figures. The split-family count (139–169 under Option A) depends on enrollment data and boundary assumptions that the district has not published in final form. Care gap costs use market-rate estimates ($3,820/child/year) that will vary by provider. The fiscal exposure calculations are bottom-up estimates built from the available evidence — the district's consultant has a separate contract (TC-004) whose outputs have not been released. This brief cannot tell you what the consultant's model shows.
+- The route expansion cost ($748,472 for Option A) is derived from per-route cost proxies, not an actual route model — it is the weakest figure in this analysis.
+- Driver shortfall calculations use the confirmed 20-driver count; the 17–20 post-cut range reflects uncertainty about which specific SEA positions are eliminated.
+- Care gap estimates (42–144 families under Option A) assume split-building families need new arrangements; actual uptake depends on individual circumstances not observable in this data.
+- This analysis does not model disenrollment feedback: if families leave in response to logistics changes, both enrollment counts and per-pupil transport costs shift in ways that could materially alter the fiscal exposure figures.
+- South Portland per-pupil transport costs rose 50.2% from FY23–FY25 ($709 → $1,065) against a state average of +10.5%. The cause has not been formally explained; diesel costs were flagged as "considerable" at the March 30 meeting but left unquantified.
 
 ---
 
 ## Invitation to Improve
 
-The district can sharpen every range in this brief with data it already holds or has contracted for:
+This brief would be substantially more precise with the following district data:
 
-- **Pre-K enrollment by building** — to model which families are affected by split configurations and whether opt-out rates shift
-- **Consultant transportation model** — to replace estimated route costs with modeled costs
-- **SEA route assignments by tier** — to verify whether 86 FTE is adequate for specialized routes under each configuration
-- **Before/after care waitlist data** — to assess whether the private market can absorb the care gap or whether families face a capacity wall
+1. The completed transportation consultant route model — driver requirements by configuration, route maps, and a hiring timeline
+2. Before/after care enrollment capacity and waitlist lengths by school for 2026–27 and 2027–28
+3. Pre-K enrollment projections and any analysis of how consolidation affects early childhood program access
+4. A multi-year fiscal model for transport costs under each configuration (not year-one only)
+5. Anonymized McKinney-Vento displacement roster with projected building assignments under each option
 
-The district's own March 2 survey found 90% of parents worried about busing complications and 57% concerned about before/after care disruption (TC-011). The data to answer those concerns exists or is under contract. Releasing it would allow families planning their next 1–3 years to make informed decisions — rather than reacting to a configuration that is already in place.
-
----
-
-*Analysis grounded in SPEC-060 through SPEC-065 and Transportation Claims Catalog (TC-001 through TC-011). All estimates represent ranges derived from publicly available evidence. The district is invited to provide refining data at any time.*
+All calculations in this analysis are reproducible and will be updated upon receipt of correcting or supplementing information. The district is invited to engage.
+```

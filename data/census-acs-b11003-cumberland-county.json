@@ -1,0 +1,31 @@
+{
+  "source": "U.S. Census Bureau, ACS 5-Year Estimates 2023, Table B11003",
+  "geography": "Cumberland County, Maine (FIPS 23005)",
+  "retrieved": "2026-03-31",
+  "api_url": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B11003_001E,...&for=county:005&in=state:23",
+  "table_title": "Family Type by Presence and Age of Own Children Under 18 Years",
+  "data": {
+    "B11003_001E": {"label": "Total families", "value": 77222},
+    "B11003_002E": {"label": "Married-couple family", "value": 63136},
+    "B11003_003E": {"label": "Married-couple: With own children under 18", "value": 22985},
+    "B11003_004E": {"label": "Married-couple: Under 6 years only", "value": 6334},
+    "B11003_005E": {"label": "Married-couple: Under 6 AND 6 to 17 years", "value": 3417},
+    "B11003_006E": {"label": "Married-couple: 6 to 17 years only", "value": 13234},
+    "B11003_007E": {"label": "Married-couple: No own children under 18", "value": 40151},
+    "B11003_008E": {"label": "Male householder, no wife present", "value": 14086},
+    "B11003_009E": {"label": "Male HH: With own children under 18", "value": 4061},
+    "B11003_010E": {"label": "Male HH: Under 6 years only", "value": 2127},
+    "B11003_011E": {"label": "Male HH: Under 6 AND 6 to 17 years", "value": 341},
+    "B11003_012E": {"label": "Male HH: 6 to 17 years only", "value": 268},
+    "B11003_013E": {"label": "Male HH: No own children under 18", "value": 1518},
+    "B11003_014E": {"label": "Female householder, no husband present (need full pull)", "value": null},
+    "B11003_015E": {"label": "Female HH: With own children under 18 (derived)", "value": null},
+    "B11003_016E": {"label": "Female HH: sub-category", "value": null}
+  },
+  "analysis_note": "B11003 reports presence/age of children, NOT number of children per family. Cannot directly derive multi-child family rate from this table. The 'Under 6 AND 6-17' rows (B11003_005, B11003_011) confirm multi-child families spanning age bands exist, but the total multi-child rate requires a different table (e.g., B09002, detailed household tables). The national SIPP-based estimate of 30-40% multi-child families remains the best available proxy.",
+  "partial_multi_child_floor": {
+    "married_couple_spanning_age_bands": 3417,
+    "male_hh_spanning_age_bands": 341,
+    "note": "These are families confirmed to have children in BOTH <6 and 6-17 age groups — a floor on multi-child families, not the total count"
+  }
+}

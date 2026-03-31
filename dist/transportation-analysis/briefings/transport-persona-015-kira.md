@@ -11,22 +11,20 @@ source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC
 
 ---
 
-# Transportation Impact Brief: Kira (PERSONA-015)
-**Cross-Building Staff Advocate — System-Level Equity Insider**
+# Transportation Impact Brief: Kira (Cross-Building Staff Advocate)
+**PERSONA-015 | FY27 Budget Analysis | 2026-03-31**
 
 ---
 
 ## Executive Summary
 
-The SEA bargaining unit is absorbing a 14% staffing reduction — from 100 FTE to 86 FTE — a cut that was finalized before any route modeling existed for the proposed configurations. Options A and Variant C introduce specialized route complexity (split families, McKinney-Vento displacement, potential 4-tier bell schedules) that falls disproportionately on the workers least able to absorb it. As both a district employee and a parent, Kira is positioned to see what the budget documents do not show: that the staffing cut and the route expansion risk are on a collision course, and neither has been analyzed against the other.
+The district's 14% SEA staffing cut was finalized before anyone modeled whether the remaining drivers could operate any of the proposed configurations — and the answer, confirmed at the March 30 board meeting, is that they cannot. Every option on the table requires more drivers than South Portland has, even before the cut takes effect. For a staff member who already loses instructional time to cross-building travel, and who is also a parent navigating district logistics, this is not an abstract budget line: it is the operational precondition for every other equity commitment the district is making.
 
 ---
 
 ## Key Finding
 
-**The 14 FTE reduction in SEA staffing was decided before route modeling existed — but Options A and Variant C require an estimated +8 to +20 FTE of additional route coverage capacity to serve the configurations being proposed.**
-
-This is not a projection of a future problem. It is a structural contradiction already embedded in the FY27 budget as submitted.
+**The driver shortfall is universal.** The district confirmed 20 active bus drivers on March 30, 2026. Post-cut availability is estimated at 17–20 drivers. The minimum driver requirement across all configurations is 24 (Option B). That means even the lowest-disruption option on the table requires 4–7 more drivers than the district will have after cuts already approved by the board. Option A requires 30 drivers — a shortfall of 10–13. The SEA cut was decided before this count was conducted.
 
 ---
 
@@ -34,43 +32,35 @@ This is not a projection of a future problem. It is a structural contradiction a
 
 | Metric | Option A | Option B | Variant C |
 |---|---|---|---|
-| **SEA Staffing Gap** | +8 to +16 FTE needed | +12 to +20 FTE needed | +9 to +18 FTE needed |
-| **Bus Tiers Required** | 3–4 | 3 | 3–4 |
-| **Split Families** | 139–169 | 0 | 123–150 |
-| **MV-Eligible Displacement** | Highest (full reorganization) | Lower | Moderate |
-| **MV Annual Cost Exposure** | $54,337–$127,853 | $30,365–$79,908 | $46,347–$111,871 |
-| **Specialized Route Modeling** | Not completed | Not completed | Not completed |
-| **Total Annual Fiscal Exposure** | $1.05M–$1.79M | $30K–$80K | $743K–$1.40M |
-| **Exposure as % of Claimed Savings** | 47.9%–119.1% | 1.4%–5.3% | 33.8%–93.1% |
+| **Drivers needed** | 30 | 24 | 29 |
+| **Confirmed drivers (post-cut)** | 17–20 | 17–20 | 17–20 |
+| **Driver shortfall** | −10 to −13 | −4 to −7 | −9 to −12 |
+| **Bus tiers required** | 3–4 | 3 | 3–4 |
+| **Split families** | 139–169 | 0 | 123–150 |
+| **Families losing care access** | 118–144 | 0 | 37–128 |
+| **Family care cost burden (annual)** | $404K–$804K | $0 | $127K–$714K |
+| **Total fiscal exposure (annual)** | $946K–$1.68M | $30K–$80K | $797K–$1.45M |
+| **As % of claimed savings** | 43–112% | 1.4–5.3% | 36–97% |
 
-**Note on SEA gap direction:** Option B shows the largest FTE gap estimate (+12 to +20) despite having the simplest routing profile. This counterintuitive result reflects the consolidated configuration requiring broader geographic coverage per driver, not route multiplicity. The district has not published a route-level breakdown that would resolve this.
+A 4th routing tier (required under Options A and C) creates a 30-minute scheduling gap that directly affects split families. The confirmed driver idle window — 9:30 AM to 1:30 PM — leaves no capacity for a 4th tier without overtime, a cost not included in any published estimate.
 
 ---
 
 ## What's Missing
 
-The district has not modeled the intersection of the SEA staffing reduction with the specialized route demands introduced by each configuration. Specifically (sourced from the claims catalog and SPEC-062):
+The district has not produced analysis on the following, despite direct questions at the February 4 and March 2 public forums (TC-001, TC-003, TC-009):
 
-1. **Specialized route modeling is absent.** SPED and McKinney-Vento routes — the highest-complexity, highest-compliance-risk routes — have not been modeled under any configuration. These routes cannot be covered by reducing headcount; federal and state mandates require them regardless of budget pressure.
-
-2. **The sequencing gap is unaddressed.** The SEA cut (TC per budget documents) was finalized before transportation consultancy was engaged (TC-004). The administration stated on March 2 that they "budgeted for transportation consultancy" — but no route cost estimates had been produced as of March 9, when the evidence gap was formally documented.
-
-3. **Instructional time loss from split-family routing is unquantified.** For Kira, this is a professional data point, not just a parental one: itinerant specialists already lose instructional minutes to inter-building travel. Options A and Variant C add 139–169 split families whose children will require differentiated pickup and dropoff logistics, compressing the window available for specialist scheduling across buildings.
-
-4. **The 4th bus tier impact on specialist scheduling has not been analyzed.** A 4-tier bell schedule creates a 30-minute scheduling gap that ripples directly into specialist availability windows — the exact resource Kira deploys across buildings. No analysis of this interaction appears in the budget documents.
+- **Driver recruitment and timeline**: No plan to close the 4–13 driver gap for any configuration. Transport logistics are described as "underway with a partner" — but operationalized *after* the board vote, not before.
+- **Overtime cost modeling**: A 4th tier forces overtime. No cost estimate exists.
+- **Instructional impact of routing delays**: Specialist and interventionist travel time (Kira's daily reality) is unmodeled under reconfiguration. If bell schedules shift or routes extend, cross-building staff lose additional instructional time. This is not quantified anywhere in the budget documents.
+- **McKinney-Vento operational plan**: 10% of students (~274 district-wide, ~108 elementary) are MV-eligible. The district has a legal obligation to maintain service continuity. No routing plan for MV-eligible students under any configuration has been published.
+- **SEA staffing decision sequence**: There is no documented record of whether transportation route modeling informed the 14% SEA staffing cut, or whether the cut was set independently and routes are now being fit to it. The March 30 meeting suggests the latter.
 
 ---
 
 ## Limitations
 
-This analysis can quantify the fiscal exposure ranges and identify the sequencing contradiction in the SEA cut. It **cannot**:
-
-- Confirm whether the +8 to +20 FTE SEA gap estimates account for SPED and MV specialized routes specifically, or reflect only general route expansion
-- Determine how much of the SEA gap would be filled by existing contracted capacity versus new hires
-- Assess whether the transportation consultant has since produced route-level modeling that would resolve these open questions — the evidence pool closes March 9, 2026
-- Translate route complexity into instructional minutes lost for specialists, without school-level scheduling data
-
-All fiscal exposure figures are modeled ranges, not actuals. The $1.05M–$1.79M Option A exposure and $743K–$1.40M Variant C exposure represent the outer bounds of a methodology that assumes no mitigation — actual exposure depends on enrollment decisions, care provider capacity, and route efficiency gains not yet analyzed.
+This analysis models fiscal exposure, not operational feasibility. The driver shortfall is confirmed by district leadership (Director of Operations Mike Natalie, March 30, 2026); the specific impact on any individual route or school has not been modeled from public data. Per-pupil transport costs rose 50.2% FY23–FY25 versus a state average of 10.5% — diesel cost increases were flagged as "considerable" at the March 30 meeting but remain unquantified, meaning all cost estimates here may understate actual exposure. Family care cost estimates ($404K–$804K under Option A) represent the burden *displaced to families*, not to the district budget.
 
 ---
 
@@ -78,13 +68,14 @@ All fiscal exposure figures are modeled ranges, not actuals. The $1.05M–$1.79M
 
 The district can substantially sharpen this analysis by releasing:
 
-- **Route-level staffing models** for each configuration, broken out by regular, SPED, and MV route type
-- **The transportation consultant's deliverables** (referenced in TC-004 as budgeted), including any route cost estimates produced after March 9
-- **Per-school specialist scheduling data** showing current inter-building travel time and the effect of bell schedule tier changes on available instructional windows
-- **SEA contract terms** governing route assignment flexibility and any provisions triggered by configuration changes
+1. **Current driver roster and anticipated post-cut headcount**, with any recruitment pipeline and timeline
+2. **Route-level modeling** for each configuration, including MV-eligible student continuity plans
+3. **Bell schedule proposals** for any 4-tier option, with overtime cost estimates attached
+4. **Cross-building staff travel impact data** — how reconfiguration changes specialist deployment across buildings, and the instructional-minute cost of that travel
+5. **The decision record** for the 14% SEA cut, including whether transportation modeling was completed before or after that figure was set
 
-The district's own survey data (March 2 forum) shows 90% of parents worried about busing complications and 57% concerned about before/after care disruption. The missing analysis is not a minor gap — it is the set of numbers those parents were asking for and did not receive.
+This office welcomes any additional operational data that would allow these estimates to be narrowed or corrected.
 
 ---
 
-*Sources: SPEC-060 through SPEC-065; Transportation Claims Catalog TC-001 through TC-011; budget forum evidence pool through 2026-03-09.*
+*Sources: SPEC-060 through SPEC-065; Transportation Claims Catalog (TC-001 through TC-011); South Portland School Board meeting record, March 30, 2026.*

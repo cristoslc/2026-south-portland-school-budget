@@ -1,4 +1,4 @@
-```yaml
+```
 ---
 schema_version: "1.0"
 persona_id: "PERSONA-009"
@@ -12,80 +12,83 @@ source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC
 ---
 
 # Transportation Impact Brief: Dana (PERSONA-009)
-**Local TV News Producer — Soundbyte Hunter**
-*South Portland Schools FY27 Budget — Transportation Analysis*
+**South Portland Schools FY27 Budget — For Local TV News Producers**
 
 ---
 
 ## Executive Summary
 
-South Portland's school administration recommended a specific building configuration — Option A — as the financial centerpiece of its FY27 budget proposal, projecting $1.5M–$2.2M in annual savings. Independent analysis finds that Option A carries $1.05M–$1.79M in unmodeled annual fiscal exposure. The administration has confirmed, on the record, that no transportation modeling will be completed before the vote. The story is not whether the district will save money — it's whether anyone has done the math.
+The South Portland administration recommended a school reconfiguration as a cost-saving measure — then confirmed at the March 30, 2026 board meeting that transportation modeling will not be completed before the board votes. Independent analysis finds the recommended option (Option A) carries $946,449–$1,679,845 in total annual fiscal exposure against savings the district has never publicly itemized by category. The story isn't whether the reconfiguration is right or wrong. The story is that the district doesn't know what it costs — and is voting anyway.
 
 ---
 
 ## Key Finding
 
-**At its high end, Option A's unmodeled transportation costs exceed the administration's claimed savings by 19.1%.**
+**Option A's total fiscal exposure is 43%–112% of the district's claimed budget savings.**
 
-The administration's own savings claim tops out at $2.2M annually. Option A's estimated fiscal exposure reaches $1.79M — narrowing projected net savings to as little as $210K. In the worst-case scenario modeled, costs outpace savings entirely. This range was derived from district enrollment data and Maine DOT transportation benchmarks. The district has produced no competing estimate.
+At the high end, the transportation costs alone erase every dollar saved. The administration's own survey found 90% of parents worried about busing complications — and the board is set to vote before the analysis exists.
+
+> **Lede candidate:** *"South Portland school officials say a major reconfiguration will save money. An independent analysis finds the transportation costs alone could wipe out the savings entirely — and the district confirmed Monday night it hasn't run the numbers."*
 
 ---
 
 ## Configuration Comparison
 
-The three configurations under public discussion differ dramatically in their transportation burden:
-
-| Metric | **Option A** *(Admin Recommended)* | **Option B** *(Not Recommended)* | **Variant C** |
+| | **Option A** *(Admin Recommendation)* | **Option B** | **Variant C** |
 |---|---|---|---|
-| Families split across buildings | **139–169** | **0** | 123–150 |
-| McKinney-Vento annual exposure | $54K–$128K | $30K–$80K | $46K–$112K |
-| Bus routes required | 27 | 21 | 25 |
-| Bell schedule tiers needed | **3–4** | 3 | 3–4 |
-| Families facing care gap | **42–144** | **0** | 37–128 |
-| Annual care cost burden on families | **$144K–$804K** | **$0** | $127K–$714K |
-| Route expansion cost | $855K | $0 | $570K |
-| **Total annual fiscal exposure** | **$1.05M–$1.79M** | **$30K–$80K** | $743K–$1.40M |
-| **Exposure as % of claimed savings** | **47.9%–119.1%** | 1.4%–5.3% | 33.8%–93.1% |
+| **Split families** | 139–169 | 0 | 123–150 |
+| **Drivers needed** | 30 | 24 | 29 |
+| **Drivers available post-cut** | 17–20 | 17–20 | 17–20 |
+| **Driver shortfall** | −10 to −13 | −4 to −7 | −9 to −12 |
+| **Before/after care gap (families)** | 42–144 | 0 | 37–128 |
+| **Family-borne care costs (annual)** | $143,640–$803,520 | $0 | $126,540–$714,240 |
+| **District fiscal exposure (annual)** | $802,809–$876,325 | $30,365–$79,908 | $670,073–$735,597 |
+| **Total fiscal exposure (annual)** | $946,449–$1,679,845 | $30,365–$79,908 | $796,613–$1,449,837 |
+| **As % of claimed savings** | **43%–112%** | 1.4%–5.3% | 36%–97% |
 
-Option B eliminates split families entirely, requires no route expansion, and creates no before/after care gap — at 1.4%–5.3% of claimed savings in fiscal exposure. It was not the administration's recommendation, and no public explanation for that choice has been provided.
+**Critical detail:** The 14% SEA bus driver cut was decided *before* anyone counted the drivers or modeled the routes. Even Option B — the lowest-impact configuration — shows a shortfall of 4–7 drivers. There is no configuration on the table that works with the post-cut driver pool.
 
 ---
 
 ## What's Missing
 
-The district has not produced analysis on the following, despite direct public questions:
+The administration has not produced — and confirmed it will not produce before the vote:
 
-- **No transportation cost model exists for any configuration.** The administration stated on March 2 that they "don't anticipate [route cost changes] being a significant cost" — without supporting documentation (TC-005). That claim has not been substantiated.
-- **SEA staffing cuts were finalized before route modeling.** A 14% reduction in SEA staff (100 → 86 FTE) was proposed before the district knew how many routes, tiers, or specialized runs each configuration would require (SPEC-062). The adequacy of the reduced staffing for SPED and McKinney-Vento routes is unmodeled.
-- **Before/after care capacity has not been addressed.** Four of five elementary schools are already at capacity for after-care. Option A could generate 118–144 new families needing care — at an annual cost burden of $404K–$804K falling on working families, not the district. No mitigation plan has been presented (SPEC-064).
-- **The 4th bus tier timing gap has not been disclosed.** If Option A requires a 4th bell tier, split families face a structural 30-minute scheduling gap with no identified solution (SPEC-063).
+- **Route-level cost modeling** for any configuration. At the March 2 meeting, administration stated *"we don't anticipate [route cost changes] being a significant cost"* without any supporting analysis (TC-005).
+- **A driver count reconciliation.** The 20-driver baseline was confirmed March 30 by the Director of Operations. The SEA staffing cut was approved separately. No document shows these two numbers in the same calculation.
+- **Before/after care capacity analysis.** After-care is at full capacity at 4 of 5 schools. No district document addresses the 42–144 families (Option A) who would need care with no available slots.
+- **Itemized savings claim.** The district has not published a line-item breakdown of what generates the claimed savings figure used as the denominator in every fiscal comparison above.
+- **McKinney-Vento displacement costs.** 10% of students (~274 district-wide) are McKinney-Vento eligible. Option A displaces the most students and carries $54,337–$127,853 in annual MV transport exposure — unmodeled.
+
+> **Soundbyte opportunity:** Ask the superintendent or board chair: *"What is the transportation cost estimate for Option A?"* The claim catalog shows this question was asked at February 4, March 2, and March 9 public meetings — and was not answered at any of them.
 
 ---
 
 ## Limitations
 
-This analysis is independent and constructed from district enrollment data, Maine DOT benchmarks, and public testimony — not from internal district routing systems or contracted transportation data. Key ranges are wide because:
+This analysis was constructed from public budget documents, school board meeting recordings, and a transportation cost methodology applied to publicly available SEA contract and enrollment data. It:
 
-- Actual McKinney-Vento-eligible students within affected attendance zones are not publicly disaggregated
-- Specialized route requirements (SPED, ELL, MV) depend on individual student placement, not available at this level
-- Before/after care capacity figures are self-reported by program operators; actual seat counts were not independently verified
+- **Cannot confirm** exact per-route costs — the district has not released route maps or contractor pricing.
+- **Cannot confirm** how many SEA positions will be cut; the 17–20 driver range reflects the stated 14% SEA reduction applied to the confirmed 20-driver pool.
+- **Uses a care cost estimate** of $3,416/child/year — a market-rate proxy; actual family cost depends on program availability and income-based subsidies.
+- **Does not account for** diesel cost volatility, flagged as "considerable" at the March 30 meeting but unquantified.
 
-This analysis **cannot** determine which configuration the district should adopt. It **can** establish that the fiscal comparison the public has been offered is incomplete.
+The $946K–$1.68M exposure figure for Option A is a *range*, not a point estimate. Both the low and high ends are based on documented assumptions, disclosed in SPEC-064 and SPEC-065.
 
 ---
 
 ## Invitation to Improve
 
-The following district data would materially narrow these ranges and produce a definitive analysis:
+The district can close every gap in this analysis before the vote. Specific data that would sharpen or correct these figures:
 
-1. **Current transportation vendor contract and per-route cost schedule**
-2. **Route-level modeling output from the transportation consultant** (budget was confirmed as allocated — TC-004)
-3. **Building-level before/after care enrollment and waitlist data**
-4. **SEA position-level staffing plan** tied to each configuration's specialized route requirements
-5. **Bell schedule proposals** for each configuration, with start/end times by grade band
+1. **Route maps and driver assignments** for each configuration under consideration
+2. **SEA contract details** specifying which positions are cut and the resulting driver headcount
+3. **Before/after care enrollment data** by school, including current waitlist numbers
+4. **The itemized savings calculation** behind the claimed budget reduction figure
+5. **The transportation consultant's scope of work and timeline** — referenced at the March 2 meeting (TC-004) but not published
 
-The district is invited to provide any of the above for incorporation into a revised analysis prior to the public vote.
+This analysis was produced from public sources. The district is invited to provide corrections or supplemental data at any time. Any material update will be reflected in a revised brief.
 
 ---
 
-*Sources: SPEC-060 through SPEC-065; Transportation Claims Catalog (TC-001 through TC-011); FY27 budget documents and school board meeting record through March 9, 2026.*
+*Sources: SPEC-060 through SPEC-065; Transportation Claims Catalog (TC-001 through TC-011); South Portland School Board meeting recordings 2026-02-04, 2026-03-02, 2026-03-09, 2026-03-30.*

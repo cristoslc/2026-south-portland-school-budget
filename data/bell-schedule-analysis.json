@@ -153,11 +153,19 @@
       "likely_outcome": "Higher pressure toward 4 tiers than Option A because the single grades 3-4 building creates city-wide routes that don't fit neatly into a shared tier with neighborhood-based PreK-2 routes."
     }
   ],
+  "driver_schedule": {
+    "source": "Director of Operations Mike Natalie, 3/30/2026 BoE meeting",
+    "shift": "7:00 AM \u2013 4:00 PM",
+    "am_complete": "9:30",
+    "pm_start": "13:00",
+    "idle_window": "~3.5 hours",
+    "driver_count": 20
+  },
   "limitations": [
     "Tier feasibility assessment is qualitative, not route-modeled",
     "Turnaround time assumption (25 min) is an estimate for South Portland geography",
     "Does not model specific route times \u2014 would require routing software",
     "Middle school bell time consolidation (deferred to fall 2027) could free a tier",
-    "Fleet size unknown \u2014 tier analysis assumes current fleet is adequate for 3 tiers"
+    "Driver idle window (9:30\u20131:30) confirmed by Dir. of Operations validates 3-tier turnaround margins"
   ]
 }

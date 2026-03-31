@@ -14,6 +14,14 @@ metadata:
 
 # Security Check
 
+<!-- session-check: SPEC-121 -->
+Before proceeding with any state-changing operation, check for an active session:
+```bash
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+bash "$REPO_ROOT/.agents/bin/swain-session-check.sh" 2>/dev/null
+```
+If the JSON output has `"status"` other than `"active"`, inform the operator: "No active session — start one with `/swain-session`?" Proceed if they dismiss.
+
 Unified security scanning orchestrator. Checks scanner availability, runs all available scanners against the project, normalizes findings into a severity-bucketed report, and presents results in both JSON and markdown formats.
 
 ## When invoked
@@ -22,7 +30,7 @@ Run the security check script:
 
 ```bash
 REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
-SEC_SCRIPT="$(find "$REPO_ROOT" -path '*/swain-security-check/scripts/security_check.py' -print -quit 2>/dev/null)"
+SEC_SCRIPT="$REPO_ROOT/.agents/bin/security_check.py"
 [ -n "$SEC_SCRIPT" ] && python3 "$SEC_SCRIPT" . || echo "security_check.py not found"
 ```
 
@@ -30,7 +38,7 @@ For JSON output:
 
 ```bash
 REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
-SEC_SCRIPT="$(find "$REPO_ROOT" -path '*/swain-security-check/scripts/security_check.py' -print -quit 2>/dev/null)"
+SEC_SCRIPT="$REPO_ROOT/.agents/bin/security_check.py"
 [ -n "$SEC_SCRIPT" ] && python3 "$SEC_SCRIPT" --json . || echo "security_check.py not found"
 ```
 

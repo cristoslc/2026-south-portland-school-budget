@@ -1,0 +1,1 @@
+../../skills/swain-status/scripts/swain-status.sh

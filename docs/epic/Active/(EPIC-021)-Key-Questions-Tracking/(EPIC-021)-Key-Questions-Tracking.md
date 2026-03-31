@@ -35,8 +35,9 @@ Residents and meeting attendees see, at a glance, which questions have been outs
 ## Scope Boundaries
 
 **In scope:**
-- New QUESTIONS artifact type: YAML objects in `data/interpretation/questions/` with id, canonical phrasing, first-raised date, persona variants, status, resolution evidence, stress-test results, and computed priority score
-- Pipeline step: extract questions from per-persona briefs, cluster into canonical questions, score, and write QUESTIONS artifact
+- New QUESTION-NNN artifact type following swain conventions: individual files in `docs/question/<Phase>/` with frontmatter, markdown body, lifecycle table, and per-question directories for supporting docs (see [ADR-004](../../adr/Active/(ADR-004)-Question-Artifacts-Over-YAML-Index/(ADR-004)-Question-Artifacts-Over-YAML-Index.md))
+- Question template and definition files for the artifact type
+- Pipeline step: extract questions from per-persona briefs, cluster into canonical questions, score, and write individual QUESTION artifacts
 - Pipeline step: on new evidence, detect potential resolutions and run stress-test gate against all persona variants
 - PERSONA-000 integration: "Key Questions" section ranked by priority score
 - Partial resolution handling: when some persona variants are answered but others remain open, the canonical question stays open with the resolved variants marked
@@ -51,9 +52,13 @@ Residents and meeting attendees see, at a glance, which questions have been outs
 
 | Artifact | Title | Status |
 |----------|-------|--------|
-| SPIKE-008 | Question Scoring Prototype | Active |
-
-_Specs to be created after SPIKE-008 findings._
+| [SPIKE-008](../../research/Active/(SPIKE-008)-Question-Scoring-Prototype/(SPIKE-008)-Question-Scoring-Prototype.md) | Question Scoring Prototype | Complete (GO) |
+| [ADR-004](../../adr/Active/(ADR-004)-Question-Artifacts-Over-YAML-Index/(ADR-004)-Question-Artifacts-Over-YAML-Index.md) | Question Artifacts Over YAML Index | Active |
+| SPEC-034 | Question Artifact Type | Active |
+| SPEC-035 | Question Extraction Pipeline | Active |
+| SPEC-036 | Question Scoring | Active |
+| SPEC-037 | Resolution Stress-Test Gate | Active |
+| SPEC-038 | Evergreen Key Questions Section | Active |
 
 ## Key Dependencies
 

@@ -39,7 +39,7 @@
     "swain": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "ad516ac0708cb57ffb12b958a059af01e7370cc53911daa9143fc8fcbdabad3d"
+      "computedHash": "27430d65ee811edb9b7e2df4e7b38a313c7fa397bfdf54ad8116a6d0419990db"
     },
     "swain-config": {
       "source": "cristoslc/swain",
@@ -49,7 +49,7 @@
     "swain-design": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "369b91121b1a33992bb40c48b6d8a764ac597f2ea630cb65c510f0bbd6434cf6"
+      "computedHash": "0664167f8d6967460af4fb4a7a54fafd9e743826cf262e09fd8783883ecf055b"
     },
     "swain-dispatch": {
       "source": "cristoslc/swain",
@@ -59,27 +59,27 @@
     "swain-do": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "9520804af93164aebbf11b60271ddbe81e20606a01a84a3e08d6773ad21c4f6d"
+      "computedHash": "d4f0a537ab8701dfe3d26034e658f02e5ea1981bb4bde72fd58bfb5213afb2b3"
     },
     "swain-doctor": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "7385c03d6f1e063c99a9dc88106666aaad712207929ed5e2ed759bd2b2c475d3"
+      "computedHash": "726008386024f98e43ac02e4ecd0a85fc4b0f60a1548d3fefd64549f60ace680"
     },
     "swain-help": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "7730f216469a9009a601aa33c2f5764c6a11512bdb6b8d42771b49cb5257e634"
+      "computedHash": "1978fb1571a46718e91ffd33629df6aa03b2da62ab31eb2e1e5fa171337bd48e"
     },
     "swain-init": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "b760b5aaf520732c7ac75ea93c97713f5edaf6604feac6bd687d2578ba0def64"
+      "computedHash": "96569aa14ce1df586fb3f4d1f549294959c9e24e30ff9e3a2bced678684191ae"
     },
     "swain-keys": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "d29d85e948e5805bb9515b4417f4253f903b7d3bae2f7e1eb4a2c0de2a1a399b"
+      "computedHash": "fceed5442f300a19585a0fb74d25c67bdae8b184191e97a9a317f0e5c09e3c3b"
     },
     "swain-push": {
       "source": "cristoslc/swain",
@@ -89,32 +89,32 @@
     "swain-release": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "bd8992e9adc0b90b43c85afabb84c99198fac4e01949fee75d99cfe2354ee673"
+      "computedHash": "010c8d3b19c622d6b29c36be37749a9061c1694ad2622b17a2409a13317133cb"
     },
     "swain-retro": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "ea439320d47f6ea4f402031284da3fc49b13ec83d7e4c884e64dbe6ccf25b1eb"
+      "computedHash": "9752d3ef47f3ca4278d5a0c44ae8875cfb025f5cfa5a6c9106c1ba62005ba2a6"
     },
     "swain-roadmap": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "2769847075542ff5404bb387e653c70165f0892cbb0a59bc5423866297758fb2"
+      "computedHash": "afdc7df45cbed52d5357aacb68185c7fdb583f9a2dcfe92fbebad7719c9d905d"
     },
     "swain-search": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "d14fd72c20e62d5efb0af722d0a6a6cf788306fb39684d97a8ceab10a383e5aa"
+      "computedHash": "bde2d052ad71e398a35b97409b5c40e5ae814614b4e92e0f57b2ba6d47810c38"
     },
     "swain-security-check": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "1f1f8e187fffd297d3a253e475327a4395a47903650470072cc96f4791a0486a"
+      "computedHash": "83bcd747c052c4b2c89fd16da1af3cf50e1df8f4e9d348c69762c7008686893d"
     },
     "swain-session": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "dbf4fb24436b3fa0d91511cb0ce83da1d6d1445812c16482bedbfa7a2a773a64"
+      "computedHash": "24bde1c4c9fb2029f6b927fb98476c18fb11a7c138260deb8d190754e399fd90"
     },
     "swain-stage": {
       "source": "cristoslc/swain",
@@ -129,7 +129,7 @@
     "swain-sync": {
       "source": "cristoslc/swain",
       "sourceType": "github",
-      "computedHash": "4f0944d37876ff1e03b33b2e8d5fcd7fede472f088a49bbcb885197bb7ca4116"
+      "computedHash": "2a276d87e6a054510f95a7f6a3a40ceca3cf01a53745deeeda1e0c0c4a77a12c"
     },
     "swain-update": {
       "source": "cristoslc/swain",

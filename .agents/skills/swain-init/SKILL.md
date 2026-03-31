@@ -1,12 +1,12 @@
 ---
 name: swain-init
-description: "One-time project onboarding for swain. Invoke to set up swain, onboard this project, initialize swain, or migrate CLAUDE.md. Migrates existing CLAUDE.md content to AGENTS.md (with the @AGENTS.md include pattern), verifies vendored tk (ticket) for task tracking, configures pre-commit security hooks (gitleaks default), and offers to add swain governance rules. Use swain-doctor for ongoing per-session health checks."
+description: "Project onboarding and session entry point for swain. On first run, performs full onboarding: migrates CLAUDE.md to AGENTS.md, verifies vendored tk, configures pre-commit security hooks, and offers swain governance rules — then writes a .swain-init marker. On subsequent runs, detects the marker and delegates directly to swain-session. Use as a single entry point — it routes automatically."
 user-invocable: true
 license: MIT
 allowed-tools: Bash, Read, Write, Edit, Grep, Glob, AskUserQuestion, Skill
 metadata:
   short-description: One-time swain project onboarding
-  version: 3.1.0
+  version: 4.0.0
   author: cristos
   source: swain
 ---
@@ -16,7 +16,39 @@ metadata:
 
 One-time setup for adopting swain in a project. This skill is **not idempotent** — it migrates files and installs tools. For per-session health checks, use swain-doctor.
 
-Run all phases in order. If a phase detects its work is already done, skip it and move to the next.
+## Phase 0: Already-initialized detection
+
+Before running onboarding, check for the `.swain-init` marker file:
+
+```bash
+cat .swain-init 2>/dev/null
+```
+
+### If `.swain-init` exists
+
+The project has already been initialized. Parse the file (JSON format) and check the latest entry in the `history` array:
+
+```bash
+LAST_VERSION=$(jq -r '.history[-1].version' .swain-init 2>/dev/null)
+CURRENT_VERSION=$(find . .claude .agents -path '*/swain-init/SKILL.md' -print -quit 2>/dev/null | xargs head -20 2>/dev/null | grep 'version:' | awk '{print $2}')
+```
+
+**Version comparison:**
+
+- **Same major version** (e.g., both `4.x.x`): Project is current. Tell the user:
+  > Project already initialized (swain $LAST_VERSION). Delegating to swain-session.
+
+  Invoke the **swain-session** skill and stop. Do not run Phases 1–6.
+
+- **Newer major version available** (e.g., initialized with `3.x.x`, current is `4.x.x`): Suggest upgrade. Tell the user:
+  > Project was initialized with swain $LAST_VERSION (current: $CURRENT_VERSION). Consider running `/swain update` to pick up new features.
+  > Starting session.
+
+  Invoke the **swain-session** skill and stop. Do not re-run onboarding — upgrades are handled by swain-update, not swain-init.
+
+### If `.swain-init` does not exist
+
+Proceed with full onboarding (Phases 1–6).
 
 ## Phase 1: CLAUDE.md → AGENTS.md migration
 
@@ -142,26 +174,30 @@ If `.beads/` exists:
 
 If `.beads/` does not exist, skip this step. tk creates `.tickets/` on first `tk create`.
 
-### Step 2.4 — swain-box symlink
+### Step 2.4 — swain-box symlink (ADR-019)
 
-Find the swain-box script in the installed skill tree and create `./swain-box` as a relative symlink at the project root.
+Find the swain-box script in the installed skill tree and create `bin/swain-box` as a relative symlink per ADR-019's operator-facing convention.
 
 ```bash
 SWAIN_BOX_SCRIPT=$(find . .claude .agents -path '*/swain/scripts/swain-box' -print -quit 2>/dev/null)
 if [ -n "$SWAIN_BOX_SCRIPT" ]; then
-  SWAIN_BOX_REL=$(python3 -c "import os,sys; print(os.path.relpath(sys.argv[1]))" "$SWAIN_BOX_SCRIPT" 2>/dev/null || echo "$SWAIN_BOX_SCRIPT")
-  if [ -L swain-box ] && [ "$(readlink swain-box)" = "$SWAIN_BOX_REL" ]; then
+  BIN_DIR="bin"
+  mkdir -p "$BIN_DIR"
+  SWAIN_BOX_REL=$(python3 -c "import os,sys; print(os.path.relpath(sys.argv[1], sys.argv[2]))" "$SWAIN_BOX_SCRIPT" "$BIN_DIR" 2>/dev/null || echo "../$SWAIN_BOX_SCRIPT")
+  if [ -L "$BIN_DIR/swain-box" ] && [ "$(readlink "$BIN_DIR/swain-box")" = "$SWAIN_BOX_REL" ]; then
     echo "already linked"
-  elif [ -e swain-box ] && [ ! -L swain-box ]; then
-    echo "conflict — ./swain-box exists as a real file; skipping"
+  elif [ -e "$BIN_DIR/swain-box" ] && [ ! -L "$BIN_DIR/swain-box" ]; then
+    echo "conflict — bin/swain-box exists as a real file; skipping"
   else
-    ln -sf "$SWAIN_BOX_REL" swain-box
-    echo "created ./swain-box -> $SWAIN_BOX_REL"
+    ln -sf "$SWAIN_BOX_REL" "$BIN_DIR/swain-box"
+    echo "created bin/swain-box -> $SWAIN_BOX_REL"
   fi
+  # Migrate old root symlink if present
+  [ -L swain-box ] && rm -f swain-box && echo "migrated old ./swain-box to bin/"
 fi
 ```
 
-Tell the user: `./swain-box created — run it from this project root to launch Claude Code in a Docker Sandbox for this directory.`
+Tell the user: `bin/swain-box created — run it from this project to launch Claude Code in a Docker Sandbox.`
 
 If the script is not found, skip silently — swain-box is not installed in this skill tree.
 
@@ -334,7 +370,7 @@ If tmux is **already installed**, report "tmux: already installed" and continue 
 
 If tmux is **not found**, ask the user:
 
-> tmux is not installed. swain-stage (workspace layouts) and swain-session (tab naming) require a tmux session to function. It is optional — swain works without it, but session and workspace features will be unavailable.
+> tmux is not installed. swain-session (tab naming) uses tmux when available. It is optional — swain works without it, but session tab-naming will be unavailable.
 >
 > Install tmux now? (yes/no)
 
@@ -350,7 +386,94 @@ If the install succeeds, tell the user:
 If the install fails, warn:
 > tmux installation failed. You can install it manually: `brew install tmux`
 
-If the user says **no**, note "tmux: skipped" and continue to Phase 5.
+If the user says **no**, note "tmux: skipped" and continue to Phase 4.5.
+
+## Phase 4.5: Shell launcher
+
+Goal: offer to install a `swain` shell function so the user can launch swain with a single command. Templates are stored per-runtime, per-shell in `skills/swain-init/templates/launchers/{runtime}/swain.{shell}` — inspect them to see exactly what gets added. Supported runtimes are defined in ADR-017.
+
+### Step 4.5.1 — Detect shell runtime
+
+```bash
+SHELL_NAME=$(basename "$SHELL")
+```
+
+Supported shells: `zsh`, `bash`, `fish`. If the detected shell is not in this list, tell the user:
+
+> Shell launcher templates are available for zsh, bash, and fish. Your shell ($SHELL_NAME) is not yet supported — skipping launcher setup.
+
+Skip to Phase 5.
+
+### Step 4.5.2 — Check for existing launcher
+
+Map the shell to its rc file and detection pattern:
+
+| Shell | RC file | Detection pattern |
+|-------|---------|-------------------|
+| zsh | `~/.zshrc` | `grep -q 'swain\s*()' ~/.zshrc 2>/dev/null` |
+| bash | `~/.bashrc` | `grep -q 'swain\s*()' ~/.bashrc 2>/dev/null` |
+| fish | `~/.config/fish/config.fish` | `grep -q 'function swain' ~/.config/fish/config.fish 2>/dev/null` |
+
+If the pattern matches, report "Shell launcher: already installed" and skip to Phase 5. Do not modify existing functions.
+
+### Step 4.5.3 — Detect installed agentic runtimes
+
+```bash
+RUNTIMES=""
+command -v claude >/dev/null 2>&1 && RUNTIMES="$RUNTIMES claude"
+command -v gemini >/dev/null 2>&1 && RUNTIMES="$RUNTIMES gemini"
+command -v codex >/dev/null 2>&1 && RUNTIMES="$RUNTIMES codex"
+command -v copilot >/dev/null 2>&1 && RUNTIMES="$RUNTIMES copilot"
+command -v crush >/dev/null 2>&1 && RUNTIMES="$RUNTIMES crush"
+```
+
+If no runtimes are found, tell the user:
+
+> No supported agentic CLI runtimes found (checked: claude, gemini, codex, copilot, crush). Install one first, then re-run `/swain-init`.
+
+Skip to Phase 5.
+
+### Step 4.5.4 — Select runtime
+
+- **One runtime found:** Offer it directly.
+- **Multiple runtimes found:** Present a numbered list and ask which one to use. Default to `claude` if available.
+
+Locate the template:
+
+```bash
+TEMPLATE_DIR="$(find . .claude .agents -path '*/swain-init/templates/launchers' -type d -print -quit 2>/dev/null)"
+TEMPLATE_FILE="$TEMPLATE_DIR/$SELECTED_RUNTIME/swain.$SHELL_NAME"
+```
+
+### Step 4.5.5 — Show template and offer installation
+
+Read the template file content and present it to the user:
+
+> **Shell launcher** — Add a `swain` command to your shell?
+>
+> Detected runtime: [runtime name]. Here's what will be added to `<rc-file>`:
+>
+> ```<shell>
+> <template content>
+> ```
+>
+> Install? (yes/no)
+
+For Crush templates, add a note: "Crush has partial support — it cannot accept an initial prompt, so session initialization relies on AGENTS.md auto-invoke directives."
+
+### Step 4.5.6 — Install
+
+If the user accepts, append the template content to the rc file:
+
+```bash
+cat "$TEMPLATE_FILE" >> <rc-file>
+```
+
+Tell the user:
+
+> Shell launcher installed. Run `source <rc-file>` (or restart your shell) to activate the `swain` command.
+
+If the user declines, note "Shell launcher: skipped" and continue to Phase 5.
 
 ## Phase 5: Swain governance
 
@@ -401,6 +524,34 @@ mkdir -p .agents
 
 This directory is used by swain-do for configuration and by swain-design scripts for logs.
 
+### Step 6.1.1 — Bootstrap .agents/bin/ (ADR-019)
+
+Create `.agents/bin/` and populate it with symlinks for all agent-facing scripts in the skill tree. This gives skills a stable, O(1) resolution path instead of `find`-based lookups.
+
+```bash
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+AGENTS_BIN="$REPO_ROOT/.agents/bin"
+mkdir -p "$AGENTS_BIN"
+OPERATOR_SCRIPTS="swain swain-box"
+for skill_scripts_dir in "$REPO_ROOT"/skills/*/scripts; do
+  [ -d "$skill_scripts_dir" ] || continue
+  for script in "$skill_scripts_dir"/*; do
+    [ -f "$script" ] && [ -x "$script" ] || continue
+    script_name="$(basename "$script")"
+    case "$script_name" in test-*) continue ;; esac
+    echo " $OPERATOR_SCRIPTS " | grep -q " $script_name " && continue
+    rel_path="$(python3 -c "import os,sys; print(os.path.relpath(sys.argv[1], sys.argv[2]))" "$script" "$AGENTS_BIN" 2>/dev/null)" || continue
+    ln -sf "$rel_path" "$AGENTS_BIN/$script_name"
+  done
+done
+```
+
+Add `.agents/bin/` to `.gitignore` if not already present (consumer projects should not track these symlinks):
+
+```bash
+grep -qx '.agents/bin/' .gitignore 2>/dev/null || echo '.agents/bin/' >> .gitignore
+```
+
 ### Step 6.2 — Run swain-doctor
 
 Invoke the **swain-doctor** skill. This validates `.tickets/` health, checks stale locks, removes legacy skill directories, and ensures governance is correctly installed.
@@ -409,7 +560,38 @@ Invoke the **swain-doctor** skill. This validates `.tickets/` health, checks sta
 
 Invoke the **swain-help** skill in onboarding mode to give the user a guided orientation of what they just installed.
 
-### Step 6.4 — Summary
+### Step 6.4 — Write `.swain-init` marker
+
+After all onboarding phases complete, write the `.swain-init` marker file. This is the authoritative record that init has run.
+
+```bash
+CURRENT_VERSION=$(find . .claude .agents -path '*/swain-init/SKILL.md' -print -quit 2>/dev/null | xargs head -20 2>/dev/null | grep 'version:' | awk '{print $2}')
+TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+```
+
+If `.swain-init` already exists (partial re-init), read it and append to the history array. Otherwise create a new file:
+
+```json
+{
+  "history": [
+    {
+      "version": "4.0.0",
+      "timestamp": "2026-03-26T18:30:00Z",
+      "action": "init"
+    }
+  ]
+}
+```
+
+For upgrades (future use by swain-update), append an entry with `"action": "upgrade"` instead.
+
+Write the file and ensure it is gitignored (it's project-local state, not shared):
+
+```bash
+grep -q '.swain-init' .gitignore 2>/dev/null || echo '.swain-init' >> .gitignore
+```
+
+### Step 6.5 — Summary
 
 Report what was done:
 
@@ -421,10 +603,16 @@ Report what was done:
 > - Pre-commit security hooks: [done/skipped/already configured]
 > - Superpowers: [installed/skipped/already present]
 > - tmux: [installed/skipped/already present]
+> - Shell launcher: [installed (runtime)/skipped/already present/no runtime found/unsupported shell]
 > - Swain governance in AGENTS.md: [done/skipped/already present]
+> - Init marker: written (.swain-init)
+
+### Step 6.6 — Start session
+
+After successful onboarding, invoke the **swain-session** skill to start the first session. This ensures the user lands in a fully active session regardless of whether they entered via `/swain-init` or `/swain-session`.
 
 ## Re-running init
 
-If the user runs `/swain init` on a project that's already set up, each phase will detect its work is done and skip. The only interactive phase is governance injection (Phase 5), which checks for the `<!-- swain governance -->` marker before asking.
+If the user runs `/swain-init` on a project that's already set up, Phase 0 reads `.swain-init` and delegates directly to swain-session — no onboarding phases run, no interactive prompts appear. This lets users build muscle memory around `/swain-init` as a single entry point.
 
-To force a fresh governance block, delete the `<!-- swain governance -->` ... `<!-- end swain governance -->` section from AGENTS.md and re-run.
+To force re-onboarding, delete `.swain-init` and re-run.

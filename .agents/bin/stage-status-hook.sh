@@ -1,0 +1,1 @@
+../../skills/swain-stage/scripts/stage-status-hook.sh

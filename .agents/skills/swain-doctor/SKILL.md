@@ -6,7 +6,7 @@ license: MIT
 allowed-tools: Bash, Read, Write, Edit, Grep, Glob
 metadata:
   short-description: Session-start health checks and repair
-  version: 2.5.0
+  version: 2.6.0
   author: cristos
   source: swain
 ---
@@ -16,11 +16,22 @@ metadata:
 
 Session-start health checks for swain projects. Validates and repairs health across **all** swain skills — governance, tools, directories, settings, scripts, caches, and runtime state. Auto-migrates stale `.beads/` directories to `.tickets/` and removes them. Idempotent — run it every session; it only writes when repairs are needed.
 
-Run checks in the order listed below. Collect all findings into a summary table at the end.
+## Consolidated check script (SPEC-192)
+
+**Always run the consolidated script first** — it executes all checks in a single process, eliminating parallel tool-call cascade failures:
+
+```bash
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+bash "$REPO_ROOT/.agents/bin/swain-doctor.sh"
+```
+
+The script outputs structured JSON with all check results. Parse it and present the summary table to the operator. Then use the individual sections below **only for remediation** of checks that reported `warning` or `advisory` status — do not re-run the detection steps.
+
+If the script is not available (e.g., `.agents/bin/` symlinks not yet bootstrapped), fall back to running the checks below individually. In that case, run them **sequentially** (one Bash call at a time), never in parallel — parallel tool calls cascade-cancel on first error.
 
 ## Preflight integration
 
-A lightweight shell script (`swain-preflight.sh`, located via `find "$REPO_ROOT" -path '*/swain-doctor/scripts/swain-preflight.sh'`) performs quick checks before invoking the full doctor. If preflight exits 0, swain-doctor is skipped for the session. If it exits 1, swain-doctor runs normally.
+A lightweight shell script (`$REPO_ROOT/.agents/bin/swain-preflight.sh`) performs quick checks before invoking the full doctor. If preflight exits 0, swain-doctor is skipped for the session. If it exits 1, swain-doctor runs normally.
 
 The preflight checks are a subset of this skill's checks — governance files, .agents directory, .tickets health, script permissions. It runs as pure bash with zero agent tokens. See AGENTS.md § Session startup for the invocation flow.
 
@@ -90,6 +101,10 @@ The canonical governance rules live in `skills/swain-doctor/references/AGENTS.co
 
 Check required (`git`, `jq`) and optional (`tk`, `uv`, `gh`, `tmux`, `fswatch`) tools. Never install automatically. Read [references/tool-availability.md](references/tool-availability.md) for the check commands, degradation notes, and reporting format.
 
+## Skill folder gitignore hygiene
+
+Verify that vendored swain skill directories (`*/skills/swain/`, `*/skills/swain-*/`) are gitignored in consumer projects. Only targets swain-vendored directories — consumer projects' own skills remain tracked. **Skip if the current project is swain itself** (detected via `origin` remote containing `cristoslc/swain`). Read [references/gitignore-skill-folders.md](references/gitignore-skill-folders.md) for self-detection, `git check-ignore` commands, status values, and remediation.
+
 ## Runtime checks
 
 Memory directory, settings validation, script permissions, `.agents` directory, status cache bootstrap, and SSH alias readiness. Read [references/runtime-checks.md](references/runtime-checks.md) for the full procedures and bash commands.
@@ -98,23 +113,31 @@ Memory directory, settings validation, script permissions, `.agents` directory, 
 
 Verify vendored tk is executable at `skills/swain-do/bin/tk` and check for stale lock files. **Skip if `.tickets/` does not exist.** See [references/tickets-validation.md](references/tickets-validation.md) for details.
 
-## swain-box symlink
+## swain-box symlink (ADR-019 operator-facing)
 
-Ensure `./swain-box` exists as a symlink to the installed `swain-box` script so operators can launch Docker Sandboxes from the project root. The script is distributed inside the swain skill tree at `*/swain/scripts/swain-box`. **Skip if the script cannot be found.**
+Ensure `bin/swain-box` exists as a symlink to the installed `swain-box` script so operators can launch Docker Sandboxes. Per ADR-019, operator-facing scripts live in `bin/`, not the project root. The script is distributed inside the swain skill tree at `*/swain/scripts/swain-box`. **Skip if the script cannot be found.**
+
+**Note:** The preflight script (`swain-preflight.sh`) handles auto-repair of `bin/` symlinks structurally, including migration of old root symlinks. This doctor section is the prosaic counterpart for the full doctor flow.
 
 ### Detection
 
 ```bash
-SWAIN_BOX_SCRIPT=$(find . .claude .agents -path '*/swain/scripts/swain-box' -print -quit 2>/dev/null)
-if [ -n "$SWAIN_BOX_SCRIPT" ]; then
-  # Get relative path from project root
-  SWAIN_BOX_REL=$(python3 -c "import os,sys; print(os.path.relpath(sys.argv[1]))" "$SWAIN_BOX_SCRIPT" 2>/dev/null || echo "$SWAIN_BOX_SCRIPT")
-  if [ -L swain-box ] && [ "$(readlink swain-box)" = "$SWAIN_BOX_REL" ]; then
+BIN_DIR="bin"
+SWAIN_BOX_SCRIPT="$BIN_DIR/swain-box"
+if [ -e "$SWAIN_BOX_SCRIPT" ]; then
+  mkdir -p "$BIN_DIR"
+  SWAIN_BOX_REL=$(python3 -c "import os,sys; print(os.path.relpath(sys.argv[1], sys.argv[2]))" "$SWAIN_BOX_SCRIPT" "$BIN_DIR" 2>/dev/null || echo "../$SWAIN_BOX_SCRIPT")
+  if [ -L "$BIN_DIR/swain-box" ] && [ "$(readlink "$BIN_DIR/swain-box")" = "$SWAIN_BOX_REL" ]; then
     echo "ok"
-  elif [ -e swain-box ] && [ ! -L swain-box ]; then
+  elif [ -e "$BIN_DIR/swain-box" ] && [ ! -L "$BIN_DIR/swain-box" ]; then
     echo "conflict"  # a real file named swain-box exists — do not overwrite
   else
     echo "missing"
+  fi
+  # Check for old root symlink (pre-ADR-019) and migrate
+  if [ -L swain-box ]; then
+    rm -f swain-box
+    echo "migrated root symlink ./swain-box to bin/swain-box"
   fi
 fi
 ```
@@ -124,10 +147,10 @@ fi
 - **ok** — silent, no output.
 - **missing** — create the symlink automatically:
   ```bash
-  ln -sf "$SWAIN_BOX_REL" swain-box
+  ln -sf "$SWAIN_BOX_REL" "$BIN_DIR/swain-box"
   ```
-  Report: `swain-box symlink created (./swain-box → $SWAIN_BOX_REL)`
-- **conflict** — warn: `./swain-box exists but is not a symlink — skipping. To fix manually: rm swain-box && ln -sf <path> swain-box`
+  Report: `swain-box symlink created (bin/swain-box → $SWAIN_BOX_REL)`
+- **conflict** — warn: `bin/swain-box exists but is not a symlink — skipping. To fix manually: rm bin/swain-box && ln -sf <path> bin/swain-box`
 
 ### Status values
 
@@ -144,12 +167,11 @@ Detect old phase directories from before ADR-003's three-track normalization. Re
 Check whether superpowers skills are installed:
 
 ```bash
-SUPERPOWERS_SKILLS="brainstorming writing-plans test-driven-development verification-before-completion subagent-driven-development executing-plans"
 found=0
 missing=0
 missing_names=""
-for skill in $SUPERPOWERS_SKILLS; do
-  if ls .agents/skills/$skill/SKILL.md .claude/skills/$skill/SKILL.md 2>/dev/null | head -1 | grep -q .; then
+for skill in brainstorming writing-plans test-driven-development verification-before-completion subagent-driven-development executing-plans; do
+  if [ -f ".agents/skills/$skill/SKILL.md" ] || [ -f ".claude/skills/$skill/SKILL.md" ]; then
     found=$((found + 1))
   else
     missing=$((missing + 1))
@@ -228,8 +250,8 @@ Detect unmigrated evidence pools:
 - If any artifact frontmatter contains `evidence-pool:`: warn and offer migration
 - If both `docs/troves/` and `docs/evidence-pools/` exist: warn about incomplete migration
 
-Migration script: `bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-search/scripts/migrate-to-troves.sh' -print -quit 2>/dev/null)"`
-Dry run first: `bash "$(find "$(git rev-parse --show-toplevel 2>/dev/null || pwd)" -path '*/swain-search/scripts/migrate-to-troves.sh' -print -quit 2>/dev/null)" --dry-run`
+Migration script: `bash "$REPO_ROOT/.agents/bin/migrate-to-troves.sh"`
+Dry run first: `bash "$REPO_ROOT/.agents/bin/migrate-to-troves.sh" --dry-run`
 
 ## Summary report
 
@@ -242,6 +264,7 @@ swain-doctor summary:
   Platform dotfolders  ok (nothing to clean)
   .tickets/ .......... ok
   Stale .beads/ ...... ok (not present)
+  Skill gitignore .... ok
   Tools .............. ok (1 optional missing: fswatch)
   Memory directory ... ok
   Settings ........... ok

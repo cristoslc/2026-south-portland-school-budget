@@ -27,7 +27,7 @@ fi
 # 2b. Governance freshness — compare installed block against canonical
 CANONICAL="skills/swain-doctor/references/AGENTS.content.md"
 if [[ -f "$CANONICAL" ]] && grep -q "swain governance" AGENTS.md CLAUDE.md 2>/dev/null; then
-  GOV_FILE=$(grep -l "swain governance" AGENTS.md CLAUDE.md 2>/dev/null | head -1)
+  GOV_FILE=$(grep -l "swain governance" AGENTS.md CLAUDE.md 2>/dev/null | head -1 || true)
   if [[ -n "$GOV_FILE" ]]; then
     # Extract content between markers (exclusive) and hash
     extract_gov() { awk '/<!-- swain governance/{f=1;next}/<!-- end swain governance/{f=0}f' "$1"; }
@@ -39,9 +39,10 @@ if [[ -f "$CANONICAL" ]] && grep -q "swain governance" AGENTS.md CLAUDE.md 2>/de
   fi
 fi
 
-# 3. .agents directory exists
+# 3. .agents directory exists (ADR-020: self-heal)
 if [[ ! -d .agents ]]; then
-  issues+=(".agents directory missing")
+  mkdir -p .agents
+  echo "advisory: created .agents/ directory"
 fi
 
 # 4. .tickets/ directory is valid (if it exists)
@@ -66,11 +67,12 @@ if [[ -d "$REPO_ROOT/docs/evidence-pools" ]]; then
   issues+=("docs/evidence-pools/ detected — trove migration needed")
 fi
 
-# 6. No stale tk lock files (older than 1 hour)
+# 6. Stale tk lock files (older than 1 hour) (ADR-020: self-heal)
 if [[ -d .tickets/.locks ]]; then
-  stale_locks=$(find .tickets/.locks -type f -mmin +60 2>/dev/null | head -1)
-  if [[ -n "$stale_locks" ]]; then
-    issues+=("stale tk lock files in .tickets/.locks/")
+  _stale_lock_count=$(find .tickets/.locks -type d -mmin +60 2>/dev/null | wc -l | tr -d ' ')
+  if [[ "$_stale_lock_count" -gt 0 ]]; then
+    find .tickets/.locks -type d -mmin +60 -exec rm -rf {} + 2>/dev/null
+    echo "advisory: removed $_stale_lock_count stale tk lock(s)"
   fi
 fi
 
@@ -95,9 +97,12 @@ if [[ "$(git config --local commit.gpgsign 2>/dev/null)" != "true" ]]; then
   issues+=("commit signing not configured (run swain-keys --provision)")
 fi
 
-# 9. Script permissions (spot check)
-if find .claude/skills/*/scripts/ -type f \( -name '*.sh' -o -name '*.py' \) ! -perm -u+x 2>/dev/null | grep -q .; then
-  issues+=("scripts missing executable permission")
+# 9. Script permissions (spot check) (ADR-020: self-heal)
+_bad_perms=$(find .claude/skills/*/scripts/ skills/*/scripts/ -type f \( -name '*.sh' -o -name '*.py' \) ! -perm -u+x 2>/dev/null || true)
+if [[ -n "$_bad_perms" ]]; then
+  _fix_count=$(echo "$_bad_perms" | wc -l | tr -d ' ')
+  echo "$_bad_perms" | xargs chmod +x
+  echo "advisory: fixed executable permissions on $_fix_count script(s)"
 fi
 
 # 9b. SSH alias readiness for repos using swain-keys host aliases
@@ -110,6 +115,21 @@ if [[ -x "$SSH_HELPER" ]]; then
       issues+=("${line#ISSUE: }")
     done <<< "$ssh_output"
   fi
+fi
+
+# 9c. Skill folder gitignore hygiene (advisory — non-blocking)
+# Only check vendored swain skill directories (swain/ and swain-*/), not all skills.
+# Skip if this is the swain source repo (skill folders are tracked there).
+_origin_url="$(git remote get-url origin 2>/dev/null || true)"
+if [[ "$_origin_url" != *"cristoslc/swain"* ]]; then
+  for _base in .claude/skills .agents/skills; do
+    [ -d "$_base" ] || continue
+    for _skill_path in "$_base"/swain "$_base"/swain-*/; do
+      if [[ -d "$_skill_path" ]] && ! git check-ignore -q "$_skill_path" 2>/dev/null; then
+        echo "swain-preflight: $REPO_ROOT/$_skill_path not gitignored (advisory)"
+      fi
+    done
+  done
 fi
 
 # 10. Superpowers detection (advisory — warn but don't fail)
@@ -164,11 +184,72 @@ if [[ -x "$SKILL_CHECK_SCRIPT" ]]; then
   fi
 fi
 
-# Trunk/release branch model detection (EPIC-029, ADR-013)
-# Check that scripts/swain-trunk.sh exists and the detected trunk branch has a remote
-TRUNK_SCRIPT="$REPO_ROOT/scripts/swain-trunk.sh"
+# Auto-repair .agents/bin/ symlinks (ADR-019, SPEC-186)
+# Agent-facing scripts live in skills/*/scripts/ and are symlinked to .agents/bin/
+AGENTS_BIN="$REPO_ROOT/.agents/bin"
+OPERATOR_SCRIPTS="swain swain-box"  # operator-facing — skip for .agents/bin/
+_agents_bin_repaired=0
+for skill_scripts_dir in "$REPO_ROOT"/skills/*/scripts; do
+  [[ -d "$skill_scripts_dir" ]] || continue
+  for script in "$skill_scripts_dir"/*; do
+    [[ -f "$script" && -x "$script" ]] || continue
+    script_name="$(basename "$script")"
+    # Skip test scripts and operator-facing scripts
+    [[ "$script_name" == test-* ]] && continue
+    echo " $OPERATOR_SCRIPTS " | grep -q " $script_name " && continue
+    # Check .agents/bin/ symlink
+    target="$AGENTS_BIN/$script_name"
+    rel_path="$(python3 -c "import os,sys; print(os.path.relpath(sys.argv[1], sys.argv[2]))" "$script" "$AGENTS_BIN" 2>/dev/null || echo "")"
+    if [[ -L "$target" ]] && [[ "$(readlink "$target")" == "$rel_path" ]]; then
+      continue  # ok
+    elif [[ -e "$target" ]] && [[ ! -L "$target" ]]; then
+      issues+=(".agents/bin/$script_name is a real file, not a symlink — manual fix needed")
+    else
+      # missing or stale — auto-repair
+      mkdir -p "$AGENTS_BIN"
+      ln -sf "$rel_path" "$target"
+      _agents_bin_repaired=$((_agents_bin_repaired + 1))
+    fi
+  done
+done
+if [[ $_agents_bin_repaired -gt 0 ]]; then
+  echo "advisory: repaired $_agents_bin_repaired .agents/bin/ symlink(s) (ADR-019)"
+fi
+
+# Auto-repair bin/ symlinks for operator-facing scripts (ADR-019, SPEC-188)
+BIN_DIR="$REPO_ROOT/bin"
+_bin_repaired=0
+for op_script in $OPERATOR_SCRIPTS; do
+  # Find canonical location in skill tree
+  canonical="$(find "$REPO_ROOT/skills" -name "$op_script" -path '*/scripts/*' ! -name 'test-*' -print -quit 2>/dev/null)"
+  [[ -n "$canonical" && -x "$canonical" ]] || continue
+  target="$BIN_DIR/$op_script"
+  rel_path="$(python3 -c "import os,sys; print(os.path.relpath(sys.argv[1], sys.argv[2]))" "$canonical" "$BIN_DIR" 2>/dev/null || echo "")"
+  if [[ -L "$target" ]] && [[ "$(readlink "$target")" == "$rel_path" ]]; then
+    continue  # ok
+  elif [[ -e "$target" ]] && [[ ! -L "$target" ]]; then
+    issues+=("bin/$op_script is a real file, not a symlink — manual fix needed")
+  else
+    # missing or stale — auto-repair
+    mkdir -p "$BIN_DIR"
+    ln -sf "$rel_path" "$target"
+    _bin_repaired=$((_bin_repaired + 1))
+  fi
+  # Migrate old root symlink if present
+  if [[ -L "$REPO_ROOT/$op_script" ]]; then
+    rm -f "$REPO_ROOT/$op_script"
+    echo "advisory: migrated ./$op_script to bin/$op_script (ADR-019)"
+  fi
+done
+if [[ $_bin_repaired -gt 0 ]]; then
+  echo "advisory: repaired $_bin_repaired bin/ symlink(s) (ADR-019)"
+fi
+
+# Trunk/release branch model detection (EPIC-029, ADR-013, ADR-019)
+# Check that .agents/bin/swain-trunk.sh exists and the detected trunk branch has a remote
+TRUNK_SCRIPT="$REPO_ROOT/.agents/bin/swain-trunk.sh"
 if [[ ! -x "$TRUNK_SCRIPT" ]]; then
-  issues+=("scripts/swain-trunk.sh missing or not executable — EPIC-029 trunk detection not installed")
+  issues+=(".agents/bin/swain-trunk.sh missing or not executable — no agent-facing scripts found in skill tree")
 else
   DETECTED_TRUNK=$(bash "$TRUNK_SCRIPT" 2>/dev/null || echo "")
   if [[ -z "$DETECTED_TRUNK" ]]; then

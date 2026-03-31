@@ -1,5 +1,56 @@
 # Agent Specs
 
+## Proposed
+
+| Artifact | Title | Last Updated | Commit |
+|----------|-------|-------------|--------|
+| SPEC-029 | Persona Routing Selector | 2026-03-22 | — |
+| SPEC-030 | Briefing Summary Block | 2026-03-22 | — |
+| SPEC-031 | Student-Friendly Language | 2026-03-22 | — |
+| SPEC-032 | Last Updated Indicator | 2026-03-22 | — |
+
+## Active
+
+| Artifact | Title | Last Updated | Commit |
+|----------|-------|-------------|--------|
+| SPEC-023 | Google Slides Export Support | 2026-03-20 | — |
+| SPEC-024 | Meaningful Document Filenames | 2026-03-20 | — |
+| SPEC-025 | Question Extraction | 2026-03-25 | — |
+| SPEC-026 | Questions Index Page | 2026-03-25 | — |
+| SPEC-027 | Answer Detail Pages | 2026-03-25 | — |
+| SPEC-028 | Privacy-Respecting Analytics | 2026-03-22 | — |
+| SPEC-033 | Evidence Source Links | 2026-03-24 | — |
+| SPEC-034 | Question Artifact Type | 2026-03-30 | — |
+| SPEC-035 | Question Extraction Pipeline | 2026-03-30 | — |
+| SPEC-036 | Question Scoring | 2026-03-30 | — |
+| SPEC-037 | Resolution Stress-Test Gate | 2026-03-30 | — |
+| SPEC-038 | Evergreen Key Questions Section | 2026-03-30 | — |
+
+## Complete
+
+| Artifact | Title | Last Updated | Commit |
+|----------|-------|-------------|--------|
+| SPEC-001 | Vimeo VTT Connector | 2026-03-10 | — |
+| SPEC-002 | Diligent Community Agenda Connector | 2026-03-10 | — |
+| SPEC-003 | Budget Page PDF Connector | 2026-03-10 | — |
+| SPEC-004 | VTT-to-Markdown Normalizer | 2026-03-10 | — |
+| SPEC-005 | PDF-to-Markdown Normalizer | 2026-03-10 | — |
+| SPEC-006 | HTML-to-Markdown Normalizer | 2026-03-10 | — |
+| SPEC-007 | Pipeline Runner | 2026-03-10 | — |
+| SPEC-008 | Pipeline Scheduling | 2026-03-10 | — |
+| SPEC-011 | XLSX-to-Markdown Normalizer | 2026-03-11 | — |
+| SPEC-012 | Docker Runner Setup | 2026-03-11 | — |
+| SPEC-013 | Live Discovery Connector Model | 2026-03-11 | — |
+| SPEC-014 | Vimeo Live Discovery | 2026-03-11 | — |
+| SPEC-015 | Budget Page Live Discovery | 2026-03-11 | — |
+| SPEC-016 | Meeting Bundle Schema | 2026-03-12 | — |
+| SPEC-017 | Source-to-Meeting Affiliation | 2026-03-13 | — |
+| SPEC-018 | Interpretation Output Schema | 2026-03-13 | — |
+| SPEC-019 | Per-Meeting Interpretation Runner | 2026-03-13 | — |
+| SPEC-020 | Cumulative Interpretation Format | 2026-03-13 | — |
+| SPEC-021 | Fold Engine | 2026-03-13 | — |
+| SPEC-022 | Upcoming-Event Brief Generator | 2026-03-13 | — |
+
 ## Superseded
 
 | Artifact | Title | Last Updated | Commit |

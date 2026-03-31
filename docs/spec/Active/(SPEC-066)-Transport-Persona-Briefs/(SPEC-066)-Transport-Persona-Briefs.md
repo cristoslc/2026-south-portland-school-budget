@@ -2,10 +2,10 @@
 title: "Transport Persona Briefs"
 artifact: SPEC-066
 track: implementable
-status: Active
+status: Complete
 author: cristos
 created: 2026-03-30
-last-updated: 2026-03-30
+last-updated: 2026-03-31
 type: feature
 parent-epic: EPIC-032
 linked-artifacts:
@@ -73,3 +73,4 @@ The transport configuration comparison (SPEC-065) produces the analytical founda
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Active | 2026-03-30 | — | Created as child of EPIC-032 |
+| Complete | 2026-03-31 | — | 16 briefs generated (15 persona + 1 general) via interpretation pipeline |

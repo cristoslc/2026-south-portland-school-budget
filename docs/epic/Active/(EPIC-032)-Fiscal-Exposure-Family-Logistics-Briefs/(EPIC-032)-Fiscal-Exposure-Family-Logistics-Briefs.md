@@ -2,10 +2,10 @@
 title: "Fiscal Exposure & Family Logistics Briefs"
 artifact: EPIC-032
 track: container
-status: Active
+status: Complete
 author: cristos
 created: 2026-03-30
-last-updated: 2026-03-30
+last-updated: 2026-03-31
 parent-vision: VISION-001
 parent-initiative: INITIATIVE-006
 priority-weight: high
@@ -50,7 +50,7 @@ Maria understands how many mornings she'd spend doing split-building drop-offs u
 
 | Artifact | Title | Status |
 |----------|-------|--------|
-| SPEC-066 | Transport Persona Briefs | Active |
+| SPEC-066 | Transport Persona Briefs | Complete |
 
 ## Key Dependencies
 
@@ -63,3 +63,4 @@ Maria understands how many mornings she'd spend doing split-building drop-offs u
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Active | 2026-03-30 | — | Created as child of INITIATIVE-006; user-approved |
+| Complete | 2026-03-31 | — | All child specs complete; transport persona briefs published |

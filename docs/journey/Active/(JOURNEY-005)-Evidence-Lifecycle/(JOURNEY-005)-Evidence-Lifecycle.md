@@ -12,6 +12,7 @@ linked-artifacts:
   - DESIGN-002
   - SPEC-001
   - SPEC-071
+  - SPIKE-006
 depends-on-artifacts: []
 ---
 
@@ -93,16 +94,16 @@ Brief generation (`generate_briefs.py`) produces persona-specific briefing docum
 
 | ID | Pain Point | Score | Stage | Root Cause | Opportunity |
 |----|------------|-------|-------|------------|-------------|
-| JOURNEY-005.PP-01 | TelVue same-day availability invisible to pipeline | 2 | Discovery | No TelVue connector existed | Addressed by [SPEC-071](../../../spec/Active/(SPEC-071)-SPC-TV-TelVue-Connector/(SPEC-071)-SPC-TV-TelVue-Connector.md) |
-| JOURNEY-005.PP-02 | TelVue captions visible but not extractable | 1 | Download | yt-dlp --write-sub doesn't find TelVue captions | Investigate TelVue caption delivery mechanism |
-| JOURNEY-005.PP-03 | Persistent Vimeo VTT failures with no fallback | 2 | Download | Some recordings lack auto-generated captions | Need Whisper or alternative transcription path |
+| JOURNEY-005.PP-01 | ~~TelVue same-day availability invisible to pipeline~~ | ~~2~~ | Discovery | No TelVue connector existed | **Resolved** by [SPEC-071](../../../spec/Complete/(SPEC-071)-SPC-TV-TelVue-Connector/(SPEC-071)-SPC-TV-TelVue-Connector.md) (2026-03-31) |
+| JOURNEY-005.PP-02 | ~~TelVue captions visible but not extractable~~ | ~~1~~ | Download | yt-dlp --write-sub doesn't find TelVue captions | **Resolved** — captions served at `/closed_captions/` endpoint, downloaded directly via curl (2026-03-31) |
+| JOURNEY-005.PP-03 | ~~Persistent Vimeo VTT failures with no fallback~~ | ~~2~~ | Download | Some recordings lack auto-generated captions | **Resolved** — TelVue connector serves as fallback source for same recordings (2026-03-31) |
 | JOURNEY-005.PP-04 | LLM interpretation fails silently on auth issues | 2 | Interpretation | No health check or notification for `claude -p` availability | Add pre-flight check or operator notification |
 
 ## Opportunities
 
-1. **Caption extraction from TelVue** (PP-02): The TelVue player shows closed captions — they exist somewhere. Finding the delivery mechanism (separate VTT endpoint, embedded in HLS stream, WebVTT sidecar) would unlock same-day transcription for all SPC-TV recordings.
+1. ~~**Caption extraction from TelVue** (PP-02)~~ — **Resolved 2026-03-31.** TelVue serves captions as separate VTT files at `/closed_captions/{base64}?sha={sig}`, discoverable from the JW Player tracks array in the media page HTML.
 
-2. **Whisper fallback** (PP-03): When neither Vimeo nor TelVue provides extractable captions, download the audio stream and run Whisper locally. This is the nuclear option — slower but universal.
+2. ~~**Whisper fallback** (PP-03)~~ — **Largely resolved 2026-03-31.** TelVue now serves as a fallback for recordings that fail on Vimeo. A Whisper path may still be needed for recordings without any captions on either platform, but no such case has been observed.
 
 3. **Pipeline health dashboard** (PP-04): A pre-flight check before interpretation that validates `claude -p` availability, reports pending meeting backlog, and surfaces blocked recordings.
 

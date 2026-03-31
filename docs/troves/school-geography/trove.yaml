@@ -1,0 +1,12 @@
+name: school-geography
+description: School locations, catchment zones, bell schedules, and geographic constraints for South Portland elementary reconfiguration analysis
+created: 2026-03-31
+sources:
+  - NCES CCD School Search
+  - South Portland School Department website (spsdme.org)
+  - Data4Good redistricting tool (sopo-redistricting-tool trove)
+  - FY27 budget documents evidence pool
+linked-artifacts:
+  - SPEC-055
+  - EPIC-030
+  - INITIATIVE-006

@@ -1,0 +1,31 @@
+trove: maine-doe-enrollment
+created: 2026-03-30
+refreshed: 2026-03-30
+tags:
+  - enrollment
+  - nces
+  - ccd
+  - south-portland
+  - demographics
+  - grade-level
+
+freshness-ttl:
+  document: never  # NCES CCD data is certified annual snapshots
+
+history:
+  - event: created
+    date: 2026-03-30
+    commit: 3be2972
+    sources: 1
+
+referenced-by: []
+
+sources:
+  - source-id: "001-nces-ccd-enrollment-by-grade"
+    type: document
+    fetched: 2026-03-30T23:45:00Z
+    title: "NCES CCD Grade-Level Enrollment — South Portland Public Schools (2013-14 through 2024-25)"
+    url: "https://nces.ed.gov/ccd/elsi/tableGenerator.aspx"
+    hash: "1fa5df184d069c5fc93492c703eb45f017e4168b6ad80d8bbdbf1d9e254781fb"
+    freshness-ttl: never
+    notes: "ELSI Table Generator export. District-level enrollment by grade (PK through 12) for 12 school years. Source: U.S. Department of Education NCES Common Core of Data, Local Education Agency Universe Survey. October 1 certified counts. NCES District ID: 2312330."

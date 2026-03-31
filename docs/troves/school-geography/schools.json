@@ -1,0 +1,117 @@
+{
+  "district": "South Portland Public Schools",
+  "nces_id": "2312330",
+  "state": "ME",
+  "data_date": "2026-03-30",
+  "sources": [
+    "NCES CCD School Search",
+    "South Portland School Department website",
+    "Data4Good redistricting tool (sopo-redistricting-tool trove)"
+  ],
+  "schools": [
+    {
+      "name": "Frank I. Brown Elementary School",
+      "short_name": "Brown",
+      "address": "37 Highland Avenue, South Portland, ME 04106",
+      "grades_served": "K-4",
+      "enrollment_2025_26": {
+        "K": 29, "1": 44, "2": 46, "3": 38, "4": 37,
+        "total_k4": 194
+      },
+      "capacity": null,
+      "notes": "No PreK program"
+    },
+    {
+      "name": "Dyer Elementary School",
+      "short_name": "Dyer",
+      "address": "52 Alfred Street, South Portland, ME 04106",
+      "grades_served": "PreK-4",
+      "enrollment_2025_26": {
+        "PreK": 29, "K": 35, "1": 28, "2": 39, "3": 25, "4": 39,
+        "total_k4": 166,
+        "total_with_prek": 195
+      },
+      "capacity": null,
+      "notes": "PreK pilot site (29 students). Roof repair needed: $535K."
+    },
+    {
+      "name": "James Otis Kaler Elementary School",
+      "short_name": "Kaler",
+      "address": "165 South Kelsey Street, South Portland, ME 04106",
+      "grades_served": "PreK-4",
+      "enrollment_2025_26": {
+        "PreK": 29, "K": 26, "1": 33, "2": 30, "3": 26, "4": 20,
+        "total_k4": 135,
+        "total_with_prek": 164
+      },
+      "capacity": null,
+      "notes": "PreK pilot site (29 students). Proposed for closure. Roof repair needed: $302K. Smallest K-4 enrollment."
+    },
+    {
+      "name": "Dora L. Small Elementary School",
+      "short_name": "Small",
+      "address": "87 Thompson Street, South Portland, ME 04106",
+      "grades_served": "K-4",
+      "enrollment_2025_26": {
+        "K": 33, "1": 39, "2": 39, "3": 42, "4": 46,
+        "total_k4": 199
+      },
+      "capacity": null,
+      "notes": "No PreK program. Smallest school per budget documents (190 cited, NCES shows 199)."
+    },
+    {
+      "name": "Waldo T. Skillin Elementary School",
+      "short_name": "Skillin",
+      "address": "180 Wescott Road, South Portland, ME 04106",
+      "grades_served": "K-4",
+      "enrollment_2025_26": {
+        "K": 68, "1": 56, "2": 64, "3": 58, "4": 73,
+        "total_k4": 319
+      },
+      "capacity": 380,
+      "notes": "Largest elementary. Most diverse student body. Most expensive capital needs (HVAC). Cannot be closed — remaining 4 schools lack capacity to absorb."
+    },
+    {
+      "name": "South Portland Middle School",
+      "short_name": "SPMS",
+      "address": "120 Wescott Road, South Portland, ME 04106",
+      "grades_served": "5-8",
+      "enrollment_2025_26": null,
+      "capacity": null,
+      "notes": "Staggered bell times (7:55 and 8:45). Community School model site. Bell time consolidation deferred to fall 2027 (requires $25K DOT traffic study)."
+    },
+    {
+      "name": "South Portland High School",
+      "short_name": "SPHS",
+      "address": "637 Highland Avenue, South Portland, ME 04106",
+      "grades_served": "9-12",
+      "enrollment_2025_26": null,
+      "capacity": null,
+      "notes": ""
+    }
+  ],
+  "geographic_notes": {
+    "i295_impact": "Interstate 295 bisects South Portland, separating west-side neighborhoods from east-side schools. West-side students are 100% bused. Some bus routes reach 45+ minutes.",
+    "walkability_threshold": "The redistricting tool uses 0.75 miles as the walkability threshold, accounting for actual road/sidewalk paths via OpenStreetMap data.",
+    "walkable_percentage": "Under current 5-school configuration, approximately 44% of students are walkable. This varies by closure scenario."
+  },
+  "reconfiguration_options": {
+    "option_a": {
+      "description": "2 primary (PreK-1) + 2 intermediate (2-4), Kaler closed",
+      "primary_schools": ["Dyer", "Small"],
+      "intermediate_schools": ["Brown", "Skillin"],
+      "notes": "Administration recommendation as of March 9, 2026"
+    },
+    "option_b": {
+      "description": "4 buildings K-4, Kaler closed, redistrict by proximity",
+      "schools": ["Brown", "Dyer", "Small", "Skillin"],
+      "notes": "Board alternative"
+    },
+    "variant_c": {
+      "description": "3 buildings PreK-2 + 1 building Grades 3-4, Kaler closed",
+      "prek2_schools": ["TBD — 3 of the 4 remaining"],
+      "grades34_school": ["TBD — 1 of the 4 remaining"],
+      "notes": "Citizen-proposed alternative for transport analysis"
+    }
+  }
+}

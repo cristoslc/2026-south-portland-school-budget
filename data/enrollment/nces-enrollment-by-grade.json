@@ -1,0 +1,940 @@
+{
+  "district": "South Portland Public Schools",
+  "state": "Maine",
+  "nces_id": "2312330",
+  "source": "NCES Common Core of Data (CCD)",
+  "source_url": "https://nces.ed.gov/ccd/elsi/",
+  "access_date": "2026-03-30",
+  "years": [
+    "2024-25",
+    "2023-24",
+    "2022-23",
+    "2021-22",
+    "2020-21",
+    "2019-20",
+    "2018-19",
+    "2017-18",
+    "2016-17",
+    "2015-16",
+    "2014-15",
+    "2013-14"
+  ],
+  "grades": [
+    "PK",
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+  ],
+  "data": [
+    {
+      "year": "2024-25",
+      "grade": "Total",
+      "enrollment": 2816
+    },
+    {
+      "year": "2023-24",
+      "grade": "Total",
+      "enrollment": 2942
+    },
+    {
+      "year": "2022-23",
+      "grade": "Total",
+      "enrollment": 3081
+    },
+    {
+      "year": "2021-22",
+      "grade": "Total",
+      "enrollment": 2890
+    },
+    {
+      "year": "2020-21",
+      "grade": "Total",
+      "enrollment": 2913
+    },
+    {
+      "year": "2019-20",
+      "grade": "Total",
+      "enrollment": 2963
+    },
+    {
+      "year": "2018-19",
+      "grade": "Total",
+      "enrollment": 2979
+    },
+    {
+      "year": "2017-18",
+      "grade": "Total",
+      "enrollment": 2982
+    },
+    {
+      "year": "2016-17",
+      "grade": "Total",
+      "enrollment": 3043
+    },
+    {
+      "year": "2015-16",
+      "grade": "Total",
+      "enrollment": 3084
+    },
+    {
+      "year": "2014-15",
+      "grade": "Total",
+      "enrollment": 3102
+    },
+    {
+      "year": "2013-14",
+      "grade": "Total",
+      "enrollment": 3096
+    },
+    {
+      "year": "2024-25",
+      "grade": "PK",
+      "enrollment": 51
+    },
+    {
+      "year": "2023-24",
+      "grade": "PK",
+      "enrollment": 56
+    },
+    {
+      "year": "2022-23",
+      "grade": "PK",
+      "enrollment": 49
+    },
+    {
+      "year": "2021-22",
+      "grade": "PK",
+      "enrollment": 45
+    },
+    {
+      "year": "2020-21",
+      "grade": "PK",
+      "enrollment": 57
+    },
+    {
+      "year": "2019-20",
+      "grade": "PK",
+      "enrollment": 57
+    },
+    {
+      "year": "2018-19",
+      "grade": "PK",
+      "enrollment": 56
+    },
+    {
+      "year": "2017-18",
+      "grade": "PK",
+      "enrollment": 36
+    },
+    {
+      "year": "2016-17",
+      "grade": "PK",
+      "enrollment": 28
+    },
+    {
+      "year": "2015-16",
+      "grade": "PK",
+      "enrollment": 28
+    },
+    {
+      "year": "2014-15",
+      "grade": "PK",
+      "enrollment": 27
+    },
+    {
+      "year": "2013-14",
+      "grade": "PK",
+      "enrollment": 28
+    },
+    {
+      "year": "2024-25",
+      "grade": "K",
+      "enrollment": 200
+    },
+    {
+      "year": "2023-24",
+      "grade": "K",
+      "enrollment": 217
+    },
+    {
+      "year": "2022-23",
+      "grade": "K",
+      "enrollment": 202
+    },
+    {
+      "year": "2021-22",
+      "grade": "K",
+      "enrollment": 243
+    },
+    {
+      "year": "2020-21",
+      "grade": "K",
+      "enrollment": 229
+    },
+    {
+      "year": "2019-20",
+      "grade": "K",
+      "enrollment": 238
+    },
+    {
+      "year": "2018-19",
+      "grade": "K",
+      "enrollment": 228
+    },
+    {
+      "year": "2017-18",
+      "grade": "K",
+      "enrollment": 214
+    },
+    {
+      "year": "2016-17",
+      "grade": "K",
+      "enrollment": 239
+    },
+    {
+      "year": "2015-16",
+      "grade": "K",
+      "enrollment": 246
+    },
+    {
+      "year": "2014-15",
+      "grade": "K",
+      "enrollment": 229
+    },
+    {
+      "year": "2013-14",
+      "grade": "K",
+      "enrollment": 259
+    },
+    {
+      "year": "2024-25",
+      "grade": "1",
+      "enrollment": 212
+    },
+    {
+      "year": "2023-24",
+      "grade": "1",
+      "enrollment": 188
+    },
+    {
+      "year": "2022-23",
+      "grade": "1",
+      "enrollment": 250
+    },
+    {
+      "year": "2021-22",
+      "grade": "1",
+      "enrollment": 211
+    },
+    {
+      "year": "2020-21",
+      "grade": "1",
+      "enrollment": 204
+    },
+    {
+      "year": "2019-20",
+      "grade": "1",
+      "enrollment": 208
+    },
+    {
+      "year": "2018-19",
+      "grade": "1",
+      "enrollment": 201
+    },
+    {
+      "year": "2017-18",
+      "grade": "1",
+      "enrollment": 227
+    },
+    {
+      "year": "2016-17",
+      "grade": "1",
+      "enrollment": 232
+    },
+    {
+      "year": "2015-16",
+      "grade": "1",
+      "enrollment": 225
+    },
+    {
+      "year": "2014-15",
+      "grade": "1",
+      "enrollment": 252
+    },
+    {
+      "year": "2013-14",
+      "grade": "1",
+      "enrollment": 257
+    },
+    {
+      "year": "2024-25",
+      "grade": "2",
+      "enrollment": 190
+    },
+    {
+      "year": "2023-24",
+      "grade": "2",
+      "enrollment": 222
+    },
+    {
+      "year": "2022-23",
+      "grade": "2",
+      "enrollment": 230
+    },
+    {
+      "year": "2021-22",
+      "grade": "2",
+      "enrollment": 205
+    },
+    {
+      "year": "2020-21",
+      "grade": "2",
+      "enrollment": 208
+    },
+    {
+      "year": "2019-20",
+      "grade": "2",
+      "enrollment": 193
+    },
+    {
+      "year": "2018-19",
+      "grade": "2",
+      "enrollment": 214
+    },
+    {
+      "year": "2017-18",
+      "grade": "2",
+      "enrollment": 221
+    },
+    {
+      "year": "2016-17",
+      "grade": "2",
+      "enrollment": 230
+    },
+    {
+      "year": "2015-16",
+      "grade": "2",
+      "enrollment": 247
+    },
+    {
+      "year": "2014-15",
+      "grade": "2",
+      "enrollment": 252
+    },
+    {
+      "year": "2013-14",
+      "grade": "2",
+      "enrollment": 254
+    },
+    {
+      "year": "2024-25",
+      "grade": "3",
+      "enrollment": 215
+    },
+    {
+      "year": "2023-24",
+      "grade": "3",
+      "enrollment": 223
+    },
+    {
+      "year": "2022-23",
+      "grade": "3",
+      "enrollment": 232
+    },
+    {
+      "year": "2021-22",
+      "grade": "3",
+      "enrollment": 204
+    },
+    {
+      "year": "2020-21",
+      "grade": "3",
+      "enrollment": 184
+    },
+    {
+      "year": "2019-20",
+      "grade": "3",
+      "enrollment": 214
+    },
+    {
+      "year": "2018-19",
+      "grade": "3",
+      "enrollment": 214
+    },
+    {
+      "year": "2017-18",
+      "grade": "3",
+      "enrollment": 229
+    },
+    {
+      "year": "2016-17",
+      "grade": "3",
+      "enrollment": 230
+    },
+    {
+      "year": "2015-16",
+      "grade": "3",
+      "enrollment": 243
+    },
+    {
+      "year": "2014-15",
+      "grade": "3",
+      "enrollment": 255
+    },
+    {
+      "year": "2013-14",
+      "grade": "3",
+      "enrollment": 229
+    },
+    {
+      "year": "2024-25",
+      "grade": "4",
+      "enrollment": 213
+    },
+    {
+      "year": "2023-24",
+      "grade": "4",
+      "enrollment": 222
+    },
+    {
+      "year": "2022-23",
+      "grade": "4",
+      "enrollment": 209
+    },
+    {
+      "year": "2021-22",
+      "grade": "4",
+      "enrollment": 167
+    },
+    {
+      "year": "2020-21",
+      "grade": "4",
+      "enrollment": 212
+    },
+    {
+      "year": "2019-20",
+      "grade": "4",
+      "enrollment": 221
+    },
+    {
+      "year": "2018-19",
+      "grade": "4",
+      "enrollment": 236
+    },
+    {
+      "year": "2017-18",
+      "grade": "4",
+      "enrollment": 221
+    },
+    {
+      "year": "2016-17",
+      "grade": "4",
+      "enrollment": 254
+    },
+    {
+      "year": "2015-16",
+      "grade": "4",
+      "enrollment": 248
+    },
+    {
+      "year": "2014-15",
+      "grade": "4",
+      "enrollment": 222
+    },
+    {
+      "year": "2013-14",
+      "grade": "4",
+      "enrollment": 245
+    },
+    {
+      "year": "2024-25",
+      "grade": "5",
+      "enrollment": 199
+    },
+    {
+      "year": "2023-24",
+      "grade": "5",
+      "enrollment": 202
+    },
+    {
+      "year": "2022-23",
+      "grade": "5",
+      "enrollment": 192
+    },
+    {
+      "year": "2021-22",
+      "grade": "5",
+      "enrollment": 206
+    },
+    {
+      "year": "2020-21",
+      "grade": "5",
+      "enrollment": 217
+    },
+    {
+      "year": "2019-20",
+      "grade": "5",
+      "enrollment": 239
+    },
+    {
+      "year": "2018-19",
+      "grade": "5",
+      "enrollment": 230
+    },
+    {
+      "year": "2017-18",
+      "grade": "5",
+      "enrollment": 246
+    },
+    {
+      "year": "2016-17",
+      "grade": "5",
+      "enrollment": 230
+    },
+    {
+      "year": "2015-16",
+      "grade": "5",
+      "enrollment": 212
+    },
+    {
+      "year": "2014-15",
+      "grade": "5",
+      "enrollment": 243
+    },
+    {
+      "year": "2013-14",
+      "grade": "5",
+      "enrollment": 255
+    },
+    {
+      "year": "2024-25",
+      "grade": "6",
+      "enrollment": 209
+    },
+    {
+      "year": "2023-24",
+      "grade": "6",
+      "enrollment": 185
+    },
+    {
+      "year": "2022-23",
+      "grade": "6",
+      "enrollment": 220
+    },
+    {
+      "year": "2021-22",
+      "grade": "6",
+      "enrollment": 209
+    },
+    {
+      "year": "2020-21",
+      "grade": "6",
+      "enrollment": 234
+    },
+    {
+      "year": "2019-20",
+      "grade": "6",
+      "enrollment": 223
+    },
+    {
+      "year": "2018-19",
+      "grade": "6",
+      "enrollment": 250
+    },
+    {
+      "year": "2017-18",
+      "grade": "6",
+      "enrollment": 218
+    },
+    {
+      "year": "2016-17",
+      "grade": "6",
+      "enrollment": 219
+    },
+    {
+      "year": "2015-16",
+      "grade": "6",
+      "enrollment": 244
+    },
+    {
+      "year": "2014-15",
+      "grade": "6",
+      "enrollment": 256
+    },
+    {
+      "year": "2013-14",
+      "grade": "6",
+      "enrollment": 230
+    },
+    {
+      "year": "2024-25",
+      "grade": "7",
+      "enrollment": 182
+    },
+    {
+      "year": "2023-24",
+      "grade": "7",
+      "enrollment": 218
+    },
+    {
+      "year": "2022-23",
+      "grade": "7",
+      "enrollment": 226
+    },
+    {
+      "year": "2021-22",
+      "grade": "7",
+      "enrollment": 245
+    },
+    {
+      "year": "2020-21",
+      "grade": "7",
+      "enrollment": 218
+    },
+    {
+      "year": "2019-20",
+      "grade": "7",
+      "enrollment": 244
+    },
+    {
+      "year": "2018-19",
+      "grade": "7",
+      "enrollment": 222
+    },
+    {
+      "year": "2017-18",
+      "grade": "7",
+      "enrollment": 226
+    },
+    {
+      "year": "2016-17",
+      "grade": "7",
+      "enrollment": 244
+    },
+    {
+      "year": "2015-16",
+      "grade": "7",
+      "enrollment": 252
+    },
+    {
+      "year": "2014-15",
+      "grade": "7",
+      "enrollment": 238
+    },
+    {
+      "year": "2013-14",
+      "grade": "7",
+      "enrollment": 233
+    },
+    {
+      "year": "2024-25",
+      "grade": "8",
+      "enrollment": 217
+    },
+    {
+      "year": "2023-24",
+      "grade": "8",
+      "enrollment": 214
+    },
+    {
+      "year": "2022-23",
+      "grade": "8",
+      "enrollment": 252
+    },
+    {
+      "year": "2021-22",
+      "grade": "8",
+      "enrollment": 218
+    },
+    {
+      "year": "2020-21",
+      "grade": "8",
+      "enrollment": 241
+    },
+    {
+      "year": "2019-20",
+      "grade": "8",
+      "enrollment": 218
+    },
+    {
+      "year": "2018-19",
+      "grade": "8",
+      "enrollment": 222
+    },
+    {
+      "year": "2017-18",
+      "grade": "8",
+      "enrollment": 246
+    },
+    {
+      "year": "2016-17",
+      "grade": "8",
+      "enrollment": 245
+    },
+    {
+      "year": "2015-16",
+      "grade": "8",
+      "enrollment": 227
+    },
+    {
+      "year": "2014-15",
+      "grade": "8",
+      "enrollment": 231
+    },
+    {
+      "year": "2013-14",
+      "grade": "8",
+      "enrollment": 256
+    },
+    {
+      "year": "2024-25",
+      "grade": "9",
+      "enrollment": 208
+    },
+    {
+      "year": "2023-24",
+      "grade": "9",
+      "enrollment": 237
+    },
+    {
+      "year": "2022-23",
+      "grade": "9",
+      "enrollment": 235
+    },
+    {
+      "year": "2021-22",
+      "grade": "9",
+      "enrollment": 244
+    },
+    {
+      "year": "2020-21",
+      "grade": "9",
+      "enrollment": 224
+    },
+    {
+      "year": "2019-20",
+      "grade": "9",
+      "enrollment": 220
+    },
+    {
+      "year": "2018-19",
+      "grade": "9",
+      "enrollment": 240
+    },
+    {
+      "year": "2017-18",
+      "grade": "9",
+      "enrollment": 212
+    },
+    {
+      "year": "2016-17",
+      "grade": "9",
+      "enrollment": 227
+    },
+    {
+      "year": "2015-16",
+      "grade": "9",
+      "enrollment": 223
+    },
+    {
+      "year": "2014-15",
+      "grade": "9",
+      "enrollment": 251
+    },
+    {
+      "year": "2013-14",
+      "grade": "9",
+      "enrollment": 197
+    },
+    {
+      "year": "2024-25",
+      "grade": "10",
+      "enrollment": 229
+    },
+    {
+      "year": "2023-24",
+      "grade": "10",
+      "enrollment": 228
+    },
+    {
+      "year": "2022-23",
+      "grade": "10",
+      "enrollment": 282
+    },
+    {
+      "year": "2021-22",
+      "grade": "10",
+      "enrollment": 226
+    },
+    {
+      "year": "2020-21",
+      "grade": "10",
+      "enrollment": 228
+    },
+    {
+      "year": "2019-20",
+      "grade": "10",
+      "enrollment": 233
+    },
+    {
+      "year": "2018-19",
+      "grade": "10",
+      "enrollment": 225
+    },
+    {
+      "year": "2017-18",
+      "grade": "10",
+      "enrollment": 229
+    },
+    {
+      "year": "2016-17",
+      "grade": "10",
+      "enrollment": 219
+    },
+    {
+      "year": "2015-16",
+      "grade": "10",
+      "enrollment": 255
+    },
+    {
+      "year": "2014-15",
+      "grade": "10",
+      "enrollment": 204
+    },
+    {
+      "year": "2013-14",
+      "grade": "10",
+      "enrollment": 220
+    },
+    {
+      "year": "2024-25",
+      "grade": "11",
+      "enrollment": 218
+    },
+    {
+      "year": "2023-24",
+      "grade": "11",
+      "enrollment": 271
+    },
+    {
+      "year": "2022-23",
+      "grade": "11",
+      "enrollment": 258
+    },
+    {
+      "year": "2021-22",
+      "grade": "11",
+      "enrollment": 228
+    },
+    {
+      "year": "2020-21",
+      "grade": "11",
+      "enrollment": 225
+    },
+    {
+      "year": "2019-20",
+      "grade": "11",
+      "enrollment": 229
+    },
+    {
+      "year": "2018-19",
+      "grade": "11",
+      "enrollment": 217
+    },
+    {
+      "year": "2017-18",
+      "grade": "11",
+      "enrollment": 223
+    },
+    {
+      "year": "2016-17",
+      "grade": "11",
+      "enrollment": 239
+    },
+    {
+      "year": "2015-16",
+      "grade": "11",
+      "enrollment": 207
+    },
+    {
+      "year": "2014-15",
+      "grade": "11",
+      "enrollment": 222
+    },
+    {
+      "year": "2013-14",
+      "grade": "11",
+      "enrollment": 211
+    },
+    {
+      "year": "2024-25",
+      "grade": "12",
+      "enrollment": 273
+    },
+    {
+      "year": "2023-24",
+      "grade": "12",
+      "enrollment": 259
+    },
+    {
+      "year": "2022-23",
+      "grade": "12",
+      "enrollment": 244
+    },
+    {
+      "year": "2021-22",
+      "grade": "12",
+      "enrollment": 239
+    },
+    {
+      "year": "2020-21",
+      "grade": "12",
+      "enrollment": 232
+    },
+    {
+      "year": "2019-20",
+      "grade": "12",
+      "enrollment": 226
+    },
+    {
+      "year": "2018-19",
+      "grade": "12",
+      "enrollment": 224
+    },
+    {
+      "year": "2017-18",
+      "grade": "12",
+      "enrollment": 234
+    },
+    {
+      "year": "2016-17",
+      "grade": "12",
+      "enrollment": 207
+    },
+    {
+      "year": "2015-16",
+      "grade": "12",
+      "enrollment": 227
+    },
+    {
+      "year": "2014-15",
+      "grade": "12",
+      "enrollment": 220
+    },
+    {
+      "year": "2013-14",
+      "grade": "12",
+      "enrollment": 222
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+name: maine-doe-transport-expenditure
+description: Per-pupil transportation expenditure data for South Portland and peer districts from Maine DOE FY25 resident expenditure report
+created: 2026-03-31
+sources:
+  - url: https://www.maine.gov/doe/sites/maine.gov.doe/files/inline-files/School%20Finance%20-%20FY25%20Resident%20Expenditure%20Per%20Pupil%20-%201.7.2026.pdf
+    title: "Resident Expenditures by Budget Category - FY 2024-25 (Per Pupil Amounts)"
+    fetched: 2026-03-31
+linked-artifacts:
+  - SPEC-053
+  - EPIC-030
+  - INITIATIVE-006

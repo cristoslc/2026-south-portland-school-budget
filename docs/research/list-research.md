@@ -5,7 +5,6 @@
 | Artifact | Title | Last Updated | Commit |
 |----------|-------|-------------|--------|
 | SPIKE-008 | Question Scoring Prototype | 2026-03-30 | — |
-| SPIKE-009 | Building-Level Data Feasibility | 2026-03-30 | — |
 
 ## Complete
 
@@ -17,6 +16,7 @@
 | SPIKE-004 | Pipeline Scheduling Approach | 2026-03-10 | _pending_ |
 | SPIKE-005 | Interpretation Prompt Design | 2026-03-12 | a31869a |
 | SPIKE-006 | Cumulative Fold Strategy | 2026-03-12 | a31869a |
+| SPIKE-009 | Building-Level Data Feasibility | 2026-03-31 | — |
 
 ## Abandoned
 

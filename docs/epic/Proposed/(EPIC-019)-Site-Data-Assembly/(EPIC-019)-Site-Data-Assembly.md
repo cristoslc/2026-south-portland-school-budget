@@ -44,6 +44,8 @@ Every piece of structured data the site needs is loaded through Astro content co
 | SPEC-032 | Evidence synthesis content collection | _to be created_ |
 | SPEC-033 | Meeting timeline data collection | _to be created_ |
 | SPEC-034 | Question data schema and collection | _to be created_ |
+| SPEC-069 | Enrollment Study Site Pages | Active |
+| SPEC-070 | Transportation Analysis Site Pages | Active |
 
 ## Key Dependencies
 

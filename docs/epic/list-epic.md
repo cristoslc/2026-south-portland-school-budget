@@ -8,6 +8,9 @@
 | EPIC-018 | Community Feedback | 2026-03-22 | — |
 | EPIC-019 | Site Data Assembly | 2026-03-22 | — |
 | EPIC-020 | Feedback Pipeline Integration | 2026-03-23 | — |
+| EPIC-023 | Enrollment Gap Analysis & Phase 1 Briefs | 2026-03-30 | — |
+| EPIC-024 | Cohort Survival Model & 5-Year Projections | 2026-03-30 | — |
+| EPIC-025 | Phase 2 Briefs & Baseline Publication | 2026-03-30 | — |
 
 ## Active
 
@@ -17,6 +20,7 @@
 | EPIC-016 | Site Visual Design | 2026-03-22 | 248620e |
 | EPIC-017 | Question Hub | 2026-03-22 | — |
 | EPIC-021 | Key Questions Tracking | 2026-03-30 | — |
+| EPIC-022 | Enrollment Data Acquisition | 2026-03-30 | — |
 
 ## Complete
 

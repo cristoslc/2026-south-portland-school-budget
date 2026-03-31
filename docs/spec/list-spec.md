@@ -8,6 +8,9 @@
 | SPEC-030 | Briefing Summary Block | 2026-03-22 | — |
 | SPEC-031 | Student-Friendly Language | 2026-03-22 | — |
 | SPEC-032 | Last Updated Indicator | 2026-03-22 | — |
+| SPEC-039 | Maine DOE Enrollment Data Collection | 2026-03-30 | — |
+| SPEC-040 | District Enrollment Claims Catalog | 2026-03-30 | — |
+| SPEC-041 | Supplementary Demographic Data Collection | 2026-03-30 | — |
 
 ## Active
 

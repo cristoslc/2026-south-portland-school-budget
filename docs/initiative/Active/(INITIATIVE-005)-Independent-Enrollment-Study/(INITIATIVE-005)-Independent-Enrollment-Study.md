@@ -35,7 +35,7 @@ Produce an independent, evidence-based enrollment analysis that exposes the gaps
 
 The district is proposing permanent closure of Kaler Elementary based on declining enrollment (3,085 → 2,744 students, -11% since 2015-16; elementary 1,401 → 1,080, -23% in 4 years). But no independent enrollment projections have been published. The board is making an irreversible infrastructure decision without answering whether the decline is structural or cyclical, without modeling LD 1829 housing density impact, CDS pre-K expansion (80-90 four-year-olds in FY27), or multilingual learner pipeline sensitivity to federal policy (1% → 17% since 2015).
 
-This initiative is **upstream** of [INITIATIVE-001](../Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) (lever savings depend on enrollment assumptions), [INITIATIVE-003](../Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md) (persona briefs consume enrollment findings), and [INITIATIVE-004](../Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md) (enrollment projections published to site).
+This initiative is **upstream** of [INITIATIVE-001](../(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) (lever savings depend on enrollment assumptions), [INITIATIVE-003](../(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md) (persona briefs consume enrollment findings), and [INITIATIVE-004](../(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md) (enrollment projections published to site).
 
 ## Desired Outcomes
 
@@ -52,7 +52,7 @@ For each persona: Maria knows whether her kids' school is at risk based on demog
 - 5-year projection (FY27-FY31) with scenario brackets: baseline trend continuation, LD 1829 housing density absorption, multilingual learner pipeline shifts (federal policy sensitivity), CDS pre-K mandate ramp
 - Per-persona Phase 1 briefs highlighting gaps in the decision basis (interventionist tone — "here's what you need to know before this decision gets made, and here's what nobody has shown you yet")
 - Per-persona Phase 2 briefs integrating independent projection findings
-- Structured enrollment data outputs consumable by [INITIATIVE-001](../Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) and the site
+- Structured enrollment data outputs consumable by [INITIATIVE-001](../(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) and the site
 
 **Stretch goals (data-gated):**
 - Building-level capacity analysis (functional capacity vs. seat count given growing SPED/ELL/behavioral space needs)
@@ -77,10 +77,10 @@ For each persona: Maria knows whether her kids' school is at risk based on demog
 
 | Artifact | Title | Status | Track |
 |----------|-------|--------|-------|
-| _TBD_ | Enrollment Data Acquisition | — | Both |
-| _TBD_ | Enrollment Gap Analysis & Phase 1 Briefs | — | Track 1 |
-| _TBD_ | Cohort Survival Model & 5-Year Projections | — | Track 2 |
-| _TBD_ | Phase 2 Briefs & Baseline Publication | — | Track 2 |
+| EPIC-022 | Enrollment Data Acquisition | Active | Both |
+| EPIC-023 | Enrollment Gap Analysis & Phase 1 Briefs | Proposed | Track 1 |
+| EPIC-024 | Cohort Survival Model & 5-Year Projections | Proposed | Track 2 |
+| EPIC-025 | Phase 2 Briefs & Baseline Publication | Proposed | Track 2 |
 
 ## Small Work (Epic-less Specs)
 
@@ -90,8 +90,8 @@ _None currently._
 
 - **Evidence pools (existing):** fy27-budget-documents, school-board-budget-meetings, city-council-meetings-2026
 - **Data acquisition (needed):** Maine DOE grade-level enrollment, DHHS vital records, city housing permits
-- **Infrastructure:** Interpretation pipeline ([INITIATIVE-003](../Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md)) for persona briefs; site ([INITIATIVE-004](../Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md)) for publication
-- **Downstream consumers:** [INITIATIVE-001](../Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) (lever analysis depends on enrollment projections)
+- **Infrastructure:** Interpretation pipeline ([INITIATIVE-003](../(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md)) for persona briefs; site ([INITIATIVE-004](../(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md)) for publication
+- **Downstream consumers:** [INITIATIVE-001](../(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) (lever analysis depends on enrollment projections)
 
 ## Lifecycle
 

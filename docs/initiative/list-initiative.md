@@ -8,6 +8,7 @@
 | INITIATIVE-003 | Interpretation Pipeline | 2026-03-16 | — |
 | INITIATIVE-004 | Public Budget Site | 2026-03-16 | — |
 | INITIATIVE-005 | Independent Enrollment Study | 2026-03-30 | — |
+| INITIATIVE-006 | Independent Transportation Analysis | 2026-03-30 | — |
 
 ## Complete
 

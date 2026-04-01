@@ -67,4 +67,4 @@
 
 - [EPIC-032](../../../epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md) — Fiscal Exposure & Family Logistics Briefs, 1/1
   - [SPEC-066](../../../spec/Active/(SPEC-066)-Transport-Persona-Briefs/(SPEC-066)-Transport-Persona-Briefs.md) — Transport Persona Briefs (Complete, done)
-- [SPIKE-001](../../../research/Complete/(SPIKE-001)-Vimeo-API-Access/(SPIKE-001)-Vimeo-API-Access.md) — Vimeo VTT Download via Playwright, done
+- [SPIKE-011](../../../research/Complete/(SPIKE-011)-Vimeo-API-Access/(SPIKE-011)-Vimeo-API-Access.md) — Vimeo VTT Download via Playwright, done

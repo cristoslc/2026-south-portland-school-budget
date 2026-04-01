@@ -4,10 +4,10 @@
 
 | Artifact | Title | Last Updated | Commit |
 |----------|-------|-------------|--------|
-| SPEC-029 | Persona Routing Selector | 2026-03-22 | — |
-| SPEC-030 | Briefing Summary Block | 2026-03-22 | — |
-| SPEC-031 | Student-Friendly Language | 2026-03-22 | — |
-| SPEC-032 | Last Updated Indicator | 2026-03-22 | — |
+| SPEC-072 | Persona Routing Selector | 2026-03-22 | — |
+| SPEC-073 | Briefing Summary Block | 2026-03-22 | — |
+| SPEC-074 | Student-Friendly Language | 2026-03-22 | — |
+| SPEC-075 | Last Updated Indicator | 2026-03-22 | — |
 
 ## Active
 

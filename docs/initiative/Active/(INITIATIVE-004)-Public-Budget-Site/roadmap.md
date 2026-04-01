@@ -74,8 +74,8 @@
 
 - [EPIC-014](../../../epic/Complete/(EPIC-014)-Site-Scaffolding-And-Deploy/(EPIC-014)-Site-Scaffolding-And-Deploy.md) — Site Scaffolding and Deploy, —
 - [EPIC-015](../../../epic/Complete/(EPIC-015)-Core-Pages/(EPIC-015)-Core-Pages.md) — Core Pages, 0/5
-  - [SPEC-029](../../../spec/Proposed/(SPEC-029)-Persona-Routing-Selector/(SPEC-029)-Persona-Routing-Selector.md) — Persona Routing Selector (Proposed, in progress)
-  - [SPEC-030](../../../spec/Proposed/(SPEC-030)-Briefing-Summary-Block/(SPEC-030)-Briefing-Summary-Block.md) — Briefing Summary Block (Proposed, in progress)
-  - [SPEC-031](../../../spec/Proposed/(SPEC-031)-Student-Friendly-Language/(SPEC-031)-Student-Friendly-Language.md) — Student-Friendly Language (Proposed, in progress)
-  - [SPEC-032](../../../spec/Proposed/(SPEC-032)-Last-Updated-Indicator/(SPEC-032)-Last-Updated-Indicator.md) — Last Updated Indicator (Proposed, in progress)
+  - [SPEC-072](../../../spec/Proposed/(SPEC-072)-Persona-Routing-Selector/(SPEC-072)-Persona-Routing-Selector.md) — Persona Routing Selector (Proposed, in progress)
+  - [SPEC-073](../../../spec/Proposed/(SPEC-073)-Briefing-Summary-Block/(SPEC-073)-Briefing-Summary-Block.md) — Briefing Summary Block (Proposed, in progress)
+  - [SPEC-074](../../../spec/Proposed/(SPEC-074)-Student-Friendly-Language/(SPEC-074)-Student-Friendly-Language.md) — Student-Friendly Language (Proposed, in progress)
+  - [SPEC-075](../../../spec/Proposed/(SPEC-075)-Last-Updated-Indicator/(SPEC-075)-Last-Updated-Indicator.md) — Last Updated Indicator (Proposed, in progress)
   - [SPEC-033](../../../spec/Active/(SPEC-033)-Evidence-Source-Links/(SPEC-033)-Evidence-Source-Links.md) — Evidence Source Links (Active, in progress)

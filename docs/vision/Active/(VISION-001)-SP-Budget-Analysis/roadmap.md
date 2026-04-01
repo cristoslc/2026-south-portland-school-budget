@@ -95,7 +95,7 @@
   - [EPIC-031](../../../epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md) — Configuration Transport Modeling (V1) (Active, 6/6)
   - [EPIC-033](../../../epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md) — Configuration Space Optimization (V2) (Proposed, —)
   - [EPIC-032](../../../epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md) — Fiscal Exposure & Family Logistics Briefs (Complete, 1/1)
-  - [SPIKE-001](../../../research/Complete/(SPIKE-001)-Vimeo-API-Access/(SPIKE-001)-Vimeo-API-Access.md) — Vimeo VTT Download via Playwright (Complete, done)
+  - [SPIKE-011](../../../research/Complete/(SPIKE-011)-Vimeo-API-Access/(SPIKE-011)-Vimeo-API-Access.md) — Vimeo VTT Download via Playwright (Complete, done)
 - [JOURNEY-001](../../../journey/Active/(JOURNEY-001)-Understanding-School-Impact/(JOURNEY-001)-Understanding-School-Impact.md) — Understanding What's Changing at My Kid's School, done
 - [JOURNEY-002](../../../journey/Active/(JOURNEY-002)-Evaluating-Budget-Fiscally/(JOURNEY-002)-Evaluating-Budget-Fiscally.md) — Evaluating the Budget as a Fiscal Document, done
 - [JOURNEY-003](../../../journey/Active/(JOURNEY-003)-Tracing-Equity/(JOURNEY-003)-Tracing-Equity.md) — Tracing Equity Through the Budget, done

@@ -1,6 +1,6 @@
 ---
 title: "Comparable District Transport Impact — Sanford & Biddeford School Closures"
-artifact: SPIKE-001
+artifact: SPIKE-011
 track: container
 status: Active
 author: Cristos L-C

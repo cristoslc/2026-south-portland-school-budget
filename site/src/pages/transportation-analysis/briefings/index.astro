@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const base = import.meta.env.BASE_URL;
+const transportBriefings = await getCollection('transportBriefings');
+const personas = await getCollection('personas');
+const personaTitles = Object.fromEntries(personas.map((persona) => [persona.data.artifact, persona.data.title]));
+
+const generalBriefing = transportBriefings.find((entry) => entry.data.persona_id === 'general');
+const personaBriefings = transportBriefings
+  .filter((entry) => entry.data.persona_id && entry.data.persona_id !== 'general')
+  .sort((a, b) => {
+    const aId = parseInt(a.data.persona_id.replace('PERSONA-', ''), 10);
+    const bId = parseInt(b.data.persona_id.replace('PERSONA-', ''), 10);
+    return aId - bId;
+  });
+---
+
+<BaseLayout
+  title="Transportation Briefings"
+  activePage="transportation-analysis"
+  description="General and persona-specific transportation briefings for South Portland's elementary reconfiguration."
+>
+  <main class="container">
+    <a href={`${base}transportation-analysis/`} class="back-link">&larr; Transportation Analysis</a>
+    <p class="section-kicker">Briefings</p>
+    <h1>Transportation Briefings</h1>
+    <p>
+      These briefs explain the same transportation questions in plain language for different community audiences.
+    </p>
+
+    {generalBriefing && (
+      <section>
+        <h2>General Community Brief</h2>
+        <div class="card-grid">
+          <a href={`${base}transportation-analysis/briefings/${generalBriefing.id}/`} class="card">
+            <span class="badge badge-general">General</span>
+            <h3>{generalBriefing.data.title}</h3>
+            <p>Start here for the broad community summary.</p>
+          </a>
+        </div>
+      </section>
+    )}
+
+    <section>
+      <h2>Persona Briefs</h2>
+      <div class="card-grid">
+        {personaBriefings.map((entry) => (
+          <a href={`${base}transportation-analysis/briefings/${entry.id}/`} class="card">
+            <span class="badge badge-parent">Transport</span>
+            <h3>{personaTitles[entry.data.persona_id] ?? entry.data.persona_name}</h3>
+            <p>Read the transportation summary written for this perspective.</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+</BaseLayout>

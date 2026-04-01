@@ -1,5 +1,5 @@
 ---
-id: SPEC-029
+id: SPEC-072
 title: Evidence-Pools to Troves Path Migration
 type: bug
 parent-initiative: ""
@@ -10,7 +10,7 @@ created: 2026-03-24
 last-updated: 2026-03-24
 ---
 
-# SPEC-029: Evidence-Pools to Troves Path Migration
+# SPEC-072: Evidence-Pools to Troves Path Migration
 
 ## Problem
 

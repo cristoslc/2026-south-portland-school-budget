@@ -1,0 +1,49 @@
+---
+import comparison from '../../../dist/transportation-analysis/transport-comparison.json';
+import { getComparisonRows, getConfigurationNames } from '../lib/transport-comparison.js';
+
+const base = import.meta.env.BASE_URL;
+const configurations = getConfigurationNames(comparison);
+const rows = getComparisonRows(comparison);
+---
+
+<section class="comparison-block">
+  <div class="comparison-intro">
+    <p class="section-kicker">Configuration Comparison</p>
+    <h2>How Option A and Option B compare on transportation impact</h2>
+    <p>
+      Claimed savings range: <strong>{comparison.reference.claimed_savings}</strong>.
+      The table below shows the transportation burden residents still need to understand as implementation moves forward.
+    </p>
+    <p class="comparison-callout">
+      <strong>Key finding:</strong> {comparison.key_finding}
+    </p>
+  </div>
+
+  <div class="table-scroll">
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Metric</th>
+          {configurations.map((name) => (
+            <th>{name}</th>
+          ))}
+          <th>Source</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr>
+            <th>{row.label}</th>
+            {configurations.map((name) => (
+              <td>{row.values[name]}</td>
+            ))}
+            <td>
+              <a href={`${base}transportation-analysis/${row.sourceSlug}/`}>Open analysis</a>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>

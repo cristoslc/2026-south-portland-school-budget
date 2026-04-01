@@ -5,22 +5,28 @@
 
 ## Progress
 
-█████░░░░░░░ 4/9 complete (44%)
+████░░░░░░░░ 18/50 complete (36%)
 
 ## Recent Activity
 
 | Date | Time | Commit | Message |
 |------|------|--------|---------|
-| 2026-03-18 | 14:02 | `b989d32` | chore(swain): lifecycle transitions, skills update, and goose installation |
-| 2026-03-16 | 01:37 | `858857a` | docs(initiatives): add initiative layer and migrate all epics |
-| 2026-03-16 | 01:25 | `033c538` | feat(skills): update swain skills with Initiative type, specgraph rewrite, and trove rename |
+| 2026-03-31 | 12:29 | `8a170ce` | docs: transition SPEC-071 to Complete, update JOURNEY-005 pain points |
+| 2026-03-31 | 12:27 | `3415f86` | feat: TelVue caption extraction + 3 new transcripts + DESIGN-002 + JOURNEY-005 |
+| 2026-03-31 | 10:52 | `ce28608` | docs: add delivery mechanism to initiatives, create site integration specs |
 
 ## Priority Subset
 
 ### Do First
 *High priority, active or unblocking*
 
-*(none)*
+| Initiative | Epic | Progress | Unblocks | Needs |
+|-----------|------|----------|----------|-------|
+| [Independent Enrollment Study](docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md) | [Enrollment Data Acquisition](docs/epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md) | 0/5 | 2 | — |
+|  | [Enrollment Gap Analysis & Phase 1 Briefs](docs/epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md) | 0/2 | 1 | — |
+|  | [Cohort Survival Model & 5-Year Projections](docs/epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md) | 0/2 | 1 | — |
+| [Independent Transportation Analysis](docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md) | [Transportation Data Acquisition & Baseline](docs/epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md) | 3/3 | 1 | **ready to complete** |
+|  | [Configuration Transport Modeling (V1)](docs/epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md) | 6/6 | 1 | **ready to complete** |
 
 ### Schedule
 *High priority, not yet started*
@@ -32,29 +38,76 @@
 
 | Initiative | Epic | Progress | Unblocks | Needs |
 |-----------|------|----------|----------|-------|
-| [Budget Lever Analysis](../../../initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) | [Google Slides Export Support](../../../spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md) | 0/0 | 0 | **needs decomposition** |
-|  | [Meaningful Document Filenames](../../../spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md) | 0/0 | 0 | **needs decomposition** |
+| [Budget Lever Analysis](docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) | [Google Slides Export Support](docs/spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md) | 0/0 | 0 | **needs decomposition** |
+|  | [Meaningful Document Filenames](docs/spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md) | 0/0 | 0 | **needs decomposition** |
+| [Independent Enrollment Study](docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md) | [Phase 2 Briefs & Baseline Publication](docs/epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md) | 0/2 | 0 | — |
 
 ### Backlog
 *Not yet prioritized or started*
 
 | Initiative | Epic | Progress | Unblocks | Needs |
 |-----------|------|----------|----------|-------|
-| [Budget Lever Analysis](../../../initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) | [Budget Lever Analysis](../../../epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md) | 0/0 | 0 | **activate or drop** |
+| [Budget Lever Analysis](docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) | [Budget Lever Analysis](docs/epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md) | 0/0 | 0 | **activate or drop** |
+| [Independent Transportation Analysis](docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md) | [Configuration Space Optimization (V2)](docs/epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md) | 0/0 | 0 | **activate or drop** |
 
 
 ## Children
 
 ### Active
 
-- [INITIATIVE-001](../../../initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) — Budget Lever Analysis (in progress)
+- [EPIC-026](../../../epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md) — Enrollment Data Acquisition, 0/5
+  - [SPEC-048](../../../spec/Active/(SPEC-048)-Maine-DOE-Enrollment-Data-Trove/(SPEC-048)-Maine-DOE-Enrollment-Data-Trove.md) — Maine DOE Enrollment Data Trove (Active, in progress)
+  - [SPEC-049](../../../spec/Active/(SPEC-049)-DHHS-Birth-Records-Trove/(SPEC-049)-DHHS-Birth-Records-Trove.md) — DHHS Birth Records Trove (Active, in progress)
+  - [SPEC-050](../../../spec/Active/(SPEC-050)-Housing-Permit-Data-Trove/(SPEC-050)-Housing-Permit-Data-Trove.md) — Housing Permit Data Trove (Active, in progress)
+  - [SPEC-051](../../../spec/Active/(SPEC-051)-Enrollment-Claims-Catalog/(SPEC-051)-Enrollment-Claims-Catalog.md) — Enrollment Claims Catalog (Active, in progress)
+  - [SPEC-052](../../../spec/Active/(SPEC-052)-School-Choice-Transfer-Data/(SPEC-052)-School-Choice-Transfer-Data.md) — School Choice Transfer Data (Active, in progress)
+- [EPIC-027](../../../epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md) — Enrollment Gap Analysis & Phase 1 Briefs, 0/2
+  - [SPEC-056](../../../spec/Active/(SPEC-056)-Enrollment-Gap-Analysis-Document/(SPEC-056)-Enrollment-Gap-Analysis-Document.md) — Enrollment Gap Analysis Document (Active, in progress)
+  - [SPEC-057](../../../spec/Active/(SPEC-057)-Enrollment-Phase-1-Persona-Briefs/(SPEC-057)-Enrollment-Phase-1-Persona-Briefs.md) — Enrollment Phase 1 Persona Briefs (Active, in progress)
+- [EPIC-028](../../../epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md) — Cohort Survival Model & 5-Year Projections, 0/2
+  - [SPEC-058](../../../spec/Active/(SPEC-058)-Cohort-Survival-Model/(SPEC-058)-Cohort-Survival-Model.md) — Cohort Survival Model (Active, in progress)
+  - [SPEC-059](../../../spec/Active/(SPEC-059)-Scenario-Bracket-Projections/(SPEC-059)-Scenario-Bracket-Projections.md) — Scenario Bracket Projections (Active, in progress)
+- [EPIC-029](../../../epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md) — Phase 2 Briefs & Baseline Publication, 0/2
+  - [SPEC-067](../../../spec/Active/(SPEC-067)-Enrollment-Phase-2-Persona-Briefs/(SPEC-067)-Enrollment-Phase-2-Persona-Briefs.md) — Enrollment Phase 2 Persona Briefs (Active, in progress)
+  - [SPEC-068](../../../spec/Active/(SPEC-068)-Enrollment-Baseline-Site-Page/(SPEC-068)-Enrollment-Baseline-Site-Page.md) — Enrollment Baseline Site Page (Active, in progress)
+- [EPIC-030](../../../epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md) — Transportation Data Acquisition & Baseline, 3/3
+  - [SPEC-053](../../../spec/Active/(SPEC-053)-Maine-DOE-Transport-Expenditure-Trove/(SPEC-053)-Maine-DOE-Transport-Expenditure-Trove.md) — Maine DOE Transport Expenditure Trove (Complete, done)
+  - [SPEC-054](../../../spec/Active/(SPEC-054)-Transportation-Claims-Catalog/(SPEC-054)-Transportation-Claims-Catalog.md) — Transportation Claims Catalog (Complete, done)
+  - [SPEC-055](../../../spec/Active/(SPEC-055)-School-Locations-Catchment-Data/(SPEC-055)-School-Locations-Catchment-Data.md) — School Locations & Catchment Data (Complete, done)
+- [EPIC-031](../../../epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md) — Configuration Transport Modeling (V1), 6/6
+  - [SPEC-060](../../../spec/Active/(SPEC-060)-Split-Family-Count-Model/(SPEC-060)-Split-Family-Count-Model.md) — Split-Family Count Model (Complete, done)
+  - [SPEC-061](../../../spec/Active/(SPEC-061)-McKinney-Vento-Exposure-Analysis/(SPEC-061)-McKinney-Vento-Exposure-Analysis.md) — McKinney-Vento Exposure Analysis (Complete, done)
+  - [SPEC-062](../../../spec/Active/(SPEC-062)-SEA-Staffing-Adequacy-Assessment/(SPEC-062)-SEA-Staffing-Adequacy-Assessment.md) — SEA Staffing Adequacy Assessment (Complete, done)
+  - [SPEC-063](../../../spec/Active/(SPEC-063)-Bell-Schedule-Tier-Analysis/(SPEC-063)-Bell-Schedule-Tier-Analysis.md) — Bell Schedule Tier Analysis (Complete, done)
+  - [SPEC-064](../../../spec/Active/(SPEC-064)-Before-After-Care-Gap-Analysis/(SPEC-064)-Before-After-Care-Gap-Analysis.md) — Before/After Care Gap Analysis (Complete, done)
+  - [SPEC-065](../../../spec/Active/(SPEC-065)-Transport-Configuration-Comparison/(SPEC-065)-Transport-Configuration-Comparison.md) — Transport Configuration Comparison (Complete, done)
+- [INITIATIVE-001](../../../initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) — Budget Lever Analysis, in progress
   - [EPIC-007](../../../epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md) — Budget Lever Analysis (Proposed, —)
   - [SPEC-023](../../../spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md) — Google Slides Export Support (Active, in progress)
   - [SPEC-024](../../../spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md) — Meaningful Document Filenames (Active, in progress)
-- [JOURNEY-001](../../../journey/Active/(JOURNEY-001)-Understanding-School-Impact/(JOURNEY-001)-Understanding-School-Impact.md) — Understanding What's Changing at My Kid's School (done)
-- [JOURNEY-002](../../../journey/Active/(JOURNEY-002)-Evaluating-Budget-Fiscally/(JOURNEY-002)-Evaluating-Budget-Fiscally.md) — Evaluating the Budget as a Fiscal Document (done)
-- [JOURNEY-003](../../../journey/Active/(JOURNEY-003)-Tracing-Equity/(JOURNEY-003)-Tracing-Equity.md) — Tracing Equity Through the Budget (done)
-- [JOURNEY-004](../../../journey/Active/(JOURNEY-004)-Navigating-Budget-Governance/(JOURNEY-004)-Navigating-Budget-Governance.md) — Navigating the Budget as a Governance Participant (done)
+- [INITIATIVE-005](../../../initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md) — Independent Enrollment Study, in progress
+  - [EPIC-026](../../../epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md) — Enrollment Data Acquisition (Active, 0/5)
+  - [EPIC-027](../../../epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md) — Enrollment Gap Analysis & Phase 1 Briefs (Active, 0/2)
+  - [EPIC-028](../../../epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md) — Cohort Survival Model & 5-Year Projections (Active, 0/2)
+  - [EPIC-029](../../../epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md) — Phase 2 Briefs & Baseline Publication (Active, 0/2)
+- [INITIATIVE-006](../../../initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md) — Independent Transportation Analysis, in progress
+  - [EPIC-030](../../../epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md) — Transportation Data Acquisition & Baseline (Active, 3/3)
+  - [EPIC-031](../../../epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md) — Configuration Transport Modeling (V1) (Active, 6/6)
+  - [EPIC-033](../../../epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md) — Configuration Space Optimization (V2) (Proposed, —)
+  - [EPIC-032](../../../epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md) — Fiscal Exposure & Family Logistics Briefs (Complete, 1/1)
+  - [SPIKE-001](../../../research/Complete/(SPIKE-001)-Vimeo-API-Access/(SPIKE-001)-Vimeo-API-Access.md) — Vimeo VTT Download via Playwright (Complete, done)
+- [JOURNEY-001](../../../journey/Active/(JOURNEY-001)-Understanding-School-Impact/(JOURNEY-001)-Understanding-School-Impact.md) — Understanding What's Changing at My Kid's School, done
+- [JOURNEY-002](../../../journey/Active/(JOURNEY-002)-Evaluating-Budget-Fiscally/(JOURNEY-002)-Evaluating-Budget-Fiscally.md) — Evaluating the Budget as a Fiscal Document, done
+- [JOURNEY-003](../../../journey/Active/(JOURNEY-003)-Tracing-Equity/(JOURNEY-003)-Tracing-Equity.md) — Tracing Equity Through the Budget, done
+- [JOURNEY-004](../../../journey/Active/(JOURNEY-004)-Navigating-Budget-Governance/(JOURNEY-004)-Navigating-Budget-Governance.md) — Navigating the Budget as a Governance Participant, done
+- [JOURNEY-005](../../../journey/Active/(JOURNEY-005)-Evidence-Lifecycle/(JOURNEY-005)-Evidence-Lifecycle.md) — Evidence Lifecycle, done
+
 ### Proposed
 
-- [EPIC-007](../../../epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md) — Budget Lever Analysis (—)
+- [EPIC-007](../../../epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md) — Budget Lever Analysis, —
+- [EPIC-033](../../../epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md) — Configuration Space Optimization (V2), —
+
+### Complete
+
+- [EPIC-032](../../../epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md) — Fiscal Exposure & Family Logistics Briefs, 1/1
+  - [SPEC-066](../../../spec/Active/(SPEC-066)-Transport-Persona-Briefs/(SPEC-066)-Transport-Persona-Briefs.md) — Transport Persona Briefs (Complete, done)

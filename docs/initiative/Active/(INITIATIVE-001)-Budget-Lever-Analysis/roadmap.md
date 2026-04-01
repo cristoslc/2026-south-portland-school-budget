@@ -32,23 +32,24 @@
 
 | Initiative | Epic | Progress | Unblocks | Needs |
 |-----------|------|----------|----------|-------|
-| [Budget Lever Analysis]((INITIATIVE-001)-Budget-Lever-Analysis.md) | [Google Slides Export Support](../../../spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md) | 0/0 | 0 | **needs decomposition** |
-|  | [Meaningful Document Filenames](../../../spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md) | 0/0 | 0 | **needs decomposition** |
+| [Budget Lever Analysis](docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) | [Google Slides Export Support](docs/spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md) | 0/0 | 0 | **needs decomposition** |
+|  | [Meaningful Document Filenames](docs/spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md) | 0/0 | 0 | **needs decomposition** |
 
 ### Backlog
 *Not yet prioritized or started*
 
 | Initiative | Epic | Progress | Unblocks | Needs |
 |-----------|------|----------|----------|-------|
-| [Budget Lever Analysis]((INITIATIVE-001)-Budget-Lever-Analysis.md) | [Budget Lever Analysis](../../../epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md) | 0/0 | 0 | **activate or drop** |
+| [Budget Lever Analysis](docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md) | [Budget Lever Analysis](docs/epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md) | 0/0 | 0 | **activate or drop** |
 
 
 ## Children
 
 ### Active
 
-- [SPEC-023](../../../spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md) — Google Slides Export Support (in progress)
-- [SPEC-024](../../../spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md) — Meaningful Document Filenames (in progress)
+- [SPEC-023](../../../spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md) — Google Slides Export Support, in progress
+- [SPEC-024](../../../spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md) — Meaningful Document Filenames, in progress
+
 ### Proposed
 
-- [EPIC-007](../../../epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md) — Budget Lever Analysis (—)
+- [EPIC-007](../../../epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md) — Budget Lever Analysis, —

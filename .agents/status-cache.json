@@ -1,59 +1,3008 @@
 {
-  "timestamp": "2026-03-31T02:14:05Z",
-  "repo": "/Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/session-20260330-221339-2be7",
-  "project": "session-20260330-221339-2be7",
+  "timestamp": "2026-04-01T13:18:10Z",
+  "repo": "/Users/cristos/Documents/projects/south-portland-school-budget-FY27",
+  "project": "south-portland-school-budget-FY27",
   "git": {
-    "branch": "worktree-session-20260330-221339-2be7",
+    "branch": "main",
     "dirty": true,
-    "changedFiles": 1,
+    "changedFiles": 104,
     "staged": 0,
-    "modified": 0,
-    "untracked": 1,
+    "modified": 66,
+    "untracked": 38,
     "lastCommit": {
-      "hash": "2528d27",
-      "message": "fix: publish regenerated briefs to dist/ for site deploy",
-      "age": "5 days ago"
+      "hash": "6f03423",
+      "message": "docs: rewrite all analysis docs for post-decision framing",
+      "age": "13 hours ago"
     },
     "recentCommits": [
       {
-        "hash": "2528d27",
-        "message": "fix: publish regenerated briefs to dist/ for site deploy",
-        "age": "5 days ago"
+        "hash": "6f03423",
+        "message": "docs: rewrite all analysis docs for post-decision framing",
+        "age": "13 hours ago"
       },
       {
-        "hash": "a3785bc",
-        "message": "release: v1.1.0",
-        "age": "5 days ago"
+        "hash": "21b8f09",
+        "message": "docs: rewrite README for post-decision context",
+        "age": "13 hours ago"
       },
       {
-        "hash": "1cd99bb",
-        "message": "release: v1.0.0 (#12)",
-        "age": "6 days ago"
+        "hash": "9734dad",
+        "message": "docs: post-decision brief + board letter draft for Option A vote",
+        "age": "14 hours ago"
       },
       {
-        "hash": "08a25b9",
-        "message": "feat(EPIC-017): question hub — extraction pipeline, index page, and answer detail pages (#11)",
-        "age": "6 days ago"
+        "hash": "f20deba",
+        "message": "feat(transport): V2 recompute with March 30 BoE meeting evidence",
+        "age": "14 hours ago"
       },
       {
-        "hash": "cfda117",
-        "message": "fix: raise transcript truncation limit to prevent false claims in general briefs",
-        "age": "6 days ago"
+        "hash": "72d9717",
+        "message": "feat: interpret + fold March 30 BoE meeting — 15 personas",
+        "age": "16 hours ago"
       }
     ]
   },
   "artifacts": {
-    "ready": [],
+    "ready": [
+      {
+        "id": "SPEC-034",
+        "status": "Active",
+        "title": "Question Artifact Type",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-034)-Question-Artifact-Type/(SPEC-034)-Question-Artifact-Type.md",
+        "description": "The key questions tracking system needs a data model for canonical questions. ADR-004 decided that each question is a st",
+        "unblocks": [
+          "SPEC-035",
+          "SPEC-036",
+          "SPEC-037",
+          "SPEC-038"
+        ],
+        "unblock_count": 4
+      },
+      {
+        "id": "INITIATIVE-003",
+        "status": "Active",
+        "title": "Interpretation Pipeline",
+        "type": "INITIATIVE",
+        "file": "docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md",
+        "description": "Systematically interpret every meeting through 14 persona lenses, fold interpretations into cumulative narratives that t",
+        "unblocks": [
+          "EPIC-017",
+          "EPIC-019",
+          "INITIATIVE-004"
+        ],
+        "unblock_count": 3
+      },
+      {
+        "id": "SPEC-058",
+        "status": "Active",
+        "title": "Cohort Survival Model",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-058)-Cohort-Survival-Model/(SPEC-058)-Cohort-Survival-Model.md",
+        "description": "No independent enrollment projection exists for South Portland. The district is making permanent infrastructure decision",
+        "unblocks": [
+          "SPEC-059",
+          "SPEC-067",
+          "SPEC-068"
+        ],
+        "unblock_count": 3
+      },
+      {
+        "id": "EPIC-017",
+        "status": "Active",
+        "title": "Question Hub",
+        "type": "EPIC",
+        "file": "docs/epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md",
+        "description": "Build the question-first navigation layer that VISION-004 calls for — a hub where residents can browse and search the bu",
+        "unblocks": [
+          "EPIC-018",
+          "EPIC-021"
+        ],
+        "unblock_count": 2
+      },
+      {
+        "id": "EPIC-026",
+        "status": "Active",
+        "title": "Enrollment Data Acquisition",
+        "type": "EPIC",
+        "file": "docs/epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md",
+        "description": "Acquire and normalize the external data sources required for independent enrollment analysis, and systematically extract",
+        "unblocks": [
+          "EPIC-027",
+          "EPIC-028"
+        ],
+        "unblock_count": 2
+      },
+      {
+        "id": "SPEC-025",
+        "status": "Active",
+        "title": "Question Extraction",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md",
+        "description": "EPIC-017 requires a question-first navigation layer, but the raw question data is scattered across 48+ briefing files as",
+        "unblocks": [
+          "SPEC-026",
+          "SPEC-027"
+        ],
+        "unblock_count": 2
+      },
+      {
+        "id": "SPEC-035",
+        "status": "Active",
+        "title": "Question Extraction Pipeline",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-035)-Question-Extraction-Pipeline/(SPEC-035)-Question-Extraction-Pipeline.md",
+        "description": "Per-persona briefings contain questions that residents and stakeholders are asking about the budget. These questions rec",
+        "unblocks": [
+          "SPEC-036",
+          "SPEC-037"
+        ],
+        "unblock_count": 2
+      },
+      {
+        "id": "SPEC-048",
+        "status": "Active",
+        "title": "Maine DOE Enrollment Data Trove",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-048)-Maine-DOE-Enrollment-Data-Trove/(SPEC-048)-Maine-DOE-Enrollment-Data-Trove.md",
+        "description": "The cohort survival model (EPIC-028) requires grade-level enrollment data for South Portland going back 10+ years. This ",
+        "unblocks": [
+          "SPEC-056",
+          "SPEC-058"
+        ],
+        "unblock_count": 2
+      },
+      {
+        "id": "SPEC-059",
+        "status": "Active",
+        "title": "Scenario Bracket Projections",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-059)-Scenario-Bracket-Projections/(SPEC-059)-Scenario-Bracket-Projections.md",
+        "description": "A single baseline projection is useful but incomplete. The closure decision depends on whether the enrollment decline is",
+        "unblocks": [
+          "SPEC-067",
+          "SPEC-068"
+        ],
+        "unblock_count": 2
+      },
+      {
+        "id": "EPIC-027",
+        "status": "Active",
+        "title": "Enrollment Gap Analysis & Phase 1 Briefs",
+        "type": "EPIC",
+        "file": "docs/epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md",
+        "description": "Audit the district's published enrollment basis against what a responsible school closure decision requires. For each ga",
+        "unblocks": [
+          "EPIC-029"
+        ],
+        "unblock_count": 1
+      },
+      {
+        "id": "EPIC-028",
+        "status": "Active",
+        "title": "Cohort Survival Model & 5-Year Projections",
+        "type": "EPIC",
+        "file": "docs/epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md",
+        "description": "Build an independent demographic projection model for South Portland school enrollment. The model uses cohort survival m",
+        "unblocks": [
+          "EPIC-029"
+        ],
+        "unblock_count": 1
+      },
+      {
+        "id": "EPIC-030",
+        "status": "Active",
+        "title": "Transportation Data Acquisition & Baseline",
+        "type": "EPIC",
+        "file": "docs/epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md",
+        "description": "Acquire the external data sources and systematically extract every transportation-related claim from the project's exist",
+        "unblocks": [
+          "EPIC-031"
+        ],
+        "unblock_count": 1
+      },
+      {
+        "id": "EPIC-031",
+        "status": "Active",
+        "title": "Configuration Transport Modeling (V1)",
+        "type": "EPIC",
+        "file": "docs/epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md",
+        "description": "Model the transportation implications of three elementary reconfiguration options using publicly available data and curr",
+        "unblocks": [
+          "EPIC-033"
+        ],
+        "unblock_count": 1
+      },
+      {
+        "id": "INITIATIVE-005",
+        "status": "Active",
+        "title": "Independent Enrollment Study",
+        "type": "INITIATIVE",
+        "file": "docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md",
+        "description": "Produce an independent, evidence-based enrollment analysis that exposes the gaps in the district's published enrollment ",
+        "unblocks": [
+          "INITIATIVE-006"
+        ],
+        "unblock_count": 1
+      },
+      {
+        "id": "SPEC-026",
+        "status": "Active",
+        "title": "Questions Index Page",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md",
+        "description": "Residents arriving at the site with a specific concern need a browsable index of questions organized by topic. The exist",
+        "unblocks": [
+          "SPEC-027"
+        ],
+        "unblock_count": 1
+      },
+      {
+        "id": "SPEC-033",
+        "status": "Active",
+        "title": "Evidence Source Links",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-033)-Evidence-Source-Links/(SPEC-033)-Evidence-Source-Links.md",
+        "description": "The Evidence page describes three evidence pools with source counts and summaries, but doesn't link to the actual primar",
+        "unblocks": [
+          "SPEC-027"
+        ],
+        "unblock_count": 1
+      },
+      {
+        "id": "SPEC-036",
+        "status": "Active",
+        "title": "Question Scoring",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-036)-Question-Scoring/(SPEC-036)-Question-Scoring.md",
+        "description": "QUESTION artifacts need a priority score that increases as a function of age and breadth, so the most important unanswer",
+        "unblocks": [
+          "SPEC-038"
+        ],
+        "unblock_count": 1
+      },
+      {
+        "id": "SPEC-051",
+        "status": "Active",
+        "title": "Enrollment Claims Catalog",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-051)-Enrollment-Claims-Catalog/(SPEC-051)-Enrollment-Claims-Catalog.md",
+        "description": "The gap analysis (EPIC-027) needs a systematic inventory of every enrollment-related claim and assumption the district h",
+        "unblocks": [
+          "SPEC-056"
+        ],
+        "unblock_count": 1
+      },
+      {
+        "id": "SPEC-056",
+        "status": "Active",
+        "title": "Enrollment Gap Analysis Document",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-056)-Enrollment-Gap-Analysis-Document/(SPEC-056)-Enrollment-Gap-Analysis-Document.md",
+        "description": "The district is making a permanent school closure decision based on enrollment assumptions that have not been independen",
+        "unblocks": [
+          "SPEC-057"
+        ],
+        "unblock_count": 1
+      },
+      {
+        "id": "SPEC-057",
+        "status": "Active",
+        "title": "Enrollment Phase 1 Persona Briefs",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-057)-Enrollment-Phase-1-Persona-Briefs/(SPEC-057)-Enrollment-Phase-1-Persona-Briefs.md",
+        "description": "The gap analysis findings need to reach each persona in their own frame. A single analytical document doesn't serve Mari",
+        "unblocks": [
+          "SPEC-067"
+        ],
+        "unblock_count": 1
+      },
+      {
+        "id": "EPIC-007",
+        "status": "Proposed",
+        "title": "Budget Lever Analysis",
+        "type": "EPIC",
+        "file": "docs/epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md",
+        "description": "Extract the discrete decision points (\"levers\") from the FY27 budget evidence — staffing changes, program additions/cuts",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "EPIC-013",
+        "status": "Active",
+        "title": "Polling Interpretation Pipeline",
+        "type": "EPIC",
+        "file": "docs/epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md",
+        "description": "Automate the interpretation chain (bundling → interpretation → fold → briefs) using a two-track architecture: the runner",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "EPIC-016",
+        "status": "Active",
+        "title": "Site Visual Design",
+        "type": "EPIC",
+        "file": "docs/epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md",
+        "description": "Polish the site's visual presentation, accessibility, and interaction design to be production-quality for a civic audien",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "EPIC-018",
+        "status": "Proposed",
+        "title": "Community Feedback",
+        "type": "EPIC",
+        "file": "docs/epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md",
+        "description": "Create a feedback loop so residents can flag inaccuracies and suggest questions, making the analysis self-correcting and",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "EPIC-019",
+        "status": "Proposed",
+        "title": "Site Data Assembly",
+        "type": "EPIC",
+        "file": "docs/epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md",
+        "description": "Extend the site's content collection layer to cover all data sources needed by the question hub, evidence browser, and a",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "EPIC-020",
+        "status": "Proposed",
+        "title": "Feedback Pipeline Integration",
+        "type": "EPIC",
+        "file": "docs/epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md",
+        "description": "Add an editorial input channel to the interpretation pipeline so that operator judgment and community feedback shape the",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "EPIC-021",
+        "status": "Active",
+        "title": "Key Questions Tracking",
+        "type": "EPIC",
+        "file": "docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md",
+        "description": "Build a pipeline-level feature that extracts unresolved questions from persona briefings, clusters them into canonical q",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "EPIC-029",
+        "status": "Active",
+        "title": "Phase 2 Briefs & Baseline Publication",
+        "type": "EPIC",
+        "file": "docs/epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md",
+        "description": "Integrate the independent enrollment projection findings (EPIC-028) back into per-persona briefs and publish the enrollm",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "EPIC-033",
+        "status": "Proposed",
+        "title": "Configuration Space Optimization (V2)",
+        "type": "EPIC",
+        "file": "docs/epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md",
+        "description": "Expand beyond the three hand-picked configurations modeled in V1 to systematically search the feasible configuration spa",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "INITIATIVE-001",
+        "status": "Active",
+        "title": "Budget Lever Analysis",
+        "type": "INITIATIVE",
+        "file": "docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md",
+        "description": "Extract the discrete decision points (\"levers\") from the FY27 budget — staffing changes, program additions/cuts, capital",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "INITIATIVE-004",
+        "status": "Active",
+        "title": "Public Budget Site",
+        "type": "INITIATIVE",
+        "file": "docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md",
+        "description": "Build and deploy a question-first static site (Astro, GitHub Pages) that gives South Portland residents access to AI-ana",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "INITIATIVE-006",
+        "status": "Active",
+        "title": "Independent Transportation Analysis",
+        "type": "INITIATIVE",
+        "file": "docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md",
+        "description": "Produce independent transportation impact estimates for the elementary reconfiguration options under consideration by th",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "RETRO-2026-03-22-persona-pipeline-design-review",
+        "status": "Active",
+        "title": "Retro: Persona Pipeline and Design Review",
+        "type": "RETRO-2026-03-22-persona-pipeline-design-review",
+        "file": "docs/swain-retro/2026-03-22-persona-pipeline-design-review.md",
+        "description": "Third session pass on the static site, focused on three threads: (1) creating PERSONA-015 (Cross-Building Staff Advocate",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "RETRO-2026-03-22-site-polish-pass",
+        "status": "Active",
+        "title": "Retro: Site Polish Pass",
+        "type": "RETRO-2026-03-22-site-polish-pass",
+        "file": "docs/swain-retro/2026-03-22-site-polish-pass.md",
+        "description": "Second session on the static site, focused on fixing dark mode issues, adding a prominent research banner, increasing fo",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "RETRO-2026-03-22-static-site-launch",
+        "status": "Active",
+        "title": "Retro: Static Site Launch",
+        "type": "RETRO-2026-03-22-static-site-launch",
+        "file": "docs/swain-retro/2026-03-22-static-site-launch.md",
+        "description": "Built, polished, and deployed the public-facing static site for the FY27 budget analysis in a single autonomous session.",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "RETRO-2026-03-30-question-scoring-spike",
+        "status": "Active",
+        "title": "Retro: Question Scoring Spike",
+        "type": "RETRO-2026-03-30-question-scoring-spike",
+        "file": "docs/swain-retro/2026-03-30-question-scoring-spike.md",
+        "description": "We went from idea to GO verdict in one session. We started by talking through how to surface unanswered questions across",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "RETRO-2026-03-31-citizen-studies",
+        "status": "Active",
+        "title": "Retro: Citizen Studies Brainstorming & Decomposition",
+        "type": "RETRO-2026-03-31-citizen-studies",
+        "file": "docs/swain-retro/2026-03-31-citizen-studies-brainstorming.md",
+        "description": "In a single extended session, two new initiatives were brainstormed, designed, created, decomposed into 8 epics + 2 spik",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "RETRO-2026-03-31-initiative-005-data-acquisition",
+        "status": "Active",
+        "title": "Retro: INITIATIVE-005 Decomposition & Data Acquisition",
+        "type": "RETRO-2026-03-31-initiative-005-data-acquisition",
+        "file": "docs/swain-retro/2026-03-31-initiative-005-data-acquisition.md",
+        "description": "Single session decomposed INITIATIVE-005 (Independent Enrollment Study) from a bare initiative into 4 EPICs, 9 SPECs, 1 ",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-023",
+        "status": "Active",
+        "title": "Google Slides Export Support",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md",
+        "description": "The budget page at spsdme.org/budget27 currently hosts 5 Google Slides presentations (budget overview decks). The `budge",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-024",
+        "status": "Active",
+        "title": "Meaningful Document Filenames",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md",
+        "description": "The budget page connector derives local filenames from the URL's last path segment (`edit`, `view`, `pubembed`) when no ",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-027",
+        "status": "Active",
+        "title": "Answer Detail Pages",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md",
+        "description": "The questions index (SPEC-026) shows what people are asking, but the answer — with sourced evidence and context — needs ",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-028",
+        "status": "Active",
+        "title": "Privacy-Respecting Analytics",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-028)-Privacy-Respecting-Analytics/(SPEC-028)-Privacy-Respecting-Analytics.md",
+        "description": "Community feedback (EPIC-018) is deferred until the site has real traffic. To know when that threshold is reached and wh",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-029",
+        "status": "Proposed",
+        "title": "Persona Routing Selector",
+        "type": "SPEC",
+        "file": "docs/spec/Proposed/(SPEC-029)-Persona-Routing-Selector/(SPEC-029)-Persona-Routing-Selector.md",
+        "description": "First-time visitors don't know which of the 15 persona briefings matches them. They must scan a grid of cards and infer ",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-030",
+        "status": "Proposed",
+        "title": "Briefing Summary Block",
+        "type": "SPEC",
+        "file": "docs/spec/Proposed/(SPEC-030)-Briefing-Summary-Block/(SPEC-030)-Briefing-Summary-Block.md",
+        "description": "The Group Chat Relay persona (Meg) needs a shareable snippet she can paste into a text thread. Current briefings are lon",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-031",
+        "status": "Proposed",
+        "title": "Student-Friendly Language",
+        "type": "SPEC",
+        "file": "docs/spec/Proposed/(SPEC-031)-Student-Friendly-Language/(SPEC-031)-Student-Friendly-Language.md",
+        "description": "The site's tone is adult-professional: \"AI-assisted analysis with full source transparency\" is not how a high schooler n",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-032",
+        "status": "Proposed",
+        "title": "Last Updated Indicator",
+        "type": "SPEC",
+        "file": "docs/spec/Proposed/(SPEC-032)-Last-Updated-Indicator/(SPEC-032)-Last-Updated-Indicator.md",
+        "description": "Repeat visitors (especially Linda, the School Board Insider) bookmark the site and check back regularly. There's no way ",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-037",
+        "status": "Active",
+        "title": "Resolution Stress-Test Gate",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-037)-Resolution-Stress-Test-Gate/(SPEC-037)-Resolution-Stress-Test-Gate.md",
+        "description": "When new transcript evidence suggests that the administration has answered a question, the pipeline must verify that the",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-038",
+        "status": "Active",
+        "title": "Evergreen Key Questions Section",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-038)-Evergreen-Key-Questions-Section/(SPEC-038)-Evergreen-Key-Questions-Section.md",
+        "description": "The PERSONA-000 evergreen brief needs a \"Key Questions\" section that surfaces the highest-priority unanswered questions ",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-049",
+        "status": "Active",
+        "title": "DHHS Birth Records Trove",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-049)-DHHS-Birth-Records-Trove/(SPEC-049)-DHHS-Birth-Records-Trove.md",
+        "description": "The cohort survival model needs birth data by municipality to project the kindergarten entry pipeline 5 years out. Maine",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-050",
+        "status": "Active",
+        "title": "Housing Permit Data Trove",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-050)-Housing-Permit-Data-Trove/(SPEC-050)-Housing-Permit-Data-Trove.md",
+        "description": "LD 1829 housing density development is a key enrollment uncertainty — the PERSONA-007 brief explicitly asks whether the ",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-052",
+        "status": "Active",
+        "title": "School Choice Transfer Data",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-052)-School-Choice-Transfer-Data/(SPEC-052)-School-Choice-Transfer-Data.md",
+        "description": "School choice transfers (students opting out to private/charter/neighboring districts, and students opting in) are a sig",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-067",
+        "status": "Active",
+        "title": "Enrollment Phase 2 Persona Briefs",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-067)-Enrollment-Phase-2-Persona-Briefs/(SPEC-067)-Enrollment-Phase-2-Persona-Briefs.md",
+        "description": "Phase 1 briefs (SPEC-057) surface the gaps. Phase 2 briefs fill them — integrating the independent cohort survival proje",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-068",
+        "status": "Active",
+        "title": "Enrollment Baseline Site Page",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-068)-Enrollment-Baseline-Site-Page/(SPEC-068)-Enrollment-Baseline-Site-Page.md",
+        "description": "The independent enrollment projection needs a permanent home on the site — not just embedded in persona briefs, but as a",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-069",
+        "status": "Active",
+        "title": "Enrollment Study Site Pages",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-069)-Enrollment-Study-Site-Pages/(SPEC-069)-Enrollment-Study-Site-Pages.md",
+        "description": "The enrollment study deliverables (persona briefings, enrollment data) now live in `dist/enrollment-study/` with their o",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPEC-070",
+        "status": "Active",
+        "title": "Transportation Analysis Site Pages",
+        "type": "SPEC",
+        "file": "docs/spec/Active/(SPEC-070)-Transportation-Analysis-Site-Pages/(SPEC-070)-Transportation-Analysis-Site-Pages.md",
+        "description": "The transportation analysis ([INITIATIVE-006](../../initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analys",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPIKE-008",
+        "status": "Active",
+        "title": "Question Scoring Prototype",
+        "type": "SPIKE",
+        "file": "docs/research/Active/(SPIKE-008)-Question-Scoring-Prototype/(SPIKE-008)-Question-Scoring-Prototype.md",
+        "description": "Can we reliably extract, cluster, score, and stress-test canonical questions from existing persona briefings using the c",
+        "unblocks": [],
+        "unblock_count": 0
+      },
+      {
+        "id": "SPIKE-010",
+        "status": "Active",
+        "title": "Walk Zone & Pedestrian Infrastructure Audit",
+        "type": "SPIKE",
+        "file": "docs/research/Active/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit.md",
+        "description": "How does the current walk zone policy compare to state minimums and actual pedestrian infrastructure, and how does recon",
+        "unblocks": [],
+        "unblock_count": 0
+      }
+    ],
     "blocked": [],
-    "epics": {},
+    "epics": {
+      "EPIC-007": {
+        "id": "EPIC-007",
+        "title": "Budget Lever Analysis",
+        "status": "Proposed",
+        "file": "docs/epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md",
+        "description": "Extract the discrete decision points (\"levers\") from the FY27 budget evidence — staffing changes, program additions/cuts",
+        "progress": {
+          "done": 0,
+          "total": 0
+        },
+        "children": []
+      },
+      "EPIC-013": {
+        "id": "EPIC-013",
+        "title": "Polling Interpretation Pipeline",
+        "status": "Active",
+        "file": "docs/epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md",
+        "description": "Automate the interpretation chain (bundling → interpretation → fold → briefs) using a two-track architecture: the runner",
+        "progress": {
+          "done": 0,
+          "total": 0
+        },
+        "children": []
+      },
+      "EPIC-016": {
+        "id": "EPIC-016",
+        "title": "Site Visual Design",
+        "status": "Active",
+        "file": "docs/epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md",
+        "description": "Polish the site's visual presentation, accessibility, and interaction design to be production-quality for a civic audien",
+        "progress": {
+          "done": 0,
+          "total": 0
+        },
+        "children": []
+      },
+      "EPIC-017": {
+        "id": "EPIC-017",
+        "title": "Question Hub",
+        "status": "Active",
+        "file": "docs/epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md",
+        "description": "Build the question-first navigation layer that VISION-004 calls for — a hub where residents can browse and search the bu",
+        "progress": {
+          "done": 0,
+          "total": 3
+        },
+        "children": [
+          {
+            "id": "SPEC-025",
+            "title": "Question Extraction",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md",
+            "description": "EPIC-017 requires a question-first navigation layer, but the raw question data is scattered across 48+ briefing files as"
+          },
+          {
+            "id": "SPEC-026",
+            "title": "Questions Index Page",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md",
+            "description": "Residents arriving at the site with a specific concern need a browsable index of questions organized by topic. The exist"
+          },
+          {
+            "id": "SPEC-027",
+            "title": "Answer Detail Pages",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md",
+            "description": "The questions index (SPEC-026) shows what people are asking, but the answer — with sourced evidence and context — needs "
+          }
+        ]
+      },
+      "EPIC-018": {
+        "id": "EPIC-018",
+        "title": "Community Feedback",
+        "status": "Proposed",
+        "file": "docs/epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md",
+        "description": "Create a feedback loop so residents can flag inaccuracies and suggest questions, making the analysis self-correcting and",
+        "progress": {
+          "done": 0,
+          "total": 0
+        },
+        "children": []
+      },
+      "EPIC-019": {
+        "id": "EPIC-019",
+        "title": "Site Data Assembly",
+        "status": "Proposed",
+        "file": "docs/epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md",
+        "description": "Extend the site's content collection layer to cover all data sources needed by the question hub, evidence browser, and a",
+        "progress": {
+          "done": 0,
+          "total": 2
+        },
+        "children": [
+          {
+            "id": "SPEC-069",
+            "title": "Enrollment Study Site Pages",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-069)-Enrollment-Study-Site-Pages/(SPEC-069)-Enrollment-Study-Site-Pages.md",
+            "description": "The enrollment study deliverables (persona briefings, enrollment data) now live in `dist/enrollment-study/` with their o"
+          },
+          {
+            "id": "SPEC-070",
+            "title": "Transportation Analysis Site Pages",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-070)-Transportation-Analysis-Site-Pages/(SPEC-070)-Transportation-Analysis-Site-Pages.md",
+            "description": "The transportation analysis ([INITIATIVE-006](../../initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analys"
+          }
+        ]
+      },
+      "EPIC-020": {
+        "id": "EPIC-020",
+        "title": "Feedback Pipeline Integration",
+        "status": "Proposed",
+        "file": "docs/epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md",
+        "description": "Add an editorial input channel to the interpretation pipeline so that operator judgment and community feedback shape the",
+        "progress": {
+          "done": 0,
+          "total": 0
+        },
+        "children": []
+      },
+      "EPIC-021": {
+        "id": "EPIC-021",
+        "title": "Key Questions Tracking",
+        "status": "Active",
+        "file": "docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md",
+        "description": "Build a pipeline-level feature that extracts unresolved questions from persona briefings, clusters them into canonical q",
+        "progress": {
+          "done": 0,
+          "total": 6
+        },
+        "children": [
+          {
+            "id": "SPIKE-008",
+            "title": "Question Scoring Prototype",
+            "status": "Active",
+            "type": "SPIKE",
+            "file": "docs/research/Active/(SPIKE-008)-Question-Scoring-Prototype/(SPIKE-008)-Question-Scoring-Prototype.md",
+            "description": "Can we reliably extract, cluster, score, and stress-test canonical questions from existing persona briefings using the c"
+          },
+          {
+            "id": "SPEC-034",
+            "title": "Question Artifact Type",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-034)-Question-Artifact-Type/(SPEC-034)-Question-Artifact-Type.md",
+            "description": "The key questions tracking system needs a data model for canonical questions. ADR-004 decided that each question is a st"
+          },
+          {
+            "id": "SPEC-035",
+            "title": "Question Extraction Pipeline",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-035)-Question-Extraction-Pipeline/(SPEC-035)-Question-Extraction-Pipeline.md",
+            "description": "Per-persona briefings contain questions that residents and stakeholders are asking about the budget. These questions rec"
+          },
+          {
+            "id": "SPEC-036",
+            "title": "Question Scoring",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-036)-Question-Scoring/(SPEC-036)-Question-Scoring.md",
+            "description": "QUESTION artifacts need a priority score that increases as a function of age and breadth, so the most important unanswer"
+          },
+          {
+            "id": "SPEC-037",
+            "title": "Resolution Stress-Test Gate",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-037)-Resolution-Stress-Test-Gate/(SPEC-037)-Resolution-Stress-Test-Gate.md",
+            "description": "When new transcript evidence suggests that the administration has answered a question, the pipeline must verify that the"
+          },
+          {
+            "id": "SPEC-038",
+            "title": "Evergreen Key Questions Section",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-038)-Evergreen-Key-Questions-Section/(SPEC-038)-Evergreen-Key-Questions-Section.md",
+            "description": "The PERSONA-000 evergreen brief needs a \"Key Questions\" section that surfaces the highest-priority unanswered questions "
+          }
+        ]
+      },
+      "EPIC-026": {
+        "id": "EPIC-026",
+        "title": "Enrollment Data Acquisition",
+        "status": "Active",
+        "file": "docs/epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md",
+        "description": "Acquire and normalize the external data sources required for independent enrollment analysis, and systematically extract",
+        "progress": {
+          "done": 0,
+          "total": 5
+        },
+        "children": [
+          {
+            "id": "SPEC-048",
+            "title": "Maine DOE Enrollment Data Trove",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-048)-Maine-DOE-Enrollment-Data-Trove/(SPEC-048)-Maine-DOE-Enrollment-Data-Trove.md",
+            "description": "The cohort survival model (EPIC-028) requires grade-level enrollment data for South Portland going back 10+ years. This "
+          },
+          {
+            "id": "SPEC-049",
+            "title": "DHHS Birth Records Trove",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-049)-DHHS-Birth-Records-Trove/(SPEC-049)-DHHS-Birth-Records-Trove.md",
+            "description": "The cohort survival model needs birth data by municipality to project the kindergarten entry pipeline 5 years out. Maine"
+          },
+          {
+            "id": "SPEC-050",
+            "title": "Housing Permit Data Trove",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-050)-Housing-Permit-Data-Trove/(SPEC-050)-Housing-Permit-Data-Trove.md",
+            "description": "LD 1829 housing density development is a key enrollment uncertainty — the PERSONA-007 brief explicitly asks whether the "
+          },
+          {
+            "id": "SPEC-051",
+            "title": "Enrollment Claims Catalog",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-051)-Enrollment-Claims-Catalog/(SPEC-051)-Enrollment-Claims-Catalog.md",
+            "description": "The gap analysis (EPIC-027) needs a systematic inventory of every enrollment-related claim and assumption the district h"
+          },
+          {
+            "id": "SPEC-052",
+            "title": "School Choice Transfer Data",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-052)-School-Choice-Transfer-Data/(SPEC-052)-School-Choice-Transfer-Data.md",
+            "description": "School choice transfers (students opting out to private/charter/neighboring districts, and students opting in) are a sig"
+          }
+        ]
+      },
+      "EPIC-027": {
+        "id": "EPIC-027",
+        "title": "Enrollment Gap Analysis & Phase 1 Briefs",
+        "status": "Active",
+        "file": "docs/epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md",
+        "description": "Audit the district's published enrollment basis against what a responsible school closure decision requires. For each ga",
+        "progress": {
+          "done": 0,
+          "total": 2
+        },
+        "children": [
+          {
+            "id": "SPEC-056",
+            "title": "Enrollment Gap Analysis Document",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-056)-Enrollment-Gap-Analysis-Document/(SPEC-056)-Enrollment-Gap-Analysis-Document.md",
+            "description": "The district is making a permanent school closure decision based on enrollment assumptions that have not been independen"
+          },
+          {
+            "id": "SPEC-057",
+            "title": "Enrollment Phase 1 Persona Briefs",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-057)-Enrollment-Phase-1-Persona-Briefs/(SPEC-057)-Enrollment-Phase-1-Persona-Briefs.md",
+            "description": "The gap analysis findings need to reach each persona in their own frame. A single analytical document doesn't serve Mari"
+          }
+        ]
+      },
+      "EPIC-028": {
+        "id": "EPIC-028",
+        "title": "Cohort Survival Model & 5-Year Projections",
+        "status": "Active",
+        "file": "docs/epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md",
+        "description": "Build an independent demographic projection model for South Portland school enrollment. The model uses cohort survival m",
+        "progress": {
+          "done": 0,
+          "total": 2
+        },
+        "children": [
+          {
+            "id": "SPEC-058",
+            "title": "Cohort Survival Model",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-058)-Cohort-Survival-Model/(SPEC-058)-Cohort-Survival-Model.md",
+            "description": "No independent enrollment projection exists for South Portland. The district is making permanent infrastructure decision"
+          },
+          {
+            "id": "SPEC-059",
+            "title": "Scenario Bracket Projections",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-059)-Scenario-Bracket-Projections/(SPEC-059)-Scenario-Bracket-Projections.md",
+            "description": "A single baseline projection is useful but incomplete. The closure decision depends on whether the enrollment decline is"
+          }
+        ]
+      },
+      "EPIC-029": {
+        "id": "EPIC-029",
+        "title": "Phase 2 Briefs & Baseline Publication",
+        "status": "Active",
+        "file": "docs/epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md",
+        "description": "Integrate the independent enrollment projection findings (EPIC-028) back into per-persona briefs and publish the enrollm",
+        "progress": {
+          "done": 0,
+          "total": 2
+        },
+        "children": [
+          {
+            "id": "SPEC-067",
+            "title": "Enrollment Phase 2 Persona Briefs",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-067)-Enrollment-Phase-2-Persona-Briefs/(SPEC-067)-Enrollment-Phase-2-Persona-Briefs.md",
+            "description": "Phase 1 briefs (SPEC-057) surface the gaps. Phase 2 briefs fill them — integrating the independent cohort survival proje"
+          },
+          {
+            "id": "SPEC-068",
+            "title": "Enrollment Baseline Site Page",
+            "status": "Active",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-068)-Enrollment-Baseline-Site-Page/(SPEC-068)-Enrollment-Baseline-Site-Page.md",
+            "description": "The independent enrollment projection needs a permanent home on the site — not just embedded in persona briefs, but as a"
+          }
+        ]
+      },
+      "EPIC-030": {
+        "id": "EPIC-030",
+        "title": "Transportation Data Acquisition & Baseline",
+        "status": "Active",
+        "file": "docs/epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md",
+        "description": "Acquire the external data sources and systematically extract every transportation-related claim from the project's exist",
+        "progress": {
+          "done": 3,
+          "total": 3
+        },
+        "children": [
+          {
+            "id": "SPEC-053",
+            "title": "Maine DOE Transport Expenditure Trove",
+            "status": "Complete",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-053)-Maine-DOE-Transport-Expenditure-Trove/(SPEC-053)-Maine-DOE-Transport-Expenditure-Trove.md",
+            "description": "The fiscal exposure analysis needs per-pupil transportation cost data for South Portland and peer districts. Maine DOE p"
+          },
+          {
+            "id": "SPEC-054",
+            "title": "Transportation Claims Catalog",
+            "status": "Complete",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-054)-Transportation-Claims-Catalog/(SPEC-054)-Transportation-Claims-Catalog.md",
+            "description": "The governance accountability framing of the transportation briefs requires a timestamped, source-cited record of every "
+          },
+          {
+            "id": "SPEC-055",
+            "title": "School Locations & Catchment Data",
+            "status": "Complete",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-055)-School-Locations-Catchment-Data/(SPEC-055)-School-Locations-Catchment-Data.md",
+            "description": "The configuration transport modeling (EPIC-031) needs geographic data: where are the school buildings, what are the curr"
+          }
+        ]
+      },
+      "EPIC-031": {
+        "id": "EPIC-031",
+        "title": "Configuration Transport Modeling (V1)",
+        "status": "Active",
+        "file": "docs/epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md",
+        "description": "Model the transportation implications of three elementary reconfiguration options using publicly available data and curr",
+        "progress": {
+          "done": 6,
+          "total": 6
+        },
+        "children": [
+          {
+            "id": "SPEC-060",
+            "title": "Split-Family Count Model",
+            "status": "Complete",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-060)-Split-Family-Count-Model/(SPEC-060)-Split-Family-Count-Model.md",
+            "description": "The family logistics burden of each configuration depends on how many families would have children in two different buil"
+          },
+          {
+            "id": "SPEC-061",
+            "title": "McKinney-Vento Exposure Analysis",
+            "status": "Complete",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-061)-McKinney-Vento-Exposure-Analysis/(SPEC-061)-McKinney-Vento-Exposure-Analysis.md",
+            "description": "McKinney-Vento eligible students (1% → 10% of the student body) have a federal right to transportation to their school o"
+          },
+          {
+            "id": "SPEC-062",
+            "title": "SEA Staffing Adequacy Assessment",
+            "status": "Complete",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-062)-SEA-Staffing-Adequacy-Assessment/(SPEC-062)-SEA-Staffing-Adequacy-Assessment.md",
+            "description": "The SEA bargaining unit (facilities/food/transport) faces a 14% staffing reduction (100 → 86 FTE) — the highest percenta"
+          },
+          {
+            "id": "SPEC-063",
+            "title": "Bell Schedule Tier Analysis",
+            "status": "Complete",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-063)-Bell-Schedule-Tier-Analysis/(SPEC-063)-Bell-Schedule-Tier-Analysis.md",
+            "description": "South Portland uses tiered bell schedules so the same bus fleet can run multiple routes. Reconfiguration changes the num"
+          },
+          {
+            "id": "SPEC-064",
+            "title": "Before/After Care Gap Analysis",
+            "status": "Complete",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-064)-Before-After-Care-Gap-Analysis/(SPEC-064)-Before-After-Care-Gap-Analysis.md",
+            "description": "57% of surveyed parents cited disruption to before/after care as a concern. Split-building families under Option A or Va"
+          },
+          {
+            "id": "SPEC-065",
+            "title": "Transport Configuration Comparison",
+            "status": "Complete",
+            "type": "SPEC",
+            "file": "docs/spec/Active/(SPEC-065)-Transport-Configuration-Comparison/(SPEC-065)-Transport-Configuration-Comparison.md",
+            "description": "The individual transport metrics (split families, McKinney-Vento, SEA staffing, bell schedules, care gaps) need to be as"
+          }
+        ]
+      },
+      "EPIC-033": {
+        "id": "EPIC-033",
+        "title": "Configuration Space Optimization (V2)",
+        "status": "Proposed",
+        "file": "docs/epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md",
+        "description": "Expand beyond the three hand-picked configurations modeled in V1 to systematically search the feasible configuration spa",
+        "progress": {
+          "done": 0,
+          "total": 0
+        },
+        "children": []
+      }
+    },
     "counts": {
-      "total": 0,
-      "resolved": 0,
-      "ready": 0,
+      "total": 146,
+      "resolved": 89,
+      "ready": 57,
       "blocked": 0
     },
-    "xref": [],
-    "xref_gap_count": 0
+    "xref": [
+      {
+        "artifact": "ADR-001",
+        "file": "docs/adr/Active/(ADR-001)-Live-Discovery-Over-Static-Config/(ADR-001)-Live-Discovery-Over-Static-Config.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-006",
+          "SPEC-013",
+          "SPEC-014",
+          "SPEC-015"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "ADR-002",
+        "file": "docs/adr/Active/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "ADR-003",
+        "file": "docs/adr/Active/(ADR-003)-Astro-Content-Collections-Over-Custom-SSG/(ADR-003)-Astro-Content-Collections-Over-Custom-SSG.md",
+        "body_not_in_frontmatter": [
+          "VISION-004"
+        ],
+        "frontmatter_not_in_body": [],
+        "missing_reciprocal": [
+          {
+            "from": "DESIGN-001",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "EPIC-014",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "ADR-004",
+        "file": "docs/adr/Active/(ADR-004)-Question-Artifacts-Over-YAML-Index/(ADR-004)-Question-Artifacts-Over-YAML-Index.md",
+        "body_not_in_frontmatter": [
+          "PERSONA-000"
+        ],
+        "frontmatter_not_in_body": [
+          "EPIC-021"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "BUG-001",
+        "file": "docs/bug/Verified/(BUG-001)-Pipeline-Partial-Failure-Exit-Code/(BUG-001)-Pipeline-Partial-Failure-Exit-Code.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "SPEC-003",
+          "SPEC-007"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "DESIGN-001",
+        "file": "docs/design/Active/(DESIGN-001)-Site-Accessibility-Standards/(DESIGN-001)-Site-Accessibility-Standards.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "ADR-003"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-016",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "DESIGN-002",
+        "file": "docs/design/Active/(DESIGN-002)-Evidence-Pipeline-Architecture/(DESIGN-002)-Evidence-Pipeline-Architecture.md",
+        "body_not_in_frontmatter": [
+          "SPIKE-004"
+        ],
+        "frontmatter_not_in_body": [
+          "EPIC-001",
+          "EPIC-002",
+          "INITIATIVE-002",
+          "SPEC-001",
+          "SPEC-004",
+          "SPEC-014",
+          "SPEC-021",
+          "SPEC-071"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-012",
+        "file": "docs/epic/Abandoned/(EPIC-012)-Interpretation-Pipeline-Automation/(EPIC-012)-Interpretation-Pipeline-Automation.md",
+        "body_not_in_frontmatter": [
+          "ADR-002"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-013",
+        "file": "docs/epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md",
+        "body_not_in_frontmatter": [
+          "EPIC-012"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-016",
+        "file": "docs/epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md",
+        "body_not_in_frontmatter": [
+          "SPEC-025",
+          "SPEC-026"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-004",
+          "VISION-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-017",
+        "file": "docs/epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md",
+        "body_not_in_frontmatter": [
+          "EPIC-018",
+          "SPEC-025",
+          "SPEC-026",
+          "SPEC-027"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-004"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-021",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "EPIC-018",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-021",
+        "file": "docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md",
+        "body_not_in_frontmatter": [
+          "ADR-004",
+          "EPIC-018",
+          "PERSONA-000",
+          "SPEC-025",
+          "SPEC-034",
+          "SPEC-035",
+          "SPEC-036",
+          "SPEC-037",
+          "SPEC-038",
+          "SPIKE-008"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-026",
+        "file": "docs/epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md",
+        "body_not_in_frontmatter": [
+          "EPIC-027",
+          "EPIC-028",
+          "EPIC-029",
+          "SPEC-048",
+          "SPEC-049",
+          "SPEC-050",
+          "SPEC-051",
+          "SPEC-052",
+          "SPIKE-009"
+        ],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-027",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "EPIC-028",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-027",
+        "file": "docs/epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md",
+        "body_not_in_frontmatter": [
+          "EPIC-028",
+          "INITIATIVE-003",
+          "INITIATIVE-004",
+          "INITIATIVE-006",
+          "SPEC-056",
+          "SPEC-057"
+        ],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-029",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-028",
+        "file": "docs/epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md",
+        "body_not_in_frontmatter": [
+          "EPIC-029",
+          "INITIATIVE-001",
+          "SPEC-058",
+          "SPEC-059",
+          "SPIKE-009"
+        ],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-029",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-029",
+        "file": "docs/epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md",
+        "body_not_in_frontmatter": [
+          "EPIC-026",
+          "INITIATIVE-003",
+          "INITIATIVE-004",
+          "INITIATIVE-006",
+          "SPEC-067",
+          "SPEC-068"
+        ],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-030",
+        "file": "docs/epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md",
+        "body_not_in_frontmatter": [
+          "EPIC-031",
+          "EPIC-032",
+          "EPIC-033",
+          "SPEC-053",
+          "SPEC-054",
+          "SPEC-055",
+          "SPIKE-010"
+        ],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-031",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-031",
+        "file": "docs/epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md",
+        "body_not_in_frontmatter": [
+          "EPIC-033",
+          "INITIATIVE-005",
+          "SPEC-060",
+          "SPEC-061",
+          "SPEC-062",
+          "SPEC-063",
+          "SPEC-064",
+          "SPEC-065"
+        ],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-032",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "EPIC-033",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-032",
+        "file": "docs/epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md",
+        "body_not_in_frontmatter": [
+          "EPIC-030",
+          "EPIC-033",
+          "INITIATIVE-003",
+          "INITIATIVE-004",
+          "SPEC-066"
+        ],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-001",
+        "file": "docs/epic/Complete/(EPIC-001)-Source-Connectors/(EPIC-001)-Source-Connectors.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-002",
+          "VISION-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-002",
+        "file": "docs/epic/Complete/(EPIC-002)-Content-Normalization/(EPIC-002)-Content-Normalization.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-002",
+          "VISION-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-003",
+        "file": "docs/epic/Complete/(EPIC-003)-Pipeline-Orchestration/(EPIC-003)-Pipeline-Orchestration.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-002",
+          "VISION-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-004",
+        "file": "docs/epic/Complete/(EPIC-004)-Source-Auto-Discovery/(EPIC-004)-Source-Auto-Discovery.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-002",
+          "VISION-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-005",
+        "file": "docs/epic/Complete/(EPIC-005)-Self-Hosted-Runner/(EPIC-005)-Self-Hosted-Runner.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-006",
+        "file": "docs/epic/Complete/(EPIC-006)-Live-Discovery-Pipeline/(EPIC-006)-Live-Discovery-Pipeline.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-008",
+        "file": "docs/epic/Complete/(EPIC-008)-Meeting-Bundler/(EPIC-008)-Meeting-Bundler.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-013",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-009",
+        "file": "docs/epic/Complete/(EPIC-009)-Per-Meeting-Interpretation-Engine/(EPIC-009)-Per-Meeting-Interpretation-Engine.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-013",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "EPIC-021",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "EPIC-020",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-010",
+        "file": "docs/epic/Complete/(EPIC-010)-Cumulative-Narrative-Fold/(EPIC-010)-Cumulative-Narrative-Fold.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-013",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "EPIC-020",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-011",
+        "file": "docs/epic/Complete/(EPIC-011)-Upcoming-Event-Brief-Generation/(EPIC-011)-Upcoming-Event-Brief-Generation.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-013",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-014",
+        "file": "docs/epic/Complete/(EPIC-014)-Site-Scaffolding-And-Deploy/(EPIC-014)-Site-Scaffolding-And-Deploy.md",
+        "body_not_in_frontmatter": [
+          "EPIC-015",
+          "EPIC-016"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-004",
+          "VISION-004"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-015",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "EPIC-019",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-028",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-069",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-070",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-015",
+        "file": "docs/epic/Complete/(EPIC-015)-Core-Pages/(EPIC-015)-Core-Pages.md",
+        "body_not_in_frontmatter": [
+          "EPIC-016",
+          "EPIC-017",
+          "EPIC-018"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-004",
+          "VISION-004"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-016",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "EPIC-017",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "EPIC-018",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-026",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-033",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-029",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-030",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-031",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-032",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "EPIC-007",
+        "file": "docs/epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-001",
+          "JOURNEY-001",
+          "JOURNEY-002",
+          "JOURNEY-003",
+          "JOURNEY-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-018",
+        "file": "docs/epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md",
+        "body_not_in_frontmatter": [
+          "SPEC-030",
+          "SPEC-031"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-004",
+          "VISION-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-019",
+        "file": "docs/epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md",
+        "body_not_in_frontmatter": [
+          "EPIC-015",
+          "EPIC-016",
+          "EPIC-017",
+          "SPEC-032",
+          "SPEC-033",
+          "SPEC-034",
+          "SPEC-069",
+          "SPEC-070"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-004",
+          "VISION-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-020",
+        "file": "docs/epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md",
+        "body_not_in_frontmatter": [
+          "EPIC-014",
+          "INITIATIVE-004",
+          "VISION-004"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "EPIC-033",
+        "file": "docs/epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md",
+        "body_not_in_frontmatter": [
+          "EPIC-030"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-006",
+          "VISION-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "INITIATIVE-001",
+        "file": "docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "JOURNEY-001",
+          "JOURNEY-002",
+          "JOURNEY-003",
+          "JOURNEY-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "INITIATIVE-003",
+        "file": "docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md",
+        "body_not_in_frontmatter": [
+          "ADR-002",
+          "EPIC-012"
+        ],
+        "frontmatter_not_in_body": [
+          "VISION-003"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "EPIC-017",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "EPIC-019",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "INITIATIVE-004",
+        "file": "docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md",
+        "body_not_in_frontmatter": [
+          "EPIC-012"
+        ],
+        "frontmatter_not_in_body": [
+          "VISION-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "INITIATIVE-005",
+        "file": "docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "JOURNEY-001",
+          "JOURNEY-002",
+          "SPIKE-009"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "INITIATIVE-006",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "INITIATIVE-006",
+        "file": "docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md",
+        "body_not_in_frontmatter": [
+          "SPEC-060",
+          "SPEC-061",
+          "SPEC-062",
+          "SPEC-063",
+          "SPEC-064"
+        ],
+        "frontmatter_not_in_body": [
+          "JOURNEY-001",
+          "JOURNEY-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "INITIATIVE-002",
+        "file": "docs/initiative/Complete/(INITIATIVE-002)-Evidence-Pipeline/(INITIATIVE-002)-Evidence-Pipeline.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-003",
+          "VISION-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "JOURNEY-001",
+        "file": "docs/journey/Active/(JOURNEY-001)-Understanding-School-Impact/(JOURNEY-001)-Understanding-School-Impact.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "JOURNEY-002",
+        "file": "docs/journey/Active/(JOURNEY-002)-Evaluating-Budget-Fiscally/(JOURNEY-002)-Evaluating-Budget-Fiscally.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "JOURNEY-003",
+        "file": "docs/journey/Active/(JOURNEY-003)-Tracing-Equity/(JOURNEY-003)-Tracing-Equity.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "JOURNEY-004",
+        "file": "docs/journey/Active/(JOURNEY-004)-Navigating-Budget-Governance/(JOURNEY-004)-Navigating-Budget-Governance.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "JOURNEY-005",
+        "file": "docs/journey/Active/(JOURNEY-005)-Evidence-Lifecycle/(JOURNEY-005)-Evidence-Lifecycle.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "DESIGN-002",
+          "INITIATIVE-002",
+          "SPEC-001",
+          "VISION-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "PERSONA-015",
+        "file": "docs/persona/Active/(PERSONA-015)-Cross-Building-Staff-Advocate/(PERSONA-015)-Cross-Building-Staff-Advocate.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "JOURNEY-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPIKE-007",
+        "file": "docs/research/Abandoned/(SPIKE-007)-LLM-Access-In-Pipeline-Runner/(SPIKE-007)-LLM-Access-In-Pipeline-Runner.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-012"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPIKE-008",
+        "file": "docs/research/Active/(SPIKE-008)-Question-Scoring-Prototype/(SPIKE-008)-Question-Scoring-Prototype.md",
+        "body_not_in_frontmatter": [
+          "PERSONA-000",
+          "PERSONA-001",
+          "PERSONA-002",
+          "PERSONA-004",
+          "PERSONA-005",
+          "PERSONA-008",
+          "PERSONA-010",
+          "PERSONA-012",
+          "PERSONA-015"
+        ],
+        "frontmatter_not_in_body": [
+          "EPIC-021"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPIKE-009",
+        "file": "docs/research/Complete/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md",
+        "body_not_in_frontmatter": [
+          "EPIC-022",
+          "EPIC-024"
+        ],
+        "frontmatter_not_in_body": [],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "RUNBOOK-001",
+        "file": "docs/runbook/Active/(RUNBOOK-001)-Standing-Up-Runner/(RUNBOOK-001)-Standing-Up-Runner.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-005",
+          "SPEC-012"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "RUNBOOK-002",
+        "file": "docs/runbook/Active/(RUNBOOK-002)-Interpretation-Pipeline-Run/(RUNBOOK-002)-Interpretation-Pipeline-Run.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-009",
+          "SPEC-019",
+          "SPEC-021",
+          "SPEC-022"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-023",
+        "file": "docs/spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-001",
+          "SPEC-013",
+          "SPEC-015"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-024",
+        "file": "docs/spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-001",
+          "SPEC-013",
+          "SPEC-023"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-025",
+        "file": "docs/spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md",
+        "body_not_in_frontmatter": [
+          "PERSONA-000",
+          "PERSONA-001"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-004",
+          "SPEC-022"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-026",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-027",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-026",
+        "file": "docs/spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-015",
+          "INITIATIVE-004"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-027",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-027",
+        "file": "docs/spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-028",
+        "file": "docs/spec/Active/(SPEC-028)-Privacy-Respecting-Analytics/(SPEC-028)-Privacy-Respecting-Analytics.md",
+        "body_not_in_frontmatter": [
+          "EPIC-018"
+        ],
+        "frontmatter_not_in_body": [
+          "EPIC-014"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-033",
+        "file": "docs/spec/Active/(SPEC-033)-Evidence-Source-Links/(SPEC-033)-Evidence-Source-Links.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-015"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-027",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-034",
+        "file": "docs/spec/Active/(SPEC-034)-Question-Artifact-Type/(SPEC-034)-Question-Artifact-Type.md",
+        "body_not_in_frontmatter": [
+          "PERSONA-001",
+          "SPEC-035",
+          "SPEC-036",
+          "SPEC-037",
+          "SPEC-038"
+        ],
+        "frontmatter_not_in_body": [
+          "EPIC-021"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-035",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-036",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-037",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-038",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-035",
+        "file": "docs/spec/Active/(SPEC-035)-Question-Extraction-Pipeline/(SPEC-035)-Question-Extraction-Pipeline.md",
+        "body_not_in_frontmatter": [
+          "PERSONA-008",
+          "SPEC-036",
+          "SPEC-037",
+          "SPEC-038"
+        ],
+        "frontmatter_not_in_body": [
+          "ADR-004",
+          "EPIC-021"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-036",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-037",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-036",
+        "file": "docs/spec/Active/(SPEC-036)-Question-Scoring/(SPEC-036)-Question-Scoring.md",
+        "body_not_in_frontmatter": [
+          "PERSONA-000"
+        ],
+        "frontmatter_not_in_body": [
+          "EPIC-021",
+          "SPEC-034",
+          "SPEC-035"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-038",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-037",
+        "file": "docs/spec/Active/(SPEC-037)-Resolution-Stress-Test-Gate/(SPEC-037)-Resolution-Stress-Test-Gate.md",
+        "body_not_in_frontmatter": [
+          "PERSONA-002",
+          "PERSONA-008",
+          "SPEC-036"
+        ],
+        "frontmatter_not_in_body": [
+          "EPIC-021",
+          "SPEC-034"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-038",
+        "file": "docs/spec/Active/(SPEC-038)-Evergreen-Key-Questions-Section/(SPEC-038)-Evergreen-Key-Questions-Section.md",
+        "body_not_in_frontmatter": [
+          "EPIC-017",
+          "PERSONA-000"
+        ],
+        "frontmatter_not_in_body": [
+          "EPIC-021",
+          "SPEC-034",
+          "SPEC-036"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-048",
+        "file": "docs/spec/Active/(SPEC-048)-Maine-DOE-Enrollment-Data-Trove/(SPEC-048)-Maine-DOE-Enrollment-Data-Trove.md",
+        "body_not_in_frontmatter": [
+          "EPIC-028",
+          "SPEC-058",
+          "SPIKE-009"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-005"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-056",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-058",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-060",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-061",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-049",
+        "file": "docs/spec/Active/(SPEC-049)-DHHS-Birth-Records-Trove/(SPEC-049)-DHHS-Birth-Records-Trove.md",
+        "body_not_in_frontmatter": [
+          "SPEC-058"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-005"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-050",
+        "file": "docs/spec/Active/(SPEC-050)-Housing-Permit-Data-Trove/(SPEC-050)-Housing-Permit-Data-Trove.md",
+        "body_not_in_frontmatter": [
+          "PERSONA-007",
+          "SPEC-059",
+          "SPIKE-009"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-005"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-051",
+        "file": "docs/spec/Active/(SPEC-051)-Enrollment-Claims-Catalog/(SPEC-051)-Enrollment-Claims-Catalog.md",
+        "body_not_in_frontmatter": [
+          "SPEC-048",
+          "SPEC-056"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-005"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-056",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-052",
+        "file": "docs/spec/Active/(SPEC-052)-School-Choice-Transfer-Data/(SPEC-052)-School-Choice-Transfer-Data.md",
+        "body_not_in_frontmatter": [
+          "SPEC-058",
+          "SPEC-059"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-005"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-053",
+        "file": "docs/spec/Active/(SPEC-053)-Maine-DOE-Transport-Expenditure-Trove/(SPEC-053)-Maine-DOE-Transport-Expenditure-Trove.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-006"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-062",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-054",
+        "file": "docs/spec/Active/(SPEC-054)-Transportation-Claims-Catalog/(SPEC-054)-Transportation-Claims-Catalog.md",
+        "body_not_in_frontmatter": [
+          "SPEC-051"
+        ],
+        "frontmatter_not_in_body": [
+          "EPIC-032",
+          "INITIATIVE-006"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-062",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-055",
+        "file": "docs/spec/Active/(SPEC-055)-School-Locations-Catchment-Data/(SPEC-055)-School-Locations-Catchment-Data.md",
+        "body_not_in_frontmatter": [
+          "EPIC-031"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-006",
+          "SPIKE-009",
+          "SPIKE-010"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-060",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-063",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-056",
+        "file": "docs/spec/Active/(SPEC-056)-Enrollment-Gap-Analysis-Document/(SPEC-056)-Enrollment-Gap-Analysis-Document.md",
+        "body_not_in_frontmatter": [
+          "SPEC-049",
+          "SPEC-050",
+          "SPEC-057",
+          "SPEC-058"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-005"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-057",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-057",
+        "file": "docs/spec/Active/(SPEC-057)-Enrollment-Phase-1-Persona-Briefs/(SPEC-057)-Enrollment-Phase-1-Persona-Briefs.md",
+        "body_not_in_frontmatter": [
+          "INITIATIVE-003",
+          "INITIATIVE-004",
+          "PERSONA-001",
+          "PERSONA-015"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-005"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-067",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-058",
+        "file": "docs/spec/Active/(SPEC-058)-Cohort-Survival-Model/(SPEC-058)-Cohort-Survival-Model.md",
+        "body_not_in_frontmatter": [
+          "SPEC-059",
+          "SPIKE-009"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-005"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-059",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-067",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-068",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-059",
+        "file": "docs/spec/Active/(SPEC-059)-Scenario-Bracket-Projections/(SPEC-059)-Scenario-Bracket-Projections.md",
+        "body_not_in_frontmatter": [
+          "SPIKE-009"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-005"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-067",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-068",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-060",
+        "file": "docs/spec/Active/(SPEC-060)-Split-Family-Count-Model/(SPEC-060)-Split-Family-Count-Model.md",
+        "body_not_in_frontmatter": [
+          "SPEC-064"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-006",
+          "SPEC-055"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-064",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-065",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-061",
+        "file": "docs/spec/Active/(SPEC-061)-McKinney-Vento-Exposure-Analysis/(SPEC-061)-McKinney-Vento-Exposure-Analysis.md",
+        "body_not_in_frontmatter": [
+          "SPEC-053"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-006",
+          "SPEC-048"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-065",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-062",
+        "file": "docs/spec/Active/(SPEC-062)-SEA-Staffing-Adequacy-Assessment/(SPEC-062)-SEA-Staffing-Adequacy-Assessment.md",
+        "body_not_in_frontmatter": [
+          "SPEC-055",
+          "SPEC-065"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-006",
+          "SPEC-054"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-065",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-063",
+        "file": "docs/spec/Active/(SPEC-063)-Bell-Schedule-Tier-Analysis/(SPEC-063)-Bell-Schedule-Tier-Analysis.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-006"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-064",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-065",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-064",
+        "file": "docs/spec/Active/(SPEC-064)-Before-After-Care-Gap-Analysis/(SPEC-064)-Before-After-Care-Gap-Analysis.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-006"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-065",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-065",
+        "file": "docs/spec/Active/(SPEC-065)-Transport-Configuration-Comparison/(SPEC-065)-Transport-Configuration-Comparison.md",
+        "body_not_in_frontmatter": [
+          "EPIC-032",
+          "EPIC-033",
+          "INITIATIVE-004"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-001",
+          "INITIATIVE-006",
+          "SPEC-061",
+          "SPEC-062",
+          "SPEC-063"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-066",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-070",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-066",
+        "file": "docs/spec/Active/(SPEC-066)-Transport-Persona-Briefs/(SPEC-066)-Transport-Persona-Briefs.md",
+        "body_not_in_frontmatter": [
+          "INITIATIVE-003",
+          "INITIATIVE-004",
+          "PERSONA-001",
+          "PERSONA-015",
+          "SPEC-054"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-006"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-067",
+        "file": "docs/spec/Active/(SPEC-067)-Enrollment-Phase-2-Persona-Briefs/(SPEC-067)-Enrollment-Phase-2-Persona-Briefs.md",
+        "body_not_in_frontmatter": [
+          "SPIKE-009"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-005"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-068",
+        "file": "docs/spec/Active/(SPEC-068)-Enrollment-Baseline-Site-Page/(SPEC-068)-Enrollment-Baseline-Site-Page.md",
+        "body_not_in_frontmatter": [
+          "DESIGN-001",
+          "INITIATIVE-006"
+        ],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-004",
+          "INITIATIVE-005"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-069",
+        "file": "docs/spec/Active/(SPEC-069)-Enrollment-Study-Site-Pages/(SPEC-069)-Enrollment-Study-Site-Pages.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-014",
+          "EPIC-019",
+          "INITIATIVE-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-070",
+        "file": "docs/spec/Active/(SPEC-070)-Transportation-Analysis-Site-Pages/(SPEC-070)-Transportation-Analysis-Site-Pages.md",
+        "body_not_in_frontmatter": [
+          "EPIC-033"
+        ],
+        "frontmatter_not_in_body": [
+          "EPIC-014",
+          "EPIC-019",
+          "INITIATIVE-004",
+          "SPEC-065"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-001",
+        "file": "docs/spec/Complete/(SPEC-001)-Vimeo-VTT-Connector/(SPEC-001)-Vimeo-VTT-Connector.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-002",
+        "file": "docs/spec/Complete/(SPEC-002)-Diligent-Agenda-Connector/(SPEC-002)-Diligent-Agenda-Connector.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-003",
+        "file": "docs/spec/Complete/(SPEC-003)-Budget-PDF-Connector/(SPEC-003)-Budget-PDF-Connector.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-001"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-004",
+        "file": "docs/spec/Complete/(SPEC-004)-VTT-Normalizer/(SPEC-004)-VTT-Normalizer.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-005",
+        "file": "docs/spec/Complete/(SPEC-005)-PDF-Normalizer/(SPEC-005)-PDF-Normalizer.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-006",
+        "file": "docs/spec/Complete/(SPEC-006)-HTML-Normalizer/(SPEC-006)-HTML-Normalizer.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-002",
+          "SPIKE-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-007",
+        "file": "docs/spec/Complete/(SPEC-007)-Pipeline-Runner/(SPEC-007)-Pipeline-Runner.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-003",
+          "SPIKE-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-008",
+        "file": "docs/spec/Complete/(SPEC-008)-Pipeline-Scheduling/(SPEC-008)-Pipeline-Scheduling.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-011",
+        "file": "docs/spec/Complete/(SPEC-011)-XLSX-Normalizer/(SPEC-011)-XLSX-Normalizer.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-002"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-012",
+        "file": "docs/spec/Complete/(SPEC-012)-Docker-Runner-Setup/(SPEC-012)-Docker-Runner-Setup.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-005"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-013",
+        "file": "docs/spec/Complete/(SPEC-013)-Live-Discovery-Connector-Model/(SPEC-013)-Live-Discovery-Connector-Model.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-006"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-023",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          },
+          {
+            "from": "SPEC-024",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-014",
+        "file": "docs/spec/Complete/(SPEC-014)-Vimeo-Live-Discovery/(SPEC-014)-Vimeo-Live-Discovery.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-006"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-015",
+        "file": "docs/spec/Complete/(SPEC-015)-Budget-Page-Live-Discovery/(SPEC-015)-Budget-Page-Live-Discovery.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-006"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-016",
+        "file": "docs/spec/Complete/(SPEC-016)-Meeting-Bundle-Schema/(SPEC-016)-Meeting-Bundle-Schema.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-008"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-017",
+        "file": "docs/spec/Complete/(SPEC-017)-Source-to-Meeting-Affiliation/(SPEC-017)-Source-to-Meeting-Affiliation.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-008"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-018",
+        "file": "docs/spec/Complete/(SPEC-018)-Interpretation-Output-Schema/(SPEC-018)-Interpretation-Output-Schema.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-009"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-019",
+        "file": "docs/spec/Complete/(SPEC-019)-Per-Meeting-Interpretation-Runner/(SPEC-019)-Per-Meeting-Interpretation-Runner.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-009"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-020",
+        "file": "docs/spec/Complete/(SPEC-020)-Cumulative-Interpretation-Format/(SPEC-020)-Cumulative-Interpretation-Format.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-010"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-021",
+        "file": "docs/spec/Complete/(SPEC-021)-Fold-Engine/(SPEC-021)-Fold-Engine.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-010",
+          "SPIKE-006"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-022",
+        "file": "docs/spec/Complete/(SPEC-022)-Upcoming-Event-Brief-Generator/(SPEC-022)-Upcoming-Event-Brief-Generator.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-011"
+        ],
+        "missing_reciprocal": [
+          {
+            "from": "SPEC-025",
+            "edge_type": "depends-on",
+            "expected_field": "linked-artifacts"
+          }
+        ]
+      },
+      {
+        "artifact": "SPEC-071",
+        "file": "docs/spec/Complete/(SPEC-071)-SPC-TV-TelVue-Connector/(SPEC-071)-SPC-TV-TelVue-Connector.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "DESIGN-002",
+          "INITIATIVE-002",
+          "JOURNEY-005",
+          "SPEC-001",
+          "SPEC-014"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-029",
+        "file": "docs/spec/Proposed/(SPEC-029)-Persona-Routing-Selector/(SPEC-029)-Persona-Routing-Selector.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-015"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-030",
+        "file": "docs/spec/Proposed/(SPEC-030)-Briefing-Summary-Block/(SPEC-030)-Briefing-Summary-Block.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-015"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-031",
+        "file": "docs/spec/Proposed/(SPEC-031)-Student-Friendly-Language/(SPEC-031)-Student-Friendly-Language.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-015"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-032",
+        "file": "docs/spec/Proposed/(SPEC-032)-Last-Updated-Indicator/(SPEC-032)-Last-Updated-Indicator.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-015"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-009",
+        "file": "docs/spec/Superseded/(SPEC-009)-Vimeo-Channel-Auto-Discovery/(SPEC-009)-Vimeo-Channel-Auto-Discovery.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-010",
+        "file": "docs/spec/Superseded/(SPEC-010)-Budget-Page-Auto-Discovery/(SPEC-010)-Budget-Page-Auto-Discovery.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "EPIC-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "RETRO-2026-03-22-persona-pipeline-design-review",
+        "file": "docs/swain-retro/2026-03-22-persona-pipeline-design-review.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "SPEC-029",
+          "SPEC-030",
+          "SPEC-031",
+          "SPEC-032",
+          "SPEC-033"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "RETRO-2026-03-22-site-polish-pass",
+        "file": "docs/swain-retro/2026-03-22-site-polish-pass.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "INITIATIVE-004",
+          "VISION-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "RETRO-2026-03-22-static-site-launch",
+        "file": "docs/swain-retro/2026-03-22-static-site-launch.md",
+        "body_not_in_frontmatter": [
+          "EPIC-013",
+          "EPIC-015",
+          "EPIC-018",
+          "PERSONA-001",
+          "SPEC-024"
+        ],
+        "frontmatter_not_in_body": [],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "RETRO-2026-03-30-question-scoring-spike",
+        "file": "docs/swain-retro/2026-03-30-question-scoring-spike.md",
+        "body_not_in_frontmatter": [
+          "PERSONA-001",
+          "SPIKE-005"
+        ],
+        "frontmatter_not_in_body": [
+          "EPIC-017"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "RETRO-2026-03-31-citizen-studies",
+        "file": "docs/swain-retro/2026-03-31-citizen-studies-brainstorming.md",
+        "body_not_in_frontmatter": [
+          "EPIC-022",
+          "SPEC-039",
+          "SPEC-048",
+          "SPEC-051",
+          "SPEC-052",
+          "SPEC-053",
+          "SPEC-054"
+        ],
+        "frontmatter_not_in_body": [
+          "EPIC-027",
+          "EPIC-028",
+          "EPIC-029",
+          "EPIC-031",
+          "EPIC-032"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "RETRO-2026-03-31-initiative-005-data-acquisition",
+        "file": "docs/swain-retro/2026-03-31-initiative-005-data-acquisition.md",
+        "body_not_in_frontmatter": [
+          "SPEC-051",
+          "SPEC-054"
+        ],
+        "frontmatter_not_in_body": [],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "VISION-001",
+        "file": "docs/vision/Active/(VISION-001)-SP-Budget-Analysis/(VISION-001)-SP-Budget-Analysis.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "VISION-002",
+        "file": "docs/vision/Active/(VISION-002)-Evidence-Pipeline/(VISION-002)-Evidence-Pipeline.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "VISION-003",
+        "file": "docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/(VISION-003)-Persona-Interpretation-Pipeline.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-004"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "VISION-004",
+        "file": "docs/vision/Active/(VISION-004)-Public-Budget-Site/(VISION-004)-Public-Budget-Site.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [
+          "VISION-002",
+          "VISION-003"
+        ],
+        "missing_reciprocal": []
+      },
+      {
+        "artifact": "SPEC-025",
+        "file": "docs/spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [],
+        "missing_reciprocal": [],
+        "dual_parent": true,
+        "dual_parent_message": "SPEC-025 has both parent-epic and parent-initiative — use exactly one"
+      },
+      {
+        "artifact": "SPEC-026",
+        "file": "docs/spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [],
+        "missing_reciprocal": [],
+        "dual_parent": true,
+        "dual_parent_message": "SPEC-026 has both parent-epic and parent-initiative — use exactly one"
+      },
+      {
+        "artifact": "SPEC-027",
+        "file": "docs/spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md",
+        "body_not_in_frontmatter": [],
+        "frontmatter_not_in_body": [],
+        "missing_reciprocal": [],
+        "dual_parent": true,
+        "dual_parent_message": "SPEC-027 has both parent-epic and parent-initiative — use exactly one"
+      }
+    ],
+    "xref_gap_count": 128
   },
   "tasks": {
     "inProgress": [
@@ -120,16 +3069,70 @@
   },
   "linkedIssues": [],
   "session": {
-    "bookmark": null,
-    "lastBranch": null,
-    "lastContext": null,
-    "focus_lane": null,
+    "bookmark": {
+      "note": "SPIKE-001 active, DOE multi-year data pulled, transport anomaly found",
+      "files": [
+        "docs/research/Active/(SPIKE-001)-Comparable-District-Transport-Impact/(SPIKE-001)-Comparable-District-Transport-Impact.md",
+        "data/transport-per-pupil-multiyear.csv",
+        "dist/transportation-analysis/METHODOLOGY.md"
+      ],
+      "timestamp": "2026-03-31T22:12:19Z"
+    },
+    "lastBranch": "main",
+    "lastContext": "Session restored 2026-03-12",
+    "focus_lane": "INITIATIVE-006",
     "status_mode": null
   },
   "priority": {
     "recommendations": [],
-    "decision_debt": {},
-    "attention": {},
+    "decision_debt": {
+      "VISION-004": {
+        "count": 4,
+        "total_unblocks": 0,
+        "items": [
+          "SPEC-029",
+          "SPEC-030",
+          "SPEC-032",
+          "SPEC-031"
+        ]
+      },
+      "VISION-001": {
+        "count": 1,
+        "total_unblocks": 0,
+        "items": [
+          "EPIC-007"
+        ]
+      },
+      "VISION-003": {
+        "count": 1,
+        "total_unblocks": 0,
+        "items": [
+          "EPIC-020"
+        ]
+      }
+    },
+    "attention": {
+      "VISION-001": {
+        "transitions": 92,
+        "last_activity": "2026-03-31T19:42:01-04:00"
+      },
+      "VISION-002": {
+        "transitions": 130,
+        "last_activity": "2026-03-31T12:29:36-04:00"
+      },
+      "_unaligned": {
+        "transitions": 147,
+        "last_activity": "2026-03-31T12:27:07-04:00"
+      },
+      "VISION-004": {
+        "transitions": 31,
+        "last_activity": "2026-03-31T10:52:34-04:00"
+      },
+      "VISION-003": {
+        "transitions": 91,
+        "last_activity": "2026-03-31T08:11:30-04:00"
+      }
+    },
     "drift": []
   }
 }

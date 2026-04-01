@@ -5,15 +5,15 @@
 
 ## Progress
 
-█░░░░░░░░░░░ 2/18 complete (11%)
+█░░░░░░░░░░░ 2/20 complete (10%)
 
 ## Recent Activity
 
 | Date | Time | Commit | Message |
 |------|------|--------|---------|
+| 2026-03-31 | 10:52 | `ce28608` | docs: add delivery mechanism to initiatives, create site integration specs |
 | 2026-03-25 | 09:30 | `1cd99bb` | release: v1.0.0 (#12) |
 | 2026-03-25 | 09:28 | `08a25b9` | feat(EPIC-017): question hub — extraction pipeline, index page, and answer detail pages (#11) |
-| 2026-03-25 | 08:21 | `cf1de04` | feat(EPIC-017): question hub — extraction pipeline, index page, and answer detail pages |
 
 ## Priority Subset
 
@@ -22,10 +22,10 @@
 
 | Initiative | Epic | Progress | Unblocks | Needs |
 |-----------|------|----------|----------|-------|
-| [Public Budget Site]((INITIATIVE-004)-Public-Budget-Site.md) | [Question Extraction](../../../spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md) | 0/0 | 2 | **needs decomposition** |
-|  | [Question Hub](../../../epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md) | 0/3 | 1 | — |
-|  | [Questions Index Page](../../../spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md) | 0/0 | 1 | **needs decomposition** |
-|  | [Answer Detail Pages](../../../spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md) | 0/0 | 0 | **needs decomposition** |
+| [Public Budget Site](docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md) | [Question Hub](docs/epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md) | 0/3 | 2 | — |
+|  | [Question Extraction](docs/spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md) | 0/0 | 2 | **needs decomposition** |
+|  | [Questions Index Page](docs/spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md) | 0/0 | 1 | **needs decomposition** |
+|  | [Answer Detail Pages](docs/spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md) | 0/0 | 0 | **needs decomposition** |
 
 ### Schedule
 *High priority, not yet started*
@@ -37,39 +37,43 @@
 
 | Initiative | Epic | Progress | Unblocks | Needs |
 |-----------|------|----------|----------|-------|
-| [Public Budget Site]((INITIATIVE-004)-Public-Budget-Site.md) | [Site Visual Design](../../../epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md) | 0/0 | 0 | **needs decomposition** |
-|  | [Privacy-Respecting Analytics](../../../spec/Active/(SPEC-028)-Privacy-Respecting-Analytics/(SPEC-028)-Privacy-Respecting-Analytics.md) | 0/0 | 0 | **needs decomposition** |
+| [Public Budget Site](docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md) | [Site Visual Design](docs/epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md) | 0/0 | 0 | **needs decomposition** |
+|  | [Privacy-Respecting Analytics](docs/spec/Active/(SPEC-028)-Privacy-Respecting-Analytics/(SPEC-028)-Privacy-Respecting-Analytics.md) | 0/0 | 0 | **needs decomposition** |
 
 ### Backlog
 *Not yet prioritized or started*
 
 | Initiative | Epic | Progress | Unblocks | Needs |
 |-----------|------|----------|----------|-------|
-| [Public Budget Site]((INITIATIVE-004)-Public-Budget-Site.md) | [Community Feedback](../../../epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md) | 0/0 | 0 | **activate or drop** |
-|  | [Site Data Assembly](../../../epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md) | 0/0 | 0 | **activate or drop** |
+| [Public Budget Site](docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md) | [Community Feedback](docs/epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md) | 0/0 | 0 | **activate or drop** |
+|  | [Site Data Assembly](docs/epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md) | 0/2 | 0 | **activate or drop** |
 
 
 ## Children
 
 ### Active
 
-- [EPIC-016](../../../epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md) — Site Visual Design (—)
-- [EPIC-017](../../../epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md) — Question Hub (0/3)
+- [EPIC-016](../../../epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md) — Site Visual Design, —
+- [EPIC-017](../../../epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md) — Question Hub, 0/3
   - [SPEC-025](../../../spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md) — Question Extraction (Active, in progress)
   - [SPEC-026](../../../spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md) — Questions Index Page (Active, in progress)
   - [SPEC-027](../../../spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md) — Answer Detail Pages (Active, in progress)
-- [SPEC-025](../../../spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md) — Question Extraction (in progress)
-- [SPEC-026](../../../spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md) — Questions Index Page (in progress)
-- [SPEC-027](../../../spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md) — Answer Detail Pages (in progress)
-- [SPEC-028](../../../spec/Active/(SPEC-028)-Privacy-Respecting-Analytics/(SPEC-028)-Privacy-Respecting-Analytics.md) — Privacy-Respecting Analytics (in progress)
+- [SPEC-025](../../../spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md) — Question Extraction, in progress
+- [SPEC-026](../../../spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md) — Questions Index Page, in progress
+- [SPEC-027](../../../spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md) — Answer Detail Pages, in progress
+- [SPEC-028](../../../spec/Active/(SPEC-028)-Privacy-Respecting-Analytics/(SPEC-028)-Privacy-Respecting-Analytics.md) — Privacy-Respecting Analytics, in progress
+
 ### Proposed
 
-- [EPIC-018](../../../epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md) — Community Feedback (—)
-- [EPIC-019](../../../epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md) — Site Data Assembly (—)
+- [EPIC-018](../../../epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md) — Community Feedback, —
+- [EPIC-019](../../../epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md) — Site Data Assembly, 0/2
+  - [SPEC-069](../../../spec/Active/(SPEC-069)-Enrollment-Study-Site-Pages/(SPEC-069)-Enrollment-Study-Site-Pages.md) — Enrollment Study Site Pages (Active, in progress)
+  - [SPEC-070](../../../spec/Active/(SPEC-070)-Transportation-Analysis-Site-Pages/(SPEC-070)-Transportation-Analysis-Site-Pages.md) — Transportation Analysis Site Pages (Active, in progress)
+
 ### Complete
 
-- [EPIC-014](../../../epic/Complete/(EPIC-014)-Site-Scaffolding-And-Deploy/(EPIC-014)-Site-Scaffolding-And-Deploy.md) — Site Scaffolding and Deploy (—)
-- [EPIC-015](../../../epic/Complete/(EPIC-015)-Core-Pages/(EPIC-015)-Core-Pages.md) — Core Pages (0/5)
+- [EPIC-014](../../../epic/Complete/(EPIC-014)-Site-Scaffolding-And-Deploy/(EPIC-014)-Site-Scaffolding-And-Deploy.md) — Site Scaffolding and Deploy, —
+- [EPIC-015](../../../epic/Complete/(EPIC-015)-Core-Pages/(EPIC-015)-Core-Pages.md) — Core Pages, 0/5
   - [SPEC-029](../../../spec/Proposed/(SPEC-029)-Persona-Routing-Selector/(SPEC-029)-Persona-Routing-Selector.md) — Persona Routing Selector (Proposed, in progress)
   - [SPEC-030](../../../spec/Proposed/(SPEC-030)-Briefing-Summary-Block/(SPEC-030)-Briefing-Summary-Block.md) — Briefing Summary Block (Proposed, in progress)
   - [SPEC-031](../../../spec/Proposed/(SPEC-031)-Student-Friendly-Language/(SPEC-031)-Student-Friendly-Language.md) — Student-Friendly Language (Proposed, in progress)

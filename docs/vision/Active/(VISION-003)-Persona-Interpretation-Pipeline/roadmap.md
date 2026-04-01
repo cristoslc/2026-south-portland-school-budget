@@ -5,22 +5,24 @@
 
 ## Progress
 
-█████████░░░ 19/24 complete (79%)
+███████░░░░░ 19/32 complete (59%)
 
 ## Recent Activity
 
 | Date | Time | Commit | Message |
 |------|------|--------|---------|
+| 2026-03-30 | 22:47 | `5bdc9e8` | docs(EPIC-021): add ADR-004, SPEC-034..038, and SPIKE-008 findings for key questions tracking |
+| 2026-03-30 | 22:19 | `86ca2c1` | feat(SPIKE-008): add question scoring prototype and Key Questions tracking |
 | 2026-03-23 | 09:13 | `f204c0f` | docs: import 3 troves from branch + recreate EPIC-020 |
-| 2026-03-22 | 11:32 | `6436b93` | docs: decompose INITIATIVE-004 into 6 child epics |
-| 2026-03-17 | 17:57 | `5fe28f2` | feat(pipeline): add polling interpretation pipeline (ADR-002, EPIC-013) |
 
 ## Priority Subset
 
 ### Do First
 *High priority, active or unblocking*
 
-*(none)*
+| Initiative | Epic | Progress | Unblocks | Needs |
+|-----------|------|----------|----------|-------|
+| [Interpretation Pipeline](docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md) | [Key Questions Tracking](docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md) | 0/5 | 0 | — |
 
 ### Schedule
 *High priority, not yet started*
@@ -32,47 +34,58 @@
 
 | Initiative | Epic | Progress | Unblocks | Needs |
 |-----------|------|----------|----------|-------|
-| [Interpretation Pipeline](../../../initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md) | [Polling Interpretation Pipeline](../../../epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md) | 0/0 | 0 | **needs decomposition** |
+| [Interpretation Pipeline](docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md) | [Polling Interpretation Pipeline](docs/epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md) | 0/0 | 0 | **needs decomposition** |
 
 ### Backlog
 *Not yet prioritized or started*
 
 | Initiative | Epic | Progress | Unblocks | Needs |
 |-----------|------|----------|----------|-------|
-| [Interpretation Pipeline](../../../initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md) | [Feedback Pipeline Integration](../../../epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md) | 0/0 | 0 | **activate or drop** |
+| [Interpretation Pipeline](docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md) | [Feedback Pipeline Integration](docs/epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md) | 0/0 | 0 | **activate or drop** |
 
 
 ## Children
 
 ### Active
 
-- [EPIC-013](../../../epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md) — Polling Interpretation Pipeline (—)
-- [INITIATIVE-003](../../../initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md) — Interpretation Pipeline (in progress)
+- [EPIC-013](../../../epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md) — Polling Interpretation Pipeline, —
+- [EPIC-021](../../../epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md) — Key Questions Tracking, 0/5
+  - [SPEC-034](../../../spec/Active/(SPEC-034)-Question-Artifact-Type/(SPEC-034)-Question-Artifact-Type.md) — Question Artifact Type (Active, in progress)
+  - [SPEC-035](../../../spec/Active/(SPEC-035)-Question-Extraction-Pipeline/(SPEC-035)-Question-Extraction-Pipeline.md) — Question Extraction Pipeline (Active, in progress)
+  - [SPEC-036](../../../spec/Active/(SPEC-036)-Question-Scoring/(SPEC-036)-Question-Scoring.md) — Question Scoring (Active, in progress)
+  - [SPEC-037](../../../spec/Active/(SPEC-037)-Resolution-Stress-Test-Gate/(SPEC-037)-Resolution-Stress-Test-Gate.md) — Resolution Stress-Test Gate (Active, in progress)
+  - [SPEC-038](../../../spec/Active/(SPEC-038)-Evergreen-Key-Questions-Section/(SPEC-038)-Evergreen-Key-Questions-Section.md) — Evergreen Key Questions Section (Active, in progress)
+  - [SPIKE-008](../../../research/Active/(SPIKE-008)-Question-Scoring-Prototype/(SPIKE-008)-Question-Scoring-Prototype.md) — Question Scoring Prototype (Active, in progress)
+- [INITIATIVE-003](../../../initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md) — Interpretation Pipeline, in progress
   - [EPIC-012](../../../epic/Abandoned/(EPIC-012)-Interpretation-Pipeline-Automation/(EPIC-012)-Interpretation-Pipeline-Automation.md) — Interpretation Pipeline Automation (Abandoned, —)
   - [EPIC-013](../../../epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md) — Polling Interpretation Pipeline (Active, —)
   - [EPIC-020](../../../epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md) — Feedback Pipeline Integration (Proposed, —)
+  - [EPIC-021](../../../epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md) — Key Questions Tracking (Active, 0/5)
   - [EPIC-008](../../../epic/Complete/(EPIC-008)-Meeting-Bundler/(EPIC-008)-Meeting-Bundler.md) — Meeting Bundler (Complete, 2/2)
   - [EPIC-009](../../../epic/Complete/(EPIC-009)-Per-Meeting-Interpretation-Engine/(EPIC-009)-Per-Meeting-Interpretation-Engine.md) — Per-Meeting Interpretation Engine (Complete, 2/2)
   - [EPIC-010](../../../epic/Complete/(EPIC-010)-Cumulative-Narrative-Fold/(EPIC-010)-Cumulative-Narrative-Fold.md) — Cumulative Narrative Fold (Complete, 2/2)
   - [EPIC-011](../../../epic/Complete/(EPIC-011)-Upcoming-Event-Brief-Generation/(EPIC-011)-Upcoming-Event-Brief-Generation.md) — Upcoming-Event Brief Generation (Complete, 1/1)
+
 ### Proposed
 
-- [EPIC-020](../../../epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md) — Feedback Pipeline Integration (—)
+- [EPIC-020](../../../epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md) — Feedback Pipeline Integration, —
+
 ### Complete
 
-- [EPIC-008](../../../epic/Complete/(EPIC-008)-Meeting-Bundler/(EPIC-008)-Meeting-Bundler.md) — Meeting Bundler (2/2)
+- [EPIC-008](../../../epic/Complete/(EPIC-008)-Meeting-Bundler/(EPIC-008)-Meeting-Bundler.md) — Meeting Bundler, 2/2
   - [SPEC-016](../../../spec/Complete/(SPEC-016)-Meeting-Bundle-Schema/(SPEC-016)-Meeting-Bundle-Schema.md) — Meeting Bundle Schema (Complete, done)
   - [SPEC-017](../../../spec/Complete/(SPEC-017)-Source-to-Meeting-Affiliation/(SPEC-017)-Source-to-Meeting-Affiliation.md) — Source-to-Meeting Affiliation (Complete, done)
-- [EPIC-009](../../../epic/Complete/(EPIC-009)-Per-Meeting-Interpretation-Engine/(EPIC-009)-Per-Meeting-Interpretation-Engine.md) — Per-Meeting Interpretation Engine (2/2)
+- [EPIC-009](../../../epic/Complete/(EPIC-009)-Per-Meeting-Interpretation-Engine/(EPIC-009)-Per-Meeting-Interpretation-Engine.md) — Per-Meeting Interpretation Engine, 2/2
   - [RUNBOOK-002](../../../runbook/Active/(RUNBOOK-002)-Interpretation-Pipeline-Run/(RUNBOOK-002)-Interpretation-Pipeline-Run.md) — Interpretation Pipeline Run (Active, done)
   - [SPEC-018](../../../spec/Complete/(SPEC-018)-Interpretation-Output-Schema/(SPEC-018)-Interpretation-Output-Schema.md) — Interpretation Output Schema (Complete, done)
   - [SPEC-019](../../../spec/Complete/(SPEC-019)-Per-Meeting-Interpretation-Runner/(SPEC-019)-Per-Meeting-Interpretation-Runner.md) — Per-Meeting Interpretation Runner (Complete, done)
-- [EPIC-010](../../../epic/Complete/(EPIC-010)-Cumulative-Narrative-Fold/(EPIC-010)-Cumulative-Narrative-Fold.md) — Cumulative Narrative Fold (2/2)
+- [EPIC-010](../../../epic/Complete/(EPIC-010)-Cumulative-Narrative-Fold/(EPIC-010)-Cumulative-Narrative-Fold.md) — Cumulative Narrative Fold, 2/2
   - [SPEC-020](../../../spec/Complete/(SPEC-020)-Cumulative-Interpretation-Format/(SPEC-020)-Cumulative-Interpretation-Format.md) — Cumulative Interpretation Format (Complete, done)
   - [SPEC-021](../../../spec/Complete/(SPEC-021)-Fold-Engine/(SPEC-021)-Fold-Engine.md) — Fold Engine (Complete, done)
-- [EPIC-011](../../../epic/Complete/(EPIC-011)-Upcoming-Event-Brief-Generation/(EPIC-011)-Upcoming-Event-Brief-Generation.md) — Upcoming-Event Brief Generation (1/1)
+- [EPIC-011](../../../epic/Complete/(EPIC-011)-Upcoming-Event-Brief-Generation/(EPIC-011)-Upcoming-Event-Brief-Generation.md) — Upcoming-Event Brief Generation, 1/1
   - [SPEC-022](../../../spec/Complete/(SPEC-022)-Upcoming-Event-Brief-Generator/(SPEC-022)-Upcoming-Event-Brief-Generator.md) — Upcoming-Event Brief Generator (Complete, done)
+
 ### Abandoned
 
-- [EPIC-012](../../../epic/Abandoned/(EPIC-012)-Interpretation-Pipeline-Automation/(EPIC-012)-Interpretation-Pipeline-Automation.md) — Interpretation Pipeline Automation (—)
+- [EPIC-012](../../../epic/Abandoned/(EPIC-012)-Interpretation-Pipeline-Automation/(EPIC-012)-Interpretation-Pipeline-Automation.md) — Interpretation Pipeline Automation, —
   - [SPIKE-007](../../../research/Abandoned/(SPIKE-007)-LLM-Access-In-Pipeline-Runner/(SPIKE-007)-LLM-Access-In-Pipeline-Runner.md) — Claude CLI Access in Pipeline Runner (Abandoned, done)

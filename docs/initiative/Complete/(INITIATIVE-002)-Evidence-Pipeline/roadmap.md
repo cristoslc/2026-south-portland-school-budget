@@ -5,40 +5,40 @@
 
 ## Progress
 
-████████████ 22/22 complete (100%)
+████████████ 23/23 complete (100%)
 
 ## Recent Activity
 
 | Date | Time | Commit | Message |
 |------|------|--------|---------|
-| 2026-03-12 | 17:48 | `054692b` | fix(docs): resolve stale fix-ref in BUG-001 frontmatter |
-| 2026-03-11 | 18:41 | `27a992a` | fix: close BUG-001 as verified — pipeline partial failure resolved by EPIC-006 |
-| 2026-03-11 | 17:39 | `6dd286c` | chore(docs): stamp transition hashes for EPIC-006 completion |
-
+| 2026-03-31 | 12:29 | `8a170ce` | docs: transition SPEC-071 to Complete, update JOURNEY-005 pain points |
+| 2026-03-31 | 12:16 | `cf37fc5` | docs: SPEC-071 artifact + three trove operations |
+| 2026-03-31 | 12:15 | `349d798` | feat(SPEC-071): SPC-TV TelVue connector — discovery and VTT extraction |
 
 ## Children
 
 ### Complete
 
-- [EPIC-001](../../../epic/Complete/(EPIC-001)-Source-Connectors/(EPIC-001)-Source-Connectors.md) — Source Connectors (3/3)
+- [EPIC-001](../../../epic/Complete/(EPIC-001)-Source-Connectors/(EPIC-001)-Source-Connectors.md) — Source Connectors, 3/3
   - [SPEC-001](../../../spec/Complete/(SPEC-001)-Vimeo-VTT-Connector/(SPEC-001)-Vimeo-VTT-Connector.md) — Vimeo VTT Connector (Complete, done)
   - [SPEC-002](../../../spec/Complete/(SPEC-002)-Diligent-Agenda-Connector/(SPEC-002)-Diligent-Agenda-Connector.md) — Diligent Community Agenda Connector (Complete, done)
   - [SPEC-003](../../../spec/Complete/(SPEC-003)-Budget-PDF-Connector/(SPEC-003)-Budget-PDF-Connector.md) — Budget Page PDF Connector (Complete, done)
-- [EPIC-002](../../../epic/Complete/(EPIC-002)-Content-Normalization/(EPIC-002)-Content-Normalization.md) — Content Normalization (4/4)
+- [EPIC-002](../../../epic/Complete/(EPIC-002)-Content-Normalization/(EPIC-002)-Content-Normalization.md) — Content Normalization, 4/4
   - [SPEC-004](../../../spec/Complete/(SPEC-004)-VTT-Normalizer/(SPEC-004)-VTT-Normalizer.md) — VTT-to-Markdown Normalizer (Complete, done)
   - [SPEC-005](../../../spec/Complete/(SPEC-005)-PDF-Normalizer/(SPEC-005)-PDF-Normalizer.md) — PDF-to-Markdown Normalizer (Complete, done)
   - [SPEC-006](../../../spec/Complete/(SPEC-006)-HTML-Normalizer/(SPEC-006)-HTML-Normalizer.md) — HTML-to-Markdown Normalizer (Complete, done)
   - [SPEC-011](../../../spec/Complete/(SPEC-011)-XLSX-Normalizer/(SPEC-011)-XLSX-Normalizer.md) — XLSX-to-Markdown Normalizer (Complete, done)
-- [EPIC-003](../../../epic/Complete/(EPIC-003)-Pipeline-Orchestration/(EPIC-003)-Pipeline-Orchestration.md) — Pipeline Orchestration (2/2)
+- [EPIC-003](../../../epic/Complete/(EPIC-003)-Pipeline-Orchestration/(EPIC-003)-Pipeline-Orchestration.md) — Pipeline Orchestration, 2/2
   - [SPEC-007](../../../spec/Complete/(SPEC-007)-Pipeline-Runner/(SPEC-007)-Pipeline-Runner.md) — Pipeline Runner (Complete, done)
   - [SPEC-008](../../../spec/Complete/(SPEC-008)-Pipeline-Scheduling/(SPEC-008)-Pipeline-Scheduling.md) — Pipeline Scheduling (Complete, done)
-- [EPIC-004](../../../epic/Complete/(EPIC-004)-Source-Auto-Discovery/(EPIC-004)-Source-Auto-Discovery.md) — Source Auto-Discovery (2/2)
+- [EPIC-004](../../../epic/Complete/(EPIC-004)-Source-Auto-Discovery/(EPIC-004)-Source-Auto-Discovery.md) — Source Auto-Discovery, 2/2
   - [SPEC-009](../../../spec/Superseded/(SPEC-009)-Vimeo-Channel-Auto-Discovery/(SPEC-009)-Vimeo-Channel-Auto-Discovery.md) — Vimeo Channel Auto-Discovery (Superseded, done)
   - [SPEC-010](../../../spec/Superseded/(SPEC-010)-Budget-Page-Auto-Discovery/(SPEC-010)-Budget-Page-Auto-Discovery.md) — Budget Page Auto-Discovery (Superseded, done)
-- [EPIC-005](../../../epic/Complete/(EPIC-005)-Self-Hosted-Runner/(EPIC-005)-Self-Hosted-Runner.md) — Self-Hosted GitHub Actions Runner (1/1)
+- [EPIC-005](../../../epic/Complete/(EPIC-005)-Self-Hosted-Runner/(EPIC-005)-Self-Hosted-Runner.md) — Self-Hosted GitHub Actions Runner, 1/1
   - [RUNBOOK-001](../../../runbook/Active/(RUNBOOK-001)-Standing-Up-Runner/(RUNBOOK-001)-Standing-Up-Runner.md) — Standing Up the Self-Hosted Runner (Active, done)
   - [SPEC-012](../../../spec/Complete/(SPEC-012)-Docker-Runner-Setup/(SPEC-012)-Docker-Runner-Setup.md) — Docker Runner Setup (Complete, done)
-- [EPIC-006](../../../epic/Complete/(EPIC-006)-Live-Discovery-Pipeline/(EPIC-006)-Live-Discovery-Pipeline.md) — Live Discovery Pipeline (3/3)
+- [EPIC-006](../../../epic/Complete/(EPIC-006)-Live-Discovery-Pipeline/(EPIC-006)-Live-Discovery-Pipeline.md) — Live Discovery Pipeline, 3/3
   - [SPEC-013](../../../spec/Complete/(SPEC-013)-Live-Discovery-Connector-Model/(SPEC-013)-Live-Discovery-Connector-Model.md) — Live Discovery Connector Model (Complete, done)
   - [SPEC-014](../../../spec/Complete/(SPEC-014)-Vimeo-Live-Discovery/(SPEC-014)-Vimeo-Live-Discovery.md) — Vimeo Live Discovery (Complete, done)
   - [SPEC-015](../../../spec/Complete/(SPEC-015)-Budget-Page-Live-Discovery/(SPEC-015)-Budget-Page-Live-Discovery.md) — Budget Page Live Discovery (Complete, done)
+- [SPEC-071](../../../spec/Complete/(SPEC-071)-SPC-TV-TelVue-Connector/(SPEC-071)-SPC-TV-TelVue-Connector.md) — SPC-TV TelVue Connector, done

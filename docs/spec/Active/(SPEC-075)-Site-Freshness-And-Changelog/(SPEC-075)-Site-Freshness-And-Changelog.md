@@ -1,5 +1,5 @@
 ---
-id: SPEC-032
+id: SPEC-075
 title: Site Freshness Indicators and Changelog
 type: feature
 parent-initiative: ""
@@ -10,7 +10,7 @@ created: 2026-03-24
 last-updated: 2026-03-24
 ---
 
-# SPEC-032: Site Freshness Indicators and Changelog
+# SPEC-075: Site Freshness Indicators and Changelog
 
 ## Problem
 

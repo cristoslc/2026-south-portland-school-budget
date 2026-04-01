@@ -1,0 +1,119 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TransportComparisonTable from '../../components/TransportComparisonTable.astro';
+import { getCollection } from 'astro:content';
+
+const base = import.meta.env.BASE_URL;
+const transportDocs = await getCollection('transportAnalysis');
+const transportBriefings = await getCollection('transportBriefings');
+
+const methodology = transportDocs.find((entry) => entry.data.kind === 'methodology');
+const postDecision = transportDocs.find((entry) => entry.id === 'post-decision-brief');
+const analyses = transportDocs.filter((entry) => entry.data.kind === 'analysis');
+
+if (!methodology || !postDecision) {
+  throw new Error('Transport methodology or post-decision content is missing.');
+}
+const latestBriefDate = transportBriefings
+  .map((entry) => entry.data.generated_date)
+  .filter(Boolean)
+  .sort()
+  .at(-1);
+---
+
+<BaseLayout
+  title="Transportation Analysis"
+  activePage="transportation-analysis"
+  description="Independent transportation analysis for South Portland's FY27 elementary reconfiguration options."
+  lastRefreshed={latestBriefDate ? `Transportation analysis ${latestBriefDate}` : undefined}
+>
+  <main class="container-wide">
+    <h1>Transportation Analysis</h1>
+    <p class="page-lede">
+      Option A is approved. The work now is making transportation, schedules, and child care function for families by
+      September.
+    </p>
+
+    <section class="summary-grid">
+      <article class="summary-card summary-card-strong">
+        <p class="section-kicker">Post-Decision</p>
+        <h2>What needs to be solved now</h2>
+        <p>
+          The approved plan now depends on enough drivers, workable bell schedules, clear school assignment plans,
+          and a child-care plan families can actually use.
+        </p>
+        <a href={`${base}transportation-analysis/post-decision-brief/`}>Read post-decision brief &rarr;</a>
+      </article>
+      <article class="summary-card">
+        <h2>Methodology</h2>
+        <p>See which estimates are firm, which are soft, and what district data would replace them.</p>
+        <a href={`${base}transportation-analysis/methodology/`}>Read methodology &rarr;</a>
+      </article>
+      <article class="summary-card">
+        <h2>Transport Briefings</h2>
+        <p>Read the same transport risks through general and persona-specific explainers.</p>
+        <a href={`${base}transportation-analysis/briefings/`}>Browse transport briefings &rarr;</a>
+      </article>
+      <article class="summary-card">
+        <h2>What happens next</h2>
+        <p>Use the broader budget briefings to follow the April funding, boundary, and implementation decisions still ahead.</p>
+        <a href={`${base}briefings/`}>Open budget briefings &rarr;</a>
+      </article>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>What this analysis can help with</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Implementation needs</h3>
+          <p>
+            This section brings the main transportation questions into one place: driver capacity, bell tiers,
+            routeable boundaries, and child-care coverage for families affected by schedule changes.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Budget pressure</h3>
+          <p>
+            Transportation and care costs are part of the work still ahead, especially because the FY27 budget failed on
+            March 30, 2026 and still needs to be rebuilt.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Open questions</h3>
+          <p>
+            Some of the most important inputs are still unresolved, including route models, boundary maps, and a staffing
+            plan that shows how September implementation can work with the drivers available.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <p class="section-kicker">Background</p>
+      <h2>How the options differed</h2>
+      <p>
+        If you want to compare the three configurations side by side, start here. This table shows how the options differed
+        on drivers, split families, child care, and cost.
+      </p>
+      <TransportComparisonTable />
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>Detailed Analyses</h2>
+      <div class="card-grid">
+        {analyses.map((entry) => (
+          <a href={`${base}transportation-analysis/${entry.id}/`} class="card">
+            <h3>{entry.data.title}</h3>
+            <p>Read the full analysis for this transportation question.</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+</BaseLayout>

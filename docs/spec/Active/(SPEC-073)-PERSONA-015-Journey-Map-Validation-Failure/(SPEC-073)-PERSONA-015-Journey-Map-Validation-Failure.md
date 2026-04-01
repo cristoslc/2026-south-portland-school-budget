@@ -1,5 +1,5 @@
 ---
-id: SPEC-030
+id: SPEC-073
 title: PERSONA-015 Journey Map Validation Failure
 type: bug
 parent-initiative: ""
@@ -10,7 +10,7 @@ created: 2026-03-24
 last-updated: 2026-03-24
 ---
 
-# SPEC-030: PERSONA-015 Journey Map Validation Failure
+# SPEC-073: PERSONA-015 Journey Map Validation Failure
 
 ## Problem
 

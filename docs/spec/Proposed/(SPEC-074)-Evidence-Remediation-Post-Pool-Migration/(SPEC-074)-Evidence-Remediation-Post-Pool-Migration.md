@@ -1,5 +1,5 @@
 ---
-id: SPEC-031
+id: SPEC-074
 title: Evidence Remediation Post Pool Migration
 type: bug
 parent-initiative: ""
@@ -10,14 +10,14 @@ created: 2026-03-24
 last-updated: 2026-03-24
 ---
 
-# SPEC-031: Evidence Remediation Post Pool Migration
+# SPEC-074: Evidence Remediation Post Pool Migration
 
 ## Problem
 
-Between the `docs/evidence-pools/` deletion (commit `5fe28f2`, ~2026-03-14) and the path fix (SPEC-029, 2026-03-24), the pipeline downloaded evidence but could not normalize or bundle it. Evidence scraped during this window needs to be:
+Between the `docs/evidence-pools/` deletion (commit `5fe28f2`, ~2026-03-14) and the path fix (SPEC-072, 2026-03-24), the pipeline downloaded evidence but could not normalize or bundle it. Evidence scraped during this window needs to be:
 
 1. Identified — which downloads happened after the deletion?
-2. Normalized — the `pipeline.py normalize` subcommand was run in SPEC-029 and re-normalized all 46 sources
+2. Normalized — the `pipeline.py normalize` subcommand was run in SPEC-072 and re-normalized all 46 sources
 3. Bundled — `bundle_meetings.py` needs to pick up any new normalized sources and affiliate them with meetings
 4. Interpreted — any new bundles or updated bundles need to run through the interpretation pipeline
 5. Folded + briefed — downstream cumulative folds and briefs need regeneration if source material changed

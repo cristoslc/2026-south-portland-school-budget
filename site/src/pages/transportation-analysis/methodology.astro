@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+const base = import.meta.env.BASE_URL;
+const transportDocs = await getCollection('transportAnalysis');
+const methodology = transportDocs.find((entry) => entry.data.kind === 'methodology');
+
+if (!methodology) {
+  throw new Error('Transport methodology content is missing.');
+}
+
+const { Content } = await render(methodology);
+---
+
+<BaseLayout
+  title="Transportation Methodology"
+  activePage="transportation-analysis"
+  description="Methodology and assumptions for the South Portland transportation analysis."
+>
+  <main class="container">
+    <a href={`${base}transportation-analysis/`} class="back-link">&larr; Transportation Analysis</a>
+    <p class="section-kicker">Methodology</p>
+    <h1>{methodology.data.title}</h1>
+    <p class="page-lede">
+      This page explains which parts of the transportation analysis are confirmed, which parts are estimated, and what local data would sharpen the picture.
+    </p>
+    <article class="briefing-content">
+      <Content />
+    </article>
+  </main>
+</BaseLayout>

@@ -11,6 +11,7 @@
 
 | Date | Time | Commit | Message |
 |------|------|--------|---------|
+| 2026-03-31 | 08:11 | `9af74d1` | fix: reconcile worktree overlap — cherry-pick f62d unique data, promote SPIKE-009 |
 | 2026-03-30 | 23:55 | `c50b78e` | feat: decompose citizen study epics into 21 implementation specs |
 | 2026-03-30 | 23:47 | `83e1219` | feat: decompose INITIATIVE-005 and INITIATIVE-006 into child epics and spikes |
 
@@ -47,18 +48,18 @@
 
 ### Active
 
-- [EPIC-026](../../../epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md) — Enrollment Data Acquisition (0/5)
+- [EPIC-026](../../../epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md) — Enrollment Data Acquisition, 0/5
   - [SPEC-048](../../../spec/Active/(SPEC-048)-Maine-DOE-Enrollment-Data-Trove/(SPEC-048)-Maine-DOE-Enrollment-Data-Trove.md) — Maine DOE Enrollment Data Trove (Active, in progress)
   - [SPEC-049](../../../spec/Active/(SPEC-049)-DHHS-Birth-Records-Trove/(SPEC-049)-DHHS-Birth-Records-Trove.md) — DHHS Birth Records Trove (Active, in progress)
   - [SPEC-050](../../../spec/Active/(SPEC-050)-Housing-Permit-Data-Trove/(SPEC-050)-Housing-Permit-Data-Trove.md) — Housing Permit Data Trove (Active, in progress)
   - [SPEC-051](../../../spec/Active/(SPEC-051)-Enrollment-Claims-Catalog/(SPEC-051)-Enrollment-Claims-Catalog.md) — Enrollment Claims Catalog (Active, in progress)
   - [SPEC-052](../../../spec/Active/(SPEC-052)-School-Choice-Transfer-Data/(SPEC-052)-School-Choice-Transfer-Data.md) — School Choice Transfer Data (Active, in progress)
-- [EPIC-027](../../../epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md) — Enrollment Gap Analysis & Phase 1 Briefs (0/2)
+- [EPIC-027](../../../epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md) — Enrollment Gap Analysis & Phase 1 Briefs, 0/2
   - [SPEC-056](../../../spec/Active/(SPEC-056)-Enrollment-Gap-Analysis-Document/(SPEC-056)-Enrollment-Gap-Analysis-Document.md) — Enrollment Gap Analysis Document (Active, in progress)
   - [SPEC-057](../../../spec/Active/(SPEC-057)-Enrollment-Phase-1-Persona-Briefs/(SPEC-057)-Enrollment-Phase-1-Persona-Briefs.md) — Enrollment Phase 1 Persona Briefs (Active, in progress)
-- [EPIC-028](../../../epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md) — Cohort Survival Model & 5-Year Projections (0/2)
+- [EPIC-028](../../../epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md) — Cohort Survival Model & 5-Year Projections, 0/2
   - [SPEC-058](../../../spec/Active/(SPEC-058)-Cohort-Survival-Model/(SPEC-058)-Cohort-Survival-Model.md) — Cohort Survival Model (Active, in progress)
   - [SPEC-059](../../../spec/Active/(SPEC-059)-Scenario-Bracket-Projections/(SPEC-059)-Scenario-Bracket-Projections.md) — Scenario Bracket Projections (Active, in progress)
-- [EPIC-029](../../../epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md) — Phase 2 Briefs & Baseline Publication (0/2)
+- [EPIC-029](../../../epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md) — Phase 2 Briefs & Baseline Publication, 0/2
   - [SPEC-067](../../../spec/Active/(SPEC-067)-Enrollment-Phase-2-Persona-Briefs/(SPEC-067)-Enrollment-Phase-2-Persona-Briefs.md) — Enrollment Phase 2 Persona Briefs (Active, in progress)
   - [SPEC-068](../../../spec/Active/(SPEC-068)-Enrollment-Baseline-Site-Page/(SPEC-068)-Enrollment-Baseline-Site-Page.md) — Enrollment Baseline Site Page (Active, in progress)

@@ -5,14 +5,15 @@
 
 ## Progress
 
-░░░░░░░░░░░░ 0/14 complete (0%)
+██████████░░ 12/15 complete (80%)
 
 ## Recent Activity
 
 | Date | Time | Commit | Message |
 |------|------|--------|---------|
-| 2026-03-30 | 23:55 | `c50b78e` | feat: decompose citizen study epics into 21 implementation specs |
-| 2026-03-30 | 23:47 | `83e1219` | feat: decompose INITIATIVE-005 and INITIATIVE-006 into child epics and spikes |
+| 2026-03-31 | 19:42 | `f20deba` | feat(transport): V2 recompute with March 30 BoE meeting evidence |
+| 2026-03-31 | 10:44 | `fc1e6e0` | docs: transition SPEC-066 and EPIC-032 to Complete — transport briefs delivered |
+| 2026-03-31 | 10:43 | `8c3e30e` | feat: SPEC-066 transport persona briefs — 15 personas + 1 general |
 
 ## Priority Subset
 
@@ -21,9 +22,8 @@
 
 | Initiative | Epic | Progress | Unblocks | Needs |
 |-----------|------|----------|----------|-------|
-| [Independent Transportation Analysis](docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md) | [Configuration Transport Modeling (V1)](docs/epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md) | 0/6 | 2 | — |
-|  | [Transportation Data Acquisition & Baseline](docs/epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md) | 0/3 | 1 | — |
-|  | [Fiscal Exposure & Family Logistics Briefs](docs/epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md) | 0/1 | 0 | — |
+| [Independent Transportation Analysis](docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md) | [Transportation Data Acquisition & Baseline](docs/epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md) | 3/3 | 1 | **ready to complete** |
+|  | [Configuration Transport Modeling (V1)](docs/epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md) | 6/6 | 1 | **ready to complete** |
 
 ### Schedule
 *High priority, not yet started*
@@ -47,19 +47,24 @@
 
 ### Active
 
-- [EPIC-030](../../../epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md) — Transportation Data Acquisition & Baseline (0/3)
-  - [SPEC-053](../../../spec/Active/(SPEC-053)-Maine-DOE-Transport-Expenditure-Trove/(SPEC-053)-Maine-DOE-Transport-Expenditure-Trove.md) — Maine DOE Transport Expenditure Trove (Active, in progress)
-  - [SPEC-054](../../../spec/Active/(SPEC-054)-Transportation-Claims-Catalog/(SPEC-054)-Transportation-Claims-Catalog.md) — Transportation Claims Catalog (Active, in progress)
-  - [SPEC-055](../../../spec/Active/(SPEC-055)-School-Locations-Catchment-Data/(SPEC-055)-School-Locations-Catchment-Data.md) — School Locations & Catchment Data (Active, in progress)
-- [EPIC-031](../../../epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md) — Configuration Transport Modeling (V1) (0/6)
-  - [SPEC-060](../../../spec/Active/(SPEC-060)-Split-Family-Count-Model/(SPEC-060)-Split-Family-Count-Model.md) — Split-Family Count Model (Active, in progress)
-  - [SPEC-061](../../../spec/Active/(SPEC-061)-McKinney-Vento-Exposure-Analysis/(SPEC-061)-McKinney-Vento-Exposure-Analysis.md) — McKinney-Vento Exposure Analysis (Active, in progress)
-  - [SPEC-062](../../../spec/Active/(SPEC-062)-SEA-Staffing-Adequacy-Assessment/(SPEC-062)-SEA-Staffing-Adequacy-Assessment.md) — SEA Staffing Adequacy Assessment (Active, in progress)
-  - [SPEC-063](../../../spec/Active/(SPEC-063)-Bell-Schedule-Tier-Analysis/(SPEC-063)-Bell-Schedule-Tier-Analysis.md) — Bell Schedule Tier Analysis (Active, in progress)
-  - [SPEC-064](../../../spec/Active/(SPEC-064)-Before-After-Care-Gap-Analysis/(SPEC-064)-Before-After-Care-Gap-Analysis.md) — Before/After Care Gap Analysis (Active, in progress)
-  - [SPEC-065](../../../spec/Active/(SPEC-065)-Transport-Configuration-Comparison/(SPEC-065)-Transport-Configuration-Comparison.md) — Transport Configuration Comparison (Active, in progress)
-- [EPIC-032](../../../epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md) — Fiscal Exposure & Family Logistics Briefs (0/1)
-  - [SPEC-066](../../../spec/Active/(SPEC-066)-Transport-Persona-Briefs/(SPEC-066)-Transport-Persona-Briefs.md) — Transport Persona Briefs (Active, in progress)
+- [EPIC-030](../../../epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md) — Transportation Data Acquisition & Baseline, 3/3
+  - [SPEC-053](../../../spec/Active/(SPEC-053)-Maine-DOE-Transport-Expenditure-Trove/(SPEC-053)-Maine-DOE-Transport-Expenditure-Trove.md) — Maine DOE Transport Expenditure Trove (Complete, done)
+  - [SPEC-054](../../../spec/Active/(SPEC-054)-Transportation-Claims-Catalog/(SPEC-054)-Transportation-Claims-Catalog.md) — Transportation Claims Catalog (Complete, done)
+  - [SPEC-055](../../../spec/Active/(SPEC-055)-School-Locations-Catchment-Data/(SPEC-055)-School-Locations-Catchment-Data.md) — School Locations & Catchment Data (Complete, done)
+- [EPIC-031](../../../epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md) — Configuration Transport Modeling (V1), 6/6
+  - [SPEC-060](../../../spec/Active/(SPEC-060)-Split-Family-Count-Model/(SPEC-060)-Split-Family-Count-Model.md) — Split-Family Count Model (Complete, done)
+  - [SPEC-061](../../../spec/Active/(SPEC-061)-McKinney-Vento-Exposure-Analysis/(SPEC-061)-McKinney-Vento-Exposure-Analysis.md) — McKinney-Vento Exposure Analysis (Complete, done)
+  - [SPEC-062](../../../spec/Active/(SPEC-062)-SEA-Staffing-Adequacy-Assessment/(SPEC-062)-SEA-Staffing-Adequacy-Assessment.md) — SEA Staffing Adequacy Assessment (Complete, done)
+  - [SPEC-063](../../../spec/Active/(SPEC-063)-Bell-Schedule-Tier-Analysis/(SPEC-063)-Bell-Schedule-Tier-Analysis.md) — Bell Schedule Tier Analysis (Complete, done)
+  - [SPEC-064](../../../spec/Active/(SPEC-064)-Before-After-Care-Gap-Analysis/(SPEC-064)-Before-After-Care-Gap-Analysis.md) — Before/After Care Gap Analysis (Complete, done)
+  - [SPEC-065](../../../spec/Active/(SPEC-065)-Transport-Configuration-Comparison/(SPEC-065)-Transport-Configuration-Comparison.md) — Transport Configuration Comparison (Complete, done)
+
 ### Proposed
 
-- [EPIC-033](../../../epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md) — Configuration Space Optimization (V2) (—)
+- [EPIC-033](../../../epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md) — Configuration Space Optimization (V2), —
+
+### Complete
+
+- [EPIC-032](../../../epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md) — Fiscal Exposure & Family Logistics Briefs, 1/1
+  - [SPEC-066](../../../spec/Active/(SPEC-066)-Transport-Persona-Briefs/(SPEC-066)-Transport-Persona-Briefs.md) — Transport Persona Briefs (Complete, done)
+- [SPIKE-011](../../../research/Complete/(SPIKE-011)-Vimeo-API-Access/(SPIKE-011)-Vimeo-API-Access.md) — Vimeo VTT Download via Playwright, done

@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const transportDocs = await getCollection('transportAnalysis');
+  return transportDocs
+    .filter((entry) => entry.data.kind === 'analysis')
+    .map((entry) => ({
+      params: { slug: entry.id },
+      props: { entry },
+    }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout
+  title={entry.data.title}
+  activePage="transportation-analysis"
+  description={`${entry.data.title} — South Portland transportation analysis`}
+>
+  <main class="container">
+    <a href={`${base}transportation-analysis/`} class="back-link">&larr; Transportation Analysis</a>
+    <h1>{entry.data.title}</h1>
+    <p class="page-lede">
+      Use this page to look more closely at one part of the transportation plan and the choices still ahead.
+    </p>
+    <article class="briefing-content">
+      <Content />
+    </article>
+  </main>
+</BaseLayout>

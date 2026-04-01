@@ -37,6 +37,8 @@ const cat = categoryMap[persona.data.artifact] ?? { badge: 'Persona', className:
 // Find matching briefing
 const briefings = await getCollection('briefings');
 const matchingBriefing = briefings.find(b => b.data.persona_id === persona.data.artifact);
+const transportBriefings = await getCollection('transportBriefings');
+const matchingTransportBriefing = transportBriefings.find(b => b.data.persona_id === persona.data.artifact);
 ---
 
 <BaseLayout title={persona.data.title} activePage="personas" description={`${persona.data.title} — stakeholder perspective on the South Portland FY27 budget`} lastRefreshed={persona.data['last-updated']}>
@@ -55,6 +57,15 @@ const matchingBriefing = briefings.find(b => b.data.persona_id === persona.data.
         <p style="margin-bottom: 0.5rem; font-weight: 600;">Budget briefing available for this perspective:</p>
         <a href={`${base}briefings/${matchingBriefing.id}/`}>
           Read {persona.data.title}'s briefing &rarr;
+        </a>
+      </div>
+    )}
+
+    {matchingTransportBriefing && (
+      <div class="card" style="margin-bottom: 2rem; border-color: var(--color-amber);">
+        <p style="margin-bottom: 0.5rem; font-weight: 600;">Transportation briefing available for this perspective:</p>
+        <a href={`${base}transportation-analysis/briefings/${matchingTransportBriefing.id}/`}>
+          Read {persona.data.title}'s transport briefing &rarr;
         </a>
       </div>
     )}

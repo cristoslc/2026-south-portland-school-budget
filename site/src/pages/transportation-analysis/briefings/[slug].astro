@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const transportBriefings = await getCollection('transportBriefings');
+  return transportBriefings.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL;
+const hasPersona = entry.data.persona_id && entry.data.persona_id !== 'general';
+---
+
+<BaseLayout
+  title={entry.data.title}
+  activePage="transportation-analysis"
+  description={`${entry.data.title} — transport briefing`}
+  lastRefreshed={entry.data.generated_date}
+>
+  <main class="container">
+    <a href={`${base}transportation-analysis/briefings/`} class="back-link">&larr; Transportation Briefings</a>
+    <span class={`badge ${hasPersona ? 'badge-parent' : 'badge-general'}`}>
+      {hasPersona ? 'Transport Persona' : 'General'}
+    </span>
+    <h1>{entry.data.title}</h1>
+    <div class="briefing-meta">
+      {entry.data.generated_date && <span>Updated: {entry.data.generated_date}</span>}
+      {hasPersona && (
+        <span>
+          <a href={`${base}personas/${entry.data.persona_id}/`}>View persona profile &rarr;</a>
+        </span>
+      )}
+    </div>
+    <article class="briefing-content">
+      <Content />
+    </article>
+  </main>
+</BaseLayout>

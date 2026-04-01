@@ -15,33 +15,33 @@ The Board of Education held a five-hour special meeting on March 30, 2026 and vo
 | **Option A reconfiguration** | **Passed 4-2** | Holman, Dowling, Smith, Risch for; Feller, Richardson against |
 | **FY27 budget ($75.85M)** | **Failed 2-5** | Only Smith and Risch voted yes |
 
-The board approved the reconfiguration that creates the most transportation complexity -- grade-band primary (PreK-1) and intermediate (2-4) schools with Kaler closed -- but did not adopt the budget to fund it. A follow-up budget meeting is scheduled for April 2.
+Option A is now the plan the city has to make work. That means the transportation questions are no longer theoretical. They are part of the practical work required before school opens in September. A follow-up budget meeting is scheduled for April 2.
 
 ## What This Means for Transportation
 
-Option A is now the approved configuration. Of the three options analyzed, it has the highest transportation impact across every metric:
+Option A is now the approved configuration. The transportation work ahead is substantial:
 
 | Metric | Option A (approved) | What this means |
 |--------|:-------------------:|-----------------|
 | **Split families** | 139-169 (18-24%) | Families with children in both PreK-1 and 2-4 will manage two different buildings daily |
 | **Drivers needed** | 30 | The district confirmed 20 drivers on the same night it voted for this option |
-| **Driver gap** | -10 to -13 | Even if zero drivers are cut in the SEA reduction, the district is 10 short |
+| **Driver gap** | -10 to -13 | Even if zero drivers are cut in the SEA reduction, the district is still 10 short |
 | **Bus tiers likely** | 3-4 | A 4th tier may be required for grade-band routing; current driver schedule has no room for it |
 | **District cost** | $802,809-$876,325/year | Route expansion + McKinney-Vento obligations |
-| **Family cost** | $143,640-$803,520/year | Before/after care gaps pushed to working families |
+| **Modeled family care cost** | $143,640-$803,520/year | Estimated before/after care costs for 42-144 families, depending on the final schedule |
 | **Total fiscal exposure** | $946,449-$1,679,845/year | 43-112% of the claimed $1.5-2.2M savings |
 
-These numbers do not include diesel cost escalation, which the Director of Operations described as "considerable" at the same meeting but could not quantify.
+These numbers do not include diesel cost escalation, which the Director of Operations described as "considerable" at the same meeting but could not quantify. The family care range is a modeled estimate, not a confirmed forecast. It reflects an estimated 42-144 families needing paid care under different schedule outcomes, not a single settled number.
 
 ## Implementation Risks That Need Immediate Attention
 
 ### 1. Driver shortfall is structural
 
-This is not a scheduling problem. The district has 20 drivers and needs 30. The SEA reduction from 100 to 86 FTE could cut that to 17. No amount of route optimization closes a 10-to-13 driver gap.
+This is not just a scheduling problem. The district has 20 drivers and needs 30. The SEA reduction from 100 to 86 FTE could cut that to 17. Route optimization may help with efficiency, but it does not close a 10-to-13 driver gap on its own.
 
-Recruiting 10+ bus drivers by September 2026 is the critical path item. Maine districts are already competing for the same labor pool. The district has not announced a recruitment plan, a signing bonus, or a contract change to attract new drivers.
+Recruiting 10+ bus drivers by September 2026 is the critical path item. Maine districts are already competing for the same labor pool. The district has not yet announced a public recruitment plan, a signing bonus, or a contract change to attract new drivers.
 
-If drivers cannot be hired, the options are: fewer routes with longer ride times, larger buses (if available), parent-driven transport (shifting costs to families), or phased implementation. Each has consequences that should be modeled before school starts.
+If drivers cannot be hired, the city will need to weigh tradeoffs such as fewer routes with longer ride times, larger buses if available, more parent-driven transport, or phased implementation. Each option affects families differently and should be modeled before school starts.
 
 ### 2. Split-family logistics affect 139-169 households
 
@@ -51,9 +51,9 @@ Starting fall 2026, an estimated 139 to 169 families will have children in two d
 - Transportation that accounts for different bell schedules at each building
 - Care coverage if bell times create gaps a single parent cannot bridge
 
-Under a 4-tier bus schedule (likely with grade-band routing), this produces a 30-minute drop-off gap for split families. Under a 3-tier schedule, the logistics are difficult but manageable. The tier decision has not been made.
+Under a 4-tier bus schedule, this produces a 30-minute drop-off gap for split families. Under a 3-tier schedule, the logistics are tighter but more manageable. The tier decision has not been made.
 
-No attendance boundaries have been drawn. Families do not yet know which two buildings their children will attend, or how far apart they will be.
+No school assignment lines have been drawn. Families do not yet know which two buildings their children will attend, or how far apart they will be.
 
 ### 3. Care capacity runs in the wrong direction
 
@@ -62,13 +62,13 @@ After-school care is already full at 4 of 5 elementary schools. The only school 
 - Under 4-tier scheduling: 118-144 families face new care needs ($403,560-$803,520 aggregate annual cost)
 - Under 3-tier scheduling: 42-51 families face new care needs ($143,640-$284,580 aggregate annual cost)
 
-Care demand increases while care supply decreases. The Recreation Department has not announced a capacity expansion plan. The SoPo Kids Club operates inside school buildings -- if buildings change grade configurations, the care programs must reconfigure too.
+Care demand increases while care supply decreases. The Recreation Department has not yet announced a capacity expansion plan. The SoPo Kids Club operates inside school buildings, so if buildings change grade configurations, the care programs must adapt too.
 
 ### 4. Transportation costs are unfunded
 
-The FY27 budget failed 2-5. The Option A transportation cost exposure of $802,809-$876,325 in district-borne costs (route expansion plus McKinney-Vento obligations) must be funded somewhere in a budget that does not yet exist. The April 2 follow-up meeting will need to address this.
+The FY27 budget failed 2-5. The Option A transportation cost exposure of $802,809-$876,325 in district-borne costs (route expansion plus McKinney-Vento obligations) still has to be funded. The April 2 follow-up meeting will need to address that gap.
 
-McKinney-Vento obligations are not optional. Federal law requires the district to transport displaced students to their school of origin for the remainder of the school year and potentially beyond. This is an unbudgeted mandate, not a discretionary line item.
+McKinney-Vento obligations are not optional. Federal law requires the district to transport displaced students to their school of origin for the remainder of the school year and potentially beyond. That is a required service, not a discretionary line item.
 
 ## What the Transport Consultant Needs to Address
 
@@ -82,7 +82,7 @@ The Superintendent confirmed on March 30 that transport logistics are "underway 
 
 4. **Split-family impact mitigation** -- Route designs that minimize the logistics burden on 139-169 split families. Can sibling-pair routing reduce the number of families managing two separate drop-off/pick-up cycles?
 
-5. **Attendance boundary interaction** -- Transportation costs depend on where students are assigned. Boundaries and routes need to be designed together, not sequentially.
+5. **School assignment interaction** -- Transportation costs depend on where students are assigned. School assignment lines and routes need to be designed together, not sequentially.
 
 6. **McKinney-Vento compliance** -- Identification of displaced students eligible for origin-school transport, estimated route-level cost, and duration of obligation.
 
@@ -95,13 +95,13 @@ The board voted on March 30 for a fall 2026 implementation. Working backward fro
 | Milestone | Implication |
 |-----------|-------------|
 | **April 2** | Budget follow-up meeting. Transport costs need to be reflected in whatever budget passes. |
-| **April-May** | Attendance boundaries must be drawn. Families need to know which buildings their children will attend. |
-| **May-June** | Route planning requires boundaries, student addresses, fleet inventory. Cannot start until boundaries are set. |
+| **April-May** | School assignment lines must be drawn. Families need to know which buildings their children will attend. |
+| **May-June** | Route planning requires school assignment lines, student addresses, and fleet inventory. Cannot start until those lines are set. |
 | **June-August** | Driver recruitment. If 10+ drivers are needed, this is already late for a September start. CDL training alone takes weeks. |
 | **August** | Care programs reconfigure for new building assignments. Recreation Department needs lead time. |
 | **September** | First day of school under new configuration. |
 
-There is no public timeline for any of these milestones. The transport consultant engagement has no announced scope or completion date. Attendance boundaries have not been started. The budget to fund implementation has not been adopted.
+There is no public timeline for any of these milestones. The transport consultant engagement has no announced scope or completion date. School assignment work has not been published. The budget to fund implementation has not been adopted.
 
 ## Sources of Error
 
@@ -144,4 +144,4 @@ Machine-readable data: `data/transport-comparison.json`
 
 ## Disclaimer
 
-This is an independent analysis using publicly available data. It is not affiliated with or endorsed by the South Portland School Department. All figures are order-of-magnitude estimates presented as ranges. The decision has been made. This brief is intended to support implementation planning, not to relitigate the vote. The district's transport consultant, once their analysis is complete, can validate, correct, or replace every figure here.
+This is an independent analysis using publicly available data. It is not affiliated with or endorsed by the South Portland School Department. All figures are order-of-magnitude estimates presented as ranges. The decision has been made. This brief is intended to support implementation planning and community understanding as the district, families, and city work through the next steps. The district's transport consultant, once their analysis is complete, can validate, correct, or replace every figure here.

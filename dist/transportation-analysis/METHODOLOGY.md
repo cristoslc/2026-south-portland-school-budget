@@ -1,7 +1,6 @@
 # Transportation Analysis Methodology
 
 **Initiative:** INITIATIVE-006 | **Date:** 2026-03-31
-**Version:** V2 -- updated with 3/30/2026 BoE meeting data + multi-year DOE trends
 
 ---
 
@@ -9,7 +8,7 @@ This document describes the methodology, assumptions, and limitations of each an
 
 ## General Approach
 
-This is **order-of-magnitude analysis**, not route-level precision. We use publicly available data, published research, and documented assumptions to estimate the transportation implications of three reconfiguration options. All outputs are presented as ranges, not point estimates. The analysis does not recommend a configuration -- it surfaces data that should have been part of the decision.
+This is **order-of-magnitude analysis**, not route-level precision. We use publicly available data, published research, and documented assumptions to estimate the transportation implications of the approved reconfiguration (Option A) and the alternatives that were considered. All outputs are presented as ranges, not point estimates. The analysis provides the transportation data needed to plan implementation before fall 2026.
 
 ## SPEC-060: Split-Family Count Model
 
@@ -47,7 +46,7 @@ This is **order-of-magnitude analysis**, not route-level precision. We use publi
 
 **Method:** Compare confirmed driver count against route requirements per configuration.
 
-**V2 update:** The 3/30/2026 BoE meeting provided the actual driver count (20 drivers, confirmed by Director of Operations Mike Natalie). This replaces the V1 approach of estimating transport-specific FTE as a 30-35% share of the 86 post-cut SEA total. The available driver pool is 17-20 (20 confirmed, minus 0-3 potentially lost to the SEA cut from 100 to 86 FTE -- cut allocation is unknown).
+The 3/30/2026 BoE meeting provided the actual driver count (20 drivers, confirmed by Director of Operations Mike Natalie). The available driver pool is 17-20 (20 confirmed, minus 0-3 potentially lost to the SEA cut from 100 to 86 FTE -- cut allocation is unknown).
 
 | Assumption | Value | Source | What Would Replace It |
 |------------|-------|--------|----------------------|
@@ -62,7 +61,7 @@ This is **order-of-magnitude analysis**, not route-level precision. We use publi
 
 | Configuration | Drivers Needed | Available | Gap |
 |---------------|:--------------:|:---------:|:---:|
-| Option A | 30 | 17-20 | -10 to -13 |
+| Option A (approved) | 30 | 17-20 | -10 to -13 |
 | Option B | 24 | 17-20 | -4 to -7 |
 | Variant C | 29 | 17-20 | -9 to -12 |
 
@@ -74,7 +73,7 @@ All configurations show a shortfall. This is a structural finding: even the lowe
 
 **Method:** Qualitative feasibility assessment of bus tier requirements under each configuration.
 
-**V2 update:** The 3/30/2026 meeting confirmed driver schedule as 7 AM-4 PM with an idle window from 9:30-1:30. This is consistent with the existing 3-tier structure (HS, MS, elementary) and confirms that a 3-tier system is feasible with the current schedule. A 4th tier would require extending the driver workday or adding drivers.
+The 3/30/2026 meeting confirmed the driver schedule as 7 AM-4 PM with an idle window from 9:30-1:30. This is consistent with the existing 3-tier structure (HS, MS, elementary) and confirms that a 3-tier system is feasible with the current schedule. A 4th tier would require extending the driver workday or adding drivers.
 
 | Assumption | Value | Source | What Would Replace It |
 |------------|-------|--------|----------------------|
@@ -103,16 +102,17 @@ All configurations show a shortfall. This is a structural finding: even the lowe
 
 **Method:** Assembly of all metric outputs into structured comparison. Route expansion cost estimated from DOE per-pupil data scaled by route increase percentage.
 
-**V2 update:** Added sensitivity analysis comparing FY25 baseline ($2.99M) against FY23 baseline ($2.18M) to account for the anomalous 50.2% transport cost increase. All configurations are reported under both baselines. District and family costs are now separated explicitly.
+The sensitivity analysis compares FY25 baseline ($2.99M) against FY23 baseline ($2.18M) to account for the anomalous 50.2% transport cost increase. All configurations are reported under both baselines. District and family costs are separated explicitly.
 
 | Assumption | Value | Source | What Would Replace It |
 |------------|-------|--------|----------------------|
 | Current transport budget (FY25) | ~$2.99M ($1,065/pupil x 2,810) | DOE FY25 per-pupil data | District transport budget line |
+| FY27 transport budget (district) | $3,326,606 | FY27 Budget Book (Cost Center 8) | N/A (district data) |
 | Pre-anomaly transport budget (FY23) | ~$2.18M ($709/pupil x 3,074) | DOE FY23 per-pupil data | District transport budget line |
 | Route expansion scaling | Linear with route count | Simplifying assumption | Route-level cost modeling |
 | Claimed savings | $1.5-2.2M | District budget presentations | Independently verified savings |
 
-**Sensitivity output (Option A):**
+**Sensitivity output (Option A -- approved configuration):**
 
 | Baseline | Route Expansion | District Cost | Family Cost | Total Exposure | % of Savings |
 |----------|:--------------:|:-------------:|:-----------:|:--------------:|:------------:|
@@ -137,6 +137,8 @@ South Portland's per-pupil transport costs rose 50.2% in two years -- nearly 5x 
 2. **If FY23 is more representative:** The baseline should be ~$2.18M, not $2.99M, and route expansion estimates shrink accordingly. The sensitivity analysis presents both.
 
 Source: `data/transport-per-pupil-multiyear.csv`
+
+**FY27 budget context:** The district's FY27 budget book (Cost Center 8) sets transportation at **$3,326,606** -- up 17.5% from FY26's $2,830,679. This reflects contractual wage/benefit increases and includes $165K in reductions ($130K overtime, $35K vehicle supplies). It is a baseline budget with **no reconfiguration adjustment**. The route expansion estimates in this analysis use the DOE-derived baseline ($2.99M at FY25 rates) for consistency with the per-pupil methodology. If calculated against the district's own $3.33M figure, the route expansion cost for Option A would be ~$832K instead of $748K.
 
 ## Sources of Error
 

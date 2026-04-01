@@ -1,13 +1,13 @@
 # Split-Family Count Model
 
 **Spec:** SPEC-060 | **Epic:** EPIC-031 | **Initiative:** INITIATIVE-006
-**Date:** 2026-03-31 | **Version:** V2 — updated with 3/30/2026 meeting data
+**Date:** 2026-03-31 | **Version:** Post-decision — reflects 3/30/2026 board vote
 
 ---
 
 ## Summary
 
-Under **Option A** (the administration's recommendation), an estimated **139-169 families** (18-24% of all elementary families) would have children in two different buildings simultaneously. Under **Variant C**, that number is **123-150 families** (16-21%). Under **Option B**, the number is **zero** — every family's children attend the same building.
+Under the **approved configuration** (Option A: primary PreK-1 / intermediate 2-4, passed 4-2 on March 30, 2026), an estimated **139-169 families** (18-24% of all elementary families) will have children in two different buildings simultaneously. The alternatives considered by the board — Variant C and Option B — are included for comparison. Under Variant C, that number would have been **123-150 families** (16-21%). Under Option B, it would have been **zero** — every family's children would have attended the same building.
 
 This is the single most impactful metric for daily family logistics and has not been quantified by the district.
 
@@ -15,7 +15,7 @@ This is the single most impactful metric for daily family logistics and has not 
 
 ### Approach
 
-For configurations that split grade bands across buildings (Option A, Variant C), families with children on both sides of the grade boundary must send children to two different schools. We estimate this using:
+The approved configuration splits grade bands across buildings — primary (PreK-1) and intermediate (2-4). Families with children on both sides of the grade boundary must send children to two different schools. We estimate the number of affected families using:
 
 1. **Enrollment by grade** (2025-26 data from school-geography trove)
 2. **Sibling co-enrollment rates** from Census Bureau SIPP surveys and NCES household composition research
@@ -36,17 +36,17 @@ For configurations that split grade bands across buildings (Option A, Variant C)
 
 For a family with two children in elementary school, the probability that one child is on each side of a grade boundary depends on where the boundary falls within the grade span:
 
-- **Option A boundary (between grades 1 and 2):** 3 grades below (PreK, K, 1), 3 grades above (2, 3, 4) — probability = 0.60
+- **Approved configuration boundary (between grades 1 and 2):** 3 grades below (PreK, K, 1), 3 grades above (2, 3, 4) — probability = 0.60
 - **Variant C boundary (between grades 2 and 3):** 4 grades below (PreK, K, 1, 2), 2 grades above (3, 4) — probability = 0.533
 - **Option B:** No boundary — probability = 0.00
 
-Option A's boundary falls closer to the middle of the grade span, maximizing the number of families affected.
+The approved configuration's boundary falls closer to the middle of the grade span, maximizing the number of families affected.
 
 ## Results
 
 ### Configuration Comparison
 
-| Metric | Option A | Option B | Variant C |
+| Metric | Approved (Option A) | Option B (considered) | Variant C (considered) |
 |--------|:--------:|:--------:|:---------:|
 | Grade bands | PreK-1 / 2-4 | K-4 (unified) | PreK-2 / 3-4 |
 | Boundary split probability | 0.60 | 0.00 | 0.533 |
@@ -57,17 +57,17 @@ Option A's boundary falls closer to the middle of the grade span, maximizing the
 
 ### What This Means in Practice
 
-**Option A:** On any given school morning, roughly **one in five** elementary families would need to get children to two different buildings with potentially different start times. For a single-parent household or a family with one car, this means two drop-offs, two pick-ups, and mismatched schedules — every day for the years their children span the grade boundary.
+**Approved configuration (Option A):** On any given school morning starting fall 2026, roughly **one in five** elementary families will need to get children to two different buildings with potentially different start times. For a single-parent household or a family with one car, this means two drop-offs, two pick-ups, and mismatched schedules — every day for the years their children span the grade boundary.
 
-**Variant C:** Slightly fewer families are split (~12% fewer than Option A) because the boundary falls higher, and fewer students are in grades 3-4 than in the PreK-1 range. But the impact is still substantial: roughly **one in six** families face split logistics.
+**Variant C (considered but not selected):** Slightly fewer families would have been split (~12% fewer than the approved configuration) because the boundary falls higher, and fewer students are in grades 3-4 than in the PreK-1 range. The impact would still have been substantial: roughly **one in six** families facing split logistics.
 
-**Option B:** Zero families face this issue. Every child attends the same K-4 building as their siblings. This is the structural advantage of not splitting grade bands across buildings.
+**Option B (considered but not selected):** Zero families would have faced this issue. Every child would have attended the same K-4 building as their siblings. This was the structural advantage of not splitting grade bands across buildings.
 
 ### Sensitivity Analysis
 
 The estimates are most sensitive to the multi-child family rate. If South Portland's rate differs from national averages:
 
-| Multi-child rate | Option A split families | Variant C split families |
+| Multi-child rate | Approved config split families | Variant C split families |
 |:----------------:|:-----------------------:|:------------------------:|
 | 25% (low) | ~115 | ~102 |
 | 30% | ~139 | ~123 |
@@ -75,7 +75,7 @@ The estimates are most sensitive to the multi-child family rate. If South Portla
 | 40% | ~169 | ~150 |
 | 45% (high) | ~181 | ~161 |
 
-Even at the low end of the range (25% multi-child rate), Option A still creates over 100 split families.
+Even at the low end of the range (25% multi-child rate), the approved configuration still creates over 100 split families.
 
 ## Sources of Error
 
@@ -83,9 +83,9 @@ This model could be wrong in the following ways:
 
 1. **Multi-child family rate is a national estimate.** Maine trends slightly toward smaller families. If South Portland's actual multi-child rate is 25% instead of 30-40%, the split count drops by roughly 15%. If it is higher (as it could be in a relatively affordable coastal city), the count rises.
 
-2. **Uniform sibling grade-gap assumption.** If sibling grade gaps cluster at 1-2 years (common for closely spaced children), Option A's split probability could be *higher* than 0.60 (since the boundary is at grade 1-2), while Variant C's could be *lower*. Non-uniform distributions could move estimates in either direction by 10-15%.
+2. **Uniform sibling grade-gap assumption.** If sibling grade gaps cluster at 1-2 years (common for closely spaced children), the approved configuration's split probability could be *higher* than 0.60 (since the boundary is at grade 1-2), while Variant C's could be *lower*. Non-uniform distributions could move estimates in either direction by 10-15%.
 
-3. **PreK inclusion inflates the lower-side count.** PreK is optional and not all PreK families will continue. Excluding PreK families would reduce Option A's lower-side count from 449 to approximately 390, modestly reducing the split estimate.
+3. **PreK inclusion inflates the lower-side count.** PreK is optional and not all PreK families will continue. Excluding PreK families would reduce the approved configuration's lower-side count from 449 to approximately 390, modestly reducing the split estimate.
 
 4. **No family-level data exists in this model.** We estimate aggregate counts using demographic rates, not individual family records. Any individual family's situation may differ from the statistical expectation.
 

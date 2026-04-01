@@ -1,15 +1,15 @@
 # McKinney-Vento Exposure Analysis
 
 **Spec:** SPEC-061 | **Epic:** EPIC-031 | **Initiative:** INITIATIVE-006
-**Date:** 2026-03-31 | **Version:** V2 — updated with 3/30/2026 meeting data
+**Date:** 2026-03-31
 
 ---
 
 ## Summary
 
-Closing Kaler Elementary and redistricting students triggers federal transportation obligations under the McKinney-Vento Homeless Assistance Act (42 U.S.C. § 11432). An estimated **19-40 McKinney-Vento eligible elementary students** face displacement depending on configuration, creating annual incremental transportation costs of **$30,000-$128,000** — costs that do not appear in the administration's $1.5-2.2M savings estimate.
+The board voted 6-1 on March 30, 2026 to close Kaler Elementary, and 4-2 to adopt Option A (grade-band reconfiguration). Both decisions trigger federal transportation obligations under the McKinney-Vento Homeless Assistance Act (42 U.S.C. § 11432). Under the approved configuration, an estimated **34-40 McKinney-Vento eligible elementary students** face displacement, creating annual incremental transportation costs of **$54,337-$127,853** — costs that do not appear in the administration's $1.5-2.2M savings estimate.
 
-Over the full obligation period, total McKinney-Vento transportation exposure ranges from **$46,000 to $384,000** across configurations.
+Over the full obligation period, total McKinney-Vento transportation exposure under Option A is **$81,506-$383,558**. The alternatives considered ranged from $46,000 to $336,000.
 
 ## Background: McKinney-Vento in South Portland
 
@@ -42,7 +42,7 @@ The cumulative increase is **+50.2% over two years** — far outpacing the state
 | **Option B** | 135 | ~50 (only proximity reassignment near Kaler) | ~185 | 19-25 |
 | **Variant C** | 135 | ~150 (grade 3-4 consolidation) | ~285 | 29-35 |
 
-**Why Option A has the highest displacement:** Under Option A, *every* elementary student is reassigned — the entire system shifts from K-4 neighborhood schools to grade-band schools (PreK-1 primary, 2-4 intermediate). This means every MV-eligible student in the district is potentially displaced, not just those at Kaler.
+**Why the approved configuration has the highest displacement:** Under Option A, *every* elementary student is reassigned — the entire system shifts from K-4 neighborhood schools to grade-band schools (PreK-1 primary, 2-4 intermediate). This means every MV-eligible student in the district is potentially displaced, not just those at Kaler.
 
 **Why Option B has the lowest:** Only Kaler students change schools. Remaining students stay at their neighborhood K-4 school.
 
@@ -60,7 +60,7 @@ Incremental MV transport costs are **higher than average per-pupil transport** b
 
 These costs are **not discretionary** — they are federal obligations. The district cannot decline to provide MV transportation. Yet the $1.5-2.2M savings estimate from school closure makes no mention of McKinney-Vento obligations. Even at the low end, this represents a cost category that was not analyzed.
 
-The exposure is largest under Option A because the full-system grade-band reorganization displaces the most students. Under Option B, the exposure is contained to the Kaler closure footprint.
+The exposure is largest under the approved configuration (Option A) because the full-system grade-band reorganization displaces the most students. Had Option B been selected, the exposure would have been contained to the Kaler closure footprint.
 
 ## Compounding Factors Not Quantified
 
@@ -76,7 +76,7 @@ The exposure is largest under Option A because the full-system grade-band reorga
 
 ## Sources of Error
 
-This analysis could be wrong in the following ways:
+This analysis could be wrong in the following ways (all errors apply to the approved Option A configuration):
 
 1. **MV rate applied proportionally.** The 10% district-wide MV rate is applied uniformly. Kaler's actual rate may be higher (closer to high-poverty schools) or lower. A 5-percentage-point difference in Kaler's rate changes the displaced MV count by 7-10 students.
 

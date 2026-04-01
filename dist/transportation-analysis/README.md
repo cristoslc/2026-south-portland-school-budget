@@ -1,7 +1,7 @@
 # Independent Transportation Analysis
 
 **Initiative:** [INITIATIVE-006](../../docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md)
-**Status:** V2 -- post-decision update
+**Status:** Post-decision update
 **Date:** 2026-03-31
 
 ---

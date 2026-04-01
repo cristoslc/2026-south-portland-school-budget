@@ -1,15 +1,15 @@
 # Before/After Care Gap Analysis
 
 **Spec:** SPEC-064 | **Epic:** EPIC-031 | **Initiative:** INITIATIVE-006
-**Date:** 2026-03-31 | **Version:** V2 — updated with 3/30/2026 meeting data
+**Date:** 2026-03-31 | **Version:** Post-decision — reflects 3/30/2026 board vote
 
 ---
 
 ## Summary
 
-Reconfiguration creates new before/after care demand for families split across buildings. Under the **worst-case 4-tier scenario for Option A**, an estimated **118-144 families** face new care needs, creating an aggregate annual cost burden of **$403,560-$803,520** — borne by families, not the district budget.
+The approved reconfiguration (Option A: primary PreK-1 / intermediate 2-4, passed 4-2 on March 30, 2026) creates new before/after care demand for families split across buildings. Under the **worst-case 4-tier scenario**, an estimated **118-144 families** face new care needs, creating an aggregate annual cost burden of **$403,560-$803,520** — borne by families, not the district budget.
 
-A critical finding: **after-school care is already FULL at 4 of 5 elementary schools**. The only school with openings is Kaler — the one proposed for closure. Closing Kaler eliminates the only existing care capacity headroom while simultaneously creating new demand.
+A critical finding: **after-school care is already FULL at 4 of 5 elementary schools**. The only school with openings is Kaler — the school being closed (Kaler closure passed 6-1 on March 30, 2026). Closing Kaler eliminates the only existing care capacity headroom while simultaneously creating new demand.
 
 ## Care Infrastructure in South Portland
 
@@ -39,12 +39,12 @@ As of March 2026, after-school care enrollment status:
 | Small | **FULL** | Available |
 | **Kaler** | **Available** | Available |
 
-**The only school with after-care openings is the one proposed for closure.**
+**The only school with after-care openings is the one being closed.**
 
 This means:
 1. Current care demand already exceeds supply at 4 of 5 schools
 2. Closing Kaler removes the only remaining capacity
-3. Reconfiguration then adds NEW demand from split-building families
+3. The approved reconfiguration then adds NEW demand from split-building families
 4. There is no plan to expand care capacity to meet this demand
 
 ### Other Providers
@@ -59,7 +59,7 @@ The SoPo Kids Club is effectively the only universal option for South Portland e
 
 ### How the Gap Emerges
 
-**Under 3 tiers (all elementary same start time):** Split families still face logistics burden — two different buildings, two drop-offs/pick-ups. About 30% of split families would need additional care to manage the logistics (e.g., using after care at one school to bridge the gap while picking up at the other).
+**Under 3 tiers (all elementary same start time):** Split families still face logistics burden — two different buildings, two drop-offs/pick-ups. About 30% of split families will need additional care to manage the logistics (e.g., using after care at one school to bridge the gap while picking up at the other).
 
 **Under 4 tiers (different start times for grade bands):** Nearly all split families (85%) face a hard scheduling conflict. If primary starts at 8:50 and intermediate at 9:20, a parent cannot be at two buildings simultaneously. One child needs before-care or after-care to cover the gap.
 
@@ -67,21 +67,21 @@ The SoPo Kids Club is effectively the only universal option for South Portland e
 
 | Configuration | Scenario | New families needing care | Annual cost burden (aggregate) |
 |---------------|----------|:-------------------------:|:------------------------------:|
-| **Option A** | 3 tiers | 42-51 | $143,640-$284,580 |
-| **Option A** | 4 tiers | 118-144 | $403,560-$803,520 |
-| **Option B** | 3 tiers | 0 | $0 |
-| **Variant C** | 3 tiers | 37-45 | $126,540-$251,100 |
-| **Variant C** | 4 tiers | 105-128 | $359,100-$714,240 |
+| **Approved (Option A)** | 3 tiers | 42-51 | $143,640-$284,580 |
+| **Approved (Option A)** | 4 tiers | 118-144 | $403,560-$803,520 |
+| **Option B (considered)** | 3 tiers | 0 | $0 |
+| **Variant C (considered)** | 3 tiers | 37-45 | $126,540-$251,100 |
+| **Variant C (considered)** | 4 tiers | 105-128 | $359,100-$714,240 |
 
 ### Who Bears the Cost
 
 This is a **transferred cost**, not a savings. The district budget shows reconfiguration saving $1.5-2.2M. But the care costs created by reconfiguration are pushed to families:
 
-- Under Option A (4-tier): families collectively absorb $403,560-$803,520 in new annual care costs
+- Under the approved configuration (4-tier): families collectively absorb $403,560-$803,520 in new annual care costs
 - Per family: $3,420-$5,580/year additional
 - This is effectively a **$3,420-$5,580 annual "reconfiguration tax"** on 118-144 working families
 
-Under Option B, this transferred cost is zero.
+Under Option B, this transferred cost would have been zero.
 
 ## The Kaler Paradox
 
@@ -91,7 +91,7 @@ Closing Kaler creates a particularly damaging interaction:
 2. Closing Kaler eliminates those openings
 3. Kaler's 135 students are redistributed to Brown, Dyer, Small, and Skillin — all of which are already at care capacity
 4. Some redistributed families will need care at their new school, where the waitlist is already full
-5. Under Option A/Variant C, additional families face new care needs from grade-band splits
+5. The approved configuration adds additional families with new care needs from grade-band splits
 
 The net effect: **care demand increases while care supply decreases**. This is the opposite of what a transition plan should do.
 
@@ -101,7 +101,7 @@ The administration's own survey (TC-011) found that 57% of parents cited before/
 
 - After care is already full
 - The only school with openings is being closed
-- Reconfiguration creates 37-144 new families needing care (depending on configuration)
+- The approved reconfiguration creates 42-144 new families needing care (depending on tier outcome)
 - No care expansion plan has been announced
 - The care costs are borne entirely by families
 
@@ -117,7 +117,7 @@ This analysis could be wrong in the following ways:
 
 4. **Waitlist depth is unknown.** "FULL" is a binary indicator. If Brown has 5 families on the waitlist vs. 50, the severity differs substantially.
 
-5. **The SoPo Kids Club operates inside school buildings.** If reconfiguration changes which buildings serve which grades, the Recreation Department would need to reconfigure its care programs. Whether they can maintain capacity through this transition is unknown.
+5. **The SoPo Kids Club operates inside school buildings.** If reconfiguration changes which buildings serve which grades, the Recreation Department will need to reconfigure its care programs. Whether they can maintain capacity through this transition is unknown.
 
 6. **Summer care transition costs are excluded.** Families changing schools may face different summer program arrangements during the transition.
 

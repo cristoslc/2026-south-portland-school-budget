@@ -2,20 +2,19 @@
 
 **Spec:** SPEC-065 | **Epic:** EPIC-031 | **Initiative:** INITIATIVE-006
 **Date:** 2026-03-31
-**Version:** V2 -- updated with 3/30/2026 BoE meeting data + multi-year DOE trends
 
 ---
 
 ## The Missing Analysis
 
-The South Portland School Board has been asked to choose between elementary reconfiguration options with materially different transportation implications, without transportation analysis. The Director of Operations confirmed on the record that no modeling exists (TC-014). The Superintendent confirmed at the 3/30/2026 meeting that transport logistics are "underway with a partner" but will be operationalized after the board votes, not before. A transportation consultant has been budgeted ($60-125K) but not hired, with no scope or timeline defined.
+On March 30, 2026, the South Portland Board of Education voted 4-2 to adopt Option A (grade-band reconfiguration) and 6-1 to close Kaler Elementary. The FY27 budget failed 2-5, meaning the approved configuration is not yet funded. The Director of Operations confirmed on the record that no transportation modeling exists (TC-014). The Superintendent confirmed at the 3/30/2026 meeting that transport logistics are "underway with a partner" but will be operationalized after the board votes, not before. A transportation consultant has been budgeted ($60-125K) but not hired, with no scope or timeline defined.
 
-This document assembles the independent analysis that should have existed before the vote. It compares three configurations across six transport metrics, using publicly available data and documented methodology. Every figure is an estimate -- disclosed as such -- and every assumption is transparent and correctable with district data.
+This document assembles the independent analysis that did not exist when the board voted. It compares the approved configuration against the alternatives that were considered, across six transport metrics, using publicly available data and documented methodology. Every figure is an estimate -- disclosed as such -- and every assumption is transparent and correctable with district data.
 
 ## Configuration Comparison (FY25 Baseline)
 
-| Metric | Option A | Option B | Variant C |
-|--------|:--------:|:--------:|:---------:|
+| Metric | Option A (APPROVED) | Option B | Variant C |
+|--------|:-------------------:|:--------:|:---------:|
 | **Structure** | 2 primary (PreK-1) + 2 intermediate (2-4) | 4 buildings K-4, redistrict by proximity | 3 buildings PreK-2 + 1 building 3-4 |
 | **Split families** | **139-169** (18-24%) | **0** | **123-150** (16-21%) |
 | **Drivers needed** | 30 | 24 | 29 |
@@ -31,58 +30,60 @@ This document assembles the independent analysis that should have existed before
 
 **Cost separation note:** District costs (MV transport obligations + route expansion) affect the district budget directly. Family costs (before/after care gaps) are economic impacts borne by working families -- real costs that don't appear in the district budget. Both are consequences of reconfiguration.
 
+**Budget context:** The FY27 budget failed 2-5 on March 30. The transportation costs above are not funded. Implementation planning must account for these costs in whatever budget ultimately passes.
+
 ## Sensitivity Analysis: FY23 vs. FY25 Baseline
 
 South Portland's per-pupil transport costs rose 50.2% from FY23 to FY25 ($709 to $1,065) -- nearly 5x the state average increase of 10.5%. The cause is unknown. If the FY25 figure is anomalously high, route expansion costs would be lower. This sensitivity analysis brackets the uncertainty.
 
-| Metric | Option A (FY25) | Option A (FY23) | Option B (FY25) | Option B (FY23) | Variant C (FY25) | Variant C (FY23) |
-|--------|:---------------:|:---------------:|:---------------:|:---------------:|:----------------:|:----------------:|
+| Metric | Option A APPROVED (FY25) | Option A APPROVED (FY23) | Option B (FY25) | Option B (FY23) | Variant C (FY25) | Variant C (FY23) |
+|--------|:------------------------:|:------------------------:|:---------------:|:---------------:|:----------------:|:----------------:|
 | Route expansion | $748,472 | $545,243 | $0 | $0 | $623,726 | $454,369 |
 | District cost | $802,809-$876,325 | $599,580-$673,096 | $30,365-$79,908 | $30,365-$79,908 | $670,073-$735,597 | $500,716-$566,240 |
 | Family cost | $143,640-$803,520 | $143,640-$803,520 | $0 | $0 | $126,540-$714,240 | $126,540-$714,240 |
 | Total exposure | $946,449-$1,679,845 | $743,220-$1,476,616 | $30,365-$79,908 | $30,365-$79,908 | $796,613-$1,449,837 | $627,256-$1,280,480 |
 | % of savings | 43-112% | 34-98% | 1.4-5.3% | 1.4-5.3% | 36-97% | 29-85% |
 
-Under either baseline, the rank ordering holds: Option B has the lowest impact, Option A the highest.
+Under either baseline, the rank ordering holds: Option B has the lowest impact, the approved Option A the highest.
 
 ## Universal Driver Shortfall
 
-This is a new finding in V2. The 3/30/2026 meeting confirmed the district has 20 bus drivers (Director of Operations Mike Natalie). The SEA cut from 100 to 86 FTE will remove 14 positions; how many are drivers is unknown, yielding an available range of 17-20.
+The 3/30/2026 meeting confirmed the district has 20 bus drivers (Director of Operations Mike Natalie). The SEA cut from 100 to 86 FTE will remove 14 positions; how many are drivers is unknown, yielding an available range of 17-20.
 
 Every configuration requires more drivers than available:
 
 | Configuration | Routes/Drivers Needed | Available | Shortfall |
 |---------------|:---------------------:|:---------:|:---------:|
-| Option A | 30 | 17-20 | -10 to -13 |
+| Option A (APPROVED) | 30 | 17-20 | -10 to -13 |
 | Variant C | 29 | 17-20 | -9 to -12 |
 | Option B | 24 | 17-20 | -4 to -7 |
 
-The V1 analysis estimated transport FTE as 30-35% of the SEA unit, which masked this gap by suggesting more capacity existed. The confirmed 20-driver count reveals that even the status quo before reconfiguration may be tight, and every reconfiguration option makes it tighter.
+The confirmed 20-driver count reveals that even the status quo before reconfiguration is tight, and every reconfiguration option makes it tighter. The approved configuration creates the largest shortfall.
 
-The driver schedule (7 AM-4 PM, idle 9:30-1:30) confirms the existing 3-tier structure is feasible with current drivers. A 4th tier -- likely under Option A or Variant C -- would require extending the driver workday, hiring additional drivers, or both. This compounds the shortfall.
+The driver schedule (7 AM-4 PM, idle 9:30-1:30) confirms the existing 3-tier structure is feasible with current drivers. A 4th tier -- likely required under the approved Option A -- would require extending the driver workday, hiring additional drivers, or both. This compounds the shortfall.
 
 Diesel cost escalation was flagged at the 3/30 meeting (Board member Feller cited 25-50% increases; the Director of Operations called the impact "considerable" but could not quantify). This is not included in any estimate and would affect all configurations, with the largest absolute impact on the options requiring the most routes.
 
-## What We Know Now vs. What Was Claimed
+## What Was Claimed vs. What the Approved Configuration Requires
 
-| Claim | What We Found |
-|-------|---------------|
-| Route cost changes "not anticipated to be significant" (TC-005) | Route expansion costs are $623,726-$748,472/year for grade-band options (21-25% of the FY25 transport budget) |
-| Savings of $1.5-2.2M from school closure | Option A offsets 43-112% of claimed savings with transportation costs alone |
+| Claim | What the Approved Configuration Requires |
+|-------|------------------------------------------|
+| Route cost changes "not anticipated to be significant" (TC-005) | Route expansion costs are $748,472/year (25% of the FY25 transport budget) |
+| Savings of $1.5-2.2M from school closure | The approved Option A offsets 43-112% of claimed savings with transportation costs alone |
 | No transport modeling before vote | Confirmed 3/30: logistics "underway with a partner" but post-vote |
-| SEA unit cut from 100 to 86 FTE | 20 bus drivers confirmed; all configurations show a driver shortfall of 4-13 |
-| Middle school bell consolidation deferred for $25K traffic study | Elementary reconfiguration affects more students, buildings, and routes -- no equivalent study required or conducted |
-| Before/after care not addressed | Care is FULL at 4/5 schools; 42-144 families face new care costs under Option A |
+| SEA unit cut from 100 to 86 FTE | 20 bus drivers confirmed; the approved configuration shows a driver shortfall of 10-13 |
+| Middle school bell consolidation deferred for $25K traffic study | The approved elementary reconfiguration affects more students, buildings, and routes -- no equivalent study was required or conducted |
+| Before/after care not addressed | Care is FULL at 4/5 schools; 42-144 families face new care costs under the approved configuration |
 
 ## Net Savings After Transportation
 
 | Configuration | Claimed Savings | District Transport Cost | Family Transport Cost | Net District Savings | Total Net Savings |
 |---------------|:---------------:|:----------------------:|:---------------------:|:--------------------:|:-----------------:|
-| **Option A** | $1.5M-$2.2M | $802,809-$876,325 | $143,640-$803,520 | $624K-$1.40M | $320K-$1.25M |
+| **Option A (APPROVED)** | $1.5M-$2.2M | $802,809-$876,325 | $143,640-$803,520 | $624K-$1.40M | $320K-$1.25M |
 | **Option B** | $1.5M-$2.2M | $30,365-$79,908 | $0 | $1.42M-$2.17M | $1.42M-$2.17M |
 | **Variant C** | $1.5M-$2.2M | $670,073-$735,597 | $126,540-$714,240 | $764K-$1.53M | $50K-$1.40M |
 
-Option B preserves 96-99% of claimed savings. Option A preserves 28-93% of district savings, and as little as 15% when family costs are included. These figures use the FY25 baseline; FY23 sensitivity narrows the district cost but does not change the rank ordering.
+Option B would have preserved 96-99% of claimed savings. The approved Option A preserves 28-93% of district savings, and as little as 15% when family costs are included. These figures use the FY25 baseline; FY23 sensitivity narrows the district cost but does not change the rank ordering.
 
 **Important caveat:** The "claimed savings" figure itself has not been independently verified in this analysis.
 

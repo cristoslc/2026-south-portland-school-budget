@@ -10,6 +10,7 @@ const TRANSPORT_BRIEFINGS_URL = new URL('./briefings/', TRANSPORT_ROOT_URL);
 const TRANSPORT_ANALYSIS_FILES = [
   { id: 'readme', fileName: 'README.md', kind: 'landing' },
   { id: 'post-decision-brief', fileName: 'POST-DECISION-BRIEF.md', kind: 'analysis' },
+  { id: 'board-letter', fileName: 'BOARD-LETTER-DRAFT.md', kind: 'resource' },
   { id: 'methodology', fileName: 'METHODOLOGY.md', kind: 'methodology' },
   {
     id: 'transport-configuration-comparison',

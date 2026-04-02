@@ -10,6 +10,7 @@ import {
 } from '../src/lib/transport-content.js';
 
 const BRIEFINGS_DIR = new URL('../../dist/transportation-analysis/briefings/', import.meta.url);
+const BOARD_LETTER_FILE = new URL('../../dist/transportation-analysis/BOARD-LETTER-DRAFT.md', import.meta.url);
 
 const EXPECTED_BRIEFING_IDS = [
   'transport-city-school-leadership',
@@ -136,6 +137,7 @@ test('getTransportAnalysisEntries only includes public transport analysis docs',
   assert.deepEqual(ids, [
     'readme',
     'post-decision-brief',
+    'board-letter',
     'methodology',
     'transport-configuration-comparison',
     'split-family-model',
@@ -144,6 +146,22 @@ test('getTransportAnalysisEntries only includes public transport analysis docs',
     'bell-schedule-analysis',
     'before-after-care-gap',
   ]);
+});
+
+test('board letter source is post-decision and problem-solving', async () => {
+  const source = await readFile(BOARD_LETTER_FILE, 'utf8');
+  const entry = parseMarkdownEntry({
+    id: 'board-letter',
+    source,
+    filePath: 'dist/transportation-analysis/BOARD-LETTER-DRAFT.md',
+  });
+
+  assert.doesNotMatch(entry.body, /scheduled to vote/i);
+  assert.doesNotMatch(entry.body, /before the vote/i);
+  assert.doesNotMatch(entry.body, /if the district adopts/i);
+  assert.match(entry.body, /What has already been decided/i);
+  assert.match(entry.body, /What now needs public clarity/i);
+  assert.match(entry.body, /Specific requests for the board and district/i);
 });
 
 test('transport briefing corpus contains only the seven post-decision community lenses', async () => {

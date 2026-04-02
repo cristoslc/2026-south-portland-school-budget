@@ -11,10 +11,13 @@ import {
 const INDEX_SOURCE = new URL('../src/pages/transportation-analysis/briefings/index.astro', import.meta.url);
 const SLUG_SOURCE = new URL('../src/pages/transportation-analysis/briefings/[slug].astro', import.meta.url);
 const TRANSPORT_LANDING_SOURCE = new URL('../src/pages/transportation-analysis/index.astro', import.meta.url);
+const LAYOUT_SOURCE = new URL('../src/layouts/BaseLayout.astro', import.meta.url);
 const BUILT_HOME_INDEX = new URL('../dist/index.html', import.meta.url);
 const BUILT_TRANSPORT_LANDING = new URL('../dist/transportation-analysis/index.html', import.meta.url);
+const BUILT_POST_DECISION = new URL('../dist/transportation-analysis/post-decision-brief/index.html', import.meta.url);
 const BUILT_BRIEFINGS_INDEX = new URL('../dist/transportation-analysis/briefings/index.html', import.meta.url);
 const BUILT_BRIEFINGS_DIR = new URL('../dist/transportation-analysis/briefings/', import.meta.url);
+const BUILT_BOARD_LETTER = new URL('../dist/transportation-analysis/board-letter/index.html', import.meta.url);
 
 const EXPECTED_LENS_IDS = [
   'transport-general',
@@ -101,10 +104,19 @@ test('transport briefing index and slug pages derive from the public lens source
   }
 });
 
+test('shared layout includes a GitHub source link in the title area', async () => {
+  const layoutSource = await readFile(LAYOUT_SOURCE, 'utf8');
+
+  assert.match(layoutSource, /https:\/\/github\.com\/cristoslc\/south-portland-school-budget-FY27/);
+  assert.match(layoutSource, /View source on GitHub/);
+});
+
 test('built transport output exposes only the seven public lens pages and no persona framing', async () => {
-  const [homeIndex, transportLanding, briefingIndex, briefingDirs] = await Promise.all([
+  const [homeIndex, transportLanding, postDecision, boardLetter, briefingIndex, briefingDirs] = await Promise.all([
     readFile(BUILT_HOME_INDEX, 'utf8'),
     readFile(BUILT_TRANSPORT_LANDING, 'utf8'),
+    readFile(BUILT_POST_DECISION, 'utf8'),
+    readFile(BUILT_BOARD_LETTER, 'utf8'),
     readFile(BUILT_BRIEFINGS_INDEX, 'utf8'),
     readdir(BUILT_BRIEFINGS_DIR, { withFileTypes: true }),
   ]);
@@ -120,10 +132,22 @@ test('built transport output exposes only the seven public lens pages and no per
   assert.match(homeIndex, /community lens briefings/i);
   assert.equal(/PERSONA-\d+/.test(homeIndex), false);
   assert.equal(/transport-persona-/i.test(homeIndex), false);
+  assert.match(homeIndex, /View source on GitHub/i);
+  assert.match(homeIndex, /github\.com\/cristoslc\/south-portland-school-budget-FY27/i);
 
   assert.match(transportLanding, /seven community lenses/i);
   assert.doesNotMatch(transportLanding, /persona-specific explainers/i);
   assert.equal(/transport-persona-/i.test(briefingIndex), false);
+  assert.match(transportLanding, /board letter/i);
+  assert.match(transportLanding, /transportation-analysis\/board-letter\//i);
+
+  assert.match(postDecision, /board letter/i);
+  assert.match(postDecision, /board-letter\//i);
+
+  assert.match(boardLetter, /transportation-analysis/i);
+  assert.doesNotMatch(boardLetter, /scheduled to vote/i);
+  assert.doesNotMatch(boardLetter, /before the vote/i);
+  assert.doesNotMatch(boardLetter, /if the district adopts/i);
 
   for (const lensId of EXPECTED_LENS_IDS) {
     const page = await readFile(new URL(`../dist/transportation-analysis/briefings/${lensId}/index.html`, import.meta.url), 'utf8');

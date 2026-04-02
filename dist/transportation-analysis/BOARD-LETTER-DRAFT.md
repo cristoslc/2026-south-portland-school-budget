@@ -1,72 +1,68 @@
-# Board Letter Draft
+# School Board Transportation Letter
 
-**To:** South Portland Board of Education
-**From:** [Your Name], South Portland Resident
-**Date:** [Date]
-**Re:** Transportation implementation for elementary reconfiguration
-
----
+**To:** South Portland Board of Education  
+**From:** South Portland resident  
+**Re:** Transportation implementation after the March 30, 2026 vote
 
 Dear Members of the South Portland Board of Education,
 
-Thank you for your work on the March 30 reconfiguration vote. You made a difficult decision under real constraints, and I respect that. The vote is done. Kaler will close, and Option A will move forward. My purpose in writing is not to relitigate the decision but to flag transportation gaps that need to be addressed before implementation begins -- and to offer an independent analysis that may be useful as you work through the details.
+Thank you for the work you have already done on a difficult reconfiguration decision. The vote is settled. Option A is now the approved plan, and the question in front of the community is how to make that plan work by September in a way that is clear, honest, and manageable for families and staff.
 
-I conducted this analysis because, as Director of Operations Mike Natalie confirmed at the March 30 meeting, transport logistics are being worked on with a consultant but won't be operationalized until after the board votes. No transportation modeling existed before the vote. What follows draws entirely from publicly available data -- district budget documents, Maine DOE expenditure reports, NCES enrollment data, and statements made on the record at board meetings. The full methodology is published and transparent.
+This memo is offered in that spirit. It does not ask the board to reopen the vote. It asks for clearer public information and a more defined implementation path on transportation, staffing, scheduling, and family logistics.
 
-## The driver shortfall is the most urgent problem
+## What has already been decided
 
-At the same meeting where the board voted for Option A, Director Natalie confirmed that South Portland currently employs 20 bus drivers, working 7:00 AM to 4:00 PM on a 3-tier bell schedule. Option A, with two primary buildings (PreK-1) and two intermediate buildings (2-4), requires an estimated 30 routes -- each needing a driver. Even if not a single driver is lost in the SEA reduction from 100 to 86 FTE, the district is 10 drivers short.
+On March 30, 2026, the board approved Kaler's closure and approved Option A. On the same night, the FY27 budget failed. That means the district now has an approved school reconfiguration plan but does not yet have an adopted budget or a public transportation implementation plan that shows how the approved model will work in practice.
 
-This is not a dollar estimate. It is a headcount gap: 20 drivers, 30 routes. The gap widens to 13 if some of the 14 SEA cuts fall on drivers, which is likely under a proportional reduction. At $45,000-$55,000 per driver in salary and benefits, closing a 10-driver gap costs $450,000-$550,000 per year -- reducing the claimed savings before any other transport costs are counted.
+The transportation analysis published with this project is an independent attempt to estimate the scale of that work using public information. It is not a substitute for district route modeling. It is a public baseline until the district publishes better local data.
 
-## District-borne costs offset the savings estimate
+## What now needs public clarity
 
-The $1.5-2.2 million in claimed savings from closing Kaler does not account for the transportation costs that reconfiguration creates. Based on Maine DOE per-pupil transport expenditure data (FY23-FY25) and the district's confirmed fleet size:
+Several transportation questions now matter immediately:
 
-- **Route expansion:** Splitting grade bands across buildings generates deadhead routes and wider catchment areas. Estimated cost: approximately $748,000/year.
-- **McKinney-Vento obligations:** Federal law requires the district to transport homeless-eligible students to their school of origin when a school closes. With roughly 10% of the student body eligible (per district evidence), this adds $54,000-$128,000/year.
-- **Combined district cost:** $803,000-$876,000/year -- reducing net district savings to $624,000-$1.4 million before any family-borne costs are considered.
+- How many drivers the district expects to have available for September
+- Whether the approved configuration can run on the current tier structure or needs a fourth tier
+- How school assignment lines will interact with route design
+- What the district and Recreation Department will do about before-school and after-school care gaps
+- How transportation costs will be reflected in the revised FY27 budget
 
-These are district budget impacts, not family costs. I separate the two deliberately. Family costs -- principally before/after care gaps affecting an estimated 42-144 families -- are real but fall outside the district budget. The distinction matters for honest accounting.
+The district may already have better information than the public does. If so, publishing that information would help the community move from speculation to planning.
 
-## 139-169 families need answers
+## Specific requests for the board and district
 
-Under Option A, an estimated 139-169 families (18-24% of elementary families) will have children in two different buildings simultaneously. These families face a set of unanswered questions:
+1. **Publish a transportation implementation timeline.** Families and staff need to know when the district expects to settle school assignment lines, route design, bell schedules, care planning, and driver hiring.
 
-- **Which buildings?** No attendance boundaries have been drawn.
-- **What bell schedules?** A 4-tier schedule may be necessary to cover 30 routes with fewer than 30 drivers, but 4-tier scheduling has cascading effects on start times and family logistics.
-- **Is after-school care available?** As of March 2026, after-school care is full at 4 of 5 elementary schools. The only school with openings is Kaler -- the one being closed.
+2. **Publish the transport consultant's work as soon as it is usable.** Even a preliminary briefing would help residents understand whether the district's route model is pointing toward 3 tiers, 4 tiers, or some other adjustment.
 
-These families cannot plan until the district publishes boundary proposals with bell schedule and care implications. The sooner that information is available, the less disruptive the transition.
+3. **Clarify the driver staffing picture.** Public discussion on March 30 referenced 20 current drivers and a broader SEA staffing reduction. The district should clarify how many drivers it expects to have available, how many it expects to need, and what the hiring plan is if there is still a gap.
 
-## The budget failed
+4. **Publish school assignment proposals together with transportation implications.** Families cannot judge daily logistics from assignment lines alone. They need to see how assignment choices affect ride times, split-family schedules, and access to care.
 
-The reconfiguration passed, but the FY27 budget ($75.85 million) failed 2-5. Transportation costs are not funded. The April 2 follow-up meeting is the next opportunity to reconcile reconfiguration commitments with budget reality.
+5. **Separate confirmed numbers from estimates in public communication.** The district should clearly label which transportation and care figures come from route-level modeling, which come from budget assumptions, and which are still order-of-magnitude estimates.
 
-## Specific asks
+6. **Explain how transportation costs fit into the revised FY27 budget.** The public needs to understand what is already funded, what still needs appropriation, and which assumptions could materially change the final number.
 
-In advance of the April 7 public hearing, I respectfully ask the board to:
+7. **Coordinate openly with city and care providers.** If family care demand rises because of bell schedule or split-family logistics, the city and district should explain whether capacity can expand and on what timeline.
 
-- **Release the transport consultant's preliminary findings.** The consultant is confirmed to be engaged. Even directional findings would allow the public to assess whether the district's modeling aligns with independent estimates.
-- **Confirm which SEA positions are being cut.** The difference between 17 and 20 post-cut drivers materially changes whether Option A is operationally feasible. This is the single most valuable data point the district could provide.
-- **Publish attendance boundary proposals with transport implications.** Families need to know which buildings their children will attend and what the pickup/dropoff logistics look like.
-- **Model the 3-tier vs. 4-tier bell schedule question before committing to a start date.** A 4th tier extends the driver workday, changes school start times, and affects every working family in the district.
-- **Provide a diesel cost projection for FY27.** Board member Feller flagged a potential 25-50% increase at the March 30 meeting; Director Natalie called the impact "considerable" but could not quantify it. This affects every configuration and should be in the budget.
+## Why this matters for public trust
 
-## The analysis is available
+The community has already absorbed a major decision. Trust now depends less on revisiting that choice and more on whether the implementation work is visible, realistic, and responsive to the families and staff who will live with it every day.
 
-The full independent transportation analysis -- including configuration comparisons, driver gap assessment, split-family model, McKinney-Vento exposure, bell schedule analysis, and before/after care gap assessment -- is publicly available at:
+Clearer public milestones would help:
 
-**[dist/transportation-analysis/](https://github.com/cristoslc/south-portland-school-budget-FY27/tree/main/dist/transportation-analysis)**
+- families plan drop-off, pickup, and care
+- staff prepare for schedule and building changes
+- taxpayers understand the budget impact
+- city leadership coordinate transportation and child-care support
 
-Every assumption is documented in the methodology. Every figure is presented as a range to reflect uncertainty. Every estimate can be replaced with facts the district possesses. The goal is accurate analysis, not any particular conclusion.
+## Supporting analysis
 
-Corrections, data contributions, and methodological challenges are welcome. If any figure is wrong, I want to know -- and the model is built to incorporate better data as it becomes available.
+The transportation analysis package is available here:
 
-Thank you for your service to South Portland's students and families.
+- [Transportation analysis landing page](../)
+- [Post-decision transportation brief](../post-decision-brief/)
+- [Methodology](../methodology/)
 
-Respectfully,
+The independent analysis includes modeled ranges, not final route plans. Those numbers should be treated as public planning estimates until the district publishes route-level analysis.
 
-[Your Name]
-[Your Address]
-South Portland, ME
+Thank you for your continued work on behalf of South Portland students and families.

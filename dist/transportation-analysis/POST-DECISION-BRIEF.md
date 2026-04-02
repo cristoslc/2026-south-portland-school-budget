@@ -17,6 +17,8 @@ The Board of Education held a five-hour special meeting on March 30, 2026 and vo
 
 Option A is now the plan the city has to make work. That means the transportation questions are no longer theoretical. They are part of the practical work required before school opens in September. A follow-up budget meeting is scheduled for April 2.
 
+If you want a shorter problem-solving memo directed to the board and district, read the [school board letter](../board-letter/).
+
 ## What This Means for Transportation
 
 Option A is now the approved configuration. The transportation work ahead is substantial:

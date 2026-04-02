@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFile, readdir } from 'node:fs/promises';
 
 import {
   normalizeTransportMarkdown,
@@ -7,6 +8,26 @@ import {
   getTransportAnalysisEntries,
   sanitizePublicMarkdown,
 } from '../src/lib/transport-content.js';
+
+const BRIEFINGS_DIR = new URL('../../dist/transportation-analysis/briefings/', import.meta.url);
+const BOARD_LETTER_FILE = new URL('../../dist/transportation-analysis/BOARD-LETTER-DRAFT.md', import.meta.url);
+
+const EXPECTED_BRIEFING_IDS = [
+  'transport-city-school-leadership',
+  'transport-elementary-families',
+  'transport-families',
+  'transport-general',
+  'transport-older-students',
+  'transport-staff',
+  'transport-taxpayers',
+];
+
+const BRIEFINGS_WITH_MODELED_DRIVER_COUNT = new Set([
+  'transport-city-school-leadership',
+  'transport-families',
+  'transport-staff',
+  'transport-taxpayers',
+]);
 
 test('normalizeTransportMarkdown unwraps fenced frontmatter blocks', () => {
   const input = [
@@ -116,6 +137,7 @@ test('getTransportAnalysisEntries only includes public transport analysis docs',
   assert.deepEqual(ids, [
     'readme',
     'post-decision-brief',
+    'board-letter',
     'methodology',
     'transport-configuration-comparison',
     'split-family-model',
@@ -124,6 +146,56 @@ test('getTransportAnalysisEntries only includes public transport analysis docs',
     'bell-schedule-analysis',
     'before-after-care-gap',
   ]);
+});
+
+test('board letter source is post-decision and problem-solving', async () => {
+  const source = await readFile(BOARD_LETTER_FILE, 'utf8');
+  const entry = parseMarkdownEntry({
+    id: 'board-letter',
+    source,
+    filePath: 'dist/transportation-analysis/BOARD-LETTER-DRAFT.md',
+  });
+
+  assert.doesNotMatch(entry.body, /scheduled to vote/i);
+  assert.doesNotMatch(entry.body, /before the vote/i);
+  assert.doesNotMatch(entry.body, /if the district adopts/i);
+  assert.match(entry.body, /What has already been decided/i);
+  assert.match(entry.body, /What now needs public clarity/i);
+  assert.match(entry.body, /Specific requests for the board and district/i);
+});
+
+test('transport briefing corpus contains only the seven post-decision community lenses', async () => {
+  const files = (await readdir(BRIEFINGS_DIR)).filter((file) => file.endsWith('.md')).sort();
+  const ids = files.map((file) => file.replace(/\.md$/, ''));
+
+  assert.deepEqual(ids, EXPECTED_BRIEFING_IDS);
+  assert.equal(ids.some((id) => id.includes('transport-persona-')), false);
+});
+
+test('transport briefing corpus has the expected post-decision frontmatter and modeled driver wording', async () => {
+  for (const id of EXPECTED_BRIEFING_IDS) {
+    const filePath = new URL(`../../dist/transportation-analysis/briefings/${id}.md`, import.meta.url);
+    const source = await readFile(filePath, 'utf8');
+    const entry = parseMarkdownEntry({
+      id,
+      source,
+      filePath: `dist/transportation-analysis/briefings/${id}.md`,
+    });
+
+    assert.ok(entry.data.title, `${id} is missing title frontmatter`);
+    assert.ok(entry.data.audience, `${id} is missing audience frontmatter`);
+    assert.equal(entry.data.decision_phase, 'post-decision', `${id} must be post-decision`);
+    assert.equal(entry.data.topic, 'transportation', `${id} must be transportation content`);
+    assert.match(entry.body, /Post-Decision Transportation Brief/i, `${id} must link to the canonical overview`);
+
+    if (BRIEFINGS_WITH_MODELED_DRIVER_COUNT.has(id)) {
+      assert.match(
+        entry.body,
+        /(Estimated|Modeled):.*about 30 drivers/i,
+        `${id} must present the 30-driver count as estimated or modeled`,
+      );
+    }
+  }
 });
 
 test('sanitizePublicMarkdown removes internal artifact jargon from public transport content', () => {

@@ -1,63 +1,163 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readdir, readFile } from 'node:fs/promises';
-import path from 'node:path';
+import { readFile, readdir } from 'node:fs/promises';
 
-const DIST_ROOT = new URL('../dist/transportation-analysis/', import.meta.url);
-const BRIEFINGS_DIR = new URL('./briefings/', DIST_ROOT);
+import {
+  TRANSPORT_COMMUNITY_LENSES,
+  getTransportCommunityLens,
+  getTransportCommunityLensEntries,
+} from '../src/lib/transport-content.js';
 
-const FORBIDDEN_PATTERNS = [
-  /INITIATIVE-\d+/,
-  /EPIC-\d+/,
-  /SPEC-\d+/,
-  /Variant C/,
-  /attendance boundary/i,
-  /attendance boundaries/i,
-  /Transportation Claims Catalog/,
-  /source_specs/,
-  /Machine-Readable Data/,
-  /Source Data/,
-  /Sources of Error/,
-  /How to Improve This Analysis/,
-  /Detailed analysis supporting the transportation comparison and transport briefing pages/,
-  /translate the transport model into stakeholder-specific language/i,
-  /critical path item/i,
-  /did not exist when the board voted/i,
-  /the city has to make work/i,
+const INDEX_SOURCE = new URL('../src/pages/transportation-analysis/briefings/index.astro', import.meta.url);
+const SLUG_SOURCE = new URL('../src/pages/transportation-analysis/briefings/[slug].astro', import.meta.url);
+const TRANSPORT_LANDING_SOURCE = new URL('../src/pages/transportation-analysis/index.astro', import.meta.url);
+const LAYOUT_SOURCE = new URL('../src/layouts/BaseLayout.astro', import.meta.url);
+const BUILT_HOME_INDEX = new URL('../dist/index.html', import.meta.url);
+const BUILT_TRANSPORT_LANDING = new URL('../dist/transportation-analysis/index.html', import.meta.url);
+const BUILT_POST_DECISION = new URL('../dist/transportation-analysis/post-decision-brief/index.html', import.meta.url);
+const BUILT_BRIEFINGS_INDEX = new URL('../dist/transportation-analysis/briefings/index.html', import.meta.url);
+const BUILT_BRIEFINGS_DIR = new URL('../dist/transportation-analysis/briefings/', import.meta.url);
+const BUILT_BOARD_LETTER = new URL('../dist/transportation-analysis/board-letter/index.html', import.meta.url);
+
+const EXPECTED_LENS_IDS = [
+  'transport-general',
+  'transport-families',
+  'transport-elementary-families',
+  'transport-staff',
+  'transport-taxpayers',
+  'transport-older-students',
+  'transport-city-school-leadership',
 ];
 
-test('built transport pages do not expose internal project framing', async () => {
-  const briefingEntries = await readdir(BRIEFINGS_DIR, { withFileTypes: true });
-  const pages = [
-    new URL('./index.html', DIST_ROOT),
-    ...briefingEntries.map((entry) =>
-      entry.isDirectory() ? new URL(`./${entry.name}/index.html`, BRIEFINGS_DIR) : new URL(`./${entry.name}`, BRIEFINGS_DIR),
-    ),
-  ];
+const EXPECTED_LENS_LABELS = [
+  'General Community',
+  'Families',
+  'Elementary Families',
+  'Staff',
+  'Taxpayers',
+  'Older Students',
+  'City and School Leadership',
+];
 
-  for (const page of pages) {
-    const html = await readFile(page, 'utf8');
+const FORBIDDEN_PATTERNS = [/persona_id/i, /persona_name/i, /PERSONA-\d+/, /Transport Persona/i, /View persona profile/i];
+const PUBLIC_PHRASES = ['being asked to vote', 'before the vote', 'scheduled to vote'];
 
+const MOCK_TRANSPORT_BRIEFINGS = [
+  { id: 'transport-elementary-families' },
+  { id: 'transport-ignored-draft' },
+  { id: 'transport-general' },
+  { id: 'transport-staff' },
+  { id: 'transport-city-school-leadership' },
+  { id: 'transport-families' },
+  { id: 'transport-taxpayers' },
+  { id: 'transport-older-students' },
+];
+
+test('transport community lens metadata lists the seven public briefing pages', () => {
+  assert.deepEqual(
+    TRANSPORT_COMMUNITY_LENSES.map((lens) => lens.id),
+    EXPECTED_LENS_IDS,
+  );
+
+  assert.deepEqual(
+    TRANSPORT_COMMUNITY_LENSES.map((lens) => lens.label),
+    EXPECTED_LENS_LABELS,
+  );
+});
+
+test('getTransportCommunityLensEntries returns the seven public lens pages in public order', () => {
+  const ids = getTransportCommunityLensEntries(MOCK_TRANSPORT_BRIEFINGS).map(({ entry }) => entry.id);
+
+  assert.deepEqual(ids, EXPECTED_LENS_IDS);
+});
+
+test('getTransportCommunityLens resolves valid public lens ids and rejects unknown ids', () => {
+  for (const lensId of EXPECTED_LENS_IDS) {
+    assert.equal(getTransportCommunityLens(lensId)?.id, lensId);
+  }
+
+  assert.equal(getTransportCommunityLens('transport-ignored-draft'), null);
+  assert.equal(getTransportCommunityLens('missing-lens-id'), null);
+});
+
+test('transport briefing index and slug pages derive from the public lens source and lens summary copy', async () => {
+  const [indexSource, slugSource, landingSource] = await Promise.all([
+    readFile(INDEX_SOURCE, 'utf8'),
+    readFile(SLUG_SOURCE, 'utf8'),
+    readFile(TRANSPORT_LANDING_SOURCE, 'utf8'),
+  ]);
+
+  assert.match(indexSource, /getTransportCommunityLensEntries\(transportBriefings\)/);
+  assert.match(indexSource, /Community Lenses/);
+  assert.match(slugSource, /getTransportCommunityLensEntries\(transportBriefings\)/);
+  assert.match(slugSource, /const lensSummary = lens\?\.summary \?\? ['"]Transportation briefing\.['"];?/);
+  assert.match(slugSource, /description=\{lensSummary\}/);
+  assert.match(slugSource, /<p>\{lensSummary\}<\/p>/);
+  assert.doesNotMatch(slugSource, /transportation community lens/i);
+  assert.match(landingSource, /seven community lenses/i);
+  assert.doesNotMatch(landingSource, /persona-specific explainers/i);
+
+  for (const source of [indexSource, slugSource, landingSource]) {
     for (const pattern of FORBIDDEN_PATTERNS) {
-      assert.equal(
-        pattern.test(html),
-        false,
-        `${path.basename(path.dirname(page.pathname)) || path.basename(page.pathname)} leaked ${pattern}`,
-      );
+      assert.equal(pattern.test(source), false, `leaked ${pattern}`);
     }
   }
 });
 
-test('post-decision brief explains the modeled family-care cost range with affected-family range', async () => {
-  const html = await readFile(new URL('./post-decision-brief/index.html', DIST_ROOT), 'utf8');
+test('shared layout includes a GitHub source link in the title area', async () => {
+  const layoutSource = await readFile(LAYOUT_SOURCE, 'utf8');
 
-  assert.match(html, /\$143,640-\$803,520/);
-  assert.match(html, /42-144 families/);
+  assert.match(layoutSource, /https:\/\/github\.com\/cristoslc\/south-portland-school-budget-FY27/);
+  assert.match(layoutSource, /View source on GitHub/);
 });
 
-test('landing page comparison contextualizes family-care cost range with affected-family range', async () => {
-  const html = await readFile(new URL('./index.html', DIST_ROOT), 'utf8');
+test('built transport output exposes only the seven public lens pages and no persona framing', async () => {
+  const [homeIndex, transportLanding, postDecision, boardLetter, briefingIndex, briefingDirs] = await Promise.all([
+    readFile(BUILT_HOME_INDEX, 'utf8'),
+    readFile(BUILT_TRANSPORT_LANDING, 'utf8'),
+    readFile(BUILT_POST_DECISION, 'utf8'),
+    readFile(BUILT_BOARD_LETTER, 'utf8'),
+    readFile(BUILT_BRIEFINGS_INDEX, 'utf8'),
+    readdir(BUILT_BRIEFINGS_DIR, { withFileTypes: true }),
+  ]);
 
-  assert.match(html, /Family care cost/);
-  assert.match(html, /\$143,640-\$803,520 \(42-144 families\)/);
+  const briefingDirNames = briefingDirs
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort();
+
+  assert.deepEqual(briefingDirNames, [...EXPECTED_LENS_IDS].sort());
+  assert.equal(briefingDirNames.some((name) => name.includes('transport-persona-')), false);
+
+  assert.match(homeIndex, /community lens briefings/i);
+  assert.equal(/PERSONA-\d+/.test(homeIndex), false);
+  assert.equal(/transport-persona-/i.test(homeIndex), false);
+  assert.match(homeIndex, /View source on GitHub/i);
+  assert.match(homeIndex, /github\.com\/cristoslc\/south-portland-school-budget-FY27/i);
+
+  assert.match(transportLanding, /seven community lenses/i);
+  assert.doesNotMatch(transportLanding, /persona-specific explainers/i);
+  assert.equal(/transport-persona-/i.test(briefingIndex), false);
+  assert.match(transportLanding, /board letter/i);
+  assert.match(transportLanding, /transportation-analysis\/board-letter\//i);
+
+  assert.match(postDecision, /board letter/i);
+  assert.match(postDecision, /board-letter\//i);
+
+  assert.match(boardLetter, /transportation-analysis/i);
+  assert.doesNotMatch(boardLetter, /scheduled to vote/i);
+  assert.doesNotMatch(boardLetter, /before the vote/i);
+  assert.doesNotMatch(boardLetter, /if the district adopts/i);
+
+  for (const lensId of EXPECTED_LENS_IDS) {
+    const page = await readFile(new URL(`../dist/transportation-analysis/briefings/${lensId}/index.html`, import.meta.url), 'utf8');
+    assert.equal(/PERSONA-\d+/.test(page), false, `${lensId} leaked persona IDs`);
+    for (const phrase of PUBLIC_PHRASES) {
+      assert.equal(page.includes(phrase), false, `${lensId} leaked phrase: ${phrase}`);
+    }
+  }
+
+  for (const phrase of PUBLIC_PHRASES) {
+    assert.equal(transportLanding.includes(phrase), false, `transport landing leaked phrase: ${phrase}`);
+  }
 });

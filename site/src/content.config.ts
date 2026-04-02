@@ -35,7 +35,7 @@ const transportAnalysis = defineCollection({
   loader: transportAnalysisLoader(),
   schema: z.object({
     title: z.string(),
-    kind: z.enum(['landing', 'methodology', 'analysis']),
+    kind: z.enum(['landing', 'methodology', 'analysis', 'resource']),
   }),
 });
 

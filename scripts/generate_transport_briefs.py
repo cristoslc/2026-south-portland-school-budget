@@ -186,7 +186,14 @@ generated_date: "2026-03-31"
 source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC-065"]
 ---
 """
-    return call_llm(prompt, system_prompt=SYSTEM_PROMPT)
+    response = call_llm(prompt, system_prompt=SYSTEM_PROMPT)
+    if response.startswith("```markdown\n"):
+        response = response[12:]
+    elif response.startswith("```\n"):
+        response = response[4:]
+    if response.endswith("\n```"):
+        response = response[:-4]
+    return response
 
 
 def generate_general_brief():
@@ -235,7 +242,14 @@ generated_date: "2026-03-31"
 source_specs: ["SPEC-060", "SPEC-061", "SPEC-062", "SPEC-063", "SPEC-064", "SPEC-065"]
 ---
 """
-    return call_llm(prompt, system_prompt=SYSTEM_PROMPT)
+    response = call_llm(prompt, system_prompt=SYSTEM_PROMPT)
+    if response.startswith("```markdown\n"):
+        response = response[12:]
+    elif response.startswith("```\n"):
+        response = response[4:]
+    if response.endswith("\n```"):
+        response = response[:-4]
+    return response
 
 
 def main():

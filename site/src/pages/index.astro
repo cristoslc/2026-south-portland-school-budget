@@ -1,38 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { TRANSPORT_COMMUNITY_LENSES } from '../lib/transport-content.js';
 
 const briefings = await getCollection('briefings');
-const personas = await getCollection('personas');
 const generalBriefings = briefings.filter(b => b.data.brief_type === 'general');
-const personaBriefings = briefings.filter(b => b.data.persona_id);
 const base = import.meta.env.BASE_URL;
-
-// Build persona title lookup: PERSONA-001 -> "Concerned Elementary Parent"
-const personaTitles: Record<string, string> = {};
-personas.forEach(p => { personaTitles[p.data.artifact] = p.data.title; });
-
-const categories: Record<string, { badge: string; className: string }> = {
-  'PERSONA-001': { badge: 'Parent', className: 'badge-parent' },
-  'PERSONA-002': { badge: 'Parent', className: 'badge-parent' },
-  'PERSONA-003': { badge: 'Parent', className: 'badge-parent' },
-  'PERSONA-004': { badge: 'Teacher', className: 'badge-teacher' },
-  'PERSONA-005': { badge: 'Community', className: 'badge-community' },
-  'PERSONA-006': { badge: 'Community', className: 'badge-community' },
-  'PERSONA-007': { badge: 'Community', className: 'badge-community' },
-  'PERSONA-008': { badge: 'Parent', className: 'badge-parent' },
-  'PERSONA-009': { badge: 'Media', className: 'badge-media' },
-  'PERSONA-010': { badge: 'Media', className: 'badge-media' },
-  'PERSONA-011': { badge: 'Parent', className: 'badge-parent' },
-  'PERSONA-012': { badge: 'Student', className: 'badge-student' },
-  'PERSONA-013': { badge: 'Student', className: 'badge-student' },
-  'PERSONA-014': { badge: 'Student', className: 'badge-student' },
-  'PERSONA-015': { badge: 'Staff', className: 'badge-teacher' },
-};
-
-function getCat(personaId: string | undefined) {
-  return categories[personaId ?? ''] ?? { badge: 'Persona', className: 'badge-persona' };
-}
 
 const latestDate = briefings
   .map(b => b.data.generated_date)
@@ -116,28 +89,27 @@ const latestDate = briefings
 
     <section class="reveal">
       <div class="section-header">
-        <h2>Perspectives</h2>
-        <a href={`${base}personas/`}>View all &rarr;</a>
+        <h2>Community Lens Briefings</h2>
+        <a href={`${base}transportation-analysis/briefings/`}>View all &rarr;</a>
       </div>
       <p>
-        The budget affects different people in different ways. These briefings are tailored to the
-        questions, concerns, and information needs of 14 community stakeholder groups.
+        These briefings explain the transportation decision through seven public lenses so residents can
+        see what it means for daily routines, costs, and responsibilities.
       </p>
 
       <div class="card-grid">
-        {personaBriefings.slice(0, 6).map(briefing => {
-          const cat = getCat(briefing.data.persona_id);
+        {TRANSPORT_COMMUNITY_LENSES.slice(0, 6).map((lens) => {
           return (
-            <a href={`${base}briefings/${briefing.id}/`} class="card">
-              <span class={`badge ${cat.className}`}>{cat.badge}</span>
-              <h3>{personaTitles[briefing.data.persona_id ?? ''] ?? briefing.data.persona_name}</h3>
-              <p>{briefing.data.persona_name} ({briefing.data.persona_id})</p>
+            <a href={`${base}transportation-analysis/briefings/${lens.id}/`} class="card">
+              <span class="badge badge-community">Community lens</span>
+              <h3>{lens.label}</h3>
+              <p>{lens.summary}</p>
             </a>
           );
         })}
       </div>
       <p style="margin-top: 1rem; text-align: center;">
-        <a href={`${base}briefings/`}>See all {personaBriefings.length} persona briefings &rarr;</a>
+        <a href={`${base}transportation-analysis/briefings/`}>See all {TRANSPORT_COMMUNITY_LENSES.length} community lens briefings &rarr;</a>
       </p>
     </section>
 
@@ -159,9 +131,9 @@ const latestDate = briefings
           <p>See Option A and Option B side by side on split families, driver needs, and total exposure.</p>
         </a>
         <a href={`${base}transportation-analysis/briefings/`} class="card">
-          <span class="badge badge-parent">Briefings</span>
-          <h3>Transport Briefings</h3>
-          <p>Read the same transport findings through general and persona-specific briefings.</p>
+          <span class="badge badge-community">Briefings</span>
+          <h3>Community Lens Briefings</h3>
+          <p>Read the transport findings through seven public lenses for families, staff, taxpayers, students, and leaders.</p>
         </a>
       </div>
     </section>

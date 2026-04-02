@@ -23,6 +23,62 @@ const TRANSPORT_ANALYSIS_FILES = [
   { id: 'before-after-care-gap', fileName: 'before-after-care-gap.md', kind: 'analysis' },
 ];
 
+export const TRANSPORT_COMMUNITY_LENSES = [
+  {
+    id: 'transport-general',
+    label: 'General Community',
+    summary: 'Start with the whole-community transportation overview.',
+  },
+  {
+    id: 'transport-families',
+    label: 'Families',
+    summary: 'For families planning daily pickup, drop-off, and care.',
+  },
+  {
+    id: 'transport-elementary-families',
+    label: 'Elementary Families',
+    summary: 'For elementary households adjusting to the new transportation plan.',
+  },
+  {
+    id: 'transport-staff',
+    label: 'Staff',
+    summary: 'For staff members coordinating schedules, routes, and daily routines.',
+  },
+  {
+    id: 'transport-taxpayers',
+    label: 'Taxpayers',
+    summary: 'For residents tracking the cost and public follow-through.',
+  },
+  {
+    id: 'transport-older-students',
+    label: 'Older Students',
+    summary: 'For older students and the households that support them.',
+  },
+  {
+    id: 'transport-city-school-leadership',
+    label: 'City and School Leadership',
+    summary: 'For leaders responsible for implementation and coordination.',
+  },
+];
+
+const TRANSPORT_COMMUNITY_LENS_BY_ID = new Map(
+  TRANSPORT_COMMUNITY_LENSES.map((lens, order) => [lens.id, { ...lens, order }]),
+);
+
+export function getTransportCommunityLens(id) {
+  return TRANSPORT_COMMUNITY_LENS_BY_ID.get(id) ?? null;
+}
+
+export function getTransportCommunityLensEntries(entries) {
+  return entries
+    .map((entry) => {
+      const lens = getTransportCommunityLens(entry.id);
+      return lens ? { entry, lens } : null;
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.lens.order - b.lens.order);
+}
+
 const PUBLIC_TERM_REPLACEMENTS = new Map([
   ['SPEC-060 through SPEC-065', 'the transport analysis set'],
   ['SPEC-060', 'split-family analysis'],

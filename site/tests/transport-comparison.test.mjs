@@ -9,7 +9,7 @@ import {
 import comparison from '../../dist/transportation-analysis/transport-comparison.json' with { type: 'json' };
 
 test('getConfigurationNames preserves the transport comparison order', () => {
-  assert.deepEqual(getConfigurationNames(comparison), ['Option A', 'Option B', 'Variant C']);
+  assert.deepEqual(getConfigurationNames(comparison), ['Option A', 'Option B']);
 });
 
 test('getComparisonRows exposes key metric rows with source slugs', () => {
@@ -35,4 +35,6 @@ test('getComparisonRows exposes key metric rows with source slugs', () => {
   assert.equal(rows[4].sourceSlug, 'before-after-care-gap');
   assert.equal(rows[5].sourceSlug, 'transport-configuration-comparison');
   assert.equal(rows[6].values['Option A'], '47.9%-119.1%');
+  assert.equal(rows[4].values['Option A'], '$143,640-$803,520 (42-144 families)');
+  assert.equal(rows[4].values['Option B'], '$0-$0 (0 families)');
 });

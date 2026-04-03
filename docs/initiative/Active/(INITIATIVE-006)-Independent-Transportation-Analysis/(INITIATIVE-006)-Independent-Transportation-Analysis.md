@@ -5,7 +5,7 @@ track: container
 status: Active
 author: cristos
 created: 2026-03-30
-last-updated: 2026-03-31
+last-updated: 2026-04-03
 parent-vision:
   - VISION-001
 priority-weight: high
@@ -28,6 +28,7 @@ linked-epics:
   - EPIC-031
   - EPIC-032
   - EPIC-033
+  - EPIC-034
 linked-artifacts:
   - INITIATIVE-001
   - INITIATIVE-003
@@ -89,6 +90,7 @@ For each persona: Maria knows how many mornings she'd spend doing split-building
 | [EPIC-031](../../epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md) | Configuration Transport Modeling (V1) | Active | Track 1 |
 | [EPIC-032](../../epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md) | Fiscal Exposure & Family Logistics Briefs | Active | Track 1 |
 | [EPIC-033](../../epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md) | Configuration Space Optimization (V2) | Proposed | Track 2 |
+| [EPIC-034](../../epic/Proposed/(EPIC-034)-Post-Decision-Transportation-and-Equity-Burden-Evidence/(EPIC-034)-Post-Decision-Transportation-and-Equity-Burden-Evidence.md) | Post-Decision Transportation and Equity Burden Evidence | Proposed | Track 1 follow-on |
 
 ## Small Work (Epic-less Specs)
 

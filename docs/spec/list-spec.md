@@ -8,6 +8,11 @@
 | SPEC-073 | Briefing Summary Block | 2026-03-22 | — |
 | SPEC-074 | Student-Friendly Language | 2026-03-22 | — |
 | SPEC-075 | Last Updated Indicator | 2026-03-22 | — |
+| SPEC-076 | Student Blocks Contract and Model Integration | 2026-04-03 | — |
+| SPEC-077 | Modeled Walkability and Drive Burden Baseline | 2026-04-03 | — |
+| SPEC-078 | Equity Overlay on Modeled Burden | 2026-04-03 | — |
+| SPEC-079 | Brief-Ready Transportation and Equity Evidence Pack | 2026-04-03 | — |
+| SPEC-080 | Transportation and Equity Claim Audit | 2026-04-03 | — |
 
 ## Active
 
@@ -78,4 +83,3 @@
 |----------|-------|-------------|--------|
 | SPEC-009 | Vimeo Channel Auto-Discovery | 2026-03-11 | 6c1020c |
 | SPEC-010 | Budget Page Auto-Discovery | 2026-03-11 | 6c1020c |
-

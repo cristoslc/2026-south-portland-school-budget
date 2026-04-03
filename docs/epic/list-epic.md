@@ -9,6 +9,7 @@
 | EPIC-019 | Site Data Assembly | 2026-03-22 | — |
 | EPIC-020 | Feedback Pipeline Integration | 2026-03-23 | — |
 | EPIC-033 | Configuration Space Optimization (V2) | 2026-03-30 | — |
+| EPIC-034 | Post-Decision Transportation and Equity Burden Evidence | 2026-04-03 | — |
 
 ## Active
 
@@ -48,4 +49,3 @@
 | Artifact | Title | Last Updated | Commit |
 |----------|-------|-------------|--------|
 | EPIC-012 | Interpretation Pipeline Automation | 2026-03-16 | — |
-

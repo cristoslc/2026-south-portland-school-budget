@@ -1,6 +1,6 @@
 ---
 id: 2spsb-9c7f
-status: in_progress
+status: closed
 deps: [2spsb-m2bi]
 links: []
 created: 2026-03-17T02:23:22Z

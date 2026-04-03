@@ -1,6 +1,6 @@
 ---
 id: spsbF-ap67
-status: in_progress
+status: closed
 deps: []
 links: []
 created: 2026-03-21T13:18:15Z

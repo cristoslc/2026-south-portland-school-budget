@@ -1,6 +1,6 @@
 ---
 id: s0ts-t5s7
-status: open
+status: closed
 deps: []
 links: []
 created: 2026-04-01T13:29:03Z

@@ -16,6 +16,8 @@ __pycache__/
 .agents/.status-cache.json
 .agents/session.json
 .agents/specwatch.log
+.agents/design-check.log
+.agents/train-check.log
 .agents/execution-tracking.vars.json
 .tickets/.locks/
 

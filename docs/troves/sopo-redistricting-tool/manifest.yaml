@@ -1,6 +1,6 @@
 trove: sopo-redistricting-tool
 created: 2026-03-31
-refreshed: 2026-03-31
+refreshed: 2026-04-02
 tags:
   - redistricting
   - elementary-school
@@ -43,12 +43,13 @@ sources:
     url: "https://github.com/adamtishok-git/sopo-data4good"
     fetched: 2026-03-31T02:22:00Z
     title: "sopo-data4good — South Portland Elementary School Redistricting Model"
-    hash: "63e360542b933593ab9af74c4aefe07883cb8f321defa64f8a7b0db00d5b6cbb"
+    hash: "755fea2bf7ffc15ee2f815c653fe1a09503ca4b9c9f7ef5f86a63c4c475a6ad3"
     selective: true
     highlights:
       - "src/assignment.py"
       - "src/config.py"
       - "src/pipeline.py"
+      - "data/student_blocks.json"
       - "outputs/scenario_summary.csv"
       - "webapp/src/App.jsx"
-    notes: "Selective ingest — Python source, React source, metrics. Large generated files excluded."
+    notes: "Selective ingest — Python source, React source, metrics, and the raw block-level JSON file. Large generated files excluded."

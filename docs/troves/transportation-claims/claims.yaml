@@ -1,6 +1,6 @@
 ---
 # Transportation Claims Catalog
-# Extracted from FY27 budget evidence pools: 2026-03-30
+# Extracted from FY27 budget evidence pools: 2026-04-03
 # Categories: cost | routing | logistics | staffing | policy | consultant
 # Response status: answered | unanswered | deferred | contradicted
 
@@ -231,3 +231,104 @@ claims:
     date: 2026-03-30
     response_status: unanswered
     note: "Implementation timeline doesn't exist. Transport rerouting is listed as one of the missing milestones."
+
+  # --- April 2, 2026: Special Budget Meeting ---
+
+  - id: TC-019
+    category: consultant
+    type: claim
+    text: "Dr. Prince confirmed the district is working with a transportation consultant and on student demographics but declined to share any attendance boundary or assignment information, citing the need to avoid getting 'ahead of' upcoming family listening sessions"
+    source: data/interpretation/cumulative/PERSONA-008/2026-04-02.md
+    original_source: "April 2 Special Budget Meeting — Transcript [53:24--54:33]"
+    speaker: administration
+    date: 2026-04-02
+    response_status: deferred
+    note: "First confirmation that consultant is actively engaged — but still no deliverables, scope, or timeline shared. Updates TC-004 and TC-012. The 'ahead of listening sessions' framing delays disclosure indefinitely."
+
+  - id: TC-020
+    category: routing
+    type: non_answer
+    text: "No attendance boundaries, transportation plan, or published assignment timeline exists for the Option A reconfiguration that passed; Dr. Prince confirmed the district is still gathering community input on student placement"
+    source: data/interpretation/cumulative/PERSONA-003/2026-04-02.md
+    original_source: "April 2 Special Budget Meeting — Transcript [53:46--54:33]; [49:08--52:58]"
+    speaker: administration
+    date: 2026-04-02
+    response_status: unanswered
+    note: "Post-decision confirmation that zero implementation artifacts exist. The vote happened; the plan did not. Updates TC-014 — now the vote has passed and there is STILL no modeling."
+
+  - id: TC-021
+    category: logistics
+    type: commitment
+    text: "The superintendent hoped to publish a formal timeline for attendance boundary decisions 'by the end of next week'"
+    source: data/interpretation/cumulative/PERSONA-014/2026-04-02.md
+    original_source: "April 2 Special Budget Meeting — Transcript [52:13]"
+    speaker: administration
+    date: 2026-04-02
+    response_status: deferred
+    note: "First concrete timeline commitment — but for a timeline OF a timeline. 'End of next week' = ~April 10. 97 days to September."
+
+  - id: TC-022
+    category: logistics
+    type: question
+    text: "None of the parents know where their children are gonna go next year"
+    source: data/interpretation/cumulative/PERSONA-014/2026-04-02.md
+    original_source: "April 2 Special Budget Meeting — parent Vladimir Corian, Transcript [134:31]"
+    speaker: parent
+    date: 2026-04-02
+    response_status: unanswered
+    note: "Reinforces TC-006, TC-007, TC-015: working families still have zero placement information."
+
+  - id: TC-023
+    category: routing
+    type: question
+    text: "A Dyer parent who walks his son to school asked the board directly whether his son would be sent to Skillin; no clear answer was given; all first-grade Dyer parents at drop-off that week were described as 'devastated'"
+    source: data/interpretation/cumulative/PERSONA-014/2026-04-02.md
+    original_source: "April 2 Special Budget Meeting — parent Charlie Fox, Transcript [206:38], [207:24]"
+    speaker: parent
+    date: 2026-04-02
+    response_status: unanswered
+    note: "Walkable-to-bused transition risk. A family that currently walks to school may be reassigned across town."
+
+  - id: TC-024
+    category: staffing
+    type: claim
+    text: "Bus driver and union representative Jen Lauard testified that proposed duty changes have already produced six injuries, three shoulder surgeries, and three workers in physical therapy among current staff; drivers are actively seeking other jobs and the district is already down two positions"
+    source: data/interpretation/cumulative/PERSONA-009/2026-04-02.md
+    original_source: "April 2 Special Budget Meeting — Transcript [01:57:00--02:00:00]"
+    speaker: union_representative
+    date: 2026-04-02
+    response_status: unanswered
+    note: "CRITICAL: Driver attrition crisis parallel to route expansion. Six injuries, two vacant positions, active job-seeking. Compounds TC-016 (14% SEA staffing cut)."
+
+  - id: TC-025
+    category: cost
+    type: claim
+    text: "District's bus maintenance contract with Portland has not been updated since 2017; South Portland provides a mechanic and parts to service Portland's fleet and is being reimbursed at nine-year-old rates; Director of Operations Nally confirmed active renegotiation"
+    source: data/interpretation/cumulative/PERSONA-002/2026-04-02.md
+    original_source: "April 2 Special Budget Meeting — Transcript [31:59--32:47]"
+    speaker: administration
+    date: 2026-04-02
+    response_status: answered
+    note: "Updates TC-017. Cross-billing arrangement hasn't been renegotiated in 9 years. SP subsidizing Portland's fleet at 2017 rates. Renegotiation confirmed, no completion date."
+
+  - id: TC-026
+    category: logistics
+    type: claim
+    text: "No attendance boundary maps, bus ride length parameters, school assignment criteria, or sibling placement policies have been published following the Kaler closure and Option A votes; family listening sessions precede boundary decisions"
+    source: data/interpretation/cumulative/PERSONA-011/2026-04-02.md
+    original_source: "April 2 Special Budget Meeting — Transcript [53:46--55:19]; [243:54--244:40]; [247:48--249:18]"
+    speaker: administration
+    date: 2026-04-02
+    response_status: deferred
+    note: "Comprehensive list of missing implementation artifacts. Listening sessions positioned as prerequisite to boundaries — further delaying concrete information."
+
+  - id: TC-027
+    category: logistics
+    type: question
+    text: "Is the district factoring driver attrition into its reconfiguration transportation plan?"
+    source: data/interpretation/cumulative/PERSONA-009/2026-04-02.md
+    original_source: "April 2 Special Budget Meeting — Transcript [01:57:00--02:00:00]"
+    speaker: persona_analysis
+    date: 2026-04-02
+    response_status: unanswered
+    note: "The bus driver injury/attrition testimony (TC-024) raises this question directly. No answer from administration."

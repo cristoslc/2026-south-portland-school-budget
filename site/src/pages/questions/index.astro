@@ -66,6 +66,16 @@ const categoryBadgeClass: Record<string, string> = {
       about the FY27 school budget. Every question here has at least one answer grounded in public meeting records and budget documents.
     </p>
 
+    <div class="callout callout-transport">
+      <h2>Transportation: The Biggest Open Question</h2>
+      <p>
+        27 transportation-related questions, claims, and non-answers have been tracked across the entire budget process.
+        The reconfiguration vote passed — but no attendance boundaries, bus routes, or school assignments exist yet.
+        The superintendent promised a timeline by ~April 10.
+      </p>
+      <a href={`${base}transportation-analysis/`} class="callout-link">See the full transportation analysis &rarr;</a>
+    </div>
+
     {questions.length === 0 && (
       <p class="empty-state">Questions are being generated. Check back soon.</p>
     )}
@@ -145,6 +155,39 @@ const categoryBadgeClass: Record<string, string> = {
   .question-meta {
     font-size: 0.8rem;
     color: var(--color-slate);
+  }
+
+  .callout-transport {
+    background: var(--color-surface);
+    border: 2px solid var(--color-sky);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .callout-transport h2 {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem;
+    color: var(--color-navy);
+  }
+
+  [data-theme="dark"] .callout-transport h2 {
+    color: var(--color-heading);
+  }
+
+  .callout-transport p {
+    margin: 0 0 0.75rem;
+    line-height: 1.5;
+  }
+
+  .callout-link {
+    font-weight: 600;
+    color: var(--color-sky);
+    text-decoration: none;
+  }
+
+  .callout-link:hover {
+    text-decoration: underline;
   }
 
   .empty-state {

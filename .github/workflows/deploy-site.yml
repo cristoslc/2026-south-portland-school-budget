@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - 'site/**'
-      - 'dist/briefings/**'
+      - 'dist/**'
       - 'docs/persona/**'
   workflow_dispatch:
 

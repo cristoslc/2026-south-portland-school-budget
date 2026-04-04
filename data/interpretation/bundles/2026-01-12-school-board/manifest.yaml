@@ -21,9 +21,25 @@ sources:
     evidence_pool: fy27-budget-documents
     hash: "288172b4c5f1efed42116ac1b909b673ef929f8c00d57605188282e6e7c1a949"
 
+  - source_id: "sb-packet-2026-01-12-044"
+    source_type: packet
+    title: "Revised January 2026 Board Meeting Packet"
+    path: data/school-board/budget-fy27/documents/REVISED-January-2026-Board-Meeting-Packet.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/044-revised-january-2026-board-meeting-packet.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:06d6210782f681dc6adb5c38ef595fc6b28ae055d713fa7088187a442e3cb24a"
+
   - source_id: "sb-presentation-2026-01-12-006-006-regular-meeting-slides-2026-01-12"
     source_type: presentation
     title: "Board of Education Regular Meeting Slides - January 12, 2026"
     path: data/school-board/budget-fy27/presentations/2026-01-12-regular-meeting-slides.pdf
     evidence_pool: fy27-budget-documents
     hash: "b1193a6ca6c1af6885df5553df0e04a3d08b99f5416aa669b83b3f52cc05d669"
+
+  - source_id: "sb-presentation-2026-01-12-031"
+    source_type: presentation
+    title: "Board Slides 1.12.26"
+    path: data/school-board/budget-fy27/documents/Board-Slides-1.12.26.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/031-board-slides-1-12-26.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:5be49d45c2f80620763c96659c7ab4243e1befcf377a1a8694165a9cbc001453"

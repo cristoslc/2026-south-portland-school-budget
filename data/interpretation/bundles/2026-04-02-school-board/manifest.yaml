@@ -1,0 +1,40 @@
+schema_version: "1.0"
+
+meeting_date: "2026-04-02"
+meeting_type: regular
+body: school-board
+title: "School Board Regular Meeting — April 2, 2026"
+
+sources:
+  - source_id: "sb-transcript-2026-04-02-016"
+    source_type: transcript
+    title: "School Board Meeting — 2026-04-02"
+    path: data/school-board/meetings/2026-04-02/transcript.en-x-autogen.vtt
+    normalized_path: docs/troves/school-board-budget-meetings/sources/016-school-board-meeting-2026-04-02-2026-04-02.md
+    evidence_pool: school-board-budget-meetings
+    hash: "sha256:65df4b1c2b43ee956526711c535791e3df681e56c63799baba0b8113bee3cebb"
+    duration: "04:57:44"
+
+  - source_id: "sb-agenda-2026-04-02-046"
+    source_type: agenda
+    title: "4.2.26 Special Budget Meeting Agenda   Revised"
+    path: data/school-board/budget-fy27/documents/4.2.26-Special-Budget-Meeting-Agenda---Revised.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/046-4-2-26-special-budget-meeting-agenda-revised.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:ccabcbff04f87ab3e4a9904340bb5908fba3a78a812327447eed8610992c1f8e"
+
+  - source_id: "sb-document-2026-04-02-047"
+    source_type: document
+    title: "Fy27 Budget Book 4.2.26"
+    path: data/school-board/budget-fy27/documents/FY27-Budget-Book-4.2.26.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/047-fy27-budget-book-4-2-26.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:93eb5ae8c3a821442a17a23b384e6318f768a1cc2509163e5ec7536d46990693"
+
+  - source_id: "sb-document-2026-04-02-048"
+    source_type: document
+    title: "Fy27 Special Budget Meeting 4.2.26"
+    path: data/school-board/budget-fy27/documents/FY27-Special-Budget-Meeting-4.2.26.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/048-fy27-special-budget-meeting-4-2-26.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:4b5a6b67e424a80477fbfbf6a1a518b3c81b30e454cbc0e4b3b657a11da55827"

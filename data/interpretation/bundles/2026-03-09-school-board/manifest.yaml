@@ -6,6 +6,15 @@ body: school-board
 title: "School Board Regular Meeting — March 9, 2026"
 
 sources:
+  - source_id: "sb-transcript-2026-03-09-014"
+    source_type: transcript
+    title: "School Board Meeting — 2026-03-09"
+    path: data/school-board/meetings/2026-03-09/transcript.en-x-autogen.vtt
+    normalized_path: docs/troves/school-board-budget-meetings/sources/014-school-board-meeting-2026-03-09-2026-03-09.md
+    evidence_pool: school-board-budget-meetings
+    hash: "sha256:f0d274aa978963843510bd3eaa4c6bfb776e556775ed1fb63752b423b2d3e674"
+    duration: "04:18:48"
+
   - source_id: "sb-packet-2026-03-09-017"
     source_type: packet
     title: "Packet"
@@ -19,3 +28,11 @@ sources:
     path: data/school-board/budget-fy27/presentations/2026-03-09-budget-presentation.pdf
     evidence_pool: fy27-budget-documents
     hash: "54d0c3df3c471d6180e550135ce9febbb35f1ad6af5e439ae70fdfa80cc30990"
+
+  - source_id: "sb-document-2026-03-09-037"
+    source_type: document
+    title: "Fy27 Budget 3.9.26 Board Meeting"
+    path: data/school-board/budget-fy27/documents/FY27-Budget-3.9.26-Board-Meeting.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/037-fy27-budget-3-9-26-board-meeting.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:807e6e7167e8302ef33c42b0c8500959dd52d7594635fcf003c4100aa67f060f"

@@ -1,11 +1,19 @@
 schema_version: "1.0"
 
 meeting_date: "2025-12-17"
-meeting_type: budget-workshop
+meeting_type: workshop
 body: school-board
-title: "School Board Budget Workshop — December 17, 2025"
+title: "School Board Workshop — December 17, 2025"
 
 sources:
+  - source_id: "sb-agenda-2025-12-17-028"
+    source_type: agenda
+    title: "12.17.25 Workshop Agenda"
+    path: data/school-board/budget-fy27/documents/12.17.25-Workshop-Agenda.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/028-12-17-25-workshop-agenda.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:dbef24b50de6adf789d2553f84afc885f6c8676c288b48456215d9cf93a3455c"
+
   - source_id: "sb-packet-2025-12-17-001-001-workshop-packet-2025-12-17"
     source_type: packet
     title: "Board Workshop Agenda - FY27 Budget Workshop, December 17, 2025"

@@ -1,11 +1,9 @@
 schema_version: "1.0"
 
 meeting_date: "2026-03-10"
-meeting_type: regular
+meeting_type: workshop
 body: city-council
-title: "City Council Regular Meeting — March 10, 2026"
-
-agenda_ref: data/city-council/meetings/2026-03-10/agenda.txt
+title: "City Council Workshop — March 10, 2026"
 
 sources:
   - source_id: "cc-transcript-2026-03-10-021"
@@ -15,6 +13,15 @@ sources:
     evidence_pool: city-council-meetings-2026
     hash: "b90bd37af75f260f3aa87e00f5d82435186923d31ea19ef2fde99ac4b4a3b3f4"
     duration: "03:56:32"
+
+  - source_id: "cc-transcript-2026-03-10-044"
+    source_type: transcript
+    title: "City Council Workshop — 2026-03-10"
+    path: data/city-council/meetings/2026-03-10-workshop/transcript.en-x-autogen.vtt
+    normalized_path: docs/troves/city-council-meetings-2026/sources/044-city-council-workshop-2026-03-10-2026-03-10.md
+    evidence_pool: city-council-meetings-2026
+    hash: "sha256:5823060b50ab161780980bf2903f752d0fc994663d0e3cb402395004c673b52e"
+    duration: "03:56:30"
 
   - source_id: "cc-agenda-2026-03-10-016"
     source_type: agenda

@@ -1,6 +1,6 @@
 trove: fy27-budget-documents
 created: 2026-03-09
-refreshed: '2026-03-31'
+refreshed: '2026-04-03'
 tags:
 - budget
 - fy27
@@ -337,7 +337,8 @@ sources:
   hash: sha256:9b8f2318771ddf8059f46165f7da2dbd9660b8a3dfefde6dae2798b49d618efb
   file: sources/045-budget-workshop-ii-agenda-3-23-26-revised.md
 - source-id: 046-board-slides-2026-03-30
-  title: FY27 Superintendent Budget Presentation - Special Board Workshop, March 30, 2026
+  title: FY27 Superintendent Budget Presentation - Special Board Workshop, March 30,
+    2026
   type: document
   origin-url: https://docs.google.com/presentation/d/1pZrJzGCND_ZM0ZcAJy3XsH4rEaCa2AIP6ZmLM4gfRs4/edit
   fetched: '2026-03-31'
@@ -354,10 +355,28 @@ sources:
   file: sources/047-special-budget-meeting-agenda-2026-03-30/047-special-budget-meeting-agenda-2026-03-30.md
   highlights: []
   selective: false
+- source-id: '046'
+  title: 4.2.26 Special Budget Meeting Agenda   Revised
+  type: document
+  path: data/school-board/budget-fy27/documents/4.2.26-Special-Budget-Meeting-Agenda---Revised.pdf
+  hash: sha256:ccabcbff04f87ab3e4a9904340bb5908fba3a78a812327447eed8610992c1f8e
+  file: sources/046-4-2-26-special-budget-meeting-agenda-revised.md
+- source-id: '047'
+  title: Fy27 Budget Book 4.2.26
+  type: document
+  path: data/school-board/budget-fy27/documents/FY27-Budget-Book-4.2.26.pdf
+  hash: sha256:93eb5ae8c3a821442a17a23b384e6318f768a1cc2509163e5ec7536d46990693
+  file: sources/047-fy27-budget-book-4-2-26.md
+- source-id: 048
+  title: Fy27 Special Budget Meeting 4.2.26
+  type: document
+  path: data/school-board/budget-fy27/documents/FY27-Special-Budget-Meeting-4.2.26.pdf
+  hash: sha256:4b5a6b67e424a80477fbfbf6a1a518b3c81b30e454cbc0e4b3b657a11da55827
+  file: sources/048-fy27-special-budget-meeting-4-2-26.md
 history:
 - event: extended
   date: '2026-03-31'
   sources-added:
   - 046-board-slides-2026-03-30
   - 047-special-budget-meeting-agenda-2026-03-30
-  commit: '--'
+  commit: --

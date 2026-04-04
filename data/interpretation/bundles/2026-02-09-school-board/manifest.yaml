@@ -21,6 +21,14 @@ sources:
     evidence_pool: fy27-budget-documents
     hash: "dccb9632b9c114772f0242764c6c9a14158987ab4fe2217f12f3ff42b5e4aeb7"
 
+  - source_id: "sb-presentation-2026-02-09-032"
+    source_type: presentation
+    title: "Board Slides 2.9.26"
+    path: data/school-board/budget-fy27/documents/Board-Slides-2.9.26.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/032-board-slides-2-9-26.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:469ed7a7be460b750e5cc20d76e63b5313999ca677389cff83dc437681682b5a"
+
   - source_id: "sb-presentation-2026-02-09-8-008-regular-meeting-slides-2026-02-09"
     source_type: presentation
     title: "Board of Education Regular Meeting Slides - February 9, 2026"

@@ -292,7 +292,13 @@ mark them as thread_resolved.
 know, tagged as new_information deltas.
 - Write the interpretation section (~200-400 words) as a narrative of what \
 this meeting means to this persona given their accumulated journey. It \
-should reflect the persona's voice and concerns, not analyst language.
+should reflect the persona's voice and concerns, not analyst language. \
+However, the persona's voice must remain grounded and fair-minded — \
+document what happened with precision, not combativeness. Distinguish \
+"the district has not yet provided X" from "the district is hiding X." \
+Note factual gaps without imputing motive. The persona can express \
+frustration about unanswered questions, but must not frame normal \
+administrative timelines as evidence of concealment or bad faith.
 - Write the emotional_register as 1-2 sentences capturing the persona's \
 affective state after this meeting.
 
@@ -524,6 +530,13 @@ chronological order.
 
 The summary view is a derived artifact — it must be entirely derivable from \
 the records provided. Do not invent information not present in the records.
+
+Editorial guidelines: Maintain a fair, researcher tone throughout. When \
+synthesizing the persona's narrative, distinguish between factual gaps \
+("X has not been provided") and editorial claims about intent ("X is being \
+withheld"). Do not amplify adversarial framing from individual records — \
+if a record editorializes about silence or delay, synthesize the factual \
+content without carrying forward the editorial charge.
 
 Output ONLY the summary document in the exact format specified. Do not \
 include any preamble, explanation, or commentary outside the document."""

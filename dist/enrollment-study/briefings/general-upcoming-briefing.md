@@ -2,7 +2,7 @@
 schema_version: "1.0"
 brief_type: "general"
 brief_mode: "upcoming"
-generated_date: "2026-04-03"
+generated_date: "2026-04-04"
 has_agenda: false
 inter_meeting_evidence_count: 0
 upcoming_meeting_date: "2026-04-03"
@@ -11,92 +11,88 @@ upcoming_meeting_date: "2026-04-03"
 # General Upcoming Briefing
 ## Upcoming Meeting: 2026-04-03
 
-# South Portland School Board — Public Briefing
-**Meeting: April 3, 2026 | Prepared for community members**
-
-*No agenda has been posted for this meeting. This briefing is based on the April 2, 2026 special budget meeting, the March 30 and March 23 board meetings, and the FY27 budget documents dated April 2, 2026.*
+# South Portland Schools — Public Briefing
+**Meeting: April 6, 2026 (Expected Special Session)**
+*Prepared for community members. All claims are drawn from board meeting transcripts, agenda materials, and budget documents from the April 2, March 30, and March 23, 2026 school board meetings.*
 
 ---
 
 ## Since Last Meeting
 
-The April 2 board meeting ended without a vote on the FY27 school budget — a significant development. Here is what changed at that meeting:
+The South Portland School Board held a special budget meeting on **April 2, 2026**. Several significant things happened or were confirmed at that session.
 
-**Early release days pulled from the agenda.** The district had proposed adding four early release days in May and June to give teachers time to prepare for the school reconfiguration. After strong pushback from parents about the impact on working families, the board voted unanimously to remove that item before any debate. The superintendent said the district may instead seek a state waiver to shorten the school year by one day so staff can have a preparation day before the end of the school year.
+**The board did not pass the FY27 budget.** The superintendent's recommended budget of roughly $75.85 million — reflecting a 6% local tax increase — was put to a vote. It fell short. Members Richardson, Holman, Feller, DeAngelis, and Dowling declined to support it that night. Members Rich and Smith said they would vote yes. The item was set aside without passing.
 
-**Board voted unanimously to seek City Council guidance.** The board approved convening a meeting with City Council to discuss the budget. That City Council presentation was already scheduled for April 7. A budget workshop with the Council is set for April 14, and the Council's formal vote to send a budget to public referendum is scheduled for May 5. The public vote is June 9.
+**Two major school decisions happened at the March 30 meeting.** The board voted 5–2 to close Kaler Elementary School at the end of this school year. It also voted 4–2 to adopt "Option A" — a reconfiguration of the remaining four elementary schools into two "primary" buildings (pre-K through grade 1) and two "intermediate" buildings (grades 2 through 4). These votes stand regardless of what happens with the budget.
 
-**Budget not passed.** When it came time to vote on adopting the FY27 superintendent's budget as the board's proposal to the city, a majority of board members said they were not ready. The budget as presented on April 2 included minor changes from the March 30 version: health insurance cost assumptions were trimmed slightly (saving roughly $52,000), one director role was converted to a teacher-level strategist role, and about $30,000 was redirected to cover deferred maintenance at the high school. The total bottom line — $75,850,000 with a proposed 6% local tax increase — did not change.
+**New state funding was reported during the April 2 meeting.** A union representative told the board that South Portland is likely to receive an additional $300,000 in state funding — $150,000 tied to homeless student population counts and $150,000 tied to economically disadvantaged students. This resulted from union staff and teachers traveling to Augusta to advocate with legislators. Separately, a board member mentioned receiving a text message indicating that changes to Maine's school funding formula (EPS) could bring an additional $750,000 in the next budget year. Neither figure was formally confirmed in official writing, and board members said they needed verified numbers before acting.
 
-**Potential new state funding announced during public comment.** The president of the district's support staff union told the board that union representatives and teachers who traveled to Augusta had secured what she described as a likely $300,000 in additional state funding: $150,000 based on the district's homeless student population and $150,000 based on economically disadvantaged students. Separately, a board member received a text message during the meeting suggesting the state's school funding formula changes could bring South Portland an additional $750,000. Both figures were explicitly unverified at the time, and board members noted that different legislators were citing different numbers. The board said it needed confirmed figures before it could act.
+**The board unanimously voted to meet with the city council.** That vote set in motion the following sequence: board presents to the council on **April 7**, council holds a workshop on **April 14**, council votes on **May 5**, and residents vote on the school budget referendum on **June 9**.
 
-**Board discussed a possible Monday meeting.** Near the end of the April 2 meeting, several board members said they wanted to hold an additional meeting on Monday, April 6, if confirmed state funding numbers arrived in time. The superintendent said the administrative team would not have a revised budget recommendation ready by then, but the board could still discuss its priorities for how to use any additional funds. No Monday meeting was formally scheduled at that point. The superintendent also reminded the board that whatever budget exists must be presented to City Council on April 7, even if the board has not formally adopted it — in that case, the superintendent's budget (not the board's budget) would go forward.
+**The four proposed early release days were removed.** The board had considered adding up to four early release days in May and June to give staff time to prepare for reconfiguration. After substantial pushback from working parents, the board unanimously dropped that proposal. Superintendent Entwistle said the district may instead seek a state waiver to reduce the school year by one day to create a staff planning day.
+
+**There is no fund balance in the proposed budget.** Finance Director Abigail Ketchen explained that the district has no savings buffer built into the current proposal, and the budget does not include any contribution toward rebuilding one. Board members and community members raised this as a serious concern. One board member noted the city guidance targets a 9%–12% fund balance — a level the district is far from reaching.
 
 ---
 
 ## What This Meeting Is For
 
-**No agenda has been posted for the April 3 meeting.** Based on what the April 2 meeting left unresolved, this meeting appears intended to accomplish one or more of the following:
+No agenda had been posted as of this writing, so the exact format is not confirmed. Based on what the board discussed at the April 2 meeting, this session is expected to be a **special meeting focused on voting to adopt a budget** — possibly amended to reflect any new state funding — before the district must present a budget to the city council on April 7.
 
-- Confirm or update the state funding numbers that arrived too late to act on at the April 2 meeting
-- Decide whether the board will hold an additional meeting before the April 7 City Council presentation
-- Discuss whether and how to amend the budget to restore any eliminated positions using confirmed new state funds
-- Formally vote on adopting a budget, or agree on what version of the budget goes to City Council even without a formal board adoption
+Board members discussed holding a Monday meeting specifically to decide whether and how to use the reported new state dollars, and whether that would allow them to restore any of the positions eliminated in the current proposal. District leadership made clear that if no board vote occurs, the superintendent's recommended budget — as-is — goes to the city council anyway.
 
-The board is operating under a tight timeline. If it does not pass a budget before July 1, state law requires the district to revert to the prior year's budget, which is approximately $2.5 million less than what is currently proposed. That would force additional cuts.
+In plain terms: **this meeting is the board's last realistic chance to shape the budget before the city council sees it.**
 
 ---
 
 ## Decisions Likely Tonight
 
-Because no agenda is available, none of the following is confirmed. These are the most likely actions based on what the April 2 meeting explicitly left open:
+- **Vote to adopt the FY27 budget** (approximately $75.85 million, 6% local tax increase). This was tabled April 2. Whether it passes as written, or with amendments, is the central question tonight.
 
-**1. Whether to formally adopt the FY27 budget.** Five board members voted no or abstained on April 2, primarily because they wanted confirmed state funding numbers before acting. If those numbers have arrived and are favorable, one or more members may be ready to vote yes — possibly on a budget amended to restore some positions.
+- **Decision on how to use reported new state funding.** Roughly $300,000 was mentioned in clear terms; the $750,000 EPS figure is less certain. Multiple board members indicated they want any new money directed toward restoring student-facing staff positions rather than administration or reserve funds. No specific positions have been formally identified for restoration.
 
-**2. How to use any confirmed additional state funding.** Multiple board members and union leaders said clearly on April 2 that any new state money should go to restoring student-facing positions — not to the fund balance or administration. If numbers are confirmed, the board will likely be asked to direct the administration on which positions to prioritize. At least two board members explicitly said "no director positions" with this money.
+- **Setting the board's message to the city council** for the April 7 presentation. This includes whether the board will ask the council for guidance on raising the tax request above 6% — which would be the main lever available for adding money (for example, to begin rebuilding a fund balance).
 
-**3. Whether to hold an additional meeting before April 7.** The board discussed April 6 as a possible second meeting this week. Tonight may settle whether that meeting is needed or whether the board is ready to move tonight.
-
-**4. Framing for the City Council conversation.** Even if no budget is passed, the board may signal to City Council what it wants from that April 7 meeting: guidance on a higher tax increase, a request to borrow from the city's fund balance, or both. Several board members said they want a tax increase above 6% to begin rebuilding the district's empty reserve fund.
+- **Clarifying reconfiguration costs.** Several open questions remain about expenses tied to the school closure and reorganization — moving costs, transportation redesign, staff transition stipends, building preparation — some of which may need to be reflected in what goes to the council.
 
 ---
 
 ## Key Public Questions
 
-- **How much additional state funding is actually confirmed, and when?** The two figures mentioned on April 2 — $300,000 and $750,000 — came from different sources during a live meeting, not from official state documents. What does the district now have in writing?
+- **How much new state money is actually confirmed, and when?** The $300,000 came from a report made during public comment. The $750,000 EPS figure came from a text message to a board member during the meeting. Neither has been officially transmitted to the board in writing.
 
-- **Which positions would be restored?** If new money comes in, the board and administration must decide which of the roughly 75 eliminated positions to bring back. What criteria will guide that choice? Will there be a transparent process, or will it happen informally?
+- **Which positions — if any — will be restored?** Board members said they do not want new money going to director-level or administrative roles. But no specific list of positions has been put forward, and the administration has not made a formal recommendation.
 
-- **What will the board actually present to City Council on April 7?** The superintendent's budget goes forward regardless, but what guidance or ask will the board attach to it? Will the board request a higher tax increase than 6%?
+- **Will the budget pass before the April 7 city council presentation?** If not, the superintendent's recommended budget automatically goes to the council as the working document. That budget contains no fund balance.
 
-- **What happens if the budget fails at the June 9 referendum?** The board chair stated clearly at the April 2 meeting that a no vote on the budget does not undo the reconfiguration vote, and that the district would revert to the prior year's smaller budget. Does the public understand that?
+- **What is the plan for reconfiguration costs?** Moving expenses, transportation route changes, staff stipends, and interim principal coverage at Kaler were all mentioned as real costs. Where these appear in the budget — and whether they are fully funded — has not been spelled out clearly.
 
-- **Is the reconfiguration on track given the loss of the early release days?** Planning for the school year transition is already underway, but the district's own request for additional prep time was just withdrawn. Staff surveys about building preferences are going out this week. What is the revised timeline?
+- **When will families know where their children will go to school?** Attendance boundaries for the reconfigured elementary schools have not been drawn. The board voted for reconfiguration but left boundary decisions, transportation logistics, and staffing assignments to be resolved over the coming months.
 
-- **When will families know where their children will go to school next year?** Board members asked this directly on April 2 and did not receive a specific date. Parents of Kaler students in particular are waiting.
+- **Is there a "go / no-go" point for reconfiguration?** Board members and community members asked at what point — if planning falls too far behind — the board would consider pausing or reversing course. No clear answer was given at the April 2 meeting.
 
-- **Is the district's Portland bus-maintenance contract getting updated?** The director of operations said the contract hasn't been updated since 2017. This represents a revenue opportunity the district has not yet captured.
+- **What will the city council do on April 7?** The council can offer guidance on the tax increase level. It cannot override the board's program decisions, but its guidance shapes what voters see on June 9.
 
 ---
 
 ## What To Watch For
 
-- **Confirmed state funding numbers.** Listen for whether the administration presents a verified figure. The difference between $300,000 and $750,000 matters enormously for how many positions could be restored. Watch for whether the number is described as firm, estimated, or still pending.
+- **Whether the board has verified state funding numbers before voting.** If the $300,000 or $750,000 figures remain unconfirmed in writing, watch for whether the board builds them into a revised budget anyway — or holds the vote until official figures arrive.
 
-- **A motion to amend the budget.** If reliable numbers are available, one or more board members may move to add positions back in before taking a final vote. Watch for whether the motion specifies which positions and how the dollar amounts line up.
+- **Whether specific positions are formally restored.** Listen for job titles, not just general language. A commitment to restore "student-facing positions" is meaningfully different from naming the behavioral strategist, the percussion ed tech, the occupational therapist, or other roles that drew the loudest community concern.
 
-- **A formal budget adoption vote.** This is the single most consequential procedural act the board needs to take. Watch for whether it passes, and if so, whether any board member votes yes with stated conditions attached.
+- **Whether a fund balance contribution is included.** The board expressed concern at April 2 that passing a budget with zero reserve is irresponsible. Watch for whether anyone moves to add a reserve contribution — and what would pay for it (higher tax ask, state money, or cuts elsewhere).
 
-- **The fund balance question.** Multiple board members said on April 2 that the budget should not be approved without starting to rebuild the district's reserve. A minimum of 9% of annual operating costs — roughly $6.8 million — is the city's own benchmark for a healthy reserve. The current balance is zero. Listen for whether any member proposes adding even a small seed amount and what it would cost in terms of the tax increase.
+- **Whether the board signals a higher tax request to the council.** The 6% local tax increase was the city's guidance ceiling, not a fixed limit. The board can ask for more. Any signal — even informal — that they intend to do so at the April 7 meeting would be notable.
 
-- **Signs the reconfiguration timeline is slipping.** Watch for any acknowledgment from administration that critical planning steps — finalizing attendance boundaries, confirming transportation routes, determining where Kaler students will go — are behind schedule. The board's own withdrawal of the early release days request raised public concern about readiness.
+- **Tone on reconfiguration planning.** Listen for whether the administration presents a concrete timeline, attendance boundary framework, or transportation cost estimate. At the April 2 meeting, those details were largely absent, and community frustration was high.
 
-- **The SRO (school resource officer) question.** Board member Richardson raised whether the city should pay for the two school resource officers rather than the district. This has been added to a list of issues for City Council. Watch for whether it is still on the agenda for the April 7 meeting.
+- **Board alignment.** The April 2 budget vote broke roughly 2 in favor, 5 opposed or abstaining. If the same divisions hold, the budget still won't pass tonight. Watch for which member or members change their position — and the stated reason.
 
-- **Superintendent search update.** The board mentioned on April 2 that preliminary interviews with semifinalists were about two weeks away. Any update on that timeline or process affects public confidence in district stability during a period of major change.
+- **Superintendent search update.** Board Chair mentioned at April 2 that preliminary interviews of semi-finalists were expected within about two weeks. Any public update on that timeline matters for understanding who will lead the district through reconfiguration.
 
-- **Language around what the board will "ask" City Council.** Watch for whether board members coalesce around a specific dollar figure or a specific ask — a higher tax ceiling, use of city fund balance, or something else — before April 7. The more specific the ask, the more leverage the board has going in.
+- **Public comment themes.** If community members continue raising the same unresolved questions — special education staffing, behavior support, class sizes, bus ride lengths — watch for whether board members press administration for specific answers or defer again.
 
 ---
 
-*This briefing is based solely on public meeting transcripts, the FY27 budget book (revised April 2, 2026), and the FY27 budget presentation (April 2, 2026). Where information was uncertain in the source record, that uncertainty is noted here. No agenda for tonight's meeting was available at the time this briefing was prepared.*
+*This briefing is based solely on meeting transcripts, agendas, and budget documents from March 23 through April 2, 2026. Figures and statements are drawn from those sources. No agenda had been posted for the April 6 meeting at the time of writing; the expected agenda items described above reflect what board members said they intended to address.*

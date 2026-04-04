@@ -3,9 +3,9 @@ schema_version: "1.0"
 persona_id: "PERSONA-001"
 persona_name: "Maria"
 upcoming_meeting_date: "2026-04-03"
-generated_date: "2026-04-03"
+generated_date: "2026-04-04"
 has_agenda: false
-last_cumulative_meeting: "2026-03-30"
+last_cumulative_meeting: "2026-04-02"
 inter_meeting_evidence_count: 0
 ---
 
@@ -14,75 +14,65 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new evidence has emerged in the four days since the March 30 vote. That silence is itself a signal worth noting.
+No new evidence has surfaced since the April 2 special meeting. That silence is not neutral.
 
-The board left March 30 with three live crises simultaneously in motion: a Kayler closure filing underway, Option A as adopted policy, and a budget that failed 2-5 — legally dead — four days before the April 7 council submission deadline. The April 3 meeting was called specifically to rescue the budget, not to revisit the structural decisions. Maria should enter this meeting with eyes open to what that means: the reconfiguration outcomes she opposed are locked. What remains uncertain is the fiscal package that funds them.
+The April 2 meeting ended in a specific kind of unresolved limbo: the board took structural votes (Kayler closed, Option A passed) but the FY27 budget failed 2–5. The board then identified two preconditions for passing the budget — incorporating $300,000 in new state funding and getting city council guidance on fund balance use — and floated the idea of returning as early as this week. April 3 lands in that window, with the council's April 7 hard deadline bearing down.
 
-The absence of any inter-meeting communication from the district — no FAQ, no newsletter update, no community-facing explainer about what changes between March 30 and April 3 — continues a pattern Maria has watched all year. Families are expected to absorb a major vote outcome and show up to the next meeting without any guidance about what the agenda will address or what's actually at stake. If the district had reached an internal agreement on a revised budget, there is no evidence it was shared with parents before this meeting.
-
----
+The absence of any public update or posted agenda since April 2 may mean one of a few things: the meeting is administrative and narrow (ratifying the budget with the $300K folded in), the council guidance hasn't arrived yet and there's nothing to vote on, or the meeting was quietly scheduled with minimal notice. For Maria, any of these scenarios carries risk. A narrow administrative meeting can pass consequential decisions — including how the $300,000 gets allocated — without any formal public comment opportunity. If the budget is voted on tonight with the state funding folded in as a lump sum and no line-item restoration announced, the behavioral strategist position, the MTSS specialists, and the OT positions all remain cut by default.
 
 ## Open Questions
 
-Maria is carrying these unresolved concerns into April 3:
+Maria is walking into this meeting carrying every unresolved question from April 2, now made more urgent by the deadline:
 
-- **The budget failed 2-5. What actually changed in four days to make a new vote worth calling?** Did the administration revise the proposal, or is this the same budget hoping different board members feel the deadline pressure?
-- **Will any of the 78 pink slips be rescinded if the budget passes — or are those positions gone regardless of what number gets adopted?**
-- **How many of the 42 teacher eliminations come from elementary schools specifically?** The board keeps talking about "positions" in the aggregate; I still don't know what this means for my child's grade level.
-- **Option A is passed, but no attendance boundaries are drawn. Will there be any update at this meeting on the timeline for families to learn their specific school placements?**
-- **How are four remaining schools supposed to absorb Kayler's kids in September with no behavioral strategist, four fewer MTSS specialists, and confirmed class-size increases?** The people meant to manage the disruption reconfiguration creates are the first ones cut.
-- **If the board passes a budget tonight, does it go to the council on April 7 as-is — or does the council have the ability to send it back and force another round of cuts?**
-- **Is anyone on the board pushing back on the tax number, or is the fight now over which positions to protect within a fixed ceiling?**
-- **The $8.4M gap is bigger than the $7.2M we were modeling against all year. Does the reconfiguration math actually close the gap at $8.4M, or is there still a shortfall after all the cuts?**
-- **What does the board's failed vote actually signal — do the five no votes mean the budget was too aggressive (cut too much), not aggressive enough (cut too little), or something procedural?**
-- **When will families get a clear, school-by-school breakdown of which positions are being eliminated and what that means for programs — art, music, PE, EAs in classrooms?**
+- **Where does the $300,000 go?** The union lobbied for it. The board identified it as a precondition for passing the budget. But "incorporating new state funding" is not the same as "restoring positions." Will this money bring back Jenna Goldstein Walsh's position, or any of the four elementary MTSS specialists — or will it quietly disappear into the fund balance or offset an operational line?
 
----
+- **What is the actual plan for the 60 students who lose behavioral support in September?** The April 2 meeting put a name and a face on this cut. The board voted to eliminate the only full-time general-ed behavioral specialist. No transition plan was presented. No alternative was named. How are those kids going to be served?
+
+- **When will I find out where my child goes to school next year?** Attendance boundaries for Option A have not been drawn. Six weeks of community engagement is supposed to start — but from what baseline, and on what timeline? How can I plan anything for September without knowing which building my child attends?
+
+- **What happens to class size if my child ends up in a room with multiple IEP students and no behavioral support?** There's no written policy protecting against that. The existing policy ceiling is already being hit, and reconfiguration will mix grade bands in ways no teacher has managed before. Who is accountable when a class exceeds 20 mid-year?
+
+- **Is the city council actually going to give guidance on fund balance before April 7?** The board said it needed that guidance to pass the budget. That guidance hasn't been posted publicly. If the council doesn't respond in time, does the board miss the deadline? What does that mean for September?
+
+- **Did anyone at the city level integrate what's happening to elementary families?** The sewer rate increases hit in the same cycle as the school tax increase, and the $87M bond is heading to a fall referendum. Is anyone — board, council, anyone — looking at what all of this costs the same household at the same time?
+
+- **Is the school district tracking kids who stopped showing up because of ICE?** If those absences don't show up in the enrollment data being used to justify reconfiguration, then the model is broken from the start.
 
 ## Agenda Implications
 
-No agenda is publicly available for April 3. Based on the circumstances — a budget that failed 2-5 with the April 7 council deadline four days away — the meeting almost certainly has one operative purpose: adopt an FY27 budget the board can submit to the council. Everything else is secondary.
+No agenda has been posted for this meeting. That is itself worth noting — a meeting called this close to a hard statutory deadline, with no public agenda visible, should put Maria on alert.
 
-**What this means for Maria specifically**
+**Most likely scenario:** This is the budget adoption vote the board couldn't complete on March 30 and again on April 2. The narrow purpose would be to pass the FY27 budget with the $300,000 in state funding incorporated, possibly with some signal from the council on fund balance.
 
-This is not a reconfiguration meeting. Option A and Kayler closure are decided. The April 3 meeting is a fiscal rescue operation, and the question is what the budget looks like when it passes. That budget directly determines how many teaching positions survive, whether specialist programs at elementary schools survive, and whether any of the 78 pink slips issued March 18 are rescinded or made permanent.
+**What this means for Maria:** If the budget passes tonight as a clean vote, the position restoration question gets answered — or, more precisely, its non-answer becomes permanent. Once the budget is adopted, the 13 elementary teacher cuts, the behavioral strategist elimination, and the 16 ed tech reductions are financially authorized. The pink slips already issued on March 18 will have a funded budget behind them.
 
-Maria is not fighting the structural decisions tonight. She is watching whether the budget that emerges protects or further erodes elementary programs.
+**What to listen for:**
 
-**What to listen for**
+- How the $300,000 is described — "incorporated into the budget" vs. "applied to restore positions" are not the same thing. If no one names specific positions being restored, the money is going somewhere else.
+- Whether the vote is characterized as a formality or a substantive action. Framing matters. If board members treat this as ministerial, Maria should treat it as the opposite.
+- Any language about "future flexibility" or "mid-year adjustments" regarding the state funding. This is the board's escape valve for deferring restoration decisions without committing to anything.
+- Any reference to what city council guidance actually said about fund balance — and whether the board accepted or rejected it.
 
-- The specific number: is the tax increase at the 6% board ceiling, above it, or below it? A number below 6% means deeper cuts than what was already on the table. Above 6% would require the board members who opposed it to reverse course.
-- Which positions, if any, are proposed for restoration or protection in a revised budget.
-- The language around "minimum viable budget" vs. "responsible budget" — the board may frame a stripped-down package as the only passable option; listen for whether elementary programs are treated as protected or as the remaining variable.
-- Whether the five no votes from March 30 have coordinated a position, or whether they're divided about what would make the budget passable.
-- Any mention of the $8.4M figure vs. the $7.2M figure that has been the working assumption all year — if the gap is larger, the cuts may be deeper than the reconfiguration modeling contemplated.
-- Whether anyone raises the question of what happens if the board fails again — does the April 7 deadline produce automatic consequences, or does the council have flexibility?
+**Questions Maria should be prepared to ask in public comment (if permitted):**
 
-**Questions to prepare**
-
-- "If this budget passes tonight, which specific positions at each elementary school are no longer covered by a pink slip — and which are formally eliminated?"
-- "Has the administration modeled whether Option A's cost savings, at the revised $8.4M deficit figure, actually closes the gap — or is there still a shortfall after these cuts?"
-- "When will attendance boundaries for Option A be published, and will families have a meaningful comment period before those boundaries are finalized?"
-- "What is the timeline for rescinding pink slips for positions that are ultimately retained — and what happens to teachers who take other jobs in the window between now and then?"
-
----
+- "Before you vote on this budget, can you tell us specifically what the $300,000 in state funding is being used for — and whether any student-facing positions are being restored?"
+- "What is the behavioral support plan for the 60 students currently served by Jenna Goldstein Walsh when she's gone in September?"
+- "When will attendance boundaries be released, and will families have any input before they're finalized?"
 
 ## Watch For
 
-- **The vote count and who moves.** Five board members voted no on March 30. Watch which ones shift tonight and what they say as their stated reason. A shift from a member like Feller (who voted no on Option A in favor of Option B) signals different things than a shift from one of the five who voted down the superintendent's budget proposal on structural grounds.
+- **The $300,000 allocation announcement (or its absence).** If board members vote to adopt the budget without naming a specific use for the state funding, it is not being used to restore positions. Maria should ask for a line-item explanation before the vote is called, not after.
 
-- **Any revision to the proposed budget number.** If the administration brings a modified proposal — different tax rate, different set of eliminations — the changes will reveal what the board's actual breaking point is. A lower tax rate means more cuts. Watch whether any of those cuts land in elementary specialist or support positions.
+- **Public comment opportunity.** This may be a short special meeting with limited or no public comment period. Maria should arrive early and confirm whether comment is allowed. If it isn't, she should note that a budget adoption vote — even a technical one — happened without public input and broadcast that in her parent networks.
 
-- **The behavioral strategist and MTSS positions.** These were called out specifically in the March 23 discussion as among the eliminations. If the board passes a budget without restoring any of these positions, the disruption of moving Kayler students into new buildings will happen without the behavioral and social-emotional support infrastructure that normally manages transitions. Listen for whether anyone on the board raises this specific concern tonight.
+- **How board members who voted against the budget on March 30 signal their position tonight.** Two members voted yes; five voted no. If the same five oppose again, the budget fails a second time and the April 7 deadline becomes a genuine crisis. If some no votes flip, watch for what changed — that's the negotiated condition Maria needs to understand.
 
-- **Whether anyone explicitly connects the pink slips to the budget passage.** The 72 pink slips issued March 18 went out before a budget was adopted. Listen for whether the board or superintendent clarifies what happens to those notifications now that a budget is being formally voted on — are they automatically rescinded for retained positions, or does that require a separate action?
+- **Any reference to the six-week community engagement process for attendance boundaries.** If start date, format, or scope is mentioned, Maria should write it down exactly. Vague language like "ongoing community engagement" has covered a lot of non-engagement in this process. She wants specific dates and specific questions that families will get to answer.
 
-- **DeAngelis's posture.** She voted no on Kayler closure (the lone dissent) after championing reconfiguration publicly for months. Watch whether she uses this meeting to articulate a substantive concern that changes the conversation, or whether her March 30 no vote is treated as an isolated procedural signal by the rest of the board.
+- **DeAngelis's framing.** The chair cast the sole no vote on Kayler closure but has been the primary champion of reconfiguration all season. Watch whether she uses this meeting to re-establish herself as a moderating voice — or whether that March 30 vote is treated as resolved and dropped.
 
-- **Any mention of the April 14 workshop.** The cumulative record references an April 14 workshop as the next touchpoint for reconfiguration implementation details. If the board or administration references it tonight, listen for whether it's framed as an informational session or a decision-making meeting — and whether public comment will be part of it.
+- **Any mention of IEP class composition or behavioral transition planning.** If no one raises the question of how reconfigured classrooms will function without a behavioral strategist, that silence is the answer. Maria should be prepared to raise it herself.
 
-- **The council deadline framing.** Board members may invoke the April 7 deadline as pressure to pass whatever is on the table. This framing typically forecloses amendment and debate. If it's used to rush the vote, Maria should note it — a budget passed under artificial deadline pressure with minimal deliberation is exactly the kind of decision the board will later claim was fully vetted.
+- **The specific motion language on the budget vote.** "Adopt the FY27 superintendent's budget as presented" and "adopt the FY27 superintendent's budget as amended to incorporate new state revenue" are meaningfully different. The second implies a change was made. Maria should ask what changed.
 
-- **Whether anyone asks — or fails to ask — about class sizes under Option A.** The board adopted Option A knowing class sizes would increase but without publishing the specific numbers by school and grade level. If class-size projections do not appear in tonight's budget presentation, that absence is itself news — it means families have no way to evaluate what they're actually agreeing to.
-
-- **Tone from the five March 30 no votes.** If they sound resigned rather than resolved, a budget passes through exhaustion rather than agreement. That matters for how durable tonight's decision will be and whether any of the contested positions have a genuine advocate or are simply swept into a passable number.
+- **Any procedural signal about future workshops.** April 14 is on the calendar as a council budget workshop. If tonight's meeting passes the budget, the April 14 workshop becomes a review rather than a shaping session. If it fails again, April 14 may be the emergency meeting. Either way, Maria needs to know which mode she's entering.

@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-008"
 persona_name: "Rachel"
 upcoming_meeting_date: "2026-04-03"
-generated_date: "2026-04-03"
+generated_date: "2026-04-04"
 has_agenda: false
 last_cumulative_meeting: "2026-04-02"
 inter_meeting_evidence_count: 0
@@ -12,88 +12,66 @@ inter_meeting_evidence_count: 0
 # Brief: Rachel (PERSONA-008)
 ## Upcoming Meeting: 2026-04-03
 
-# Pre-Meeting Brief: Rachel (PERSONA-008)
-**Meeting Date:** 2026-04-03
-**Persona:** Rachel — Disruption-Averse Parent / Stability-First
-
----
-
 ## Since Last Meeting
 
-No new inter-meeting evidence has emerged since the April 2nd meeting.
+No new evidence has emerged in the period between the April 2nd meeting and this one. That is not reassuring — it is the pattern.
 
-That silence is itself meaningful. April 2nd was the meeting where the board chair formally closed the last door Rachel had been watching — confirming that a failed June budget referendum cannot reverse reconfiguration. Thirteen listening sessions were announced. The early release days were pulled after parent pressure. Then nothing.
+Rachel left April 2nd with the prevention phase definitively closed. The board chair confirmed in plain language that reconfiguration proceeds regardless of what happens in June. Thirteen listening sessions were announced. Early release days were pulled after parent pushback — the one concrete win in four months of showing up. That win mattered, but Rachel should be honest with herself about what it signals: the administration responds to organized parent pressure on implementation details, not on structural decisions. That's the lane she's operating in now.
 
-The absence of any follow-up communication in the days since is consistent with the pattern Rachel has documented across sixteen weeks: decisions land, the administration issues a framing statement, and families are left to absorb the news without specifics. What the silence does not mean is that things are quiet. The clock is running. There are approximately 97 days until September 2026. No attendance boundaries have been published. No transportation routes have been modeled. No sibling policy exists. No special education continuity plan has been shared. The administration is not communicating because it hasn't built the thing families need to see yet — and no one has committed to when that changes.
+The quiet since April 2nd means she is walking into this meeting carrying the same unanswered questions she's had since February 4th — which building, which grade, which bus route, which IEP. Ninety-six days until September. Still nothing.
 
-If April 3rd is a school board meeting, Rachel should expect it to be the first session conducted entirely in the implementation frame rather than the decision frame. That shift matters. The questions that were deflectable before the vote — "we haven't decided yet" — are no longer deflectable. Every non-answer from here forward is a choice to keep families in the dark, not a procedural necessity.
+The absence of any public communication to families about building assignments is not an oversight. It is a decision. Rachel should treat it that way.
 
 ---
 
 ## Open Questions
 
-*In Rachel's voice:*
+Rachel is carrying these into the meeting:
 
-- **Which building will my child actually be in next September?** This is the question I have been asking since February 4th. Two months later, the administration still cannot answer it. At what point does "we haven't modeled it yet" become an unacceptable answer?
-
-- **When do families get written notification?** Not a forum. Not a listening session. An actual letter or official communication that tells me my child's assigned school, their bus route, and their first day of school logistics. When does that go out?
-
-- **What is the transportation plan?** Not a concept — a plan. Which routes, which stops, how long are rides, who pays for what, and for families whose kids are currently walking to a neighborhood school, what does a 20-minute bus ride mean for morning routines and after-school pickup?
-
-- **What happens to siblings?** If I have a kindergartner and a third-grader, are they in different buildings under the grade-band model? Has the district written a sibling placement policy, or is that still being figured out?
-
-- **What about IEP students?** My neighbor's daughter has a specialized support plan tied to her current placement and staff relationships. Has the district mapped which special education students are affected, and when do those families get specific information about what reconfiguration means for their child's services?
-
-- **What are these thirteen listening sessions actually for?** Is there any decision still open that my showing up could actually change? Or is this the same forum-as-legitimizing-ritual pattern I identified in January — just with a post-vote label on it?
-
-- **The early release days were pulled. What else is still negotiable?** That was the first time organized parent opposition removed something from the agenda. I want to know what else — if anything — is still within reach.
-
-- **Feller voted yes. What changed?** He had prepared remarks citing Kaler's specific data — this wasn't a last-minute shift. At what point did he decide community pressure wasn't going to change his vote, and does that tell me anything about how much runway I actually had?
-
-- **Who is still talking about closing more schools?** Matthews used "closing schools" as casual vocabulary. The administration said more pink slips are coming. Is Kaler the end of the closure conversation, or is there a second wave being shaped right now?
+- **Which building is my kid going to?** The board voted weeks ago. Six months from September. Why don't we have even preliminary boundary information?
+- **When does transportation modeling actually start?** They've been saying this will be figured out "after the decision." The decision happened. Is anyone working on this right now, today?
+- **What are the thirteen listening sessions actually allowed to decide?** If the answer is "nothing structural," I need to hear them say that out loud so I can stop wasting evenings.
+- **What is the plan for kids in special education?** Which services stay where? Will my child's IEP supports survive the move to a new building? Who is the person accountable for that answer?
+- **What is the sibling policy?** If I have kids at different grade bands, can they be placed in the same school or am I driving to two buildings every morning?
+- **Member Feller cited specific Kaler utilization data in prepared remarks before voting yes on March 30th.** That wasn't a spontaneous shift. What changed, and who got to him before I did?
+- **If implementation starts to fail — overcrowded receiving buildings, inadequate staff, chaotic transportation — what is the mechanism for the board to pause or adjust? Does one even exist?**
+- **The 72 pink slips from March 18th were described as "just the first wave." When is the second wave, and which buildings is it concentrated in?**
+- **The June referendum can't reverse reconfiguration. What CAN it change? Is there anything on the table in June that materially affects my family, or is it purely about the tax rate at this point?**
+- **What does the city's ICE enforcement displacement mean for the enrollment numbers used to justify this whole thing? If those numbers shift, does the administration re-examine the case?**
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for the April 3rd meeting. Based on where the process stands, here is what Rachel should be prepared for.
+No agenda is available for April 3rd. Based on the trajectory of the past several weeks, here is what Rachel should be prepared for:
 
-**This meeting is the first one fully inside the implementation phase.** Every session since December carried some residual decision-making frame — a vote pending, a proposal being shaped, a window still open. That is gone. If this is a school board session, the board is now in the business of managing a structural change it has already authorized. That changes what questions are askable and what answers are acceptable.
+**This meeting is likely to be an early implementation-framing session.** The April 7th public hearing is four days away. The April 14th council budget workshop follows. Whatever happens on April 3rd is either preparatory for one of those or a routine interstitial meeting during a live crisis. Either way, the administration has a strong institutional incentive to frame the implementation as orderly, on track, and community-driven — precisely because the process of getting here was none of those things.
 
-**Likely topics, based on the open process:**
+**What this means for Rachel specifically**: She is no longer in a position to influence the structural decision. Her leverage now is accountability — documenting what was promised, when it was promised, and whether it materializes. She should come to this meeting prepared to ask concrete, timestamped implementation questions rather than re-litigating the closure vote.
 
-*Implementation logistics.* The thirteen listening sessions need dates, locations, and stated purposes. The board or administration may present a schedule. Rachel should press hard on what these sessions are designed to produce — not what the board hopes families will feel, but what specific decisions are still open that community input could genuinely change. If no specific open decisions are named, the sessions are theater.
+**What she should listen for**:
+- Any first mention of a timeline for communicating building assignments to families. If the administration floats a date, write it down. If no date is offered, that is the answer.
+- Language around the scope of the thirteen listening sessions — whether officials frame them as "input" or "communication." The distinction is everything.
+- Any reference to special education transition planning. This is the area where families with the most complex needs are most exposed, and it is the area the administration has been least specific about.
+- Whether the April 7th hearing is framed as a final public comment opportunity before a fiscal decision, or as something with actual stakes. If officials are hedging on what it decides, that tells Rachel how much energy to spend mobilizing for it.
 
-*Budget and June referendum.* The budget failed 2-5. A June referendum is coming. The board chair confirmed that a budget failure does not reverse reconfiguration — but the budget still has to pass eventually, and the numbers haven't changed. Rachel should watch for whether the administration presents a revised budget, and whether any board members try to reframe the June vote in ways that suggest reconfiguration implementation could slow down if funding fails. It won't — but the rhetoric may shift.
-
-*Staffing and pink slips.* 72 notices went out March 18th, with more expected. The April meeting is close enough to the next wave that an update is plausible. Rachel should listen for whether specific positions — paraprofessionals, special education staff, school counselors — are being eliminated in ways that directly affect reconfiguration-year service levels.
-
-*Superintendent search.* The interim is still in place. If a permanent hire is being finalized, Rachel should note whether that person is being brought in to implement a done deal or whether their stated role gives them any latitude to adjust the reconfiguration rollout.
-
-**What Rachel should prepare specifically:**
-
-- A direct, on-the-record question about the timeline for family notification: "By what date will families receive written communication about their child's building assignment, bus route, and first day logistics?"
-- A question about special education continuity: "Which families with IEPs have been contacted, and what is the process for ensuring service continuity through the transition?"
-- A question establishing the scope of listening sessions: "Can you name one specific decision that has not yet been made where community input from these sessions could change the outcome?"
+**Questions she should prepare**:
+- "What is the specific date by which families will receive written notification of their child's building assignment for fall 2026?"
+- "Has transportation routing work begun? If yes, who is doing it and when will preliminary routes be available for public review? If no, when will it start?"
+- "Which decisions remain open that the thirteen listening sessions can influence? Please be specific."
+- "What is the district's plan for communicating with families whose children have IEPs or 504 plans about how their services will be maintained through the transition?"
 
 ---
 
 ## Watch For
 
-- **Any mention of a notification timeline** — listen for whether the administration commits to a specific date for family assignment letters, or continues to use vague language like "as soon as possible" or "before the end of the school year." Vague language at this stage, with 97 days to September, is an answer.
-
-- **Whether the listening session schedule comes with a stated purpose** — if the administration describes what families will be consulted *about*, press immediately on whether any of those topics represent decisions that are still genuinely open. If nothing is open, say so publicly.
-
-- **Feller and Richardson's posture** — both were previously identified as allies. Feller voted yes on Option A. Watch whether Richardson maintains any accountability posture now that the votes are done, or whether she moves into implementation-support mode. Her public questions, if any, are Rachel's best signal of what pressure points still exist.
-
-- **Any mention of "phased implementation" or "year one" language** — if the administration or board starts describing the fall 2026 reconfiguration as a first phase with adjustments possible, that language could signal either genuine flexibility or a rhetorical hedge that means nothing in practice. Push for specifics: what triggers a phase-two adjustment, and who decides?
-
-- **Special education staffing** — if any pink slips went to special education positions, that information may surface in passing at this meeting. Listen for it. The intersection of reconfiguration and IEP continuity is where the most vulnerable families are at risk, and it is the least discussed topic in every public record Rachel has reviewed.
-
-- **Whether any board member asks the specific questions Rachel has been asking** — if a board member raises family notification timeline, transportation modeling, or sibling policy from the dais, note who it is and follow up directly after the meeting. That person is an ally worth cultivating right now.
-
-- **Tone shift from the chair** — DeAngelos has consistently framed reconfiguration as an opportunity and public engagement as a pain point. Watch whether her framing shifts post-vote toward a collaborative implementation narrative. A tone shift is not the same as a policy shift. Don't be disarmed by warmer rhetoric if the substance — no timelines, no boundaries, no transportation modeling — remains unchanged.
-
-- **Any mention of the $87M public safety bond or November ballot** — if the November fiscal picture comes up, listen for whether council members or board members treat November as a reason to move faster on school implementation (capture savings before the ballot) or slower (don't ask voters to absorb two major changes at once). Either framing has implications for how much runway Rachel actually has.
-
-- **Whether the word "criteria" appears in connection with implementation** — the reconfiguration was approved with no defined checkpoints, no go/no-go triggers, and no mechanism for the board to course-correct if implementation fails. If criteria language surfaces now, it matters. If it doesn't, Rachel should introduce it: "What specific indicators would cause the board to pause or adjust the reconfiguration timeline?"
+- **Any official volunteering a specific date for family notification.** If they do, push for it in writing. If they don't, ask directly and note the non-answer.
+- **The framing of the April 7th public hearing.** Listen for whether officials describe it as a hearing where public comment can affect the outcome, or a procedural step before a predetermined council vote. Rachel has watched this distinction blurred repeatedly; she should name it if it happens again.
+- **Superintendent search status.** The interim superintendent is making decisions that will define next fall. If a permanent hire is announced or the timeline shifts, Rachel should track whether that person will own the implementation or inherit it as a fait accompli.
+- **Any mention of the thirteen listening session schedule and format.** Are they being run by the administration, by an outside facilitator, or by board members? Who controls the agenda? Are comments being recorded and attributed? These details determine whether the sessions are accountability mechanisms or community management.
+- **Dr. Prince's language around implementation readiness.** Watch for passive constructions: "families will be notified," "routes will be developed," "policies will be established." No actor, no deadline = no accountability. Push for named staff and dates.
+- **Board member Feller specifically.** He cited prepared data before voting yes on March 30th after opposing closure in March. If he speaks at this meeting about implementation, listen for whether he is now an advocate for families getting the information they were denied before the vote, or whether his yes vote ended his engagement with the disruption his vote caused.
+- **Any reference to the Hamlin or city hall items being "on hold."** If city facilities conversations surface, Rachel should watch whether any official connects the school reconfiguration to city property disposition in ways that suggest the two tracks are moving together.
+- **Tone from DeAngelis.** She has consistently used enthusiasm as a closing mechanism — "fabulous," "exciting," "opportunity" — to signal that a decision is settled and energy should move forward. If she uses that framing about implementation, Rachel should name the gap between enthusiasm and families still having no answers.
+- **Any mention of intra-district waiver policies.** If waivers are mentioned before families have building assignments or transportation information, that is the administration privatizing the consequences of a public decision — asking individual families to navigate a system that hasn't been built yet.
+- **Whether anyone on the board or council raises the audit findings in the context of implementation oversight.** Six finance directors in five years, repeat non-compliance, $400K moved from grants — the same institutional dysfunction that produced the crisis will be managing the transition. If no one raises this, Rachel should consider doing so.

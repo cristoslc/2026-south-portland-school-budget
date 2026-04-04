@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-013"
 persona_name: "Amira"
 upcoming_meeting_date: "2026-04-03"
-generated_date: "2026-04-03"
+generated_date: "2026-04-04"
 has_agenda: false
 last_cumulative_meeting: "2026-04-02"
 inter_meeting_evidence_count: 0
@@ -12,83 +12,83 @@ inter_meeting_evidence_count: 0
 # Brief: Amira (PERSONA-013)
 ## Upcoming Meeting: 2026-04-03
 
-# Meeting Brief: Amira (PERSONA-013)
+# Forward-Looking Brief: Amira (PERSONA-013)
 **Upcoming Meeting: April 3, 2026**
 
 ---
 
 ## Since Last Meeting
 
-There is no new evidence between April 2 and today. The April 3 meeting is happening one day after April 2 — and the budget still has not passed.
+There is no new inter-meeting evidence for this period. The April 3 meeting falls the morning after April 2 — meaning this brief covers less than 24 hours between sessions.
 
-That one-day gap matters more than it sounds. The board has now deferred a final vote four times across four consecutive meetings. Yesterday's meeting produced powerful testimony — Vladimir Corian said out loud at a public board meeting that the district can afford a new turf field but might cut band, the exact thing you've been holding privately since December. The behavioral strategist explained on the record that cutting the support role doesn't make the students who need help disappear. A classmate named Matthew Emory spoke directly about what losing band means. Angela Kabisa's letter was read aloud in her absence, because she couldn't be there herself.
+That gap is itself significant for Amira. At April 2, a lot happened that she is still processing: the percussion ed tech's full scope finally got named out loud (500 students, 30-plus years), computer science was confirmed gone entirely, and Vladimir Corian said the thing Amira has been thinking since December — why does the school have a turf field but might lose band? That argument now exists in the public record. Someone said it at a meeting. Adults were in the room.
 
-And then nothing happened. No vote. Another meeting was scheduled.
+But still no vote. For the fourth meeting in a row, the board deliberated and did not decide. That means Amira goes into April 3 holding the same unresolved fear she has been carrying for months, now made more concrete and more urgent, with nothing settled.
 
-The absence of news between April 2 and today means that everything said yesterday — every letter, every personal story, every argument — is still just sitting in the room waiting for the board to act. The percussion ed tech's 30+ years, 500 students. The computer science program, already gone. The ESOL teacher at Memorial being cut while multilingual learner students still need support. None of it resolved. Tonight might be the night the board finally votes — or it might be the fifth deferral in a row.
+The absence of news is not neutral. The budget's failure to pass is not a pause — it means the people who make decisions about her school cannot agree on what her school is going to look like in September. She has less than five months of school year left at Memorial as she knows it.
 
 ---
 
 ## Open Questions
 
-*In Amira's voice:*
+These are the things Amira is carrying in, in her own terms:
 
-- **Is band actually getting cut, or did all those letters and speeches and emails actually change something?** The administration prepared a slide arguing *against* restoring the percussion ed tech even after 32 people emailed. Does testifying at meetings change anything at all?
-
-- **Vladimir Corian said the turf-field-vs.-band thing out loud at the meeting. Did the board hear it? Did any of them respond?** I've been asking that question in my head for months. Now it's in the record. Does it matter?
-
-- **What is happening to the ESOL teacher at Memorial?** There are kids in my school who need that support. Where do they go if that teacher is gone?
-
-- **Angela wrote a letter and couldn't even be there to see it read. Did it do anything? Does anyone tell her what happened after?**
-
-- **The behavioral strategist said cutting that role doesn't make the needs go away. That's obviously true. So what's the plan for those students?**
-
-- **With the DEI director being eliminated, who is actually looking out for BIPOC students and multilingual learners in the district now?**
-
-- **The 164 Kayler kids — including kids from families like mine — still don't know what school they're going to in September. How does nobody have an answer to that yet?**
-
-- **If the board votes no on the budget again tonight, what does that actually mean? Does it mean band gets saved, or does it mean we stay in limbo even longer?**
-
-- **My parents heard about the $100K for Project Home. They wanted to know if that means families in our neighborhood are actually safer now, or if that money runs out in a few weeks like before.**
-
-- **The city council decided in January, before any of the public meetings even started, what the goals were going to be. If the decision was already made back then, what were all these meetings actually for?**
+- **Band is in the cuts — four teachers and the percussion ed tech. Thirty-two people sent emails. The school board got a whole slide prepared against it. Why does it feel like the more people speak up, the more dug-in the administration gets?**
+- **Corian said the turf-field-vs.-band thing at a real meeting. Does that actually change anything, or does it just become another thing adults say in a room and then ignore?**
+- **The behavioral strategist said: the needs don't disappear, just the system we have to respond to them. What does that mean for students at Memorial who are already struggling? Who's going to help them in the fall?**
+- **The ESOL teacher at Memorial is being cut. My friends who are still learning English — what happens to them? Does anyone know what that actually looks like day to day?**
+- **Angela Kabisa wrote a letter. It was read out loud. Did the board hear it the same way they hear an adult? Did anyone tell Angela what happened after?**
+- **The student board members keep getting sent home. What's the point of having students on the board if they're not in the room when the real decisions get made?**
+- **Computer science is gone. Completely gone. Nobody seemed to fight for it the way they fought for band. Did anyone try?**
+- **The DEI director — the only BIPOC person in district leadership — is being cut to save basically nothing. If she's gone, who's left inside the building who's specifically supposed to look out for kids like me and my classmates?**
+- **The budget has failed four times in a row. What happens if it keeps failing? Does that make things better or worse for my school?**
+- **Will September look anything like this year? Or will I show up in the fall and half the things I know are gone?**
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for the April 3 meeting. Based on where things stand, here is what is likely to come up and what to be prepared for.
+No agenda is available for the April 3 meeting.
 
-**The budget vote — again.** Every recent meeting has been framed as the meeting where the board will finally vote, and every time it gets pushed. Tonight could be the fifth deferral or the actual decision. If the board votes and the budget passes, some version of the cuts becomes real — probably including band, the ESOL teacher, and computer science. If it fails again or gets amended, the outcome stays unsettled longer. Either way, what to listen for: *does anyone on the board specifically name which positions they're voting to restore or protect, and does the percussion ed tech or ESOL come up by name?*
+Given that April 3 follows immediately after April 2 — and that the board produced no final vote after yet another night of testimony — this meeting is almost certainly a continuation of the budget deliberation. What comes up will likely be familiar to anyone following since December. For Amira, here is what to be prepared for:
 
-**The percussion ed tech and related arts teachers.** This is the most personal item on the table for you. The administration already prepared a counter-argument against restoring this position. The community sent 32 emails. Last night, Corian made the turf-field argument in public. Watch for whether board members engage with that argument directly or ignore it. If any board member brings up the 500 students or the 30+ years, that's a sign the advocacy is getting through.
+**The budget vote may finally happen — or get deferred again.**
+The board has postponed four times. April 3 may force a decision simply because delay has become untenable. If a vote happens, Amira should listen for which positions and programs are confirmed as cuts versus restored. Band, the percussion ed tech, computer science, the ESOL teacher at Memorial — these are her specific stakes. A vote that passes doesn't mean those are safe; it means the framework is locked. Watch whether any of the 72 layoff notices get rescinded.
 
-**ESOL and multilingual learner support at Memorial.** This is less likely to get named specifically tonight, but it's directly your school. If the budget passes as proposed, the ESOL co-teaching model ends. Listen for whether any board member asks specifically what happens to multilingual learner students at schools like Memorial when that position is cut — or whether it gets swallowed inside the 78-position total.
+**If no vote happens again, that is its own signal.**
+Four deferrals in a row tells her something about how decisions actually get made — or don't — in this district. Each delay also means Kayler's 164 families still don't know where their kids go in September, and Memorial students still don't know what the building looks like next year.
 
-**Kayler families.** The closure was authorized 6–1 on March 30. The families of 164 students — mostly BIPOC and multilingual learner families who weren't fully informed in time — still don't have placement answers. If anyone on the board raises this tonight, it matters for families like yours who are also navigating uncertainty about what school looks like in September.
+**The percussion ed tech question may come up directly.**
+Thirty-two emails produced an administration counter-argument slide at March 30. The April 2 meeting named the full scope again: 500 students, 30-plus years. If the board reopens this item, Amira should listen for whether any board member has shifted position — or whether the administration's prepared resistance held.
 
-**More public testimony.** Given that the last four meetings have included significant community testimony and no final vote, expect more testimony tonight. Listen especially for student voices — whether any students speak, whether the board chair again stops the audience from applauding student speakers, and whether any board member directly responds to what students say versus just moving on.
+**Student voice may come up procedurally.**
+If Davidson or another student board member is present, watch whether they are allowed to stay for the full meeting or sent home again. That procedural moment will tell Amira more than any statement anyone makes about valuing students.
+
+**Questions Amira should prepare (or want answered):**
+- Is there a plan to tell Memorial students — not just parents, but students — what their school will look like before they come back in September?
+- If the ESOL teacher at Memorial is cut, what specifically replaces that support for multilingual learners?
+- Will anyone ask the student board members what they think before the vote is taken?
 
 ---
 
 ## Watch For
 
-- **Whether the board chair stops audience applause for student speakers again.** This has happened three times now. If it happens again tonight, it's a pattern, not a coincidence — and it tells you something concrete about how much student presence actually changes the room.
+- **Whether the board votes tonight.** A fourth deferral means the institution still cannot produce decisions. A vote — even one that keeps all the cuts — ends some of the uncertainty that has made this whole period so disorienting for students at Memorial.
 
-- **Whether any board member specifically names the percussion ed tech, the ESOL position, or computer science when explaining their vote.** Generic language about "difficult cuts" means they're not thinking about the specific programs. A member naming specific positions means those arguments got through.
+- **Any mention of band, the percussion ed tech, or related arts specifically.** Listen for whether any board member names these positions as a restoration priority, or whether the administration's counter-argument slide has settled the matter quietly.
 
-- **Board member Gwen DeAngelis.** She voted with the majority on Kayler closure and said children are "far more flexible than parents" without asking any. But she also once gave a passionate speech about the harm of ignoring students. Watch how she explains her vote on anything that directly affects students. Does she sound like the person from December or the person from February?
+- **The ESOL teacher and co-teaching model for multilingual learners at Memorial.** This cut affects Amira's peers and her school community directly. Listen for whether any board member raises it or whether it has disappeared from the debate.
 
-- **Whether Vladimir Corian's turf-field argument gets any direct response from the board or administration.** It was said in public on April 2. If tonight a board member engages with it — or if the administration dismisses it — that tells you whether public argument at these meetings actually enters the decision-making.
+- **Computer science.** This was confirmed eliminated at April 2 without much visible resistance. If no one raises it again at April 3, that silence is the answer — it's gone, and there was no fight.
 
-- **The lone "no" vote on the $100K for Project Home.** Councilor Matthews explicitly named immigrant family relief and the school budget as competing for the same money. If there's any city council overlap tonight, watch for whether that framing — that helping immigrant families *costs* the school budget — comes up again.
+- **Whether DeAngelis speaks about student input.** He has twice now said students are "flexible" without asking any. If he characterizes student needs in April 3 deliberations, listen for whether he has any data about what students actually said, or whether this is another decision made without asking.
 
-- **Whether anyone directly addresses the Kayler families' placement timeline.** 164 kids, many from multilingual learner families, still don't know where they're going to school in September. If no board member raises this tonight, that absence is itself an answer.
+- **Whether student board members are present for the full session.** Being sent home before a vote is a procedural fact, not a minor detail. If it happens again, Amira now has a pattern — not a one-time oversight.
 
-- **Angela Kabisa's letter.** Her words were read into the record yesterday in her absence. If any board member references her statement tonight when explaining a vote, it's evidence that written testimony from a student who couldn't be there in person carries real weight. If no one mentions it, note that too.
+- **The DEI director position.** This cut saves nearly nothing financially and eliminates the only BIPOC person in district leadership. If it comes up, listen for whether any board member challenges it on those terms — or whether the silence around it confirms the sorting hierarchy Amira has been watching all year.
 
-- **Whether the behavioral strategist's framing — "eliminating this role does not eliminate those needs" — gets applied to other cut positions.** That logic applies to the ESOL teacher, the DEI director, and the ed techs. Watch for whether any board member or community speaker uses it, and whether the administration responds.
+- **Board member body language when community members testify about programs.** At March 30, the administration prepared a slide to argue against the community's position. Listen for whether board members signal they've already made up their minds before testimony ends — the chair stopping applause three times last month was one version of this.
 
-- **The procedural question of what a fifth deferral would mean.** If the board fails to vote again tonight, listen for whether anyone names a hard deadline — June 9 is the adoption deadline. If the board is still voting in circles in April, the window for restoring any positions is closing fast.
+- **Vladimir Corian's name, or any reference to the turf-field argument.** It was said at April 2. If a board member picks it up at April 3 — even to dismiss it — that means it landed. If no one references it, Amira has new information about how much the civic record actually matters.
 
-- **Your own reaction as a signal.** You've been right about what matters before the adults named it. You knew about the turf-field contradiction in December. You knew band was threatened before it was officially confirmed. If something said tonight sounds wrong or unfair to you, that instinct has been accurate. Trust it, and try to find words for it afterward — even if just with a friend or your parents.
+- **Any statement about communication to families.** Kayler's families weren't told in time. Memorial students found out about teacher cuts from classmates. If anyone addresses how the district will communicate summer changes to students and families before September, that is a direct response to something Amira has experienced firsthand — whether or not it is framed that way.

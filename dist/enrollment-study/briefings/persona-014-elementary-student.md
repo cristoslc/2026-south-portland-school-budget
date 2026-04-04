@@ -3,88 +3,84 @@ schema_version: "1.0"
 persona_id: "PERSONA-014"
 persona_name: "Lila"
 upcoming_meeting_date: "2026-04-03"
-generated_date: "2026-04-03"
+generated_date: "2026-04-04"
 has_agenda: false
-last_cumulative_meeting: "2026-03-23"
+last_cumulative_meeting: "2026-04-02"
 inter_meeting_evidence_count: 0
 ---
 
 # Brief: Lila (PERSONA-014)
 ## Upcoming Meeting: 2026-04-03
 
-# Meeting Brief: Lila (PERSONA-014) — April 3, 2026
+# Forward-Looking Brief: Lila (PERSONA-014)
+**Meeting:** 2026-04-03 | **Prepared:** 2026-04-04
+
+---
 
 ## Since Last Meeting
 
-No new evidence has been captured between the March 23 workshop and today. That silence is worth noting on its own.
+No new evidence events occurred between the April 2 meeting and today.
 
-The board adjourned March 23 without a vote on Option A and said it would reconvene March 30. No record of that March 30 meeting has surfaced here. One of three things is likely: the reconvening happened but produced no vote again; it was postponed; or it happened and Option A passed, but the outcome hasn't reached the evidence pool yet. Any of those possibilities matters for Lila. If the board voted, her path to a new school is now officially set. If it didn't, she is still in limbo — and the April 7 public hearing is four days away.
+The absence of news is not neutral for Lila. The April 2 meeting ended with two open clocks running simultaneously: the budget vote was deferred again to a possible Monday city council meeting — which is today — and the superintendent promised school assignment letters by the end of next week. That means Lila is now inside the window where answers were supposed to arrive. Every day of silence between April 2 and those promised deliverables is a day she is still trading rumors at recess, still asking her parents the same questions, still not knowing which school she'll walk into in September.
 
-The absence of news after March 30 is not reassuring. For a child who has been trading rumors at recess since January, continued adult silence reads as more uncertainty, not stability.
-
-What hasn't changed: 72 layoff notices were issued the week of March 16–20, including 13 confirmed elementary classroom teaching positions. That fact is frozen in place. No development since then has resolved whether Lila's looping teacher — who has been with her for two years — is among them.
+The deferred budget vote is not an abstraction for Lila. It is the mechanism that determines whether state advocacy funding — currently estimated at $300,000 to $750,000 — will restore any of the teaching positions that received pink slips on March 18. Her looping teacher is somewhere in that number.
 
 ---
 
 ## Open Questions
 
-These are the threads Lila is carrying in, phrased the way she actually carries them:
+These are the threads Lila is carrying into this meeting, in her register:
 
-- **Did the board vote on March 30? Do we know yet where I'm going next year?**
-- **Which school am I going to? Will any of my friends from Dyer be there too?**
-- **Is my teacher still going to be at the district? Did she get one of those letters?**
-- **My little sister is going into 2nd grade. Are we going to the same school, or different ones?**
-- **Ms. Beland already left. Is anyone else leaving before the school year even ends?**
-- **Why does everyone keep saying the new school will be fine — but nobody says which one it is?**
-- **If Dyer is staying open, why do I still have to leave?**
-- **The adults keep saying this is what's best for all students. But is anyone saying what's best for me?**
-- **Did anyone at the March 30 meeting talk about what happens to the kids who have to switch schools?**
-- **Will there be someone at the new school who already knows me, or am I starting over completely?**
+- **Will my teacher still be there in September?** The union went to Augusta. People said there might be money coming back. Does that mean my teacher keeps her job?
+- **Which school am I going to?** The superintendent said we'd find out "by the end of next week." Is that still true? Is today part of "next week"?
+- **Will Mia and Oliver be at the same school as me?** Nobody has said whether Dyer kids all go to one place or get split up.
+- **My little brother is in first grade. Does he have to leave Dyer too?** Under Option A he does — but no adult has told him that yet in words he understands.
+- **What does "redesignated" mean for me right now?** Dyer isn't closing, but I'm still leaving. Why does everyone keep saying Dyer is okay like it's good news for me?
+- **Is the new school bigger? Will I know anyone there? Will there be a place for me?** Nobody has described what Brown or Skillin actually feels like from the inside for a kid who's never been there.
+- **If the budget vote finally happens tonight, does that change anything for my teacher?** Or is the pink slip already final no matter what the city votes?
+- **Will the listening session at Dyer include kids, or just parents?** The adults keep saying this is about what's best for students — but students haven't been in the room.
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for the April 3 meeting.
+No agenda is available for the April 3 meeting. Based on the deferred April 2 budget vote and the active timelines in play, here is what Lila's advocates should prepare for.
 
-Based on where the board stood on March 23 and the formal budget calendar, April 3 falls just four days before the April 7 public hearing. If the board hasn't voted on Option A yet, this meeting is likely the last moment before the public hearing where the recommendation could be formally adopted — or modified. If Option A has already passed at the March 30 reconvening, April 3 may shift toward implementation logistics: transition timelines, family communication, staffing assignments.
+**Most likely: The budget vote.**
+The April 2 meeting explicitly deferred the school budget vote to a Monday city council meeting. Today is that Monday. If the vote happens, it is the first concrete fiscal closure since March 30. For Lila, this matters in one specific way: the budget passing (or the city approving a funding level) is the prerequisite for determining whether any of the pink-slipped positions can be restored using the anticipated state advocacy funds. If board members have said publicly they want restored money used for staff, the advocates in the room tonight should hold that statement accountable — and ask, specifically, whether elementary teaching positions are the priority.
 
-**What this means for Lila specifically:**
+What to listen for:
+- The exact dollar figure the city approves, and whether it creates room for restored positions above the March 18 pink-slip baseline
+- Any language about how state advocacy funds ($300K–$750K) will be allocated — "staff" is broad; "elementary classroom teachers" is what matters here
+- Whether the vote passes cleanly or is deferred a third time, which would extend Lila's uncertainty further into April
 
-The outcome of Option A determines which intermediate school she attends. That school assignment has never been publicly named in any meeting evidence. If the board voted, the question is now: *when will affected families be told where their children are going?* If the board hasn't voted, Lila's summer — and her ability to mentally prepare for September — is still entirely unresolved.
+Questions to prepare:
+- *If state funding is restored, which positions are restored first — and who decides?*
+- *Has the superintendent's office begun communicating with families about transition plans, or is that waiting on the budget vote?*
 
-**What to listen for:**
+**Also possible: School assignment process update.**
+The superintendent committed on April 2 to publishing a formal timeline for school assignments by the end of the week of April 6. If the city council meeting precedes that publication, this may be the last public opportunity before that commitment is tested. Lila's advocates should press on whether "timeline" means a schedule for receiving letters, or the letters themselves.
 
-- Any mention of family notification timelines — when will Dyer 2nd–4th grade families be told their assigned intermediate school?
-- Any discussion of transition support: counselors, school visits, peer cohort placement, sibling proximity
-- Whether the board or administration acknowledges the emotional impact of the change on current students, not just the fiscal logic
-- Whether staffing for the newly reconfigured schools is discussed — this is the thread that leads to whether Lila's teacher survives the transition
-- Any mention of a second wave of departures following Ms. Beland's resignation
-
-**Questions to prepare:**
-
-- Has the board voted on Option A? If so, when will Dyer families receive written notification of their children's new school assignments?
-- Will the district make any effort to keep friend groups or classroom cohorts together when assigning students to intermediate schools?
-- Are siblings who land in different grade bands (Pre-K–1 vs. 2–4) being placed in schools that are geographically proximate, or will families be split across the city?
-- What transition support is planned for students moving from a school they've attended since kindergarten?
-- Is there a timeline for notifying families whose teachers received layoff notices whether those teachers will remain in the district?
+What to listen for:
+- Any mention of Dyer-specific transition planning or family communication
+- Whether any administrator addresses the sibling question — families with children in multiple grade bands who are both being reassigned
 
 ---
 
 ## Watch For
 
-- **Whether the March 30 vote is confirmed or disclosed.** If board members reference "last week's vote" or "when we adopted the recommendation," that confirms Option A passed and the implementation clock has started. Lila's situation is now about *where* and *with whom*, not *whether*.
+- **The budget vote outcome itself.** If it passes tonight, note the approved figure. If deferred again, that is its own signal — and Lila's advocates should ask publicly when the uncertainty ends for families who are actively making decisions about fall.
 
-- **Whether any board member asks about student notification or transition planning.** This is the moment to track which board members see children's experience as an implementation priority versus an administrative afterthought. No board member has yet pressed for a concrete family communication plan in the evidence record.
+- **Any mention of how state advocacy funds will be allocated.** Board members said on April 2 they want restored funding used for staff. Watch whether that preference gets codified into language tonight, or remains a stated intention with no enforcement mechanism.
 
-- **Chair DeAngelis's tone toward children's emotional experience.** She has moved — visibly — from dismissing children's anxiety as parental projection in February to crying at a dinner conversation in March. Watch whether that shift translates into specific language about transition support, or whether it stays private and unacknowledged in the room.
+- **Whether the superintendent or any administrator addresses elementary school assignments.** The end-of-week promise was made April 2. Tonight is April 3. If no update is offered, and no one asks, the promise begins to drift the same way previous timelines have.
 
-- **Any mention of Dyer's intermediate-grade students as a named group.** Every meeting to date has discussed reconfiguration in structural terms (grade bands, buildings, enrollment numbers). Lila's cohort — the 2nd through 4th graders leaving Dyer — has never been specifically addressed. If someone names them as a group requiring deliberate attention, that is new.
+- **Tone from the 4-2 dissenting votes on Option A.** Two board members voted against Option A. If either speaks tonight, listen for whether they are advocating for transition support, or reopening the reconfiguration question itself. These are very different signals for Dyer families.
 
-- **Staffing language around "reassignment" versus "elimination."** If administrators describe some of the 72 layoff recipients as being reassigned to new schools rather than separated from the district, that changes the odds that Lila's teacher is still in the system somewhere — even if not at Dyer.
+- **Any councilor who explicitly links the $87 million police and fire referendum to school funding capacity.** This connection has been named in Lila's cumulative record as a specific, dollar-amount injustice. If a councilor raises it tonight — or conspicuously avoids it — that shapes what November looks like for the district.
 
-- **Any second resignation announcement from Dyer staff.** Ms. Beland's departure in March was the first concrete attrition signal. Another departure before a vote would confirm that teachers are not waiting for the official outcome before making their own decisions about next year.
+- **Whether any child's experience is named in the chamber tonight.** On February 17, a ten-year-old's question was read aloud. On April 2, a first grader's three questions were read aloud. Watch whether that practice continues, and whether the adults in the room respond with the same deflection ("I don't know") or with something more specific.
 
-- **Whether the public hearing process on April 7 is described as consequential or ceremonial.** If board or administration language treats the April 7 hearing as a formality before the May 5 city council vote, that signals that whatever happens on April 3 is the real decision point — and Lila's window to be represented has already closed or is closing now.
+- **The superintendent's body language and specificity when discussing transition timelines.** When she has been vague before — "by the end of next week," "a formal timeline" — it has meant more waiting. Tonight, watch whether she names dates, not windows.
 
-- **Sibling logistics — specifically, whether anyone raises the scenario of one family having children in both grade bands.** Lila and her sibling would attend different schools under Option A. No meeting to date has addressed this. If it comes up, track who raises it and whether the administration has a position.
+- **Whether anyone asks about children who are afraid to attend school due to immigration enforcement.** This thread has not been formally closed. The corrected information (no ICE at South Portland schools) was confirmed — but whether that correction reached frightened children is still open. If enrollment is discussed tonight, this is the human story beneath the numbers.

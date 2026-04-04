@@ -3,9 +3,9 @@ schema_version: "1.0"
 persona_id: "PERSONA-007"
 persona_name: "Linda"
 upcoming_meeting_date: "2026-04-03"
-generated_date: "2026-04-03"
+generated_date: "2026-04-04"
 has_agenda: false
-last_cumulative_meeting: null
+last_cumulative_meeting: "2026-04-02"
 inter_meeting_evidence_count: 0
 ---
 
@@ -14,50 +14,85 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new evidence has emerged since the March 30 meeting. That silence is worth noting on its own. The board closed three consequential items in rapid succession — the Kahler closure vote (6–1), the Option A grade configuration decision (4–2), and the FY27 budget submission at exactly 6.0% — without a legal opinion on Title VI exposure ever materializing. The inter-meeting quiet could mean the legal review is still in progress, that counsel has nothing alarming to report, or simply that no one has pressed for an update. You don't know which. That ambiguity is itself a governance exposure.
+No new evidence has surfaced between April 2 and April 3. That absence is itself a data point Linda should not ignore.
 
-The health insurance settlement at 11.5% is clean and closed. The Mahoney and police station uncertainties are genuinely off the table. Those are stable foundations to carry forward. But the two items that ended unresolved — the Title VI opinion and the budget vote — are what define your preparation for this meeting.
+The $750K in state funding that arrived unverified mid-meeting on April 2 is still unverified. No public confirmation of recurrence has been reported. Every hour that passes without confirmation tightens the window before April 7. If the administration has made contact with the state and learned something — good or bad — Linda needs that answer before she walks into the city council chamber. If no one has followed up yet, that is a governance failure she needs to name tonight.
+
+The board also goes into April 3 having deferred the budget vote for the second time in six days. The March 30 failure was caused by a last-minute reclassification introduced without committee preparation. The April 2 deferral was caused by unverified funding figures. Both episodes fit the same pattern Linda identified after the December 10 Zeal vote: consequential decisions arriving without adequate staff-level preparation. She enters April 3 knowing that pattern, knowing city council is watching, and knowing April 7 is four days away.
+
+The DEI reclassification remains the unresolved procedural fracture point. Nothing has changed there publicly since March 30.
 
 ---
 
 ## Open Questions
 
-- **Where is the Title VI legal opinion?** We voted on the Kahler closure without it. That vote is on the record. If the opinion comes back with a risk flag, what's our exposure? What are our options?
-- **Are we voting on the FY27 budget at this meeting or at a subsequent one?** If tonight is the night, I need to know which members are still persuadable and on what.
-- **Has Finance started drafting the formal fund balance threshold policy?** Ketchem's root cause testimony named its absence as a direct contributor to the December crisis. That fix was identified in March — what's the drafting timeline?
-- **What's the implementation sequencing for Option A?** The 4–2 split tells me Feller and Richardson still have concerns they'll carry publicly. Am I walking into parent meetings where the losing side is still relitigating the configuration vote?
-- **Where does state subsidy uncertainty stand for FY27?** The legislature hasn't finalized EPS numbers. Does the 6.0% ceiling hold if the state moves the formula in the next appropriations cycle, or do we have a reopener trigger?
-- **What's the status of the finance director position?** The seven-director-in-six-years finding got named, but I haven't heard anything about retention strategy or succession planning. Is that still an active risk?
+- **Do I actually have five votes if we fix the DEI reclassification tonight — or has the March 30 fallout moved someone else?** I thought I had a path mapped. I need to know before we open the public meeting, not during it.
+
+- **Has anyone verified the $750K with the state in writing? Not a phone call — in writing, with confirmation that it recurs?** I cannot let the board embed that money in salary lines on the basis of a mid-meeting figure that no one has documented.
+
+- **What criteria are we using to decide which positions to restore with state money?** The SPTA demanded criteria before any restoration decisions. If we vote tonight without published criteria, we're handing them another process objection and another reason to withhold support in June.
+
+- **Is the fund balance threshold policy getting formally adopted tonight, or does it stay a slide?** If we go to city council April 7 without that policy on the books, I have no credible answer when they ask what we've changed structurally.
+
+- **What is our legal posture on Kahler?** The closure vote happened without a confirmed Title VI opinion on the record. If a challenge is filed before September, it doesn't just unwind the closure — it destabilizes the entire reconfiguration timeline and the budget assumptions underneath it.
+
+- **Are the meet-and-consult disputes with SEA, SPTA, and SPESPA going to produce prohibited practice complaints before we implement the working condition changes the budget depends on?** Because if implementation is blocked, the cuts on paper don't translate to savings in practice.
+
+- **What exactly is the board saying to city council on April 7 if we still don't have a passed budget?** I need a clear answer to that question tonight, not an improvised one in the chamber.
+
+- **Has the cumulative homeowner impact table been prepared — school increase plus sewer doubling plus the November public safety bond — in a form the board controls before opponents do?** Because that framing will be used against us in the validation campaign and I would rather introduce it than react to it.
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for the April 3 meeting. Based on the cumulative record, here is what Linda should be prepared for:
+No agenda is available for April 3. Based on Linda's cumulative state and the four-day window before the April 7 city council public hearing, here is what she should be prepared for:
 
-**Budget vote or budget workshop continuation.** The FY27 budget was submitted at 6.0% but not yet voted on as of March 30. If this meeting carries a first or second reading on the budget, Linda needs to be ready to articulate — publicly, clearly — why 6.0% is the responsible number, not just the politically convenient one. Watch for any late-stage amendments. A single member proposing a cut to meet a round number, or to restore a line item that generated public pressure, can unravel the fiscal discipline that held the ceiling in place.
+**Most likely purpose of this meeting: a second attempt at passing the FY27 budget, with amendments.**
 
-*Questions to prepare:* What is the current projected fund balance at the end of FY27 under the proposed budget? Does that projection reflect any scenario modeling if state subsidy comes in below projections? Is there a contingency reserve built in, and at what trigger would it be accessed?
+If that's correct, the critical pre-vote conditions Linda should demand be satisfied before any motion is made:
 
-**Title VI follow-up.** If legal counsel has completed the review, or if a board member or outside party raises the Kahler closure's civil rights exposure, Linda should be prepared to respond on governance grounds — not to relitigate the vote, but to explain what procedural safeguards exist going forward. If the opinion has not yet arrived, that absence needs to be addressed explicitly: when will it arrive, and what is the board's process if the opinion identifies risk after the fact?
+- **State funding verification status.** The administration should report whether the $750K has been confirmed as recurring. If it has not, Linda needs to understand exactly which positions are proposed to be funded with it and what the contingency is if the money doesn't repeat. The $300K confirmed figure is the only safe floor.
 
-*Questions to prepare:* Has legal counsel provided a written opinion, or a timeline for one? If the opinion identifies Title VI exposure, does the board have a process to revisit implementation steps (distinct from the closure vote itself)?
+- **The DEI reclassification amendment.** The specific amendment language — not a verbal description, actual amendment language — should be in front of every board member before the meeting opens to public comment. Linda should not accept a repeat of March 30, where the reclassification landed mid-meeting without committee preparation.
 
-**Option A implementation detail.** The 4–2 vote is done, but the operational questions are live. Facility timelines, transition communication to families, staffing assignments across the reconfigured schools — these will surface quickly. As a board insider, Linda's role shifts from deciding to overseeing. The administration will bring implementation plans; she should be looking for whether those plans are realistic and resourced.
+- **Vote count clarity.** Linda should arrive knowing where each of the five needed votes stands on the current amendment package. If she doesn't know that, this meeting is a repeat of March 30.
 
-*Questions to prepare:* What is the timeline for communicating Option A transitions to affected families? Are there any staffing actions required before the next collective bargaining cycle?
+- **SPTA criteria question.** If the board is voting to restore positions using state money tonight, the criteria framework the SPTA demanded should either be on the table or the restoration should be deferred to a future motion. Linda should be prepared to push for this if no one else does.
 
-**Fund balance policy.** This is procedurally the quietest item but institutionally the most important. If the December crisis is not to repeat, the written policy needs to exist. Linda should push for a status update if it doesn't appear on the agenda.
+**Secondary possibility: a preparation session for April 7 rather than a budget vote.**
+
+If the board is not ready to vote, this meeting may be framed as preparation for the city council appearance. In that case, Linda should be prepared for:
+
+- Discussion of what the board's formal position is when appearing without a passed budget
+- Whether the board is requesting anything specific from city council (fund balance support, guidance on the DEI reclassification, timing flexibility)
+- The framing of Ketchen's April 2 electricity and tuition reimbursement data as evidence the board is addressing root causes — this is deployable at April 7 and Linda should be prepared to use it
+
+**What to listen for in either scenario:**
+
+- Whether any board member signals they have moved from their March 30 position — either toward or away from the 6% ceiling
+- Whether Richardson's structural objections have been addressed by the administration or are still unresolved
+- Whether Feller's percussion/EdTech reinstatement is formally included in the amendment package or still informal
+- Whether anyone raises the Title VI Kahler question and whether legal counsel has been consulted since March 30
 
 ---
 
 ## Watch For
 
-- **Whether the legal opinion on Kahler/Title VI surfaces before, during, or after this meeting.** If counsel delivers it at the meeting, read it before the meeting adjourns — don't let it get tabled. If it doesn't surface at all, note that on the record.
-- **Any amendments to the FY27 budget proposed at or near the vote.** A late amendment — especially one framed as "just a small adjustment" — can shift the effective tax ceiling or alter the fund balance trajectory. Scrutinize the arithmetic, not just the headline number.
-- **How Members Feller and Richardson engage on Option A implementation details.** A 4–2 decision still carries implementation risk if the two dissenting members signal continued public opposition. Watch whether they ask implementation questions that accept the outcome or ones that re-open the underlying question.
-- **Whether Finance Director Ketchem has a fund balance policy draft or a specific timeline for one.** If not, this is the meeting to put a deadline on it publicly.
-- **State subsidy language in any budget presentation.** If the administration is presenting final FY27 numbers, confirm whether the state EPS subsidy line is treated as confirmed, estimated, or flagged as uncertain. That distinction matters for your exposure if the legislature moves late.
-- **The tone of public comment, if any is scheduled.** After three major votes in a single meeting (March 30), community reaction to Option A and Kahler together may arrive at this meeting. Listen for whether the framing is "we want answers" (addressable) or "we want to reverse the decision" (different governance problem).
-- **Any procedural signal from board counsel or the chair about the sequencing of the budget vote.** If the vote is being delayed again, understand why — a delay now puts the validation timeline at risk and creates public communication problems you'll need to manage.
-- **Whether anyone raises the seven-finance-directors finding in a forward-looking way.** The root cause was named, but the structural fix (retention policy, succession planning) has not been. If a board member or community member presses on this, be ready with a concrete next step rather than a reassurance.
+- **Whether the $750K verification question gets a direct answer or gets soft-pedaled.** Watch for hedging language: "we anticipate," "we've been told," "we expect." None of those are confirmation. Linda should ask for written documentation or a specific legislative citation before any vote that embeds that money in a recurring position.
+
+- **Whether the DEI reclassification amendment is presented with committee-level preparation or introduced again mid-meeting.** If it arrives the same way it did March 30 — without prior finance committee review, without a written cost analysis — Linda has grounds to object procedurally and should do so on the record. The December 10 Zeal pattern needs to stop.
+
+- **Richardson's body language and framing before any vote.** He was one of the 5-2 March 30 majority. If his structural objections have not been addressed between April 2 and April 3, his vote is not secure. Linda should listen for whether he's asking forward-looking questions (what does the amendment accomplish?) or still litigating the process (why wasn't this in committee?).
+
+- **Whether anyone raises formal adoption of the fund balance threshold policy as a motion tonight.** If it doesn't come up, Linda should raise it. A policy in slide form is not a policy. The board needs this on the books before April 7 to have a credible governance story.
+
+- **Feller's position on the full amendment package.** He voted Option B on reconfiguration and has been the most visibly dissatisfied member. If he signals he can live with the current package, five votes are likely possible. If he's adding new conditions, the vote count math changes.
+
+- **Whether the administration has a written response to the SPTA's criteria demand.** If the SPTA objection is not formally answered before a restoration vote, Linda should anticipate that the union will cite tonight's process at the June validation campaign. That's a political liability she can prevent now.
+
+- **Whether anyone on the board or administration mentions Kahler and Title VI.** If it does not come up, Linda should be prepared to ask directly: has legal counsel confirmed the board's exposure posture? A legal opinion that didn't exist before the vote should exist by now.
+
+- **The precision of the April 7 talking points being developed tonight.** Linda should watch for whether board members are coalescing around Ketchen's root cause framing (enrollment-staffing misalignment, absent fund balance policy, leadership instability) — that framing is the board's strongest credibility asset for April 7. If members are each improvising different narratives, she needs to push for a unified statement before they walk into that chamber.
+
+- **Any signal from the chair about whether a budget vote is on the table tonight or whether this is a preparation session only.** DeAngelos resolved Linda's earlier concern about communication posture in February, but the March 30 failure has re-opened the question of whether the chair is managing board cohesion actively between meetings or leaving it to chance.

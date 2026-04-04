@@ -3,7 +3,7 @@ schema_version: "1.0"
 persona_id: "PERSONA-010"
 persona_name: "Ben"
 upcoming_meeting_date: "2026-04-03"
-generated_date: "2026-04-03"
+generated_date: "2026-04-04"
 has_agenda: false
 last_cumulative_meeting: "2026-04-02"
 inter_meeting_evidence_count: 0
@@ -14,76 +14,72 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new inter-meeting evidence has surfaced since the April 2 school board meeting. That's notable in itself: the last thing that happened was genuinely significant, and no public clarification or follow-up communication has appeared in the gap.
+No inter-meeting evidence has arrived since April 2. That silence is itself worth noting.
 
-Here's what you're carrying in from April 2 that still needs reporting work:
+April 2 ended with the board in a holding pattern: two votes complete (Kaler closure 6-1, Option A reconfiguration 4-2), one failed (the budget, 2-5), and new state money — $300K confirmed, $750K possible — landing mid-meeting via union lobbying. The board did not reconvene to vote. That means Ben is heading into April 3 with no new public record to work from and a five-day runway to the April 7 council presentation.
 
-The **new state money** — $300,000 confirmed, $750,000 possible through an EPS formula change — arrived mid-meeting through union lobbying, not district advocacy. The board used it to pause rather than vote again on the failed budget. That framing matters to your readers: this wasn't a breakdown, it was a deliberate hold while the numbers shifted. But you don't yet have confirmation on whether either figure is recurring or one-time. That distinction is the difference between "the state helped solve this" and "the state bought the district one year."
-
-The **budget's procedural status** is now genuinely unusual. It goes to the April 7 council presentation as the superintendent's document — not a board-adopted budget. You don't have a clear answer on what the council can formally do with a budget the board itself rejected. That's not just a procedural footnote; it's a governance story your readers need to understand before the June 9 referendum.
-
-The **behavior specialist thread** from April 2 opened a cost-accelerant question you haven't been able to report yet: 60 students currently receiving individualized support, 40-plus active behavior plans, and a district already at 23% special education identification — above comparable districts. If eliminating prevention drives more referrals, the FY27 savings on paper could generate FY28 costs the current budget doesn't account for. That's the kind of number that makes a story concrete.
-
-The absence of any new evidence since April 2 means you're walking into today's meeting without updated figures on the EPS formula change or any board statement clarifying the path to April 7.
+The absence of news is a reporting signal. If the district wanted to get ahead of the April 7 story — issue a press release, post updated budget documents, communicate the state funding news to residents — this window was the opportunity. Whether they used it tells Ben something about the district's communications posture heading into the council presentation. Check the district website and the superintendent's social accounts before the meeting.
 
 ---
 
 ## Open Questions
 
-Carrying these into today's meeting:
+These are the threads Ben is carrying in, in his own terms:
 
-- **Is the $300K real, and will it recur?** I need to know if this is a one-time patch or structural relief. Ketchem's whole diagnosis was about structural imbalance — if new money is one-time, the district hits the same cliff in FY28.
-- **What about the $750K EPS change?** Who is actually driving this at the state level, and when will there be a definitive answer? The union lobbied for it — does that mean it's more or less certain?
-- **Can the board vote before April 7?** If not, what exactly does the council have authority to do on Monday? I need to explain this to readers who will otherwise assume the council is just rubber-stamping whatever lands in front of them.
-- **Where did the 6% ceiling come from?** I still can't trace it to a public vote, a resolution, or any recorded exchange. It's driving every cut on the table and no one has ever said it out loud in a governance document I can cite.
-- **What's the combined homeowner hit through FY29?** I have $257/year for the school piece. I still don't have school + sewer (~22%/year through FY29) + public safety bond (~$87M in November) + Mahoney ($70–76M in 2027) in a single number against the $514,000 median assessment. That number is the story readers need before the referendum.
-- **Who is the person displaced by the DEI demotion chain?** Three demotions in three weeks, $20–30K in savings each, and the district's only BIPOC leader in a leadership role is gone. That's a human story I haven't been able to tell yet because I don't have a name or a face.
-- **What happens to the 60 students who were getting behavior specialist support?** I have the warning. I don't have the district's plan — or confirmation that there isn't one.
-- **Is September 2026 implementation actually possible?** Option A passed. But no attendance lines, no staffing configurations, no community input. At what point does the board say it out loud?
-- **Does the Kaler closure need a Title VI review before the closure report goes to the Commissioner?** It passed 6-1 with nothing in the record. If that's a required step, it could delay the entire closure — which affects September even more.
-- **How much is left in the undesignated fund balance after the $100K Project Home draw?** The school side may still run a current-year deficit. If it does, the city backstops it. I need to know whether that backstop exists or whether we're looking at a second fiscal crisis inside this fiscal year.
+- **What exactly is the number the council sees on April 7?** The board didn't adopt a budget. The superintendent is presenting her own document. Does the council have any formal authority to act on it, or is April 7 a political hearing with no binding mechanism?
+- **Is the $300K in state money confirmed and obligated — or is "confirmed" still a phone call from a lobbyist?** Same question for the $750K EPS formula possibility: one-time FY27 or does it recur? That's the difference between a fix and a patch.
+- **Does any of the new state money change the cut list enough to matter to readers?** I need to know which of the 78 positions come back, if any, and what that means for the programs and people involved.
+- **Why hasn't anyone published the all-in homeowner number?** School increase ($257/year median), sewer rates (~22%/year through FY29), public safety bond (~$87M, November 2026), Mahoney bond ($70-76M, November 2027) — on a $514,000 assessed value, what does that total to per year through FY29? Is there a reason no elected body wants this number in one place?
+- **What happens to the 60 students with the behavior specialist gone?** The district hasn't answered this publicly. There are 40-plus active behavior plans. Is there a transition plan, or did this just get cut?
+- **Does eliminating that prevention role drive the 23% special ed identification rate higher — and if it does, does the FY27 budget account for that cost spiral?** This is the hidden math inside the cut.
+- **Who is the person displaced by the DEI director demotion chain, and will they talk to me?** Three demotions in three weeks, $20-30K in savings each, the only BIPOC person in a leadership role. That's a story, not a line item.
+- **Has the district completed any Title VI analysis on the Kaler closure, or did they vote 6-1 with nothing on the record?** The commissioner needs that before approving the closure report. Could this delay the whole timeline?
+- **Is September 2026 still the official implementation date?** No attendance lines, no staffing configurations, no community process. At what point does someone say it out loud?
+- **Does Ketchem's warning — that labor costs under existing contracts already exceed 6% — mean the district arrives at the same cliff next year even if all 78 cuts hold?** This is the story after the story.
 
 ---
 
 ## Agenda Implications
 
-No agenda is available for the April 3 meeting. Given what broke at April 2 and what's due at April 7, here's how to think about what today might surface:
+No agenda is available for April 3. Given where the process stands, here is what Ben should be prepared for:
 
-**If this is a school board session or committee meeting:**
-The most likely subject is procedural preparation for the April 7 council presentation — what document gets presented, who presents it, and whether there's any path to a board vote before Monday. Listen for any discussion of whether the new state figures ($300K confirmed, $750K possible) have been formally verified by the state. If Ketchem or the superintendent is present, they may be asked to update the budget numbers. That's your chance to ask — or note from the recording — whether the revised figures close enough of the gap to bring the board back to a vote before April 7 or whether that question is simply being deferred.
+**Most likely scenarios for this meeting:**
+April 3 is a Friday, one business day before the April 7 council presentation. A special or emergency school board session before April 7 would be the most newsworthy possibility — the board reconvening to adopt a budget that incorporates the new state funding figures, so the superintendent isn't presenting an unadopted document to the council. If that happens, this is Ben's budget-adoption vote story. Watch for a revised tax impact figure and whether the two board members who voted yes on March 30 have enough company to cross the threshold.
 
-**If this is a city council meeting or committee session:**
-Watch for any early framing around what the council will do on April 7. Councilor Matthews has been the most explicit about linking the school crisis to broader fiscal stress; Councilor Scott has been the most explicit about the immigration-enrollment connection. If either speaks tonight on budget-adjacent topics, their framing will tell you how the April 7 presentation is likely to land politically. Also watch for any discussion of the city's own fund balance — you need that number before the June 9 referendum, and it may surface in a routine finance update.
+If this is a city council meeting or workshop, the most likely school-adjacent content is pre-April 7 positioning — council members signaling their posture before the formal presentation. Listen for the 6% ceiling language: who invokes it, who doesn't, and whether anyone breaks from it now that state money has changed the math.
 
-**In either case, prepare for:**
-- A question about the EPS formula change timeline — who knows, when will it be confirmed, and is it one-time or recurring
-- A question about whether a board vote before April 7 is procedurally possible and, if not, what council authority looks like without an adopted board budget
-- Any mention of the behavior specialist's caseload or the district's plan for those 60 students — this is the kind of detail that gets mentioned once in a board packet and never again, so if it surfaces tonight, capture it
-- Any combined tax rate or homeowner impact figure — you have the school piece, but if city finance presents anything tonight that adds to the total picture, it belongs in your pre-referendum piece
+**What this means for Ben specifically:**
+He is in the transition zone between his "what the crisis is" pieces and his "what the referendum means for you" piece. April 7 is the fulcrum. Whatever happens April 3 — vote or no vote, new figures or silence — it sets up the framing for the council presentation story, which is the piece that matters most to non-engaged readers before the June 9 referendum.
 
-**The piece you're building toward:**
-The April 14 workshop is supposed to produce the cut list and tax rate. Tonight may be a setup meeting for that — or it may be a procedural bridge between April 2 and April 7 with little new substance. Either way, your job tonight is to answer two questions: Does the new state money actually solve the structural problem, or does it delay it one year? And can you get a single combined-homeowner number — school, sewer, public safety bond, Mahoney — before you write the pre-referendum piece?
+**What to listen for:**
+- Any new budget number that incorporates the $300K (and possibly $750K) in state funds — this is the figure that should anchor his pre-referendum homeowner impact piece
+- Any official timeline language on reconfiguration — "September 2026" said aloud in the face of an impossible implementation schedule is a quotable moment
+- Whether the board chair or superintendent addresses what the council can formally do with an unadopted budget
+- Any mention of the behavior specialist's 60 students or the DEI director demotion chain — both are live equity stories that haven't received a district response
+
+**Questions to prepare:**
+- For the business manager or finance director: "Can you confirm whether the $300K in state funds is obligated? And is the $750K EPS change a recurring formula adjustment or a one-time FY27 allocation?"
+- For any board member: "Does Option A implementation still target September 2026? If so, what's the first community input step and when does it happen?"
+- For the superintendent's office: "Has the district completed a Title VI legal review of the Kaler closure?"
 
 ---
 
 ## Watch For
 
-- **The EPS formula change framing.** If anyone describes the $750K as "likely," "possible," or "contingent," that's a direct quote you need. Ketchem told the board it was possible; the difference between her word and a state official's word matters for what you can responsibly print.
+- **A revised budget figure incorporating the state money.** If the board reconvenes and adopts something, Ben needs the new tax rate and the new homeowner impact number. The $257/year figure from March 23 was based on the 6% ceiling scenario. A lower tax rate means a lower impact number — or it means more cuts are preserved and the human cost story shifts.
 
-- **Any formal statement about whether the board can vote before April 7.** If the chair or superintendent says the board needs to convene again before Monday's council presentation, that's the lede for the piece about governance process. If they say no vote is needed, ask yourself — and then ask them — what that means for council authority.
+- **Whether anyone says "September 2026" on the record.** If a board member or administrator states September implementation as the plan, with no attendance lines drawn and no community input scheduled, that is a quotable contradiction. If they've quietly stopped saying it, that's also a story.
 
-- **Ketchem on current-year deficit exposure.** She flagged in February that all three current-year scenarios end in deficit. The $300K in new state money may change that calculus, or it may not. If she's present tonight, watch whether she updates the current-year outlook or stays silent on it.
+- **Ketchem's tone and body language if she presents again.** She has been the most candid voice in the room all season — the "seven directors in six years" self-description, the chronic under-budgeting slide, the labor cost warning. If she has new numbers, she'll show them. If she's been asked to hold back, the presentation will feel narrowed.
 
-- **Any board member who voted no on the budget (the 2-5 majority) speaking about what it would take to get to yes.** DeAngelis, Feller, and the other no votes all had different objections — incompatible ones, which is why the budget failed. If any of them signals movement, that's the story before April 14.
+- **Whether any board member presses the Title VI question on Kaler.** The March 30 vote had nothing in the record. One board member raising it again — or, notably, not raising it — tells Ben whether the equity gap in the closure process is being managed or ignored.
 
-- **Procedural language around the April 7 presentation.** "The superintendent's budget" versus "a proposed budget" versus "a board-recommended budget" — these phrases mean different things legally and politically. Track exactly which framing officials use tonight.
+- **The word "permanent" vs. "temporary" applied to the new state funding.** If it's one-time, the Ketchem warning about FY28 applies in full and the district is one year from the same cliff. If it recurs, the math changes. This distinction has not been stated clearly in any public record Ben has processed.
 
-- **Any mention of the Title VI analysis on Kaler.** If no one raises it, that silence is significant. The closure passed without it. If the Commissioner's process requires it and the district hasn't started, the September timeline slips further.
+- **Any signal about who's in the room representing the 60 students with behavior plans.** A parent, a special ed teacher, a union rep. If no one speaks to this in public comment, note the absence — it's a community that may not know the cut landed.
 
-- **The behavior specialist's caseload as a concrete number.** You have 60 students and 40-plus behavior plans from April 2. If anyone tonight references those students — what happens to them, who absorbs the caseload, whether any transition plan exists — capture the specific language. That's your human story for the piece on what the cuts actually mean in a classroom.
+- **Whether the two March 30 budget yes votes (board members who voted to pass the budget before it failed 2-5) signal movement toward the other members.** The budget needs three more votes. If those two are talking to the three who voted no on different grounds, the April 7 timeline for an adopted budget becomes plausible. If they're not, the council gets a superintendent's document and a fractured board.
 
-- **Anyone calculating a combined homeowner impact.** If a council member or presenter puts school plus sewer plus bond on the same slide or in the same sentence, that's the first time an elected official has said it out loud. That quote belongs in the pre-referendum piece.
+- **Scott's name.** He linked immigration enforcement to enrollment decline and school funding pressure in a direct, quotable way. If he's present or cited, track whether his argument is being integrated into the district's official narrative or kept at arm's length. That distinction matters for Ben's "who's responsible for the enrollment story" piece.
 
-- **Matthews or Scott on the immigration-school connection.** Matthews explicitly linked pink slips and Project Home funding as competing claims on March 19. If either speaks tonight, watch whether the framing has shifted after the $300K state money arrived — did new school funding ease pressure on that argument, or does it persist?
-
-- **Tone shift from the April 2 relief.** The new state money defused the immediate crisis feeling of April 2. Watch whether tonight feels like a district that believes it's solved a problem — or one that knows it's bought time. That distinction will tell you how to frame the April 14 workshop for your readers.
+- **The absence of the April 14 workshop on any timeline language.** If April 7 and April 14 are both on the calendar, what's the sequencing? Does the council presentation on April 7 set terms that the April 14 workshop is expected to meet? If so, Ben needs to understand the order of events before he can write the definitive pre-referendum piece.

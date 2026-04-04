@@ -3,88 +3,77 @@ schema_version: "1.0"
 persona_id: "PERSONA-012"
 persona_name: "Jaylen"
 upcoming_meeting_date: "2026-04-03"
-generated_date: "2026-04-03"
+generated_date: "2026-04-04"
 has_agenda: false
-last_cumulative_meeting: "2026-03-30"
+last_cumulative_meeting: "2026-04-02"
 inter_meeting_evidence_count: 0
 ---
 
 # Brief: Jaylen (PERSONA-012)
 ## Upcoming Meeting: 2026-04-03
 
-# Pre-Meeting Brief: Jaylen (PERSONA-012)
-**Meeting Date:** 2026-04-03 | **Next Public Hearing:** 2026-04-07
-
----
-
 ## Since Last Meeting
 
-No new public evidence has surfaced since March 30. That absence is itself information worth sitting with.
+No new evidence has arrived in the window between April 2 and today, April 3. The absence of news is itself meaningful for Jaylen: it means nothing has changed since the board walked out of the April 2 meeting without a vote, without a timeline, and without naming theater, AP courses, or coaching positions on either a cut list or a protected list.
 
-The last thing on the record is the 5-2 vote that rejected the superintendent's budget proposal. Board members who voted no named specific unacceptable losses — middle school PE eliminated, percussion ed tech cut, arts positions district-wide. That vote sent the process into genuine uncertainty. **But no one publicly said what comes next.** The April 2 special meeting was on the calendar, and as of now you have no readout from it. That means you're walking into April 3 not knowing whether:
+What he is carrying into this meeting is the full weight of April 2 with no new information to soften or clarify it. Matt Meyer is still named as a cut. Hannah is still named as a cut. The $300K the teachers' union pulled from Augusta is still on the table — but no one has said publicly which positions it would restore, or when that answer arrives. The April 7 public hearing is four days away. If Jaylen is going to speak at that microphone with something specific and accurate to say, he needs information that has not yet been given to him.
 
-- The board adopted a revised budget yesterday
-- The board postponed again
-- Any of the named positions (percussion ed tech, middle school PE, arts) were restored — or new cuts were added to make the math work
-
-The fact that no news has reached you through your normal channels — parents, Instagram, word of mouth from coaches — is consistent with how this process has worked all year. Official silence does not mean nothing happened. It means the adults in the room didn't prioritize getting the word out to students before the next meeting.
-
-One thing that hasn't changed: Hannah, the SPHS art teacher, is being laid off for the second time by this district. That name and that fact are now on the public record. Theater remains unconfirmed in any direction — not on the cut list anyone has seen, but not protected by name either.
+The quiet since April 2 is also a reminder of how his school finds out about things: not from official district channels, but from coaches, group chats, and word of mouth. If something significant was decided or announced, he may not have heard about it yet. That is worth checking before the meeting starts.
 
 ---
 
 ## Open Questions
 
-Going into this meeting, here's what you're still carrying:
+These are the questions Jaylen is carrying in, in his own terms:
 
-- **Is theater actually safe, or just not mentioned yet?** The March 23 SPHS breakdown took five minutes and got zero follow-up questions from the board. Nobody said theater is protected. Is it just not on the list, or does it get announced at a later meeting with the same five-minute treatment?
-- **What happened at April 2?** Did the board adopt anything? Did they restore the positions the no-voters named as dealbreakers? Or did they punt again and reset the clock?
-- **Which of the 72 pink-slipped teachers are at SPHS specifically?** The named positions — Science, English, World Language/ESOL, Art — still don't tell me whether my AP teachers, theater directors, or coaches got letters. Has anyone confirmed this publicly?
-- **Is my cross-country season actually at risk?** The evening shuttle reduction to one city loop was already a threat. Did anyone at the board or transportation level address what happens to athletes who depend on it — not just theoretically, but specifically for fall registration?
-- **What does the board do when a budget fails?** Is there a version where cuts come back *worse* because they ran out of runway? Or does a failed budget actually create room to restore some of what was named?
-- **Is anyone preparing students to testify at April 7, or is it just going to be me and Matthew Emory?** One freshman's statement got read at March 30. One middle schooler showed up voluntarily. What does organized student presence at April 7 look like — and is the school newspaper working on anything that gives students the facts they need to speak?
-- **Has anyone asked directly whether theater is funded next year?** Not inferred from the absence of its name on a cut list — actually asked, at a microphone, and gotten an answer on the record?
+- **Is theater actually safe, or has it just never come up?** Nobody has put it on the cut list. Nobody has said it's protected. It's just... not there. That is not the same thing as being okay.
+- **Will my AP classes exist next year?** I have planned my senior schedule around specific courses. No AP teacher has been named in any public record — cut or kept. When do I find out?
+- **If the state money comes through, does Hannah get her job back? Does Matt Meyer?** And when — before or after registration closes?
+- **What do I actually say on April 7?** Angela Kabesa put her statement in writing and it entered the record. Two students showed up at April 2 and said the information gap is the whole problem. What can I say that adds to that, and what specific facts do I need before I can say it?
+- **Is anyone actually telling SPHS students about the April 7 hearing, or does it fall on me and whoever I text?** Because if mobilization depends entirely on word-of-mouth through cross-country practice, that's a broken system — and I can say that out loud.
+- **Does the evening shuttle cut mean some of my teammates can't stay for practice next year?** Who actually knows the answer to this, and have coaches been warned?
+- **The $300K–$750K from Augusta sounds like a lot but is it enough to actually change anything at SPHS?** Or is it just going to disappear into the $8.4M hole?
 
 ---
 
 ## Agenda Implications
 
-**No agenda is available for this meeting.** Based on where the process stands, here's what is likely to come up and what it means for you specifically.
+No agenda is available for this meeting. Based on where the process stands and what is unresolved, here is what Jaylen should be prepared for:
 
-**Most likely scenario:** The April 3 meeting is either a continuation of what happened at the April 2 special meeting or a bridge session moving toward the April 7 public hearing. The board is almost certainly still trying to close the $8.4M gap. That means any of the following could surface:
+**This is likely a continuation of the budget non-decision.** The board deferred adoption at both March 30 and April 2. If this meeting is the follow-up scheduled after April 2, the most probable scenario is more deliberation, possibly some information about the state funding picture, and another non-vote — or a vote on a budget that still does not name theater, AP programs, or coaching positions in any protected category.
 
-**A revised budget proposal.** If the board is presenting a new version after the 5-2 failure, listen for whether the positions that drove the no votes — middle school PE, percussion ed tech, arts — are restored, and at what cost elsewhere. If something gets restored, something else gets cut. Find out what. Specifically: does any SPHS program absorb additional cuts to make the math work after a restoration elsewhere?
+**What this means for Jaylen specifically:** The most likely outcome of this meeting is that it generates information he can use in four days at the April 7 public hearing. His job tonight is not to be heard — it's to learn. He should be listening for anything that helps him speak more concretely on April 7: program names, position restorations, dollar figures attached to the state funding, timelines for final decisions.
 
-*Questions to prepare:* Which SPHS positions changed between the failed proposal and this one? Is theater included in the revised staffing plan? Are AP course offerings protected for next year?
+**What to listen for:**
+- Any update on the $300K or the possible additional $750K from Augusta — specifically whether anyone says which positions would be restored and in what priority order
+- Whether theater is mentioned at all, in any direction (cut, protected, or still unaddressed)
+- Whether the board sets a firm vote date — and whether that date is before or after senior year registration closes
+- Whether anyone asks about the evening shuttle and its impact on athletics and after-school programs
+- What, if anything, is changing between now and the April 7 public hearing that might change what Jaylen says at the microphone
 
-**An update on where the deficit-closing math stands.** The board has three "big ideas" that still leave $3M+ unaccounted for. If they're presenting the updated arithmetic, listen for whether the remaining gap produces new cuts — and whether those cuts fall at the high school level.
-
-*What to listen for:* Any mention of "additional reductions" or "line items under review." That language is how new cuts get introduced without using the word "cuts."
-
-**Public comment setup for April 7.** The board may formally structure the April 7 hearing during this meeting — time limits, format, whether student testimony gets a dedicated slot or is folded into general public comment. This matters directly for you. The last time a student testified voluntarily (Matthew Emory, March 30), it worked. But one student is not a presence; it's an anomaly. If the board announces April 7 structure today, pay attention to whether student voices are designed in or have to fight for space the way they always do.
-
-*Questions to prepare:* Will students have a designated time slot at April 7? Is there a way for the school newspaper to submit questions or data requests to the board?
-
-**What this meeting will probably not do** is give you a clean answer on theater specifically. The board does not name programs it is *not* cutting. You will need to ask directly — at a microphone, on the record — if you want an answer that means anything.
+**Questions to prepare:**
+- If new state funding arrives, what is the process for deciding which positions are restored, and who makes that call?
+- When will the district communicate the final program list to students and families — specifically to students who are planning senior year schedules?
+- Is theater on the cut list, the protected list, or neither?
 
 ---
 
 ## Watch For
 
-- **The first words out of anyone's mouth about what happened on April 2.** If the chair opens by summarizing the April 2 special meeting, that summary is your update. Write down the key numbers and any position names that surface.
+- **Any mention of theater, specifically.** The word theater has not appeared in a public budget presentation in this entire cycle. If it comes up tonight — in any direction — pay close attention to who says it, how it's framed, and whether anyone asks a follow-up. If it doesn't come up, that itself is something to name on April 7.
 
-- **Whether any board member who voted no on March 30 signals they've been won over.** The five no votes were named — if any of them are moving toward yes, it means the board found money to restore something. Find out what they restored and what they cut to pay for it.
+- **The state funding update and what it's attached to.** The teachers' union put $300K on the table. A possible additional $750K is still uncertain. Watch whether the administration or board connects any of that money to specific positions at SPHS. If they describe it in the abstract without naming positions, ask — or prepare to ask on April 7 — what the selection criteria are.
 
-- **Any mention of "theater," "drama," or "performing arts" at SPHS specifically.** If you hear it, note whether it's being protected or flagged. If you don't hear it, that silence is still not safety — it's just the district's standard operating procedure of not telling students anything until it's done.
+- **Whether the board sets a firm vote date.** If they vote tonight or name a specific date, check whether that date is before senior year registration closes. If the budget isn't final before registration, students will be planning a schedule based on programs that may not exist. That's a concrete, sayable thing at a public hearing.
 
-- **Transportation language.** If anyone mentions the Metro bus schedule alignment with SPHS bell times, or the evening shuttle, pay attention to whether "fall 2026" is attached to any commitment. That's the deadline that matters for cross-country.
+- **Whether Angela Kabesa is present and whether her April 2 written statement gets any acknowledgment.** She found a workaround to being dismissed mid-meeting. Watch whether the board treats that statement as part of the record tonight, or whether it disappears. If they ignore it, that's also something to name.
 
-- **The April 7 hearing logistics.** If the board announces format, time limits, or sign-up procedures during this meeting, write them down immediately. You need that information to prepare your statement and to share it with anyone else at SPHS who might come.
+- **Superintendent Rodgers' tone when talking about the gap.** Has it shifted since the state funding news? Is she framing the $300K as stabilizing, or as a partial fix that leaves the crisis intact? The difference matters for how real the remaining cuts are.
 
-- **Watch the student board members, if they're present.** At March 23, they were publicly dismissed from the meeting while budget discussion about SPHS continued without them. If that happens again, it tells you something about what kind of presence April 7 actually needs to be — not a formality, but a disruption of the assumption that students aren't watching.
+- **Board member body language when theater or arts come up.** The art cut (Hannah, Matt Meyer) has now been humanized in two consecutive public hearings. Watch whether board members who haven't spoken on arts start to engage, or whether they continue to treat it as a resolved line item.
 
-- **Whether anyone frames the failed 5-2 vote as a mandate to restore positions or as a reason to slow down.** Those are two very different readings of the same vote, and which one wins will determine what the June referendum actually asks taxpayers to fund.
+- **Whether anyone — board member, administrator, or public commenter — mentions the April 7 public hearing in terms of what it will and won't decide.** If the budget outcome is predetermined before public comment, that is something Jaylen should factor into what he says at the microphone: he should name that dynamic directly rather than pretend the hearing has more power than it does.
 
-- **Tone from the superintendent.** After a 5-2 failure, the superintendent either comes back with a revised proposal that moves toward the board's stated concerns, or digs in. Which mode they're in will tell you whether April 7 is a genuine turning point or a procedural box being checked before a vote that's already decided.
+- **Whether any coach, department head, or teacher speaks during public comment about athletics, after-school programs, or the shuttle.** If someone with institutional knowledge is at the microphone, their specific facts are more useful to Jaylen than anything in a budget slide.
 
-- **Any new cost figure that is larger than $8.4M.** The deficit grew by $1.2M between December and March with no public explanation. If someone cites a new number tonight, ask — or be ready to ask on April 7 — where the additional gap came from.
+- **Watch the clock on senior year registration.** If there is a stated timeline for when final program decisions will be communicated to students, write it down. If there is no stated timeline, that is the question to bring to April 7.

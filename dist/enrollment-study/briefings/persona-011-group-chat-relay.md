@@ -2,93 +2,76 @@
 schema_version: "1.0"
 persona_id: "PERSONA-011"
 persona_name: "Meg"
-upcoming_meeting_date: "2026-04-02"
-generated_date: "2026-04-01"
-has_agenda: true
-last_cumulative_meeting: null
-inter_meeting_evidence_count: 2
+upcoming_meeting_date: "2026-04-03"
+generated_date: "2026-04-03"
+has_agenda: false
+last_cumulative_meeting: "2026-04-02"
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: Meg (PERSONA-011)
-## Upcoming Meeting: 2026-04-02
+## Upcoming Meeting: 2026-04-03
 
 ## Since Last Meeting
 
-Two pieces of new material landed on April 1 — the day before this meeting — and both matter to you.
+No new evidence has emerged since the April 2 meeting. That silence is itself a signal worth noting.
 
-**Revised meeting agenda.** The April 2 agenda was updated after the original was published. The revision adds three concrete action items: a possible vote on early-release days tied to reconfiguration planning, a board request for a formal joint meeting with the City Council on budget guidance, and another attempt to vote on adopting the FY27 superintendent's budget. That last item is significant: the board adjourned March 23 without a budget vote after five hours of presentations. Tonight may be the first real vote.
+The board met on April 2 and still did not adopt a budget — for the second consecutive meeting. Finance Director Ketchen confirmed three consecutive deficit years on the record. A mid-meeting public comment introduced a possible $300K–$750K in new state funding, but no one on the board or staff reconciled that range before adjournment. The board voted unanimously to meet with the city council on April 7, but left the building without a budget vote.
 
-Watch the word "revised" on the agenda header. If someone in your group chat asks "didn't they already vote?" — the answer is no, and this is why you're watching again.
+The reason this meeting exists at all, one day later, is almost certainly the April 7 deadline. If the board does not act before that council presentation, the superintendent's version of the budget — not the board's — goes to the council. That's not a procedural footnote. That's the difference between the board's negotiated positions on specific roles (DEI director, percussion EdTech, kindergarten class sizes, behavioral strategist) and whatever the superintendent submitted. For Meg's purposes: tonight may be the last chance the board has to shape the package before it leaves their hands.
 
-**Elementary reconfiguration road map.** The district published a school-by-school engagement schedule for April 7 through April 16, along with a public ThoughtExchange survey and an interpretation-services request form. This is the first time you have school-specific meeting dates you can pass directly to parents in each building's group chat. The fact that outreach is already scheduled implies the board is operating as if a closure decision is effectively made — even though the formal vote hasn't happened yet.
-
-For your networks: the April community meetings will matter most to elementary parents. Middle school families aren't yet in the direct line of fire, but that could change.
+The absence of any breaking news in the 24 hours since April 2 means no backroom deal, no resignation, no sudden grant announcement has leaked. She goes into this meeting with every question she carried out of April 2 still open.
 
 ---
 
 ## Open Questions
 
-Heading into tonight, here's what's still unresolved:
+Meg is carrying all of these into the room tonight:
 
-- **Which deficit number is real?** I've been using $7.2M since December. Matthews put $8.4M on the record March 19. I need to hear which figure the board officially adopts tonight — and if $8.4M is confirmed, that changes the math I've been quoting for three months.
-- **Is there actually a vote tonight?** The revised agenda adds "consideration and action" on the superintendent's budget, but they've said that before. If they adjourn again without voting, that's the news.
-- **What do early-release days mean in practice?** If the board votes yes, how many days, when, which schools? Parents in my chats are going to need to know fast — this affects childcare immediately.
-- **Does the City Council joint meeting request tell me the board doesn't have enough council support to proceed?** Why are they seeking guidance again? Did something change since the 6% figure was confirmed March 23?
-- **Where does Option A vs. Option B stand?** The March 23 meeting ended without choosing between the two reconfiguration options. Is that on the table tonight, or just the budget number?
-- **The 72 vs. 78 position gap — has anyone explained it?** Pink slips went to 72 people, the official cut count is 78. Nobody's addressed the six-unit difference publicly.
-- **What's happening at Brown and Dyer?** Two special ed positions vacated by resignation — are those being filled or are they part of the cut count?
+- **Is this actually the vote meeting?** They have to do something before April 7. Is tonight the night, or are they still workshopping? If they adjourn again without voting, what exactly does that mean for April 7?
+- **What is the real state funding number?** DeSanto said $300K at the podium. Richardson texted $750K to someone mid-meeting. Those aren't the same number. Which one is in the budget, and is any of it recurring or just one-year money?
+- **Which positions actually changed since March 30?** The budget failed because of the percussion EdTech, the DEI director demotion, kindergarten class sizes, the behavioral strategist, and PE staffing. Did anyone compromise on any of those? Or are we voting on the same thing that failed 5-2?
+- **If the budget fails again tonight, what goes to council on April 7 — and who presents it?** Is it literally the superintendent's submitted budget? Does the board get any say in how it's presented?
+- **Is the deficit $7.2M or $8.4M?** Matthews said $8.4M on the record March 19. Ketchen confirmed three deficit years April 2 but didn't give a fresh number. Which figure is in the budget document that's about to go to council?
+- **Do the 72 pink slips from March 18 still reflect the current cut list, or has anything changed?** If specific positions got added back to resolve the March 30 failure, where does the money come from?
+- **What does Kaler closure actually mean for kids starting in September?** Boundary maps, sibling placement, bus time guarantees — none of that has been published yet, and Kaler families are waiting.
+- **Is there a legal opinion on Kaler's Title VI exposure yet?** The closure passed without one. Has anyone asked for it since March 30?
+- **What exactly is the behavioral strategist coverage plan?** Nearly 60 students, four schools, position eliminated — what's the district's answer for those kids in September?
+- **When does the 6% tax ceiling formally get adopted?** The board has been operating under it as an assumption, but it's not settled language yet as far as I can tell.
 
 ---
 
 ## Agenda Implications
 
-**2.0 Board Chair Update / 2.1 Budget Update**
+No agenda has been published for this meeting. Given that the April 7 council presentation is four days away and the board has now failed to adopt a budget twice in a row, the most likely purpose of this meeting is a budget vote — or a last-ditch negotiation session before control effectively passes to the superintendent.
 
-This is your first stop of the night. DeAngelis will frame the current state, and the budget update will either confirm or revise the numbers you've been using. Listen specifically for:
-- Which deficit figure is cited: $7.2M (the board's own December number) or $8.4M (Matthews's March 19 figure). If those differ, ask yourself which document is on the screen and whether it matches what's being said.
-- Whether the 78 positions and 32-teacher recall list are referenced as the confirmed package, or if those numbers shift again.
-- Any mention of current-year vs. FY27 — these are two separate problems and board members have blurred them before.
+**What Meg should be prepared for:**
 
-**Prepare this:** Before the meeting, screenshot the budget summary page from the district website so you have a reference version. When a number is cited at the podium, you want to know within 30 seconds whether it's new or old.
+**A budget vote is the most likely main event.** This is what Meg's networks need to know most urgently. She should have her Notes app open the moment the meeting is called to order. The vote itself — the exact tally, who voted yes and who voted no — is the first thing she will need to post. Her networks have been waiting for this outcome since March 30.
 
-**2.2 Board Discussion**
+She should listen for whether any of the specific sticking points from March 30 were resolved. The five issues that sank the vote were: percussion EdTech, DEI director's demotion from administrator to teacher role, kindergarten class sizes, the behavioral strategist position, and PE staffing. If any of those were modified, she needs to know which one moved and what it cost — because that means either the deficit number changed or something else was cut to offset it.
 
-This is where things get unpredictable and potentially where your best material comes from. Watch for:
-- Any board member who questions the numbers being presented (especially if someone signals the $8.4M figure is now the working number)
-- Whether Kayler's Title VI civil rights question comes back up — the finance director flagged it March 23 and it has no resolution yet
-- Whether FY28 comes up again; it was raised as a warning March 23 and has no follow-up plan on the record
+**The state funding discrepancy may surface here.** If the board is trying to build five yes votes, the $300K–$750K range from April 2 is exactly the kind of thing that could tip a wavering member. Watch for staff to formally present a reconciled number — and note whether it is one-time or recurring. That distinction matters enormously for FY28, which the finance director has already flagged as structurally harder than FY27.
 
-**4.2 Consideration and action to convene a meeting with City Council**
+**The "superintendent's budget" scenario should be explained clearly if the vote fails again.** Meg's networks will ask: what does that actually mean? She should prepare to capture any board or staff explanation of what happens procedurally on April 7 if no board budget exists.
 
-This item is procedurally dry but narratively important. The 6% tax ceiling was confirmed at March 23. So why is the board formally requesting council guidance now? Possible interpretations:
-- They want political cover before the final vote
-- Something in the budget math has changed since March 23
-- They're stalling
-
-Listen for the stated reason behind this request. If board members explain why they need a joint session, that explanation will tell you something about what they're uncertain about — and that uncertainty is worth a line in your group chat summary.
-
-**Possible vote on the FY27 superintendent's budget (from revised agenda)**
-
-This is the headline item even though it doesn't appear with a clear number in the posted agenda. If a vote happens tonight, that's the lede of your summary post. If it doesn't happen — again — that's also the lede. What to listen for:
-- Does anyone move to table again, and if so, why?
-- Does the vote, if it happens, come with any new conditions or amendments from individual board members?
-- What is the exact dollar figure being voted on, and which deficit number does it resolve?
-
-**Possible vote on early-release days**
-
-This is the item with the most immediate family impact. If it passes, parents need to know: how many days, approximate timing, and whether it applies to all schools or only elementary. The reconfiguration road map shows planning is already underway, so early-release days may be a done deal procedurally — but the board vote makes it official and gives you a citable outcome.
+**Questions to prepare:**
+- "What changed between March 30 and tonight on the positions that failed the vote?"
+- "Is the state funding figure in tonight's budget $300K, $750K, or something else — and is it recurring?"
+- "If this fails again, does the superintendent's budget go to council as-is, or does the board still have input on April 7?"
+- "Has a legal opinion on the Kaler Title VI question been requested or received?"
 
 ---
 
 ## Watch For
 
-- **The moment a deficit figure is written on a board or slide.** That's your number to capture via screenshot. If it differs from the $7.2M and $8.4M figures already in play, that's breaking news for your chats.
-- **Whether the superintendent's budget vote actually happens.** If it does: note the vote tally by member, the exact dollar figure, and any stated conditions. If it doesn't: note who moved to delay and what reason was given.
-- **DeAngelis's tone during the Budget Update.** She has been the most disciplined communicator on the board. If she sounds uncertain or qualified in her framing, that signals instability in the numbers or the options.
-- **Any board member who cites a document by name or page number.** That's your cue to find it on the district website mid-meeting and verify the figure independently.
-- **Whether the City Council guidance request is voted on or just discussed.** "Consideration and action" means a vote is possible — but meetings often reduce action items to discussion items. If no vote happens on 4.2, note the absence.
-- **The Kayler Title VI question.** If any board member or the public raises civil rights liability again, that's directly relevant to your elementary-parent chats and will be one of the most-asked-about items the next morning.
-- **Early-release day specifics.** Exact dates or a date range, school scope, and any note about staff vs. family participation. This is the item your elementary-school-parent contacts will ask about first.
-- **Finance Director Ketchem's presence and whether she speaks.** She was the one who warned March 23 that FY28 will be structurally harder. If she speaks tonight and repeats or extends that warning, that's a direct quote worth capturing.
-- **Public comment content.** The new BEDH participation policy (approved March 9) tightened public comment rules. Watch whether fewer people speak, whether the chair enforces time strictly, and whether anyone gets cut off — that procedural story has its own audience.
-- **Whether anyone names the Option A / Option B choice.** It wasn't resolved March 23. If the board moves to vote on the superintendent's budget tonight, the reconfiguration option may need to be tied to it. If it isn't, that's a gap you can flag.
+- **The vote count the moment it happens.** Five yes votes adopts the budget. Anything less means the superintendent's version goes to the council on April 7. Meg's group chats will want to know the number and names within minutes of the gavel.
+- **Who moves the question and who seconds it.** If someone calls for the vote quickly without extended debate, that signals prior negotiation happened off-camera. If they go straight into another workshop discussion, it signals they're still not there.
+- **Any staff presentation that gives a reconciled state funding number.** Listen for whether Ketchen or the superintendent presents an updated figure — and whether they describe it as one-time or recurring. That distinction is the difference between a one-year patch and structural relief.
+- **Board member behavior on the specific March 30 sticking points.** Watch for the members who voted no on March 30 to signal whether their position shifted. If they're asking process questions rather than substantive questions, they may already have what they need to vote yes.
+- **The superintendent's tone.** If she reiterates the April 7 deadline herself with any visible urgency or frustration, that is quotable and citable. That's the moment Meg can say "even the superintendent said..."
+- **Any announcement about Kaler transition logistics.** If staff present anything about attendance boundaries, sibling placement, or bus ride parameters, Meg needs to capture those specifics immediately — that's school-specific information that directly affects two different group chats she manages.
+- **Whether anyone formally asks for the Title VI legal opinion on Kaler.** If it hasn't been commissioned, a board member asking for one tonight would signal the board is not treating the issue as closed, even though they voted for closure.
+- **DeAngelis's vote if the budget comes to a tally.** She was the sole no on Kaler closure. If she votes yes on the full budget despite the DEI director's demotion, that marks a shift worth noting — and if she votes no again, her stated reason will matter.
+- **Any mention of what is in the superintendent's budget versus the board's current draft.** If there's a difference, even a small one, Meg's networks will want to know whether the version that might go to council is more or less favorable on positions they care about.
+- **Clock discipline.** If this meeting is called as an emergency or special session, the agenda is likely tight. Meg should note the time public comment is allowed — if it's restricted, that itself is newsworthy given the tension around comment access since March 9.

@@ -2,84 +2,71 @@
 schema_version: "1.0"
 brief_type: "general"
 brief_mode: "evergreen"
-generated_date: "2026-04-01"
+generated_date: "2026-04-03"
 has_agenda: false
-inter_meeting_evidence_count: 2
+inter_meeting_evidence_count: 0
 ---
 
 # General Budget Briefing
 ## Current Budget Picture
 
-## South Portland Schools FY27 Budget: Where Things Stand
-
-*Public explainer — as of April 2, 2026*
-
----
-
 ## Budget Snapshot
 
-South Portland's school budget for the 2026–27 school year (FY27) is still in progress as of April 2, 2026. The superintendent's proposed budget totals **$75.85 million**, a 3.3% increase over the current year's operating costs. Because the district is not drawing on savings this year (the reserve fund is depleted), local property taxes would rise by 6% for the school portion alone. For the owner of an average South Portland home valued at $514,000, that translates to roughly **$257 more per year** on the school portion of their tax bill.
+The South Portland School Department has proposed a $75,850,000 budget for the 2026–2027 school year. That figure represents approximately a 6.0% increase in the local tax levy compared to the current year.
 
-To reach that number, the district cut **more than $8.4 million** from what the budget would have cost if nothing changed. That required eliminating approximately **75 positions — about 12% of the district's staff**. More than 60 of those are employees who will leave the district, not just retirees or open vacancies. Reductions touch teachers, ed techs, specialists, administrators, transportation, and support staff across every school level.
-
-The budget has not been adopted. On March 30, the board voted **against** adopting the FY27 budget, 5–2. A follow-up special meeting is scheduled for **April 2, 2026**, where the board will vote again.
-
-Two major structural decisions *were* made on March 30:
-
-- The board voted **6–1 to close Kaler Elementary School** at the end of the 2025–26 school year.
-- The board voted **4–2 for Option A reconfiguration**: Dyer and Small become PreK–1 "primary" schools; Brown and Skillin become Grades 2–4 "intermediate" schools, effective fall 2026.
-
-These decisions are separate from the budget vote. They stand regardless of what happens next on the budget.
+As of April 3, 2026, the School Board has **not adopted** this budget. The board voted on it at its April 2 meeting, and the motion failed 2–5. The process is continuing.
 
 ---
 
 ## What Changed
 
-Several things shifted between the March 23 workshop and the March 30 special meeting:
+Three meetings — March 23, March 30, and April 2 — produced significant decisions.
 
-**New administrative cuts were proposed — but savings were minimal.** The administration added three more reductions at the director level: eliminating the Director of Curriculum, Instruction and Assessment; converting the DEI Director to a teachers'-union instructional strategist; and converting an Assistant Director of Special Education to a teachers'-union strategist. These changes reduced the total director count from 13 to 10. However, several board members noted the bottom-line budget number did not change — savings from these positions were offset by adding new strategist roles. Some members, including Chair DeAngelis, opposed the DEI demotion specifically because it eliminated the district's only BIPOC person in a leadership role without producing meaningful savings.
+**March 23:** The superintendent presented the full budget to the board for the first time. The proposal included two school reconfiguration options and a set of personnel and non-personnel reductions.
 
-**Health insurance cost estimate was revised downward.** The district learned the maximum possible health insurance rate increase for FY27 would be 11.5%, not the 12% previously assumed. This slightly lowers the worst-case labor cost. The budget already reflects that adjustment.
+**March 30:** The board made two major structural decisions:
+- **Kaler Elementary School will close.** The vote was 5–2.
+- **Option A reconfiguration will move forward.** Under Option A, South Portland schools would shift to a PreK–Grade 1 / Grades 2–4 grade band model. The vote was 4–2.
 
-**The city council's special meeting was canceled.** Mayor Tipton had scheduled a special city council meeting to discuss potential city aid for the school budget, then canceled it to avoid disrupting the board's own process. Her written statement confirmed the cancellation was voluntary. No city funding commitment exists.
+The budget vote on March 30 did not pass; the meeting continued to April 2.
 
-**Meet-and-consult processes with unions began.** The district began required meet-and-consult sessions with the bus drivers' union (SEA) on March 30, with sessions involving the teachers' association and ed techs to follow. These sessions address proposed changes to working conditions — including bus drivers being asked to assist with cafeteria duties during midday hours — but are not contract reopeners and have no fixed deadline.
+**April 2:** Two votes occurred:
+- The board voted unanimously to schedule a joint meeting with the City Council. That meeting is part of the required process before a public referendum.
+- The board voted again on adopting the FY27 budget. That vote failed 2–5.
 
-**Transition planning is already underway.** Even before a budget was adopted, the district moved a Kaler principal onto special assignment to begin managing the closure and reconfiguration process. Staff and family engagement meetings at all four remaining elementary schools were scheduled for April 7–16. A public input survey (ThoughtExchange) is open.
+Late in the April 2 meeting, the union president mentioned that the state may send approximately $300,000 in additional funding, and a board member referenced a possible $750,000 change in the state's EPS school funding formula. Neither figure has been officially confirmed in writing.
 
 ---
 
 ## Major Decisions Ahead
 
-**1. Budget adoption — April 2 board meeting, then city council.** The board votes again on the FY27 budget at its April 2 special meeting. If it passes, the budget goes to city council on April 7, a council workshop is scheduled for April 14, and the council votes on May 5. A public referendum is required by June 9. If voters reject the budget in June, the district reverts to the prior-year budget — approximately $2.5 million less — which would require further cuts beyond what is already proposed.
+**The budget must be revised or re-voted.** Because the adoption vote failed, the board needs to either revise the proposal or reach enough agreement to pass a version of it.
 
-**2. City council funding guidance.** The April 2 agenda includes a vote on whether to convene a joint meeting with city council to seek budgeting guidance. Several board members want to explore whether the city can provide additional funds — either from the city's reserve fund or by allowing a higher-than-6% tax guidance figure — to reduce the depth of cuts or rebuild a fund balance. The city has made no commitment; any assistance would be a loan from city reserves, not a grant.
+**Joint meeting with the City Council.** The board voted to hold this meeting. The City Council provides local tax guidance that shapes what the board can spend.
 
-**3. The path to four votes.** Member Feller stated he will not vote yes on the budget unless the percussion ed tech position at the middle school is reinstated. That position is not in the superintendent's current proposal. Members DeAngelis and Richardson also voted no on March 30, for different reasons. How — or whether — a four-vote majority forms is not yet clear.
+**Public referendum.** The proposed timeline includes a community vote on June 9, 2026. The budget must pass the board before it can go to voters.
 
-**4. Reconfiguration planning details.** The board voted for Option A, but no attendance boundaries have been set, no transportation plan exists, and no class assignments have been made. All of that work must happen before September 2026. Community engagement is scheduled through April, but specifics about which students go where remain unresolved.
-
-**5. Early release days for planning.** The April 2 agenda includes a vote on adding up to four early release days (May 13, 20, 27, and June 3) to give staff time for reconfiguration preparation. This requires a school calendar amendment.
+**Meet-and-consult process.** Some budget changes — particularly those affecting staff positions — require the district to consult with employee unions before finalizing decisions. That process must be completed before certain cuts can take effect.
 
 ---
 
 ## Open Questions
 
-- **Will the board pass the budget on April 2?** As of March 30, five members voted no. At least three would need to change their votes, or new compromises would need to be reached.
-- **Will the city provide any financial bridge?** No commitment exists. The size, form, and timing of any potential city assistance — and whether it could affect the budget before the April 7 council presentation — is unresolved.
-- **What will attendance zones look like under Option A?** No boundaries have been proposed. Students, especially those currently at Kaler, do not yet know which school they will attend next year.
-- **How will the meet-and-consult processes with unions conclude?** Bus drivers, teachers, and ed techs are in active or imminent sessions over changed working conditions. These have no fixed timeline.
-- **What happens to the DEI position?** The March 30 proposal converts it to a teacher-unit instructional strategist — a demotion that produces minimal savings. Multiple board members expressed opposition. Whether this survives the final budget is unresolved.
-- **Will the percussion ed tech position be restored?** It was eliminated in both the FY26 and FY27 proposals. Community pressure is intense. The board has not voted to restore it, and it is not in the current budget.
-- **What is the plan to rebuild the fund balance?** The current budget includes no path to restore the district's depleted reserves. Without a minimum fund balance policy, the district remains exposed to the same cycle that produced this crisis.
+**Will the budget change before the next vote?** The 2–5 failure suggests significant board disagreement. It is not yet clear whether the superintendent will revise the proposal, which items might be adjusted, or when a new vote will occur.
+
+**Is the additional state funding real?** The $300,000 figure mentioned at the April 2 meeting came from a verbal statement, not a formal document. The $750,000 EPS formula change was referenced but not verified in any source available as of this writing. Either figure, if confirmed, could affect the local tax number.
+
+**What is the exact tax impact on households?** The 6.0% levy increase is a districtwide figure. The effect on an individual property tax bill depends on assessed value and the city's overall budget — neither of which is finalized.
+
+**What happens to Kaler students and staff?** The board voted to close Kaler, and the budget book shows $0 in regular instruction spending for that building. The transition plan — where students go, which staff are reassigned or reduced — has not been publicly finalized in the available sources.
+
+**Will Option A hold?** The reconfiguration vote passed 4–2, but the budget that funds it has not been adopted. The connection between the structural decision and the spending plan remains unresolved.
 
 ---
 
 ## Where To Verify
 
-- **South Portland School Department budget page:** [spsdme.org/page/budget27](https://www.spsdme.org/page/budget27) — full line-item budget, all presentation slides, and links to meeting recordings
-- **Board meeting recordings and agendas:** Posted on the City of South Portland website; the March 23 and March 30 special meeting recordings are the primary source for all board discussion summarized here
-- **Elementary Reconfiguration Road Map and engagement schedule:** Published by the district at the budget page; includes the ThoughtExchange survey link and the family meeting schedule for April 7–16
-- **April 2, 2026 special board meeting agenda:** Posted on the district website; confirms the three action items before the board
-- **City Council meeting recordings — March 19, 2026:** Available on the city's public meeting portal; contains Mayor Tipton's statement about the canceled special council meeting and separate discussion of city finances
-- **Maine Department of Education:** For context on state funding formulas, school closure reporting requirements under Maine Revised Statutes Title 20-A, and special education obligations
+- **School Board meeting agendas, minutes, and budget documents:** Check the South Portland School Department's official website and the city's public records portal.
+- **Budget figures:** The FY27 Budget Book dated April 2, 2026 is the primary line-item source. It shows cost centers, FTE counts, and year-over-year comparisons.
+- **State funding (EPS formula, homeless and economically disadvantaged allocations):** Maine Department of Education publishes subsidy calculation data. Any figures mentioned verbally at board meetings should be verified against official state documents before being treated as confirmed.
+- **Referendum date and process:** The proposed vote date is June 9, 2026. Confirm through official city or school department announcements, as this date could change if the budget timeline shifts.

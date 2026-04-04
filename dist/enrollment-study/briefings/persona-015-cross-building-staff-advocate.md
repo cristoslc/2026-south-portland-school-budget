@@ -2,109 +2,94 @@
 schema_version: "1.0"
 persona_id: "PERSONA-015"
 persona_name: "Kira"
-upcoming_meeting_date: "2026-04-02"
-generated_date: "2026-04-01"
-has_agenda: true
+upcoming_meeting_date: "2026-04-03"
+generated_date: "2026-04-03"
+has_agenda: false
 last_cumulative_meeting: null
-inter_meeting_evidence_count: 2
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: Kira (PERSONA-015)
-## Upcoming Meeting: 2026-04-02
+## Upcoming Meeting: 2026-04-03
 
 ## Since Last Meeting
 
-Two documents landed on April 1 that together define exactly what Thursday's meeting is and isn't.
+No inter-meeting evidence has surfaced since March 30. That silence is itself worth noting: with the April 7 city council deadline four days away and a failed budget vote on the books, the absence of public communication — no revised budget documents circulated, no board statement on what changes before Thursday — means Kira is walking into this meeting without knowing whether the cut list she has been fighting has moved at all.
 
-**The revised agenda** adds a concrete decision: the board will vote on whether to convene a joint meeting with City Council to seek budgeting guidance. This is significant for Kira because it's the board's formal opportunity to put the cut list in front of the people who set the fiscal ceiling. If the MTSS positions and the behavior strategist are still on that list when the board walks into the council chamber, those cuts become the joint record. If the board revises the list before that meeting, the framing changes. Thursday's budget discussion — 2.1 and 2.2 on the agenda — happens directly before the council-meeting vote. The sequencing matters.
+What she does know from March 30 is this: the FY27 budget failed 5-2, and the MTSS cut list was named explicitly as the fault line. That is a significant shift from where things stood even a week earlier. The board did not just fail to pass a budget — it failed one in which the four MTSS specialist positions and the sole full-time general-ed behavior strategist were eliminated. Richardson's vote against was tied to those cuts. That is the first time a board member's stated condition for a yes vote has been this operationally specific.
 
-**The Elementary Reconfiguration Road Map** announces school-by-school staff and family engagement meetings running April 7 through April 16, a public ThoughtExchange survey, and an interpretation-services request form. For Kira, this is a professional alarm. Reconfiguration transition planning is now rolling out on a published schedule — with specific buildings, specific dates — while the FY27 budget that was supposed to fund the intervention infrastructure to make reconfiguration equitable has not passed. Option A redistributes 164 Kaler students into buildings already running understaffed MTSS; the road map shows the transition machinery starting before anyone has answered whether the staffing to absorb those students exists. The interpretation-services form is genuinely positive — it signals someone thought about multilingual families — but the form's existence does not tell Kira whether the April 7 staff engagement meetings will surface the per-building intervention data she carries professionally.
+The reconfiguration side of March 30 held — Option A passed 4-2 — but it passed with no redistricting mechanics modeled and no funded MTSS infrastructure to receive the 164 Kaler students being redistributed. For Kira, that combination is the worst professional scenario: a structural change she supports in principle, moving forward on a timeline that strips the intervention capacity those students will need when they arrive.
 
-One absence worth naming: nothing in either document addresses whether early-release days for reconfiguration planning will be scheduled, even though the inter-meeting evidence flagged that as a possible agenda item. If it appears at Thursday's meeting without prior notice, Kira needs to know immediately — early-release days affect her travel schedule and the students at each building who depend on her specialist time.
+Blair Bacon's testimony — naming her own RIF'd position as "a Band-Aid on a wound too large" — is now in the official record. That matters to Kira because it is the first time the Band-Aid argument, which she has been carrying largely alone in letters and public comment, has been spoken by a named educator holding a pink slip. She did not create that moment. But she can use it.
 
 ---
 
 ## Open Questions
 
-- The MTSS cut list named four specialist positions and the sole full-time general-ed behavior strategist. Is that list still intact going into Thursday? Has anyone in the administration proposed restoring any of those lines?
-- Richardson named restoring MTSS staffing as her condition for supporting reconfiguration. She voted for Option A. Does she still hold that condition, and does Thursday's budget discussion treat it as a live constraint or a resolved one?
-- The reconfiguration road map is already scheduling April 7 staff engagement meetings. What data are those meetings based on? Will the cross-building intervention ratios — the ones I see daily across three buildings — be in the room, or will each school's principal describe only their own situation?
-- 164 Kaler students will redistribute into buildings that were already the second-worst MTSS strategist ratio in the region before cuts. With four specialist positions gone, who actually handles the intervention load for those kids?
-- My own position — traveling specialist, multiple buildings — is it on the cut list? Prince said the approximately 50 reductions "will not all come from one unit." Where do itinerant roles land in that distribution?
-- DeAngelos put MTSS access inequity and specialist inefficiency into the official record as the *rationale* for reconfiguration. Does that rationale create any binding accountability in a future budget, or does it live in the vote record while the actual infrastructure gets cut this year?
-- The ThoughtExchange survey is listed on the reconfiguration road map. Who's designing the questions? If the survey doesn't ask about intervention capacity and multilingual programming continuity, it won't produce data that protects any of my students.
-- Redistricting mechanics still haven't been modeled. The April 7–16 engagement meetings are scheduled. What exactly are families being engaged about if the assignment boundaries aren't designed yet?
-- If the board votes Thursday to seek council guidance, what will they actually tell the council? Will the equity impact of the specific cuts be part of that communication, or will the board present aggregate reduction numbers that make per-building harm invisible?
+Kira is carrying these into Thursday:
+
+- **Does the revised budget restore all five positions — the four MTSS specialists and the behavior strategist — or does it restore some and not others?** Richardson's condition was specific; a partial restoration is not the same commitment.
+
+- **Is my own itinerant/traveling specialist position on the cut list?** Prince confirmed the approximately 50 reductions "will not all come from one unit." I still don't know whether my role is in that count.
+
+- **If Richardson's MTSS condition is met and she votes yes, does the 4-2 reconfiguration vote stay stable — or does a substantially revised budget trigger any board member to revisit their closure vote?**
+
+- **Option A passed without redistricting mechanics. Who is building those mechanics, on what timeline, and with what equity accountability?** Prince couldn't commit to a timeline when Richardson pressed at March 2. The closure vote happened anyway. I need to know whether anyone has assigned that work.
+
+- **DeAngelos named MTSS access inequity and specialist inefficiency as the official rationale for reconfiguration in the March 30 record. Does that rationale create any binding commitment to restore that infrastructure — or does it live in the vote record as justification while the cut list stands?**
+
+- **The 164 Kaler students will redistribute into buildings that are already at the second-worst MTSS strategist ratio in the region before the cuts. With four fewer specialists after the cuts, what is the actual caseload math?** Has anyone modeled this?
+
+- **Will the April 14 budget workshop presentation to the council include per-building breakdown of the 72 eliminations — or will council members see aggregate numbers that make the cross-building harm invisible at the exact moment they are shaping the vote?**
+
+- **The Boundaries and Configurations Committee equity proposals were confirmed as approved and then abandoned. Is there any mechanism in the current redistricting design to prevent that from happening again under fiscal timeline pressure?**
+
+- **What happens to students currently receiving MTSS services in hallways and stairwells — the SPTA-named space crisis — when Kaler closes and those students redistribute into buildings where physical space for services is already insufficient?**
+
+- **How does the simplified ICE response protocol — two central office administrators across seven buildings — account for itinerant staff like me who are between buildings when an incident occurs?**
 
 ---
 
 ## Agenda Implications
 
-### 2.1 Budget Update
+No agenda is available for the April 3 meeting. Based on the cumulative state and the April 7 city council deadline, this meeting is almost certainly structured around one core task: producing a passing FY27 budget. The board needs a budget before the council workshop. That means Thursday is a revision and re-vote session, not a deliberative one.
 
-**What this means for Kira:** This is the moment she finds out whether anything has changed on the MTSS cut list since March 30. The budget failed 5-2 specifically because those cuts were named as the fault line. If the administration returns Thursday with the same list, it means no revision happened in the intervening days. If the list has been modified, the specific lines matter enormously to Kira professionally.
+**What is likely to come up:**
 
-**Listen for:** Whether the presentation distinguishes between different categories of reduction — whether MTSS and specialist positions are named separately from other cuts, or buried in aggregate totals. Whether Prince or the finance team acknowledges the March 30 failure rationale by name, and whether their response to that failure is structural (restoring lines) or procedural (re-sequencing the vote).
+*A revised budget proposal, with or without MTSS restoration.* This is the meeting's engine. Everything else follows from whether the administration comes to the table with a budget that addresses the March 30 fault line or attempts to pass the same document under deadline pressure. Kira should expect this to be the first substantive item and should be ready to respond quickly to what is — and is not — in the revision.
 
-**Questions to prepare:**
-- What specific changes, if any, were made to the superintendent's budget between March 30 and today?
-- Are any of the four MTSS specialist positions or the behavior strategist position being restored?
-- Has the administration modeled what happens to intervention capacity when 164 Kaler students are added to the remaining three buildings with the current cut list in effect?
+*Richardson's stated conditions.* Whether Richardson restates her MTSS conditions publicly or signals privately that they have been addressed will be the clearest early signal of whether the budget can pass tonight. Kira should watch Richardson's body language and opening statement as closely as the document itself.
 
----
+*Reconfiguration implementation timeline questions.* Even with Option A passed, the redistricting mechanics are unbuilt. There may be pressure to discuss implementation — or to defer it in order to stay focused on the budget re-vote. Either outcome has direct consequences for Kira's professional work.
 
-### 2.2 Board Discussion
+*Public comment opportunity.* If Kira has not already submitted written comment, this is a critical window. Blair Bacon's March 30 testimony changed the record. Kira can extend it by naming what the MTSS cut list means operationally — not in policy language, but in caseload terms: how many students across her three buildings, what the wait list looks like now, what it will look like post-redistribution.
 
-**What this means for Kira:** This is where Richardson's condition for supporting reconfiguration either gets honored or quietly set aside. If Richardson holds her position — that restoring MTSS staffing is required — this is the session where that plays out. If the discussion produces a revised budget, Thursday's meeting does more than any board meeting in this cycle except March 30. If the board accepts the same cut list without revision, they are voting to implement Option A without the intervention infrastructure that DeAngelos named as the reason Option A is equitable.
+**What Kira should prepare:**
 
-**Listen for:** Whether any board member explicitly reconnects the March 30 vote failure to the MTSS cut list by name. Whether DeAngelos's March 30 enumeration of MTSS access inequity as a reconfiguration rationale is treated as a reason to protect those positions, or as a framing device that served the closure vote and is now set aside. Whether Smith asks for operational impact data — Smith has consistently pressed for those specifics — or whether the discussion stays at the budget-line level without connecting cuts to per-building consequences.
-
-**Questions to prepare:**
-- DeAngelos stated publicly that MTSS access inequity and traveling specialist inefficiency are the operational rationale for reconfiguration. If we're cutting the MTSS positions, what is the equity mechanism we're actually funding?
-- Richardson made restoring intervention staffing a named condition of her reconfiguration support. Is the board treating that as a resolved item, or is it still a condition?
-
----
-
-### 4.2 Consideration and Action to Convene a Meeting with City Council to Seek Budgeting Guidance
-
-**What this means for Kira:** This vote determines what story the board takes to the council — and the council sets the fiscal ceiling that creates the cut list in the first place. If the board requests a joint meeting with the MTSS positions still on the list, that framing shapes what the council is responding to. If the board first revises its budget in 2.1/2.2 and then votes to seek guidance, the framing is different. The sequencing of 2.2 before 4.2 is the most important structural feature of Thursday's agenda from Kira's perspective.
-
-For Kira specifically: the joint council meeting is also the moment where cross-building equity data could formally enter the council record. The council received Walker's segregation data and Prince's housing argument in February — but they have not received a building-by-building breakdown of what the specific cuts do to intervention ratios at each school. If the board presents only aggregate numbers at the joint meeting, the council will vote on a gap figure, not a harm figure.
-
-**Listen for:** Whether the board discusses what data and framing they will bring to the joint council meeting — or whether they vote on the meeting itself without determining the content. Whether any board member proposes that the joint meeting include per-building equity impact data. Whether the motion language binds the board to a specific agenda for the council meeting, or leaves it open.
-
-**Questions to prepare (for public comment, not the board vote itself):**
-- When the board meets with the council, will you present the per-building impact of the proposed cuts — specifically the MTSS ratios at each building after the reductions take effect — alongside the aggregate budget gap? The council set 3–4% guidance without that data. They should vote on the full picture.
-- Will the joint meeting include a specific ask to protect intervention and specialist positions, named by line, or a general equity statement?
-
----
-
-### Public Comment (Items 3.0 and 5.0)
-
-**What this means for Kira:** Two public comment windows. The first falls before New Business, which means the board hears public comment before voting on the council meeting request. This is a functional opportunity. If Kira speaks at 3.0, she can name the sequencing problem — that voting to seek council guidance before revising the cut list locks in a framing — and do so while the board still has time to act on it.
-
-**Listen for:** Whether Blair Bacon or other RIF'd staff members appear again. Whether SPTA or building-level parents name the reconfiguration road map's April 7 timeline as premature given the unresolved budget. Whether any multilingual family advocate speaks — and if not, whether that absence is structural (participation barriers still in place) or logistical.
+- A precise count of students currently on MTSS wait lists across her buildings. This is internal data she has access to that no board member has entered into the record yet.
+- The caseload math: what the MTSS strategist-to-student ratio becomes in the receiving buildings if the four positions are eliminated and Kaler students are redistributed.
+- A direct question for the record: if reconfiguration was justified on MTSS equity grounds, what is the board's commitment to funded MTSS infrastructure in the buildings that will receive those students?
 
 ---
 
 ## Watch For
 
-- **Whether the budget update (2.1) opens with the same cut list or a revised one.** The difference between those two postures tells Kira everything about what happened in the four days since March 30. No revision means the administration absorbed the 5-2 failure as a political problem to be re-voted, not an operational problem to be corrected.
+- **Whether the revised budget document is distributed before the meeting opens or surfaced at the dais.** Late distribution is a signal that the revision is being managed under deadline pressure rather than deliberated — and it limits public comment that is grounded in the actual numbers.
 
-- **Richardson's body language and positioning before she speaks.** She is the pivotal vote. If she named MTSS restoration as her condition at March 30 and the list is unchanged, watch whether she asks the question directly or accepts procedural momentum. If she does not press the MTSS point in 2.2, her condition has softened.
+- **Whether Richardson names specific positions when she speaks.** If she says "MTSS positions restored" and the board agrees, that's one thing. If she accepts budget language that restores dollars without naming the roles, that is something Kira should flag — funding can be redirected after the vote.
 
-- **Whether DeAngelos connects her March 30 MTSS equity rationale to the cut list in Thursday's discussion.** She named specialist inefficiency and unequal MTSS access as the reason reconfiguration is good for kids. That framing is now in the official record. Watch whether she treats it as a binding operational commitment or as rationale that served the closure vote.
+- **Whether the behavior strategist position is treated differently from the four MTSS specialists.** It is the only full-time general-ed behavioral support in the district. It may be easier to restore four line items that sound like "math and literacy" than one that sounds like "behavior." Watch whether it appears in any restoration list separately or not at all.
 
-- **Whether anyone on the board names the April 7 reconfiguration road map as a reason the budget needs to be resolved tonight.** The engagement meetings are already scheduled. If the budget fails again Thursday, those meetings begin without a funded staffing plan. That connection should be stated in the room — if no board member makes it, Kira should make it at public comment.
+- **Whether DeAngelos references the March 30 reconfiguration rationale when discussing the budget.** If he connects the equity argument that justified closing Kaler to the infrastructure funding needed to execute that rationale, that is a meaningful accountability moment. If he treats them as separate conversations, the rationale is advisory.
 
-- **Whether the motion for the joint council meeting includes specific content requirements** — i.e., whether the board binds itself to presenting per-building equity impact data — or whether it's a blank authorization to meet. A blank authorization gives administration discretion over what the council sees.
+- **Smith's posture.** Smith has been the board's most consistent operational-impact questioner. Watch whether Smith asks for cross-building cut distribution data or accepts aggregate figures. Smith asking for per-building numbers is the signal that the council workshop presentation may include them.
 
-- **Whether any early-release days discussion surfaces, and what the framing is.** Early-release days affect Kira's travel schedule and reduce instructional access for the students at each building she serves. If this is presented as a planning benefit without naming the instructional cost, she should note that cost in public comment.
+- **Whether anyone — board, staff, or public — names the redistribution math.** 164 Kaler students into buildings already at the second-worst regional MTSS ratio. If no one says this number aloud, Kira should be the one to put it in the public comment record.
 
-- **Whether Smith asks for operational specifics** — building-by-building cut consequences — during 2.2. Smith has consistently been Kira's best ally for forcing data into the discussion. If Smith doesn't ask, Kira needs to provide those specifics in public comment.
+- **Whether the reconfiguration vote is procedurally referenced.** If a board member attempts to link Thursday's budget vote to reconsidering Option A, that is a procedural signal Kira needs to track — it could mean the structural decision she supports is being used as leverage in a budget negotiation.
 
-- **The ThoughtExchange survey on the reconfiguration road map.** It's live or launching soon. Before April 7, Kira should look at the survey questions. If they don't include prompts about intervention capacity, multilingual services, or specialist access, that shapes what the April 7–16 engagement meetings will hear — and what the board will be able to say the community was asked about.
+- **Any mention of the redistricting timeline.** If Prince or DeAngelos names a specific date for when redistricting mechanics will be presented — with equity accountability criteria — that is a thread Kira should pull in public comment. If no one names it, she should ask.
 
-- **Whether the interpretation-services request form on the road map is procedurally accessible.** Kira travels three buildings. She knows which families need interpretation services and which ones will not navigate an online form. If the form requires a school-specific login or is English-only, it fails the families it's supposed to reach. This is actionable before April 7.
+- **Whether itinerant or traveling specialist positions are named separately in any budget revision.** The 50 reductions are not all equivalent. If the revised list consolidates or re-describes roles in ways that obscure which traveling positions survive, Kira is both professionally and personally affected and should ask for clarification by role category, not just headcount.
 
-- **The tone when the board discusses the joint council meeting.** If the conversation is about process — scheduling the meeting, managing the relationship — rather than substance — what equity case to make, what cuts to protect — that signals the board is managing the April 7 deadline rather than using the council meeting as a real leverage point.
+- **The April 14 workshop framing.** If anyone describes what the council will see on April 14, listen for whether equity data and per-building impact are named as part of that presentation. If they are not, that is the moment to ask — before the presentation is built, not after it is delivered.

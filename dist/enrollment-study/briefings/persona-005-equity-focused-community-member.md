@@ -2,110 +2,91 @@
 schema_version: "1.0"
 persona_id: "PERSONA-005"
 persona_name: "Priya"
-upcoming_meeting_date: "2026-04-02"
-generated_date: "2026-04-01"
-has_agenda: true
-last_cumulative_meeting: null
-inter_meeting_evidence_count: 2
+upcoming_meeting_date: "2026-04-03"
+generated_date: "2026-04-03"
+has_agenda: false
+last_cumulative_meeting: "2026-04-02"
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: Priya (PERSONA-005)
-## Upcoming Meeting: 2026-04-02
+## Upcoming Meeting: 2026-04-03
 
 ## Since Last Meeting
 
-Two developments landed between the March 30 board meeting and today that directly shape your equity lens going into April 2.
+No new inter-meeting evidence has surfaced since the April 2 meeting. That silence is worth naming: the budget process is entering its final stretch, and the absence of new public statements, administrative responses, or community organizing news likely reflects institutional inertia rather than resolution. None of the equity-critical threads left dangling on April 2 have been publicly closed.
 
-**The reconfiguration road map is live — and it includes interpretation services.** The district published a school-by-school engagement schedule running April 7–16, a ThoughtExchange public survey, and an interpretation-services request form. On paper, this is more than the district has offered at any prior engagement moment this budget season. The January forum that collapsed because immigrant families were too frightened to attend never reached this level of logistical specificity. That matters — but the form existing and families actually using it are two different things. Watch whether the outreach infrastructure is being actively promoted through trusted intermediaries (community organizations, multilingual liaisons) or simply posted on a web page and left for families to find on their own.
-
-**The special budget meeting agenda adds a decision point you haven't seen before: a board request for City Council budgeting guidance.** This is not a routine item. It means the board has exhausted its internal options or political will and is now formally asking elected officials outside the school system to set the fiscal floor. For Priya, this is the moment when the entire budget season's equity cost becomes a City Council problem — and the City Council has a documented record of choosing market-rate paths over equity protections when structural leverage was available (One 70 Ocean, Mahoney). The question is whether the board's guidance request will carry any equity framing, or whether it will arrive as a naked fiscal number with no conditions attached.
-
-The DEI Director demotion — announced March 30, confirmed as a net-zero-savings decision that eliminated the district's only BIPOC central office leader — has not been reversed. No restoration vote was taken. It is not on tomorrow's agenda. That absence is itself a data point.
+What that means for Priya specifically: the April 2 meeting ended with Diamond's eight-category disaggregated data request still unanswered, the behavioral specialist still on the cut list, the Title VI analysis for Kayler still incomplete, and the DEI Director's demotion to instructional strategist formally confirmed. None of that has changed. The budget is moving toward finalization with all of those gaps still open. The quiet between meetings is not a sign that the district is doing the equity homework off-screen — there is no equity infrastructure left to do it.
 
 ---
 
 ## Open Questions
 
-Carrying these into April 2:
+- Has anyone — board member, attorney, advocacy organization — formally triggered a Title VI complaint or compliance review for the Kayler closure? The board voted Option A on March 30 and the closure was never conditioned on completing that analysis. Who's watching this, and is the district operating in a legal gray zone right now?
 
-- **The 42 teacher cuts still haven't been mapped to school demographics.** Which of those positions serve schools with the highest concentrations of ELL students, students with disabilities, or students in poverty? Does the district even have ELL endorsement data for the positions being cut, and if so, why hasn't it been published?
-- **The achievement gap data from March 30 — 22.1% BIPOC/white, 37.4% multilingual learner, 32.5% IEP — appeared on one slide and then disappeared.** Will it be used to screen any further cuts, or did it only function as retroactive justification for the reconfiguration vote already taken?
-- **Option A passed without equity implementation guardrails.** The transition committee is supposed to include multilingual and IEP families. Will that representation be built through genuine outreach or through the same proxy-presence model that produced 10 answers out of 127 questions and absent multilingual families throughout the reconfiguration process?
-- **The DEI Director role is now below coordinator level with no budget authority.** What equity implementation work was that position responsible for, and who is doing it now? Has any board member formally asked that question on the record?
-- **The interpretation services request form is live.** But who is telling immigrant and multilingual families it exists? What's the outreach plan, and is Project Home or any trusted community intermediary involved?
-- **The special ed mandate — 80–90 additional 4-year-olds in fall 2026, another cohort of 3-year-olds the year after — is a legal obligation.** How is the district planning to resource it during an $8.4 million deficit and 42 teacher eliminations? Are any of the positions being cut SPED-adjacent?
-- **Will class size increases fall harder on schools currently serving higher-need students?** Or is the district applying equal cuts to schools with unequal starting conditions — which is the definition of inequity dressed as neutrality?
-- **What happens to wraparound services — food, mental health support, housing stability referrals — if the budget gap isn't closed at this meeting?** These are rarely the first line items named in cuts, but they're often the first ones quietly reduced.
-- **The city's CDBG allocation directed 70% to pedestrian infrastructure on Broadway Corridor.** Has anyone mapped whether that benefits the same neighborhoods where the school cuts land hardest?
-- **Is anyone at the state level tracking what South Portland's TIF portfolio does to its state education aid?** If sheltered assessed value is suppressing formula aid, that's a structural equity issue that sits above the board's authority — but the board could say so publicly.
+- What is the actual plan to serve 17% multilingual learners in FY27 with two fewer ESOL teachers and no co-teaching model? "We'll figure it out during transition" is not an answer — I want to hear a specific staffing and instructional model, not a placeholder.
+
+- The $300,000 the union secured for economically disadvantaged and homeless students — who tracks whether it reaches those students? McKinney-Vento liaisons are gone from local funding. The DEI Director no longer has authority to require accountability. Is there any actual oversight mechanism, or did we win a funding line and lose the people responsible for spending it correctly?
+
+- The behavioral specialist confirmed that eliminating her position will push more students into IEP referrals — which costs more, not less. Has any administrator modeled the downstream cost of that referral pipeline? Or are we cutting a $60,000-$80,000 position to create a $200,000 special ed obligation next year?
+
+- Did Diamond's eight-category disaggregated data request ever get a formal response? The board sat through five hours of budget discussion on April 2 and no one engaged with it. Is that request now dead? Is anyone picking it up?
+
+- The district's entire safety net for homeless students (McKinney-Vento), immigrant families (Community Partner staff), and equity oversight (DEI function) is now dependent on a single Maine DOE Community Schools grant. What happens to all three if that grant doesn't renew? Has anyone asked this out loud?
+
+- The demotion of the DEI Director to instructional strategist saved $20,000-$30,000. That's a rounding error in an $8 million gap. Who made the call that eliminating the district's only BIPOC central office leader was worth that amount, and what is the actual equity oversight structure in FY27 — not the title, the function?
+
+- Are the transition committee's multilingual and IEP family representation requirements real, with outreach infrastructure and language support behind them? Or is "we'll include them on the committee" the box that gets checked?
+
+- The achievement gap data — 22% BIPOC/white, 37% multilingual/non-multilingual, 32% IEP/non-IEP — has been in public proceedings for weeks now. Has any board member moved to require that those gaps be used as a filter to evaluate remaining cuts before the final vote? Or does that data exist only in the reconfiguration framing, not in the budget accountability framing?
+
+- Is the grant dependency for McKinney-Vento, Community Partner, and DEI support staff being disclosed transparently to the community as a structural risk? Families who fought for these services deserve to know their continuation rests on a single grant cycle.
 
 ---
 
 ## Agenda Implications
 
-**2.1 Budget Update**
+No agenda is available for the April 3 meeting. Based on the April 2 session and the budget calendar, here is what Priya should be prepared for:
 
-This is the most important item on the agenda for you. The board failed to adopt the FY27 budget at the last meeting. This update will presumably describe where the $8.4 million gap stands now, what has been added back or further cut since March 30, and what the remaining options look like.
+**Budget finalization is likely the dominant item.** The district is approaching the point where the budget goes to the school board for a formal vote, and the April 3 meeting may be a workshop, public comment session, or formal action meeting. Given the timeline, any equity corrections that don't happen now are unlikely to happen at all.
 
-*What this means for you:* The budget update is the moment when whatever has happened to equity-relevant line items since March 30 becomes visible — or doesn't. If the DEI Director demotion is still in the proposal as a net-zero savings decision, that will be confirmed here. If any positions serving ELL students, special education, or community schools have been added back or further cut, this is where you'll hear it first.
+**What Priya should listen for:**
 
-*Listen for:* Whether the presentation disaggregates the proposed cuts by school or by student population at any point. Whether "equity" appears in the update at all, and if so, how it's being used — as a constraint on cuts or as a rhetorical flourish. Whether the behavioral strategist elimination (which district staff said "essentially forces kids to special ed") is addressed.
+The district may present the budget as essentially complete, framing April 3 as procedural. Priya should resist that framing. The April 2 meeting left substantive equity questions unanswered — the Title VI gap, the behavioral specialist, the ESOL staffing model, the disaggregated data request — and none of them resolve automatically by moving to a vote.
 
-*Questions to prepare:*
-- "Can the board provide a breakdown of the proposed teacher eliminations by school, and cross-reference those schools with their current ELL, IEP, and free/reduced lunch percentages?"
-- "The achievement gap data presented on March 30 showed a 37.4-point gap for multilingual learners. Has that data been used to evaluate which proposed cuts disproportionately harm that student population?"
-- "The DEI Director position was demoted for zero additional budget savings. Can the administration explain what equity implementation work that position will no longer be able to perform?"
+Listen for whether any administrator addresses Diamond's data request formally. If it is acknowledged but treated as a future action item rather than a condition of the current vote, that is a signal that the district intends to close the equity accountability loop after the structural decisions are irreversible.
 
-**2.2 Board Discussion**
+Listen for how the DEI Director's new role is described. If it is presented as a net-neutral "restructuring" rather than a demotion, that reframing is worth challenging on the record. The savings figure is documented. The authority loss is documented. The claim of equivalence is not.
 
-This follows the update and is where board members will signal their priorities, frame the choice going to City Council, and potentially surface any equity commitments — or avoid them.
+Listen for how McKinney-Vento and Community Partner staff elimination is framed. If it is described as "grant-funded and therefore not a district cut," that obscures the structural risk: when the grant ends, all three services end simultaneously, and no local funding backstop exists.
 
-*What this means for you:* Board discussions are where you learn what the board actually cares about versus what they say they care about. After March 30, you know that Holman and Richardson named the BIPOC leader argument on the record and still didn't move the outcome. Watch whether either of them presses equity framing again tonight, and whether it's met with engagement or managed past.
+**Questions Priya should prepare:**
 
-*Listen for:* Whether any board member connects the budget gap to specific student populations. Whether early-release days — listed as a possible consideration in the revised agenda — are discussed in terms of their impact on families who depend on school for childcare, including low-income families and parents working hourly jobs. Whether the board discusses the reconfiguration road map's interpretation services as a model or mentions it at all.
-
-*Questions to prepare:* This is a discussion item, not a public comment slot, but you can track what's said to inform your public comment. Note which board members speak and which stay silent when equity-adjacent topics come up.
-
-**4.2 Consideration and action to convene a meeting with City Council to seek budgeting guidance**
-
-This is the structural hinge of the whole meeting for you.
-
-*What this means for you:* The board is about to formally hand the fiscal question to a body with a documented record of not attaching equity conditions to structural leverage moments. The City Council approved One 70 Ocean without affordability conditions. It approved Mahoney without enforceable equity commitments. It voted 4-2 to block the eviction moratorium. It approved the CDBG allocation with 70% to pedestrian infrastructure and $61,000 for direct human services. This is not an abstract concern — it's a pattern.
-
-The question is not just whether the board seeks City Council guidance, but *what frame the board will use when it does*. If the board walks into that meeting with a number and no equity conditions, the City Council will respond to the number. If the board walks in with both a number and a clear statement of which student populations bear the cost of insufficient funding, the Council has to at least navigate that framing publicly.
-
-*Listen for:* Whether the motion to convene includes any direction about what the board will bring to the Council meeting — just a fiscal ask, or also a policy framing. Whether any board member moves to add equity conditions or student impact documentation to the guidance request. Whether a date is set for the joint meeting, and whether public comment will be allowed at that meeting.
-
-*Questions to prepare for public comment:*
-- "When the board meets with City Council to seek budgeting guidance, will it present data on which student populations — ELL, IEP, students in poverty — bear the cost of the proposed cuts? If not, why not?"
-- "Will the joint meeting with City Council be open to public comment from community members, including multilingual families?"
-
-**3.0 and 5.0 Public Comment**
-
-Two public comment slots. Use the first (item 3.0) if you want to frame the board before the New Business vote. Use the second (item 5.0) if you want to respond to how item 4.2 was handled.
-
-*What this means for you:* This meeting has an unusually high stakes public comment opportunity because the board is about to formalize its relationship to the City Council on the budget. What gets said in public comment tonight may shape the frame the board carries into that joint meeting.
-
-*Questions to raise:* Consider naming the achievement gap data on the record. If the board goes to City Council and says "we need $X," it will be harder for the Council to ignore the 37.4-point multilingual learner gap if a community member named it publicly the night the request was authorized.
+- Will the board condition the Kayler closure vote on receipt of a completed Title VI civil rights compliance analysis? If not, what is the legal basis for proceeding without it?
+- What specific equity oversight function replaces the DEI Director's central office role in FY27? Not a name — a function, with authority and reporting structure.
+- What is the district's FY27 ESOL staffing plan for 17% multilingual learners, stated in student-to-teacher ratios and instructional model, not aspirational language?
+- How will the $300,000 in state funds secured for economically disadvantaged and homeless students be tracked, reported, and audited given the simultaneous elimination of McKinney-Vento liaisons and DEI oversight capacity?
 
 ---
 
 ## Watch For
 
-- **Whether the budget update includes any school-level or population-level breakdown of proposed cuts.** If it does, that's a significant procedural shift and you should note it. If it doesn't — after March 30's achievement gap data and after Option A's passage — that absence is a finding, not an oversight.
+- **Any motion to condition a budget or reconfiguration vote on receipt of the Title VI analysis.** If Diamond, Richardson, Holman, or Walker raises this as a procedural requirement, that is the most important equity protection still available. Watch whether it gets a second, and whether the four-member majority engages with it or routes around it.
 
-- **The framing of the City Council guidance request.** Watch whether the motion includes any direction about *how* the board will present the budget gap to Council. A motion that says "seek budgeting guidance" with no further specification is a blank check. A motion that includes student impact language, or that directs the superintendent to prepare equity impact documentation, is materially different.
+- **How the administration characterizes the DEI Director's new role.** If Superintendent DeAngelos or central office staff describe it as a "refocused" or "classroom-embedded" equity role rather than a demotion, that is equity-washing in real time. Priya knows the savings figure ($20,000–$30,000) and the authority loss (no longer in central office, no longer in the administrator unit). Those facts don't change under a different label.
 
-- **Whether Holman and Richardson speak during board discussion** and whether they use equity language that goes beyond the DEI Director naming they did on March 30. They've put things on the record — watch whether they push further tonight or go quiet.
+- **Whether the behavioral specialist elimination is raised by anyone.** The specialist's own public statement about the IEP referral pipeline is in the record. If the position is discussed without that downstream cost logic, Priya should be prepared to surface it during public comment.
 
-- **Whether the early-release day proposal surfaces** (it was in the revised agenda language) and how it's framed. Early-release days during the reconfiguration transition have a differential impact on families with fewer childcare resources. If this comes up, it should be analyzed through that lens.
+- **Language around the Community Schools grant dependency.** If staff presents the McKinney-Vento, Community Partner, and DEI support staff as "funded through external grants" without naming the single-point-of-failure risk, that framing is misleading. Watch whether any board member presses on what happens in the next grant cycle.
 
-- **Whether anyone mentions the interpretation services form for the reconfiguration engagement.** If the board or superintendent cites it as evidence of multilingual outreach, press on what active promotion is happening versus what is passively posted.
+- **DeAngelos's tone and language on equity.** After months of equity-framed language that did not translate into equity-protective structural decisions, the pattern is now fully documented. If she invokes equity language to describe the Option A reconfiguration as a positive outcome, that is the same rhetorical move Priya identified on December 1. She should note it, not be surprised by it.
 
-- **The chair's opening statement (item 1.1) and board chair update (item 2.0).** Opening statements set the rhetorical frame for the whole meeting. If equity language appears here, note what kind — aspirational ("we are committed to equity") or operational ("here is how we are protecting specific student populations"). These are different things.
+- **Whether Diamond's data request receives any formal response or is simply never acknowledged.** Eight categories of disaggregated data requested in a public meeting. If no board member raises it again, that silence is itself a decision.
 
-- **Body language and floor time during public comment.** Watch whether board members who have been procedurally passive on equity (voted for cuts without equity analysis) engage with public comment from equity-focused speakers or visibly wait it out. The difference matters for your ongoing coalition strategy.
+- **Walker and Richardson as the most reliable equity voices on the board.** Their statements on the DEI demotion — naming the BIPOC leader loss directly — are the closest thing to an internal accountability mechanism. Track whether they are asking questions that require administrative answers, or making statements that don't require responses.
 
-- **Whether Superintendent Walker names specific student populations in the budget update**, or whether the presentation treats all cuts as administratively neutral. Walker has an opportunity to formally put equity impact on the record in a way that follows the board into the City Council meeting. If she doesn't take it, that choice is meaningful.
+- **Any procedural move to accelerate the budget to a final vote before equity questions are resolved.** "We need to have a number to the city by X date" is a real constraint, but it has also been used throughout this process to foreclose equity analysis. If a timeline is invoked to close debate, Priya should note the specific date and what was left unresolved when that clock ran out.
 
-- **Whether any board member moves to attach equity conditions to the City Council guidance request.** If such a motion is made and fails, you have a 4-2 or similar split on the record that documents the board's operational equity commitments — or their absence — in concrete procedural terms.
+- **How the transition committee's family representation commitments are described.** "We will include multilingual families" is not the same as "we have contracted a community-based organization with trusted relationships to conduct outreach in Somali, Spanish, and Arabic." If it is the former without the latter, the transition committee representation requirement is already failing.
+
+- **The $300,000 union-secured funds — whether anyone asks how they will be tracked.** This is a genuine win, but it lands in a district that has a repeat material weakness finding for mismanaging equity-designated federal funds. The union got the money. Nobody has described the accountability infrastructure. Priya should ask if nobody else does.

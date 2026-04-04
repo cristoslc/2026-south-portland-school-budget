@@ -2,81 +2,89 @@
 schema_version: "1.0"
 persona_id: "PERSONA-012"
 persona_name: "Jaylen"
-upcoming_meeting_date: "2026-04-02"
-generated_date: "2026-04-01"
-has_agenda: true
+upcoming_meeting_date: "2026-04-03"
+generated_date: "2026-04-03"
+has_agenda: false
 last_cumulative_meeting: "2026-03-30"
-inter_meeting_evidence_count: 2
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: Jaylen (PERSONA-012)
-## Upcoming Meeting: 2026-04-02
+## Upcoming Meeting: 2026-04-03
 
 # Pre-Meeting Brief: Jaylen (PERSONA-012)
-**Meeting:** Special Budget Meeting — April 2, 2026, 6:00 PM, SPHS Lecture Hall
+**Meeting Date:** 2026-04-03 | **Next Public Hearing:** 2026-04-07
 
 ---
 
 ## Since Last Meeting
 
-Two things happened between March 30 and tonight that matter to Jaylen directly.
+No new public evidence has surfaced since March 30. That absence is itself information worth sitting with.
 
-The April 2 special meeting agenda was revised to add three decision points: possible early-release days tied to reconfiguration planning, a formal request to meet with the city council for budget guidance, and another vote on adopting the FY27 superintendent's budget. The budget failed 5-2 four days ago. Tonight the board is apparently going to vote on it again. There is no public record of what, if anything, changed in the proposal since board members voted no while naming specific programs they refused to cut — PE at the middle school, percussion ed tech, arts positions. Jaylen has no way of knowing whether tonight's version protects those positions or simply asks the same six members to vote differently.
+The last thing on the record is the 5-2 vote that rejected the superintendent's budget proposal. Board members who voted no named specific unacceptable losses — middle school PE eliminated, percussion ed tech cut, arts positions district-wide. That vote sent the process into genuine uncertainty. **But no one publicly said what comes next.** The April 2 special meeting was on the calendar, and as of now you have no readout from it. That means you're walking into April 3 not knowing whether:
 
-The district also published an elementary reconfiguration road map. It schedules school-by-school family and staff engagement meetings from April 7 through April 16, a ThoughtExchange survey, and an interpretation-services request form. The district is moving reconfiguration planning forward on its own track while the budget that would fund it hasn't been adopted. More immediately: April 7 is the same date as the public hearing Jaylen has been preparing to attend since at least March 23. He does not yet know whether these two events overlap or conflict.
+- The board adopted a revised budget yesterday
+- The board postponed again
+- Any of the named positions (percussion ed tech, middle school PE, arts) were restored — or new cuts were added to make the math work
 
-Neither piece of evidence says anything about theater, AP classes, or cross-country. The silence continues.
+The fact that no news has reached you through your normal channels — parents, Instagram, word of mouth from coaches — is consistent with how this process has worked all year. Official silence does not mean nothing happened. It means the adults in the room didn't prioritize getting the word out to students before the next meeting.
+
+One thing that hasn't changed: Hannah, the SPHS art teacher, is being laid off for the second time by this district. That name and that fact are now on the public record. Theater remains unconfirmed in any direction — not on the cut list anyone has seen, but not protected by name either.
 
 ---
 
 ## Open Questions
 
-- Theater still isn't in any public record — not named as cut, not confirmed as protected. Art (0.5 FTE) is on the list and Hannah is confirmed. Why is theater different, and does "not mentioned" mean anything?
-- If the board is voting on the FY27 budget again tonight, is it the same budget that failed — or did something actually change? Which positions, if any, were restored?
-- The March 30 no votes came with reasons: PE eliminated from middle school, arts positions throughout. Are those the things that got fixed, or is the board just hoping for a different outcome with the same proposal?
-- The board is going back to the city council for guidance. The council is the same body that gave them the 4-6% ceiling to begin with and advanced an $87M police/fire bond in the same session they cited a $7-8M school gap. What is the board actually asking for, and why would the answer be different this time?
-- Does going back to the council push the April 7 public hearing? If the board is waiting on council guidance before finalizing anything, is there even a point to testifying on April 7?
-- The reconfiguration engagement meetings start April 7. Is the public hearing still on for that night, or is something getting rescheduled?
-- There are two public comment periods tonight — 3.0 and 5.0. The council guidance vote is in between. Does it matter which one I use?
-- Early-release days to support reconfiguration work means students lose class time so adults can plan. Are those days at SPHS? When? Does anyone ask students whether that trade-off is worth it?
-- Six finance directors in five years and $400K moved illegally — is any of that getting discussed tonight, or does the conversation stay focused on the gap without asking how the district got here?
+Going into this meeting, here's what you're still carrying:
+
+- **Is theater actually safe, or just not mentioned yet?** The March 23 SPHS breakdown took five minutes and got zero follow-up questions from the board. Nobody said theater is protected. Is it just not on the list, or does it get announced at a later meeting with the same five-minute treatment?
+- **What happened at April 2?** Did the board adopt anything? Did they restore the positions the no-voters named as dealbreakers? Or did they punt again and reset the clock?
+- **Which of the 72 pink-slipped teachers are at SPHS specifically?** The named positions — Science, English, World Language/ESOL, Art — still don't tell me whether my AP teachers, theater directors, or coaches got letters. Has anyone confirmed this publicly?
+- **Is my cross-country season actually at risk?** The evening shuttle reduction to one city loop was already a threat. Did anyone at the board or transportation level address what happens to athletes who depend on it — not just theoretically, but specifically for fall registration?
+- **What does the board do when a budget fails?** Is there a version where cuts come back *worse* because they ran out of runway? Or does a failed budget actually create room to restore some of what was named?
+- **Is anyone preparing students to testify at April 7, or is it just going to be me and Matthew Emory?** One freshman's statement got read at March 30. One middle schooler showed up voluntarily. What does organized student presence at April 7 look like — and is the school newspaper working on anything that gives students the facts they need to speak?
+- **Has anyone asked directly whether theater is funded next year?** Not inferred from the absence of its name on a cut list — actually asked, at a microphone, and gotten an answer on the record?
 
 ---
 
 ## Agenda Implications
 
-**1.1 Opening Statement / 2.0 Board Chair Update**
-DeAngelis opens the meeting. His framing of the last four days will tell Jaylen a lot about what tonight actually is. Watch for whether he addresses the 5-2 failure directly and names what changed — or whether he treats tonight as routine continuation of a proceeding that never stalled. In March, DeAngelis dismissed student board members from the chair's seat mid-meeting while budget discussion about their own school continued. How he handles student speakers in public comment tonight follows from that same pattern. A chair who says "thank you" and moves to the next item is telling you something.
+**No agenda is available for this meeting.** Based on where the process stands, here's what is likely to come up and what it means for you specifically.
 
-**2.1 Budget Update / 2.2 Board Discussion**
-This is where the content lives. The inter-meeting evidence says a vote on the FY27 superintendent's budget is on tonight's agenda — the same budget that failed four days ago. The board discussion in 2.2 is the only place where any changes to the proposal will surface publicly before the vote. Jaylen should listen for whether SPHS-specific positions come up at all, since they received five minutes and zero follow-up questions on March 23. If no one names SPHS cuts during board discussion, they will not appear in the record unless Jaylen puts them there during public comment. He should also listen for whether the members who voted no on March 30 signal what would change their votes — those are the specific concessions, if any, that are on the table.
+**Most likely scenario:** The April 3 meeting is either a continuation of what happened at the April 2 special meeting or a bridge session moving toward the April 7 public hearing. The board is almost certainly still trying to close the $8.4M gap. That means any of the following could surface:
 
-**3.0 Public Comment (first slot)**
-This comes before the new business votes. Speaking here means Jaylen can try to influence how the board discusses the budget and the council guidance request. Matthew Emory testified voluntarily at March 30 and became the model Jaylen is following. This slot is where that approach applies most directly — before the decisions, not after. If Jaylen wants the board to hear his questions before they vote, 3.0 is the window.
+**A revised budget proposal.** If the board is presenting a new version after the 5-2 failure, listen for whether the positions that drove the no votes — middle school PE, percussion ed tech, arts — are restored, and at what cost elsewhere. If something gets restored, something else gets cut. Find out what. Specifically: does any SPHS program absorb additional cuts to make the math work after a restoration elsewhere?
 
-**4.2 — Consideration to convene a meeting with City Council for budget guidance**
-This is the most consequential item on the agenda for Jaylen, and the one least likely to be framed around students. The board failed the budget on March 30. Rather than revising it independently, they are considering going back to the same city council that set the 4-6% ceiling — which board chair DeAngelis asked for in February. Listen for whether the motion includes a specific timeline or deadline. An open-ended invitation to meet with the council is a mechanism for indefinite delay. A motion with a date is meaningfully different. If this passes without a deadline, the April 7 hearing and June referendum calendar become uncertain. Jaylen should also notice whether anyone on the board frames this motion as pushing back on the council's guidance or accepting more of it.
+*Questions to prepare:* Which SPHS positions changed between the failed proposal and this one? Is theater included in the revised staffing plan? Are AP course offerings protected for next year?
 
-**4.2 — Early-release days (referenced in inter-meeting evidence, may appear as 4.1)**
-If this comes up as a motion, it means the district is asking students to give up instructional time to support adult planning meetings for a reconfiguration that hasn't been publicly approved. For a junior managing AP prep, theater rehearsal, and cross-country, every lost class day has a cost. The motion may pass without a single person in the room asking whether SPHS students were consulted. That absence is worth naming.
+**An update on where the deficit-closing math stands.** The board has three "big ideas" that still leave $3M+ unaccounted for. If they're presenting the updated arithmetic, listen for whether the remaining gap produces new cuts — and whether those cuts fall at the high school level.
 
-**5.0 Public Comment (second slot)**
-This comes after the new business votes. Speaking here means Jaylen can respond directly to what the board just decided — including whether the council guidance motion passed, whether a budget vote happened, and what the result was. If the budget fails again or the council guidance motion passes without a timeline, the second slot is the stronger position for naming what that means to a junior at SPHS who cannot vote, cannot delay the referendum, and is watching the process extend past every date it was supposed to resolve.
+*What to listen for:* Any mention of "additional reductions" or "line items under review." That language is how new cuts get introduced without using the word "cuts."
 
-**6.0 School Board Communications**
-Student board members were publicly dismissed from the March 23 meeting mid-discussion. This section is where board member communications typically appear. If either student board rep is present tonight and speaks, listen for whether they were given any advance notice about what's in the revised budget proposal or whether they are finding out alongside everyone else in the room.
+**Public comment setup for April 7.** The board may formally structure the April 7 hearing during this meeting — time limits, format, whether student testimony gets a dedicated slot or is folded into general public comment. This matters directly for you. The last time a student testified voluntarily (Matthew Emory, March 30), it worked. But one student is not a presence; it's an anomaly. If the board announces April 7 structure today, pay attention to whether student voices are designed in or have to fight for space the way they always do.
+
+*Questions to prepare:* Will students have a designated time slot at April 7? Is there a way for the school newspaper to submit questions or data requests to the board?
+
+**What this meeting will probably not do** is give you a clean answer on theater specifically. The board does not name programs it is *not* cutting. You will need to ask directly — at a microphone, on the record — if you want an answer that means anything.
 
 ---
 
 ## Watch For
 
-- **Whether the board votes on the FY27 budget tonight and which way it goes.** If it fails again, the governance breakdown is now two votes in one week. If it passes, Jaylen needs to know immediately whether the seven named SPHS positions — especially art — are still in the cut list or were restored.
-- **Whether anyone on the board names SPHS programs during budget discussion.** If theater, AP classes, or athletics don't come up during board discussion, public comment is the only moment they enter the record. Jaylen is potentially that moment.
-- **How the council guidance motion is worded.** An open-ended request buys indefinite time. A motion with a specific date or outcome triggers a real timeline. If the motion text is vague, that vagueness is itself the answer.
-- **Whether anyone on the board confirms April 7.** The reconfiguration road map and the possible council guidance delay both create uncertainty about whether the public hearing is still happening as scheduled. If no board member confirms the date, Jaylen should ask directly during public comment.
-- **Members who voted no on March 30 and what they say tonight.** Those five members cited specific unacceptable cuts. If any of them signals tonight that their concern has been addressed — or that it hasn't — that tells Jaylen whether the revised proposal restored anything real.
-- **DeAngelis's handling of student speakers.** He dismissed student board members mid-meeting from the chair's seat three weeks ago. Watch whether tonight's student speakers in public comment receive substantive acknowledgment or perfunctory thanks and a move to the next item.
-- **Whether Hannah or other named SPHS teachers are present.** If any of the seven named SPHS staff are in the room for a second budget vote, their presence is visible. If board members voted no last time partly because of arts cuts and the people affected are in the room, that dynamic is observable.
-- **Whether anyone asks about SPHS theater specifically.** Art (0.5 FTE) is named. Theater is not. That distinction has persisted through every public meeting since December. If no one names theater tonight, Jaylen is the only person at this meeting who will.
-- **Whether the early-release motion includes SPHS.** If it does, and if no one objects to students losing instructional time during AP preparation season, that tells Jaylen exactly how much weight student experience carries in this room.
-- **Whether two public comment slots are being used differently by adult speakers.** If community members figure out to use the 5.0 slot as a response to the vote, Jaylen should be ready to do the same — showing up prepared for both.
+- **The first words out of anyone's mouth about what happened on April 2.** If the chair opens by summarizing the April 2 special meeting, that summary is your update. Write down the key numbers and any position names that surface.
+
+- **Whether any board member who voted no on March 30 signals they've been won over.** The five no votes were named — if any of them are moving toward yes, it means the board found money to restore something. Find out what they restored and what they cut to pay for it.
+
+- **Any mention of "theater," "drama," or "performing arts" at SPHS specifically.** If you hear it, note whether it's being protected or flagged. If you don't hear it, that silence is still not safety — it's just the district's standard operating procedure of not telling students anything until it's done.
+
+- **Transportation language.** If anyone mentions the Metro bus schedule alignment with SPHS bell times, or the evening shuttle, pay attention to whether "fall 2026" is attached to any commitment. That's the deadline that matters for cross-country.
+
+- **The April 7 hearing logistics.** If the board announces format, time limits, or sign-up procedures during this meeting, write them down immediately. You need that information to prepare your statement and to share it with anyone else at SPHS who might come.
+
+- **Watch the student board members, if they're present.** At March 23, they were publicly dismissed from the meeting while budget discussion about SPHS continued without them. If that happens again, it tells you something about what kind of presence April 7 actually needs to be — not a formality, but a disruption of the assumption that students aren't watching.
+
+- **Whether anyone frames the failed 5-2 vote as a mandate to restore positions or as a reason to slow down.** Those are two very different readings of the same vote, and which one wins will determine what the June referendum actually asks taxpayers to fund.
+
+- **Tone from the superintendent.** After a 5-2 failure, the superintendent either comes back with a revised proposal that moves toward the board's stated concerns, or digs in. Which mode they're in will tell you whether April 7 is a genuine turning point or a procedural box being checked before a vote that's already decided.
+
+- **Any new cost figure that is larger than $8.4M.** The deficit grew by $1.2M between December and March with no public explanation. If someone cites a new number tonight, ask — or be ready to ask on April 7 — where the additional gap came from.

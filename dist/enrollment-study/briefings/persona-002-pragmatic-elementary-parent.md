@@ -2,99 +2,77 @@
 schema_version: "1.0"
 persona_id: "PERSONA-002"
 persona_name: "David"
-upcoming_meeting_date: "2026-04-02"
-generated_date: "2026-04-01"
-has_agenda: true
-last_cumulative_meeting: null
-inter_meeting_evidence_count: 2
+upcoming_meeting_date: "2026-04-03"
+generated_date: "2026-04-03"
+has_agenda: false
+last_cumulative_meeting: "2026-04-02"
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: David (PERSONA-002)
-## Upcoming Meeting: 2026-04-02
+## Upcoming Meeting: 2026-04-03
 
 ## Since Last Meeting
 
-**The FY27 budget failed 5-2 on March 30.** That's the headline David is carrying in. The two items that did pass — Kaler closure and Option A reconfiguration — cleared on reasonably defensible grounds. The budget itself did not. Five no-votes, four distinct concerns, and no shared landing zone before adjournment. That's not a close call that needs one more nudge; it's a fractured board going into a special meeting with no identified path to a majority.
+No inter-meeting evidence exists for this period. The gap between the April 2 meeting and April 3 is less than 24 hours.
 
-Two pieces of inter-meeting evidence matter to David directly:
+That absence is itself the signal. The board adjourned April 2 citing two unverified mid-meeting text messages about possible state funding — $300K and $750K — as the stated basis for a second consecutive deferral. In less than a day, there has been no time for those figures to be verified, contacted, documented, or entered into any official record. If the April 3 meeting proceeds to a vote, it does so on the same evidential footing as April 2: the texts are either still unverified, or they were verified in a matter of hours through informal channels with no documentation trail.
 
-**The reconfiguration road map is already live.** The district posted school-by-school engagement meetings running April 7–16, a ThoughtExchange survey, and an interpretation-services form — all before the FY27 budget is ratified. David will clock this immediately: the district is operationalizing a decision that depends on a budget that hasn't passed. This is either a sign of administrative confidence that the budget will clear on April 2, or it's an execution risk being papered over by forward momentum.
-
-**The revised April 2 agenda adds a City Council guidance request.** Item 4.2 — "consideration and action to convene a meeting with City Council to seek budgeting guidance" — is new and significant. The board is formally acknowledging it cannot resolve the budget internally and needs external reference points. For David, this is the clearest signal yet that the five no-votes aren't moving without something from the council side — whether that's a higher tax ceiling, a lower one, or simply political cover.
-
-The absence of a public explanation for *what specifically changed* between the March 30 failure and this April 2 agenda is itself a data point. No public statement from the five no-votes. No published amendment. David is walking in with no line-of-sight to what a passing version looks like.
+The most data-rich budget presentation of the entire cycle — Ketchem's four-year actuals table confirming the mechanical under-budgeting pattern — produced no decision. The board now carries that record plus an unresolved governance question into a third session. David's working assumption since March 30 — that nominal savings and unresolved external variables function as decision-avoidance mechanisms — is about to be tested again in real time.
 
 ---
 
 ## Open Questions
 
-Carrying from the full cumulative record, David's live threads into this meeting:
-
-- **What actually flips the budget?** Five no-votes, four different concerns. Which of those concerns is being addressed in the revised budget presented tonight — and how? If the answer is "none yet, that's why we're going to council," then what specific number or structural change would satisfy each of the holdouts?
-
-- **Is the DEI reclassification the tip of an iceberg?** That line item was claimed as a reduction, confirmed to produce zero budget impact. How many other FY27 line items are title changes or reclassifications with no actual payroll or cost reduction behind them? I still don't have a full FY26 variance analysis to check this against.
-
-- **What does the city council actually need to see to give guidance?** The board is going to ask the council for budgeting guidance. What question are they asking exactly? A tax ceiling blessing? A hard cap? A signal on the referendum? If the board goes to council with a vague ask, they'll get a vague answer — and we'll be back here in two weeks.
-
-- **What does a balanced FY28 budget require?** Ketchem's own math at the March 23 session was worse than my model. Labor auto-escalation above 6% through written contracts, 13–14% utility inflation, $300K+ in new debt service from the athletic field bond. None of that is baked into the current FY27 pass/fail framing.
-
-- **When does the board commit to a minimum fund balance target?** Zero reserves going into FY27 has been named in at least two successive workshops. A recommendation has appeared and disappeared without a motion. Tonight would be the logical moment to attach a reserve rebuilding timeline to any FY27 budget adoption.
-
-- **Does the reconfiguration road map depend on the FY27 budget passing tonight?** The April 7–16 engagement meetings are already scheduled. If the budget doesn't pass tonight, does that schedule hold, slip, or get walked back? What's the decision tree?
-
-- **How many staff FTE changes in the FY27 budget are real headcount reductions versus reclassifications?** The 82-position staffing growth while enrollment fell is documented. Has a corresponding SPTA/SPESPA FTE table been produced to verify or complicate the administration's cuts narrative?
-
-- **Does the council's April budget workshop reflect actual fiscal engagement or the same diffusion pattern?** This has been an open thread since March 10. Tonight's 4.2 vote may finally force an answer.
+- **Have the state funding texts been verified?** Who sent them, what program, what timeline, is there a written confirmation, and if $300K and $750K are real, does the board intend to allocate them to recurring staff positions or to beginning the fund balance rebuild?
+- **What changed between 9 PM on April 2 and this meeting that justifies a different outcome?** If nothing substantive changed, what does voting today signal about the deferral rationale yesterday?
+- **What specific combination of changes would actually flip the no votes?** The five members who voted no on April 2 did not appear to have a shared landing zone before adjournment. Has anyone identified one in the past 24 hours?
+- **What standing does an unratified school budget have when it goes to the city council on April 7?** Is this sequence precedented? Does the council review it, reject it, hold it, or does the absence of ratification create a procedural gap?
+- **Will the fund balance rebuild recommendation finally get a motion?** It has appeared in at least three successive workshops — Ketchem named the $6.75M–$9M target range — without anyone calling the question. At what point does a repeated recommendation without a motion become a governance finding, not a planning artifact?
+- **Is the FY28 math now formally being modeled, or is it still informal?** Ketchem named it publicly on April 2 — labor auto-escalation above 6% by contract, utility inflation at 13–14%, $300K+ new debt service, potential Skillin boiler — but no one produced a number. Has the district committed to delivering a FY28 structural gap estimate, and when?
+- **How many of the savings in the current FY27 proposal are real versus nominal?** The DEI coordinator-to-strategist swap was zero confirmed net savings. Are there other line items that function as title changes rather than cost reductions?
+- **Will the health insurance final rate (expected April 10) change the arithmetic, and is the board holding open a contingency window for it?** If the rate comes in below 11.5%, how is that handled — saved, allocated, or banked against FY28?
 
 ---
 
 ## Agenda Implications
 
-**2.1 Budget Update / 2.2 Board Discussion**
+No agenda is available for April 3. Based on the cumulative record, the meeting is almost certainly convened to complete the unfinished action from April 2: ratifying the FY27 school budget. The board is operating with a June 9 referendum deadline, an April 7 city council presentation that implies the budget needs to exist in ratified form, and no structural reason for further delay other than the unverified state funding question.
 
-This is the core of the meeting for David. The budget failed 5-2 three days ago. Tonight the board either:
-(a) votes again on the same document, or
-(b) presents a revised document with identified changes, or
-(c) defers adoption pending the City Council guidance request in 4.2.
+**What this meeting is likely to include:**
 
-David should watch for whether the "budget update" in 2.1 is a substantive revision with enumerated line-item changes, or a reframing of the same numbers. The distinction matters analytically: a reframe with no structural change is a political maneuver, not a fiscal fix.
+**A third attempt at ratifying the FY27 budget.** David should go in expecting a vote. What he needs to watch is whether the motion looks different from April 2 — same document, same numbers, same vote structure — or whether someone has drafted an amendment that addresses a specific no-vote concern. A clean revote on an unchanged document means the April 2 deferral was not data-driven. An amended motion means someone has been working the problem in the 24-hour gap.
 
-*What to listen for:* Does anyone name which of the five no-vote concerns are being addressed? Is the health insurance final figure (expected April 10) cited as a reason to defer? Is any new FTE reduction or cost line presented that wasn't in the March 30 version?
+*What David should listen for:* Whether any board member characterizes the deferral as having served a specific purpose that was fulfilled — i.e., the state funding was verified and the number is now on record. If the deferral produced no new verified information, any member who voted no on April 2 should explain what changed.
 
-*Questions to prepare:* What specific line items changed between the March 30 version and tonight's version? What is the dollar value of those changes? Does the revised budget change the per-pupil cost figure, and if so, by how much?
+*What David should prepare:* A mental model of the vote math. The April 2 failure was 5–2 against ratification. David should track which two members voted yes — and which members' stated objections are most addressable on 24 hours' notice — before the session opens. If the state funding texts are introduced again without written confirmation, that is a repeat of the decision-avoidance pattern, not a resolution of it.
 
-**4.2 Consideration and action to convene a meeting with City Council to seek budgeting guidance**
+**A possible update on state funding status.** If the board contacted state officials between April 2 and April 3, the update will either be verified (with a dollar amount, program name, and timeline) or remain informal. The quality of that update matters more than the dollar figure.
 
-This item is the governance moment David has been tracking since December. Two bodies, two separate fiscal universes, zero structured coordination. A formal joint meeting request is the first procedural step toward closing that gap.
+*What David should listen for:* Attribution. Who confirmed the funding, through what channel, and is there a written document? "We spoke with someone" is not evidence. A program name, a line item in a state supplemental budget, or a written communication is evidence.
 
-But the framing of the request matters enormously. "Seeking budgeting guidance" is vague enough to mean almost anything. David needs to know: Is the board asking the council to ratify the 6% ceiling already in the proposed budget? Asking for permission to go higher? Asking the council to publicly own the cuts? Or asking for the combined tax-impact analysis that no one has produced — the full stack of school gap, Mahoney, Pearl Street, public safety bonds, and residential burden?
+*What David should prepare:* If the state funding is real at $300K and $750K combined, that is $1.05M in one-time money. Whether it should go to recurring positions versus the fund balance rebuild is the analytically correct question. David should be ready to note — privately if he speaks to a board member afterward — that putting one-time revenue into recurring obligations compounds the FY28 gap instead of narrowing it.
 
-*What to listen for:* Does the board articulate a specific question it wants answered by the council, or is this a process motion to convene without a defined agenda? Does any board member name the combined capital obligation stack as part of what the council needs to weigh? Does anyone invoke Matthews' "$8.4M" figure — which still doesn't reconcile with any figure in David's tracking — as part of the ask?
+**A possible preview of the April 7 city council presentation.** If the budget is ratified today, the board or superintendent may frame what goes to the council on April 7. If it is not ratified, someone needs to answer what the council reviews next week.
 
-*Questions to prepare:* What specific question will the board bring to the City Council meeting? Will the joint meeting agenda include the full taxpayer impact model — school structural gap plus all capital obligations against the residential tax base? What is the proposed date for the joint meeting, and does it fall before or after the health insurance final figure lands on April 10?
-
-**Public Comment (items 3.0 and 5.0)**
-
-David is unlikely to speak. But he'll track whether public commenters bring new cost or data claims that warrant follow-up. He's particularly alert to any new figure that doesn't reconcile with his model — that's his signal to do additional research, not to dismiss the speaker.
-
-*What to listen for:* Any community speaker citing a specific number David can't source. Any statement from a union representative about FTE counts or benefit costs that contradicts or extends the director-FTE table presented March 30.
+*What David should listen for:* Any acknowledgment that presenting an unratified budget to the council is procedurally unusual. If no one names it, that is itself a signal.
 
 ---
 
 ## Watch For
 
-- **Whether the budget vote is taken tonight or deferred pending council guidance.** The sequencing matters: if the board votes before getting council guidance, the no-vote coalition has to decide whether to hold firm or signal movement. If they defer, the April timeline tightens significantly toward the June 9 referendum.
+- **Whether anyone names the state funding texts in verifiable terms before the vote.** Program name, dollar amount, timeline, written confirmation. If the basis for the April 2 deferral was two texts, the basis for resolving that deferral should be something more durable than two more texts. Watch Ketchem — if she has a number she trusts, she will frame it precisely.
 
-- **A specific revision list in the budget update.** If the administration presents a "revised" budget tonight, David should note whether a change log is provided. If no line-item delta is published, that's the absence of rigor he's been documenting across 23 meetings.
+- **The vote count and which members shift.** If a member who voted no on April 2 votes yes today with no new information on record, their stated rationale was not the actual rationale. Track it.
 
-- **Any mention of the fund balance rebuild timeline.** Zero reserves is now confirmed. If tonight's budget adoption — if it happens — does not include a minimum fund balance target and a multi-year rebuild schedule, that's a board governance failure David can name precisely, with dates, across prior sessions.
+- **Whether the fund balance recommendation gets a motion.** Ketchem has named $6.75M–$9M as the target range at least three times. If the board ratifies the FY27 budget tonight without attaching a fund balance rebuild commitment — even a non-binding timeline — the recommendation has again floated without landing. That pattern is now analytically significant: it suggests the board is not ready to commit to the fiscal discipline the finance director is prescribing.
 
-- **Ketchem's presence and role.** Is she presenting? Is she asked directly about FY28 math? Her continued engagement is the only stability variable David has confirmed since March 23. If she's absent or sidelined from the budget discussion, that's a signal worth noting.
+- **Any discussion of FY28 framing.** Ketchem named the FY28 structural math on April 2 for the first time in an official setting. Watch whether any board member asks for a FY28 projection as a condition of ratifying FY27 — that would be the analytically coherent move. If no one raises it, the board is ratifying a one-year document while the finance director has just told them the following year is already structurally broken.
 
-- **The framing of the City Council ask.** If Item 4.2 produces a motion with vague language like "seek guidance on the budget," David should watch whether any board member moves to amend it to include a specific question — particularly on the combined capital obligation analysis. The absence of a specific question is itself a finding.
+- **How the state funding allocation question is handled if the funding is confirmed.** Recurring positions versus fund balance rebuild is the controlling decision. If no one asks the question, David should flag it for a board member he knows — this is exactly the kind of note he would share privately after the meeting.
 
-- **The DEI reclassification follow-through.** Did anyone follow up between March 30 and tonight with a confirmed dollar figure? If the line item reappears in tonight's budget discussion and still carries zero confirmed impact, David now has two data points for his working assumption that headline savings in this budget require verification.
+- **Signs that the April 7 city council date is now governing the clock.** If the superintendent or chair references April 7 as a hard deadline, that changes the pressure calculus in the room. Watch whether urgency language shifts the tone of any member who has been deferring.
 
-- **Whether the reconfiguration road map is mentioned at all.** The April 7 engagement meetings are three days away. If the board does not reconcile tonight's budget status with that schedule — explicitly — the operational plan is running ahead of the fiscal authorization. David should note the gap.
+- **Whether Ketchem volunteers anything about health insurance.** The final rate is expected April 10 — one week out. If she has a preliminary figure or a narrowed range, she may introduce it. A number below the 11.5% ceiling would give the board modest room; a number at or near the ceiling closes it. Either way, David wants to hear her characterize it as a closed range, not a still-open variable.
 
-- **The vote count and who moves.** On March 30, Kaler closure was 6-1 and reconfiguration was 4-2 — both passed. The budget was 5-2 against. If a vote is taken tonight, watch which of the five no-votes move and which hold. The split will tell David whether this is a fiscal objection, a political one, or something else entirely.
+- **Procedural handling if the vote fails again.** A third deferral would be a governance event with no clear precedent in this cycle. Watch whether anyone on the board has a motion ready for that scenario — a deadline-forcing resolution, a conditional approval, or a chair's ruling on what happens at the April 7 council presentation. If no one has prepared for that contingency, the board is not yet treating the deferral pattern as a pattern.

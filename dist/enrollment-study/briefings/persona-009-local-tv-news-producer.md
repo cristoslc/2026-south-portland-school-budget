@@ -2,109 +2,113 @@
 schema_version: "1.0"
 persona_id: "PERSONA-009"
 persona_name: "Dana"
-upcoming_meeting_date: "2026-04-02"
-generated_date: "2026-04-01"
-has_agenda: true
+upcoming_meeting_date: "2026-04-03"
+generated_date: "2026-04-03"
+has_agenda: false
 last_cumulative_meeting: "2026-03-23"
-inter_meeting_evidence_count: 2
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: Dana (PERSONA-009)
-## Upcoming Meeting: 2026-04-02
+## Upcoming Meeting: 2026-04-03
+
+# Pre-Meeting Brief: Dana (PERSONA-009)
+**Meeting Date:** 2026-04-03 | **Last Processed:** 2026-03-23 (Redbank Workshop)
+
+---
 
 ## Since Last Meeting
 
-**The March 30 vote Dana expected never materialized in the evidence record.** The cumulative state flagged March 30 as the decision point after the March 23 workshop collapsed at 11:15 PM. The only inter-meeting evidence is from April 1 — a revised agenda and a reconfiguration road map — with no account of what happened March 30. That gap matters: if March 30 produced something significant, Dana is walking into April 2 without knowing it. She should call her board source tonight.
+No new inter-meeting evidence has come in since the March 23 Redbank workshop. That silence is itself a production problem.
 
-**Two April 1 developments are directly relevant to her production calendar:**
+March 30 was identified at the end of the March 23 meeting as the board's next decision point — the night the board was supposed to vote on school reconfiguration after failing to do so at 11:15 PM on March 23. Dana does not yet know what happened at that meeting. She is walking into April 3 blind on the most consequential vote of the entire budget season.
 
-The revised April 2 agenda adds action items that weren't on the original — including a formal board vote to request city council budgeting guidance. That vote, if it happens, is not the story. The *joint meeting it triggers* is the story. Dana needs to be ready to pivot her crew deployment planning from April 2 to whatever date that joint meeting lands on.
+The absence of any flagged evidence from March 30 could mean several things: the meeting was procedural and anticlimactic, decisions were again deferred, or the story broke without Dana catching it in time. Before the April 3 meeting, she needs to run down what actually happened on March 30 — either by pulling the SPC-TV recording, calling her board source, or checking local press. If reconfiguration was voted on, the segment she has been building since March 2 (equity vs. fiscal efficiency, Skillin vs. Kayler, Blair Bacon on camera) may already have a resolution she hasn't reported yet. If it was deferred again, April 3 could be the actual decision meeting — and she needs a crew there.
 
-The reconfiguration road map is a gift she didn't have before. The district has published school-by-school family engagement sessions from April 7 through April 16, with interpretation services and a ThoughtExchange survey. That schedule gives Dana a concrete week of b-roll opportunities: school buildings, parents at the door, interpreters at the table. It also signals the district is moving ahead on reconfiguration regardless of what the board votes tonight — which is its own story.
-
-**Blair Bacon's urgency clock is ticking.** She appeared at the March 23 microphone and gave Dana the on-camera subject she'd been looking for since December. The March 18 pink slips are now two weeks old. The human story loses news-cycle edge with every day that passes without a vote or a closure announcement.
+Also unresolved from March 23: the Kayler Title VI question. The board chair said on the record, at 11 PM, "I don't have the answer" to a direct federal civil rights compliance question. That answer — or a lawyer's answer that supplants it — has not surfaced in the evidence pool. If the district sought legal counsel between March 23 and today, that guidance shapes what the board can legally vote on at April 3.
 
 ---
 
 ## Open Questions
 
-- **Is April 2 worth a crew, or is the joint council meeting the one I actually need?** I don't want to burn a shoot on a procedural vote when the confrontation is coming two weeks from now.
-- **What happened at March 30?** The board was supposed to vote. Did they? If they punted again, that's a pattern story — and the answer changes my lede.
-- **Can I get Blair Bacon on camera this week?** She found me at the microphone. I need to lock her in before the RIF story cools and she moves on or gets rescinded.
-- **Is Board Chair DeAngelis going to hold it together tonight?** Her eight-minute grief disclosure on March 23 was the emotional peak of the season. A second one on camera is a segment. A composed "update" is dead air.
-- **Who else is showing up to public comment?** Will the Kayler Title VI parent be back — and this time with a lawyer or a formal complaint? That transforms the equity story from a policy debate into a legal liability story.
-- **What is the board actually voting on tonight?** The revised agenda lists a superintendent's budget vote and the council guidance request. Are both happening, or is this another meeting that ends without a decision?
-- **What does the reconfiguration road map tell me about which school is closing?** The April 7–16 engagement schedule lists specific schools. Which ones are doing "transition planning" versus general outreach? That's the tell.
-- **When is the joint board-council meeting, and is that the one I should plan the full crew deployment for?** The February 10 blowup was built up for weeks. If that meeting is set, I need it on my calendar now.
-- **Has Finance Director Ketchum said anything publicly since March 23?** She self-identified as "the seventh in six years" and said the district "drove off a cliff it didn't see coming." If she's still in the room tonight, she's a secondary subject. If she's gone, that's a different story.
+These are the threads Dana is carrying in, in the order that matters for production decisions:
+
+- **What happened at March 30?** Did the board vote on reconfiguration, defer again, or blow up? This is the single biggest gap before she walks into April 3.
+- **Is Blair Bacon still employed?** The March 30 vote may have finalized cuts. If Blair is formally RIF'd, the story arc closes. If she's still in limbo, Dana still has a subject.
+- **Did the board get a legal answer on Title VI before voting?** If not, is the district knowingly making a decision that could expose it to a federal civil rights complaint?
+- **Did the board chair — visibly distressed, personally disclosing illness and grief on March 23 — have the standing to lead a contested equity vote?** That eight-minute moment is either the segment's emotional center or a liability to the district she hasn't fully reported.
+- **Has the city council moved its 3% guidance upward at all?** The February 10 confrontation was never formally resolved. If the board votes on a budget with a number that blows past the council's ceiling, Dana has a rematch story.
+- **Is Kayler now the primary closure target?** The March 23 deliberations left this unclear. If Kayler is on the table, the Title VI exposure is not theoretical.
+- **Can she get Blair Bacon on camera before this story loses its urgency?** She found her subject on March 23. The window between "pink slip received" and "closure decision made" is the segment's emotional shelf life.
+- **Who is DeAngelis right now?** A board chair who cried in public, disclosed a serious illness, and couldn't answer a federal compliance question at midnight — is she returning as the decision-maker, or has the leadership dynamic shifted?
+- **Does Finance Director Ketchum's "seventh in six years" quote have legs?** That line is a lede. Has anyone followed up — a reporter, a council member, anyone on the record — about who the six predecessors were and what accountability looks like?
+- **Where is the homeowner who can speak to all three tax hits at once?** She's been building the combinatorial story since January. The school referendum, the $87M public safety bond, the 22% sewer rate hike — they all land on the same property tax bill. She still doesn't have a single face to put on it.
+- **Has Chief Ahern agreed to an interview?** The apology story has a short half-life. If she doesn't get him on camera soon, that segment is a clip-and-comment piece, not a live interview.
 
 ---
 
 ## Agenda Implications
 
-**1.0–1.1 Call to Order / Opening Statement**
-Procedural. Not worth crew time unless the opening statement addresses the March 30 outcome or contains a new disclosure. Dana should listen for any acknowledgment of what the board did or didn't do on March 30 — a gap in the record she needs filled.
+No agenda is available for the April 3 meeting.
 
-**2.0 Board Chair Update**
-This is the highest-risk / highest-reward moment of the meeting for Dana. DeAngelis's March 23 eight-minute public disclosure — grief, illness, community accusations, visible distress — happened at the microphone *before* she called a recess and adjourned without a vote. Tonight she is still the chair, still presiding over an equity-contested closure decision, and still carrying all of that publicly documented weight. An "update" from her is not neutral filler. Dana should watch for:
-- Composure versus visible strain — this is what the camera reads
-- Any new personal disclosure that recontextualizes her capacity to lead the vote
-- Whether she addresses the Kayler Title VI question she left unanswered at 11 PM on March 23 — the one she said, on the record, "I don't have the answer" to
+Given where the board left off on March 23, the most likely items for April 3 fall into three categories — and Dana should be prepared for all three even without confirmed agenda confirmation.
 
-*Questions to prepare:* Can I get 30 seconds with DeAngelis after the meeting? What is her answer now to the Title VI compliance question?
+**Most likely: Reconfiguration vote or deferred vote**
 
-**2.1 Budget Update**
-This is where the FY27 superintendent's budget vote may live, per the inter-meeting evidence. Dana needs the top-line number to write her lede, but the number itself isn't new — 18.95% increase, $7.2–8.4M gap, 72 pink slips. What is new tonight is whether the board is moving toward *adopting* a budget or continuing to defer. Adoption is a vote. Deferral is a pattern. Either answer is a sentence.
+If March 30 did not produce a final vote, April 3 may be the board's last attempt before the referendum window forces a decision. Dana should treat this as a potential decisive-vote night and plan crew deployment accordingly. The decisive-vote night is the one TV meeting worth full coverage: it has a result, a winner, a loser, and affected families in the audience. If reconfiguration is on tonight's agenda, she should confirm crew before the meeting starts — not at 7 PM when she's watching the live stream.
 
-*Listen for:* Any update from Finance Director Ketchum — is she still on the job? Does she add anything to her March 23 cliff-driving confession? Any mention of FY26 deficit resolution, since the current year is simultaneously heading toward a deficit across all scenarios.
+What to listen for: Does the board actually call a vote, or does someone move to table again? A second deferral is itself a story — "the board that can't decide" with a clock running.
 
-*Questions to prepare:* Is this a vote or a discussion? What dollar figure is on the table tonight?
+Questions to have ready: What criteria will the board use to choose between options? Has legal counsel weighed in on the Title VI question raised March 23?
 
-**2.2 Board Discussion**
-Likely where early-release days (to support reconfiguration work) will be discussed. Dana should treat this as contextual background — it confirms the district is operationally preparing for a school closure before the board has formally voted on which school closes. That sequencing is a story in itself.
+**Possible: Budget adoption or updated fiscal guidance**
 
-*Listen for:* Any board member naming which school they believe is being reconfigured. Any dissent from the four members who blocked Skillin closure on March 2.
+The board still needs to adopt a FY27 budget for referendum. If Finance Director Ketchum has revised figures — or if the board is being asked to formally endorse a tax increase number — this is the night the 18.95% figure either becomes official or gets revised downward by cuts. Dana should have the 18.95% number in her script as a benchmark and be prepared to update her lede if the board moves to a different figure.
 
-**3.0 Public Comment (first)**
-Dana's most important segment of the meeting. This is where Blair Bacon, the Kayler Title VI parent, or a new voice could deliver the soundbyte that builds the segment. The inter-meeting evidence shows the reconfiguration road map includes an interpretation services request form — meaning the district anticipated non-English-speaking families attending engagement meetings. If any of those families show up tonight, that is a visual and audio moment Dana cannot replicate from a document.
+What to listen for: Any mention of a revised deficit figure, a revised number of RIF'd positions, or a change in the state funding picture. Ketchum's self-described institutional crisis got no resolution at March 23 — if she presents at April 3, her credibility as a source (and as a soundbyte) is active again.
 
-*Watch for:* Blair Bacon at the microphone again — this time Dana should be rolling. The Kayler Title VI parent, especially if they've escalated to a formal complaint or legal representation. Any parent who can speak to the class-size jump from 16 to 23 students with a child's name attached.
+Questions to have ready: What is the current deficit projection — the $7.2M official figure or the $8.4M figure Matthews cited March 19? Has any reconfiguration option produced a revised savings estimate?
 
-**4.2 Consideration and action to convene a meeting with City Council to seek budgeting guidance**
-This is the procedural gateway to the meeting Dana actually wants to cover. A vote to request guidance is not a story. The *joint meeting* that vote enables — the next iteration of the February 10 blowup — is the season's final act. Dana needs to come out of tonight knowing two things: did the board vote yes, and when is the joint meeting scheduled?
+**Low probability but high value: Legal update on Title VI**
 
-If the board votes yes and a date is announced, Dana's crew deployment decision is made. That joint meeting is the one. She should treat tonight as reconnaissance for that event.
+If the board sought counsel after the March 23 midnight disclosure, April 3 is when that advice surfaces. A lawyer telling the board it cannot close Kayler without a federal equity analysis is a direct story — and a rare moment where a school board procedurally acknowledges a legal constraint on camera.
 
-*Listen for:* Any board member framing this request as an ultimatum to the council ("we need a number, not guidance"). Any member invoking DeAngelo's February 10 language — "not sufficient, not adequate, not appropriate, not acceptable." A date certain for the joint meeting.
-
-*Questions to prepare:* When is the joint meeting? Will the council be given a specific ask, or another open-ended request?
-
-**5.0 Public Comment (second)**
-Second public comment often catches reaction to what the board just voted on. If the 4.2 vote produces a split or a surprising outcome, this is where community members respond in real time. Worth staying for.
-
-**6.0 School Board Communications**
-Low news value unless a board member uses this slot to signal something off-agenda — a resignation, a legal filing, a counter-proposal. Dana should stay alert but not expect a segment here.
+What to listen for: Any mention of legal review, federal compliance, or a revised process for the Kayler decision. If the board moves to delay the Kayler decision specifically while it waits for legal guidance, that's the story — not the reconfiguration itself.
 
 ---
 
 ## Watch For
 
-- **DeAngelis's physical and emotional state from the moment she gavels in.** She presided over a collapsed midnight meeting ten days ago while publicly processing grief and community accusations. The camera will read what the transcript cannot. If she looks like someone steadying herself to finish a job, that's one segment. If she looks like someone who has been through something since March 23, that's a different one.
+**Production decisions — send crew or not:**
+- If reconfiguration is on tonight's agenda, send a crew. The decisive vote is the segment she has been building since March 2, and a live reaction shot from parents in the room is not replaceable by a recording.
+- If the board defers again, the reaction shot from tired, frustrated parents after 10 PM is actually the segment — "this board can't decide" with faces.
 
-- **Whether Finance Director Ketchum is in the room.** Her March 23 self-diagnosis — "seventh in six years," "drove off a cliff it didn't see coming" — is currently Dana's strongest institutional-failure soundbyte. If Ketchum is absent, ask why. If she's present and speaks, listen for whether she adds anything or walks anything back.
+**Blair Bacon:**
+- She appeared at March 23. If she's in the room again tonight — or if she's visibly absent — that tells a story. A teacher who spoke publicly and then disappeared suggests the March 30 decision resolved her situation.
+- If Bacon speaks again, listen for whether her framing shifts from "please don't cut me" to "the board failed us" — that is the post-vote segment.
 
-- **A date for the joint board-council meeting.** If the 4.2 vote passes and a specific date is announced, write it down and build the crew deployment request that night. That joint meeting is the February 10 blowup's sequel — the one with stakes the first one lacked.
+**Board Chair DeAngelis:**
+- Watch her physical presentation. On March 23 she disclosed grief, illness, and community accusations in an eight-minute statement. If she leads tonight's meeting with composure, the crisis-management frame is operative. If she is visibly diminished, that is the body-language read Dana's shooter should be capturing for b-roll.
+- Listen for whether any other board member steps up to steer the meeting in her place — a sign of informal leadership transfer.
 
-- **Blair Bacon in the public comment queue.** She appeared March 23 and provided the human face for the 72 RIF cohort. If she's back tonight, that's the segment: a nationally board-certified teacher, in a room where a board is still not voting, ten days after receiving a pink slip. The urgency is eroding. Roll camera.
+**Finance Director Ketchum:**
+- If she presents revised figures, listen for whether the deficit number has grown or shrunk since March 23. Any upward revision is a lede-changing fact.
+- Her "seventh in six years" line is already a usable soundbyte. If she says anything that compounds it tonight, that becomes the institutional-failure through-line for the full season wrap.
 
-- **Any parent who invokes Title VI — especially with a lawyer present.** Board Chair DeAngelis said on the record at 11 PM on March 23 that she didn't have the answer to whether the Kayler closure decision complied with federal civil rights law. If that question returns tonight with legal representation attached, the story has moved from equity debate to legal liability. That is a different segment requiring a different lede.
+**The Title VI question — watch who raises it:**
+- On March 23, a Kayler parent asked the question. If a board member raises it tonight proactively, the district is taking it seriously. If only parents raise it from the microphone again, the board is still avoiding it.
+- Watch DeAngelis's face and body language the moment Title VI is mentioned. Her March 23 "I don't have the answer" was an on-record admission under pressure. A prepared answer tonight suggests counsel was consulted. Another deflection suggests it wasn't.
 
-- **Split votes.** The board has four members on record against Skillin closure (March 2). If tonight's 4.2 vote on requesting council guidance is not unanimous, or if any board member dissents from moving forward, name the dissenter and find out why. That's the counter-narrative Dana has been looking for.
+**The council's 3% ceiling — watch for any reference to it:**
+- If a board member cites the city council's guidance during a budget vote and calls it insufficient, that is a live reprise of the February 10 confrontation. Dana should have the DeAngelo clip ready as comparison footage.
+- If no one mentions the ceiling tonight, note the silence: the board may be acting unilaterally and expecting a council fight after the fact.
 
-- **Any operational signal about which school is actually being closed.** The reconfiguration road map lists school-by-school engagement meetings April 7–16. If tonight's board discussion names specific schools in the context of early-release days or transition planning, that is an earlier disclosure than the board may intend. Listen for it and follow up.
+**The audience:**
+- March 23 ran until 11:15 PM. If tonight's room is fuller earlier in the meeting — especially with immigrant families, Kayler parents, or union members — the pressure dynamic is different than a late-night attrition crowd.
+- If the room empties before a vote, that is also a story: civic exhaustion as a measurable phenomenon.
 
-- **Tone shift from the dais.** The March 23 meeting ended in procedural collapse with a chair who couldn't answer a compliance question and four hours of testimony producing zero votes. If tonight is brisk, businesslike, and moves to a vote — that itself is news. Something changed between March 23 and April 2. Find out what.
-
-- **Who is not in the room.** If a board member is absent tonight, that is worth a question. The margin on any vote about school closure or council guidance may be thin enough that an absence changes the outcome.
-
-- **The reconfiguration road map's interpretation services form as a visual detail.** Dana needs b-roll. The April 7–16 school-by-school meetings are built for it: buildings, families, translators at tables. Tonight she should confirm which schools are on that schedule — that's her location list for next week's footage.
+**Timestamp targets for the SPC-TV recording (if she can't send crew):**
+- Public comment period — first 30–45 minutes, watch for the one parent or teacher who has a specific, concrete grievance with a number attached.
+- Any board member motion to vote on reconfiguration — that moment and the reaction that follows.
+- Any mention of Title VI, legal counsel, or federal compliance.
+- DeAngelis's opening statement, if she makes one.

@@ -2,94 +2,87 @@
 schema_version: "1.0"
 persona_id: "PERSONA-006"
 persona_name: "Tom"
-upcoming_meeting_date: "2026-04-02"
-generated_date: "2026-04-01"
-has_agenda: true
-last_cumulative_meeting: "2026-03-30"
-inter_meeting_evidence_count: 2
+upcoming_meeting_date: "2026-04-03"
+generated_date: "2026-04-03"
+has_agenda: false
+last_cumulative_meeting: "2026-04-02"
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: Tom (PERSONA-006)
-## Upcoming Meeting: 2026-04-02
+## Upcoming Meeting: 2026-04-03
 
 ## Since Last Meeting
 
-Two developments hit between March 30 and today, and both matter to Tom.
+No new evidence has emerged in the period between the April 2 school board meeting and today, April 3. There is no inter-meeting news to process.
 
-**The revised April 2 agenda.** The meeting now includes an explicit item asking the board to formally request City Council guidance on the budget — a direct consequence of the 5-2 failure two days ago. That's a structural shift. For the past several weeks, the council has been a passive audience while the board stumbled. Tonight the board may formally invite them back into the room. Whether that produces a ceiling with teeth, or just more "guidance" the board ignores, is the question Tom should be watching.
+That silence is itself notable. The district left April 2 in a procedurally unusual position: the finance director confirmed the 6% local levy ceiling and the $257/year per-household figure as the superintendent's FY27 proposal, but the board still has not formally voted to adopt a budget. They are heading to the April 7 city council meeting on the superintendent's recommendation alone — without board authorization behind it. No public clarification of that posture has surfaced in the gap. No board member has publicly walked back their push for a higher ask. No council member has signaled whether they will treat an unvoted superintendent's proposal the same way they would treat a formally adopted board budget.
 
-**The reconfiguration road map.** The district published school-by-school staff and family engagement meetings for April 7–16, a public ThoughtExchange survey, and interpreter services for the process. On one hand, this shows the Kahler closure authorization (6-1 on March 30) is actually being implemented — not shelved. On the other hand, the engagement calendar is already out the door before tonight's budget vote is resolved. That sequencing tells Tom the administration is moving forward on reconfiguration regardless of what the board votes tonight, which raises a legitimate question about who is actually driving fiscal decisions.
-
-The most significant absence: no public body has updated the per-household cost figure since the March 30 failure. Tom walked into the weekend knowing $257/year was the number if 6% held. He walks into tonight not knowing what the board is actually going to ask for.
+The quiet between April 2 and April 3 means Tom enters the next meeting with the same unresolved tension he left with: the number is confirmed, the vote is not.
 
 ---
 
 ## Open Questions
 
-Tom carries these into tonight's meeting:
+These are the threads Tom is carrying in, in his own terms:
 
-- **How much more than $257 a year are they trying to take from me?** The budget failed two days ago, a majority of the board wants to go higher than 6%, and nobody has put a revised household number on the table.
-- **If the board asks the council for guidance, does the council actually say a number — with a ceiling — or do they just repeat "be fiscally responsible" and go home?**
-- **The 82 added positions breakdown was promised to the council in February. Has anyone delivered it yet?** The board is asking for more money while that debt to transparency is still open.
-- **What happens to the $257 figure if the board amends the superintendent's budget upward tonight?** Someone needs to put a dollar amount on the increase.
-- **Is the city council actually going to loan from its undesignated fund balance to cover the school district's reserve gap — and what are the repayment terms?** Every dollar they loan is a dollar that can't absorb the next crisis.
-- **When do I see a minimum fund balance threshold policy?** The finance director named it as the missing guardrail three weeks ago. Where is it?
-- **Even if they hold 6% for FY27, how does the board intend to close FY28 when labor contracts exceed 6% annually?** Passing tonight's budget doesn't solve the structural problem — it just kicks it to next year.
-- **The reconfiguration engagement calendar is already out. Who authorized that before tonight's vote? Is this a real process or a done deal dressed as community input?**
-- **What happened to the remaining ~$4.4 million gap?** Identified savings total roughly $4 million of the $8.4 million deficit. The rest has never been publicly closed.
+- **The board still hasn't voted. Does walking into the council on April 7 without a formal budget vote weaken the district's position — or does it give the council an opening to push back harder?**
+- **Feller, Richardson, Holman, and DeAngelis all pushed to ask for more money after the March 30 failure. Have any of them changed their position, or are they just waiting until the council meeting to make their move?**
+- **If the council agrees to loan the district money from its fund balance to rebuild reserves, what are the repayment terms? That's another obligation stacked on top of everything else — has anyone put a dollar figure on it?**
+- **The 6% ceiling is supposed to hold for FY27. But labor contracts structurally cost more than 6% per year. So what's the actual plan for FY28 — or are we just setting up the same crisis again twelve months from now?**
+- **The district still hasn't produced the breakdown of those 82 added positions. The council asked in February. It's April. Why hasn't that answer appeared?**
+- **The $300K to $750K in possible new state money is still unconfirmed. If it comes through, will it close the gap — or will the board use it to restore cut positions and defer the underlying mismatch again?**
+- **Nobody has published a combined per-household number: school increase plus three years of sewer hikes plus the police/fire bond plus Mahoney. What is that number for a home assessed at the city average? Why hasn't anyone been asked to produce it?**
+- **At what dollar amount does the November 2026 police and fire referendum actually pass, given how much pressure homeowners are already absorbing? Has anyone done that analysis?**
+- **The fund balance has been drawn twice in back-to-back weeks. The city's $5.8 million cushion isn't looking as solid as it did in February. How much is left — and what happens if the council needs to loan some of it to the school district on top of what they've already spent?**
+- **The chimney stack repair and the Skillin boiler are sitting there with no funding. When do those enter the queue if the district has zero fund balance and FY28 is already structurally broken?**
 
 ---
 
 ## Agenda Implications
 
-**2.1 Budget Update / 2.2 Board Discussion**
+No agenda is available for the April 3 meeting. General guidance follows based on Tom's cumulative state.
 
-This is the main event. The budget failed 5-2 three days ago. Tonight the board returns to the same question — but the context has shifted because item 4.2 (City Council guidance) is now formally on the agenda. The discussion in 2.2 will almost certainly be about whether to vote on the superintendent's budget as submitted, amend it upward, or hold until after a council conversation.
+**This meeting likely falls in the 48-hour window between the April 2 board deferral and the April 7 city council presentation.** That context shapes what Tom should be prepared for, regardless of the specific items on the agenda.
 
-*What this means for Tom:* If Richardson, Holman, and DeAngelis push to amend the budget above 6% before seeking council guidance, they are explicitly trying to present the council with a fait accompli. Watch whether the 5-2 dissent from March 30 holds or whether any votes shift tonight.
+**Most likely topics:**
 
-*What to listen for:* Any specific dollar figure above the 6% ceiling. Any language about "bringing a number to the council" versus "letting the council set the number." If board members start discussing the June referendum as a fallback — "the voters will decide" — that is the board offloading accountability.
+**The procedural status of the FY27 budget.** Any meeting in this window — school board, council committee, or public forum — is likely to surface the question of what it means that the board is going to the council without a voted budget. For Tom, this matters because a board that can't vote on its own proposal is a board that has already lost procedural control of the process. He should listen for whether anyone frames this as normal or as the governance failure it actually is.
 
-*Questions to prepare:* What is the revised per-household annual cost if the budget is amended above 6%? Has any board member calculated the FY28 equivalent?
+- *Listen for:* Whether the finance director or superintendent characterizes the April 7 council presentation as routine or flags the missing board vote as a complication.
+- *Question to prepare:* "Can the council formally act on a budget the board itself hasn't adopted? What are the procedural implications?"
 
----
+**The 6% ceiling and whether it's still holding.** The number has been confirmed twice now, but board members who pushed for a higher ask on March 30 have not publicly reversed that position. Any meeting before April 7 is a potential venue for that push to re-emerge — or for the superintendent to signal whether they'll hold the line at the council.
 
-**4.2 Consideration and action to convene a meeting with City Council to seek budgeting guidance**
+- *Listen for:* Any softening of language around the 6% figure, or any framing that "the council might have flexibility" — that is the tell that the ceiling is being prepared for abandonment.
+- *Question to prepare:* "Is the superintendent's 6% proposal the district's final ask, or is it an opening position?"
 
-This item is either Tom's best ally or a procedural delay tactic, depending on how it's framed. The city council provided 3–6% guidance in February and the school board spent the next six weeks trying to work around it. A formal joint meeting could put the council on record with a binding ceiling — or it could produce another non-binding conversation that the board uses to claim cover while doing what it already planned.
+**The combined burden picture.** Tom has been waiting since January for any public body to produce a total per-household impact number across all four simultaneous cost pressures. No agenda item is needed — any public comment opportunity or Q&A is a chance to surface it.
 
-*What this means for Tom:* The council has been the only body in this process that has actually pushed back on the school budget. If they are formally convened and asked for guidance, there is a chance they say something with teeth. But "seeking guidance" is different from "asking for a ceiling." Tom should care about that distinction.
+- *Listen for:* Whether anyone — board member, council member, city manager — references the sewer increases or the police/fire bond in the same breath as the school increase. If they're still treating these as separate conversations, the combined burden number has still not been internalized.
+- *Question to prepare:* "Can someone tell me what all four of these — school tax, sewer rate increases, police and fire bond, and Mahoney — add up to annually for a homeowner at the city's average assessed value? That number should exist before any referendum."
 
-*What to listen for:* Does the motion specify that the council provide a maximum levy increase figure — or just general fiscal input? Is a date set for the joint meeting, or is this an open-ended request? Does any board member frame the council meeting as a step before the vote, or as a step to validate a vote they've already taken?
+**State funding updates.** The $300K–$750K in potential new state money surfaced April 2 through direct legislative outreach. If it has advanced or been confirmed in the 24 hours since, that changes the deficit math — but it also opens the question Tom has been waiting to ask.
 
-*Questions to prepare:* Will the council meeting produce a binding ceiling that determines what goes to the June referendum, or is it advisory? When is the joint meeting scheduled, and does it happen before or after the board submits a final budget number?
-
----
-
-**3.0 and 5.0 Public Comment**
-
-Two public comment windows. The second window (item 5.0) follows New Business, which means it comes after the council guidance vote. That sequencing matters: if the board votes on the FY27 budget before public comment opens, Tom will be commenting on a decision already made.
-
-*What this means for Tom:* If he plans to speak, he should go to the 3.0 window — before any votes — and put his specific household cost question on the record while the board can still hear it.
-
-*What to say if he speaks:* Ask for a revised per-household annual cost figure, in writing, before any vote on an amended budget. Ask whether the board has calculated the combined household burden (school tax + sewer rate increases + bond debt service) before asking for more. Keep it short and specific — two questions, two minutes.
+- *Listen for:* Any update on the state funding confirmation, and specifically whether the language used is "close the gap" or "restore positions." Those two phrases have very different fiscal implications.
+- *Question to prepare:* "If new state money comes through, is the board committed to applying it to the structural deficit — or is that decision still open?"
 
 ---
 
 ## Watch For
 
-- **Whether the FY27 budget vote actually happens tonight.** The revised agenda shows Budget Update and Discussion but no explicit action item for a vote. The inter-meeting evidence says a vote is expected. If the board tables the vote again pending council guidance, that is a meaningful delay — and Tom should track whether that delay is honest (waiting for the council ceiling) or strategic (giving the pro-increase faction more time to find votes).
+- **Watch the board members who pushed for a higher ask on March 30.** Richardson, Holman, and DeAngelis have not publicly reversed their position. If any of them speaks at or before April 7, listen for whether they are still angling for a larger number or have been brought into line. Any hedged language like "we'll see what the council says" should be read as them leaving the door open.
 
-- **Richardson, Holman, and DeAngelis specifically.** These three drove the push to exceed 6% after March 30. Watch whether any of them have shifted position, whether they propose a specific amended number, and whether they have calculated a revised per-household figure. If they haven't done that arithmetic, challenge it at public comment.
+- **Watch for the phrase "flexibility" from anyone connected to the council side.** Tom has learned that when elected officials use that word around a fiscal ceiling, enforcement is coming off the table. If a councilor says the 6% is "a good starting point" or that they want to "see what the district needs," that is a signal the February joint workshop discipline is eroding.
 
-- **The two dissenting votes from March 30.** Those two board members voted against the budget. Watch whether their opposition was to the budget as too high or too low — the 5-2 failure conceals which direction the pressure is coming from. If both no votes were fiscal hawks, that is meaningfully different from a split between hawks and doves.
+- **Watch whether the 82 positions breakdown finally surfaces.** It was promised to the council in February and never delivered. If it appears anywhere before April 7, that changes Tom's read on whether the administration is actually being transparent — or whether the delay itself is the answer.
 
-- **How the motion at 4.2 is worded.** "Seek guidance" versus "seek a ceiling" versus "present our budget for approval" are three different asks. The exact language matters. If it says anything close to "present" or "present for review," the board is trying to flip the accountability onto the council.
+- **Watch for any public framing of the April 7 presentation as a "request" versus a "recommendation."** A board that frames its presentation as asking the council for permission to spend is in a weaker position than one presenting an adopted budget. The framing tells Tom how much leverage the council actually has — and whether they'll use it.
 
-- **Any mention of the June referendum as a direct taxpayer bypass.** If board members start framing the referendum as the appropriate venue for the real number, they are explicitly choosing to go around the council and straight to voters — hoping for a different outcome than a council ceiling would produce. That is the board betting that referendum turnout will favor spending advocates over fiscal watchdogs.
+- **Watch the finance director's language on the state funding.** This is the one new variable that could shift the FY27 picture. If the $300K–$750K becomes more certain, listen for whether it's described as reducing the structural gap or as restoring cut positions. The difference is the difference between fiscal repair and deferring the next crisis.
 
-- **Whether the reconfiguration process being already scheduled is acknowledged.** The April 7–16 engagement meetings are public. If board members treat reconfiguration savings as "in progress" without having passed a budget that accounts for them, the savings are hypothetical and the cost ceiling is fiction.
+- **Watch for any mention of a fund balance loan from the city to the school district.** This has been floated but not formalized. If it comes up in any context — board meeting, council committee, or public comment — Tom needs to ask immediately: what are the repayment terms, and does that obligation get counted in the per-household burden projections?
 
-- **The finance director's presence.** The seventh finance director in six years named the structural mechanism on March 23. If she is present tonight, her read on whether the board's current direction is fiscally sound is worth more than any board member's rhetoric. Listen for whether she is asked to speak or is kept off the mic.
+- **Watch the procedural clock.** The board's formal budget vote is still outstanding. If April 3 passes without that vote, the district enters the April 7 council meeting in an even more unusual posture. That is a legitimate procedural question Tom can raise at any public forum.
 
-- **Any updated total burden figure.** If no board member and no administrator produces a revised per-household number tonight — combining school tax, sewer rates, and bond projections — that absence is itself a data point. Tom should name it at public comment if it happens.
+- **Watch for any new combined burden numbers from any source.** Tom has been waiting since January. If a councilor, a local reporter, or a citizen advocate produces even a rough total per-household figure before April 7, that changes the political landscape for the referendum — and gives Tom a public number to anchor his own conversations with neighbors.

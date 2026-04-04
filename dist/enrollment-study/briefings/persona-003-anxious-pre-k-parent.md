@@ -2,100 +2,72 @@
 schema_version: "1.0"
 persona_id: "PERSONA-003"
 persona_name: "Jess"
-upcoming_meeting_date: "2026-04-02"
-generated_date: "2026-04-01"
-has_agenda: true
+upcoming_meeting_date: "2026-04-03"
+generated_date: "2026-04-03"
+has_agenda: false
 last_cumulative_meeting: "2026-03-30"
-inter_meeting_evidence_count: 2
+inter_meeting_evidence_count: 0
 ---
 
 # Brief: Jess (PERSONA-003)
-## Upcoming Meeting: 2026-04-02
-
-# Pre-Meeting Brief: Jess (PERSONA-003)
-**Meeting:** Board of Education Special Budget Meeting — April 2, 2026, 6:00 PM
-**South Portland High School, Lecture Hall**
-
----
+## Upcoming Meeting: 2026-04-03
 
 ## Since Last Meeting
 
-Two things landed in the two days since the March 30 vote, and both matter to you directly.
+No new evidence has emerged between the March 30 meeting and today. That absence is worth noting — not as good news, but as a signal that the process is in motion without a public-facing update channel.
 
-**The reconfiguration road map went public.** The district posted a school-by-school schedule of staff and family engagement meetings running April 7 through April 16. A ThoughtExchange survey is open. An interpretation services request form is available. On its face, this looks like the "here's how families will get information" answer you have been waiting for. But read the fine print carefully: these are engagement meetings for *current* families in the system. There is no indication that incoming families — whose children are not yet enrolled — are being included, notified, or considered a target audience. The reconfiguration road map may tell you which building will serve which grades in fall 2026, but it may also pass you by entirely. You need to know whether the ThoughtExchange survey is open to any South Portland resident or only to families already enrolled.
+The most significant thing you don't yet know: the April 2 continuation meeting — set explicitly to revisit the failed FY27 budget — has either just happened or is happening today. You may be walking into April 3 without knowing whether the district now has a passed budget or is still in limbo. The structural decisions (Option A, Kaler closure, 72 layoffs) are locked in regardless of what happened April 2. But whether the fiscal framework has resolved matters to you, because the answer shapes how much further cutting is still possible before Mia enters the system.
 
-**The April 2 agenda is narrower than expected.** According to the inter-meeting evidence, the revised agenda was supposed to include a vote on early-release days, a City Council guidance request, *and* another attempt to pass the FY27 budget. The agenda as posted shows only the City Council guidance vote as a listed action item. Either the budget vote is embedded under "Board Discussion" or it was pulled before tonight. If the board does not vote on the budget tonight, the next formal opportunity likely becomes the April 7 public hearing — after which the process clock is running out before May 5. A third failed or deferred budget vote would mean that the fiscal framework for the system Mia is entering remains unresolved well into spring.
+The quiet since March 30 also means no one has publicly confirmed redistricting details. You still do not know which building will serve as Mia's pre-K/kindergarten school. That question has been open since March 2 and the board has not committed to answering it before the May 5 vote.
 
 ---
 
 ## Open Questions
 
-Carry these into tonight's meeting:
-
-- **Where will Mia go to school?** Option A passed on March 30, but I still don't know which specific building serves pre-K and kindergarten in our neighborhood. Redistricting details were explicitly unavailable before the vote. Has anything changed?
-
-- **Is there actually a pre-K seat available to us?** The 64 district-operated seats are flat. The "expansion to 120" relies on Head Start (income-eligible) and an off-site United Way program. We may not qualify for either. Does the pre-K lottery mean Mia might not get any seat at all, even in the district program?
-
-- **What does the engagement meeting schedule mean for us?** The reconfiguration road map lists family meetings starting April 7. Are those open to incoming families, or only to parents of kids already enrolled? If I show up, will anyone have answers about Mia's placement?
-
-- **Is anyone calculating what all of this costs a household?** School increase plus the confirmed 22% annual sewer increases plus the Mahoney bond — no one has put a single number on what this means for a family in South Portland. Will that ever get said out loud?
-
-- **Can tonight's board actually change anything?** Layoff notices went out March 18. Kaler is closed. Option A is adopted. If the board asks the council for guidance tonight, what's the realistic ceiling on what a council response could change before May 5?
-
-- **What is the FY28 plan?** The finance director named it explicitly — labor costs automatically exceeding the 6% ceiling, utilities rising 13-14%, new debt service. That's the year Mia starts kindergarten. Has anyone begun planning for it, or are we just going to arrive there in crisis again?
-
-- **Will class sizes actually be okay?** Richardson said the projected sizes "terrify" her. What are the actual numbers? What does Option A look like per classroom, per grade, per building, in fall 2026?
+- Which specific building will Mia attend for pre-K and kindergarten — and when will that actually be decided and published? I've been told redistricting details aren't available, but that can't stay true forever. What's the actual timeline?
+- Is there even a regular proximity-based pre-K seat available for a family like mine — or does the "expansion to 120" only reach families who qualify for Head Start or can go off-site? Do I need to be income-eligible to get a seat?
+- If there's a lottery, what are my real odds of getting in? The board mentioned oversubscription. Does that mean even families who want the district seat might not get one?
+- The finance director said FY28 — the year Mia enters kindergarten — is the next structural crisis. What's already locked in for that year? Is there any version of this that doesn't mean a third round of cuts and disruption right when she starts?
+- Richardson said projected class sizes in Option A "terrify" her, and she's the only current elementary parent on the board. What will class sizes actually be in the primary buildings when Mia is there? Has anyone published those numbers?
+- Did the budget pass on April 2, or is it still unresolved? And if it passed, what was cut beyond what's already been announced?
+- Is there any scenario where the program-level cuts still in discussion touch pre-K or early childhood services — or is that line genuinely protected?
+- The combined household hit from school increases, sewer rate hikes (~22% a year for three years), and the Mahoney bond has never been presented as a single number. Has anyone calculated what this actually means for my family's costs over the next three years?
 
 ---
 
 ## Agenda Implications
 
-**2.0 Board Chair Update**
-DeAngelis will frame tonight's meeting. Listen for whether she describes tonight as a decision-making session or a procedural step. If she signals that the board views its structural work as done (reconfiguration and closure voted), and tonight is only about getting city tax guidance, that tells you that no further changes to the configuration affecting Mia are likely before the May vote. That's important context for how much the next several weeks can actually move.
+No agenda is available for this meeting. Based on where the process stands, here is what is most likely to come up — and what it means specifically for you.
 
-*Watch for:* Any framing of the reconfiguration road map as a "community engagement" process — and whether that language explicitly includes or implicitly excludes families not yet in the system.
+**Budget continuation / resolution status.** If the April 2 meeting produced a passed budget, this meeting may formalize next steps or address remaining gaps. If it failed again or was continued further, you may be watching a process still in active deliberation with a May 5 hard deadline. For you, the key question is not the top-line number — it's whether any remaining cuts touch early childhood services, pre-K partnerships, or the support staff that will be in Mia's building. Listen for any mention of program-level cuts that have not yet been named publicly, and for any softening or hardening of the council's 3–6% tax guidance.
 
-**2.1 Budget Update / 2.2 Board Discussion**
-This is your most important window. The inter-meeting evidence flagged that the revised agenda was supposed to include a vote on the FY27 budget and a discussion of early-release days to support reconfiguration work. Neither appears as a labeled action item on the posted agenda. "Budget Update" and "Board Discussion" are the likely containers.
+**Reconfiguration logistics and redistricting.** With Option A adopted, the next administrative step is deciding which buildings serve which grades and mapping attendance zones. This is the meeting type where those assignments might be previewed, deferred, or delegated to the new superintendent. For you, this is the highest-stakes item: you need to know where Mia will go, and the board has not committed to publishing that before the May 5 vote. If redistricting comes up at all, listen for a specific timeline — not just "we'll address this" but a named date.
 
-*What this means for you:* If the board attempts another budget vote here, watch the number. The last failure was 5-2. A passed budget would lock the fiscal frame before the April 7 public hearing. A second failure or a decision to defer until after the hearing would mean more weeks of uncertainty — and would signal that the council's tax guidance is genuinely blocking resolution, not just being sought as a formality.
+**Pre-K program details for fall 2026.** The Chickadee partnership and United Way expansion were announced without eligibility details. If pre-K capacity or lottery procedures are discussed, this is your opening to understand whether the "120 total seats" figure is accessible to your family or largely reserved for income-eligible or off-site placements.
 
-On early-release days: these are being proposed specifically to give staff and families time to prepare for the reconfiguration. If approved, they affect fall 2026 logistics — the school year Mia would be entering as a pre-K student. The details matter less to you than whether the board is treating reconfiguration as operationally complex enough to need dedicated transition time. If they are, ask yourself whether incoming families are part of that transition plan.
+**Superintendent transition.** Whoever inherits this district will be responsible for implementing Option A and navigating the FY28 structural pressures the outgoing finance director named explicitly. If the superintendent search or appointment comes up, listen for any signal about that person's philosophy on long-term planning vs. crisis management — that distinction matters more to you than almost anyone else in the room.
 
-*Questions to prepare:*
-- "When will redistricting information be available, and will it be communicated to families not yet enrolled?"
-- "Are the April 7-16 engagement meetings open to incoming families, or only current ones?"
-
-**4.2 Consideration and action to convene a meeting with City Council to seek budgeting guidance**
-This is the only explicitly labeled action item tonight, and it matters more than it looks. The board is formally requesting a joint meeting with the City Council. That request signals that the board does not believe it can pass a budget without knowing how much tax increase the council will defend — or that board members are split and need political cover before they can vote.
-
-*What this means for you:* If the council agrees to a joint meeting, the timeline compresses. That meeting would need to happen before April 7 (public hearing), April 14 (budget workshop), and May 5 (public vote), leaving very little room. If the council declines or delays, the board is effectively flying blind on the tax ceiling — and the cuts already in motion may be the floor, not the ceiling, of what's coming.
-
-*What to listen for:* Does any board member indicate what guidance they are *specifically* seeking? A request for "reassurance that 6% is acceptable" is different from "we need the council to tell us whether 8% is politically survivable." The specificity of the ask tells you how much runway the board thinks it has.
-
-*Question to prepare:* "If the council meeting happens before April 14, will its outcome be made public before the public comment period closes?"
-
-**3.0 and 5.0 Public Comment**
-You have two chances to speak. The first comes before the board action item; the second comes after. If you want to raise the question of incoming-family access to the reconfiguration road map and engagement meetings, the first public comment slot is better — it puts your question in front of the board before they act. The second slot is appropriate for response to what you've heard.
-
-If you attend, bring a specific, narrow question. The board hears a lot of general concern. "Which building will serve pre-K in our neighborhood, and when will families learn that information?" is a question that can actually be answered.
+**Prepare these specific questions:**
+- What is the redistricting timeline, and will families know their school assignments before the May 5 vote?
+- Of the 120 projected pre-K seats, how many are district-operated with no income eligibility requirement, and how will the lottery work for those seats specifically?
+- Has the board modeled class sizes for the primary buildings under Option A, and will those projections be published before fall?
 
 ---
 
 ## Watch For
 
-- **Whether a budget vote happens under "Board Discussion."** The inter-meeting evidence said it was on the revised agenda. If the board votes tonight and passes the budget, the April 7 hearing becomes informational rather than deliberative. If they defer again, the civic calendar is compressing toward May 5 with major decisions still open.
+- **Whether anyone provides a redistricting timeline with a specific date.** Vague language like "this summer" or "before school starts" is not enough — you need to know whether the answer arrives before or after families make enrollment decisions. If no date is named, that is itself significant.
 
-- **How the board frames the reconfiguration road map.** If any board member describes the April 7-16 engagement meetings as "open to all families," that is your opening to ask a follow-up about incoming family outreach specifically. If the framing stays on "current families," the gap is confirmed and documented.
+- **Any mention of pre-K program details, Chickadee partnership logistics, or the United Way placement structure.** Listen for eligibility language. If program staff or the special education director speak, they are more likely than board members to use the plain language that reveals whether your family qualifies.
 
-- **Whether the finance director speaks.** The seventh director in six years has now explicitly named FY28 as the next structural crisis. If they appear tonight — even briefly during the budget update — track whether they revise, expand, or soften that FY28 warning. Any change in how that structural pressure is described is meaningful.
+- **The finance director's framing around the remaining gap.** This is the seventh person in six years to hold this role. If she presents a number different from $8.4M, note it — the deficit figure has moved twice already. Any upward revision is a direct signal about what's left to cut.
 
-- **The 4-2 split on Option A and who is still asking questions.** Two board members voted against Option A. Watch whether either of them uses tonight's discussion to raise unresolved transition concerns — class sizes, logistics, incoming-family communication. Their dissent may still be producing questions that haven't been answered.
+- **Whether the new superintendent hire is announced or previewed.** The board chair's posture toward that person — enthusiastic, cautious, or procedurally neutral — tells you something about whether long-term strategic planning is actually expected or whether managing the immediate crisis is the implicit mandate.
 
-- **Council representation in the room.** If any city councilors attend or send staff to observe the 4.2 action item discussion, it signals the council is actively tracking this request rather than waiting passively. Presence or absence is itself information.
+- **Board member language around class size caps.** Richardson's "terrify" comment on March 30 was the only time a board member named class size in human terms rather than as a policy parameter. If she or other members revisit class size projections at this meeting, pay attention to whether anyone has run actual building-by-building numbers for the primary schools under Option A.
 
-- **Language around the ThoughtExchange survey.** If it is mentioned tonight, listen for whether it is described as open to residents broadly or only to current school families. That distinction determines whether it is a tool you can use or one designed around the population that is already enrolled.
+- **Whether any council member presses for the combined household tax impact.** The sewer increases are confirmed, the school budget increase is in motion, and the Mahoney bond is still unresolved. If a councilor or public commenter names a dollar figure for total household impact, write it down — that number has never been formally presented and it is the number that most directly affects your decision about South Portland.
 
-- **Whether "early-release days for reconfiguration" language appears anywhere tonight.** The inter-meeting evidence flagged this as a new agenda item. If it surfaces, it confirms the district is treating fall 2026 as a genuine operational transition — with dedicated time and logistics support. That's a sign the administration is taking implementation seriously. The absence of this conversation would raise questions about whether transition planning is actually funded and staffed.
+- **Tone of public comment from families currently in the system.** The March 30 meeting surfaced two parents in situations close to yours — Richardson and the parent who said "who knows where." If similar voices speak on April 3, they are the most reliable real-time signal you have about what it actually feels like to be in the system right now, rather than watching it from the outside.
 
-- **The tone on FY28.** If any board member, administrator, or speaker tonight uses language like "once we get through this year" or "this is a one-time correction" — without also acknowledging the finance director's explicit structural warning about FY28 — note it. That gap between what the finance director said and what elected officials are saying is exactly the kind of mismatch that leaves incoming families unprepared.
+- **Any mention of the April 7 public hearing or April 14 workshop.** Those are the remaining formal public engagement points before the May 5 vote. If either is described in procedural language as a formality, that's a signal that the decisions are already administratively finished regardless of what families say. If any board member explicitly frames them as still open, that's worth tracking.

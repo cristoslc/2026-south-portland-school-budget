@@ -1,0 +1,41 @@
+trove: school-integration-policy
+created: 2026-04-04
+refreshed: 2026-04-04
+tags:
+  - school-integration
+  - socioeconomic-diversity
+  - magnet-programs
+  - controlled-choice
+  - attendance-zones
+  - equity
+  - boundaries
+  - south-portland
+  - elementary-schools
+
+freshness-ttl:
+  web: 30d
+
+history:
+  - event: created
+    date: 2026-04-04
+    commit: "--"
+    sources: 2
+
+referenced-by: []
+
+sources:
+  - source-id: spsd-boundaries-configurations
+    type: web
+    url: "https://www.spsdme.org/page/bc"
+    fetched: 2026-04-04T20:00:00Z
+    title: "Boundaries and Configurations — South Portland School Department"
+    hash: "cc08a4016b78ea3afb6813b6ce764b9c0e27ac1be86b13515cf4e65b873f8e3a"
+    notes: "JS-rendered page — content fetched via Chrome browser automation"
+
+  - source-id: tcf-school-integration-nine-districts
+    type: web
+    url: "https://tcf.org/content/report/school-integration-practice-lessons-nine-districts/"
+    fetched: 2026-04-04T20:00:00Z
+    title: "School Integration in Practice: Lessons from Nine Districts — The Century Foundation"
+    hash: "ee691b6779060cfdab533a0e88b87a01315692016e53fee83ee9fcdcd93ab151"
+    notes: "2016 report by Richard D. Kahlenberg. Part of TCF Stories of School Integration series."

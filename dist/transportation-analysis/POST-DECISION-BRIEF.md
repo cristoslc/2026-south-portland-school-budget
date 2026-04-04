@@ -1,7 +1,7 @@
 # Post-Decision Transportation Brief
 
-**Initiative:** INITIATIVE-006 | **Date:** 2026-03-31
-**Context:** South Portland Board of Education special meeting, March 30, 2026
+**Initiative:** INITIATIVE-006 | **Date:** 2026-04-03
+**Context:** South Portland Board of Education special meetings, March 30 and April 2, 2026
 
 ---
 
@@ -15,7 +15,9 @@ The Board of Education held a five-hour special meeting on March 30, 2026 and vo
 | **Option A reconfiguration** | **Passed 4-2** | Holman, Dowling, Smith, Risch for; Feller, Richardson against |
 | **FY27 budget ($75.85M)** | **Failed 2-5** | Only Smith and Risch voted yes |
 
-Option A is now the plan the city has to make work. That means the transportation questions are no longer theoretical. They are part of the practical work required before school opens in September. A follow-up budget meeting is scheduled for April 2.
+Option A is now the plan the city has to make work. That means the transportation questions are no longer theoretical. They are part of the practical work required before school opens in September.
+
+The April 2 special budget meeting was the first meeting of the implementation era. It confirmed that the district has engaged a transportation consultant but has produced zero implementation artifacts: no attendance boundaries, no school assignments, no bus routes, no timeline. The superintendent committed to publishing a timeline "by the end of next week" (~April 10). The budget remains unadopted after failing a second time.
 
 If you want a shorter problem-solving memo directed to the board and district, read the [school board letter](../board-letter/).
 
@@ -37,9 +39,11 @@ These numbers do not include diesel cost escalation, which the Director of Opera
 
 ## Implementation Risks That Need Immediate Attention
 
-### 1. Driver shortfall is structural
+### 1. Driver shortfall is structural — and worsening
 
 This is not just a scheduling problem. The district has 20 drivers and needs 30. The SEA reduction from 100 to 86 FTE could cut that to 17. Route optimization may help with efficiency, but it does not close a 10-to-13 driver gap on its own.
+
+**April 2 update:** The situation is worse than the numbers alone suggest. Bus driver and union representative Jen Lauard testified that proposed duty changes (lunch table setup and breakdown) have already produced six injuries, three shoulder surgeries, and three workers in physical therapy among current staff. Drivers are actively seeking other jobs, and the district is already down two positions. The driver gap is not static — it is growing through attrition before any cuts take effect.
 
 Recruiting 10+ bus drivers by September 2026 is the critical path item. Maine districts are already competing for the same labor pool. The district has not yet announced a public recruitment plan, a signing bonus, or a contract change to attract new drivers.
 
@@ -55,7 +59,7 @@ Starting fall 2026, an estimated 139 to 169 families will have children in two d
 
 Under a 4-tier bus schedule, this produces a 30-minute drop-off gap for split families. Under a 3-tier schedule, the logistics are tighter but more manageable. The tier decision has not been made.
 
-No school assignment lines have been drawn. Families do not yet know which two buildings their children will attend, or how far apart they will be.
+No school assignment lines have been drawn. Families do not yet know which two buildings their children will attend, or how far apart they will be. At the April 2 meeting, parent Vladimir Corian stated: "none of the parents know where their children are gonna go next year." A Dyer parent who currently walks his son to school asked whether he would be sent to Skillin across town. No clear answer was given.
 
 ### 3. Care capacity runs in the wrong direction
 
@@ -68,13 +72,17 @@ Care demand increases while care supply decreases. The Recreation Department has
 
 ### 4. Transportation costs are unfunded
 
-The FY27 budget failed 2-5. The Option A transportation cost exposure of $802,809-$876,325 in district-borne costs (route expansion plus McKinney-Vento obligations) still has to be funded. The April 2 follow-up meeting will need to address that gap.
+The FY27 budget failed 2-5 on March 30 and was not voted on again at the April 2 meeting. The Option A transportation cost exposure of $802,809-$876,325 in district-borne costs (route expansion plus McKinney-Vento obligations) still has to be funded. The board voted to seek city council guidance before adopting a budget, and potential new state funding ($300K-$750K from union advocacy and EPS formula changes) may affect the final number — but none of it is confirmed or allocated.
 
 McKinney-Vento obligations are not optional. Federal law requires the district to transport displaced students to their school of origin for the remainder of the school year and potentially beyond. That is a required service, not a discretionary line item.
 
+### 5. Portland bus contract is nine years stale
+
+The district's bus maintenance agreement with Portland — under which South Portland provides a mechanic and parts to service Portland's fleet — has not been renegotiated since 2017. Director of Operations Nally confirmed at the April 2 meeting that renegotiation is underway, but no completion date was given. South Portland is subsidizing Portland's fleet maintenance at nine-year-old rates while facing its own route expansion costs.
+
 ## What the Transport Consultant Needs to Address
 
-The Superintendent confirmed on March 30 that transport logistics are "underway with a partner." The scope and timeline of this engagement are unknown. For Option A implementation to succeed by fall 2026, the consultant analysis needs to cover at minimum:
+The Superintendent confirmed on March 30 that transport logistics are "underway with a partner." At the April 2 meeting, Dr. Prince confirmed the district is actively working with a transportation consultant and on student demographics, but declined to share any information — citing the need to avoid getting "ahead of" upcoming family listening sessions. The scope and timeline of this engagement remain unknown. For Option A implementation to succeed by fall 2026, the consultant analysis needs to cover at minimum:
 
 1. **Route-level modeling** -- Actual route counts, ride times, and driver requirements for the approved grade-band configuration, using student addresses and the four receiving buildings. This replaces the aggregate estimate of 30 routes with ground truth.
 
@@ -96,14 +104,16 @@ The board voted on March 30 for a fall 2026 implementation. Working backward fro
 
 | Milestone | Implication |
 |-----------|-------------|
-| **April 2** | Budget follow-up meeting. Transport costs need to be reflected in whatever budget passes. |
-| **April-May** | School assignment lines must be drawn. Families need to know which buildings their children will attend. |
+| **April 2** | Budget follow-up meeting held. No budget vote. Board voted to seek city council guidance. Superintendent committed to publishing a boundary timeline "by end of next week" (~April 10). |
+| **~April 10** | Promised date for a timeline of when boundary and assignment decisions will be made. Not a decision date — a timeline-of-a-timeline. |
+| **April 14** | City Council Budget Workshop #1. |
+| **April-May** | School assignment lines must be drawn. Families need to know which buildings their children will attend. Thirteen school-level family listening sessions announced but not yet scheduled. |
 | **May-June** | Route planning requires school assignment lines, student addresses, and fleet inventory. Cannot start until those lines are set. |
 | **June-August** | Driver recruitment. If 10+ drivers are needed, this is already late for a September start. CDL training alone takes weeks. |
 | **August** | Care programs reconfigure for new building assignments. Recreation Department needs lead time. |
 | **September** | First day of school under new configuration. |
 
-There is no public timeline for any of these milestones. The transport consultant engagement has no announced scope or completion date. School assignment work has not been published. The budget to fund implementation has not been adopted.
+As of April 3, the only concrete date is the superintendent's promise to publish a timeline by ~April 10. The transport consultant engagement has no announced scope or completion date. No attendance boundaries, school assignments, bus routes, sibling placement policies, or ride-length parameters have been published. The budget to fund implementation has not been adopted.
 
 ## Sources of Error
 
@@ -128,9 +138,13 @@ All figures are order-of-magnitude estimates. The actual values could fall outsi
 | Data Point | Source |
 |------------|--------|
 | Driver count (20) | Director of Operations Mike Natalie, 3/30/2026 BoE meeting |
-| Driver schedule (7 AM-4 PM) | Same meeting |
-| Diesel cost concern | Board member Feller + Dir. of Operations, same meeting |
-| Transport consultant | Superintendent, same meeting ("underway with a partner") |
+| Driver injuries and attrition | Bus driver/union rep Jen Lauard, 4/2/2026 BoE meeting |
+| Driver schedule (7 AM-4 PM) | 3/30/2026 meeting |
+| Diesel cost concern | Board member Feller + Dir. of Operations, 3/30/2026 meeting |
+| Transport consultant engaged | Superintendent, 4/2/2026 meeting (confirmed "working with") |
+| Portland bus contract (2017 rates) | Director of Operations Nally, 4/2/2026 meeting |
+| No boundaries/assignments published | Superintendent, 4/2/2026 meeting |
+| Timeline commitment (~April 10) | Superintendent, 4/2/2026 meeting |
 | SEA reduction (100 to 86 FTE) | FY27 budget documents |
 | Per-pupil transport costs | Maine DOE Resident Expenditure Per Pupil, FY23-FY25 |
 | Enrollment by grade | NCES Common Core of Data, district redistricting tool |

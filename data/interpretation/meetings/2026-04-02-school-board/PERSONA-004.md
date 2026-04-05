@@ -5,7 +5,7 @@ persona_id: "PERSONA-004"
 persona_name: "Marcus"
 meeting_date: 2026-04-02
 meeting_title: "School Board Regular Meeting -- April 2, 2026"
-interpretation_date: 2026-04-03
+interpretation_date: 2026-04-05
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -16,61 +16,61 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. Administrative restructuring saved almost nothing for the classroom
-- **Fact:** When the district converted a DEI director role to a DEI strategist and replaced the assistant director of special education with an instructional strategist, the net savings were approximately $20,000–$30,000 per role swap -- not enough to restore a single teaching position. Board member Holman said outright: "I expected to see money that where there were cuts made in one place, money would be liberated in another. And that's been disappointing."
-- **Source:** [23:34] (Abigail Ketchen on savings estimate); [45:59–46:00] (Member Holman, "liberated"); [85:00–85:47] (Member Feller, "we can't bring back our entire computer science department... there's no money")
+#### 1. Admin "Right-Sizing" Did Not Free Money for Classroom Positions
+- **Fact:** Board members Richardson and Holman both stated they had expected that cuts at the director level would "liberate" money to restore classroom-facing positions. Finance director Ketchen confirmed the shift from DI director to DI strategist saves roughly $20–30K. Richardson said directly: "we've lost some incredibly effective student-facing roles with this reduction in force... and we can't bring back our entire computer science department... I'm having a really hard time seeing any concessions that were made to eliminate redundancies at the director level."
+- **Source:** [39:50–41:22], [45:54–46:00], [84:45–85:48]
 - **Emotional valence:** negative
 - **Threat level:** 4
-- **Open question:** true
+- **Open question:** true — Were there any administrative positions where costs were materially reduced? The board received no clear reconciliation of what the restructuring actually saved versus what was spent.
 
-#### 2. 42 teacher positions eliminated -- with FTE counts buried across the budget book
-- **Fact:** The proposed budget eliminates 42 teacher positions district-wide, representing the largest single category of the 78 total cuts. The FTE reductions are visible in the budget document line by line: the middle school drops from 64.0 to 55.0 teacher FTEs; the high school from 58.8 to 52.8; elementary schools absorb the steepest proportional cuts, with Kaler zeroed out entirely.
-- **Source:** Fiscal Context summary (78 positions, 42 teachers); Budget Book rows 280, 454, 118, 171, 227, 62, 5
+#### 2. Reconfiguration Creates Dozens of Unresolved Bargaining Obligations
+- **Fact:** SPTA president Sarah Gay stated that union leadership has "already identified several dozen items that need to at least be discussed in a meet and consult more robustly, and many that we know will have to be bargained because they are fundamental changes to people's working conditions." She explicitly warned that compensation for reconfiguration work must be built into the budget now, or the union will not accept blame if further staff cuts result from unbudgeted labor costs.
+- **Source:** [115:56–116:44]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true — The board has not publicly acknowledged the scope of bargaining obligations created by reconfiguration, and no cost estimate for those obligations appears in the budget.
+
+#### 3. Behavior Specialist Elimination Removes the Tier-Two Safety Net
+- **Fact:** A statement from Jenna Goldstein Walsh, the district's elementary general education behavioral strategist — a position recommended for elimination — was read into the record. It stated she directly supported nearly 60 students this year, developed over 40 formal behavior plans, and provided individualized social-emotional supports for approximately 50 students across four schools. The statement argued that eliminating this role "removes the middle layer" of MTSS support, predicting that students will either get nothing or be referred to special education — which currently serves 23% of students, already above comparable districts.
+- **Source:** [101:14–103:35]
 - **Emotional valence:** negative
 - **Threat level:** 5
-- **Open question:** false
+- **Open question:** true — When board members asked who would absorb this work, the administration cited BCBAs and instructional strategists, but did not account for the fact that those roles are not equivalent in function or daily presence across all four elementary buildings.
 
-#### 3. Labor costs structurally outpace the 6% tax ceiling every year
-- **Fact:** Finance Director Abigail Ketchen confirmed that when all lane, step, and contractual adjustments are included, labor costs increase by more than 6% per year -- meaning even if this budget passes cleanly, the district starts FY28 already behind the ceiling the city council has set. She said: "our labor costs do increase by a higher than 6% rate. So we have to be very precise and careful about how we manage things during FY27."
-- **Source:** [20:24–21:12] (Ketchen testimony); Budget Presentation Slide 7
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true
-
-#### 4. SPTA president formally put the district on notice about transition costs and bargaining obligations
-- **Fact:** SPTA president Sarah Gay used her public comment to formally request that next year's budget process begin no later than October, to flag that the union has already identified "several dozen items" requiring meet-and-consult and many that will require formal bargaining due to changes in working conditions, and to warn the board that any staff time outside school hours for reconfiguration preparation must be compensated. She said: "if that responsibility isn't built in now, please do not blame our contract or our advocacy for members if your choice is to make additional staff cuts as a result."
-- **Source:** [112:26–117:00]
+#### 4. State May Deliver $300K+; Board Members Signal It Should Restore Staff Positions
+- **Fact:** SSPA president Connie DeSanto announced during public comment — based on a text received during the meeting — that South Portland is likely to receive approximately $300,000 in additional state funding tied to homeless and economically disadvantaged student populations, attributable partly to union and staff advocacy trips to Augusta. Board member Richardson responded that she wanted that money directed to teachers and staff, not director positions. Board member Feller concurred. A separate board member later received a text suggesting an additional $750K may be available through EPS formula changes for FY28.
+- **Source:** [122:05–123:39], [263:55–264:20], [271:17–272:04]
 - **Emotional valence:** positive
+- **Threat level:** 2
+- **Open question:** true — The $300K figure is unconfirmed and came via text message during the meeting. The $750K is described as a one-year change. Neither amount has been formally incorporated into any budget proposal.
+
+#### 5. The Board Did Not Vote to Adopt the Budget
+- **Fact:** Agenda item 4.3 — adoption of the FY27 superintendent's budget as the board's proposal — was not acted on. Multiple board members said they were not ready to vote, citing the unconfirmed state funding figures and the desire to understand what to do with those dollars before locking in a position. The board unanimously voted to convene a meeting with city council to seek budget guidance. A potential Monday meeting was discussed but not confirmed.
+- **Source:** [272:38–279:06], [260:18–261:10]
+- **Emotional valence:** positive
+- **Threat level:** 2
+- **Open question:** true — No date was confirmed for the next board action on the budget; the timeline to the May 5 city council vote and June 9 referendum creates real pressure.
+
+#### 6. Reconfiguration Planning Is Underway — But Contractual Timelines Are Unresolved
+- **Fact:** Superintendent Entwistle described 13+ listening sessions, a staff preference survey going out the next day, and a reconfiguration roadmap page being built on the district website. However, when asked about professional development time for elementary teachers, the administration acknowledged that the waiver for a reduced school day is capped at one day, and that existing contracted early release time and pre-school-year days would have to absorb the rest. SPTA president Gay said plainly: "staff cannot be required to work during the summer or outside of school hours... and in either case they would need to be paid for that time."
+- **Source:** [50:28–52:58], [113:40–116:08]
+- **Emotional valence:** negative
 - **Threat level:** 3
-- **Open question:** true
+- **Open question:** true — No cost estimate was provided for compensating staff for reconfiguration planning work that falls outside contracted hours. The board has not yet determined how it will fund this.
 
-#### 5. A potential $300,000 in state funding appeared mid-meeting -- and the board signaled it should go to staff positions
-- **Fact:** SSPA president Connie DeSanto announced during public comment that union and staff lobbying in Augusta had secured approximately $300,000 in anticipated additional state funding ($150K for homeless students, $150K for economically disadvantaged students). Later in board discussion, Member Richardson stated explicitly: "I want our teachers to get that money. No director positions please with that money." A separate text to a board member suggested an additional $750,000 in EPS formula changes may be coming for FY28.
-- **Source:** [122:05–123:39] (DeSanto); [264:00–265:08] (Richardson and board discussion); [271:18–272:04] (Richardson, "no director positions")
-- **Emotional valence:** positive
-- **Threat level:** 2
-- **Open question:** true
-
-#### 6. The behavioral specialist elimination got a non-answer
-- **Fact:** A statement read on behalf of eliminated elementary behavioral specialist Jenna Goldstein Walsh warned that her role -- supporting nearly 60 students across four elementary schools with formal behavior plans -- provides the "middle layer" between general education and special education referrals. Eliminating it removes tier 2 MTSS behavioral support. When the board asked who would cover these functions, Dr. Prince pointed to BCBAs and instructional strategists, but acknowledged their time would not be 100% student-facing.
-- **Source:** [101:14–106:00] (Boggs/Goldstein Walsh statement); [241:35–243:08] (Dr. Prince response)
+#### 7. Class Size Policy Has No Enforcement Mechanism When Enrollment Spikes
+- **Fact:** Board member Richardson pressed the administration on what happens when a transient student pushes a kindergarten class over the district's policy limit. The administration acknowledged that classes are currently at or one student above policy in some instances, and that South Portland regularly receives students mid-year. The proposed response — using regular education ed techs and reconfiguration's larger grade-level groupings to absorb variation — was described as a plan, but no written policy governing this scenario exists.
+- **Source:** [57:42–63:51]
 - **Emotional valence:** negative
 - **Threat level:** 4
-- **Open question:** true
+- **Open question:** true — There is no written policy capping the percentage of IEP students per classroom, and no policy specifying the district's response when class enrollment exceeds the board's stated limit.
 
-#### 7. Class size policy compliance is already fraying -- and no written policy governs IEP concentration
-- **Fact:** Board member Richardson pressed on what happens when a 20-student kindergarten class gains one new enrollment and triggers a policy violation. The superintendent acknowledged it has already happened this year. Richardson also raised that there is no written district policy capping the percentage of students with IEPs per classroom, noting that some grade levels at some schools are already at 50% IEP concentration -- and that larger class sizes make this harder to manage.
-- **Source:** [57:42–64:00]
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true
-
-#### 8. The board did not pass the budget tonight -- leaving the door open
-- **Fact:** After hours of discussion, the board declined to vote on agenda item 4.3 -- adopting the superintendent's budget as the board's proposal to city council. Multiple members said they were not ready given the new state funding figures and uncertainty about how that money should be used. The board voted unanimously to convene a meeting with city council to seek guidance and agreed to tentatively hold Monday for a possible additional meeting if accurate figures could be confirmed.
-- **Source:** [266:40–279:34]; [260:24–261:10] (unanimous vote on 4.2); [272:50–273:38] (4.3 deferred without action)
-- **Emotional valence:** positive
-- **Threat level:** 2
-- **Open question:** true
+#### 8. SPTA Warned Against Position-by-Position Board Advocacy as a Budget Process
+- **Fact:** SPTA vice president Abby Anderson made a formal statement warning that last year's precedent — where board members put specific positions back into the budget based on personal engagement — was a failure of process that puts the union in an "extremely difficult position." She argued that if the board restores positions based on volume of public testimony or personal email contact rather than a defined process, it undermines the criteria that governed the 42 SPTA bargaining unit positions that were cut in the first place. She called for a clear, equitable process before any positions are restored.
+- **Source:** [183:14–185:34]
+- **Emotional valence:** neutral
+- **Threat level:** 3
+- **Open question:** true — No formal process for evaluating which positions to restore was established at this meeting, leaving the decision vulnerable to the exact dynamic Anderson described.
 
 ---
 
@@ -78,28 +78,28 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Marcus's journey: Budget fight far from over
-    section Budget Presentation
-        Finance: labor costs exceed 6% ceiling: 2: Marcus
-        Admin swap saved barely 20K: 1: Marcus
-    section Board Q&A
-        Holman: expected money liberated, disappointed: 3: Marcus
-        Class size policy already cracking: 2: Marcus
+    title Marcus's journey: Budget fight not over yet
+    section Opening and Budget Framing
+        Early release days pulled from agenda: 3: Marcus
+        42 teacher cuts and fiscal gap confirmed: 2: Marcus
+    section Board Q&A on Budget
+        Admin savings didn't free teacher money: 2: Marcus
+        Richardson pushes on IEP class size risk: 3: Marcus
     section Public Comment
-        Gay and union reps put district on notice: 4: Marcus
-        Wetzel's testimony on CS elimination: 2: Marcus
-        300K state funding announced mid-meeting: 4: Marcus
-    section Final Action
-        Richardson: no director positions with new money: 4: Marcus
-        Board defers budget vote entirely: 3: Marcus
+        Behavior specialist statement read aloud: 2: Marcus
+        Gay outlines bargaining obligations ahead: 3: Marcus
+        OT teacher describes restraint, unsafe conditions: 1: Marcus
+    section Late Developments
+        300K state funding announced by union: 4: Marcus
+        Board defers budget vote unanimously: 4: Marcus
 ```
 
 ---
 
 ### Reactions
 
-So I was there until almost midnight and I'm still processing it. The thing that's going to stay with me is what Holman said -- she literally said she expected money to be "liberated" when they cut the director positions and turned them into instructional strategists. And then Abigail confirmed the savings on each of those swaps was maybe twenty to thirty thousand dollars. Twenty to thirty thousand. That's not even one teaching position. We lost 42 teachers in this budget and the big administrative restructuring that was supposed to offset some of that saved less than what it costs to run one classroom for a year. Member Feller said it out loud: "we can't bring back our entire computer science department, there's no money." That's because there isn't any. The money didn't move. It just got relabeled.
+So they didn't vote on the budget. That's the headline. And I know some people in that room were frustrated — like, just get it done — but honestly, I'm not mad about it. The reason they didn't vote is because Connie got up and said, hey, we just got news that there's $300K coming from Augusta because our people went and lobbied for it. And Richardson immediately said that money should go to teachers and staff, not directors. That's a board member saying that out loud, on the record. That matters. We will be citing that at every meeting from here until June.
 
-The other thing that kept me on edge all night was what Abigail said about labor costs. She confirmed it -- our contracts, by lane and step and all the rest, go up by more than 6% a year. The city council set 6% as the ceiling. So even if this budget passes and everyone claps and moves on, we start next year already in structural deficit. She said it herself, right there in the presentation. That means this is not a one-time crisis. It's annual. And we've got no fund balance to absorb anything, which she also said means that any time they under-budget something -- electricity, subs, you name it -- the shortfall comes out of personnel the following year. That's the mechanism. That's how 42 teachers disappear.
+But here's what I can't stop thinking about. Richardson and Holman both said the same thing: they expected that "right-sizing" the director roles would free up money to bring back teacher positions. And Ketchen basically said — yeah, the shift from DI director to DI strategist saved you $20,000 to $30,000, maybe. That's it. So we cut 42 teachers and the administration restructured some central office roles and we got... nothing back for the classroom. Nothing. Member Holman said it was "disappointing." I'd call it something stronger. Sarah's speech — and I've heard her talk before budget meetings, at the union briefing, everywhere — but tonight she laid it all out publicly. Several dozen items need meet and consult. Many will require actual bargaining. The reconfiguration working conditions are not just a logistics question. They are a contract question. And if this administration thinks it can move teachers to new buildings, assign them to new grade levels, give them new team compositions, and ask them to do it all over the summer without pay — they are going to find out exactly how that plays out. We've already identified the items. We're not bluffing.
 
-But here's the thing: they didn't pass the budget. That surprised me. And Connie DeSanto walked up there and announced three hundred thousand dollars in new state money that she and our colleagues literally went to Augusta and fought for. And Claire Richardson said on the record, in public, "no director positions please with that money -- I want our teachers to get it." I wrote that down. That goes on the record. Now the question is whether it holds. They're meeting with city council, there may be more state money coming for FY28, and the board still has a vote to take. It is not over. If you're going to that Monday meeting or the April 14th workshop -- show up.
+What's keeping me up is the behavior specialist thing. They had someone read Jenna's statement — she supports 60 kids across four schools, 40-plus formal behavior plans — and when the board asked who absorbs that work, the answer was BCBAs and instructional strategists. That's not an answer. That's a category. Meanwhile, Stacy Lauren got up and told the board she ended her day in a physical restraint. She said her OT is her backup. She's already short-staffed. And we're proposing to increase class sizes at the same time. That combination — bigger classes, less behavioral support, special ed ed techs we can't fill — that's not a budget efficiency. That's a classroom that's going to be harder and less safe for every person in it, teacher included. I need people to understand: losing one behavior specialist is not an abstract equity concern. That is 60 kids whose plans get handed to people who are already stretched, and that comes back to every classroom in the building.

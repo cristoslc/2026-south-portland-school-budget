@@ -5,7 +5,7 @@ persona_id: "PERSONA-005"
 persona_name: "Priya"
 meeting_date: 2026-04-02
 meeting_title: "School Board Regular Meeting -- April 2, 2026"
-interpretation_date: 2026-04-03
+interpretation_date: 2026-04-05
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -14,54 +14,54 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. DEI Director Eliminated, Replaced with Lower-Authority Strategist
-- **Fact:** The finance director confirmed the DEI Director position is being eliminated and replaced with a "DEI Strategist" drawn from the SPTA recall list — a teacher-contract role. Cost savings were estimated at roughly $20,000–$30,000. Board member Angela Kabisa, in her written statement read aloud at the meeting, specifically named the DEI role as what makes students "feel seen and understood in school."
-- **Source:** [14:55] Abigail Ketchen budget presentation; [24:19] board Q&A on cost savings; [228:25] Board member Kabisa's statement read by Board member Dowling
+#### 1. DEI Director position downgraded to DEI Strategist
+- **Fact:** The FY27 budget removes the Director of Diversity, Equity, and Inclusion and replaces it with a DEI Strategist drawn from the SPTA recall list — a shift from an administrative leadership role to a teacher-contract role. The budget book shows the Community Partner/McKinney-Vento/DEI cost center at $0 in local funding for FY27, with the note that it had previously been funded through a Maine DOE Community Schools grant.
+- **Source:** Transcript [14:55–15:41]; Budget Book rows 2322–2323
 - **Emotional valence:** negative
 - **Threat level:** 4
-- **Open question:** true
+- **Open question:** true — Does the DEI Strategist role carry comparable institutional authority to shape district-wide policy, or does the downgrade to a teacher contract effectively remove equity work from administrative decision-making? What happens to the function when the DOE grant expires?
 
-#### 2. McKinney-Vento, Community Partner, and DEI Support Staff Zeroed Out of Local Budget
-- **Fact:** The FY27 budget eliminates all local funding for the "Other Student Support Services" cost center covering Community Partner, McKinney-Vento homeless student liaisons, and DEI staff — a reduction from $388,833 and 3.50 FTEs to $0 locally funded, with a notation that the district will rely entirely on a Maine DOE Community Schools grant. No board member or administrator addressed this shift during the meeting.
-- **Source:** Budget Book 4.2.26, rows 2322–2323 — "Other Student Support Services (Community Partner, McKinney Vento and DEI)"
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true
-
-#### 3. Elementary Behavioral Specialist Cut — 60+ Students Lose Behavior Plans, 23% IEP Rate Flagged
-- **Fact:** A statement from Jenna Goldstein Walsh, the district's general education behavioral specialist facing elimination, was read aloud. She reported working with nearly 60 individual students this year, developing over 40 formal behavior plans. She warned that eliminating the role removes the "middle layer" of preventative support between general education and special education referrals — and that the district's IEP identification rate, already at approximately 23% (higher than most surrounding districts), will likely increase without early intervention.
-- **Source:** [101:14]–[106:45] Nicholas Boggs reading Jenna Goldstein Walsh's statement; specifically [102:48]–[103:35] for the 23% figure and special education referral warning
+#### 2. General education behavioral strategist eliminated — the "middle layer" disappears
+- **Fact:** A statement read on behalf of Jenna Goldstein Walsh, the district's general education behavioral strategist (a position proposed for elimination), described serving nearly 60 individual students across four elementary schools this year, with over 40 requiring formal behavior plans. The statement warned that eliminating the role removes the tier-two/three MTSS intervention layer: students will either receive no meaningful behavioral support or be referred directly to special education, with no in-between. The statement also noted that approximately 23% of district students — nearly one in four — are already identified for special education services, a rate described as higher than most surrounding districts.
+- **Source:** Transcript [101:14–106:07]
 - **Emotional valence:** negative
 - **Threat level:** 5
-- **Open question:** true
+- **Open question:** true — Who will design and oversee tier-two and tier-three behavioral interventions across elementary schools? The district's answer — BCBAs and instructional strategists filling part of the gap — was not specifically quantified in terms of capacity or caseload.
 
-#### 4. FLS Classroom Safety Breaks Down as OT Positions Are Cut
-- **Fact:** A functional life skills teacher at Skillin disclosed that both embedded OT positions covering her classroom are being cut. She described ending her school day that night in a physical restraint of a student, with chronically unfilled EdTech vacancies filled by a substitute. Another speaker, a frequent FLS classroom substitute, testified that cutting OTs will increase "unprovoked violence and eloping in the hallways." The administration confirmed 6 special education ed tech vacancies remain, but stated the positions were eliminated from the budget because staffing models have been redesigned.
-- **Source:** [163:13] Rachel GIBS, SLP at Dyer; [166:17]–[168:38] Stacy Lauren, FLS teacher at Skillin; [77:07]–[78:39] board Q&A with Dr. Prince on OT/EdTech relationship
-- **Emotional valence:** negative
-- **Threat level:** 5
-- **Open question:** true
-
-#### 5. ESOL Teacher Staffing Cut from 19 to 17 FTEs
-- **Fact:** The FY27 budget reduces ESOL teacher positions from 19.00 FTEs in FY26 to 17.00 FTEs — a reduction of two teachers serving English learners across the district. No board member raised this cut during discussion, and no speaker in public comment directly addressed it. The ESOL director is now listed at 0.50 FTE with a note indicating the other 0.50 FTE is funded through Title II federal funds.
-- **Source:** Budget Book 4.2.26, rows 537 and 549 — ESOL Services cost center
-- **Emotional valence:** negative
-- **Threat level:** 3
-- **Open question:** true
-
-#### 6. Union Advocacy Produces $300,000 Specifically for Economically Disadvantaged and Homeless Students
-- **Fact:** SSPA president Connie DeSanto announced mid-meeting that state-level advocacy by union leadership had secured approximately $150,000 in anticipated additional funding for economically disadvantaged students and $150,000 for students experiencing homelessness, totaling $300,000. Board member Richardson later stated publicly: "I want our teachers to get that money — no director positions, please."
-- **Source:** [121:05]–[123:39] Connie DeSanto public comment; [271:18]–[271:52] board member Richardson statement during board deliberations
+#### 3. Union advocacy secures $300,000 in state funding for economically disadvantaged and homeless students
+- **Fact:** SSPA president Connie DeSanto announced during public comment that union and staff advocacy — including trips to Augusta by union leadership from both SSPA and SPTA — had resulted in South Portland likely receiving approximately $150,000 in additional state funding tied to economically disadvantaged students and $150,000 tied to the district's homeless student population, for a total of approximately $300,000. Board Member Richardson later reported a text from Representative Kessler indicating that EPS formula changes could provide an additional $750,000 for the following year's budget.
+- **Source:** Transcript [122:05–123:39]; [264:00–264:20]
 - **Emotional valence:** positive
 - **Threat level:** 1
-- **Open question:** true
+- **Open question:** true — Member Richardson explicitly said the funds should go to teachers and staff, not director positions. But no formal board action determined how these dollars would be allocated. Whether they reach student-facing roles serving the highest-need populations — or are absorbed into structural budget gaps — remains unresolved.
 
-#### 7. No Disaggregated Equity Data Presented in Five Hours of Budget Discussion
-- **Fact:** Community member Meredith Diamond formally requested eight specific categories of student outcome data disaggregated by race, income, disability status, and ELL status — including suspension rates, chronic absenteeism, gifted program enrollment, and counselor access rates by subgroup. No administrator or board member responded to this request. No disaggregated data appeared in the budget presentation or any district-produced slide in this meeting.
-- **Source:** [220:30]–[224:31] Meredith Diamond public comment; [215:11] Lauren Shapiro Deek questions on ELL students in achievement data
+#### 4. Reconfiguration equity framing challenged as analytically thin
+- **Fact:** Community speaker Wheeler Boyd stated that the analysis supporting the reconfiguration decision was "alarmingly thin" and that "the scoring matrix used to evaluate the various closure and reconfiguration scenarios is minimally aligned with the district's own mission." A separate speaker, Meredith Diamond, went further, stating that framing reconfiguration as an equity initiative "is a manipulation and a lie," arguing that the plan risks increasing class sizes "most dramatically at our highest-needs schools" and eliminating access to enrichment programming — outcomes she characterized as the opposite of equity.
+- **Source:** Transcript [146:09–148:28]; [221:26–224:31]
 - **Emotional valence:** negative
 - **Threat level:** 3
-- **Open question:** true
+- **Open question:** true — The district did not present outcome evidence from comparable districts demonstrating that this reconfiguration model improves results for the student populations most affected. No speaker from the administration disputed the "minimally aligned" characterization of the scoring matrix.
+
+#### 5. Disaggregated equity data does not appear to exist in a usable form
+- **Fact:** Meredith Diamond called on the board to demand data disaggregated by race, income, disability status, and English learner status across eight dimensions: chronic absenteeism, grade retention, enrollment in gifted and advanced programs, access to arts and enrichment by subgroup, discipline rates, student and family perceptions of safety and belonging, bullying incidents, and counselor-to-student ratios. No such data was presented at this or any prior meeting documented in the record. The board did not commit to producing it.
+- **Source:** Transcript [220:40–224:31]
+- **Emotional valence:** negative
+- **Threat level:** 3
+- **Open question:** true — Without disaggregated outcome data, there is no basis for evaluating whether any budget decision — the behavioral strategist cut, the reconfiguration, the OT reductions — is equity-neutral, equity-positive, or equity-harmful. The district has not indicated when or whether this data will be produced.
+
+#### 6. OT positions cut from Functional Life Skills classrooms amid an existing vacancy crisis
+- **Fact:** A speech-language pathologist at Dyer and a special education teacher at Skillin both described, in detail, the role that embedded occupational therapists play in functional life skills classrooms — covering for absent ed techs, helping manage physical safety during behavioral incidents, providing sensory and self-care support. The Skillin teacher stated that the OT cut would require the equivalent of four additional ed tech positions to compensate, and described ending her day in a physical restraint with the OT unavailable. The district currently has six open special education ed tech vacancies, positions that were eliminated from the budget; the administration stated current service minutes could be met under the new configuration but acknowledged that hiring special ed ed techs has been a persistent challenge.
+- **Source:** Transcript [163:13–168:38]; [166:17–168:00]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true — The district's projection that OT service minutes can be met rests on an assumption that existing staff will adequately cover gaps currently filled by OTs. The vacancy history — six open positions described as chronically hard to fill — raises questions about whether that projection is realistic for the district's highest-need self-contained classrooms.
+
+#### 7. ESOL teacher staffing reduced while reconfiguration will redraw boundaries affecting multilingual families
+- **Fact:** The FY27 budget book shows 17.0 ESOL teacher FTE, down from 19.0 in FY25. The ESOL Director is budgeted at 0.5 FTE. Superintendent Entwistle noted plans to work with the "director of multilingual programs" on specific outreach to multilingual families during the reconfiguration listening sessions, and to design a focus group for parents of students with IEPs. No translated materials, multilingual session formats, or community liaisons were mentioned in the reconfiguration engagement plan described at this meeting.
+- **Source:** Budget Book rows 537, 549; Transcript [54:33–54:33]
+- **Emotional valence:** negative
+- **Threat level:** 3
+- **Open question:** true — The 2024 Boundaries and Configurations Steering Committee process included translated notes for community forums. No equivalent commitment was described for the reconfiguration engagement process now underway. With attendance boundaries undrawn and multilingual families facing potential school reassignments, the absence of a documented multilingual outreach strategy is a gap in the current record.
 
 ---
 
@@ -69,24 +69,26 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Priya's journey: Equity hollowed out, dollar by dollar
-    section Budget Numbers Go Up
-        DEI director swapped for cheaper role: 2: Priya
-    section Community Speaks for Vulnerable Kids
-        Behavioral specialist reads impact statement: 1: Priya
-        Union secures $300K for at-risk students: 4: Priya
-        FLS teacher describes restraint, unsafe cuts: 1: Priya
-    section Accountability Demands and Small Wins
-        Diamond demands disaggregated equity data: 2: Priya
-        Richardson pledges funds for frontline staff: 4: Priya
+    title Priya's journey: Equity invoked, evidence absent
+    section Budget Presentation
+        DEI Director cut, strategist substituted: 2: Priya
+        Special ed admin restructured, savings minimal: 2: Priya
+    section Public Comment — Staff Testimony
+        Behavioral strategist statement read aloud: 1: Priya
+        OT describes FLS safety breakdown: 1: Priya
+    section Public Comment — Advocacy Win
+        Union announces $300K for high-need students: 4: Priya
+        Diamond demands disaggregated equity data: 3: Priya
+    section Board Deliberation
+        Board defers budget, equity funds discussed: 3: Priya
 ```
 
 ---
 
 ### Reactions
 
-I've been to a lot of these meetings over the years, and I know how to read a budget document. So let me tell you what actually happened last night. They cut the person who was running behavior plans for sixty kids. Sixty. And the woman who held that role sent a statement through a colleague because she couldn't be there, and it was devastating and precise. She said their IEP identification rate is already 23% — nearly one in four students — which is higher than comparable districts. And she explained exactly what happens when you remove the only person doing early intervention: kids either get nothing, or they get fast-tracked into special ed. Which is more expensive. Which means more cuts next year. This is the "preventative model vs reactive model" problem I've been writing about for years, and here it is playing out live at a school board meeting, and the board barely engaged with it.
+The thing I keep coming back to is Jenna Goldstein Walsh. She couldn't be there, so someone read her statement for her. She's the behavioral strategist — one person covering four elementary schools, working with nearly 60 students this year, building behavior plans, doing the tier-two and tier-three MTSS work that keeps kids from sliding into full special ed referrals. That position is gone. And the district's response when board members pushed on it was essentially: the BCBAs and instructional strategists will pick it up. No caseload numbers, no capacity analysis, no acknowledgment that these are entirely different roles with different scopes. Meanwhile 23% of district students already have IEPs — that's their own number, and it's higher than neighboring districts. You cut the early intervention that's specifically designed to hold that line, and you're going to see it move. The district knows this. It was said clearly, in writing, at the microphone. I want to know what they're going to say when the referral numbers go up in FY28.
 
-But that's not even the thing that kept me up. The DEI director is gone. They replaced it with a "DEI strategist" — a teacher-contract position, no administrative authority, drawn from the recall list. The cost savings were twenty, maybe thirty thousand dollars. Meanwhile, the McKinney-Vento liaisons, the community partner support staff — that whole cost center, 3.5 positions and nearly $400,000 — zeroed out of local funding entirely, now dependent on a state grant that could disappear. And the ESOL team is down two teachers, which nobody mentioned out loud once in five hours. This is the pattern: every line item serving students who don't have institutional advocates gets quietly reassigned or eliminated, while the equity language stays in the mission statement. I have been waiting for someone to ask where the ESOL per-pupil spending data is, or what the suspension rates look like by subgroup. Meredith Diamond stood up and listed eight specific things they should be tracking, disaggregated by race and income and disability. The board said nothing.
+The reconfiguration-as-equity framing is the other thing I won't let go. Wheeler Boyd stood up and said it directly: the scoring matrix used to justify the closure was minimally aligned with the district's own mission statement. Meredith Diamond said it even more plainly — she called it a lie. I don't use that word as freely, but what I will say is this: you cannot call something an equity initiative when you have not produced a single line of disaggregated outcome data to demonstrate the impact on the students you claim to be helping. Attendance by subgroup? Not there. Discipline data by race and disability status? Not there. Counselor-to-student ratios by school? Not there. Diamond read off eight dimensions of equity data the district should have. None of it was in the room. If you're closing a school and redrawing every attendance boundary in the district, and you're doing it in the name of equity, you owe the community that data. Its absence isn't suspicious by itself — districts often under-invest in this kind of reporting — but it does mean the equity claim is currently unverifiable, and that matters.
 
-Here's what I'm holding onto: $300,000 is coming from the state, specifically for economically disadvantaged students and kids experiencing homelessness. That is real money for real kids, and it happened because union members drove to Augusta and made it happen. And board member Richardson said publicly — on the record — "no director positions with that money, I want it to go to teachers and staff." I want to trust that. But here's my question: who is tracking whether this money actually reaches the students it was secured for? The district just eliminated the people who were supposed to be accountable for equity outcomes. I'm submitting a records request next week. I want the ESOL student outcome data, the IEP referral rates by school, the Title I allocation by cost center. If the $300,000 ends up funding a budget line that doesn't disaggregate, we'll have no way to know if it ever touched a single homeless kid.
+The one thing that genuinely moved me was Connie DeSanto walking in with $300,000. Her people went to Augusta on their own time and came back with money specifically designated for economically disadvantaged students and students experiencing homelessness. That is real. And when Member Richardson said out loud that those funds should go to teachers and staff, not director positions, that was the clearest equity-aligned statement I heard all night. There's also potentially $750,000 more coming from the EPS formula change next year. I want to believe those dollars will reach the behavioral strategist role, the OT support in the FLS classrooms, multilingual family engagement — the things that actually serve the kids the district keeps saying this is all about. But there's no formal commitment yet, no process, no criteria for how it gets allocated. I'll be at every meeting between now and June watching to see whether that money gets used to restore what was cut from the highest-need programs, or whether it quietly disappears into the structural gap. The difference between those two outcomes is the whole question.

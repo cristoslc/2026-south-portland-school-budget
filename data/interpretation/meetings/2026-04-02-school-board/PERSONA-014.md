@@ -5,70 +5,58 @@ persona_id: "PERSONA-014"
 persona_name: "Lila"
 meeting_date: 2026-04-02
 meeting_title: "School Board Regular Meeting -- April 2, 2026"
-interpretation_date: 2026-04-03
+interpretation_date: 2026-04-05
 interpreter_model: "claude-sonnet-4-6"
 ---
 
 # Interpretation: Lila (PERSONA-014)
 ## Meeting: School Board Regular Meeting -- April 2, 2026 -- 2026-04-02
 
+---
+
 ### Structured Points
 
-#### 1. The Vote Already Happened — Before This Meeting Even Started
-- **Fact:** The board chair opened the meeting by acknowledging "significant reaction to the board's vote on reconfiguration, which occurred Monday night." The decision to reconfigure all elementary schools was final before the April 2 meeting began. This meeting could not undo it.
-- **Source:** [02:24]
+#### 1. Dyer is changing no matter what
+- **Fact:** The board chair stated clearly that the vote to reconfigure elementary schools is a separate action from the budget vote. Even if the budget fails in June, the reconfiguration decision stands and cannot be reversed by rejecting the budget.
+- **Source:** Transcript [09:24]
 - **Emotional valence:** negative
 - **Threat level:** 5
 - **Open question:** false
 
-#### 2. Nobody Knows Where Dyer Kids Are Going Next Year
-- **Fact:** Parent Vladimir Corian stated plainly that "none of the parents know where their children are gonna go next year." The superintendent confirmed the district is still "meeting with the transportation company" and working to identify student placements, hoping to publish a formal timeline only "by the end of next week."
-- **Source:** [134:31], [52:13]
-- **Emotional valence:** negative
-- **Threat level:** 5
-- **Open question:** true
-
-#### 3. A Kid Just Like Lila Already Cried About This
-- **Fact:** Parent Kate LaTuro described telling her first grader the morning after the vote that schools were changing. The child "crumbled" and said, "I just started there. I have to change schools." Then asked: "Mama, what school I go to? Will my friends be there? And will the teachers I know be there?" LaTuro's answer: "I don't know. I don't know. I'm sorry. I don't know."
-- **Source:** [175:30]
+#### 2. Nobody knows yet where Dyer kids will go
+- **Fact:** Board member Feller called the lack of attendance boundary information "an absolute information vacuum." The superintendent confirmed that student placement decisions have not yet been made — the district is still collecting staff preferences and demographic data before setting any boundaries.
+- **Source:** Transcript [53:46]
 - **Emotional valence:** negative
 - **Threat level:** 4
 - **Open question:** true
 
-#### 4. A Dad Who Walks His Kid to Dyer Doesn't Know What Happens Either
-- **Fact:** Charlie Fox, whose son attends Dyer, asked the board directly: "my son goes to Dyer. So does that mean Dyer is gonna go to Skillin now?" He described walking his son to school that week and said "all the parents who have first graders were devastated that their kids will not be going to Dyer next year."
-- **Source:** [206:38], [207:24]
+#### 3. First graders at Dyer won't be going back to Dyer next year
+- **Fact:** A parent who walks his son to Dyer Elementary described meeting other parents that week whose first graders "were devastated that their kids will not be going to Dyer next year." Lila's younger sibling is a current Dyer first grader.
+- **Source:** Transcript [206:38]
 - **Emotional valence:** negative
 - **Threat level:** 5
 - **Open question:** true
 
-#### 5. Beloved Teachers Are Leaving — Including Some Who Know You by Name
-- **Fact:** The board confirmed 13 elementary teachers are eliminated in the proposed budget. Public speakers named teachers who run after-school clubs, coach sports, and build lasting relationships with students. Computer science teacher Mr. Wetzel stood at the microphone and said: "Tomorrow I will return to the hallways and I will face these students and still not know what to say."
-- **Source:** [57:42], [155:29]
+#### 4. Class groups won't be kept together
+- **Fact:** The superintendent explained that even in a normal year, class groups are redistributed at the end of each school year — students do not move forward together as a unit. Reconfiguration will follow the same model.
+- **Source:** Transcript [73:14]
 - **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** true
-
-#### 6. They're Going to Listen Now — But the Vote Was Already Done
-- **Fact:** The superintendent described 13 upcoming listening sessions at each school for families and staff, with a family survey already open. But parent Aiden Rehan noted: "This is the first time we have had a question about change management — before, after we have voted to undergo the change." The listening comes after the decision.
-- **Source:** [50:40], [149:15]
-- **Emotional valence:** neutral
 - **Threat level:** 3
-- **Open question:** true
+- **Open question:** false
 
-#### 7. Some Teachers Went to Augusta and Got More Money Back
-- **Fact:** Union representative Connie DeSanto announced mid-meeting that staff advocacy at the state house had secured a likely additional $300,000 in state funding for South Portland. Board member Richardson later relayed a possible additional $750,000 from EPS formula changes. Board members responded that they wanted this money used for staff positions.
-- **Source:** [122:51], [264:20]
-- **Emotional valence:** positive
-- **Threat level:** 1
-- **Open question:** true
-
-#### 8. The Budget Still Wasn't Decided — More Waiting
-- **Fact:** Despite being the meeting's main purpose, the board did not vote on the FY27 budget. They voted unanimously to meet with the city council and deferred the budget vote, with a possible Monday meeting pending new information. Board member Richardson said: "I know I'm not in a position to wanna approve this budget tonight."
-- **Source:** [267:25], [272:50]
+#### 5. A kid from another school said exactly what Lila has been saying
+- **Fact:** A parent described her first grader crying the morning after the reconfiguration vote and saying: "I just started there. I have to change schools... Will my friends be there?" The parent said she had no answers.
+- **Source:** Transcript [175:30]
 - **Emotional valence:** neutral
 - **Threat level:** 2
-- **Open question:** true
+- **Open question:** false
+
+#### 6. There will be a listening session at Dyer
+- **Fact:** The superintendent announced 13 community listening sessions, including one hosted at each elementary school, where families and staff can share their priorities for the reconfiguration. An online option was also added to increase access.
+- **Source:** Transcript [50:40]
+- **Emotional valence:** positive
+- **Threat level:** 1
+- **Open question:** false
 
 ---
 
@@ -76,28 +64,25 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Lila's journey: My school changed, nobody knows what's next
-    section The decision is already done
-        Vote happened Monday, can't be undone: 1: Lila
-        Board says budget vote won't change it: 1: Lila
-    section Trying to find out what comes next
-        Superintendent describes listening sessions: 3: Lila
-        But no answers yet on where kids go: 2: Lila
-    section Real kids are scared too
-        First grader cried about changing schools: 1: Lila
-        Dyer dad still doesn't know where his kid goes: 1: Lila
-        Mr. Wetzel doesn't know what to say to students: 2: Lila
-    section A little hope, still more waiting
-        Teachers got more money from Augusta: 4: Lila
-        Board delays budget vote again: 2: Lila
+    title Lila's journey: Dyer's future decided without her
+    section Budget talk (tuning out)
+        Numbers and money nobody explains: 2: Lila
+    section The hard news
+        Reconfiguration stays no matter what: 1: Lila
+        Nobody knows where Dyer kids go: 1: Lila
+    section Voices from her community
+        Dyer dad says first graders devastated: 2: Lila
+        Another kid cried the same words: 3: Lila
+    section One small thing
+        Her school gets a listening session: 4: Lila
 ```
 
 ---
 
 ### Reactions
 
-My mom came home from the meeting last night and she looked really tired. I asked her if they said where I'm going to school next year and she said not yet. Not yet again. She's been saying that for weeks. There was a mom at the meeting who said her little kid started crying when she found out about the schools changing. The mom couldn't even answer where her kid was going to go. She just kept saying I don't know, I don't know, I'm sorry. That's what my parents say too.
+ok so my mom came home from the meeting and she was really quiet. the lady who runs the board said that Dyer is changing for SURE. even if the budget doesn't pass. even if everybody votes no. it's still happening. so it's real. and the part that made my stomach feel bad is they STILL don't know where the kids from Dyer are going next year. one of the board members said there's "an absolute information vacuum" which means nobody knows anything. my mom is going to a meeting at Dyer where families can say what they care about. but that's not the same as knowing where i'm going.
 
-There was also a dad who walks his kid to Dyer like my dad does. He asked them is his kid gonna have to go all the way to Skillin. They didn't really answer. At recess me and my friends keep trying to figure out what's happening but nobody knows. Zoe said we're going to Brown but Maya said no it's Skillin and I don't even know who to believe. The grownups at the meeting don't know either. The lady in charge said they hope to tell people in like a week or something.
+the part that made me cry a little bit — there was another parent there and she said her daughter cried and said "i just started there, i have to change schools, will my friends be there." THAT IS WHAT I SAID. i said those exact words to my mom after recess on tuesday. and then a dad who walks his son to Dyer said the parents he talks to were devastated. and he said first graders at Dyer won't be going back to Dyer next year. my brother is in first grade. so he's definitely going somewhere different. me and him might not even be at the same school.
 
-The only good thing my mom told me is that some teachers drove to Augusta — that's the big government place — and they asked for more money and it actually worked a little bit. So maybe some teachers who were gonna have to leave get to stay. I really hope my teacher stays. She's been my teacher for two years and she knows everything about me, like how I like to sit by the window and how fractions make me nervous. I don't want to go to a new school with a new teacher who doesn't know any of that yet.
+i keep asking why and the adults say stuff like "equity" and "what's best for all students" but nobody has said whether my friends are coming with me. they said they're asking the TEACHERS where they want to work first, and then they'll figure out where the kids go. five hours of meeting and nobody told me where i'm going. i don't care about the budget numbers. i just want to know if maya and sofia are going to be at the same school as me. that's the only question that matters and nobody said that part.

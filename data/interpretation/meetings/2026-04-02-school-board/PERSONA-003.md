@@ -5,7 +5,7 @@ persona_id: "PERSONA-003"
 persona_name: "Jess"
 meeting_date: 2026-04-02
 meeting_title: "School Board Regular Meeting -- April 2, 2026"
-interpretation_date: 2026-04-03
+interpretation_date: 2026-04-05
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -14,58 +14,51 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. Nobody knows where the kids will go
-- **Fact:** When pressed on attendance boundaries after the reconfiguration vote, Dr. Prince said the district is still gathering community input and has not yet determined how students will be assigned to the four remaining elementary schools. A parent stated directly: "The assumption is that small school parents will go to Brown. But it's possible those kids will be going across town to Skillin."
-- **Source:** Transcript [53:46--54:33] and public comment by Vladimir Corian [134:31--136:07]
-- **Emotional valence:** negative
-- **Threat level:** 5
-- **Open question:** true
-
-#### 2. The one person handling behavior problems in elementary schools is being cut
-- **Fact:** The district's general education behavioral specialist, who this year alone wrote formal behavior plans for over 40 individual elementary students and designed social-emotional supports for roughly 50 more, is being eliminated. Her written statement warned that without her role, struggling students will either receive no behavioral support in general education or be referred directly to special education -- "there is no in between."
-- **Source:** Public comment, Nicholas Boggs reading statement from Jenna Goldstein Walsh [101:14--106:45]
+#### 1. Reconfiguration already voted; no one knows where children will go
+- **Fact:** The board voted the prior Monday to reconfigure all four remaining elementary schools into grade bands (K-1 and 2-4). As of this meeting, no attendance boundaries have been set. The superintendent said families should expect updates "in the next few weeks" after listening sessions, but acknowledged, "I don't want to get ahead of hearing those voices." A board member separately described "an absolute information vacuum" around boundaries.
+- **Source:** [53:00--55:19]; [149:00--151:00]
 - **Emotional valence:** negative
 - **Threat level:** 4
 - **Open question:** true
 
-#### 3. Kindergarten class sizes may exceed the district's own policy by fall
-- **Fact:** A board member raised the scenario where a new kindergartner enrolls and pushes a class over the district's class-size policy cap. Dr. Prince acknowledged this has already happened to some classes this year and said the district has "structures to address" overflow, including redirecting students to a different school -- but stated no written policy exists governing how IEP concentration limits would be managed in larger classes.
-- **Source:** Transcript [57:42--63:51]
+#### 2. Pre-K program exists but loses a teacher position
+- **Fact:** The FY27 budget funds Pre-K instruction at $900,553, including 3.0 teacher FTEs and 4.0 ed tech FTEs. In FY26, Pre-K had 4.0 teacher FTEs — a reduction of one full teacher position heading into the year Jess is watching most closely.
+- **Source:** Budget Book (FY27 Budget Meeting 4.2.26), rows 377--388
+- **Emotional valence:** negative
+- **Threat level:** 3
+- **Open question:** true
+
+#### 3. Elementary behavioral support specialist eliminated
+- **Fact:** The district's sole elementary general-education behavioral strategist position is proposed for elimination. A statement read into the record described this person as working directly with nearly 60 students across four schools, designing and overseeing formal behavior plans for more than 40 of them. The statement warned that without this role, students who need early intervention will either receive no meaningful support in general education or be referred into special education — "there is no in between."
+- **Source:** [101:14--106:10] (public comment, statement read by Nicholas Boggs on behalf of Jenna Goldstein Walsh)
 - **Emotional valence:** negative
 - **Threat level:** 4
 - **Open question:** true
 
-#### 4. Pre-K at Kaler -- the entry point for some incoming families -- is being zeroed out
-- **Fact:** The FY27 budget book shows Kaler Elementary School's entire budget at zero across all line items, including teacher salaries, ed tech salaries, and supplies. A parent, Brian Green, specifically noted that his daughters ages four and six had attended pre-K at Kaler and described it as his family's "first exposure to real school."
-- **Source:** Budget Book, Kaler Elementary rows 116--161; public comment Brian Green [156:38--157:49]
+#### 4. Class sizes rising; no written policy on IEP concentration in classrooms
+- **Fact:** Thirteen elementary teacher positions are eliminated in this budget. Board member Feller noted that class sizes will rise and pushed for clarity on what happens when a kindergarten class hits 21 or 22 students. The superintendent acknowledged that some current grade levels already have 50% of enrolled students with IEPs, and confirmed there is no written district policy limiting IEP concentration per classroom.
+- **Source:** [57:42--63:05]
 - **Emotional valence:** negative
 - **Threat level:** 3
 - **Open question:** true
 
-#### 5. The district has been running deficits for years with no savings left
-- **Fact:** Finance Director Abigail Ketchen confirmed the district has run deficits in FY24, FY25, and is projecting one in FY26 as well. She stated plainly: "We are in the context of no savings buffer." The recommended minimum fund balance is 9% of operating costs; the district currently has none.
-- **Source:** Transcript [16:28--20:24] and [70:08--70:54]
-- **Emotional valence:** negative
+#### 5. Pre-K and kindergarten facility needs raised but not answered
+- **Fact:** A public commenter asked directly whether the buildings being reconfigured have the appropriate infrastructure for Pre-K and kindergarten students — specifically noting that these age groups require classrooms with child-sized sinks and bathrooms. The question was asked during public comment and was not addressed in the board's responses at the end of the meeting.
+- **Source:** [150:30--151:00] (public comment by Aiden Rehan)
+- **Emotional valence:** neutral
 - **Threat level:** 3
-- **Open question:** false
+- **Open question:** true
 
-#### 6. New state funding could bring some positions back -- but it's one year only
-- **Fact:** During the meeting, union president Connie DeSanto announced that advocacy in Augusta had likely secured an additional $300,000 in state funding for economically disadvantaged and homeless students. A board member then received a text indicating a potential additional $750,000 from EPS formula changes. However, a board member immediately flagged that this was reportedly a one-year increase.
-- **Source:** Public comment Connie DeSanto [122:05--123:39]; board discussion [264:15--274:25]
+#### 6. Potential $300,000 in new state funding, likely directed to staff positions
+- **Fact:** A union leader announced mid-meeting that direct advocacy with state legislators may yield approximately $300,000 in additional state funding for the district — $150,000 linked to the homeless student population and $150,000 for economically disadvantaged students. Multiple board members expressed intent to use this money to restore student-facing staff positions rather than seed the fund balance. A separate text message to a board member cited a potentially higher figure of $750,000 in EPS formula changes for FY28, though this was flagged as a one-year item and unconfirmed.
+- **Source:** [122:00--123:40]; [264:00--265:08]
 - **Emotional valence:** positive
-- **Threat level:** 2
+- **Threat level:** 1
 - **Open question:** true
 
-#### 7. The board voted to reconfigure all elementary schools before building any plan
-- **Fact:** Multiple speakers noted the reconfiguration vote passed Monday, April 1 -- just one day before this meeting -- with no finalized transportation plan, no attendance boundaries, no published timeline, and no superintendent in place to lead the transition. A speaker cited Lewiston's comparable process taking three years; South Portland is attempting it in roughly four months before the next school year.
-- **Source:** Public comment Alex Strube [168:38--171:41]; board discussion Dr. Prince [49:08--52:58]
-- **Emotional valence:** negative
-- **Threat level:** 5
-- **Open question:** true
-
-#### 8. The district is actively hiring a new superintendent mid-transition
-- **Fact:** The board chair confirmed the district is currently conducting preliminary interviews for a new superintendent, with finalists expected roughly four weeks out and a selection to follow. Dr. Prince noted the incoming superintendent "is going to be inheriting a lot of change" and "not really leading anything" at the outset.
-- **Source:** Transcript [239:15--253:17]
+#### 7. Budget not passed; new superintendent will inherit reconfiguration already in motion
+- **Fact:** The board did not vote to adopt the FY27 budget at this meeting. The board voted unanimously to convene a meeting with city council to seek additional budget guidance. A new superintendent search is ongoing, with finalist interviews expected in approximately four weeks. A board member noted plainly that the incoming superintendent "is not really leading anything — they're going to show up with a new plan."
+- **Source:** [239:00--240:50]; [253:17]; [271:59--280:00]
 - **Emotional valence:** negative
 - **Threat level:** 3
 - **Open question:** true
@@ -76,26 +69,25 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Jess's journey: Chaos before her child enrolls
-    section Budget overview
-        Hearing 78 positions cut: 2: Jess
-        No fund balance, deficits for years: 2: Jess
-    section Reconfiguration reality check
-        No attendance boundaries exist yet: 1: Jess
-        K class sizes may breach policy: 1: Jess
-    section Public comment
-        Behavior specialist cut described: 1: Jess
-        $300K new state funds announced: 3: Jess
-    section Close
-        Budget deferred, no answers for families: 2: Jess
+    title Budget deferred, families still waiting
+    section Following the Money
+        Finance explains years of deficits: 3: Jess
+    section Cuts That Hit Home
+        Behavioral specialist position cut: 2: Jess
+        Class sizes up, no IEP policy written: 2: Jess
+    section Parents Like Her Speak
+        Child cries about school change: 1: Jess
+        New $300K state funding announced: 4: Jess
+    section Still No Answers
+        Budget deferred, boundaries unknown: 2: Jess
 ```
 
 ---
 
 ### Reactions
 
-Oh my god, okay, so I finally watched the whole thing during nap time and I have so many thoughts. So basically they voted Monday to completely restructure all the elementary schools -- like split kindergarten and first grade to one set of buildings and second through fourth somewhere else -- and then showed up to THIS meeting with zero plan for where any kid is actually going. Zero. A parent literally stood up and said the neighborhood assumption is that Small kids go to Brown, but they could end up at Skillin across town, and nobody from the district corrected him. Nobody. Because they don't know yet. They voted first and are figuring it out now. My kid enters kindergarten in two years and I genuinely do not know which school she'll be assigned to, whether it'll be walkable, or whether the school that exists right now will even be the same school by then.
+Okay so I finally watched last night's meeting and I genuinely could not sleep after. So they already voted — Monday night — to close a school and restructure everything else into these K-1 and 2-4 grade bands, and I didn't even fully understand that had happened until I was like an hour into this meeting. And here's the thing: no one knows where any kid is going. The superintendent literally said she doesn't want to get ahead of the community listening sessions. My kid doesn't enter for two more years and I already feel like I'm watching someone build a plane while it's in the air. One mom got up and said her first-grader asked "will my friends be there?" and she had to tell her she didn't know. That hit me hard. That's going to be my kid.
 
-And here's the thing that really got me. Someone read a statement from the elementary behavior specialist -- the one person whose whole job is catching kids who are struggling behaviorally *before* they need special ed services. She works across four schools, she wrote formal behavior plans for over 40 kids just this year, and they're cutting her. Gone. The person who read her statement explained it clearly: right now there's a middle layer of support. Without her, kids either get nothing or get referred straight to special ed. And in the same meeting they're acknowledging class sizes are going up. So more kids, bigger classes, and the one person bridging behavioral needs to classroom teachers is just... eliminated. I keep thinking about what my kid's kindergarten will actually look like in two years if this is the trajectory.
+What I can't stop thinking about is the behavioral support piece. They're cutting the one person in the entire district whose job was to catch kids before they fall into special ed — she worked with almost 60 kids across four schools this year. The statement they read from her said without that role there's literally "no in between" for struggling kids — either they get nothing or they get pushed into special education, which costs way more and is harder to get back out of. And this is happening at the same time they're cutting thirteen elementary teachers and class sizes are going up. A board member asked point-blank whether there's a written policy on how many kids with IEPs can be in one class — and the answer was no, there isn't. So when my daughter's in kindergarten, her class could be 22 kids with no behavioral support specialist and no written limit on how many kids with intensive needs are in the room with her. I don't know how teachers are supposed to do that.
 
-The only thing that felt like a breath was near the end -- one of the union leaders announced they'd lobbied the state and gotten what sounds like an extra $300,000 or maybe more coming to the district. The board got excited for like two minutes. But then somebody immediately said it might be a one-year bump, and then everything stalled out and they couldn't even vote on the budget because nobody agreed on what to do with the money. They ended the meeting with no budget passed, no attendance plan, no superintendent hired yet, and a four-month clock ticking to restructure every elementary school. I genuinely don't know whether to start looking at schools in Scarborough or just... wait and see what's left standing.
+The only thing that gave me any hope at all was a union rep who stood up and said staff actually went to the state house and got $300,000 in new funding, and the board seemed to want to use it to bring back positions. That's something. But the budget didn't even pass last night — they're still negotiating with the city council — and they're in the middle of hiring a new superintendent who someone on the board admitted is going to walk in and inherit everything already in motion. So I don't know. I genuinely don't know if south Portland will have the Pre-K program my kid needs, which school would even be her neighborhood school, or whether the classroom she walks into will have the support around it that I'd want. I can't find those answers anywhere. Nobody seems to have them yet.

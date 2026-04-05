@@ -5,7 +5,7 @@ persona_id: "PERSONA-010"
 persona_name: "Ben"
 meeting_date: 2026-04-02
 meeting_title: "School Board Regular Meeting -- April 2, 2026"
-interpretation_date: 2026-04-03
+interpretation_date: 2026-04-05
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -14,53 +14,60 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. The plain-English explanation of how the district got here
-- **Fact:** Finance director Abigail Katchen presented a slide showing the district has chronically under-budgeted non-personnel costs for years — electricity overspent by $138K in FY23, $211K in FY24, $165K in FY25, and an estimated $368K+ in FY26. Tuition reimbursement showed the same pattern every year. Her thesis: without a savings buffer, optimistic budgeting in one year produces personnel cuts the next.
-- **Source:** Transcript [16:28–20:24]
-- **Emotional valence:** positive
+#### 1. Five hours, no budget vote
+- **Fact:** After nearly five hours of discussion, the board voted unanimously to convene a budget guidance meeting with city council but took no action on adopting the FY27 budget itself. The vote was deferred, with a possible Monday session contingent on getting confirmed figures from the state.
+- **Source:** [273:38--279:06]
+- **Emotional valence:** neutral
 - **Threat level:** 2
-- **Open question:** false
+- **Open question:** true
 
-#### 2. Mid-meeting: $300,000 in new state funding announced from the floor
-- **Fact:** SSPA president Connie DeSanto announced during public comment — reading from a text she received during the meeting — that union leaders and staff who lobbied lawmakers in Augusta in March had secured a likely $300,000 in additional state funding: $150K tied to the district's homeless student population and $150K tied to economically disadvantaged students.
-- **Source:** Transcript [122:05–123:51]
+#### 2. $1 million in surprise state funding announced mid-meeting
+- **Fact:** SSPA president Connie DeSanto announced during public comment that union lobbying in Augusta had yielded approximately $300,000 in new state funding — $150,000 tied to homeless student population, $150,000 to economically disadvantaged students. Within the same hour, Board Member Richardson relayed a text from Representative Kessler indicating a potential additional $750,000 from EPS formula changes, though she cautioned the figure was unconfirmed and described by the legislator as a one-year change.
+- **Source:** [122:05--123:39] (DeSanto); [264:08--264:20] (Richardson/Kessler text)
 - **Emotional valence:** positive
 - **Threat level:** 1
 - **Open question:** true
 
-#### 3. The board did not vote on the budget
-- **Fact:** After four months of development and nine prior meetings, the board declined to adopt the FY27 superintendent's budget at this meeting. Multiple members cited the late-arriving state funding figures and the desire to know the precise dollar amount before voting. The board tentatively discussed meeting Monday — the only remaining window before the April 7th council presentation.
-- **Source:** Transcript [272:50–279:06]
-- **Emotional valence:** negative
+#### 3. Finance director gives the clearest "how we got here" of the season
+- **Fact:** Finance Director Abigail Ketchen explained that the district has systematically under-budgeted predictable expenses for at least four consecutive years, using tuition reimbursement (overspent by $41k–$153k annually since FY23) and electricity (overspent by $138k–$368k annually) as concrete examples. She argued that without a fund balance cushion, optimistic budgeting in one year directly causes staff cuts in the next.
+- **Source:** [16:28--20:24]
+- **Emotional valence:** neutral
 - **Threat level:** 3
-- **Open question:** true
-
-#### 4. Cutting a director saves almost nothing — and board members said so out loud
-- **Fact:** Board members Feller and Holman both expressed frustration that replacing the DEI Director with a DEI Strategist, and eliminating the Assistant Director of Special Education in favor of an Instructional Strategist, produced savings of only $20,000–$30,000 each — because the new roles carry similar compensation. Member Holman said flatly: "I expected to see money liberated in another place, and that's been disappointing."
-- **Source:** Transcript [39:50–46:00]
-- **Emotional valence:** negative
-- **Threat level:** 3
-- **Open question:** true
-
-#### 5. Fund balance target: 9–12% of operating costs. Current balance: zero
-- **Fact:** Finance director Katchen confirmed the district has no fund balance remaining and disclosed that best practice — following the city's own thresholds — is to maintain 9–12% of annual operating costs in reserves. On a $75.6M budget, the minimum threshold would be roughly $6.8M. Board member Feller used the word "negligent" to describe the years of spending that depleted it.
-- **Source:** Transcript [70:08–70:54]
-- **Emotional valence:** negative
-- **Threat level:** 4
 - **Open question:** false
 
-#### 6. A $750,000 EPS formula change arrived by text during deliberations
-- **Fact:** During the board's deliberation over whether to vote on the budget, board member Richardson mentioned receiving a text message indicating that changes to the state EPS funding formula could provide an additional $750,000 for FY27. The figure was unconfirmed, and another board member noted it may be a one-year-only allocation — but it shifted the room enough that the board chose not to vote that night.
-- **Source:** Transcript [264:13–264:25]
-- **Emotional valence:** positive
-- **Threat level:** 2
+#### 4. Director-to-strategist substitutions generated roughly $20k–$30k in savings
+- **Fact:** Board members Feller and Richardson pressed on whether replacing the DEI Director and the Assistant Director of Special Education with instructional strategist roles produced meaningful cost reductions. Finance Director Ketchen estimated the net savings at roughly $20,000–$30,000 per position — not negligible, but far less than the savings that would restore student-facing positions. Board Member Holman called the result "disappointing," saying she had expected cuts at the director level to "liberate" money for the classroom roles that were eliminated.
+- **Source:** [23:34--24:19]; [45:55--46:45]
+- **Emotional valence:** negative
+- **Threat level:** 3
 - **Open question:** true
 
-#### 7. The behavior specialist's statement — the human story of what's ending
-- **Fact:** A statement from Jenna Goldstein Walsh, the district's elementary general education behavioral specialist whose position is being eliminated, was read into the record. It described working directly with nearly 60 students this year, developing over 40 formal behavior plans, and warned that eliminating the role removes the "middle layer" of support — meaning students either get nothing or are referred to special education, which costs significantly more per student. The district's special education identification rate is already 23%, higher than surrounding districts.
-- **Source:** Transcript [101:14–106:07]
+#### 5. Behavioral specialist statement: "Eliminating this role does not eliminate those needs"
+- **Fact:** A written statement from Jenna Goldstein Walsh — the district's elementary general education behavioral strategist, whose position is proposed for elimination — was read into the record. She reported having worked directly with nearly 60 students this year, designing over 40 formal behavior plans. She argued that without her role, students who currently receive preventive Tier 2 interventions would either receive nothing or be referred directly to special education, which already serves about 23% of district students — higher than most neighboring districts — at significantly greater cost per student.
+- **Source:** [101:14--106:07]
 - **Emotional valence:** negative
 - **Threat level:** 4
+- **Open question:** true
+
+#### 6. Fund balance at zero; district's own guidelines call for 9–12%
+- **Fact:** Asked how much high-performing Maine districts allocate to fund balance, Finance Director Ketchen said the city's own guidance establishes a 9–12% minimum of operating costs. The district currently holds no fund balance. The $52,000 freed by reducing the health insurance assumption from 12% to 11.5% was redirected to facilities capital for the high school chimney stacks rather than seeding a reserve.
+- **Source:** [69:21--71:41]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true
+
+#### 7. Attendance boundary question has no answer yet
+- **Fact:** When Board Member Feller identified an "absolute information vacuum" around where children will be assigned under reconfiguration, Dr. Prince said the district did not want to get ahead of upcoming family listening sessions. No geographic criteria, transportation cost analysis, or timeline for attendance boundary decisions was available. Dr. Prince acknowledged that families with children in self-contained special education settings would need specific outreach, but no framework for that work had been published.
+- **Source:** [52:58--55:19]; [53:46--54:33]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true
+
+#### 8. Teachers union formally requests October budget start — on the record
+- **Fact:** SPTA president Sarah Gay formally requested, on the record, that the next budget cycle begin no later than October. She noted this was the union's request for the current year as well, and said: "I think we've learned our lesson and I know how to do better."
+- **Source:** [112:55--113:17]
+- **Emotional valence:** neutral
+- **Threat level:** 2
 - **Open question:** true
 
 ---
@@ -69,24 +76,25 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Ben's journey: Budget crisis, new money, no vote
-    section Budget Presentation
-        Finance director explains chronic under-budgeting: 4: Ben
-        Fund balance gap -- need 9-12 percent have zero: 2: Ben
+    title Ben's journey: Budget chaos, surprise state money
+    section Opening + Finance
+        Board pulls early release days: 4: Ben
+        Finance director explains under-budgeting: 4: Ben
+    section Board Questioning
+        Director savings minimal, board frustrated: 2: Ben
     section Public Comment
-        Behavior specialist statement -- preventive model ending: 3: Ben
-        Union president announces 300k from Augusta: 5: Ben
-    section Board Deliberations
-        750k EPS formula text arrives mid-meeting: 4: Ben
-        Board declines to vote on budget tonight: 2: Ben
+        Behavioral specialist statement read aloud: 2: Ben
+        Union rep: $300k from Augusta lobbying: 5: Ben
+    section Close
+        Budget tabled, council meeting planned: 3: Ben
 ```
 
 ---
 
 ### Reactions
 
-So I have the piece — or maybe two pieces. The board was supposed to vote tonight on the FY27 budget. They didn't. Here's why: partway through public comment, the union president walks up to the mic and says she just got a text from the statehouse. Teachers and staff had driven to Augusta in March, lobbied lawmakers themselves, and apparently it worked — a likely $300,000 in new state money for homeless and economically disadvantaged students. Then, during board deliberations, a board member holds up her phone and says she got a text saying a state EPS formula change might bring another $750,000. Suddenly there's potentially over a million dollars that didn't exist two hours earlier, the board is recalculating everything on the fly, and nobody votes. The budget goes to the city council on Tuesday anyway — as the superintendent's budget, not the board's — because that's just what happens when the board doesn't act.
+Okay, so I just finished five hours of this meeting and the headline is: they didn't pass the budget. Which sounds like a disaster until you realize a $300,000 surprise dropped into the middle of public comment — from the union president, who announced it live, off a text she got from Augusta while sitting in the room. Then, in the post-comment board discussion, Richardson read another text from a state rep saying there might be another $750,000 coming from a formula change. Could be $1 million in new money that nobody knew about at 6pm. That's the lede. The board tabled the vote, wants to meet Monday to confirm the numbers, and everyone's hoping to find out before they have to go to council on the 7th.
 
-The other story I finally got tonight: a plain-English explanation of how the district ran out of money. The finance director had a slide — electricity overspent four years running, tuition reimbursement overspent every year, budgeted for less than they actually spent each time. Her argument was simple: when you have no savings and you budget wishfully, the overage shows up as job cuts the following year. That's the machine that produced 78 eliminated positions. She also disclosed the district should be holding 9–12% of its operating budget in reserve — call it $6–7 million — and currently has zero. Board member Feller used the word "negligent" for the record. That's the sentence I've been trying to get out of someone all season.
+But here's the story underneath the story, and it's the one I've been trying to nail all season. The finance director finally gave the plain-English explanation of how this district ended up $7 million in the hole — not in some explosive moment, but in this methodical slide that showed how they've been under-budgeting tuition reimbursement and electricity by six figures every single year for four straight years. Nobody cooked the books. They just kept writing optimistic numbers and spending the difference down to zero. She said it herself: without a fund balance, optimistic budgeting in year one becomes a layoff in year two. That's the "how did we get here" paragraph I've been missing from every piece this season. I'm calling her Thursday.
 
-The human material tonight was harder to ignore than any prior meeting. A statement was read on behalf of the elementary behavior specialist whose position is being cut — 60 kids she works with individually, 40-plus formal behavior plans she designed and oversees. Her question to the board: when she's gone, who designs those plans? The board didn't have a clean answer. And the middle school computer science teacher — his daughter came and spoke for him, then he came up himself and said tomorrow he goes back to his students still not knowing what to tell them. I want to talk to both of them before Friday. The story isn't really about the budget vote that didn't happen. It's about who's going to absorb the work of people who won't be there next year, and whether anyone has actually answered that question.
+The other thing that'll stick with me: Members Feller and Holman pressed hard on whether replacing the DEI Director and the special ed admin director with instructional strategist roles actually freed up any money. The answer was $20,000 to $30,000 per swap — maybe. Holman said out loud that she expected director-level cuts to "liberate" money that could restore classroom positions. It didn't. Richardson said essentially the same thing — she doesn't see the concessions. That's a real story. The community came to every one of these meetings asking the district to cut from the top first. The district made moves at the director level, and those moves generated next to nothing in recoverable funds. I need someone on the record explaining why — not accusatorially, just clearly — and I don't have that yet. That's my call list for Thursday.

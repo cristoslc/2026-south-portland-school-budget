@@ -5,7 +5,7 @@ persona_id: "PERSONA-015"
 persona_name: "Kira"
 meeting_date: 2026-04-02
 meeting_title: "School Board Regular Meeting -- April 2, 2026"
-interpretation_date: 2026-04-03
+interpretation_date: 2026-04-05
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -14,58 +14,58 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. Behavioral Specialist Elimination Removes the MTSS Middle Layer
-- **Fact:** Nicholas Boggs read a statement from Jenna Goldstein Walsh, the district's elementary general education behavioral strategist, whose position is proposed for elimination. Walsh documented working with nearly 60 students across Brown, Small, Dyer, and Kaler this year — over 40 required formal behavior plans she developed and oversaw, and about 50 needed individualized social-emotional supports. Walsh's statement warned that eliminating this role "removes the middle layer of support" and that without early intervention, students will either receive no meaningful behavioral support or be fast-tracked to special education referral.
-- **Source:** Transcript [101:14–106:00], public comment by Nicholas Boggs reading statement from Jenna Goldstein Walsh
+#### 1. Behavioral Specialist Elimination: A Cross-Building Role Gone
+- **Fact:** Nicholas Boggs read a statement from Jenna Goldstein Walsh, the district's elementary general education behavioral strategist, whose position has been recommended for elimination. The statement documented that she currently supports four of five elementary schools, has worked directly with nearly 60 individual students this year, developed more than 40 formal behavior plans, and designed approximately 50 individualized social-emotional supports. She argued that eliminating the role removes the system for responding to student needs without eliminating the needs themselves, and that students will either receive no meaningful behavioral support in general education or be referred directly to special education — at greater cost.
+- **Source:** [101:14--105:56], public comment, read by Nicholas Boggs on behalf of Jenna Goldstein Walsh
 - **Emotional valence:** negative
 - **Threat level:** 5
 - **Open question:** true
 
-#### 2. District's Answer: BCBAs and Instructional Strategists Will Cover It
-- **Fact:** When board member Richardson asked who will cover behavioral interventions after the specialist role is eliminated, Dr. Prince stated the plan is for BCBAs (board certified behavior analysts) to have some allocation of regular education funding so they can "be in that bridge space," supplemented by instructional strategists. When pressed on what makes the instructional strategist model different from the assistant director of special education role being replaced, Dr. Prince described it as more of a coaching and co-teaching model, with "the majority of their day not a hundred percent doing instruction to students."
-- **Source:** Transcript [79:26–81:48] and [241:35–243:07]
+#### 2. Administrative Right-Sizing Did Not Free Money for Student-Facing Roles
+- **Fact:** Board members Feller and Holman pressed the administration directly on whether restructuring director roles into instructional strategist roles freed up dollars to restore student-facing positions. The administration acknowledged savings of roughly $20,000–$30,000 per position change, and Dr. Prince confirmed the difference is approximately equivalent. Member Feller stated plainly: "We're losing our entire computer science department... there's no money." Member Holman called the absence of liberated funding "disappointing."
+- **Source:** [39:49--41:22], [46:00--46:46], board Q&A with administration
 - **Emotional valence:** negative
 - **Threat level:** 4
 - **Open question:** true
 
-#### 3. Embedded OTs in FLS Classrooms Cut, Safety Consequences Named on Record
-- **Fact:** Speech-language pathologist Rachel Gibs raised direct concerns about cutting the embedded OT at Dyer, noting the district has struggled chronically to fill special education ed tech positions — one FLS classroom had six new-hire ed techs at the start of this year, one teacher left because the district didn't provide a mentor, and a newly hired ed tech left after four days. Special education teacher Stacy Lauren described ending her day in a physical restraint because her student was unsafe, with the OT occupied covering a behavior student and her other ed tech in a one-on-one — "I'm down staff every day." Lauren stated directly: "When we cut this OT, they're more than just an OT. They're my backup."
-- **Source:** Transcript [163:13–165:31] (Rachel Gibs) and [165:32–168:38] (Stacy Lauren)
+#### 3. Administration's MTSS Coverage Answer Is Structurally Thin
+- **Fact:** In response to public questions about who will design and oversee tier 2 and tier 3 MTSS behavioral interventions after the behavioral strategist position is eliminated, Dr. Prince stated the work will be covered by board-certified behavior analysts (BCBAs) and instructional strategists, with some allocation of BCBA time funded through regular education so they can "be in that bridge space." She also cited PBIS data-informed practices and existing MTSS teams at each building as ongoing supports.
+- **Source:** [241:35--243:08], administration responses to public comment questions
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true
+
+#### 4. OT and FLS Classroom Safety: Staff Testimony Confirms Cross-Building Risk
+- **Fact:** Stacy Lauren, a special education teacher at Skillin, testified that the two OT positions being cut each cover the equivalent of two ed tech positions, that she ended her day in a physical restraint, that one ed tech had already left because the room was "too hard and dangerous," and that the current sub in her room is covering a position that should be a trained ed tech. A separate commenter, Chelsea Smirky, who substitutes regularly in five FLS classrooms across three schools, testified that without OT support, instances of unprovoked violence and elopement will increase from current levels.
+- **Source:** [166:17--168:38], [188:46--191:06], public comment
 - **Emotional valence:** negative
 - **Threat level:** 5
 - **Open question:** true
 
-#### 4. Board Frustration: Director Cuts Did Not Free Up Money for Teacher Roles
-- **Fact:** Board member Holman stated directly: "I expected to see money where there were cuts made in one place, money would be liberated in another. And that's been disappointing." Board member Feller echoed this, saying she was "really struggling" to see meaningful concessions at the director level and that replacing a director with an instructional strategist saves only $20–30K while student-facing roles remain cut. The finance director confirmed the savings are approximately $20–30K depending on lane and step placement.
-- **Source:** Transcript [46:00–46:00] (Holman) and [39:50–41:22] and [84:58–85:46] (Feller)
+#### 5. Reconfiguration Staffing Process Is Starting — and Has Real Equity Potential
+- **Fact:** Dr. Prince described a detailed early-stage reconfiguration planning process: a staff preference survey going out the following morning to all elementary staff, 13 upcoming listening sessions at each school for both families and staff, a digital open-ended survey that had already received about 200 responses, and work with the director of multilingual programs on specific outreach to multilingual families. She also committed to specific outreach to parents of children with IEPs, particularly those in self-contained settings.
+- **Source:** [50:40--55:19], board Q&A with administration
+- **Emotional valence:** positive
+- **Threat level:** 2
+- **Open question:** true
+
+#### 6. $300,000 in New State Funding — Staff Ask It for Positions, Not Administration
+- **Fact:** Connie DeSanto, president of SSPA, announced during public comment that union outreach to the state legislature had resulted in approximately $300,000 in anticipated additional state funding — $150,000 tied to the homeless student population and $150,000 tied to economically disadvantaged students. All three employee unions formally requested the board use these funds to preserve student-facing positions. Board member Richardson later added that a text from a state representative indicated a potentially larger figure of $750,000 from EPS formula changes for the following year.
+- **Source:** [122:05--123:39], public comment; [264:20--265:08], board discussion
+- **Emotional valence:** positive
+- **Threat level:** 1
+- **Open question:** true
+
+#### 7. Special Education Students in Reconfiguration: No Concrete Plan Yet
+- **Fact:** Multiple public commenters asked directly how special education students — particularly those in self-contained FLS classrooms — would be handled during redistricting, including whether teams would stay together. Dr. Prince acknowledged this as a priority and stated the district plans to "listen to families" and "listen to our educators," but acknowledged there are no further details available at this point. Board member Smith pressed for more, and the response was characterized by the chair as the best answer available at this time.
+- **Source:** [254:52--256:07], administration responses; [160:51--162:25], public comment
 - **Emotional valence:** negative
-- **Threat level:** 3
+- **Threat level:** 4
 - **Open question:** true
 
-#### 5. $300K in State Funding Announced — Board Members Direct It to Staff, Not Directors
-- **Fact:** Connie DeSanto (SSPA president) announced mid-meeting that the district is set to receive approximately $300,000 in additional state funding — $150K based on homeless student population and $150K based on economically disadvantaged students — as a result of union leadership and staff traveling to Augusta to advocate directly with lawmakers. Board member Richardson responded by text with information that EPS formula changes may provide an additional $750K for next year. Richardson stated explicitly: "I want our teachers to get that money. No director positions, please, with that money."
-- **Source:** Transcript [122:05–123:39] (DeSanto) and [263:41–265:08] (Richardson)
-- **Emotional valence:** positive
-- **Threat level:** 2
-- **Open question:** true
-
-#### 6. Reconfiguration Staff Survey Launches Tomorrow — Itinerant Staff Implications Unclear
-- **Fact:** Dr. Prince announced that a survey would go out to every elementary school staff member the following day (April 3) to collect their preference on both their certification and which grade band or campus they value most — described as input to help form staff teams early so they have maximum collaborative time. Dr. Prince noted that buildings have an "uneven distribution of impacts through the reduction in force" and that the process will also try to account for existing team dynamics and vacancies.
-- **Source:** Transcript [51:27–52:12] and [71:41–73:14]
-- **Emotional valence:** neutral
-- **Threat level:** 3
-- **Open question:** true
-
-#### 7. Reconfiguration Plan Includes Specific Equity Outreach — Multilingual Families and Special Ed Parents Named
-- **Fact:** Dr. Prince stated she is working with the director of multilingual programs to design specific outreach to multilingual families about their reconfiguration priorities, and plans to work with the special education team to identify a focus group or dedicated setting for parents of children with IEPs — "especially those in self-contained settings" — to hear their voices about the transition and the new program model.
-- **Source:** Transcript [54:22–55:19]
-- **Emotional valence:** positive
-- **Threat level:** 2
-- **Open question:** true
-
-#### 8. Board Did Not Vote on Budget — No Final Decision on Positions Tonight
-- **Fact:** The board declined to vote on agenda item 4.3 (adopting the FY27 superintendent's budget), opting instead to tentatively schedule a Monday meeting pending confirmation of the state funding figures. Multiple board members — including Richardson, Holman, and Smith — stated they were not ready to approve the budget as presented. The superintendent noted that if no board vote occurs before April 7, what goes to city council is the superintendent's budget, not the school board's budget.
-- **Source:** Transcript [267:25–279:06]
+#### 8. Budget Not Adopted — Uncertainty Extends Into Reconfiguration Planning
+- **Fact:** The board took no action on agenda item 4.3, the adoption of the FY27 budget. Several members cited the newly announced state funding figures as a reason to wait. The board unanimously approved a meeting with city council to seek budgetary guidance, and the chair noted a possible Monday convening, but no vote was taken. The superintendent noted that without board action, what advances to the council is the superintendent's budget, not a board-endorsed proposal.
+- **Source:** [261:10--279:06], board discussion and non-action on 4.3
 - **Emotional valence:** neutral
 - **Threat level:** 3
 - **Open question:** true
@@ -76,27 +76,24 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Kira's journey: MTSS middle layer stripped away
-    section Budget mechanics and staffing structure
-        Finance director on realistic budgeting: 3: Kira
-        Instructional strategist vs director debate: 2: Kira
-    section Behavioral and MTSS cuts go on the record
-        Behavioral specialist statement read aloud: 1: Kira
-        District answer - BCBAs will cover it: 2: Kira
-    section OT safety crisis named from inside classrooms
-        Rachel Gibs on OT vacancy crisis: 1: Kira
-        Stacy Lauren in restraint with no backup: 1: Kira
-    section Late-meeting signals
-        $300K state funding - staff not directors: 4: Kira
-        Budget deferred, plan still incomplete: 2: Kira
+    title Kira's journey: Behavioral cuts, equity, uncertainty
+    section Budget and Admin Q&A
+        Right-sizing yields no freed dollars: 2: Kira
+        MTSS coverage answer rings hollow: 2: Kira
+    section Public Comment
+        Jenna's behavioral specialist statement: 1: Kira
+        $300K state funding announced: 4: Kira
+    section Late Meeting
+        Reconfig staffing survey detailed: 3: Kira
+        Budget deferred, no vote taken: 2: Kira
 ```
 
 ---
 
 ### Reactions
 
-I was in four buildings today before I sat down to watch this meeting. By the time Nicholas Boggs started reading Jenna's statement I was already exhausted, and then I had to hear the numbers out loud: nearly 60 kids, 40 formal behavior plans, across Brown, Small, Dyer, and Kaler. I work in those buildings. I know those kids. Some of them are on my caseload too. And the district's answer when board member Richardson pushed back was essentially: the BCBAs and instructional strategists will absorb it. I have deep respect for our BCBAs. But they are not Jenna. What Jenna does is sit in the gap before a kid qualifies for anything, before a parent gets a call, before a teacher breaks. That is tier two work and it is not the same as what a BCBA does in a consult model. The district keeps using the phrase "bridge space" like that's a plan. It's not a plan. It's a description of a vacancy.
+I've been traveling between four buildings this year — same as Jenna. And when they read her statement tonight I had to put my phone down because she was describing my kids. Not my own kids, my caseload kids. The ones on wait lists at one school who would have immediate access at another. She supported sixty students this year across four schools and wrote over forty formal behavior plans. Forty. And the district's answer for who covers that next year is essentially: the BCBAs will do it, and the instructional strategists will help. I work with BCBAs. I love BCBAs. They are not the same thing as someone whose entire job is tier 2 general education behavioral intervention, building relationships across buildings, catching kids before they need a special ed referral. That middle layer Jenna described — that's real. I see what happens when it's not there.
 
-Then Stacy got up and I almost had to step outside. She described ending her day in a restraint because her OT was occupied with a behavior student and her ed tech was one-on-one with someone else. That is not an edge case — that is a Tuesday in a functional life skills classroom when you're one person short, which is almost always. What I know that the board doesn't fully see is that those six special ed ed tech vacancies they keep citing as "standard" — those aren't positions that nobody wants. Those are positions where people get hurt and leave. Stacy's sub was a retired teacher who was scared and left. The next person left after four days. When you cut the OT who is also functioning as emergency backup and the person who knows the behavior plans cold, you don't save money. You create the conditions for the next vacancy.
+What I keep coming back to is the board's question tonight that nobody has actually answered yet. Member Feller and member Holman both said the same thing: we were told right-sizing director roles would free money. Where is it? The administration said the role changes save maybe twenty to thirty thousand dollars. That's not nothing, but it's also not "we can bring back the behavioral strategist" money. It's not "we can restore the OT in the FLS room at Skillin" money. Stacy Lauren ended her day in a restraint today. She told the board that. She mentioned it in the same breath as saying her sub — who is a person she likes and trusts — isn't trained for what that room needs. That's not an abstraction. I've been in rooms like that. I know what it looks like when you're down staff and a kid is escalating and you don't have the right person standing next to you.
 
-What kept me going through the rest of the night was two things. Connie's announcement — our people drove to Augusta and got $300,000 — and Richardson saying on the record, with her colleagues present: no director positions, that money goes to staff. I wrote that down. I'm going to hold onto that. And I'm going to fill out that staff survey tomorrow very carefully, because as an itinerant I'm used to not being anyone's first thought when buildings are dividing up teams. The thing I actually felt cautiously hopeful about was Dr. Prince naming multilingual families and IEP families specifically — not just "families" — as groups that need dedicated reconfiguration listening sessions. That's the thing the Boundaries and Configurations work never got to. If that actually happens, if those sessions are real and the voices in them actually shape where kids go — that's what I've been asking about for years. I just don't know yet whether this time it's real or whether it's a slide that makes it into a plan that nobody follows.
+The thing I'm holding onto is the three hundred thousand dollars from the state, and the possibility of more next year. The union leaders went to Augusta and got that. And Connie was clear: the ask is student-facing positions, not more administration. I believe that's where the board's head is too, based on what Richardson and Feller said tonight. The reconfiguration planning piece — the staff survey, the multilingual outreach, the IEP family focus groups — that is actually what it should look like if we're going to do this right, and Dr. Prince clearly knows what she's doing there. But I'm going to be watching very closely whether the equity goals that justified reconfiguration actually survive contact with the budget. Right now the behavioral infrastructure that serves the most vulnerable kids in every building is being cut, and the plan for replacing it is thin. That's what I'm thinking about at 11pm.

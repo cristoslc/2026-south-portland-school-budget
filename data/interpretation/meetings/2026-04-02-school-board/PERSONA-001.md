@@ -5,7 +5,7 @@ persona_id: "PERSONA-001"
 persona_name: "Maria"
 meeting_date: 2026-04-02
 meeting_title: "School Board Regular Meeting -- April 2, 2026"
-interpretation_date: 2026-04-03
+interpretation_date: 2026-04-05
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -16,75 +16,61 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. Half-Day Early Release Days Pulled From the Agenda
-- **Fact:** The board chair announced he would accept a motion to remove Agenda Item 4.1 — four additional PreK–4 early release days in May and June — after parents pushed back hard. The board voted unanimously to remove it.
-- **Source:** Transcript [03:12]–[08:39]; Agenda Item 4.1
+#### 1. Board pulls early release proposal after parent pushback
+- **Fact:** The board chair opened the meeting by removing from the agenda a proposal to add up to four early release days (May 13, 20, 27, June 3) for reconfiguration planning, citing hardship on working families. The board voted unanimously to remove it and will instead pursue a one-day state waiver.
+- **Source:** [02:24]–[08:39]
 - **Emotional valence:** positive
-- **Threat level:** 2
-- **Open question:** true — A waiver for one fewer student day is being explored, but no concrete plan for how teachers will get enough transition prep time was put on the table.
+- **Threat level:** 1
+- **Open question:** true — Board member Richardson noted the original ask was two days of planning; a single-day waiver may be insufficient, leaving the adequacy of reconfiguration preparation unresolved.
 
----
-
-#### 2. The Behavioral Specialist Who Supports 60 Elementary Kids Is Being Cut
-- **Fact:** A statement from Jenna Goldstein Walsh, the district's elementary general-education behavioral specialist, was read aloud. She works directly with nearly 60 students across Brown, Small, Dyer, and Kayla, providing formal behavior plans and social-emotional supports. Eliminating her position does not eliminate those student needs — it removes the system designed to address them before kids are referred to special education.
-- **Source:** Transcript [101:14]–[106:00], public comment (read by Nicholas Boggs)
-- **Emotional valence:** negative
-- **Threat level:** 5
-- **Open question:** true — Administration said BCBAs and instructional strategists will absorb this work, but no one explained concretely who designs tier-two behavioral interventions for 60 general-ed elementary kids next year.
-
----
-
-#### 3. Class Sizes Could Exceed District Policy With No Written Safeguard
-- **Fact:** Board member Feller pressed the superintendent on what happens when a new student enrolls mid-year and pushes a class over the district's policy limit. The superintendent acknowledged this has already happened in individual classrooms this year, and that past practice included capping enrollment at a school (e.g., Kayla could not accept more kindergartners). No written policy governs the IEP composition limit either — there is nothing that caps the percentage of students with IEPs in a single classroom.
-- **Source:** Transcript [57:42]–[60:48]
+#### 2. Elementary behavioral specialist position eliminated — "the middle layer disappears"
+- **Fact:** A statement read on behalf of the district's elementary general education behavioral strategist (who could not attend) described working with nearly 60 individual students this year — more than 40 with formal behavior plans she developed — across four of the five elementary schools. She stated that eliminating this role "does not eliminate those needs. It removes the system we have in place to respond to them," warning that students will either receive no meaningful behavioral support in general education or be fast-tracked to special education referrals.
+- **Source:** [101:14]–[105:56]
 - **Emotional valence:** negative
 - **Threat level:** 4
-- **Open question:** true — With 13 fewer elementary teachers next year, what specific action protects a classroom that hits 21 or 22 students, especially with reduced behavioral support staff?
+- **Open question:** true — No speaker from the district provided a specific plan for who will design and oversee tier-two and tier-three MTSS behavioral interventions across elementary schools next year. The administration pointed to BCBAs and instructional strategists as future coverage, but the mechanics of that handoff were not detailed.
 
----
-
-#### 4. An FLS Classroom Teacher Ended Her Day in a Physical Restraint — and the OTs Being Cut Are Her Backup
-- **Fact:** Stacy Lauren, a special education teacher at Skillin, testified that each of the two OT positions being eliminated covers the equivalent of two ed tech positions in functional life skills classrooms. She described ending her school day in a physical restraint because she was understaffed, with a substitute filling an open ed tech slot that had never been properly filled.
-- **Source:** Transcript [166:17]–[168:38], public comment
+#### 3. Attendance boundaries still unknown — no answer on busing and walkability
+- **Fact:** Member Feller asked directly how attendance boundaries will be determined and whether children will be bused across the city. Dr. Prince declined to provide specifics, saying she did not want to "get ahead of" the community listening sessions scheduled to begin the following week, and that boundary decisions would be shaped by family input on priorities including walkability.
+- **Source:** [53:46]–[54:33]
 - **Emotional valence:** negative
 - **Threat level:** 4
-- **Open question:** false — The situation is clear. The open question is what the board will do about it.
+- **Open question:** true — With reconfiguration scheduled for the coming school year, families have no information about school assignments, bus ride lengths, or how geographic priorities will be weighed. The district committed to publishing a formal timeline by the end of the following week, but no boundary framework was described.
 
----
+#### 4. Class sizes rising as supports are cut — IEP concentration acknowledged
+- **Fact:** With 13 elementary teachers eliminated, Member Feller pressed on compliance with the district's class size policy. Dr. Prince acknowledged that some current classes already have 50% of students with IEPs and that the district cannot draw attendance boundaries based on IEP status. She described regular-education ed techs as partial mitigation and cited reconfiguration's potential to allow grade-level grouping across larger cohorts as a pedagogical benefit.
+- **Source:** [57:42]–[63:05]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** true — The district has no written policy capping the IEP percentage within a general education classroom. No speaker described how teachers will manage larger classes with higher concentrations of students with identified needs, given simultaneous reductions in behavioral support.
 
-#### 5. Union Advocacy at the State House Produced $300,000 in New Funding — During the Meeting
-- **Fact:** Connie DeSanto, president of the support staff union SSPA, announced during public comment that she had just received a text: South Portland is set to receive approximately $300,000 in additional state funding — $150,000 tied to the homeless student population and $150,000 for economically disadvantaged students — as a direct result of union leaders making personal trips to Augusta to lobby lawmakers. All three employee unions called on the board to use these funds for student-facing positions.
-- **Source:** Transcript [121:38]–[123:39], public comment (Connie DeSanto)
+#### 5. $300,000 in new state funding announced mid-meeting — with significant uncertainty
+- **Fact:** The SSPA president announced during public comment that union and staff outreach to the state legislature had yielded a projected $300,000 in additional funding (approximately $150,000 tied to homeless student population, $150,000 tied to economically disadvantaged students). Later in the meeting, a board member reported receiving a text from a state representative suggesting EPS formula changes could yield an additional $750,000 for the following year, though that figure came from a different legislator and was described as potentially a one-year change.
+- **Source:** [122:05]–[123:39]; [264:08]–[264:20]
 - **Emotional valence:** positive
 - **Threat level:** 2
-- **Open question:** true — Board members debated whether to use the funds for positions or the fund balance. No decision was made.
+- **Open question:** true — The exact amount, durability, and intended use of these funds were unresolved at the close of the meeting. Multiple board members stated they wanted the money directed to student-facing staff positions, but no action was taken and the administration had not yet produced a recommendation.
 
----
+#### 6. Board defers budget vote — no budget adopted as of meeting close
+- **Fact:** After unanimously voting to convene a meeting with city council, the board declined to vote to adopt the superintendent's budget proposal. Several members said they were not ready to approve a budget without firmer figures on the new state funding. The board discussed potentially convening again on Monday before the April 7 council presentation, contingent on receiving a funding number.
+- **Source:** [261:10]–[279:06]
+- **Emotional valence:** neutral
+- **Threat level:** 2
+- **Open question:** true — It is unclear whether additional funds will be confirmed in time for a Monday meeting, how much of the new funding will be directed to restoration of positions, and which positions the administration will recommend restoring versus holding in reserve.
 
-#### 6. Nobody Knows Which School Their Elementary Child Will Attend Next Year
-- **Fact:** Board member Feller called out an "absolute information vacuum" around attendance boundaries. The superintendent said boundary decisions would be informed by upcoming listening sessions — meaning they will not be set until after parent input is gathered. Parents in the audience confirmed they have no idea whether their children will be assigned to their neighborhood school or bused across the district.
-- **Source:** Transcript [52:58]–[54:33]; public comment (multiple speakers including Vladimir Corian, Aiden Rehan, Kate LaTuro)
-- **Emotional valence:** negative
-- **Threat level:** 5
-- **Open question:** true — No timeline for boundary announcements was given.
-
----
-
-#### 7. The Board Did Not Vote on the Budget — and Will Try Again Monday
-- **Fact:** The board voted unanimously to convene a meeting with the city council to seek budget guidance, but declined to vote on the FY27 superintendent's budget. Several members said they wanted to incorporate the new state funding information before acting. A possible Monday meeting was discussed but not confirmed.
-- **Source:** Transcript [261:10]–[279:06]; Agenda Item 4.3
+#### 7. Occupational therapist cuts raise safety alarms in functional life skills classrooms
+- **Fact:** A speech-language pathologist at Dyer and a special education teacher at Skillin testified that embedded OTs in functional life skills classrooms effectively cover the work of two ed tech positions — including crisis support during behavioral escalations. The Skillin teacher described ending her day in a physical restraint, working with a long-term substitute in a role that could not be filled, and said cutting the OT would leave classrooms understaffed in unsafe conditions.
+- **Source:** [163:13]–[168:38]; [188:46]–[191:07]
 - **Emotional valence:** negative
 - **Threat level:** 3
-- **Open question:** true — The budget remains unresolved. Maria doesn't know if any positions will come back, which schools will have which staff, or what her child's year will look like.
+- **Open question:** true — The district maintains that OT service minutes can be met with 3.8 FTE and group delivery. Whether staffing can cover acute behavioral crises in self-contained classrooms — distinct from scheduled service minutes — was not addressed.
 
----
-
-#### 8. Cutting Director Roles Did Not Free Up Money for Classroom Positions
-- **Fact:** Board members Feller and Holman expressed frustration that converting two director positions (DEI Director, Assistant Director of Special Education) into instructional strategist roles saved roughly $20,000–$30,000 each — not nearly enough to restore beloved student-facing positions. Holman said directly she had "expected to see money liberated" and found the outcome "disappointing."
-- **Source:** Transcript [39:50]–[46:00]
-- **Emotional valence:** negative
-- **Threat level:** 3
-- **Open question:** true — If director restructuring didn't produce savings, where does the money come from to restore a behavior specialist, an OT, a computer science teacher, or a percussion ed tech?
+#### 8. Listening sessions announced for elementary families
+- **Fact:** Dr. Prince announced 13 upcoming listening sessions: one per school for staff, one per school for families, one open public session at the high school, and two online sessions. A digital survey had already received approximately 200 responses from families and staff. Building-level administrators are co-facilitating. Sessions will focus on community priorities around reconfiguration, including transportation, walkability, and student assignment.
+- **Source:** [49:54]–[56:07]
+- **Emotional valence:** positive
+- **Threat level:** 1
+- **Open question:** true — The board voted to reconfigure before these sessions were announced. It is not established how community input will constrain or shape boundary decisions that have already been set in motion.
 
 ---
 
@@ -92,26 +78,25 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Maria's journey: Budget chaos, no answers on schools
-    section Agenda Changes
-        Half-day early release days scrapped: 4: Maria
-        Budget numbers land -- deficit scale sinks in: 2: Maria
-    section Board Questions Administration
-        Director cuts freed almost no money for classrooms: 2: Maria
-        Class sizes could bust policy with no safeguard: 1: Maria
+    title Maria's journey: Budget opacity and unanswered questions
+    section Opening
+        Half-days pulled after parent pushback: 4: Maria
+    section Budget and Board Q and A
+        Budget figures don't map to classrooms: 2: Maria
+        No answer on where kids go to school: 1: Maria
     section Public Comment
-        60 elementary kids lose behavior support: 1: Maria
-        Union announces $300K from state lobbying: 4: Maria
-    section Board Closes Without Deciding
-        Budget deferred -- no resolution, no school answers: 2: Maria
+        Behavioral specialist loss described: 1: Maria
+        300K state funding announced: 4: Maria
+    section Evening Close
+        Board delays vote, night ends open: 3: Maria
 ```
 
 ---
 
 ### Reactions
 
-Okay so the half-day thing getting pulled at the very start — that actually felt like a small miracle. Like, they heard us. Parents pushed back and they listened, same meeting. I was genuinely surprised. But that warm feeling lasted maybe ten minutes, because then the budget numbers went up on the screen and I'm just sitting there doing the math in my head — 78 positions, 42 teachers, 13 at the elementary level alone — and I keep thinking, my kid's school has how many teachers? Where does that leave her classroom?
+They actually pulled the early release days. I know that sounds like a small thing, but I've been texting people in the group chat all week about it and I was genuinely relieved when the chair said it right at the start. They heard us. For about ten minutes I thought maybe this was going to be a different kind of meeting. And then we were back to five hours of feeling like I was watching something fall apart in slow motion. The part that's going to keep me up: someone stood up to read a statement from the behavioral specialist — she covers Brown, Small, Dyer, and Skillin — because she couldn't be there herself. She worked with almost 60 kids this year. Forty of them had formal behavior plans that she wrote and managed. Her entire position is getting cut. And she said it so plainly: "Eliminating this role does not eliminate those needs. It removes the system we have in place to respond to them." I've been saying this in PTA conversations for months and couldn't put it this clearly. She's the person who catches kids before they fall into special ed. That's the middle layer. And it's just gone.
 
-The moment that really got me — the one I keep replaying — was when this man got up and read a statement from the behavior specialist. Her name is Jenna Goldstein Walsh and she works across four elementary schools, and she said she's worked directly with almost 60 individual students this year. Sixty kids. Behavior plans, social-emotional support, the kids who are struggling in class but aren't quite in special education yet. And her position is being cut. The administration's answer was basically "the BCBAs and instructional strategists will cover it." That's not a plan, that's a prayer. And then later in the meeting, an FLS teacher at Skillin got up — I think she said she wasn't even planning to come, she was in the middle of dinner — and she described ending her school day in a physical restraint with a student because she was so understaffed. And the two OTs they're cutting are essentially her backup. I don't even know what to do with that information except feel sick.
+Meanwhile, class sizes are going up. A board member pushed on this and found out that some classes already have 50% of kids with IEPs. Fifty percent. And there's no written policy anywhere about how they manage that concentration. So bigger classes, less support, no behavioral safety net. And then the question everyone in my neighborhood has been asking — where are our kids actually going to school next year? Member Feller asked Dr. Prince directly: are we going to be bused across the city? She said she doesn't want to get ahead of the listening sessions. The listening sessions that start next week. School starts in four months. I still cannot tell you where my kid is going to school in September. I don't know if they'll walk there. I don't know if they'll be on a bus for forty minutes. They've been at the same school for three years and we genuinely do not know.
 
-The one genuinely hopeful thing was Connie DeSanto from the support staff union getting up and announcing mid-meeting — she literally got a text during the meeting — that the unions' advocacy at the state house got us $300,000 in new funding. Teachers drove to Augusta on their own time and made it happen. $300,000. The unions immediately said: use it for student-facing positions, not administration. And the board didn't vote on anything. They're meeting with the city council, maybe meeting again Monday, and we still don't know which school our kids will be attending in September. I'm going to be sharing that $300,000 news in the parent group chat tonight because people need something to hold onto, but honestly I'm exhausted and I still don't have a single answer for my daughter about next year.
+The one real piece of news: one of the union leaders announced mid-meeting that their trips to Augusta had gotten us $300,000 in additional state funding — tied to homeless and low-income student counts — and a board member said she'd gotten a text about potentially $750,000 more from the EPS formula. That's real money. Because of that, the board decided not to vote on the budget tonight, which I think is actually right, even though it means more uncertainty. I'm going to share the funding news in the parent chat tomorrow morning because people need to know there's something concrete to fight for. But I'm also going to tell them: show up to the listening session at our school. They're saying this is how they'll shape the boundaries. I genuinely don't know if our input will change anything at this point, but I'm not staying home to find out.

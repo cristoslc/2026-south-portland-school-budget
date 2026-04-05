@@ -5,7 +5,7 @@ persona_id: "PERSONA-009"
 persona_name: "Dana"
 meeting_date: 2026-04-02
 meeting_title: "School Board Regular Meeting -- April 2, 2026"
-interpretation_date: 2026-04-03
+interpretation_date: 2026-04-05
 interpreter_model: "claude-sonnet-4-6"
 ---
 
@@ -14,54 +14,54 @@ interpreter_model: "claude-sonnet-4-6"
 
 ### Structured Points
 
-#### 1. Father-Daughter Moment -- Computer Science Teacher and His Kid
-- **Fact:** High schooler Lucy Hutzel spoke in defense of her father, Mr. Wetzel, the middle school computer science teacher being cut. Mr. Wetzel then followed her at the mic, visibly emotional, saying he would return to school the next morning to face his students "and still not know what to say."
-- **Source:** Transcript, public comment section, approximately [02:52:00]--[02:56:00]
-- **Emotional valence:** negative
-- **Threat level:** 2
-- **Open question:** false
-
-#### 2. Union Rep Announces Surprise $300K in State Funding -- Mid-Meeting
-- **Fact:** SSPA president Connie DeSanto announced, while still at the podium during public comment, that she had just received a text during the meeting indicating South Portland would receive approximately $300,000 in additional state funding based on homeless and economically disadvantaged student populations -- money her union had lobbied Augusta for in person.
-- **Source:** Transcript, public comment, approximately [02:21:00]--[02:24:00]
+#### 1. Board chair pulls early release days before the meeting even starts
+- **Fact:** Board Chair DeAngelis opened by removing agenda item 4.1 — four proposed early release days tied to reconfiguration prep — after parent pushback. The board voted unanimously to remove it, and the superintendent will now pursue a state waiver for a single reduced school day instead.
+- **Source:** [02:24--08:39]
 - **Emotional valence:** positive
-- **Threat level:** 1
-- **Open question:** true
-
-#### 3. Board Does Not Vote on the Budget -- Leaves Empty-Handed
-- **Fact:** Despite the superintendent recommending the board pass the FY27 budget that evening, the board declined to vote, with multiple members citing the surprise state funding and their discomfort approving a budget with no fund balance. The board tentatively agreed to consider meeting Monday to revisit.
-- **Source:** Transcript, approximately [04:15:00]--[04:30:00]; agenda item 4.3
-- **Emotional valence:** neutral
 - **Threat level:** 3
 - **Open question:** true
 
-#### 4. Angry Parent Reads Off Board Members' Term Expiration Dates by Name
-- **Fact:** Parent Brian Green named five specific board members who voted for reconfiguration and read their term end dates aloud, urging the community to remember them at the polls. He called the decision "arbitrary and capricious" and said these should be "the last years that any of these individuals hold any sort of power."
-- **Source:** Transcript, public comment, approximately [02:37:00]--[02:40:00]
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** false
-
-#### 5. Behavior Specialist's Written Statement -- 60 Kids, No One to Replace Her
-- **Fact:** A colleague read a written statement from Jenna Goldstein Walsh, the elementary general education behavioral specialist whose position is being eliminated. The statement said she currently supports nearly 60 students across four schools, has written over 40 formal behavior plans this year, and that cutting her role "removes the system we have in place" without eliminating the needs -- potentially pushing more students into special education, which is "significantly more expensive per student."
-- **Source:** Transcript, public comment, approximately [01:41:00]--[01:46:00]
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** false
-
-#### 6. Bus Driver Warning -- Three Shoulder Surgeries, Drivers Already Quitting
-- **Fact:** Bus driver and union representative Jen Lauard testified that among current staff doing lunch table setup and breakdown -- a duty the district is exploring assigning to drivers -- there are already six injuries, three shoulder surgeries, and three workers in physical therapy. She added that drivers are currently looking for other jobs over the proposed duty changes, and the district is already down two bus driver positions.
-- **Source:** Transcript, public comment, approximately [01:57:00]--[02:00:00]
-- **Emotional valence:** negative
-- **Threat level:** 4
-- **Open question:** false
-
-#### 7. Board Member Holman Tears Up Responding to Harsh Public Comments
-- **Fact:** After Brian Green's pointed public comment naming individual board members, board member Holman spoke during school board communications to say the words were "hurtful and painful," compared the experience to a child being bullied, and said she had "never met Mr. Green." She explicitly asked the public to consider how hurtful words can be.
-- **Source:** Transcript, school board communications, approximately [04:31:00]--[04:33:00]
-- **Emotional valence:** negative
+#### 2. Board member Rich publicly apologizes to Dr. Prince for prior meeting remarks
+- **Fact:** Chair DeAngelis opened by acknowledging that at the previous Monday meeting, board member Rich made a comment about Dr. Prince's performance that violated decorum rules. Rich then apologized directly on the record: "I was out of line."
+- **Source:** [01:38--02:24]
+- **Emotional valence:** neutral
 - **Threat level:** 2
 - **Open question:** false
+
+#### 3. Wetzel family speaks back-to-back -- daughter then dad
+- **Fact:** Lucy Hutzel, a high school student, spoke at the mic to defend her father Mr. Wetzel, the middle school computer science teacher whose position is proposed for elimination. She described how his class opened her to a possible career path. Wetzel followed her immediately, said he originally came only to yield time, struggled to finish his statement, and told the room he will return to his hallways tomorrow still not knowing what to say to his students. Computer science will not be available next year under the current proposal.
+- **Source:** [152:24--156:15]
+- **Emotional valence:** negative
+- **Threat level:** 5
+- **Open question:** false
+
+#### 4. Union rep announces $300K in new state funding -- live, mid-meeting
+- **Fact:** SSPA president Connie DeSanto told the board she had just received a text during the meeting from the state house: South Portland is likely to receive an additional $300,000 in state funding -- $150K tied to the homeless student population and $150K tied to economically disadvantaged students -- as a direct result of union staff and teachers lobbying Augusta lawmakers in March. All three employee unions urged the board to use the funds for student-facing positions.
+- **Source:** [121:38--123:39]
+- **Emotional valence:** positive
+- **Threat level:** 5
+- **Open question:** true
+
+#### 5. Behavioral specialist position cut -- statement read aloud with specific student numbers
+- **Fact:** A statement from Jenna Goldstein Walsh, the district's elementary general education behavioral strategist (position proposed for elimination), was read into the record. It detailed that she directly supported nearly 60 individual students this year, developed over 40 formal behavior plans, and designed individualized social-emotional supports for approximately 50 students. The statement argued that eliminating the role removes "the middle layer" between no support and special education referral, and that the district's 23% special ed rate -- already higher than surrounding districts -- would likely increase.
+- **Source:** [101:14--106:07]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** false
+
+#### 6. Parent reads out names and term-end dates of the five board members who voted for reconfiguration
+- **Fact:** Parent Brian Green closed his public comment by naming each of the five board members who voted for reconfiguration and stating their seat expiration years: Holman (2026), Dowling (2027), Dean (2027), Rich (2028), Smith (2028). He urged the community to ensure "these are the last years that any of these individuals hold any sort of power." Board member Smith later responded from the dais, calling Green's comments "hurtful and painful" and describing the experience as bullying.
+- **Source:** [156:07--159:22] and [230:29--233:03]
+- **Emotional valence:** negative
+- **Threat level:** 4
+- **Open question:** false
+
+#### 7. Board declines to vote on the FY27 budget -- meeting ends without a decision
+- **Fact:** After nearly five hours, the board did not take action on agenda item 4.3 (adopting the FY27 superintendent's budget). Multiple board members cited the mid-meeting news of potential new state funding -- including a separate text received by a board member suggesting an additional $750K from EPS formula changes next year -- as reason to wait. The board tentatively discussed convening again on Monday, pending confirmation of the actual funding figures. The superintendent's budget proceeds to the city council April 7th regardless as the default.
+- **Source:** [264:20--279:09]
+- **Emotional valence:** neutral
+- **Threat level:** 4
+- **Open question:** true
 
 ---
 
@@ -69,27 +69,24 @@ interpreter_model: "claude-sonnet-4-6"
 
 ```mermaid
 journey
-    title Dana's journey: Budget vote that never happened
-    section Opening and Calendar Housekeeping
-        Apology, early release days pulled: 3: Dana
-    section Budget Presentation and Board Q&A
-        6 percent tax hike confirmed, crisis framing: 3: Dana
-        Director vs teacher role debate drags: 2: Dana
-    section Public Comment
-        Behavior specialist 60 kids no backup: 4: Dana
-        300K state funding dropped mid-meeting: 5: Dana
-        Wetzel daughter then Wetzel himself: 5: Dana
-        Brian Green reads board term dates aloud: 4: Dana
-    section Board Decisions
-        No budget vote, no resolution tonight: 2: Dana
+    title Dana's journey: Budget meeting yields unexpected TV gold
+    section Opening and Board Presentation
+        Apology and agenda item pulled: 3: Dana
+        Finance director multi-year budget deep dive: 2: Dana
+    section Public Comment Round One
+        Behavioral specialist statement -- 60 kids, no backup: 4: Dana
+        Wetzel daughter, then Wetzel himself: 5: Dana
+        Union rep drops $300K live from Augusta: 5: Dana
+    section Board Deliberation and Non-Vote
+        Board declines to vote -- story stays open: 4: Dana
 ```
 
 ---
 
 ### Reactions
 
-OK so this is the segment. Five hours, and I have maybe twelve minutes of usable tape. But the twelve minutes I have are *good*. Lead is easy: a high school girl defends her dad at the mic -- her dad, the teacher being cut -- and then the dad walks up right after her and says he's going back to school tomorrow and still doesn't know what to tell his kids. That's the open. That's thirty seconds of anchor intro right there and I don't even need a script.
+Okay so I sat through all five hours of this and here is your package. Lead with the Wetzel double-feature. His daughter Lucy is a high school kid, she gets up and says without her dad's class she wouldn't know computer science was something she could have a future in. Then he walks up right after her -- he says he only came to maybe yield his time to somebody else -- and he cannot hold it together. He thanks the teachers, thanks the community, says he's going back to those hallways tomorrow and he still won't know what to tell his students. Computer science gone next year under this proposal. That is ninety seconds of television. That is the package. Get me Wetzel on camera before Monday.
 
-The budget headline is 78 positions, six percent tax hike, no vote tonight -- they punted. That's actually useful because it gives me a second bite. The Monday meeting is my next decision: do I send a crew or watch the recording? I'm leaning toward crew because the $300K state funding surprise -- a union rep got a text *during public comment* and announced it from the podium, mid-meeting -- that money could bring some positions back, and if the board votes Monday, that's the resolution beat. I need to find out by tomorrow morning whether that number is confirmed or still a rumor, because one of the board members said her legislator texted a different figure. That's a phone call I need to make before noon.
+The second thing you need for the lede is the live breaking-news moment about a third of the way through public comment. A union rep named Connie DeSanto gets up and says she has been getting texts during the meeting -- during the meeting -- from Augusta, and South Portland is likely getting an extra $300,000 in state funding that her union members went and lobbied for in person. That changed everything. The board spent the rest of the night debating whether to delay the budget vote, and then they did -- they walked out of a five-hour meeting without voting on the budget. A board member got another text saying there might be $750K more coming next year from a formula change. Monday is apparently the real vote. That is your follow. Send a crew Monday.
 
-The counter-narrative is right there and nobody's going to run it except maybe us: a parent stood up and read the five board members' names and their term expiration dates. On camera. That's going to spread. The board chair cried up there at the end and said public shaming is like bullying. That's two angles in one thirty-second exchange, and the tension between them -- angry community, defensive board -- is the whole season arc in miniature. B-roll is Skillin and Kaler, the school they're closing. Walk the sidewalk, show the crossing guard, get a shot of the parking lot empty at drop-off. If I can get Mr. Wetzel to do a brief stand-up outside the building tomorrow I'll take it, but I'm not counting on it.
+For the broader season arc, what I'm watching now is the June 9th referendum. Parent after parent got up and said explicitly, on the record: I will vote no on this budget to pressure you to reverse reconfiguration. The board chair had to explain, twice, that defeating the budget does not undo the reconfiguration vote. The community either doesn't believe that or doesn't care -- they want a mechanism to push back and this is the only one they have. A parent also got up and read out the names and election years of the five board members who voted for reconfiguration. Board member Smith responded from the dais and said it felt like bullying. That exchange is your B-story. Two minutes if we can get sound from both of them.

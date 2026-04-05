@@ -87,10 +87,10 @@ const latestDate = briefings
 
     <section class="reveal">
       <div class="section-header">
-        <h2>Budget Briefings</h2>
-        <a href={`${base}briefings/`}>View all &rarr;</a>
+        <h2>Briefings & Analysis</h2>
+        <a href={`${base}analysis/`}>View all &rarr;</a>
       </div>
-      <p>Ready-to-read briefings covering the full budget picture and tailored to specific community perspectives.</p>
+      <p>Start here — general briefings and independent analysis tracks.</p>
 
       <div class="card-grid">
         {generalBriefings.map(briefing => (
@@ -107,6 +107,16 @@ const latestDate = briefings
             </span>
           </a>
         ))}
+        <a href={`${base}transportation-analysis/`} class="card">
+          <span class="badge badge-community">Analysis</span>
+          <h3>Transportation Analysis</h3>
+          <p>Driver shortfalls, split-family counts, and fiscal exposure across the reconfiguration options.</p>
+        </a>
+        <a href={`${base}analysis/reconfiguration-context/`} class="card">
+          <span class="badge badge-community">Analysis</span>
+          <h3>Reconfiguration Context</h3>
+          <p>The 2024 process — what the community said, what the Board directed, and what research says works.</p>
+        </a>
       </div>
     </section>
 
@@ -162,31 +172,6 @@ const latestDate = briefings
       <p style="margin-top: 1rem; text-align: center;">
         <a href={`${base}transportation-analysis/briefings/`}>See all {TRANSPORT_COMMUNITY_LENSES.length} transportation community lenses &rarr;</a>
       </p>
-    </section>
-
-    <hr />
-
-    <section class="reveal">
-      <div class="section-header">
-        <h2>Transportation Analysis</h2>
-        <a href={`${base}transportation-analysis/`}>View section &rarr;</a>
-      </div>
-      <p>
-        The March 30 board vote locked in an elementary configuration before a transportation analysis was published.
-        This section shows the missing driver shortfall, family logistics burden, and fiscal exposure across the options.
-      </p>
-      <div class="card-grid">
-        <a href={`${base}transportation-analysis/`} class="card">
-          <span class="badge badge-community">Transport</span>
-          <h3>Configuration Comparison</h3>
-          <p>See Option A and Option B side by side on split families, driver needs, and total exposure.</p>
-        </a>
-        <a href={`${base}transportation-analysis/briefings/`} class="card">
-          <span class="badge badge-community">Briefings</span>
-          <h3>Community Lens Briefings</h3>
-          <p>Read the transport findings through seven public lenses for families, staff, taxpayers, students, and leaders.</p>
-        </a>
-      </div>
     </section>
 
     <hr />

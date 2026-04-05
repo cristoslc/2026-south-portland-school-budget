@@ -1,41 +1,80 @@
 ---
 trove: school-integration-policy
-synthesized: 2026-04-04
-sources: 2
+synthesized: 2026-04-05
+sources: 6
 ---
 
 # Synthesis: School Integration Policy
 
 **Trove:** school-integration-policy
-**Sources:** 2 (1 local district page, 1 national policy report)
+**Sources:** 6 (1 district web page, 4 district process documents, 1 national policy report)
 
-## Key Findings
+## The 2024 Process
 
-South Portland's Boundaries and Configurations process (2023-2024) explicitly names integration-adjacent goals — diverse peer exposure, equitable resource distribution, and attendance zone review for demographic balance. The Board's May 2024 action items direct administration to investigate magnet programs and controlled choice, the exact strategies that the TCF report identifies as the most effective tools for voluntary integration.
+South Portland's Boundaries and Configurations Steering Committee ran from early 2023 through spring 2024. The committee held at least 10 meetings between February 2023 and January 2024, along with at least 4 community forums with public participation. Community forums included multilingual outreach (translated notes were produced for the October 2023 forum).
 
-The TCF report (2016) synthesizes lessons from nine districts that pursued socioeconomic integration. The highest-performing districts (Cambridge, Stamford, Jefferson County) share three traits: system-wide diversity goals rather than pilot programs, controlled choice with free transportation, and detracking within classrooms. Districts that limited integration to a subset of schools (Chicago, Dallas) saw smaller gains.
+The committee's work was grounded in guiding principles adopted by the Board in January 2023: foster excellence and equity, provide diverse peer exposure, maintain consistent class sizes, maintain appropriate bus trip lengths, and ensure balance in facility usage.
 
-## Points of Agreement
+## What the Community Said
 
-- **Choice over compulsion works.** Both sources endorse voluntary mechanisms — magnet programs, controlled choice — over mandatory reassignment. The SPSD guiding principles align with this by combining diversity goals with parental input and appropriate bus trip lengths.
-- **Equity requires resources, not just rezoning.** The SPSD Board directed that schools with disproportionate economically disadvantaged populations receive additional staffing and resources. The TCF report finds this resource commitment essential alongside integration.
-- **Attendance zones need regular review.** The SPSD Board mandated triennial zone review with annual demographic reporting. The TCF report implicitly supports this: districts that set clear system-wide targets (Stamford's +/-10% band) outperform those without ongoing monitoring.
+At the October 24, 2023 community forum, families expressed both support for and concern about potential changes. Recurring themes included:
 
-## Points of Divergence
+- Strong attachment to neighborhood schools and walkability
+- Recognition that some schools lack diversity (e.g., one school has many students of color while others do not; one school was described as having too much of a white narrative)
+- Interest in equity of resources across schools, not just demographic redistribution
+- Concern about busing distances and logistics, especially for children of color
+- Desire for more multilingual staff and better communication across schools
+- Calls for a city-wide PTA to equalize resource distribution
+- Tension between diversity goals and community disruption
 
-- **Scope ambition.** The TCF report's strongest finding is that system-wide goals produce the best outcomes. SPSD's process is still in early stages — the Board directed exploration of magnet/controlled choice but has not yet adopted system-wide integration targets.
-- **Inter-district dimension.** The TCF report highlights Hartford and Louisville as models where city-suburb integration amplified results. South Portland's process is intra-district only, though the district is likely a net student importer (per `school-choice-transfers` trove), which suggests inter-district dynamics already shape enrollment.
-- **Detracking.** The TCF report identifies classroom-level integration (detracking) as essential — Stamford's detracking drove dramatic gains while Champaign's tracking preserved gaps despite building-level integration. SPSD's guiding principles do not yet address within-school stratification.
+## What the Steering Committee Found
+
+The committee's February 2024 presentation and March 2024 recommendations document three major findings:
+
+1. Elementary schools differ substantially in the proportion of students of color, multilingual learners, economically disadvantaged students, and students affected by mobility.
+2. These differences mean students can have significantly different educational experiences depending on which school they attend.
+3. Two schools have substantially more economically disadvantaged students than the other three.
+
+The committee recommended attendance zone analysis by outside experts, triennial zone review policy, resource equity for high-need schools, investigation of magnet programs and controlled choice, Pre-K expansion, and a districtwide PTA.
+
+## What the Board Decided
+
+On May 13, 2024, the Board voted on the steering committee's recommendations. All items passed, but with varying margins:
+
+- **Unanimous (7-0):** Brickhill student assignment review, resource equity for high-need schools (with August 2024 reporting), triennial attendance zone review policy, Pre-K expansion and strategic planning
+- **Split (4-3 and 5-2):** Attendance zone analysis with consultant (amended to require Board-selected committee), magnet program and controlled choice investigation (amended to require Board member and resident participation in consultant selection)
+
+The split votes indicate Board-level tension over how much control to retain over the consultant process. The substantive commitments passed, but with tighter governance guardrails than the steering committee originally proposed.
+
+## National Research Context
+
+The TCF nine-districts report (Kahlenberg, 2016) finds that the highest-performing integration programs share three traits: system-wide diversity goals (not pilot programs), controlled choice with free transportation, and detracking within classrooms.
+
+South Portland's 2024 directives align with the first two approaches but do not yet address within-school stratification. The TCF report also highlights that districts limiting integration to a subset of schools (Chicago, Dallas) saw smaller gains than those pursuing system-wide goals (Cambridge, Stamford, Jefferson County).
+
+## Delivery Status of May 2024 Action Items
+
+| Action Item | Directed Deadline | Status |
+|---|---|---|
+| Brickhill student assignment review with language-accessible family input | Immediate | Unknown |
+| Resource equity report for high-need schools | August 2024 | Unknown |
+| Attendance zone analysis by consultant | January 30, 2025 | Not delivered as directed |
+| Triennial attendance zone review policy | 2024 start | Unknown |
+| Annual demographic reporting by November 30 | November 30, 2024 | Not delivered |
+| Magnet program and controlled choice investigation | January 30, 2025 | Not delivered |
+| Pre-K expansion potential | 2024-25 school year | Unknown |
+| Strategic planning with diverse community involvement | 2024-25 school year | Unknown |
 
 ## Gaps
 
-- **Consultant findings.** The Board directed that a consultant report on magnet programs and controlled choice by January 2025. That report is not yet available in this trove or in public meeting documents.
-- **Demographic impact data.** The Board mandated annual attendance zone demographic reporting by November 30. No such report has been located yet.
-- **Cost modeling.** The TCF report stresses that free transportation is essential for equitable choice. Neither source includes cost projections for magnet/choice implementation in South Portland.
-- **Brickhill review outcomes.** The directed review of Brickhill student assignment to Brown School (with language-accessible family input) has no public outcome yet.
+- **Consultant reports.** The Board directed two separate consultant engagements (attendance zone analysis and magnet/controlled choice investigation) by January 2025. Neither report has been located in public meeting documents or on the district website.
+- **Demographic reporting.** The Board mandated annual attendance zone demographic reporting by November 30. No such report has been located.
+- **Brickhill review.** The Board directed immediate review of Brickhill student assignment with family input. No public outcome has been located.
+- **Resource equity report.** The August 2024 superintendent report on resource equity for high-need schools has not been located.
+- **Cost modeling.** The TCF report stresses that free transportation is essential for equitable choice. No source includes cost projections for magnet/choice implementation in South Portland.
 
 ## Related Troves
 
 - **`school-choice-transfers`** — Transfer data and net-importer analysis for South Portland
-- **`sopo-redistricting-tool`** — Data4Good redistricting optimization tool (zone-level modeling)
-- **`fy27-budget-documents`** — Contains elementary reconfiguration models and evaluation matrix (source 012)
+- **`sopo-redistricting-tool`** — Data4Good redistricting optimization tool
+- **`fy27-budget-documents`** — Contains elementary reconfiguration models and evaluation matrix

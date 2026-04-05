@@ -55,7 +55,7 @@ const githubRepo = 'https://github.com/cristoslc/south-portland-school-budget-FY
         <a href={`${base}briefings/`} class:list={[{ active: activePage === 'briefings' }]}>Briefings</a>
         <a href={`${base}personas/`} class:list={[{ active: activePage === 'personas' }]}>Perspectives</a>
         <a href={`${base}questions/`} class:list={[{ active: activePage === 'questions' }]}>Questions</a>
-        <a href={`${base}transportation-analysis/`} class:list={[{ active: activePage === 'transportation-analysis' }]}>Transportation</a>
+        <a href={`${base}analysis/`} class:list={[{ active: activePage === 'analysis' || activePage === 'transportation-analysis' }]}>Analysis</a>
         <a href={`${base}evidence/`} class:list={[{ active: activePage === 'evidence' }]}>Sources</a>
         <a href={`${base}timeline/`} class:list={[{ active: activePage === 'timeline' }]}>Timeline</a>
         <a href={`${base}about/`} class:list={[{ active: activePage === 'about' }]}>About</a>

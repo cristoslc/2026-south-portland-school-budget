@@ -353,6 +353,17 @@ def publish_briefs(upcoming_date):
         count += 1
         log.info("  Published %s → %s", brief_file.name, dest_name)
 
+    # Clean up any raw PERSONA-*.md files in dist that weren't produced by
+    # this publish step.  These appear when someone copies or commits pipeline
+    # output directly instead of going through --publish.
+    stale = 0
+    for stray in sorted(DIST_BRIEFS_DIR.glob("PERSONA-*.md")):
+        stray.unlink()
+        stale += 1
+        log.info("  Removed stale raw file %s", stray.name)
+    if stale:
+        log.info("Cleaned %d stale PERSONA-*.md file(s) from %s", stale, DIST_BRIEFS_DIR)
+
     log.info("Published %d brief(s) to %s", count, DIST_BRIEFS_DIR)
     return count > 0
 

@@ -2,10 +2,10 @@
 title: Pending State Infrastructure
 artifact: SPEC-082
 track: implementable
-status: In Progress
+status: Complete
 author: cristos
 created: 2026-04-04
-last-updated: 2026-04-04
+last-updated: 2026-04-05
 priority-weight: high
 type: enhancement
 parent-epic: EPIC-035
@@ -108,12 +108,12 @@ And operator can inspect individual `.pending/PERSONA-NNN/` directories
 
 | Criterion | Evidence | Result |
 |-----------|----------|--------|
-| AC1: Sidecar Generation | | |
-| AC2: Stage Detection | | |
-| AC3: Resolve Scanner | | |
-| AC4: Streaming Resolve | | |
-| AC5: Error Isolation | | |
-| AC6: Visibility | | |
+| AC1: Sidecar Generation | `tests/test_pending_state.py::TestGenerateSidecars` - 4 tests, <5s for 15 personas | ✓ Pass |
+| AC2: Stage Detection | `tests/test_pending_state.py::TestGetStage` - 4 tests, <1s for 100 checks | ✓ Pass |
+| AC3: Resolve Scanner | `tests/test_pending_state.py::TestResolveScanner` - 4 tests, applied/pending/failed counts | ✓ Pass |
+| AC4: Streaming Resolve | `tests/test_pending_state.py::TestStreamingResolve` - 1 test, partial completion | ✓ Pass |
+| AC5: Error Isolation | `tests/test_pending_state.py::TestResolveScanner::test_resolve_isolates_failures` | ✓ Pass |
+| AC6: Visibility | `tests/test_pending_state.py::TestIntegration::test_visibility_commands` | ✓ Pass |
 
 ## Scope & Constraints
 
@@ -167,3 +167,5 @@ And operator can inspect individual `.pending/PERSONA-NNN/` directories
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Proposed | 2026-04-04 | | Initial creation |
+| In Progress | 2026-04-05 | | TDD implementation started |
+| Complete | 2026-04-05 | b2e166c | All 15 tests passing |

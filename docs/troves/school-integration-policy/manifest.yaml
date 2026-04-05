@@ -1,6 +1,6 @@
 trove: school-integration-policy
 created: 2026-04-04
-refreshed: 2026-04-04
+refreshed: 2026-04-05
 tags:
   - school-integration
   - socioeconomic-diversity
@@ -20,6 +20,10 @@ history:
     date: 2026-04-04
     commit: "4783757"
     sources: 2
+  - event: expanded
+    date: 2026-04-05
+    commit: ""
+    sources: 6
 
 referenced-by: []
 
@@ -53,3 +57,63 @@ sources:
       - "desegregation"
       - "detracking"
       - "school integration"
+
+  - source-id: steering-committee-recommendations
+    type: web
+    url: "https://drive.google.com/file/d/1-ZWw2187BYMig80FVePxadtxkhg_hKyX/view?usp=sharing"
+    fetched: 2026-04-05T01:00:00Z
+    title: "Summary of Steering Committee Recommendations — March 22, 2024"
+    hash: "--"
+    triggers:
+      - "steering committee"
+      - "recommendations"
+      - "attendance zone"
+      - "Brickhill"
+      - "economically disadvantaged"
+      - "grade-level configuration"
+      - "neighborhood school"
+
+  - source-id: board-minutes-2024-05-13
+    type: web
+    url: "https://drive.google.com/file/d/1orXtaBihpVUUaVUoBD5f39-uYrLPTyTB/view"
+    fetched: 2026-04-05T01:00:00Z
+    title: "South Portland Board of Education Regular Meeting Minutes — May 13, 2024"
+    hash: "--"
+    triggers:
+      - "May 2024"
+      - "action items"
+      - "consultant"
+      - "triennial"
+      - "demographic reporting"
+      - "magnet"
+      - "controlled choice"
+
+  - source-id: community-forum-notes-2023-10-24
+    type: web
+    url: "https://drive.google.com/file/d/1r8TRJejN9rjpzjDuvjI4gBINY2ywRlJd/view?usp=sharing"
+    fetched: 2026-04-05T01:00:00Z
+    title: "Community Forum Notes (English) — October 24, 2023"
+    hash: "--"
+    triggers:
+      - "community forum"
+      - "community engagement"
+      - "diversity"
+      - "walkability"
+      - "neighborhood school"
+      - "housing equity"
+      - "busing"
+
+  - source-id: board-presentation-2024-02-12
+    type: web
+    url: "https://drive.google.com/file/d/12FLStLWaTqKxthQPQtOKUwpt-h3HDvNX/view?usp=sharing"
+    fetched: 2026-04-05T01:00:00Z
+    title: "Steering Committee Presentation to the Board of Education — February 12, 2024"
+    hash: "--"
+    notes: "31-slide presentation deck. Content extracted via pdftotext."
+    triggers:
+      - "steering committee"
+      - "presentation"
+      - "findings"
+      - "socioeconomic"
+      - "mobility"
+      - "multilingual"

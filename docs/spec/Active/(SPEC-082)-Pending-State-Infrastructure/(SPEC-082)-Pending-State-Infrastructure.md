@@ -2,7 +2,7 @@
 title: Pending State Infrastructure
 artifact: SPEC-082
 track: implementable
-status: Proposed
+status: In Progress
 author: cristos
 created: 2026-04-04
 last-updated: 2026-04-04

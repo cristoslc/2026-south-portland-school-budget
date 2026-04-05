@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="About this project — methodology, limitations, and how to verify."><title>About | SP Budget Watch</title><link rel="icon" type="image/svg+xml" href="/south-portland-school-budget-FY27/favicon.svg"><script>
+    // Apply saved theme before first paint to prevent flash
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark' || saved === 'light') {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    })();
+  </script><link rel="stylesheet" href="/south-portland-school-budget-FY27/_astro/BaseLayout.DiKBWCGT.css"></head> <body> <header class="site-header"> <div class="header-inner"> <div class="site-title-group"> <a href="/south-portland-school-budget-FY27/" class="site-title">SP Budget Watch</a> <a href="https://github.com/cristoslc/south-portland-school-budget-FY27" class="site-source-link" target="_blank" rel="noopener noreferrer" aria-label="View source on GitHub" title="View source on GitHub"> <svg viewBox="0 0 24 24" aria-hidden="true" class="site-source-icon"> <path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.42-4.04-1.42-.55-1.37-1.33-1.73-1.33-1.73-1.08-.74.08-.73.08-.73 1.2.08 1.83 1.2 1.83 1.2 1.05 1.78 2.76 1.27 3.43.97.11-.75.42-1.27.76-1.56-2.67-.3-5.47-1.32-5.47-5.86 0-1.29.47-2.35 1.22-3.18-.12-.3-.53-1.52.12-3.16 0 0 1-.32 3.3 1.21a11.6 11.6 0 0 1 6 0c2.3-1.53 3.3-1.21 3.3-1.21.65 1.64.24 2.86.12 3.16.76.83 1.22 1.89 1.22 3.18 0 4.55-2.81 5.56-5.49 5.85.43.37.82 1.09.82 2.21v3.27c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"></path> </svg> </a> </div> <nav class="site-nav"> <a href="/south-portland-school-budget-FY27/">Home</a> <a href="/south-portland-school-budget-FY27/briefings/">Briefings</a> <a href="/south-portland-school-budget-FY27/personas/">Perspectives</a> <a href="/south-portland-school-budget-FY27/questions/">Questions</a> <a href="/south-portland-school-budget-FY27/analysis/">Analysis</a> <a href="/south-portland-school-budget-FY27/evidence/">Sources</a> <a href="/south-portland-school-budget-FY27/timeline/">Timeline</a> <a href="/south-portland-school-budget-FY27/about/" class="active">About</a> <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode"> <span class="icon" id="theme-icon"></span> <span id="theme-label"></span> </button> </nav> </div> </header> <div class="research-banner">
+Independent research project — not affiliated with the South Portland School Department or City of South Portland.
+    AI-assisted analysis with full source transparency.
+<a href="/south-portland-school-budget-FY27/about/">Learn more.</a> </div>  <main class="container"> <h1>About This Project</h1> <section> <h2>What This Is</h2> <p>
+SP Budget Watch is an independent, volunteer analysis of the South Portland School Department's
+        proposed FY27 (2026-2027) budget. The project translates the raw budget — meeting transcripts,
+        presentations, spreadsheets, and committee discussions — into forms that residents can actually use.
+</p> <p>
+The analysis is organized around 14 community stakeholder profiles (personas) representing the
+        range of people affected: parents, teachers, taxpayers, board members, journalists, community
+        advocates, and students from elementary through high school.
+</p> </section> <section> <h2>How It Works</h2> <h3>Evidence Collection</h3> <p>
+Source materials are collected from public sources: the South Portland Schools website, meeting
+        video platforms (Vimeo), the city's agenda portal (Diligent Community), and official budget documents.
+        An automated pipeline checks for new materials daily.
+</p> <h3>Analysis Pipeline</h3> <ol> <li><strong>Collection:</strong> Meeting transcripts (auto-generated from video), budget documents, and presentations are downloaded and stored.</li> <li><strong>Normalization:</strong> Raw files are converted to structured markdown for consistent analysis.</li> <li><strong>Interpretation:</strong> Each meeting is analyzed through all 14 stakeholder perspectives using AI (Claude). The AI identifies what matters most to each persona based on their defined concerns and information needs.</li> <li><strong>Cumulative Narrative:</strong> New interpretations are folded into running per-persona narratives, tracking how each stakeholder's understanding evolves across meetings.</li> <li><strong>Briefings:</strong> Forward-looking briefings highlight what changed, what to watch for, and open questions — tailored to each perspective.</li> </ol> <h3>AI Usage</h3> <p>
+This project uses Claude (by Anthropic) for meeting interpretation, narrative synthesis, and
+        briefing generation. The AI operates within structured prompts that specify persona characteristics,
+        output schemas, and evidence requirements. All AI-generated content is clearly labeled.
+</p> <p>
+The AI does not make editorial judgments or advocacy claims. It identifies facts, tracks positions,
+        surfaces discrepancies, and frames information from each stakeholder's perspective. When evidence
+        is insufficient or ambiguous, the briefings say so explicitly.
+</p> </section> <section> <h2>Limitations</h2> <ul> <li><strong>Auto-generated transcripts:</strong> Meeting transcripts are auto-generated from Vimeo video captions and may contain errors, especially for proper nouns, technical terms, and cross-talk.</li> <li><strong>Not real-time:</strong> The site reflects the state of the analysis as of the last pipeline run, not live data.</li> <li><strong>Selection bias:</strong> The evidence pools include publicly available materials. Executive sessions, informal conversations, and materials not posted online are not captured.</li> <li><strong>AI interpretation:</strong> Persona interpretations are AI-generated approximations. They reflect the persona definitions, not the views of actual individuals.</li> <li><strong>No insider access:</strong> This project has no access to internal district deliberations, draft documents, or unpublished analyses.</li> </ul> </section> <section> <h2>How to Verify</h2> <p>Every briefing includes a "Where To Verify" section pointing to primary sources. Key verification paths:</p> <ul> <li><strong>South Portland Schools budget page:</strong> <a href="https://www.spsdme.org/page/budget27" target="_blank" rel="noopener">spsdme.org/page/budget27</a></li> <li><strong>School board meeting materials:</strong> Check the South Portland Schools website or the district's board portal for agendas, minutes, and presentations.</li> <li><strong>City Council agenda portal:</strong> Meeting materials are available on the Diligent/BoardDocs portal.</li> <li><strong>Meeting videos:</strong> Full meeting recordings are posted on the district's Vimeo channel.</li> </ul> </section> <section> <h2>What This Is Not</h2> <ul> <li>Not affiliated with or endorsed by the South Portland School Department or City of South Portland</li> <li>Not advocacy — the analysis is descriptive, not prescriptive</li> <li>Not a replacement for attending meetings or reading official communications</li> <li>Not legal, financial, or professional advice</li> </ul> </section> <section> <h2>Open Source</h2> <p>
+The full analysis pipeline, evidence pools, and source code are available on
+<a href="https://github.com/cristoslc/south-portland-school-budget-FY27" target="_blank" rel="noopener">GitHub</a>.
+        Contributions, corrections, and feedback are welcome.
+</p> </section> </main>  <footer class="site-footer"> <div class="footer-inner">  <p> <strong>SP Budget Watch</strong> — Independent analysis of the South Portland Schools FY27 budget.
+        Built with sourced evidence from public meetings and budget documents.
+</p> <p class="footer-disclaimer">
+This is an independent, volunteer project. It is not affiliated with or endorsed by the
+        South Portland School Department or City of South Portland. All analysis is AI-assisted
+        with full source transparency.
+<a href="/south-portland-school-budget-FY27/about/">Learn more about our methodology.</a>
+| <a href="/south-portland-school-budget-FY27/changelog/">Changelog</a> </p> </div> </footer> <script>
+    (function() {
+      var btn = document.getElementById('theme-toggle');
+      var icon = document.getElementById('theme-icon');
+      var label = document.getElementById('theme-label');
+      var root = document.documentElement;
+
+      // Three states: system (no data-theme), light, dark
+      function getEffective() {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') return saved;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      function getSaved() {
+        return localStorage.getItem('theme'); // null means "system"
+      }
+
+      function update() {
+        var saved = getSaved();
+        var effective = getEffective();
+        if (saved) {
+          icon.textContent = effective === 'dark' ? '\u263E' : '\u2600';
+          label.textContent = effective === 'dark' ? 'Dark' : 'Light';
+        } else {
+          icon.textContent = effective === 'dark' ? '\u263E' : '\u2600';
+          label.textContent = 'Auto';
+        }
+      }
+
+      btn.addEventListener('click', function() {
+        var saved = getSaved();
+        var effective = getEffective();
+        // Cycle: auto -> light -> dark -> auto
+        var next;
+        if (!saved) {
+          next = 'light';
+        } else if (saved === 'light') {
+          next = 'dark';
+        } else {
+          next = null; // back to auto
+        }
+        if (next) {
+          localStorage.setItem('theme', next);
+          root.setAttribute('data-theme', next);
+        } else {
+          localStorage.removeItem('theme');
+          root.removeAttribute('data-theme');
+        }
+        update();
+      });
+
+      // Listen for system changes when in auto mode
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+        if (!getSaved()) update();
+      });
+
+      update();
+    })();
+  </script> <script>
+    // Scroll-reveal: animate elements with .reveal class when they enter viewport
+    (function() {
+      var els = document.querySelectorAll('.reveal');
+      if (!els.length) return;
+      if (!('IntersectionObserver' in window)) {
+        // Fallback: just show everything
+        els.forEach(function(el) { el.classList.add('visible'); });
+        return;
+      }
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(function(el) { observer.observe(el); });
+    })();
+  </script> </body> </html>

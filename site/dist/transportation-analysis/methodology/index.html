@@ -1,0 +1,497 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Methodology and assumptions for the South Portland transportation analysis."><title>Transportation Methodology | SP Budget Watch</title><link rel="icon" type="image/svg+xml" href="/south-portland-school-budget-FY27/favicon.svg"><script>
+    // Apply saved theme before first paint to prevent flash
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark' || saved === 'light') {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    })();
+  </script><link rel="stylesheet" href="/south-portland-school-budget-FY27/_astro/BaseLayout.DiKBWCGT.css"></head> <body> <header class="site-header"> <div class="header-inner"> <div class="site-title-group"> <a href="/south-portland-school-budget-FY27/" class="site-title">SP Budget Watch</a> <a href="https://github.com/cristoslc/south-portland-school-budget-FY27" class="site-source-link" target="_blank" rel="noopener noreferrer" aria-label="View source on GitHub" title="View source on GitHub"> <svg viewBox="0 0 24 24" aria-hidden="true" class="site-source-icon"> <path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.42-4.04-1.42-.55-1.37-1.33-1.73-1.33-1.73-1.08-.74.08-.73.08-.73 1.2.08 1.83 1.2 1.83 1.2 1.05 1.78 2.76 1.27 3.43.97.11-.75.42-1.27.76-1.56-2.67-.3-5.47-1.32-5.47-5.86 0-1.29.47-2.35 1.22-3.18-.12-.3-.53-1.52.12-3.16 0 0 1-.32 3.3 1.21a11.6 11.6 0 0 1 6 0c2.3-1.53 3.3-1.21 3.3-1.21.65 1.64.24 2.86.12 3.16.76.83 1.22 1.89 1.22 3.18 0 4.55-2.81 5.56-5.49 5.85.43.37.82 1.09.82 2.21v3.27c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"></path> </svg> </a> </div> <nav class="site-nav"> <a href="/south-portland-school-budget-FY27/">Home</a> <a href="/south-portland-school-budget-FY27/briefings/">Briefings</a> <a href="/south-portland-school-budget-FY27/personas/">Perspectives</a> <a href="/south-portland-school-budget-FY27/questions/">Questions</a> <a href="/south-portland-school-budget-FY27/analysis/" class="active">Analysis</a> <a href="/south-portland-school-budget-FY27/evidence/">Sources</a> <a href="/south-portland-school-budget-FY27/timeline/">Timeline</a> <a href="/south-portland-school-budget-FY27/about/">About</a> <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode"> <span class="icon" id="theme-icon"></span> <span id="theme-label"></span> </button> </nav> </div> </header> <div class="research-banner">
+Independent research project — not affiliated with the South Portland School Department or City of South Portland.
+    AI-assisted analysis with full source transparency.
+<a href="/south-portland-school-budget-FY27/about/">Learn more.</a> </div>  <main class="container"> <a href="/south-portland-school-budget-FY27/transportation-analysis/" class="back-link">&larr; Transportation Analysis</a> <p class="section-kicker">Methodology</p> <h1>Transportation Analysis Methodology</h1> <p class="page-lede">
+This page explains which parts of the transportation analysis are confirmed, which parts are estimated, and what local data would sharpen the picture.
+</p> <article class="briefing-content"> <h1 id="transportation-analysis-methodology">Transportation Analysis Methodology</h1>
+<hr>
+<p>This document describes the methodology, assumptions, and limitations of each analysis in the independent transportation study. Every assumption is documented so that corrections can be applied directly when better data becomes available.</p>
+<h2 id="general-approach">General Approach</h2>
+<p>This is <strong>order-of-magnitude analysis</strong>, not route-level precision. We use publicly available data, published research, and documented assumptions to estimate the transportation implications of the approved reconfiguration (Option A) and the alternatives that were considered. All outputs are presented as ranges, not point estimates. The analysis provides the transportation data needed to plan implementation before fall 2026.</p>
+<h2 id="split-family-analysis-split-family-count-model">split-family analysis: Split-Family Count Model</h2>
+<p><strong>Method:</strong> Grade boundary probability model with sibling co-enrollment rates.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Assumption</th><th>Value</th><th>Source</th><th>What Would Replace It</th></tr></thead><tbody><tr><td>Multi-child family rate</td><td>30-40%</td><td>Census Bureau SIPP; NCES</td><td>District family-level enrollment data</td></tr><tr><td>Avg children per multi-child family</td><td>2.3</td><td>National elementary data</td><td>District data</td></tr><tr><td>Sibling grade-gap distribution</td><td>Approximately uniform</td><td>Simplifying assumption</td><td>Actual sibling grade distributions</td></tr><tr><td>Total K-4 enrollment</td><td>1,013</td><td>school-geography trove</td><td>District enrollment report</td></tr></tbody></table>
+<p><strong>Calculation:</strong> For each configuration, identify the grade boundary, compute the probability that a multi-child family spans it, multiply by the estimated number of multi-child families.</p>
+<p><strong>Script:</strong> <code>pipeline/transport/split_family.py</code></p>
+<h2 id="mckinney-vento-analysis-mckinney-vento-exposure">McKinney-Vento analysis: McKinney-Vento Exposure</h2>
+<p><strong>Method:</strong> Proportional eligibility rate applied to displaced student population, with incremental transport cost multiplier.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Assumption</th><th>Value</th><th>Source</th><th>What Would Replace It</th></tr></thead><tbody><tr><td>MV eligibility rate</td><td>10% of student body</td><td>Evidence pool synthesis</td><td>District MV roster by school</td></tr><tr><td>Incremental cost multiplier</td><td>1.5-3.0x per-pupil baseline</td><td>National MV transport research</td><td>Actual route-level cost data</td></tr><tr><td>Obligation duration</td><td>1.5-3.0 years average</td><td>Federal law + grade distribution</td><td>Actual displaced student grade levels</td></tr><tr><td>Additional displacement (Option A)</td><td>~200 students</td><td>Full system reorganization estimate</td><td>District redistricting plan</td></tr><tr><td>Additional displacement (Option B)</td><td>~50 students</td><td>Proximity reassignment estimate</td><td>District redistricting plan</td></tr></tbody></table>
+<p><strong>Legal basis:</strong> 42 U.S.C. Section 11432 (McKinney-Vento Homeless Assistance Act)</p>
+<p><strong>Script:</strong> <code>pipeline/transport/mckinney_vento.py</code></p>
+<h2 id="staffing-analysis-sea-staffing-adequacy">staffing analysis: SEA Staffing Adequacy</h2>
+<p><strong>Method:</strong> Compare confirmed driver count against route requirements per configuration.</p>
+<p>The 3/30/2026 BoE meeting provided the actual driver count (20 drivers, confirmed by Director of Operations Mike Natalie). The available driver pool is 17-20 (20 confirmed, minus 0-3 potentially lost to the SEA cut from 100 to 86 FTE — cut allocation is unknown).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Assumption</th><th>Value</th><th>Source</th><th>What Would Replace It</th></tr></thead><tbody><tr><td>Current driver count</td><td>20</td><td>Dir. of Operations, 3/30/2026 BoE meeting</td><td>N/A (confirmed data)</td></tr><tr><td>Available drivers post-cut</td><td>17-20</td><td>20 minus 0-3 from SEA cut (allocation unknown)</td><td>District confirmation of which positions are cut</td></tr><tr><td>Students per route</td><td>~33</td><td>Maine district averages</td><td>District current route data</td></tr><tr><td>Building reduction factor</td><td>+10% routes per lost building</td><td>National research</td><td>Route-level modeling</td></tr><tr><td>Grade-band factor</td><td>+15% routes per additional band</td><td>Deadhead route estimation</td><td>Route-level modeling</td></tr><tr><td>Walkability by config</td><td>35-40%</td><td>Redistricting tool + adjustment</td><td>District walk zone data</td></tr></tbody></table>
+<p><strong>Driver gap by configuration:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Configuration</th><th align="center">Drivers Needed</th><th align="center">Available</th><th align="center">Gap</th></tr></thead><tbody><tr><td>Option A (approved)</td><td align="center">30</td><td align="center">17-20</td><td align="center">-10 to -13</td></tr><tr><td>Option B</td><td align="center">24</td><td align="center">17-20</td><td align="center">-4 to -7</td></tr></tbody></table>
+<p>All configurations show a shortfall. This is a structural finding: even the lowest-impact option requires more drivers than the district has.</p>
+<p><strong>Script:</strong> <code>pipeline/transport/sea_staffing.py</code></p>
+<h2 id="bell-schedule-analysis-bell-schedule-tier-analysis">bell schedule analysis: Bell Schedule Tier Analysis</h2>
+<p><strong>Method:</strong> Qualitative feasibility assessment of bus tier requirements under each configuration.</p>
+<p>The 3/30/2026 meeting confirmed the driver schedule as 7 AM-4 PM with an idle window from 9:30-1:30. This is consistent with the existing 3-tier structure (HS, MS, elementary) and confirms that a 3-tier system is feasible with the current schedule. A 4th tier would require extending the driver workday or adding drivers.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Assumption</th><th>Value</th><th>Source</th><th>What Would Replace It</th></tr></thead><tbody><tr><td>Current bell schedule</td><td>HS 8:10, MS 8:30, Elem 9:05</td><td>SPSD website (verified)</td><td>N/A (verified data)</td></tr><tr><td>Driver schedule</td><td>7 AM-4 PM, idle 9:30-1:30</td><td>Dir. of Operations, 3/30/2026 BoE meeting</td><td>N/A (confirmed data)</td></tr><tr><td>Bus turnaround time</td><td>~25 minutes between tiers</td><td>South Portland geography estimate</td><td>District fleet data</td></tr><tr><td>Max feasible tiers</td><td>3 (typical for comparable districts)</td><td>National research + driver schedule confirmation</td><td>District fleet and routing analysis</td></tr></tbody></table>
+<p><strong>Script:</strong> <code>pipeline/transport/bell_schedule.py</code></p>
+<h2 id="care-gap-analysis-beforeafter-care-gap">care-gap analysis: Before/After Care Gap</h2>
+<p><strong>Method:</strong> Combine split-family counts with bell schedule scenarios to estimate new care demand, price at market rates.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Assumption</th><th>Value</th><th>Source</th><th>What Would Replace It</th></tr></thead><tbody><tr><td>SoPo Kids Club rates</td><td>$95/wk after, $155/wk full</td><td>City rec dept website (verified)</td><td>N/A (verified data)</td></tr><tr><td>School weeks per year</td><td>36</td><td>Standard school calendar</td><td>District calendar</td></tr><tr><td>Care gap rate (3-tier)</td><td>30% of split families</td><td>Logistics estimation</td><td>Survey of affected families</td></tr><tr><td>Care gap rate (4-tier)</td><td>85% of split families</td><td>Hard scheduling conflict</td><td>Survey of affected families</td></tr><tr><td>Care capacity status</td><td>FULL at 4/5 schools</td><td>City rec dept website (verified)</td><td>Actual waitlist numbers</td></tr></tbody></table>
+<p><strong>Script:</strong> <code>pipeline/transport/care_gap.py</code></p>
+<h2 id="configuration-comparison-configuration-comparison">configuration comparison: Configuration Comparison</h2>
+<p><strong>Method:</strong> Assembly of all metric outputs into structured comparison. Route expansion cost estimated from DOE per-pupil data scaled by route increase percentage.</p>
+<p>The sensitivity analysis compares FY25 baseline ($2.99M) against FY23 baseline ($2.18M) to account for the anomalous 50.2% transport cost increase. All configurations are reported under both baselines. District and family costs are separated explicitly.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Assumption</th><th>Value</th><th>Source</th><th>What Would Replace It</th></tr></thead><tbody><tr><td>Current transport budget (FY25)</td><td>~$2.99M ($1,065/pupil x 2,810)</td><td>DOE FY25 per-pupil data</td><td>District transport budget line</td></tr><tr><td>FY27 transport budget (district)</td><td>$3,326,606</td><td>FY27 Budget Book (Cost Center 8)</td><td>N/A (district data)</td></tr><tr><td>Pre-anomaly transport budget (FY23)</td><td>~$2.18M ($709/pupil x 3,074)</td><td>DOE FY23 per-pupil data</td><td>District transport budget line</td></tr><tr><td>Route expansion scaling</td><td>Linear with route count</td><td>Simplifying assumption</td><td>Route-level cost modeling</td></tr><tr><td>Claimed savings</td><td>$1.5-2.2M</td><td>District budget presentations</td><td>Independently verified savings</td></tr></tbody></table>
+<p><strong>Sensitivity output (Option A — approved configuration):</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Baseline</th><th align="center">Route Expansion</th><th align="center">District Cost</th><th align="center">Family Cost</th><th align="center">Total Exposure</th><th align="center">% of Savings</th></tr></thead><tbody><tr><td>FY25</td><td align="center">$748,472</td><td align="center">$802,809-$876,325</td><td align="center">$143,640-$803,520</td><td align="center">$946,449-$1,679,845</td><td align="center">43-112%</td></tr><tr><td>FY23</td><td align="center">$545,243</td><td align="center">$599,580-$673,096</td><td align="center">$143,640-$803,520</td><td align="center">$743,220-$1,476,616</td><td align="center">34-98%</td></tr></tbody></table>
+<p><strong>Script:</strong> <code>pipeline/transport/configuration_comparison.py</code></p>
+<h2 id="multi-year-doe-transport-cost-data">Multi-Year DOE Transport Cost Data</h2>
+<p>Maine DOE Resident Expenditure Per Pupil reports for FY23-FY25 reveal that South Portland’s transport costs are rising anomalously fast:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>District</th><th align="center">FY23</th><th align="center">FY24</th><th align="center">FY25</th><th align="center">FY23-25 Change</th></tr></thead><tbody><tr><td>State Total</td><td align="center">$989</td><td align="center">$1,015</td><td align="center">$1,093</td><td align="center">+10.5%</td></tr><tr><td><strong>South Portland</strong></td><td align="center"><strong>$709</strong></td><td align="center"><strong>$940</strong></td><td align="center"><strong>$1,065</strong></td><td align="center"><strong>+50.2%</strong></td></tr><tr><td>Peer average (excl. SoPo)</td><td align="center">$708</td><td align="center">$749</td><td align="center">$829</td><td align="center">+17.1%</td></tr></tbody></table>
+<p>South Portland’s per-pupil transport costs rose 50.2% in two years — nearly 5x the state average — while enrollment fell 8.6%. The cause is unknown (contract renegotiation, SPED transport growth, or reporting reclassification are possibilities). This affects the route expansion estimate in two ways:</p>
+<ol>
+<li><strong>If the FY25 baseline is correct:</strong> The route expansion estimates stand, but the district is already spending significantly more on transport than peers — further increases compound on an already-stressed budget line.</li>
+<li><strong>If FY23 is more representative:</strong> The baseline should be ~$2.18M, not $2.99M, and route expansion estimates shrink accordingly. The sensitivity analysis presents both.</li>
+</ol>
+<p><strong>FY27 budget context:</strong> The district’s FY27 budget book (Cost Center 8) sets transportation at <strong>$3,326,606</strong> — up 17.5% from FY26’s $2,830,679. This reflects contractual wage/benefit increases and includes $165K in reductions ($130K overtime, $35K vehicle supplies). It is a baseline budget with <strong>no reconfiguration adjustment</strong>. The route expansion estimates in this analysis use the DOE-derived baseline ($2.99M at FY25 rates) for consistency with the per-pupil methodology. If calculated against the district’s own $3.33M figure, the route expansion cost for Option A would be ~$832K instead of $748K.</p>
+<h2 id="sources-of-error">Sources of Error</h2>
+<p>Ranked by estimated impact on the final comparison (highest first):</p>
+<ol>
+<li><strong>Route expansion cost</strong> — the largest and softest number. Derived from aggregate per-pupil data with adjustment heuristics (+10% per lost building, +15% per additional grade band), not route-level analysis. This is the single assumption most likely to move the total by a large amount in either direction.</li>
+<li><strong>Care gap rates</strong> — the 30%/85% care-need rates for 3-tier/4-tier schedules are logistics estimates, not survey data. If fewer split families actually need paid care, the family-borne cost drops. If more do (or if informal care networks are thinner than assumed), it rises.</li>
+<li><strong>McKinney-Vento displacement counts</strong> — the number of students who change schools under each option is estimated from the configuration structure, not from actual redistricting plans. The displacement estimate drives the MV cost.</li>
+<li><strong>Walkability assumptions</strong> — the 35-40% walker rate affects how many students need bus service. Actual walk zones are not publicly available; GIS-derived walkability from the redistricting tool is an approximation.</li>
+<li><strong>Sibling co-enrollment rates</strong> — the 30-40% multi-child family rate is a national average. South Portland’s actual rate could be higher or lower.</li>
+<li><strong>FY25 transport baseline anomaly</strong> — South Portland’s 50.2% per-pupil increase FY23-FY25 is unexplained. If the FY25 figure includes one-time costs or reclassified expenditures, the baseline is inflated and route expansion costs would be lower. The sensitivity analysis brackets this.</li>
+<li><strong>Driver cut allocation</strong> — the SEA cut (100 to 86 FTE) will remove 14 positions, but which positions is unknown. If drivers are spared entirely, the available pool stays at 20. If 3 drivers are cut, it drops to 17. The 17-20 range reflects this uncertainty.</li>
+</ol>
+<p>All figures are order-of-magnitude estimates. The actual values could fall outside the stated ranges.</p>
+<h2 id="what-district-data-would-change">What District Data Would Change</h2>
+<p>The following data, all held by the district, would substantially improve this analysis:</p>
+<ol>
+<li><strong>Family-level enrollment</strong> — Exact split-family counts (replaces sibling rate estimates)</li>
+<li><strong>McKinney-Vento roster by school</strong> — Exact MV student counts (replaces proportional estimates)</li>
+<li><strong>SEA position-level cut list</strong> — Which of the 14 cut FTEs are drivers (replaces the 17-20 range)</li>
+<li><strong>Fleet size and route data</strong> — Actual route requirements and tier feasibility</li>
+<li><strong>Care waitlist numbers</strong> — Quantified unmet demand (replaces binary FULL/Available)</li>
+<li><strong>Walk zone policy</strong> — Not publicly available; needed for walker/rider classification</li>
+<li><strong>Transport consultant analysis</strong> — Confirmed “underway with a partner” at 3/30/2026 meeting; scope and timeline unknown</li>
+</ol>
+<h2 id="reproducibility">Reproducibility</h2>
+<p>All calculation scripts are in <code>pipeline/transport/</code>. All input data is in <code>data/</code> and <code>docs/troves/</code>. The analysis can be fully reproduced from these inputs. Running any script produces both human-readable output and machine-readable JSON in <code>data/</code>.</p> </article> </main>  <footer class="site-footer"> <div class="footer-inner">  <p> <strong>SP Budget Watch</strong> — Independent analysis of the South Portland Schools FY27 budget.
+        Built with sourced evidence from public meetings and budget documents.
+</p> <p class="footer-disclaimer">
+This is an independent, volunteer project. It is not affiliated with or endorsed by the
+        South Portland School Department or City of South Portland. All analysis is AI-assisted
+        with full source transparency.
+<a href="/south-portland-school-budget-FY27/about/">Learn more about our methodology.</a>
+| <a href="/south-portland-school-budget-FY27/changelog/">Changelog</a> </p> </div> </footer> <script>
+    (function() {
+      var btn = document.getElementById('theme-toggle');
+      var icon = document.getElementById('theme-icon');
+      var label = document.getElementById('theme-label');
+      var root = document.documentElement;
+
+      // Three states: system (no data-theme), light, dark
+      function getEffective() {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') return saved;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      function getSaved() {
+        return localStorage.getItem('theme'); // null means "system"
+      }
+
+      function update() {
+        var saved = getSaved();
+        var effective = getEffective();
+        if (saved) {
+          icon.textContent = effective === 'dark' ? '\u263E' : '\u2600';
+          label.textContent = effective === 'dark' ? 'Dark' : 'Light';
+        } else {
+          icon.textContent = effective === 'dark' ? '\u263E' : '\u2600';
+          label.textContent = 'Auto';
+        }
+      }
+
+      btn.addEventListener('click', function() {
+        var saved = getSaved();
+        var effective = getEffective();
+        // Cycle: auto -> light -> dark -> auto
+        var next;
+        if (!saved) {
+          next = 'light';
+        } else if (saved === 'light') {
+          next = 'dark';
+        } else {
+          next = null; // back to auto
+        }
+        if (next) {
+          localStorage.setItem('theme', next);
+          root.setAttribute('data-theme', next);
+        } else {
+          localStorage.removeItem('theme');
+          root.removeAttribute('data-theme');
+        }
+        update();
+      });
+
+      // Listen for system changes when in auto mode
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+        if (!getSaved()) update();
+      });
+
+      update();
+    })();
+  </script> <script>
+    // Scroll-reveal: animate elements with .reveal class when they enter viewport
+    (function() {
+      var els = document.querySelectorAll('.reveal');
+      if (!els.length) return;
+      if (!('IntersectionObserver' in window)) {
+        // Fallback: just show everything
+        els.forEach(function(el) { el.classList.add('visible'); });
+        return;
+      }
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(function(el) { observer.observe(el); });
+    })();
+  </script> </body> </html>

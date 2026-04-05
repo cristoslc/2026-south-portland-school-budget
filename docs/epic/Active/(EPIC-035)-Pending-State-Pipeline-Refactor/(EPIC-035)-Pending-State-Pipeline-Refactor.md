@@ -17,6 +17,9 @@ success-criteria:
   - Runtime-agnostic: Claude, Codex, Crush, or human operators can fill sidecars
   - Batch gates prevent partial work from cascading to downstream stages
   - All existing pipeline functionality preserved (interpret, brief, fold, question extraction)
+linked-artifacts:
+  - SPIKE-012
+  - SPIKE-013
 depends-on-artifacts:
   - ADR-006
 addresses: []

@@ -12,6 +12,7 @@ parent-epic: EPIC-035
 parent-initiative: INITIATIVE-003
 linked-artifacts:
   - SPEC-082
+  - SPEC-081
   - SPIKE-013
 depends-on-artifacts:
   - SPEC-082

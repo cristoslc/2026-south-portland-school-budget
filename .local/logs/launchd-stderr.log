@@ -1,2 +1,14 @@
 shell-init: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
 /bin/bash: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/scripts/track2-cron.sh: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
+/bin/bash: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/scripts/track2-cron.sh: Operation not permitted
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
+/bin/bash: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/scripts/track2-cron.sh: Operation not permitted
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
+/bin/bash: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/scripts/track2-cron.sh: Operation not permitted
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
+/bin/bash: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/scripts/track2-cron.sh: Operation not permitted
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
+/bin/bash: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/scripts/track2-cron.sh: Operation not permitted
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
+/bin/bash: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/scripts/track2-cron.sh: Operation not permitted

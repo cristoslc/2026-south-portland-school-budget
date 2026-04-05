@@ -1,0 +1,13 @@
+=== Track 2 Cron — Fri Apr  3 18:07:27 EDT 2026 ===
+Project: /Users/cristos/Documents/projects/south-portland-school-budget-FY27
+Stashing tracked changes...
+Saved working directory and index state On main: track2-cron auto-stash 2026-04-03_180727
+Args: --pull --workers 4 --brief 2026-04-03 --publish
+
+18:07:27 [INFO] poll_interpret — === Track 2 Polling Orchestrator (ADR-002) ===
+18:07:27 [INFO] poll_interpret — Date: 2026-04-03
+18:07:27 [INFO] poll_interpret — Workers: 4
+18:07:27 [INFO] poll_interpret — 
+18:07:27 [INFO] poll_interpret — --- Pulling latest ---
+18:07:27 [ERROR] poll_interpret — git pull failed: error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.

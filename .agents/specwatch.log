@@ -1,23 +1,683 @@
-# Specwatch log — repo: 2026-south-portland-school-budget
-# Scanned: 2026-03-16T20:03:47Z
+# Specwatch log — repo: south-portland-school-budget-FY27
+# Scanned: 2026-04-05T03:20:06Z
 
-WARN docs/adr/Adopted/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM.md:9 (frontmatter)
+STALE docs/research/Active/(SPIKE-011)-Comparable-District-Transport-Impact/(SPIKE-011)-Comparable-District-Transport-Impact.md:148
+  broken: ../../initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md
+  found: ../../../initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md
+  artifact: INITIATIVE-006
+
+BROKEN_LINK docs/research/Active/(SPIKE-011)-Comparable-District-Transport-Impact/(SPIKE-011)-Comparable-District-Transport-Impact.md:148 -> ../../initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md (file not found)
+STALE docs/spec/Active/(SPEC-069)-Enrollment-Study-Site-Pages/(SPEC-069)-Enrollment-Study-Site-Pages.md:30
+  broken: ../../initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md
+  found: ../../../initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md
+  artifact: INITIATIVE-005
+
+BROKEN_LINK docs/spec/Active/(SPEC-069)-Enrollment-Study-Site-Pages/(SPEC-069)-Enrollment-Study-Site-Pages.md:30 -> ../../initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md (file not found)
+STALE docs/spec/Active/(SPEC-070)-Transportation-Analysis-Site-Pages/(SPEC-070)-Transportation-Analysis-Site-Pages.md:27
+  broken: ../../initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md
+  found: ../../../initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md
+  artifact: INITIATIVE-006
+
+BROKEN_LINK docs/spec/Active/(SPEC-070)-Transportation-Analysis-Site-Pages/(SPEC-070)-Transportation-Analysis-Site-Pages.md:27 -> ../../initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:25
+  broken: docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  found: ../../../initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  artifact: INITIATIVE-004
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:25 -> docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:25
+  broken: docs/epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md
+  found: ../../../epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md
+  artifact: EPIC-017
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:25 -> docs/epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:26
+  broken: docs/spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md
+  found: ../../../spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md
+  artifact: SPEC-025
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:26 -> docs/spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:27
+  broken: docs/spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md
+  found: ../../../spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md
+  artifact: SPEC-026
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:27 -> docs/spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:28
+  broken: docs/spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md
+  found: ../../../spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md
+  artifact: SPEC-027
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:28 -> docs/spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:40
+  broken: docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  found: ../../../initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  artifact: INITIATIVE-004
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:40 -> docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:40
+  broken: docs/epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md
+  found: ../../../epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md
+  artifact: EPIC-016
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:40 -> docs/epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:41
+  broken: docs/spec/Active/(SPEC-028)-Privacy-Respecting-Analytics/(SPEC-028)-Privacy-Respecting-Analytics.md
+  found: ../../../spec/Active/(SPEC-028)-Privacy-Respecting-Analytics/(SPEC-028)-Privacy-Respecting-Analytics.md
+  artifact: SPEC-028
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:41 -> docs/spec/Active/(SPEC-028)-Privacy-Respecting-Analytics/(SPEC-028)-Privacy-Respecting-Analytics.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:48
+  broken: docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  found: ../../../initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  artifact: INITIATIVE-004
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:48 -> docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:48
+  broken: docs/epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md
+  found: ../../../epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md
+  artifact: EPIC-018
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:48 -> docs/epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:49
+  broken: docs/epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md
+  found: ../../../epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md
+  artifact: EPIC-019
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:49 -> docs/epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:84
+  broken: ../../../spec/Proposed/(SPEC-072)-Persona-Routing-Selector/(SPEC-072)-Persona-Routing-Selector.md
+  found: ../../../spec/Active/(SPEC-072)-Evidence-Pools-To-Troves-Path-Migration/(SPEC-072)-Evidence-Pools-To-Troves-Path-Migration.md
+  artifact: SPEC-072
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:84 -> ../../../spec/Proposed/(SPEC-072)-Persona-Routing-Selector/(SPEC-072)-Persona-Routing-Selector.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:85
+  broken: ../../../spec/Proposed/(SPEC-073)-Briefing-Summary-Block/(SPEC-073)-Briefing-Summary-Block.md
+  found: ../../../spec/Active/(SPEC-073)-PERSONA-015-Journey-Map-Validation-Failure/(SPEC-073)-PERSONA-015-Journey-Map-Validation-Failure.md
+  artifact: SPEC-073
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:85 -> ../../../spec/Proposed/(SPEC-073)-Briefing-Summary-Block/(SPEC-073)-Briefing-Summary-Block.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:86
+  broken: ../../../spec/Proposed/(SPEC-074)-Student-Friendly-Language/(SPEC-074)-Student-Friendly-Language.md
+  found: ../../../spec/Proposed/(SPEC-074)-Evidence-Remediation-Post-Pool-Migration/(SPEC-074)-Evidence-Remediation-Post-Pool-Migration.md
+  artifact: SPEC-074
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:86 -> ../../../spec/Proposed/(SPEC-074)-Student-Friendly-Language/(SPEC-074)-Student-Friendly-Language.md (file not found)
+STALE docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:87
+  broken: ../../../spec/Proposed/(SPEC-075)-Last-Updated-Indicator/(SPEC-075)-Last-Updated-Indicator.md
+  found: ../../../spec/Active/(SPEC-075)-Site-Freshness-And-Changelog/(SPEC-075)-Site-Freshness-And-Changelog.md
+  artifact: SPEC-075
+
+BROKEN_LINK docs/vision/Active/(VISION-004)-Public-Budget-Site/roadmap.md:87 -> ../../../spec/Proposed/(SPEC-075)-Last-Updated-Indicator/(SPEC-075)-Last-Updated-Indicator.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:25
+  broken: docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md
+  found: ../../../initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md
+  artifact: INITIATIVE-005
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:25 -> docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:25
+  broken: docs/epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md
+  found: ../../../epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md
+  artifact: EPIC-026
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:25 -> docs/epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:26
+  broken: docs/epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md
+  found: ../../../epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md
+  artifact: EPIC-027
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:26 -> docs/epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:27
+  broken: docs/epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md
+  found: ../../../epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md
+  artifact: EPIC-028
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:27 -> docs/epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:28
+  broken: docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md
+  found: ../../../initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md
+  artifact: INITIATIVE-006
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:28 -> docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:28
+  broken: docs/epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md
+  found: ../../../epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md
+  artifact: EPIC-030
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:28 -> docs/epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:29
+  broken: docs/epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md
+  found: ../../../epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md
+  artifact: EPIC-031
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:29 -> docs/epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:41
+  broken: docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
+  found: ../../../initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
+  artifact: INITIATIVE-001
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:41 -> docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:41
+  broken: docs/spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md
+  found: ../../../spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md
+  artifact: SPEC-023
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:41 -> docs/spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:42
+  broken: docs/spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md
+  found: ../../../spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md
+  artifact: SPEC-024
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:42 -> docs/spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:43
+  broken: docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md
+  found: ../../../initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md
+  artifact: INITIATIVE-005
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:43 -> docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:43
+  broken: docs/epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md
+  found: ../../../epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md
+  artifact: EPIC-029
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:43 -> docs/epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:50
+  broken: docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
+  found: ../../../initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
+  artifact: INITIATIVE-001
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:50 -> docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:50
+  broken: docs/epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md
+  found: ../../../epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md
+  artifact: EPIC-007
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:50 -> docs/epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:51
+  broken: docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md
+  found: ../../../initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md
+  artifact: INITIATIVE-006
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:51 -> docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:51
+  broken: docs/epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md
+  found: ../../../epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md
+  artifact: EPIC-033
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:51 -> docs/epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md (file not found)
+STALE docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:98
+  broken: ../../../research/Complete/(SPIKE-011)-Vimeo-API-Access/(SPIKE-011)-Vimeo-API-Access.md
+  found: ../../../research/Active/(SPIKE-011)-Comparable-District-Transport-Impact/(SPIKE-011)-Comparable-District-Transport-Impact.md
+  artifact: SPIKE-011
+
+BROKEN_LINK docs/vision/Active/(VISION-001)-SP-Budget-Analysis/roadmap.md:98 -> ../../../research/Complete/(SPIKE-011)-Vimeo-API-Access/(SPIKE-011)-Vimeo-API-Access.md (file not found)
+STALE docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/roadmap.md:25
+  broken: docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  found: ../../../initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  artifact: INITIATIVE-003
+
+BROKEN_LINK docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/roadmap.md:25 -> docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md (file not found)
+STALE docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/roadmap.md:25
+  broken: docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md
+  found: ../../../epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md
+  artifact: EPIC-021
+
+BROKEN_LINK docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/roadmap.md:25 -> docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md (file not found)
+STALE docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/roadmap.md:37
+  broken: docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  found: ../../../initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  artifact: INITIATIVE-003
+
+BROKEN_LINK docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/roadmap.md:37 -> docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md (file not found)
+STALE docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/roadmap.md:37
+  broken: docs/epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md
+  found: ../../../epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md
+  artifact: EPIC-013
+
+BROKEN_LINK docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/roadmap.md:37 -> docs/epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md (file not found)
+STALE docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/roadmap.md:44
+  broken: docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  found: ../../../initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  artifact: INITIATIVE-003
+
+BROKEN_LINK docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/roadmap.md:44 -> docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md (file not found)
+STALE docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/roadmap.md:44
+  broken: docs/epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md
+  found: ../../../epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md
+  artifact: EPIC-020
+
+BROKEN_LINK docs/vision/Active/(VISION-003)-Persona-Interpretation-Pipeline/roadmap.md:44 -> docs/epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md (file not found)
+STALE docs/epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md:41
+  broken: ../../research/Active/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit.md
+  found: ../../../research/Active/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit.md
+  artifact: SPIKE-010
+
+BROKEN_LINK docs/epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md:41 -> ../../research/Active/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit.md (file not found)
+STALE docs/epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md:62
+  broken: ../../research/Complete/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md
+  found: ../../../research/Complete/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md
+  artifact: SPIKE-009
+
+BROKEN_LINK docs/epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md:62 -> ../../research/Complete/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md (file not found)
+STALE docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md:38
+  broken: ../../adr/Active/(ADR-004)-Question-Artifacts-Over-YAML-Index/(ADR-004)-Question-Artifacts-Over-YAML-Index.md
+  found: ../../../adr/Active/(ADR-004)-Question-Artifacts-Over-YAML-Index/(ADR-004)-Question-Artifacts-Over-YAML-Index.md
+  artifact: ADR-004
+
+BROKEN_LINK docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md:38 -> ../../adr/Active/(ADR-004)-Question-Artifacts-Over-YAML-Index/(ADR-004)-Question-Artifacts-Over-YAML-Index.md (file not found)
+STALE docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md:55
+  broken: ../../research/Active/(SPIKE-008)-Question-Scoring-Prototype/(SPIKE-008)-Question-Scoring-Prototype.md
+  found: ../../../research/Active/(SPIKE-008)-Question-Scoring-Prototype/(SPIKE-008)-Question-Scoring-Prototype.md
+  artifact: SPIKE-008
+
+BROKEN_LINK docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md:55 -> ../../research/Active/(SPIKE-008)-Question-Scoring-Prototype/(SPIKE-008)-Question-Scoring-Prototype.md (file not found)
+STALE docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md:56
+  broken: ../../adr/Active/(ADR-004)-Question-Artifacts-Over-YAML-Index/(ADR-004)-Question-Artifacts-Over-YAML-Index.md
+  found: ../../../adr/Active/(ADR-004)-Question-Artifacts-Over-YAML-Index/(ADR-004)-Question-Artifacts-Over-YAML-Index.md
+  artifact: ADR-004
+
+BROKEN_LINK docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md:56 -> ../../adr/Active/(ADR-004)-Question-Artifacts-Over-YAML-Index/(ADR-004)-Question-Artifacts-Over-YAML-Index.md (file not found)
+STALE docs/epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md:39
+  broken: ../../research/Complete/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md
+  found: ../../../research/Complete/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md
+  artifact: SPIKE-009
+
+BROKEN_LINK docs/epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md:39 -> ../../research/Complete/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:44
+  broken: ../Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
+  found: ../(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
+  artifact: INITIATIVE-001
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:44 -> ../Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:44
+  broken: ../Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  found: ../(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  artifact: INITIATIVE-003
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:44 -> ../Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:44
+  broken: ../Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  found: ../(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  artifact: INITIATIVE-004
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:44 -> ../Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:61
+  broken: ../Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
+  found: ../(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
+  artifact: INITIATIVE-001
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:61 -> ../Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:86
+  broken: ../../epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md
+  found: ../../../epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md
+  artifact: EPIC-026
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:86 -> ../../epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:87
+  broken: ../../epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md
+  found: ../../../epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md
+  artifact: EPIC-027
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:87 -> ../../epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:88
+  broken: ../../epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md
+  found: ../../../epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md
+  artifact: EPIC-028
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:88 -> ../../epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:89
+  broken: ../../epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md
+  found: ../../../epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md
+  artifact: EPIC-029
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:89 -> ../../epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:108
+  broken: ../Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  found: ../(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  artifact: INITIATIVE-004
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:108 -> ../Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:116
+  broken: ../Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  found: ../(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  artifact: INITIATIVE-003
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:116 -> ../Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:116
+  broken: ../Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  found: ../(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  artifact: INITIATIVE-004
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:116 -> ../Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:117
+  broken: ../Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
+  found: ../(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
+  artifact: INITIATIVE-001
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:117 -> ../Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/roadmap.md:25
+  broken: docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md
+  found: (INITIATIVE-005)-Independent-Enrollment-Study.md
+  artifact: INITIATIVE-005
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/roadmap.md:25 -> docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/roadmap.md:25
+  broken: docs/epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md
+  found: ../../../epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md
+  artifact: EPIC-026
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/roadmap.md:25 -> docs/epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/roadmap.md:26
+  broken: docs/epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md
+  found: ../../../epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md
+  artifact: EPIC-027
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/roadmap.md:26 -> docs/epic/Active/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs/(EPIC-027)-Enrollment-Gap-Analysis-Phase-1-Briefs.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/roadmap.md:27
+  broken: docs/epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md
+  found: ../../../epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md
+  artifact: EPIC-028
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/roadmap.md:27 -> docs/epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/roadmap.md:39
+  broken: docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md
+  found: (INITIATIVE-005)-Independent-Enrollment-Study.md
+  artifact: INITIATIVE-005
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/roadmap.md:39 -> docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/roadmap.md:39
+  broken: docs/epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md
+  found: ../../../epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md
+  artifact: EPIC-029
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/roadmap.md:39 -> docs/epic/Active/(EPIC-029)-Phase-2-Briefs-Baseline-Publication/(EPIC-029)-Phase-2-Briefs-Baseline-Publication.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:25
+  broken: docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  found: (INITIATIVE-004)-Public-Budget-Site.md
+  artifact: INITIATIVE-004
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:25 -> docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:25
+  broken: docs/epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md
+  found: ../../../epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md
+  artifact: EPIC-017
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:25 -> docs/epic/Active/(EPIC-017)-Question-Hub/(EPIC-017)-Question-Hub.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:26
+  broken: docs/spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md
+  found: ../../../spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md
+  artifact: SPEC-025
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:26 -> docs/spec/Active/(SPEC-025)-Question-Extraction/(SPEC-025)-Question-Extraction.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:27
+  broken: docs/spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md
+  found: ../../../spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md
+  artifact: SPEC-026
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:27 -> docs/spec/Active/(SPEC-026)-Questions-Index-Page/(SPEC-026)-Questions-Index-Page.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:28
+  broken: docs/spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md
+  found: ../../../spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md
+  artifact: SPEC-027
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:28 -> docs/spec/Active/(SPEC-027)-Answer-Detail-Pages/(SPEC-027)-Answer-Detail-Pages.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:40
+  broken: docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  found: (INITIATIVE-004)-Public-Budget-Site.md
+  artifact: INITIATIVE-004
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:40 -> docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:40
+  broken: docs/epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md
+  found: ../../../epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md
+  artifact: EPIC-016
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:40 -> docs/epic/Active/(EPIC-016)-Site-Visual-Design/(EPIC-016)-Site-Visual-Design.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:41
+  broken: docs/spec/Active/(SPEC-028)-Privacy-Respecting-Analytics/(SPEC-028)-Privacy-Respecting-Analytics.md
+  found: ../../../spec/Active/(SPEC-028)-Privacy-Respecting-Analytics/(SPEC-028)-Privacy-Respecting-Analytics.md
+  artifact: SPEC-028
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:41 -> docs/spec/Active/(SPEC-028)-Privacy-Respecting-Analytics/(SPEC-028)-Privacy-Respecting-Analytics.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:48
+  broken: docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md
+  found: (INITIATIVE-004)-Public-Budget-Site.md
+  artifact: INITIATIVE-004
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:48 -> docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/(INITIATIVE-004)-Public-Budget-Site.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:48
+  broken: docs/epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md
+  found: ../../../epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md
+  artifact: EPIC-018
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:48 -> docs/epic/Proposed/(EPIC-018)-Community-Feedback/(EPIC-018)-Community-Feedback.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:49
+  broken: docs/epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md
+  found: ../../../epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md
+  artifact: EPIC-019
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:49 -> docs/epic/Proposed/(EPIC-019)-Site-Data-Assembly/(EPIC-019)-Site-Data-Assembly.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:77
+  broken: ../../../spec/Proposed/(SPEC-072)-Persona-Routing-Selector/(SPEC-072)-Persona-Routing-Selector.md
+  found: ../../../spec/Active/(SPEC-072)-Evidence-Pools-To-Troves-Path-Migration/(SPEC-072)-Evidence-Pools-To-Troves-Path-Migration.md
+  artifact: SPEC-072
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:77 -> ../../../spec/Proposed/(SPEC-072)-Persona-Routing-Selector/(SPEC-072)-Persona-Routing-Selector.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:78
+  broken: ../../../spec/Proposed/(SPEC-073)-Briefing-Summary-Block/(SPEC-073)-Briefing-Summary-Block.md
+  found: ../../../spec/Active/(SPEC-073)-PERSONA-015-Journey-Map-Validation-Failure/(SPEC-073)-PERSONA-015-Journey-Map-Validation-Failure.md
+  artifact: SPEC-073
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:78 -> ../../../spec/Proposed/(SPEC-073)-Briefing-Summary-Block/(SPEC-073)-Briefing-Summary-Block.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:79
+  broken: ../../../spec/Proposed/(SPEC-074)-Student-Friendly-Language/(SPEC-074)-Student-Friendly-Language.md
+  found: ../../../spec/Proposed/(SPEC-074)-Evidence-Remediation-Post-Pool-Migration/(SPEC-074)-Evidence-Remediation-Post-Pool-Migration.md
+  artifact: SPEC-074
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:79 -> ../../../spec/Proposed/(SPEC-074)-Student-Friendly-Language/(SPEC-074)-Student-Friendly-Language.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:80
+  broken: ../../../spec/Proposed/(SPEC-075)-Last-Updated-Indicator/(SPEC-075)-Last-Updated-Indicator.md
+  found: ../../../spec/Active/(SPEC-075)-Site-Freshness-And-Changelog/(SPEC-075)-Site-Freshness-And-Changelog.md
+  artifact: SPEC-075
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-004)-Public-Budget-Site/roadmap.md:80 -> ../../../spec/Proposed/(SPEC-075)-Last-Updated-Indicator/(SPEC-075)-Last-Updated-Indicator.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/roadmap.md:25
+  broken: docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  found: (INITIATIVE-003)-Interpretation-Pipeline.md
+  artifact: INITIATIVE-003
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/roadmap.md:25 -> docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/roadmap.md:25
+  broken: docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md
+  found: ../../../epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md
+  artifact: EPIC-021
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/roadmap.md:25 -> docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/roadmap.md:37
+  broken: docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  found: (INITIATIVE-003)-Interpretation-Pipeline.md
+  artifact: INITIATIVE-003
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/roadmap.md:37 -> docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/roadmap.md:37
+  broken: docs/epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md
+  found: ../../../epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md
+  artifact: EPIC-013
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/roadmap.md:37 -> docs/epic/Active/(EPIC-013)-Polling-Interpretation-Pipeline/(EPIC-013)-Polling-Interpretation-Pipeline.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/roadmap.md:44
+  broken: docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md
+  found: (INITIATIVE-003)-Interpretation-Pipeline.md
+  artifact: INITIATIVE-003
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/roadmap.md:44 -> docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/(INITIATIVE-003)-Interpretation-Pipeline.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/roadmap.md:44
+  broken: docs/epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md
+  found: ../../../epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md
+  artifact: EPIC-020
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-003)-Interpretation-Pipeline/roadmap.md:44 -> docs/epic/Proposed/(EPIC-020)-Feedback-Pipeline-Integration/(EPIC-020)-Feedback-Pipeline-Integration.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/roadmap.md:35
+  broken: docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
+  found: (INITIATIVE-001)-Budget-Lever-Analysis.md
+  artifact: INITIATIVE-001
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/roadmap.md:35 -> docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/roadmap.md:35
+  broken: docs/spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md
+  found: ../../../spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md
+  artifact: SPEC-023
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/roadmap.md:35 -> docs/spec/Active/(SPEC-023)-Google-Slides-Export-Support/(SPEC-023)-Google-Slides-Export-Support.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/roadmap.md:36
+  broken: docs/spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md
+  found: ../../../spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md
+  artifact: SPEC-024
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/roadmap.md:36 -> docs/spec/Active/(SPEC-024)-Meaningful-Document-Filenames/(SPEC-024)-Meaningful-Document-Filenames.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/roadmap.md:43
+  broken: docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
+  found: (INITIATIVE-001)-Budget-Lever-Analysis.md
+  artifact: INITIATIVE-001
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/roadmap.md:43 -> docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/roadmap.md:43
+  broken: docs/epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md
+  found: ../../../epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md
+  artifact: EPIC-007
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-001)-Budget-Lever-Analysis/roadmap.md:43 -> docs/epic/Proposed/(EPIC-007)-Budget-Lever-Analysis/(EPIC-007)-Budget-Lever-Analysis.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/roadmap.md:25
+  broken: docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md
+  found: (INITIATIVE-006)-Independent-Transportation-Analysis.md
+  artifact: INITIATIVE-006
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/roadmap.md:25 -> docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/roadmap.md:25
+  broken: docs/epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md
+  found: ../../../epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md
+  artifact: EPIC-030
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/roadmap.md:25 -> docs/epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/roadmap.md:26
+  broken: docs/epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md
+  found: ../../../epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md
+  artifact: EPIC-031
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/roadmap.md:26 -> docs/epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/roadmap.md:43
+  broken: docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md
+  found: (INITIATIVE-006)-Independent-Transportation-Analysis.md
+  artifact: INITIATIVE-006
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/roadmap.md:43 -> docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/roadmap.md:43
+  broken: docs/epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md
+  found: ../../../epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md
+  artifact: EPIC-033
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/roadmap.md:43 -> docs/epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/roadmap.md:70
+  broken: ../../../research/Complete/(SPIKE-011)-Vimeo-API-Access/(SPIKE-011)-Vimeo-API-Access.md
+  found: ../../../research/Active/(SPIKE-011)-Comparable-District-Transport-Impact/(SPIKE-011)-Comparable-District-Transport-Impact.md
+  artifact: SPIKE-011
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/roadmap.md:70 -> ../../../research/Complete/(SPIKE-011)-Vimeo-API-Access/(SPIKE-011)-Vimeo-API-Access.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:89
+  broken: ../../epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md
+  found: ../../../epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md
+  artifact: EPIC-030
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:89 -> ../../epic/Active/(EPIC-030)-Transportation-Data-Acquisition-Baseline/(EPIC-030)-Transportation-Data-Acquisition-Baseline.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:90
+  broken: ../../epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md
+  found: ../../../epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md
+  artifact: EPIC-031
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:90 -> ../../epic/Active/(EPIC-031)-Configuration-Transport-Modeling-V1/(EPIC-031)-Configuration-Transport-Modeling-V1.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:91
+  broken: ../../epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md
+  found: ../../../epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md
+  artifact: EPIC-032
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:91 -> ../../epic/Active/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs/(EPIC-032)-Fiscal-Exposure-Family-Logistics-Briefs.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:92
+  broken: ../../epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md
+  found: ../../../epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md
+  artifact: EPIC-033
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:92 -> ../../epic/Proposed/(EPIC-033)-Configuration-Space-Optimization-V2/(EPIC-033)-Configuration-Space-Optimization-V2.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:93
+  broken: ../../epic/Proposed/(EPIC-034)-Post-Decision-Transportation-and-Equity-Burden-Evidence/(EPIC-034)-Post-Decision-Transportation-and-Equity-Burden-Evidence.md
+  found: ../../../epic/Proposed/(EPIC-034)-Post-Decision-Transportation-and-Equity-Burden-Evidence/(EPIC-034)-Post-Decision-Transportation-and-Equity-Burden-Evidence.md
+  artifact: EPIC-034
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:93 -> ../../epic/Proposed/(EPIC-034)-Post-Decision-Transportation-and-Equity-Burden-Evidence/(EPIC-034)-Post-Decision-Transportation-and-Equity-Burden-Evidence.md (file not found)
+STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:103
+  broken: ../../research/Active/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit.md
+  found: ../../../research/Active/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit.md
+  artifact: SPIKE-010
+
+BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:103 -> ../../research/Active/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit.md (file not found)
+WARN docs/adr/Active/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM.md:9 (frontmatter)
   field: linked-artifacts
   target: EPIC-012
   resolved: docs/epic/Abandoned/(EPIC-012)-Interpretation-Pipeline-Automation/(EPIC-012)-Interpretation-Pipeline-Automation.md
   issue: target is Abandoned
 
-WARN docs/adr/Adopted/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM.md:9 (frontmatter)
+WARN docs/adr/Active/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM.md:9 (frontmatter)
   field: linked-artifacts
   target: SPIKE-007
   resolved: docs/research/Abandoned/(SPIKE-007)-LLM-Access-In-Pipeline-Runner/(SPIKE-007)-LLM-Access-In-Pipeline-Runner.md
   issue: target is Abandoned
 
-WARN docs/spec/Implemented/(SPEC-013)-Live-Discovery-Connector-Model/(SPEC-013)-Live-Discovery-Connector-Model.md:16 (frontmatter)
+STALE_REF docs/swain-retro/2026-03-31-initiative-005-data-acquisition.md:10 (frontmatter)
+  field: linked-artifacts
+  target: EPIC-022
+  resolved: NONE
+  issue: unresolvable artifact ID
+
+STALE_REF docs/swain-retro/2026-03-31-initiative-005-data-acquisition.md:10 (frontmatter)
+  field: linked-artifacts
+  target: EPIC-023
+  resolved: NONE
+  issue: unresolvable artifact ID
+
+STALE_REF docs/swain-retro/2026-03-31-initiative-005-data-acquisition.md:10 (frontmatter)
+  field: linked-artifacts
+  target: EPIC-024
+  resolved: NONE
+  issue: unresolvable artifact ID
+
+STALE_REF docs/swain-retro/2026-03-31-initiative-005-data-acquisition.md:10 (frontmatter)
+  field: linked-artifacts
+  target: EPIC-025
+  resolved: NONE
+  issue: unresolvable artifact ID
+
+STALE_REF docs/swain-retro/2026-03-31-initiative-005-data-acquisition.md:10 (frontmatter)
+  field: linked-artifacts
+  target: SPEC-039
+  resolved: NONE
+  issue: unresolvable artifact ID
+
+STALE_REF docs/swain-retro/2026-03-31-initiative-005-data-acquisition.md:10 (frontmatter)
+  field: linked-artifacts
+  target: SPEC-040
+  resolved: NONE
+  issue: unresolvable artifact ID
+
+STALE_REF docs/swain-retro/2026-03-31-initiative-005-data-acquisition.md:10 (frontmatter)
+  field: linked-artifacts
+  target: SPEC-041
+  resolved: NONE
+  issue: unresolvable artifact ID
+
+WARN docs/spec/Complete/(SPEC-013)-Live-Discovery-Connector-Model/(SPEC-013)-Live-Discovery-Connector-Model.md:16 (frontmatter)
   field: linked-artifacts
   target: BUG-001
   resolved: docs/bug/Verified/(BUG-001)-Pipeline-Partial-Failure-Exit-Code/(BUG-001)-Pipeline-Partial-Failure-Exit-Code.md
-  issue: source is Implemented but target is still Verified
+  issue: source is Complete but target is still Verified
 
 WARN docs/epic/Complete/(EPIC-006)-Live-Discovery-Pipeline/(EPIC-006)-Live-Discovery-Pipeline.md:21 (frontmatter)
   field: linked-artifacts

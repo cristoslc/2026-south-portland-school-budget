@@ -22,6 +22,8 @@ linked-artifacts:
   - SPIKE-013
 depends-on-artifacts:
   - ADR-006
+  - SPIKE-012
+  - SPIKE-013
 addresses: []
 evidence-pool: ""
 ---

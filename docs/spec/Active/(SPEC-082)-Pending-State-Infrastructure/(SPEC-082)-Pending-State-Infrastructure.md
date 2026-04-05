@@ -12,6 +12,7 @@ parent-epic: EPIC-035
 parent-initiative: INITIATIVE-003
 linked-artifacts:
   - ADR-006
+  - SPIKE-012
   - SPIKE-013
 depends-on-artifacts: []
 addresses: []

@@ -21,6 +21,7 @@
 | SPEC-023 | Google Slides Export Support | 2026-03-20 | — |
 | SPEC-024 | Meaningful Document Filenames | 2026-03-20 | — |
 | SPEC-025 | Question Extraction | 2026-03-25 | — |
+| SPEC-088 | Reconfiguration Context Analysis Track | 2026-04-05 | — |
 | SPEC-026 | Questions Index Page | 2026-03-25 | — |
 | SPEC-027 | Answer Detail Pages | 2026-03-25 | — |
 | SPEC-028 | Privacy-Respecting Analytics | 2026-03-22 | — |

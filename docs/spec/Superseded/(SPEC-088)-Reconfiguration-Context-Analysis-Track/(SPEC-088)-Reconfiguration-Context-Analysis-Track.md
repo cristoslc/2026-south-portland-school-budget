@@ -2,7 +2,8 @@
 title: "Reconfiguration Context Analysis Track"
 artifact: SPEC-088
 track: implementable
-status: Active
+status: Superseded
+superseded-by: EPIC-036
 author: cristos
 created: 2026-04-05
 last-updated: 2026-04-05
@@ -142,3 +143,4 @@ Three phases with a dependency gate:
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Spec written | 2026-04-05 | — | — |
+| Superseded | 2026-04-05 | — | Promoted to EPIC-036 with child specs SPEC-089, SPEC-090, SPEC-091 |

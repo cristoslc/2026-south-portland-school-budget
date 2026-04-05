@@ -21,7 +21,9 @@
 | SPEC-023 | Google Slides Export Support | 2026-03-20 | — |
 | SPEC-024 | Meaningful Document Filenames | 2026-03-20 | — |
 | SPEC-025 | Question Extraction | 2026-03-25 | — |
-| SPEC-088 | Reconfiguration Context Analysis Track | 2026-04-05 | — |
+| SPEC-089 | School Integration Trove Expansion | 2026-04-05 | — |
+| SPEC-090 | Analysis Section Site Restructure | 2026-04-05 | — |
+| SPEC-091 | Reconfiguration Briefing Integration | 2026-04-05 | — |
 | SPEC-026 | Questions Index Page | 2026-03-25 | — |
 | SPEC-027 | Answer Detail Pages | 2026-03-25 | — |
 | SPEC-028 | Privacy-Respecting Analytics | 2026-03-22 | — |
@@ -84,3 +86,4 @@
 |----------|-------|-------------|--------|
 | SPEC-009 | Vimeo Channel Auto-Discovery | 2026-03-11 | 6c1020c |
 | SPEC-010 | Budget Page Auto-Discovery | 2026-03-11 | 6c1020c |
+| SPEC-088 | Reconfiguration Context Analysis Track | 2026-04-05 | — (superseded by EPIC-036) |

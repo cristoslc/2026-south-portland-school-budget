@@ -26,6 +26,7 @@
 | EPIC-030 | Transportation Data Acquisition & Baseline | 2026-03-30 | — |
 | EPIC-031 | Configuration Transport Modeling (V1) | 2026-03-30 | — |
 | EPIC-032 | Fiscal Exposure & Family Logistics Briefs | 2026-03-30 | — |
+| EPIC-036 | Reconfiguration Context Analysis Track | 2026-04-05 | — |
 
 ## Complete
 

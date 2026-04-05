@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="Analysis" activePage="analysis" description="Independent analysis tracks for the South Portland FY27 school budget — transportation and reconfiguration context.">
+  <main class="container">
+    <h1>Analysis</h1>
+    <p>
+      Independent research on two topics the budget process left unexamined.
+      Each track assembles primary sources, applies published research, and presents findings for residents.
+    </p>
+
+    <div class="card-grid">
+      <a href={`${base}transportation-analysis/`} class="card">
+        <span class="badge badge-community">Transport</span>
+        <h3>Transportation Analysis</h3>
+        <p>
+          Driver shortfalls, split-family counts, bell schedule conflicts, and fiscal exposure
+          across the reconfiguration options — the analysis that did not exist when the board voted.
+        </p>
+      </a>
+      <a href={`${base}analysis/reconfiguration-context/`} class="card">
+        <span class="badge badge-community">Context</span>
+        <h3>Reconfiguration Context</h3>
+        <p>
+          The 2024 Boundaries and Configurations process — what the community said, what the
+          steering committee recommended, what the Board directed, and what national research
+          says about the approaches they chose.
+        </p>
+      </a>
+    </div>
+  </main>
+</BaseLayout>

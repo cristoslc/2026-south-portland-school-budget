@@ -2,7 +2,7 @@
 title: Sidecar Template Format
 artifact: SPIKE-013
 track: container
-status: Active
+status: Complete
 author: cristos
 created: 2026-04-04
 last-updated: 2026-04-04
@@ -19,7 +19,14 @@ evidence-pool: ""
 
 ## Summary
 
-<!-- To be populated when transitioning to Complete -->
+**Verdict: Go** — Sidecar templates are compatible with Claude, Codex, Crush, and human operators. Key findings:
+
+1. **Context budget fits** — 16-27K tokens for interpret stage fits within 32K budget with room for larger meetings.
+2. **Format is runtime-agnostic** — Jinja2 templates with markdown output work across all tested runtimes.
+3. **Extraction is deterministic** — Regex-based YAML frontmatter and section parsing requires no LLM assistance.
+4. **Fallback formats available** — If an agent cannot produce YAML frontmatter, filename convention provides fallback.
+
+**Next step:** Proceed to SPEC-082 (Pending State Infrastructure) for template scaffolding implementation.
 
 ## Question
 
@@ -208,3 +215,4 @@ If an agent cannot produce YAML frontmatter:
 | Phase | Date | Commit | Notes |
 |-------|------|--------|-------|
 | Active | 2026-04-04 | | Research in progress |
+| Complete | 2026-04-04 | | Verdict: Go — templates are runtime-agnostic |

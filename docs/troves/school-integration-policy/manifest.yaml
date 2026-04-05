@@ -31,6 +31,13 @@ sources:
     title: "Boundaries and Configurations — South Portland School Department"
     hash: "cc08a4016b78ea3afb6813b6ce764b9c0e27ac1be86b13515cf4e65b873f8e3a"
     notes: "JS-rendered page — content fetched via Chrome browser automation"
+    triggers:
+      - "boundaries"
+      - "configurations"
+      - "Brickhill"
+      - "attendance zone"
+      - "guiding principles"
+      - "steering committee"
 
   - source-id: tcf-school-integration-nine-districts
     type: web
@@ -39,3 +46,10 @@ sources:
     title: "School Integration in Practice: Lessons from Nine Districts — The Century Foundation"
     hash: "ee691b6779060cfdab533a0e88b87a01315692016e53fee83ee9fcdcd93ab151"
     notes: "2016 report by Richard D. Kahlenberg. Part of TCF Stories of School Integration series."
+    triggers:
+      - "magnet"
+      - "controlled choice"
+      - "socioeconomic integration"
+      - "desegregation"
+      - "detracking"
+      - "school integration"

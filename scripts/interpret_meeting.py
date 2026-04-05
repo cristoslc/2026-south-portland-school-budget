@@ -404,12 +404,13 @@ different stories about what happened. If your output could belong to any \
 persona, you have failed."""
 
 
-def build_prompt(persona, bundle_data):
+def build_prompt(persona, bundle_data, reference_context_block=""):
     """Construct the full prompt for a single persona interpretation.
 
     Follows the SPIKE-005 prompt template structure:
     1. Persona definition (primes the lens)
     2. Instruction block (selective attention + output format)
+    2b. Reference context (SPEC-081 — injected when triggers match)
     3. Meeting context (evidence)
 
     Returns:
@@ -523,6 +524,7 @@ or journalist voice. Do not hedge with qualifiers a real person wouldn't use. \
 Be specific about what happened in the meeting -- do not be vague.
 </instruction>
 
+{reference_context_block}
 <meeting_context>
 ## Meeting: {meeting_title}
 **Date:** {meeting_date}
@@ -565,6 +567,18 @@ def run_interpretation(bundle_data, personas, *, force=False,
     output_dir = MEETINGS_OUTPUT_DIR / meeting_id
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    # SPEC-081: keyword-triggered reference context
+    from pipeline.reference_context import match_reference_triggers, build_reference_context_block
+    troves_dir = PROJECT_ROOT / "docs" / "troves"
+    ref_matches = match_reference_triggers(
+        bundle_data.get("meeting_context", ""), troves_dir
+    )
+    ref_block = build_reference_context_block(ref_matches)
+    if ref_matches:
+        log.info("  [ref-context] %d trove(s) matched: %s",
+                 len(ref_matches),
+                 ", ".join(m["trove_id"] for m in ref_matches))
+
     # Filter to single persona if requested
     if single_persona:
         personas = [p for p in personas if p.id == single_persona]
@@ -590,7 +604,7 @@ def run_interpretation(bundle_data, personas, *, force=False,
                      "overwritten)", persona.id)
 
         # Build the prompt
-        prompt = build_prompt(persona, bundle_data)
+        prompt = build_prompt(persona, bundle_data, reference_context_block=ref_block)
         prompt_tokens = estimate_tokens(SYSTEM_PROMPT + prompt)
         log.info("  [prompt] %s (%s) — ~%d tokens",
                  persona.id, persona.name, prompt_tokens)
@@ -770,12 +784,18 @@ def main():
 
     if args.dry_run:
         # In dry-run, estimate total token usage
+        from pipeline.reference_context import match_reference_triggers, build_reference_context_block
+        _troves = PROJECT_ROOT / "docs" / "troves"
+        _ref_matches = match_reference_triggers(
+            bundle_data.get("meeting_context", ""), _troves
+        )
+        _ref_block = build_reference_context_block(_ref_matches)
         total_prompt_tokens = 0
         target_personas = personas
         if args.persona:
             target_personas = [p for p in personas if p.id == args.persona]
         for persona in target_personas:
-            prompt = build_prompt(persona, bundle_data)
+            prompt = build_prompt(persona, bundle_data, reference_context_block=_ref_block)
             total_prompt_tokens += estimate_tokens(SYSTEM_PROMPT + prompt)
         log.info("")
         log.info("Estimated total input tokens: ~%d", total_prompt_tokens)

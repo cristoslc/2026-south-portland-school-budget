@@ -21,7 +21,7 @@ inter_meeting_evidence_count: 0
 
 No new evidence events occurred between the April 2 meeting and today.
 
-The absence of news is not neutral for Lila. The April 2 meeting ended with two open clocks running simultaneously: the budget vote was deferred again to a possible Monday city council meeting — which is today — and the superintendent promised school assignment letters by the end of next week. That means Lila is now inside the window where answers were supposed to arrive. Every day of silence between April 2 and those promised deliverables is a day she is still trading rumors at recess, still asking her parents the same questions, still not knowing which school she'll walk into in September.
+The April 2 meeting ended with two open clocks running simultaneously: the budget vote was deferred again to a possible Monday city council meeting — which is today — and the superintendent promised school assignment letters by the end of next week. That means Lila is now inside the window where answers were supposed to arrive. Every day of silence between April 2 and those promised deliverables is a day she is still trading rumors at recess, still asking her parents the same questions, still not knowing which school she'll walk into in September.
 
 The deferred budget vote is not an abstraction for Lila. It is the mechanism that determines whether state advocacy funding — currently estimated at $300,000 to $750,000 — will restore any of the teaching positions that received pink slips on March 18. Her looping teacher is somewhere in that number.
 

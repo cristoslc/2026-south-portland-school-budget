@@ -22,9 +22,9 @@ inter_meeting_evidence_count: 0
 
 No inter-meeting evidence has arrived since the April 2 board meeting.
 
-That silence matters. The board left April 2 without an approved FY27 budget, explicitly deferring to a Monday meeting before the April 7 city council public hearing deadline. Kira is now in a five-day window — no new information, no confirmed cut-list revisions, no public signal from any board member about whether Richardson's condition (restoring MTSS positions as the price of her reconfiguration support) has shifted any votes. The $300,000 in unexpected state funding that Richardson publicly claimed for student-facing staff on April 2 is still unallocated in any formal sense.
+The board left April 2 without an approved FY27 budget, explicitly deferring to a Monday meeting before the April 7 city council public hearing deadline. Kira is now in a five-day window — no new information, no confirmed cut-list revisions, no public signal from any board member about whether Richardson's condition (restoring MTSS positions as the price of her reconfiguration support) has shifted any votes. The $300,000 in unexpected state funding that Richardson publicly claimed for student-facing staff on April 2 is still unallocated in any formal sense.
 
-The absence of news does not mean nothing is moving. It likely means conversations are happening off the public record — between board members, between the superintendent's office and budget staff — before the Monday meeting. Kira has no visibility into those conversations. What she does have is the April 3 staff preference survey, which her own open threads flag as the first opportunity for her cross-building identity to either register or disappear in the reconfiguration implementation machinery.
+Conversations are likely happening off the public record — between board members, between the superintendent's office and budget staff — before the Monday meeting. Kira has no visibility into those conversations. What she does have is the April 3 staff preference survey, which her own open threads flag as the first opportunity for her cross-building identity to either register or disappear in the reconfiguration implementation machinery.
 
 ---
 

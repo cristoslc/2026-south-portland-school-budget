@@ -20,7 +20,7 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-There is no new inter-meeting evidence between April 2 and today. The absence of news matters: you're walking into April 3 carrying the full weight of what happened on April 2 — a budget that failed 5-2, a deferred vote, and the first genuinely actionable development in months.
+There is no new inter-meeting evidence between April 2 and today. The key outcomes from April 2 — a budget that failed 5-2, a deferred vote, and the first genuinely actionable development in months — all carry forward unresolved.
 
 Here's what that April 2 outcome means specifically for you:
 

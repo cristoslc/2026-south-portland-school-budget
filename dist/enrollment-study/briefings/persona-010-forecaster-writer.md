@@ -14,11 +14,11 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No inter-meeting evidence has arrived since April 2. That silence is itself worth noting.
+No inter-meeting evidence has arrived since April 2.
 
 April 2 ended with the board in a holding pattern: two votes complete (Kaler closure 6-1, Option A reconfiguration 4-2), one failed (the budget, 2-5), and new state money — $300K confirmed, $750K possible — landing mid-meeting via union lobbying. The board did not reconvene to vote. That means Ben is heading into April 3 with no new public record to work from and a five-day runway to the April 7 council presentation.
 
-The absence of news is a reporting signal. If the district wanted to get ahead of the April 7 story — issue a press release, post updated budget documents, communicate the state funding news to residents — this window was the opportunity. Whether they used it tells Ben something about the district's communications posture heading into the council presentation. Check the district website and the superintendent's social accounts before the meeting.
+If the district posted updated budget documents, a press release, or communicated the state funding news to residents since April 2, that would be new material. Check the district website and the superintendent's social accounts before the meeting.
 
 ---
 

@@ -4,7 +4,32 @@ import { getCollection } from 'astro:content';
 import { TRANSPORT_COMMUNITY_LENSES } from '../lib/transport-content.js';
 
 const briefings = await getCollection('briefings');
+const personas = await getCollection('personas');
+const personaTitles = {};
+personas.forEach(p => { personaTitles[p.data.artifact] = p.data.title; });
+
 const generalBriefings = briefings.filter(b => b.data.brief_type === 'general');
+const personaBriefings = briefings.filter(b => b.data.persona_id).sort((a, b) => {
+  const aId = parseInt((a.data.persona_id || '').replace('PERSONA-', '') || '0');
+  const bId = parseInt((b.data.persona_id || '').replace('PERSONA-', '') || '0');
+  return aId - bId;
+});
+
+const BUDGET_LENS_CATEGORIES = [
+  { ids: ['PERSONA-001', 'PERSONA-002', 'PERSONA-003', 'PERSONA-008', 'PERSONA-011'], label: 'Parent', className: 'badge-parent' },
+  { ids: ['PERSONA-004', 'PERSONA-015'], label: 'Educator', className: 'badge-teacher' },
+  { ids: ['PERSONA-005', 'PERSONA-006', 'PERSONA-007'], label: 'Community', className: 'badge-community' },
+  { ids: ['PERSONA-009', 'PERSONA-010'], label: 'Media', className: 'badge-media' },
+  { ids: ['PERSONA-012', 'PERSONA-013', 'PERSONA-014'], label: 'Student', className: 'badge-student' },
+];
+
+const budgetLensPreview = BUDGET_LENS_CATEGORIES
+  .map(cat => {
+    const match = personaBriefings.find(b => cat.ids.includes(b.data.persona_id || ''));
+    return match ? { briefing: match, label: cat.label, className: cat.className } : null;
+  })
+  .filter(Boolean);
+
 const base = import.meta.env.BASE_URL;
 
 const latestDate = briefings
@@ -89,12 +114,38 @@ const latestDate = briefings
 
     <section class="reveal">
       <div class="section-header">
-        <h2>Community Lens Briefings</h2>
+        <h2>Budget Community Lenses</h2>
+        <a href={`${base}briefings/`}>View all &rarr;</a>
+      </div>
+      <p>
+        The same budget story told through the eyes of the people it affects — parents, educators,
+        taxpayers, students, and the media covering the decisions.
+      </p>
+
+      <div class="card-grid">
+        {budgetLensPreview.map(({ briefing, label, className }) => (
+          <a href={`${base}briefings/${briefing.id}/`} class="card">
+            <span class={`badge ${className}`}>{label}</span>
+            <h3>{personaTitles[briefing.data.persona_id || ''] || briefing.data.persona_name}</h3>
+            <p>{briefing.data.persona_name} — {briefing.data.upcoming_meeting_date || briefing.data.generated_date}</p>
+          </a>
+        ))}
+      </div>
+      <p style="margin-top: 1rem; text-align: center;">
+        <a href={`${base}briefings/`}>See all {personaBriefings.length} budget community lenses &rarr;</a>
+      </p>
+    </section>
+
+    <hr />
+
+    <section class="reveal">
+      <div class="section-header">
+        <h2>Transportation Community Lenses</h2>
         <a href={`${base}transportation-analysis/briefings/`}>View all &rarr;</a>
       </div>
       <p>
-        These briefings explain the transportation decision through seven public lenses so residents can
-        see what it means for daily routines, costs, and responsibilities.
+        What the transportation decision means for daily routines, costs, and responsibilities —
+        told through seven public lenses.
       </p>
 
       <div class="card-grid">
@@ -109,7 +160,7 @@ const latestDate = briefings
         })}
       </div>
       <p style="margin-top: 1rem; text-align: center;">
-        <a href={`${base}transportation-analysis/briefings/`}>See all {TRANSPORT_COMMUNITY_LENSES.length} community lens briefings &rarr;</a>
+        <a href={`${base}transportation-analysis/briefings/`}>See all {TRANSPORT_COMMUNITY_LENSES.length} transportation community lenses &rarr;</a>
       </p>
     </section>
 

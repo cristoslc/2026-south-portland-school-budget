@@ -14,13 +14,11 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new evidence has emerged in the period between the April 2nd meeting and this one. That is not reassuring — it is the pattern.
+No new evidence has emerged in the period between the April 2nd meeting and this one.
 
-Rachel left April 2nd with the prevention phase definitively closed. The board chair confirmed in plain language that reconfiguration proceeds regardless of what happens in June. Thirteen listening sessions were announced. Early release days were pulled after parent pushback — the one concrete win in four months of showing up. That win mattered, but Rachel should be honest with herself about what it signals: the administration responds to organized parent pressure on implementation details, not on structural decisions. That's the lane she's operating in now.
+Rachel left April 2nd with the prevention phase definitively closed. The board chair confirmed in plain language that reconfiguration proceeds regardless of what happens in June. Thirteen listening sessions were announced. Early release days were pulled after parent pushback — a concrete response to organized parent pressure on implementation details.
 
-The quiet since April 2nd means she is walking into this meeting carrying the same unanswered questions she's had since February 4th — which building, which grade, which bus route, which IEP. Ninety-six days until September. Still nothing.
-
-The absence of any public communication to families about building assignments is not an oversight. It is a decision. Rachel should treat it that way.
+The core questions remain the same as February 4th — which building, which grade, which bus route, which IEP. Ninety-six days until September, and no public communication to families about building assignments has been posted.
 
 ---
 

@@ -19,7 +19,7 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new evidence has surfaced between the April 2 meeting and today. That silence is itself meaningful.
+No new evidence has surfaced between the April 2 meeting and today.
 
 The April 2 meeting ended without a budget vote — again. The board unanimously agreed to meet with the city council on April 7, but no one moved to adopt a budget. Finance Director Ketchen put three consecutive deficit years on the record. A public commenter (DeSanto) referenced $300K in new state funding; board member Richardson received a text mid-meeting suggesting $750K. Neither figure was reconciled before adjournment.
 

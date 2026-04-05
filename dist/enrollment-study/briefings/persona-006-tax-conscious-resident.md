@@ -25,7 +25,7 @@ The April 2 meeting confirmed the 6% ceiling as the superintendent's FY27 propos
 
 The absence of news between April 2 and April 3 means one of two things: either this is a quiet interlude before the April 7 council session, or a meeting is being called specifically to resolve the adoption question the board deferred again on April 2. Either way, Tom goes into April 3 without new information — but also without anything that changes his baseline. The 6% number is confirmed. The board has not closed the loop. And three board members (Richardson, Holman, DeAngelis) are still on record wanting to push the ask higher.
 
-The silence since April 2 is not reassurance. It is unfinished business.
+The budget adoption question from April 2 remains unresolved.
 
 ---
 

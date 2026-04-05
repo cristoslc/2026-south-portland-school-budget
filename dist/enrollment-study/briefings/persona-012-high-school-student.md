@@ -14,9 +14,7 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new evidence has arrived in the window between April 2 and today, April 3. The absence of news is itself meaningful for Jaylen: it means nothing has changed since the board walked out of the April 2 meeting without a vote, without a timeline, and without naming theater, AP courses, or coaching positions on either a cut list or a protected list.
-
-What he is carrying into this meeting is the full weight of April 2 with no new information to soften or clarify it. Matt Meyer is still named as a cut. Hannah is still named as a cut. The $300K the teachers' union pulled from Augusta is still on the table — but no one has said publicly which positions it would restore, or when that answer arrives. The April 7 public hearing is four days away. If Jaylen is going to speak at that microphone with something specific and accurate to say, he needs information that has not yet been given to him.
+No new evidence has arrived between April 2 and today. Nothing has changed since the board left the April 2 meeting without a vote, without a timeline, and without naming theater, AP courses, or coaching positions on either a cut list or a protected list. Matt Meyer is still named as a cut. Hannah is still named as a cut. The $300K the teachers' union pulled from Augusta is still on the table — but no one has said publicly which positions it would restore, or when that answer arrives. The April 7 public hearing is four days away. If Jaylen is going to speak at that microphone with something specific and accurate to say, he needs information that has not yet been given to him.
 
 The quiet since April 2 is also a reminder of how his school finds out about things: not from official district channels, but from coaches, group chats, and word of mouth. If something significant was decided or announced, he may not have heard about it yet. That is worth checking before the meeting starts.
 

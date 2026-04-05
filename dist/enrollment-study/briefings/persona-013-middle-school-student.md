@@ -25,7 +25,7 @@ That gap is itself significant for Amira. At April 2, a lot happened that she is
 
 But still no vote. For the fourth meeting in a row, the board deliberated and did not decide. That means Amira goes into April 3 holding the same unresolved fear she has been carrying for months, now made more concrete and more urgent, with nothing settled.
 
-The absence of news is not neutral. The budget's failure to pass is not a pause — it means the people who make decisions about her school cannot agree on what her school is going to look like in September. She has less than five months of school year left at Memorial as she knows it.
+The budget's failure to pass means the people who make decisions about her school have not yet agreed on what her school is going to look like in September. She has less than five months of school year left at Memorial as she knows it.
 
 ---
 
@@ -79,7 +79,7 @@ If Davidson or another student board member is present, watch whether they are a
 
 - **The ESOL teacher and co-teaching model for multilingual learners at Memorial.** This cut affects Amira's peers and her school community directly. Listen for whether any board member raises it or whether it has disappeared from the debate.
 
-- **Computer science.** This was confirmed eliminated at April 2 without much visible resistance. If no one raises it again at April 3, that silence is the answer — it's gone, and there was no fight.
+- **Computer science.** This was confirmed eliminated at April 2. Whether anyone raises it again at April 3 will indicate whether restoration is being considered.
 
 - **Whether DeAngelis speaks about student input.** He has twice now said students are "flexible" without asking any. If he characterizes student needs in April 3 deliberations, listen for whether he has any data about what students actually said, or whether this is another decision made without asking.
 

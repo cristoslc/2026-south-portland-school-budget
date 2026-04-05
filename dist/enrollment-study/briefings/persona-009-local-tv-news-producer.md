@@ -14,13 +14,13 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new evidence has arrived in the roughly 24 hours since the April 2 meeting. That silence is itself a signal worth noting.
+No new evidence has arrived in the roughly 24 hours since the April 2 meeting.
 
-What Dana is carrying into April 3 from the night before is a partially detonated story. The board was expected to adopt the budget on April 2. Instead, a text message — apparently arriving mid-meeting from a union president who had just spoken with a state legislator — introduced a $300,000 state funding figure that neither the superintendent nor the finance director could confirm on the floor. The board punted to Monday. The April 7 city council deadline is now the hard wall.
+What Dana is tracking from April 2 is an unresolved story. The board was expected to adopt the budget on April 2. Instead, a text message — apparently arriving mid-meeting from a union president who had just spoken with a state legislator — introduced a $300,000 state funding figure that neither the superintendent nor the finance director could confirm on the floor. The board punted to Monday. The April 7 city council deadline is now the hard wall.
 
 The absence of any follow-up reporting or official clarification since April 2 means Dana has no better read on whether the $300,000 is real, what positions it could restore, or whether it changes the 6-1/4-2 coalition math that passed Kaler's closure and Option A reconfiguration. The story is sitting in a 24-hour holding pattern, and no one has publicly resolved the most important factual question in it.
 
-This is not a dead news day. It's a charged one.
+Several open factual questions remain unresolved heading into April 3.
 
 ---
 

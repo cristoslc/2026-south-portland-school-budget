@@ -14,7 +14,7 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No new evidence has surfaced since the April 2 special meeting. That silence is not neutral.
+No new evidence has surfaced since the April 2 special meeting.
 
 The April 2 meeting ended in a specific kind of unresolved limbo: the board took structural votes (Kayler closed, Option A passed) but the FY27 budget failed 2–5. The board then identified two preconditions for passing the budget — incorporating $300,000 in new state funding and getting city council guidance on fund balance use — and floated the idea of returning as early as this week. April 3 lands in that window, with the council's April 7 hard deadline bearing down.
 
@@ -40,7 +40,7 @@ Maria is walking into this meeting carrying every unresolved question from April
 
 ## Agenda Implications
 
-No agenda has been posted for this meeting. That is itself worth noting — a meeting called this close to a hard statutory deadline, with no public agenda visible, should put Maria on alert.
+No agenda has been posted for this meeting. A meeting called this close to a hard statutory deadline without a public agenda is worth tracking closely.
 
 **Most likely scenario:** This is the budget adoption vote the board couldn't complete on March 30 and again on April 2. The narrow purpose would be to pass the FY27 budget with the $300,000 in state funding incorporated, possibly with some signal from the council on fund balance.
 
@@ -49,7 +49,7 @@ No agenda has been posted for this meeting. That is itself worth noting — a me
 **What to listen for:**
 
 - How the $300,000 is described — "incorporated into the budget" vs. "applied to restore positions" are not the same thing. If no one names specific positions being restored, the money is going somewhere else.
-- Whether the vote is characterized as a formality or a substantive action. Framing matters. If board members treat this as ministerial, Maria should treat it as the opposite.
+- Whether the vote is characterized as a formality or a substantive action. If the budget is adopted, it authorizes all currently proposed cuts regardless of how the vote is framed.
 - Any language about "future flexibility" or "mid-year adjustments" regarding the state funding. This is the board's escape valve for deferring restoration decisions without committing to anything.
 - Any reference to what city council guidance actually said about fund balance — and whether the board accepted or rejected it.
 
@@ -71,7 +71,7 @@ No agenda has been posted for this meeting. That is itself worth noting — a me
 
 - **DeAngelis's framing.** The chair cast the sole no vote on Kayler closure but has been the primary champion of reconfiguration all season. Watch whether she uses this meeting to re-establish herself as a moderating voice — or whether that March 30 vote is treated as resolved and dropped.
 
-- **Any mention of IEP class composition or behavioral transition planning.** If no one raises the question of how reconfigured classrooms will function without a behavioral strategist, that silence is the answer. Maria should be prepared to raise it herself.
+- **Any mention of IEP class composition or behavioral transition planning.** Whether anyone addresses how reconfigured classrooms will function without a behavioral strategist is worth noting.
 
 - **The specific motion language on the budget vote.** "Adopt the FY27 superintendent's budget as presented" and "adopt the FY27 superintendent's budget as amended to incorporate new state revenue" are meaningfully different. The second implies a change was made. Maria should ask what changed.
 

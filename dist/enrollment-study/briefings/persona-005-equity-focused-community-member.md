@@ -14,7 +14,7 @@ inter_meeting_evidence_count: 0
 
 ## Since Last Meeting
 
-No inter-meeting evidence has surfaced in the period between the April 2 meeting and today. Given that April 2 ran five hours and ended with Option A passing 4-2, the absence of news in the intervening 24 hours is not surprising — but it carries its own significance for Priya.
+No inter-meeting evidence has surfaced in the period between the April 2 meeting and today. April 2 ran five hours and ended with Option A passing 4-2. The unresolved items from that meeting all carry forward.
 
 Nothing has moved. The Title VI civil rights compliance analysis that was absent when the board voted to close Kayler remains absent. The DEI Director is still slated to become an SPTA-recall-list instructional strategist for $20,000–$30,000 in savings. McKinney-Vento liaisons are still zeroed from local funding. The behavioral specialist's position is still on the cut list despite her own testimony explaining exactly why eliminating it will drive IEP referrals — and costs — higher next year. Meredith Diamond's eight-category disaggregated data request has received no administrative response.
 

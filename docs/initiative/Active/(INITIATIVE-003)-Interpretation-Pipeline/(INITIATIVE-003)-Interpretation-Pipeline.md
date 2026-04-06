@@ -22,6 +22,7 @@ linked-epics:
   - EPIC-010
   - EPIC-011
   - EPIC-013
+  - EPIC-037
 linked-artifacts:
   - INITIATIVE-004
   - INITIATIVE-004
@@ -50,6 +51,7 @@ Systematically interpret every meeting through 14 persona lenses, fold interpret
 | EPIC-011 | Upcoming Event Brief Generation | Complete |
 | EPIC-012 | Interpretation Pipeline Automation | Abandoned (superseded by EPIC-013) |
 | EPIC-013 | Polling Interpretation Pipeline | Proposed |
+| EPIC-037 | Progressive Event-Scoped Fold | Active |
 
 ## Small Work (Epic-less Specs)
 

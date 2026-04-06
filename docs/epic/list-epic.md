@@ -24,9 +24,11 @@
 | EPIC-028 | Cohort Survival Model & 5-Year Projections | 2026-03-30 | — |
 | EPIC-029 | Phase 2 Briefs & Baseline Publication | 2026-03-30 | — |
 | EPIC-030 | Transportation Data Acquisition & Baseline | 2026-03-30 | — |
-| EPIC-031 | Configuration Transport Modeling (V1) | 2026-03-30 | — |
-| EPIC-032 | Fiscal Exposure & Family Logistics Briefs | 2026-03-30 | — |
+| EPIC-031 | Configuration Transport Modeling (V1) | 2026-03-31 | — |
+| EPIC-032 | Fiscal Exposure & Family Logistics Briefs | 2026-03-31 | — |
+| EPIC-035 | Pending State Pipeline Refactor | 2026-04-04 | — |
 | EPIC-036 | Reconfiguration Context Analysis Track | 2026-04-05 | — |
+| EPIC-037 | Progressive Event-Scoped Fold | 2026-04-05 | — |
 
 ## Complete
 
@@ -50,3 +52,4 @@
 | Artifact | Title | Last Updated | Commit |
 |----------|-------|-------------|--------|
 | EPIC-012 | Interpretation Pipeline Automation | 2026-03-16 | — |
+

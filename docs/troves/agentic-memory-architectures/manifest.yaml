@@ -1,0 +1,80 @@
+schema_version: "1.0"
+id: agentic-memory-architectures
+created: 2026-04-05
+refreshed: 2026-04-05
+tags: [agent-memory, tiered-memory, memory-architecture, entity-graph, conflict-detection, LLM-agents]
+referenced-by:
+  - SPIKE-014
+  - EPIC-037
+
+sources:
+  - source-id: "memgpt-paper"
+    title: "MemGPT: Towards LLMs as Operating Systems"
+    type: web
+    url: "https://arxiv.org/abs/2310.08560"
+    fetched: 2026-04-05
+    hash: "aff9a65b5e7810e95573e2f096fd11579671099e39542aed7d6a65d6b28fb378"
+    freshness-ttl: 90d
+
+  - source-id: "letta-memory-management"
+    title: "Letta Memory Management Documentation"
+    type: web
+    url: "https://docs.letta.com/advanced/memory-management/"
+    fetched: 2026-04-05
+    hash: "4eb30c613682f39f31039755b22a204541bd12231e5e514b3e3b4973660f600d"
+    freshness-ttl: 90d
+    note: "Partial fetch -- docs URL redirected to landing page; content supplemented from cross-references"
+
+  - source-id: "mem0-paper"
+    title: "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory"
+    type: web
+    url: "https://arxiv.org/abs/2504.19413"
+    fetched: 2026-04-05
+    hash: "f268dbb6de4dd3db4b5de87676254a3a04497f02edd5488391f09c49c7bf27a6"
+    freshness-ttl: 90d
+
+  - source-id: "mem0-state-of-memory-2026"
+    title: "State of AI Agent Memory 2026"
+    type: web
+    url: "https://mem0.ai/blog/state-of-ai-agent-memory-2026"
+    fetched: 2026-04-05
+    hash: "0a9d81b15a313e3bc4ccb8f200541425e7fd2c5d44ead5204f79a5e62e84e846"
+    freshness-ttl: 90d
+
+  - source-id: "langgraph-memory"
+    title: "LangGraph Memory Overview"
+    type: web
+    url: "https://docs.langchain.com/oss/python/langgraph/memory"
+    fetched: 2026-04-05
+    hash: "5461ba65428623655114a44f1d46d85bc7a5e1f8b07ab9340d306dfada46b812"
+    freshness-ttl: 90d
+
+  - source-id: "langmem-sdk"
+    title: "LangMem SDK for Agent Long-Term Memory"
+    type: web
+    url: "https://blog.langchain.com/langmem-sdk-launch/"
+    fetched: 2026-04-05
+    hash: "e90d9a24d556d44b3bc6d147b914ec0ae82e935dcbecc94b92670aa4629c32b0"
+    freshness-ttl: 90d
+
+  - source-id: "agent-memory-survey-2026"
+    title: "Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers"
+    type: web
+    url: "https://arxiv.org/html/2603.07670"
+    fetched: 2026-04-05
+    hash: "3956daea061942b07688ecce80f9bb8e2f1358ae5560a9993fb494454700cfe1"
+    freshness-ttl: 90d
+
+  - source-id: "monigatti-memory-in-agents"
+    title: "Making Sense of Memory in AI Agents"
+    type: web
+    url: "https://www.leoniemonigatti.com/blog/memory-in-ai-agents.html"
+    fetched: 2026-04-05
+    hash: "b06826da24276d474c5c1c1d5aabb47a84f5e441684a6b6c4854bd80ad7e1a9e"
+    freshness-ttl: 90d
+
+history:
+  - event: created
+    date: 2026-04-05
+    commit: "--"
+    sources: 8

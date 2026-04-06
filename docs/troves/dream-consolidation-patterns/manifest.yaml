@@ -1,0 +1,64 @@
+schema_version: "1.0"
+id: dream-consolidation-patterns
+created: 2026-04-05
+refreshed: 2026-04-05
+tags: [context-compression, consolidation, dream-pattern, sleep-inspired, summarization, memory-management]
+referenced-by:
+  - SPIKE-014
+  - EPIC-037
+
+sources:
+  - source-id: "active-context-compression"
+    title: "Active Context Compression: Autonomous Memory Management in LLM Agents"
+    type: web
+    url: "https://arxiv.org/pdf/2601.07190"
+    fetched: 2026-04-05
+    hash: "f62a34c72dc2f7e3ccc4fd91b2fdf6dfee55f2ce7e1fadb91adec88e24520a97"
+    freshness-ttl: 90d
+
+  - source-id: "zylos-context-compression"
+    title: "AI Agent Context Compression: Strategies for Long-Running Sessions"
+    type: web
+    url: "https://zylos.ai/research/2026-02-28-ai-agent-context-compression-strategies"
+    fetched: 2026-04-05
+    hash: "8c20331faba60de331ae9efc77085751bfbcd0b473ae099a2b26a7608dc18899"
+    freshness-ttl: 90d
+
+  - source-id: "sleepgate-paper"
+    title: "Learning to Forget: Sleep-Inspired Memory Consolidation for LLMs (SleepGate)"
+    type: web
+    url: "https://arxiv.org/html/2603.14517v1"
+    fetched: 2026-04-05
+    hash: "59dd7a7f0b8ab103f1a5242491d3d54fb7491cda3f3f3a0f1be00af8531d8c21"
+    freshness-ttl: 90d
+
+  - source-id: "neurodream-paper"
+    title: "NeuroDream"
+    type: web
+    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5377250"
+    fetched: 2026-04-05
+    hash: "9df0ff0dd4c889902fe4db32381d0d220d65e0eb1222b6b8012de904085ebeb8"
+    freshness-ttl: 90d
+    failed: true
+
+  - source-id: "enterprise-memory-stack-2026"
+    title: "A 2026 Memory Stack for Enterprise Agents"
+    type: web
+    url: "https://alok-mishra.com/2026/01/07/a-2026-memory-stack-for-enterprise-agents/"
+    fetched: 2026-04-05
+    hash: "0ee8aee6166821c0145a74be6ce3c14ebe7c2ab2d39d4bfb0b63a6449a2d315d"
+    freshness-ttl: 90d
+
+  - source-id: "context-folding-sun-2025"
+    title: "Scaling Long-Horizon LLM Agent via Context-Folding"
+    type: web
+    url: "https://arxiv.org/abs/2510.11967"
+    fetched: 2026-04-05
+    hash: "6103b4cb95c483acd1c25133decb0888c1d095237f1deb2a998adbce45972167"
+    freshness-ttl: 90d
+
+history:
+  - event: created
+    date: 2026-04-05
+    commit: "--"
+    sources: 6

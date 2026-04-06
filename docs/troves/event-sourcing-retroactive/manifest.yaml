@@ -1,0 +1,39 @@
+schema_version: "1.0"
+id: event-sourcing-retroactive
+created: 2026-04-05
+refreshed: 2026-04-05
+tags: [event-sourcing, snapshot, retroactive-event, CQRS, projection, aggregate]
+referenced-by:
+  - SPIKE-014
+  - EPIC-037
+
+sources:
+  - source-id: "kurrent-event-sourcing-snapshots"
+    title: "Snapshots in Event Sourcing"
+    type: web
+    url: "https://www.kurrent.io/blog/snapshots-in-event-sourcing"
+    fetched: 2026-04-05
+    hash: "2f3ba0a6f31f80d91a5d0d8caa8b6b64eacd82dbe96a6d68b72afd7b5d3df531"
+    freshness-ttl: 90d
+
+  - source-id: "fowler-retroactive-events"
+    title: "Retroactive Event"
+    type: web
+    url: "https://martinfowler.com/eaaDev/RetroactiveEvent.html"
+    fetched: 2026-04-05
+    hash: "d27ed144aa8a18f793425f9e6496a69c4f59575a1d4233392cfef620a69dd7cc"
+    freshness-ttl: 90d
+
+  - source-id: "marten-projections"
+    title: "Projections in Marten"
+    type: web
+    url: "https://martendb.io/events/projections/"
+    fetched: 2026-04-05
+    hash: "2535d1abd47d0f9ff4fedcc63e5bbcd672925c9945b064327e9df9b6190b1d09"
+    freshness-ttl: 90d
+
+history:
+  - event: created
+    date: 2026-04-05
+    commit: "--"
+    sources: 3

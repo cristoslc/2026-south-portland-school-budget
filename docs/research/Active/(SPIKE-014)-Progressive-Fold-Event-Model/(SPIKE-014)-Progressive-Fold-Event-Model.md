@@ -14,7 +14,7 @@ risks-addressed:
   - Inter-meeting evidence bypasses cumulative understanding entirely
   - Evidence reclassification (standalone to bundled) silently stales downstream folds
   - No mechanism to detect which fold points need re-computation
-evidence-pool: ""
+evidence-pool: "agentic-memory-architectures, dream-consolidation-patterns, event-sourcing-retroactive"
 ---
 
 # Progressive Fold Event Model

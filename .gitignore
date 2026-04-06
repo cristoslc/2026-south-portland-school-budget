@@ -31,3 +31,5 @@ __pycache__/
 # Distribution build artifacts (but not dist/ itself — briefings are deliverables)
 dist/**/*.tmp
 node_modules/
+.agents/bin/
+.swain-init

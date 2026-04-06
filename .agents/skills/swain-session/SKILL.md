@@ -30,8 +30,12 @@ When invoked manually, the user can change preferences or bookmark context.
 
 When the operator launches with free text (e.g., `swain new bug about timestamps`), the launcher passes it as part of the initial prompt: `/swain-session Session purpose: new bug about timestamps`.
 
+The launcher is responsible for choosing the checkout that will own that bookmark:
+- If the operator starts from the main checkout, the launcher opens a new worktree first and only then passes the session purpose.
+- If the operator starts inside a linked worktree that already has a bookmark, the launcher should steer them to resume/finish that worktree or open a different worktree before reusing the purpose text.
+
 When session purpose text is present in the invocation:
-1. Write it immediately as the session bookmark note (using swain-bookmark.sh)
+1. Write it immediately as the session bookmark note (using swain-bookmark.sh) in the current checkout
 2. Display it: `**Session purpose:** <text>`
 
 Detection: if the skill is invoked with text after `/swain-session` (e.g., `/swain-session Session purpose: ...`), extract everything after "Session purpose: " as the purpose text.
@@ -78,7 +82,7 @@ The greeting emits structured JSON:
 3. If `bookmark` is not null, display it:
    > **Resuming session** — Last time: {bookmark}
 
-4. The session is now ready for work. The full status dashboard is available on-demand (see [Status Dashboard](#status-dashboard-absorbed-from-swain-status--spec-122)).
+4. The session is now ready for work. The full status dashboard is available on-demand (see [Status Dashboard](#status-dashboard-spec-122)).
 
 **If `$TMUX` is NOT set** (detected by absence of `tab` in the JSON), check whether tmux is installed:
 - **tmux not installed:** Offer to install it (`brew install tmux`).
@@ -202,25 +206,48 @@ bash "$REPO_ROOT/.agents/bin/swain-session-state.sh" record-decision --note "App
 
 ### Session close
 
-When the operator says "done", "wrap up", "close session", or the decision budget is reached:
+When the operator says "done", "wrap up", "close session", or the decision budget is reached, execute this close sequence. **Critical:** swain-retro must run while the session is still active so it can read session state. Do not close the session before running retro.
+
+### Step 1 — Generate session digest and progress logs
+
+```bash
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+bash "$REPO_ROOT/.agents/bin/swain-session-digest.sh" --session-id "$(jq -r .session_id "$REPO_ROOT/.agents/session-state.json")" --output "$REPO_ROOT/.agents/session-log.jsonl"
+bash "$REPO_ROOT/.agents/bin/swain-progress-log.sh" --digest "$REPO_ROOT/.agents/session-log.jsonl"
+```
+
+This appends a JSONL digest entry and updates each touched EPIC/Initiative's `progress.md` and `## Progress` section.
+
+### Step 2 — Run retro (session still active)
+
+```bash
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+SWAIN_RETRO_SKILL="$REPO_ROOT/.claude/skills/swain-retro/SKILL.md"
+Skill("$SWAIN_RETRO_SKILL", "Session close — session is closing. Run /swain-retro to capture session learnings before the session state is cleared.")
+```
+
+**Important:** Retro reads session.json and session-state.json while they are still populated. Do not call session-state.sh close before this step.
+
+### Step 3 — Close the session
 
 ```bash
 REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
 bash "$REPO_ROOT/.agents/bin/swain-session-state.sh" close --walkaway "Completed SPEC-119 tests and state management" --session-roadmap "$(pwd)/SESSION-ROADMAP.md"
 ```
 
-This:
-1. Sets session phase to `closed` with end time
-2. Appends the walk-away signal to SESSION-ROADMAP.md
+This sets session phase to `closed` with end time and appends the walk-away signal to SESSION-ROADMAP.md.
 
-Then generate the session digest and feed it into progress logs:
+### Step 4 — Run session teardown
 
 ```bash
-bash "$REPO_ROOT/.agents/bin/swain-session-digest.sh" --session-id "$(jq -r .session_id "$REPO_ROOT/.agents/session-state.json")" --output "$REPO_ROOT/.agents/session-log.jsonl"
-bash "$REPO_ROOT/.agents/bin/swain-progress-log.sh" --digest "$REPO_ROOT/.agents/session-log.jsonl"
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+SWAIN_TEARDOWN_SKILL="$REPO_ROOT/.claude/skills/swain-teardown/SKILL.md"
+Skill("$SWAIN_TEARDOWN_SKILL", "Session teardown — --session-chain flag passed from swain-session close handler.")
 ```
 
-This appends a JSONL digest entry and updates each touched EPIC/Initiative's `progress.md` and `## Progress` section.
+This runs orphan worktree checks, git dirty-state check, ticket sync prompt, and writes a handoff summary. The `--session-chain` flag tells teardown to skip the redundant session-active check since the handler already confirmed session state.
+
+### Step 5 — Commit SESSION-ROADMAP.md
 
 Finally, commit SESSION-ROADMAP.md to git.
 
@@ -243,6 +270,7 @@ This outputs the previous session's focus lane, walkaway note, and decision coun
   "focus_lane": "INITIATIVE-019",
   "phase": "active",
   "start_time": "2026-03-28T22:06:34Z",
+  "last_activity_time": "2026-03-28T22:06:34Z",
   "end_time": null,
   "decision_budget": 5,
   "decisions_made": 0,
@@ -319,14 +347,14 @@ Display the focus artifact as a context line by calling `artifact-context.sh` on
 
 Focus lane is stored in `.agents/session.json` under the `focus_lane` key. It persists across status checks within a session. The status dashboard reads it to filter recommendations and show peripheral awareness for non-focus visions.
 
-## Status Dashboard (absorbed from swain-status — SPEC-122)
+## Status Dashboard (SPEC-122)
 
 swain-session now owns the project status dashboard. When the operator says "status", "what's next", "dashboard", "overview", "where are we", "what should I work on", or "show me priorities", run the status script:
 
 ```bash
 REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
 STATUS_SCRIPT="$REPO_ROOT/.agents/bin/swain-status.sh"
-[ -f "$STATUS_SCRIPT" ] && bash "$STATUS_SCRIPT" --refresh || echo "swain-status.sh not found"
+[ -f "$STATUS_SCRIPT" ] && bash "$STATUS_SCRIPT" --refresh || echo "status dashboard script not found"
 ```
 
 For compact mode (MOTD): `bash "$STATUS_SCRIPT" --compact`

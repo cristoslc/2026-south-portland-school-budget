@@ -1,1 +1,1 @@
-../../skills/swain-stage/scripts/swain-motd.py
+../skills/swain-stage/scripts/swain-motd.py

@@ -43,6 +43,18 @@ DOCUMENTS_DIR = os.path.join(PROJECT_ROOT, "data", "school-board", "budget-fy27"
 HISTORY_PATH = os.path.join(PROJECT_ROOT, "data", "school-board", "budget-fy27", "discovery.jsonl")
 SNAPSHOTS_DIR = os.path.join(PROJECT_ROOT, "data", "school-board", "budget-fy27", "page-snapshots")
 
+# Collateral pages — monitored for changes but not scanned for downloadable documents.
+# Each entry: {"url": ..., "dir": absolute path for daily snapshots}
+COLLATERAL_SNAPSHOTS_BASE = os.path.join(
+    PROJECT_ROOT, "data", "school-board", "budget-fy27", "page-snapshots-collateral"
+)
+COLLATERAL_PAGES = [
+    {
+        "url": "https://www.spsdme.org/page/es2627",
+        "dir": os.path.join(COLLATERAL_SNAPSHOTS_BASE, "es2627"),
+    },
+]
+
 # Google URL patterns
 DRIVE_FILE_RE = re.compile(r"drive\.google\.com/file/d/([a-zA-Z0-9_-]+)")
 DOCS_RE = re.compile(r"docs\.google\.com/document/d/([a-zA-Z0-9_-]+)")
@@ -230,6 +242,14 @@ def _fragment_to_text(decoded_html):
             flags=re.IGNORECASE | re.DOTALL,
         )
 
+    # Anchors → markdown links (must run before generic tag strip)
+    text = re.sub(
+        r'<a\s[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>',
+        lambda m: f"[{re.sub(r'<[^>]+>', '', m.group(2)).strip()}]({_html.unescape(m.group(1))})",
+        text,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+
     # List items → bullet points
     text = re.sub(r"<li[^>]*>", "\n- ", text, flags=re.IGNORECASE)
     text = re.sub(r"</li>", "", text, flags=re.IGNORECASE)
@@ -275,20 +295,20 @@ def page_html_to_text(raw_html):
     return "\n\n".join(text_parts)
 
 
-def save_page_snapshot(raw_html):
-    """Save a date-stamped plain-text snapshot of the budget page.
+def save_page_snapshot(raw_html, page_url=BUDGET_PAGE_URL, snapshots_dir=SNAPSHOTS_DIR):
+    """Save a date-stamped plain-text snapshot of a CMS page.
 
     One snapshot per UTC date. Skips if today's snapshot already exists.
     """
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    snapshot_path = os.path.join(SNAPSHOTS_DIR, f"{date_str}.txt")
+    snapshot_path = os.path.join(snapshots_dir, f"{date_str}.txt")
     if os.path.exists(snapshot_path):
-        log.info("SKIP page snapshot — already exists for %s", date_str)
+        log.info("SKIP page snapshot — already exists for %s", page_url)
         return
     text = page_html_to_text(raw_html)
-    os.makedirs(SNAPSHOTS_DIR, exist_ok=True)
+    os.makedirs(snapshots_dir, exist_ok=True)
     with open(snapshot_path, "w", encoding="utf-8") as f:
-        f.write(f"Source: {BUDGET_PAGE_URL}\nSnapshot date: {date_str}\n\n{text}")
+        f.write(f"Source: {page_url}\nSnapshot date: {date_str}\n\n{text}")
     log.info("OK page snapshot saved — %s (%d chars)", date_str, len(text))
 
 
@@ -346,6 +366,14 @@ def run(check_only=False):
         return 0
     save_page_snapshot(raw_html)
     links = _extract_links_from_html(raw_html, BUDGET_PAGE_URL)
+
+    # Snapshot collateral pages (no document discovery — snapshot only)
+    for page in COLLATERAL_PAGES:
+        collateral_html = _fetch_html(page["url"])
+        if collateral_html is None:
+            log.warning("Failed to fetch collateral page %s", page["url"])
+        else:
+            save_page_snapshot(collateral_html, page_url=page["url"], snapshots_dir=page["dir"])
     if not links:
         log.warning("No links retrieved — page structure may have changed")
         return 0

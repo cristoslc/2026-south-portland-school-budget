@@ -4,10 +4,10 @@
 
 | Artifact | Title | Last Updated | Commit |
 |----------|-------|-------------|--------|
-| SPEC-072 | Persona Routing Selector | 2026-03-22 | — |
-| SPEC-073 | Briefing Summary Block | 2026-03-22 | — |
-| SPEC-074 | Student-Friendly Language | 2026-03-22 | — |
-| SPEC-075 | Last Updated Indicator | 2026-03-22 | — |
+| SPEC-029 | Persona Routing Selector | 2026-03-22 | — |
+| SPEC-030 | Briefing Summary Block | 2026-03-22 | — |
+| SPEC-031 | Student-Friendly Language | 2026-03-22 | — |
+| SPEC-032 | Last Updated Indicator | 2026-03-22 | — |
 | SPEC-076 | Student Blocks Contract and Model Integration | 2026-04-03 | — |
 | SPEC-077 | Modeled Walkability and Drive Burden Baseline | 2026-04-03 | — |
 | SPEC-078 | Equity Overlay on Modeled Burden | 2026-04-03 | — |
@@ -21,9 +21,6 @@
 | SPEC-023 | Google Slides Export Support | 2026-03-20 | — |
 | SPEC-024 | Meaningful Document Filenames | 2026-03-20 | — |
 | SPEC-025 | Question Extraction | 2026-03-25 | — |
-| SPEC-089 | School Integration Trove Expansion | 2026-04-05 | — |
-| SPEC-090 | Analysis Section Site Restructure | 2026-04-05 | — |
-| SPEC-091 | Reconfiguration Briefing Integration | 2026-04-05 | — |
 | SPEC-026 | Questions Index Page | 2026-03-25 | — |
 | SPEC-027 | Answer Detail Pages | 2026-03-25 | — |
 | SPEC-028 | Privacy-Respecting Analytics | 2026-03-22 | — |
@@ -38,22 +35,34 @@
 | SPEC-050 | Housing Permit Data Trove | 2026-03-30 | — |
 | SPEC-051 | Enrollment Claims Catalog | 2026-03-30 | — |
 | SPEC-052 | School Choice Transfer Data | 2026-03-30 | — |
-| SPEC-053 | Maine DOE Transport Expenditure Trove | 2026-03-30 | — |
-| SPEC-054 | Transportation Claims Catalog | 2026-03-30 | — |
-| SPEC-055 | School Locations & Catchment Data | 2026-03-30 | — |
+| SPEC-053 | Maine DOE Transport Expenditure Trove | 2026-03-31 | — |
+| SPEC-054 | Transportation Claims Catalog | 2026-03-31 | — |
+| SPEC-055 | School Locations & Catchment Data | 2026-03-31 | — |
 | SPEC-056 | Enrollment Gap Analysis Document | 2026-03-30 | — |
 | SPEC-057 | Enrollment Phase 1 Persona Briefs | 2026-03-30 | — |
 | SPEC-058 | Cohort Survival Model | 2026-03-30 | — |
 | SPEC-059 | Scenario Bracket Projections | 2026-03-30 | — |
-| SPEC-060 | Split-Family Count Model | 2026-03-30 | — |
-| SPEC-061 | McKinney-Vento Exposure Analysis | 2026-03-30 | — |
-| SPEC-062 | SEA Staffing Adequacy Assessment | 2026-03-30 | — |
-| SPEC-063 | Bell Schedule Tier Analysis | 2026-03-30 | — |
-| SPEC-064 | Before/After Care Gap Analysis | 2026-03-30 | — |
-| SPEC-065 | Transport Configuration Comparison | 2026-03-30 | — |
-| SPEC-066 | Transport Persona Briefs | 2026-03-30 | — |
+| SPEC-060 | Split-Family Count Model | 2026-03-31 | — |
+| SPEC-061 | McKinney-Vento Exposure Analysis | 2026-03-31 | — |
+| SPEC-062 | SEA Staffing Adequacy Assessment | 2026-03-31 | — |
+| SPEC-063 | Bell Schedule Tier Analysis | 2026-03-31 | — |
+| SPEC-064 | Before/After Care Gap Analysis | 2026-03-31 | — |
+| SPEC-065 | Transport Configuration Comparison | 2026-03-31 | — |
+| SPEC-066 | Transport Persona Briefs | 2026-03-31 | — |
 | SPEC-067 | Enrollment Phase 2 Persona Briefs | 2026-03-30 | — |
 | SPEC-068 | Enrollment Baseline Site Page | 2026-03-30 | — |
+| SPEC-069 | Enrollment Study Site Pages | 2026-03-31 | — |
+| SPEC-070 | Transportation Analysis Site Pages | 2026-03-31 | — |
+| SPEC-081 | Keyword-Triggered Reference Context Injection | 2026-04-04 | -- |
+| SPEC-082 | Pending State Infrastructure | 2026-04-05 | — |
+| SPEC-083 | Interpret Stage Sidecar Generation | 2026-04-04 | — |
+| SPEC-084 | Interpret Stage Sidecar Resolution | 2026-04-04 | — |
+| SPEC-085 | Brief Stage Sidecar Generation and Resolution | 2026-04-04 | — |
+| SPEC-086 | Cumulative Fold Sidecar Generation and Resolution | 2026-04-04 | — |
+| SPEC-087 | Question Extraction Sidecar Generation and Resolution | 2026-04-04 | — |
+| SPEC-089 | School Integration Trove Expansion | 2026-04-05 | — |
+| SPEC-090 | Analysis Section Site Restructure | 2026-04-05 | — |
+| SPEC-091 | Reconfiguration Briefing Integration | 2026-04-05 | — |
 
 ## Complete
 
@@ -79,6 +88,7 @@
 | SPEC-020 | Cumulative Interpretation Format | 2026-03-13 | — |
 | SPEC-021 | Fold Engine | 2026-03-13 | — |
 | SPEC-022 | Upcoming-Event Brief Generator | 2026-03-13 | — |
+| SPEC-071 | SPC-TV TelVue Connector | 2026-03-31 | 3415f86 |
 
 ## Superseded
 
@@ -86,4 +96,5 @@
 |----------|-------|-------------|--------|
 | SPEC-009 | Vimeo Channel Auto-Discovery | 2026-03-11 | 6c1020c |
 | SPEC-010 | Budget Page Auto-Discovery | 2026-03-11 | 6c1020c |
-| SPEC-088 | Reconfiguration Context Analysis Track | 2026-04-05 | — (superseded by EPIC-036) |
+| SPEC-088 | Reconfiguration Context Analysis Track | 2026-04-05 | — |
+

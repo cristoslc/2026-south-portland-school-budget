@@ -1,1 +1,1 @@
-../../skills/swain-stage/scripts/swain-motd.sh
+../skills/swain-stage/scripts/swain-motd.sh

@@ -8,4 +8,6 @@
 | ADR-002 | Polling LLM Pipeline Over Runner-Based LLM | 2026-03-16 | — |
 | ADR-003 | Astro Content Collections over Custom SSG | 2026-03-22 | — |
 | ADR-004 | Question Artifacts Over YAML Index | 2026-03-30 | — |
+| ADR-005 | Keyword Triggers Over Semantic Search for Reference Context | 2026-04-04 | -- |
+| ADR-006 | Pending State Pattern for LLM Pipeline Coordination | 2026-04-04 | — |
 

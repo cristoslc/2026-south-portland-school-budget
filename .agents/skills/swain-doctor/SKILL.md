@@ -115,7 +115,7 @@ Verify vendored tk is executable (at the sibling `swain-do/bin/tk` skill path) a
 
 ## Operator bin/ symlinks (SPEC-214, ADR-019)
 
-Auto-repair `bin/` symlinks for operator-facing scripts. Scans `skills/*/usr/bin/` manifest directories to discover which scripts need `bin/` symlinks. Each entry in `usr/bin/` is a symlink whose name is the operator command and whose target resolves to the actual script in `scripts/`. Adding a new operator script requires only a new entry in `usr/bin/` — no doctor code changes.
+Auto-repair `bin/` symlinks for operator-facing scripts. Scans the installed skill tree's `usr/bin/` manifest directories to discover which scripts need `bin/` symlinks. Each entry in `usr/bin/` is a symlink whose name is the operator command and whose target resolves to the actual script in `scripts/`. Adding a new operator script requires only a new entry in `usr/bin/` — no doctor code changes.
 
 ### Behavior
 
@@ -229,6 +229,33 @@ Verify that `README.md` exists at the repo root. The README is the most public s
 - **warning** — README.md missing. Report: `README.md missing — swain alignment loop has no public intent anchor. Run swain-init to seed one.`
 
 This is an existence check only — no content analysis. Content reconciliation is handled by swain-session (session start), swain-retro (retrospective), and swain-release (release gate).
+
+## Artifact index health
+
+Verify that generated artifact index files (`docs/*/list-*.md`) are current for supported swain artifact types. These files are human-facing views built from artifact frontmatter, so they can drift between lazy refreshes.
+
+### Detection and repair
+
+Use the existing rebuild script:
+
+```bash
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+bash "$REPO_ROOT/.agents/bin/rebuild-index.sh" <type>
+```
+
+For each supported type whose docs directory exists (`spec`, `epic`, `initiative`, `spike`, `adr`, `persona`, `runbook`, `design`, `vision`, `journey`, `train`):
+
+1. Record whether `docs/<dir>/list-<type>.md` exists and its content hash
+2. Run `rebuild-index.sh <type>`
+3. Compare the resulting file against the pre-run state
+
+### Status values
+
+- **ok** — all supported artifact indices were already current
+- **advisory** — one or more stale or missing index files were regenerated
+- **warning** — the rebuild script is unavailable or one or more index rebuilds failed
+
+This check is auto-repair only. It should never block session startup.
 
 ## Evidence Pool → Trove Migration
 

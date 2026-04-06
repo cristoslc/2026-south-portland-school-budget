@@ -1,1 +1,1 @@
-../../skills/swain-design/scripts/design-check.sh
+../skills/swain-design/scripts/design-check.sh

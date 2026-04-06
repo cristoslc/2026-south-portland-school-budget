@@ -1,5 +1,5 @@
 # Specwatch log — repo: south-portland-school-budget-FY27
-# Scanned: 2026-04-05T03:20:06Z
+# Scanned: 2026-04-06T00:27:50Z
 
 STALE docs/research/Active/(SPIKE-011)-Comparable-District-Transport-Impact/(SPIKE-011)-Comparable-District-Transport-Impact.md:148
   broken: ../../initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md
@@ -259,6 +259,24 @@ STALE docs/epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC
   artifact: SPIKE-009
 
 BROKEN_LINK docs/epic/Active/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections/(EPIC-028)-Cohort-Survival-Model-5-Year-Projections.md:62 -> ../../research/Complete/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md (file not found)
+STALE docs/epic/Active/(EPIC-037)-Progressive-Event-Scoped-Fold/(EPIC-037)-Progressive-Event-Scoped-Fold.md:61
+  broken: ../../epic/Complete/(EPIC-010)-Cumulative-Narrative-Fold/(EPIC-010)-Cumulative-Narrative-Fold.md
+  found: ../../Complete/(EPIC-010)-Cumulative-Narrative-Fold/(EPIC-010)-Cumulative-Narrative-Fold.md
+  artifact: EPIC-010
+
+BROKEN_LINK docs/epic/Active/(EPIC-037)-Progressive-Event-Scoped-Fold/(EPIC-037)-Progressive-Event-Scoped-Fold.md:61 -> ../../epic/Complete/(EPIC-010)-Cumulative-Narrative-Fold/(EPIC-010)-Cumulative-Narrative-Fold.md (file not found)
+STALE docs/epic/Active/(EPIC-037)-Progressive-Event-Scoped-Fold/(EPIC-037)-Progressive-Event-Scoped-Fold.md:62
+  broken: ../../research/Complete/(SPIKE-006)-Cumulative-Fold-Strategy/(SPIKE-006)-Cumulative-Fold-Strategy.md
+  found: ../../../research/Complete/(SPIKE-006)-Cumulative-Fold-Strategy/(SPIKE-006)-Cumulative-Fold-Strategy.md
+  artifact: SPIKE-006
+
+BROKEN_LINK docs/epic/Active/(EPIC-037)-Progressive-Event-Scoped-Fold/(EPIC-037)-Progressive-Event-Scoped-Fold.md:62 -> ../../research/Complete/(SPIKE-006)-Cumulative-Fold-Strategy/(SPIKE-006)-Cumulative-Fold-Strategy.md (file not found)
+STALE docs/epic/Active/(EPIC-037)-Progressive-Event-Scoped-Fold/(EPIC-037)-Progressive-Event-Scoped-Fold.md:63
+  broken: ../../spec/Active/(SPEC-086)-Cumulative-Fold-Sidecar-Generation-and-Resolution/(SPEC-086)-Cumulative-Fold-Sidecar-Generation-and-Resolution.md
+  found: ../../../spec/Active/(SPEC-086)-Cumulative-Fold-Sidecar-Generation-and-Resolution/(SPEC-086)-Cumulative-Fold-Sidecar-Generation-and-Resolution.md
+  artifact: SPEC-086
+
+BROKEN_LINK docs/epic/Active/(EPIC-037)-Progressive-Event-Scoped-Fold/(EPIC-037)-Progressive-Event-Scoped-Fold.md:63 -> ../../spec/Active/(SPEC-086)-Cumulative-Fold-Sidecar-Generation-and-Resolution/(SPEC-086)-Cumulative-Fold-Sidecar-Generation-and-Resolution.md (file not found)
 STALE docs/epic/Active/(EPIC-021)-Key-Questions-Tracking/(EPIC-021)-Key-Questions-Tracking.md:38
   broken: ../../adr/Active/(ADR-004)-Question-Artifacts-Over-YAML-Index/(ADR-004)-Question-Artifacts-Over-YAML-Index.md
   found: ../../../adr/Active/(ADR-004)-Question-Artifacts-Over-YAML-Index/(ADR-004)-Question-Artifacts-Over-YAML-Index.md
@@ -283,6 +301,12 @@ STALE docs/epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollm
   artifact: SPIKE-009
 
 BROKEN_LINK docs/epic/Active/(EPIC-026)-Enrollment-Data-Acquisition/(EPIC-026)-Enrollment-Data-Acquisition.md:39 -> ../../research/Complete/(SPIKE-009)-Building-Level-Data-Feasibility/(SPIKE-009)-Building-Level-Data-Feasibility.md (file not found)
+STALE docs/epic/Proposed/(EPIC-034)-Post-Decision-Transportation-and-Equity-Burden-Evidence/(EPIC-034)-Post-Decision-Transportation-and-Equity-Burden-Evidence.md:81
+  broken: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/epic-034-transport-equity-evidence/docs/troves/sopo-redistricting-tool/synthesis.md
+  found: NONE
+  artifact: UNKNOWN
+
+BROKEN_LINK docs/epic/Proposed/(EPIC-034)-Post-Decision-Transportation-and-Equity-Burden-Evidence/(EPIC-034)-Post-Decision-Transportation-and-Equity-Burden-Evidence.md:81 -> /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/epic-034-transport-equity-evidence/docs/troves/sopo-redistricting-tool/synthesis.md (file not found)
 STALE docs/initiative/Active/(INITIATIVE-005)-Independent-Enrollment-Study/(INITIATIVE-005)-Independent-Enrollment-Study.md:44
   broken: ../Active/(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
   found: ../(INITIATIVE-001)-Budget-Lever-Analysis/(INITIATIVE-001)-Budget-Lever-Analysis.md
@@ -619,6 +643,42 @@ STALE docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysi
   artifact: SPIKE-010
 
 BROKEN_LINK docs/initiative/Active/(INITIATIVE-006)-Independent-Transportation-Analysis/(INITIATIVE-006)-Independent-Transportation-Analysis.md:103 -> ../../research/Active/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit/(SPIKE-010)-Walk-Zone-Pedestrian-Infrastructure-Audit.md (file not found)
+STALE docs/superpowers/specs/2026-04-01-github-header-board-letter-design.md:20
+  broken: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/spec-070-transport-site/site/src/layouts/BaseLayout.astro
+  found: NONE
+  artifact: UNKNOWN
+
+BROKEN_LINK docs/superpowers/specs/2026-04-01-github-header-board-letter-design.md:20 -> /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/spec-070-transport-site/site/src/layouts/BaseLayout.astro (file not found)
+STALE docs/superpowers/specs/2026-04-01-github-header-board-letter-design.md:40
+  broken: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/spec-070-transport-site/dist/transportation-analysis/BOARD-LETTER-DRAFT.md
+  found: NONE
+  artifact: UNKNOWN
+
+BROKEN_LINK docs/superpowers/specs/2026-04-01-github-header-board-letter-design.md:40 -> /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/spec-070-transport-site/dist/transportation-analysis/BOARD-LETTER-DRAFT.md (file not found)
+STALE docs/superpowers/specs/2026-04-01-github-header-board-letter-design.md:73
+  broken: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/spec-070-transport-site/site/src/layouts/BaseLayout.astro
+  found: NONE
+  artifact: UNKNOWN
+
+BROKEN_LINK docs/superpowers/specs/2026-04-01-github-header-board-letter-design.md:73 -> /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/spec-070-transport-site/site/src/layouts/BaseLayout.astro (file not found)
+STALE docs/superpowers/specs/2026-04-01-github-header-board-letter-design.md:74
+  broken: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/spec-070-transport-site/site/src/styles/global.css
+  found: NONE
+  artifact: UNKNOWN
+
+BROKEN_LINK docs/superpowers/specs/2026-04-01-github-header-board-letter-design.md:74 -> /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/spec-070-transport-site/site/src/styles/global.css (file not found)
+STALE docs/superpowers/specs/2026-04-01-github-header-board-letter-design.md:75
+  broken: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/spec-070-transport-site/dist/transportation-analysis/BOARD-LETTER-DRAFT.md
+  found: NONE
+  artifact: UNKNOWN
+
+BROKEN_LINK docs/superpowers/specs/2026-04-01-github-header-board-letter-design.md:75 -> /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/spec-070-transport-site/dist/transportation-analysis/BOARD-LETTER-DRAFT.md (file not found)
+STALE docs/superpowers/specs/2026-04-01-github-header-board-letter-design.md:76
+  broken: /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/spec-070-transport-site/site/src/pages/transportation-analysis/index.astro
+  found: NONE
+  artifact: UNKNOWN
+
+BROKEN_LINK docs/superpowers/specs/2026-04-01-github-header-board-letter-design.md:76 -> /Users/cristos/Documents/projects/south-portland-school-budget-FY27/.claude/worktrees/spec-070-transport-site/site/src/pages/transportation-analysis/index.astro (file not found)
 WARN docs/adr/Active/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM/(ADR-002)-Polling-LLM-Pipeline-Over-Runner-LLM.md:9 (frontmatter)
   field: linked-artifacts
   target: EPIC-012

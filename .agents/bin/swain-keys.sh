@@ -1,1 +1,1 @@
-../../skills/swain-keys/scripts/swain-keys.sh
+../skills/swain-keys/scripts/swain-keys.sh

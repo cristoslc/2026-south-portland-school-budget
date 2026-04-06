@@ -1,1 +1,1 @@
-../../skills/swain-design/scripts/specgraph.sh
+../skills/swain-design/scripts/specgraph.sh

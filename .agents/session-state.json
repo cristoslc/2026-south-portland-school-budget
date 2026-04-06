@@ -1,11 +1,8 @@
 {
-  "session_id": "session-20260404-193306-0d5e",
-  "focus_lane": "INITIATIVE-006",
+  "session_id": "session-20260405-013148-29ac",
+  "started": "2026-04-05T01:31:48Z",
+  "focus_lane": "EPIC-035",
   "phase": "active",
-  "start_time": "2026-04-04T23:33:06Z",
-  "end_time": null,
-  "decision_budget": 5,
-  "decisions_made": 0,
-  "decisions": [],
-  "walkaway": null
+  "bookmarks": [],
+  "status": "active"
 }

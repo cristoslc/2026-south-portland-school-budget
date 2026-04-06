@@ -1,0 +1,27 @@
+trove: parent-reconfiguration-resource
+created: 2026-04-02
+refreshed: 2026-04-02
+tags:
+  - south-portland
+  - fy27
+  - reconfiguration
+  - parent-advocacy
+  - community-engagement
+  - research
+freshness-ttl:
+  web: 7d
+history:
+  - event: created
+    date: 2026-04-02
+    commit: "--"
+    sources: 1
+sources:
+  - source-id: south-portland-reconfiguration-parent-resource
+    type: web
+    url: "https://docs.google.com/document/d/1gv3HrcsJcGTv5FOTwtA3soavK7Hek2ZnLpixUtXYS44/edit?usp=sharing"
+    fetched: 2026-04-02T13:14:11Z
+    title: "South Portland Reconfiguration Parent Resource"
+    highlights: []
+    selective: true
+    hash: 396b9bb0e8ca40901e48e90daf3fcd7c0cbe0fa5f7d4125f2cc3639a6f1e6794
+    notes: "Parent-run resource with FAQ, contacts, research links, and operational-readiness arguments."

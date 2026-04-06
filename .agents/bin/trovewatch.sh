@@ -1,1 +1,1 @@
-../../skills/swain-search/scripts/trovewatch.sh
+../skills/swain-search/scripts/trovewatch.sh

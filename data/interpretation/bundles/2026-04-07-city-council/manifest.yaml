@@ -23,3 +23,11 @@ sources:
     normalized_path: docs/troves/fy27-budget-documents/sources/049-4-7-26-special-budget-meeting-agenda.md
     evidence_pool: fy27-budget-documents
     hash: "sha256:48334750408d18a13cf5f347f8da1221a7fe1691f9f9a13a71c096140b0938da"
+
+  - source_id: "cc-document-2026-04-07-050"
+    source_type: document
+    title: "Special Budget Meeting 4.7.26"
+    path: data/school-board/budget-fy27/documents/Special-Budget-Meeting-4.7.26.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/050-special-budget-meeting-4-7-26.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:6e2c1bcc35a849c31512ea1591d4adb2c035465f47fcd1cd9a6a4b48c8f2020e"

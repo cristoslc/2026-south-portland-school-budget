@@ -1,6 +1,6 @@
 trove: fy27-budget-documents
 created: 2026-03-09
-refreshed: '2026-04-03'
+refreshed: '2026-04-07'
 tags:
 - budget
 - fy27
@@ -373,6 +373,12 @@ sources:
   path: data/school-board/budget-fy27/documents/FY27-Special-Budget-Meeting-4.2.26.pdf
   hash: sha256:4b5a6b67e424a80477fbfbf6a1a518b3c81b30e454cbc0e4b3b657a11da55827
   file: sources/048-fy27-special-budget-meeting-4-2-26.md
+- source-id: 049
+  title: 4.7.26 Special Budget Meeting Agenda
+  type: document
+  path: data/school-board/budget-fy27/documents/4.7.26-Special-Budget-Meeting-Agenda.pdf
+  hash: sha256:48334750408d18a13cf5f347f8da1221a7fe1691f9f9a13a71c096140b0938da
+  file: sources/049-4-7-26-special-budget-meeting-agenda.md
 history:
 - event: extended
   date: '2026-03-31'

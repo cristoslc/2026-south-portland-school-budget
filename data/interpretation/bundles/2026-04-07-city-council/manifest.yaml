@@ -15,3 +15,11 @@ sources:
     normalized_path: docs/troves/city-council-meetings-2026/sources/045-city-council-agenda-2026-04-07-2026-04-07.md
     evidence_pool: city-council-meetings-2026
     hash: "sha256:5972e50aca4207cb5dff8c800bd0c0c1cce87e3fe5ac10ccab1a15dd9591891b"
+
+  - source_id: "cc-agenda-2026-04-07-049"
+    source_type: agenda
+    title: "4.7.26 Special Budget Meeting Agenda"
+    path: data/school-board/budget-fy27/documents/4.7.26-Special-Budget-Meeting-Agenda.pdf
+    normalized_path: docs/troves/fy27-budget-documents/sources/049-4-7-26-special-budget-meeting-agenda.md
+    evidence_pool: fy27-budget-documents
+    hash: "sha256:48334750408d18a13cf5f347f8da1221a7fe1691f9f9a13a71c096140b0938da"
